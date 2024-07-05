@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1720139203739,
+  "lastUpdate": 1720209899563,
   "repoUrl": "https://github.com/asterinas/asterinas",
   "entries": {
     "sysbench-thread Benchmark": [
@@ -977,6 +977,40 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/asterinas/asterinas/commit/52ce2dd5d1c2f1c4ebb5dbe50175c99d2ed09f23"
         },
         "date": 1720138841306,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Average Execution Time per CPU on Linux",
+            "value": "3.83",
+            "unit": "ms",
+            "extra": "linux_avg"
+          },
+          {
+            "name": "Average Execution Time per CPU on Asterinas",
+            "value": "3.82",
+            "unit": "ms",
+            "extra": "aster_avg"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Fabing Li",
+            "username": "grief8",
+            "email": "lifabing.lfb@antgroup.com"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "990bd846cd1930b2435f910ca0c215c74bc44ac0",
+          "message": "Enhance the stability of Asterinas compiling",
+          "timestamp": "2024-07-05T05:40:05Z",
+          "url": "https://github.com/asterinas/asterinas/commit/990bd846cd1930b2435f910ca0c215c74bc44ac0"
+        },
+        "date": 1720209896870,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
