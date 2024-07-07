@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1720382677006,
+  "lastUpdate": 1720382903091,
   "repoUrl": "https://github.com/asterinas/asterinas",
   "entries": {
     "sysbench-thread Benchmark": [
@@ -372,6 +372,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "Average Execution Time per Thread on Asterinas",
             "value": "423.43",
+            "unit": "ms",
+            "extra": "aster_avg"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Fabing Li",
+            "username": "grief8",
+            "email": "lifabing.lfb@antgroup.com"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "990bd846cd1930b2435f910ca0c215c74bc44ac0",
+          "message": "Enhance the stability of Asterinas compiling",
+          "timestamp": "2024-07-05T05:40:05Z",
+          "url": "https://github.com/asterinas/asterinas/commit/990bd846cd1930b2435f910ca0c215c74bc44ac0"
+        },
+        "date": 1720382901244,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Average Execution Time per Thread on Linux",
+            "value": "22.71",
+            "unit": "ms",
+            "extra": "linux_avg"
+          },
+          {
+            "name": "Average Execution Time per Thread on Asterinas",
+            "value": "476.82",
             "unit": "ms",
             "extra": "aster_avg"
           }
