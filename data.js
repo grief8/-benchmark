@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1720382903091,
+  "lastUpdate": 1720383022425,
   "repoUrl": "https://github.com/asterinas/asterinas",
   "entries": {
     "sysbench-thread Benchmark": [
@@ -816,6 +816,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "Average Syscall Latency on Asterinas",
             "value": "260",
+            "unit": "ns",
+            "extra": "aster_avg"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Fabing Li",
+            "username": "grief8",
+            "email": "lifabing.lfb@antgroup.com"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "990bd846cd1930b2435f910ca0c215c74bc44ac0",
+          "message": "Enhance the stability of Asterinas compiling",
+          "timestamp": "2024-07-05T05:40:05Z",
+          "url": "https://github.com/asterinas/asterinas/commit/990bd846cd1930b2435f910ca0c215c74bc44ac0"
+        },
+        "date": 1720383019561,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Average Syscall Latency on Linux",
+            "value": "276",
+            "unit": "ns",
+            "extra": "linux_avg"
+          },
+          {
+            "name": "Average Syscall Latency on Asterinas",
+            "value": "266",
             "unit": "ns",
             "extra": "aster_avg"
           }
