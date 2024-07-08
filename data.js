@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1720469081419,
+  "lastUpdate": 1720469213387,
   "repoUrl": "https://github.com/asterinas/asterinas",
   "entries": {
     "sysbench-thread Benchmark": [
@@ -1468,6 +1468,42 @@ window.BENCHMARK_DATA = {
           {
             "name": "Average Fork latency on Asterinas",
             "value": "384.0667",
+            "unit": "ms",
+            "extra": "aster_avg"
+          }
+        ]
+      }
+    ],
+    "lmbench-signal Benchmark": [
+      {
+        "commit": {
+          "author": {
+            "name": "LI Qing",
+            "username": "liqinggd",
+            "email": "geding.lq@antgroup.com"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "c7d2a908e04f359f99443e6ea9423fff736de361",
+          "message": "Add stat_times_test",
+          "timestamp": "2024-07-04T08:03:38Z",
+          "url": "https://github.com/asterinas/asterinas/commit/c7d2a908e04f359f99443e6ea9423fff736de361"
+        },
+        "date": 1720469210756,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Average Signal handler overhead on Linux",
+            "value": "1.0691",
+            "unit": "ms",
+            "extra": "linux_avg"
+          },
+          {
+            "name": "Average Signal handler overhead on Asterinas",
+            "value": "0.9632",
             "unit": "ms",
             "extra": "aster_avg"
           }
