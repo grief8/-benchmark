@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1720468959025,
+  "lastUpdate": 1720469081419,
   "repoUrl": "https://github.com/asterinas/asterinas",
   "entries": {
     "sysbench-thread Benchmark": [
@@ -1398,6 +1398,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "Average syscall latency on Asterinas",
             "value": "0.2906",
+            "unit": "ms",
+            "extra": "aster_avg"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "LI Qing",
+            "username": "liqinggd",
+            "email": "geding.lq@antgroup.com"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "c7d2a908e04f359f99443e6ea9423fff736de361",
+          "message": "Add stat_times_test",
+          "timestamp": "2024-07-04T08:03:38Z",
+          "url": "https://github.com/asterinas/asterinas/commit/c7d2a908e04f359f99443e6ea9423fff736de361"
+        },
+        "date": 1720469079589,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Average syscall latency on Linux",
+            "value": "0.3114",
+            "unit": "ms",
+            "extra": "linux_avg"
+          },
+          {
+            "name": "Average syscall latency on Asterinas",
+            "value": "0.2934",
             "unit": "ms",
             "extra": "aster_avg"
           }
