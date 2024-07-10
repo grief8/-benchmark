@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1720469721525,
+  "lastUpdate": 1720641744890,
   "repoUrl": "https://github.com/asterinas/asterinas",
   "entries": {
     "sysbench-thread Benchmark": [
@@ -1536,6 +1536,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "Average Fork latency on Asterinas",
             "value": "384.0667",
+            "unit": "ms",
+            "extra": "aster_avg"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Zhang Junyang",
+            "username": "junyang-zh",
+            "email": "junyang@stu.pku.edu.cn"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "9e5f3123e1f980d82b50757dc358e6ff8344d14c",
+          "message": "Log messages to the serial atomically and rename `arch::serial`\n\nCo-authored-by: Chuandong Li <lichuand@pku.edu.cn>",
+          "timestamp": "2024-06-29T11:54:01Z",
+          "url": "https://github.com/asterinas/asterinas/commit/9e5f3123e1f980d82b50757dc358e6ff8344d14c"
+        },
+        "date": 1720641743104,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Average Fork latency on Linux",
+            "value": "63.0465",
+            "unit": "ms",
+            "extra": "linux_avg"
+          },
+          {
+            "name": "Average Fork latency on Asterinas",
+            "value": "392.7143",
             "unit": "ms",
             "extra": "aster_avg"
           }
