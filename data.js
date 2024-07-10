@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1720642233599,
+  "lastUpdate": 1720642475949,
   "repoUrl": "https://github.com/asterinas/asterinas",
   "entries": {
     "sysbench-thread Benchmark": [
@@ -474,6 +474,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "Average Execution Time per Thread on Asterinas",
             "value": "543.11",
+            "unit": "ms",
+            "extra": "aster_avg"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Zhang Junyang",
+            "username": "junyang-zh",
+            "email": "junyang@stu.pku.edu.cn"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "9e5f3123e1f980d82b50757dc358e6ff8344d14c",
+          "message": "Log messages to the serial atomically and rename `arch::serial`\n\nCo-authored-by: Chuandong Li <lichuand@pku.edu.cn>",
+          "timestamp": "2024-06-29T11:54:01Z",
+          "url": "https://github.com/asterinas/asterinas/commit/9e5f3123e1f980d82b50757dc358e6ff8344d14c"
+        },
+        "date": 1720642474117,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Average Execution Time per Thread on Linux",
+            "value": "22.21",
+            "unit": "ms",
+            "extra": "linux_avg"
+          },
+          {
+            "name": "Average Execution Time per Thread on Asterinas",
+            "value": "441.83",
             "unit": "ms",
             "extra": "aster_avg"
           }
