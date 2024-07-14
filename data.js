@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1720987473808,
+  "lastUpdate": 1720987587348,
   "repoUrl": "https://github.com/asterinas/asterinas",
   "entries": {
     "sysbench-thread Benchmark": [
@@ -1908,6 +1908,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "Average syscall latency on Asterinas",
             "value": "0.2958",
+            "unit": "ms",
+            "extra": "aster_avg"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ruihan Li",
+            "username": "lrh2000",
+            "email": "lrh2000@pku.edu.cn"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "3d2a0c33afdc72bedf44e8b5584a55102cbe83ba",
+          "message": "Clean up the virtio console IRQ handler a bit",
+          "timestamp": "2024-07-13T17:10:20Z",
+          "url": "https://github.com/asterinas/asterinas/commit/3d2a0c33afdc72bedf44e8b5584a55102cbe83ba"
+        },
+        "date": 1720987584459,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Average syscall latency on Linux",
+            "value": "0.3363",
+            "unit": "ms",
+            "extra": "linux_avg"
+          },
+          {
+            "name": "Average syscall latency on Asterinas",
+            "value": "0.2928",
             "unit": "ms",
             "extra": "aster_avg"
           }
