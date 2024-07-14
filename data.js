@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1720987587348,
+  "lastUpdate": 1720987831903,
   "repoUrl": "https://github.com/asterinas/asterinas",
   "entries": {
     "sysbench-thread Benchmark": [
@@ -1691,6 +1691,40 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/asterinas/asterinas/commit/9e5f3123e1f980d82b50757dc358e6ff8344d14c"
         },
         "date": 1720901421318,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Average Execution Time per CPU on Linux",
+            "value": "3.83",
+            "unit": "ms",
+            "extra": "linux_avg"
+          },
+          {
+            "name": "Average Execution Time per CPU on Asterinas",
+            "value": "3.82",
+            "unit": "ms",
+            "extra": "aster_avg"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ruihan Li",
+            "username": "lrh2000",
+            "email": "lrh2000@pku.edu.cn"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "3d2a0c33afdc72bedf44e8b5584a55102cbe83ba",
+          "message": "Clean up the virtio console IRQ handler a bit",
+          "timestamp": "2024-07-13T17:10:20Z",
+          "url": "https://github.com/asterinas/asterinas/commit/3d2a0c33afdc72bedf44e8b5584a55102cbe83ba"
+        },
+        "date": 1720987829101,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
