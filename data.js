@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1720988090225,
+  "lastUpdate": 1721073742976,
   "repoUrl": "https://github.com/asterinas/asterinas",
   "entries": {
     "sysbench-thread Benchmark": [
@@ -2422,6 +2422,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "Average Signal handler overhead on Asterinas",
             "value": "0.9595",
+            "unit": "ms",
+            "extra": "aster_avg"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ruihan Li",
+            "username": "lrh2000",
+            "email": "lrh2000@pku.edu.cn"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "3d2a0c33afdc72bedf44e8b5584a55102cbe83ba",
+          "message": "Clean up the virtio console IRQ handler a bit",
+          "timestamp": "2024-07-13T17:10:20Z",
+          "url": "https://github.com/asterinas/asterinas/commit/3d2a0c33afdc72bedf44e8b5584a55102cbe83ba"
+        },
+        "date": 1721073741319,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Average Signal handler overhead on Linux",
+            "value": "1.1063",
+            "unit": "ms",
+            "extra": "linux_avg"
+          },
+          {
+            "name": "Average Signal handler overhead on Asterinas",
+            "value": "0.9605",
             "unit": "ms",
             "extra": "aster_avg"
           }
