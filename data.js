@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1721073742976,
+  "lastUpdate": 1721073869021,
   "repoUrl": "https://github.com/asterinas/asterinas",
   "entries": {
     "sysbench-thread Benchmark": [
@@ -2216,6 +2216,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "Average Fork latency on Asterinas",
             "value": "396.7143",
+            "unit": "ms",
+            "extra": "aster_avg"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ruihan Li",
+            "username": "lrh2000",
+            "email": "lrh2000@pku.edu.cn"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "3d2a0c33afdc72bedf44e8b5584a55102cbe83ba",
+          "message": "Clean up the virtio console IRQ handler a bit",
+          "timestamp": "2024-07-13T17:10:20Z",
+          "url": "https://github.com/asterinas/asterinas/commit/3d2a0c33afdc72bedf44e8b5584a55102cbe83ba"
+        },
+        "date": 1721073867357,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Average Fork latency on Linux",
+            "value": "61.5667",
+            "unit": "ms",
+            "extra": "linux_avg"
+          },
+          {
+            "name": "Average Fork latency on Asterinas",
+            "value": "384.0556",
             "unit": "ms",
             "extra": "aster_avg"
           }
