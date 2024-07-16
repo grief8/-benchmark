@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1721160159371,
+  "lastUpdate": 1721160283570,
   "repoUrl": "https://github.com/asterinas/asterinas",
   "entries": {
     "sysbench-thread Benchmark": [
@@ -2352,6 +2352,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "Average Fork latency on Asterinas",
             "value": "384.0556",
+            "unit": "ms",
+            "extra": "aster_avg"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Qingsong Chen",
+            "username": "cqs21",
+            "email": "changxian.cqs@antgroup.com"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "da987db7000dbfc516bf54f0cbc22bc0031a6069",
+          "message": "Add prctl subcommand PR_GET_DUMPABLE/PR_SET_DUMPABLE",
+          "timestamp": "2024-07-15T07:46:23Z",
+          "url": "https://github.com/asterinas/asterinas/commit/da987db7000dbfc516bf54f0cbc22bc0031a6069"
+        },
+        "date": 1721160280926,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Average Fork latency on Linux",
+            "value": "67.4634",
+            "unit": "ms",
+            "extra": "linux_avg"
+          },
+          {
+            "name": "Average Fork latency on Asterinas",
+            "value": "395.0625",
             "unit": "ms",
             "extra": "aster_avg"
           }
