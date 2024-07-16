@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1721160669401,
+  "lastUpdate": 1721160924426,
   "repoUrl": "https://github.com/asterinas/asterinas",
   "entries": {
     "sysbench-thread Benchmark": [
@@ -678,6 +678,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "Average Execution Time per Thread on Asterinas",
             "value": "462.16",
+            "unit": "ms",
+            "extra": "aster_avg"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Qingsong Chen",
+            "username": "cqs21",
+            "email": "changxian.cqs@antgroup.com"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "da987db7000dbfc516bf54f0cbc22bc0031a6069",
+          "message": "Add prctl subcommand PR_GET_DUMPABLE/PR_SET_DUMPABLE",
+          "timestamp": "2024-07-15T07:46:23Z",
+          "url": "https://github.com/asterinas/asterinas/commit/da987db7000dbfc516bf54f0cbc22bc0031a6069"
+        },
+        "date": 1721160921676,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Average Execution Time per Thread on Linux",
+            "value": "21.61",
+            "unit": "ms",
+            "extra": "linux_avg"
+          },
+          {
+            "name": "Average Execution Time per Thread on Asterinas",
+            "value": "455.53",
             "unit": "ms",
             "extra": "aster_avg"
           }
