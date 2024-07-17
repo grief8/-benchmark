@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1721246693075,
+  "lastUpdate": 1721246827174,
   "repoUrl": "https://github.com/asterinas/asterinas",
   "entries": {
     "sysbench-thread Benchmark": [
@@ -2214,6 +2214,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "Average syscall latency on Asterinas",
             "value": "0.2949",
+            "unit": "ms",
+            "extra": "aster_avg"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Zhang Junyang",
+            "username": "junyang-zh",
+            "email": "junyang@stu.pku.edu.cn"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "8a9c012249d36c54712030c41388d20a608939f5",
+          "message": "Check CPUID before enabling AVX512",
+          "timestamp": "2024-07-16T16:15:54Z",
+          "url": "https://github.com/asterinas/asterinas/commit/8a9c012249d36c54712030c41388d20a608939f5"
+        },
+        "date": 1721246824368,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Average syscall latency on Linux",
+            "value": "0.2947",
+            "unit": "ms",
+            "extra": "linux_avg"
+          },
+          {
+            "name": "Average syscall latency on Asterinas",
+            "value": "0.2951",
             "unit": "ms",
             "extra": "aster_avg"
           }
