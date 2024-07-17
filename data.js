@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1721246572808,
+  "lastUpdate": 1721246693075,
   "repoUrl": "https://github.com/asterinas/asterinas",
   "entries": {
     "sysbench-thread Benchmark": [
@@ -2796,6 +2796,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "Average Signal handler overhead on Asterinas",
             "value": "0.9758",
+            "unit": "ms",
+            "extra": "aster_avg"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Zhang Junyang",
+            "username": "junyang-zh",
+            "email": "junyang@stu.pku.edu.cn"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "8a9c012249d36c54712030c41388d20a608939f5",
+          "message": "Check CPUID before enabling AVX512",
+          "timestamp": "2024-07-16T16:15:54Z",
+          "url": "https://github.com/asterinas/asterinas/commit/8a9c012249d36c54712030c41388d20a608939f5"
+        },
+        "date": 1721246690314,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Average Signal handler overhead on Linux",
+            "value": "1.0564",
+            "unit": "ms",
+            "extra": "linux_avg"
+          },
+          {
+            "name": "Average Signal handler overhead on Asterinas",
+            "value": "0.9773",
             "unit": "ms",
             "extra": "aster_avg"
           }
