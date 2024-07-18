@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1721333796899,
+  "lastUpdate": 1721333903149,
   "repoUrl": "https://github.com/asterinas/asterinas",
   "entries": {
     "sysbench-thread Benchmark": [
@@ -3217,6 +3217,42 @@ window.BENCHMARK_DATA = {
             "name": "Average memory write bandwidth on Asterinas",
             "value": "14903.97",
             "unit": "MB/s",
+            "extra": "aster_avg"
+          }
+        ]
+      }
+    ],
+    "lmbench-open Benchmark": [
+      {
+        "commit": {
+          "author": {
+            "name": "Ruihan Li",
+            "username": "lrh2000",
+            "email": "lrh2000@pku.edu.cn"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "94eba6d85eb9e62ddd904c1132d556b808cc3174",
+          "message": "Add unit tests about blocking behavior",
+          "timestamp": "2024-07-06T10:20:02Z",
+          "url": "https://github.com/asterinas/asterinas/commit/94eba6d85eb9e62ddd904c1132d556b808cc3174"
+        },
+        "date": 1721333901384,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Average open latency on Linux",
+            "value": "1.2240",
+            "unit": "ms",
+            "extra": "linux_avg"
+          },
+          {
+            "name": "Average open latency on Asterinas",
+            "value": "2.7609",
+            "unit": "ms",
             "extra": "aster_avg"
           }
         ]
