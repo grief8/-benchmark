@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1721333555325,
+  "lastUpdate": 1721333661835,
   "repoUrl": "https://github.com/asterinas/asterinas",
   "entries": {
     "sysbench-thread Benchmark": [
@@ -3144,6 +3144,42 @@ window.BENCHMARK_DATA = {
           {
             "name": "Average memory copy bandwidth on Asterinas",
             "value": "12378.28",
+            "unit": "MB/s",
+            "extra": "aster_avg"
+          }
+        ]
+      }
+    ],
+    "lmbench-mem-frd Benchmark": [
+      {
+        "commit": {
+          "author": {
+            "name": "Ruihan Li",
+            "username": "lrh2000",
+            "email": "lrh2000@pku.edu.cn"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "94eba6d85eb9e62ddd904c1132d556b808cc3174",
+          "message": "Add unit tests about blocking behavior",
+          "timestamp": "2024-07-06T10:20:02Z",
+          "url": "https://github.com/asterinas/asterinas/commit/94eba6d85eb9e62ddd904c1132d556b808cc3174"
+        },
+        "date": 1721333660128,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Average memory read bandwidth on Linux",
+            "value": "22841.68",
+            "unit": "MB/s",
+            "extra": "linux_avg"
+          },
+          {
+            "name": "Average memory read bandwidth on Asterinas",
+            "value": "19579.54",
             "unit": "MB/s",
             "extra": "aster_avg"
           }
