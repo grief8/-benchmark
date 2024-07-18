@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1721247324218,
+  "lastUpdate": 1721332931294,
   "repoUrl": "https://github.com/asterinas/asterinas",
   "entries": {
     "sysbench-thread Benchmark": [
@@ -2932,6 +2932,42 @@ window.BENCHMARK_DATA = {
           {
             "name": "Average Signal handler overhead on Asterinas",
             "value": "0.9773",
+            "unit": "ms",
+            "extra": "aster_avg"
+          }
+        ]
+      }
+    ],
+    "lmbench-ctx Benchmark": [
+      {
+        "commit": {
+          "author": {
+            "name": "Ruihan Li",
+            "username": "lrh2000",
+            "email": "lrh2000@pku.edu.cn"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "94eba6d85eb9e62ddd904c1132d556b808cc3174",
+          "message": "Add unit tests about blocking behavior",
+          "timestamp": "2024-07-06T10:20:02Z",
+          "url": "https://github.com/asterinas/asterinas/commit/94eba6d85eb9e62ddd904c1132d556b808cc3174"
+        },
+        "date": 1721332928309,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Average context switch latency on Linux",
+            "value": "1.72",
+            "unit": "ms",
+            "extra": "linux_avg"
+          },
+          {
+            "name": "Average context switch latency on Asterinas",
+            "value": "20:00:57--\n20:00:57\n20:00:58--\n20:01:01\n20:01:01--\n20:01:02\n2.50",
             "unit": "ms",
             "extra": "aster_avg"
           }
