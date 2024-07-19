@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1721419910964,
+  "lastUpdate": 1721420045239,
   "repoUrl": "https://github.com/asterinas/asterinas",
   "entries": {
     "sysbench-thread Benchmark": [
@@ -3454,6 +3454,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "Average memory write bandwidth on Asterinas",
             "value": "14903.97",
+            "unit": "MB/s",
+            "extra": "aster_avg"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ruihan Li",
+            "username": "lrh2000",
+            "email": "lrh2000@pku.edu.cn"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "9f125cd671fc8a91dfffe2b13949980560123f7b",
+          "message": "Remove the nonsense mutex in `Poller`",
+          "timestamp": "2024-07-14T09:47:11Z",
+          "url": "https://github.com/asterinas/asterinas/commit/9f125cd671fc8a91dfffe2b13949980560123f7b"
+        },
+        "date": 1721420042296,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Average memory write bandwidth on Linux",
+            "value": "18099.62",
+            "unit": "MB/s",
+            "extra": "linux_avg"
+          },
+          {
+            "name": "Average memory write bandwidth on Asterinas",
+            "value": "14049.06",
             "unit": "MB/s",
             "extra": "aster_avg"
           }
