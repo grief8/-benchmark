@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1721419335155,
+  "lastUpdate": 1721419453256,
   "repoUrl": "https://github.com/asterinas/asterinas",
   "entries": {
     "sysbench-thread Benchmark": [
@@ -3140,6 +3140,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "Average exec latency on Asterinas",
             "value": "415.2143",
+            "unit": "ms",
+            "extra": "aster_avg"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ruihan Li",
+            "username": "lrh2000",
+            "email": "lrh2000@pku.edu.cn"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "9f125cd671fc8a91dfffe2b13949980560123f7b",
+          "message": "Remove the nonsense mutex in `Poller`",
+          "timestamp": "2024-07-14T09:47:11Z",
+          "url": "https://github.com/asterinas/asterinas/commit/9f125cd671fc8a91dfffe2b13949980560123f7b"
+        },
+        "date": 1721419450137,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Average exec latency on Linux",
+            "value": "71.2821",
+            "unit": "ms",
+            "extra": "linux_avg"
+          },
+          {
+            "name": "Average exec latency on Asterinas",
+            "value": "409.8571",
             "unit": "ms",
             "extra": "aster_avg"
           }
