@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1721419453256,
+  "lastUpdate": 1721419559447,
   "repoUrl": "https://github.com/asterinas/asterinas",
   "entries": {
     "sysbench-thread Benchmark": [
@@ -3104,6 +3104,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "Average context switch latency on Asterinas",
             "value": "20:00:57--\n20:00:57\n20:00:58--\n20:01:01\n20:01:01--\n20:01:02\n2.50",
+            "unit": "ms",
+            "extra": "aster_avg"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ruihan Li",
+            "username": "lrh2000",
+            "email": "lrh2000@pku.edu.cn"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "9f125cd671fc8a91dfffe2b13949980560123f7b",
+          "message": "Remove the nonsense mutex in `Poller`",
+          "timestamp": "2024-07-14T09:47:11Z",
+          "url": "https://github.com/asterinas/asterinas/commit/9f125cd671fc8a91dfffe2b13949980560123f7b"
+        },
+        "date": 1721419557421,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Average context switch latency on Linux",
+            "value": "1.76",
+            "unit": "ms",
+            "extra": "linux_avg"
+          },
+          {
+            "name": "Average context switch latency on Asterinas",
+            "value": "2.29",
             "unit": "ms",
             "extra": "aster_avg"
           }
