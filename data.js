@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1721506228235,
+  "lastUpdate": 1721506344507,
   "repoUrl": "https://github.com/asterinas/asterinas",
   "entries": {
     "sysbench-thread Benchmark": [
@@ -3620,6 +3620,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "Average memory copy bandwidth on Asterinas",
             "value": "14750.82",
+            "unit": "MB/s",
+            "extra": "aster_avg"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Zhang Junyang",
+            "username": "junyang-zh",
+            "email": "junyang@stu.pku.edu.cn"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "20524ae64a3472a5381e7e5aa960a124d050e57b",
+          "message": "Update the 100-line kernel and format it as well",
+          "timestamp": "2024-07-04T15:19:44Z",
+          "url": "https://github.com/asterinas/asterinas/commit/20524ae64a3472a5381e7e5aa960a124d050e57b"
+        },
+        "date": 1721506342796,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Average memory copy bandwidth on Linux",
+            "value": "14716.86",
+            "unit": "MB/s",
+            "extra": "linux_avg"
+          },
+          {
+            "name": "Average memory copy bandwidth on Asterinas",
+            "value": "11457.89",
             "unit": "MB/s",
             "extra": "aster_avg"
           }
