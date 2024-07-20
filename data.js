@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1721505876497,
+  "lastUpdate": 1721505993349,
   "repoUrl": "https://github.com/asterinas/asterinas",
   "entries": {
     "sysbench-thread Benchmark": [
@@ -3378,6 +3378,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "Average exec latency on Asterinas",
             "value": "409.8571",
+            "unit": "ms",
+            "extra": "aster_avg"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Zhang Junyang",
+            "username": "junyang-zh",
+            "email": "junyang@stu.pku.edu.cn"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "20524ae64a3472a5381e7e5aa960a124d050e57b",
+          "message": "Update the 100-line kernel and format it as well",
+          "timestamp": "2024-07-04T15:19:44Z",
+          "url": "https://github.com/asterinas/asterinas/commit/20524ae64a3472a5381e7e5aa960a124d050e57b"
+        },
+        "date": 1721505991625,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Average exec latency on Linux",
+            "value": "72.3117",
+            "unit": "ms",
+            "extra": "linux_avg"
+          },
+          {
+            "name": "Average exec latency on Asterinas",
+            "value": "394.1429",
             "unit": "ms",
             "extra": "aster_avg"
           }
