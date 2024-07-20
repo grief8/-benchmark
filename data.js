@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1721506115152,
+  "lastUpdate": 1721506228235,
   "repoUrl": "https://github.com/asterinas/asterinas",
   "entries": {
     "sysbench-thread Benchmark": [
@@ -3516,6 +3516,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "Average fstat latency on Asterinas",
             "value": "1.1204",
+            "unit": "ms",
+            "extra": "aster_avg"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Zhang Junyang",
+            "username": "junyang-zh",
+            "email": "junyang@stu.pku.edu.cn"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "20524ae64a3472a5381e7e5aa960a124d050e57b",
+          "message": "Update the 100-line kernel and format it as well",
+          "timestamp": "2024-07-04T15:19:44Z",
+          "url": "https://github.com/asterinas/asterinas/commit/20524ae64a3472a5381e7e5aa960a124d050e57b"
+        },
+        "date": 1721506226525,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Average fstat latency on Linux",
+            "value": "0.5592",
+            "unit": "ms",
+            "extra": "linux_avg"
+          },
+          {
+            "name": "Average fstat latency on Asterinas",
+            "value": "1.1109",
             "unit": "ms",
             "extra": "aster_avg"
           }
