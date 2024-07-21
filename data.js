@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1721593639439,
+  "lastUpdate": 1721593880535,
   "repoUrl": "https://github.com/asterinas/asterinas",
   "entries": {
     "sysbench-thread Benchmark": [
@@ -2133,6 +2133,40 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/asterinas/asterinas/commit/20524ae64a3472a5381e7e5aa960a124d050e57b"
         },
         "date": 1721510929821,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Average Execution Time per CPU on Linux",
+            "value": "3.83",
+            "unit": "ms",
+            "extra": "linux_avg"
+          },
+          {
+            "name": "Average Execution Time per CPU on Asterinas",
+            "value": "3.82",
+            "unit": "ms",
+            "extra": "aster_avg"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "hongwen.chw",
+            "username": "CherishCai",
+            "email": "785427346@qq.com"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "4dacff5be4fa547cd26748e6af03f79cb039f700",
+          "message": "Fix a typo when assign 'dst.rbx' at `copy_gp_regs`",
+          "timestamp": "2024-07-21T09:02:54Z",
+          "url": "https://github.com/asterinas/asterinas/commit/4dacff5be4fa547cd26748e6af03f79cb039f700"
+        },
+        "date": 1721593878772,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
