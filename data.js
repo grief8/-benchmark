@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1721592626527,
+  "lastUpdate": 1721592764702,
   "repoUrl": "https://github.com/asterinas/asterinas",
   "entries": {
     "sysbench-thread Benchmark": [
@@ -3858,6 +3858,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "Average memory copy bandwidth on Asterinas",
             "value": "11457.89",
+            "unit": "MB/s",
+            "extra": "aster_avg"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "hongwen.chw",
+            "username": "CherishCai",
+            "email": "785427346@qq.com"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "4dacff5be4fa547cd26748e6af03f79cb039f700",
+          "message": "Fix a typo when assign 'dst.rbx' at `copy_gp_regs`",
+          "timestamp": "2024-07-21T09:02:54Z",
+          "url": "https://github.com/asterinas/asterinas/commit/4dacff5be4fa547cd26748e6af03f79cb039f700"
+        },
+        "date": 1721592761872,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Average memory copy bandwidth on Linux",
+            "value": "12495.83",
+            "unit": "MB/s",
+            "extra": "linux_avg"
+          },
+          {
+            "name": "Average memory copy bandwidth on Asterinas",
+            "value": "12001.94",
             "unit": "MB/s",
             "extra": "aster_avg"
           }
