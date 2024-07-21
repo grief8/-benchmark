@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1721592764702,
+  "lastUpdate": 1721592896347,
   "repoUrl": "https://github.com/asterinas/asterinas",
   "entries": {
     "sysbench-thread Benchmark": [
@@ -3996,6 +3996,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "Average memory read bandwidth on Asterinas",
             "value": "17858.79",
+            "unit": "MB/s",
+            "extra": "aster_avg"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "hongwen.chw",
+            "username": "CherishCai",
+            "email": "785427346@qq.com"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "4dacff5be4fa547cd26748e6af03f79cb039f700",
+          "message": "Fix a typo when assign 'dst.rbx' at `copy_gp_regs`",
+          "timestamp": "2024-07-21T09:02:54Z",
+          "url": "https://github.com/asterinas/asterinas/commit/4dacff5be4fa547cd26748e6af03f79cb039f700"
+        },
+        "date": 1721592893552,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Average memory read bandwidth on Linux",
+            "value": "18698.49",
+            "unit": "MB/s",
+            "extra": "linux_avg"
+          },
+          {
+            "name": "Average memory read bandwidth on Asterinas",
+            "value": "19017.74",
             "unit": "MB/s",
             "extra": "aster_avg"
           }
