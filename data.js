@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1721593135835,
+  "lastUpdate": 1721593256747,
   "repoUrl": "https://github.com/asterinas/asterinas",
   "entries": {
     "sysbench-thread Benchmark": [
@@ -4410,6 +4410,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "Average shell latency on Asterinas",
             "value": "814.8333",
+            "unit": "ms",
+            "extra": "aster_avg"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "hongwen.chw",
+            "username": "CherishCai",
+            "email": "785427346@qq.com"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "4dacff5be4fa547cd26748e6af03f79cb039f700",
+          "message": "Fix a typo when assign 'dst.rbx' at `copy_gp_regs`",
+          "timestamp": "2024-07-21T09:02:54Z",
+          "url": "https://github.com/asterinas/asterinas/commit/4dacff5be4fa547cd26748e6af03f79cb039f700"
+        },
+        "date": 1721593255080,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Average shell latency on Linux",
+            "value": "481.7273",
+            "unit": "ms",
+            "extra": "linux_avg"
+          },
+          {
+            "name": "Average shell latency on Asterinas",
+            "value": "828.5000",
             "unit": "ms",
             "extra": "aster_avg"
           }
