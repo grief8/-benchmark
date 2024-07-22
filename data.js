@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1721679085453,
+  "lastUpdate": 1721679208762,
   "repoUrl": "https://github.com/asterinas/asterinas",
   "entries": {
     "sysbench-thread Benchmark": [
@@ -4164,6 +4164,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "Average memory copy bandwidth on Asterinas",
             "value": "12001.94",
+            "unit": "MB/s",
+            "extra": "aster_avg"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "YanWQ-monad",
+            "username": "YanWQ-monad",
+            "email": "YanWQmonad@gmail.com"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "5aa28eae7e14594bbe68827114443b31002bf742",
+          "message": "Extract x86-specific code from `call_irq_callback_functions`",
+          "timestamp": "2024-07-19T08:45:22Z",
+          "url": "https://github.com/asterinas/asterinas/commit/5aa28eae7e14594bbe68827114443b31002bf742"
+        },
+        "date": 1721679207094,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Average memory copy bandwidth on Linux",
+            "value": "13065.10",
+            "unit": "MB/s",
+            "extra": "linux_avg"
+          },
+          {
+            "name": "Average memory copy bandwidth on Asterinas",
+            "value": "11700.61",
             "unit": "MB/s",
             "extra": "aster_avg"
           }
