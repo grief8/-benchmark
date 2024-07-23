@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1721766016934,
+  "lastUpdate": 1721766144852,
   "repoUrl": "https://github.com/asterinas/asterinas",
   "entries": {
     "sysbench-thread Benchmark": [
@@ -3714,6 +3714,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "Average Signal handler overhead on Asterinas",
             "value": "0.9551",
+            "unit": "ms",
+            "extra": "aster_avg"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "YanWQ-monad",
+            "username": "YanWQ-monad",
+            "email": "YanWQmonad@gmail.com"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "5aa28eae7e14594bbe68827114443b31002bf742",
+          "message": "Extract x86-specific code from `call_irq_callback_functions`",
+          "timestamp": "2024-07-19T08:45:22Z",
+          "url": "https://github.com/asterinas/asterinas/commit/5aa28eae7e14594bbe68827114443b31002bf742"
+        },
+        "date": 1721766142537,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Average Signal handler overhead on Linux",
+            "value": "1.0801",
+            "unit": "ms",
+            "extra": "linux_avg"
+          },
+          {
+            "name": "Average Signal handler overhead on Asterinas",
+            "value": "0.9555",
             "unit": "ms",
             "extra": "aster_avg"
           }
