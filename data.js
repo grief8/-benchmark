@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1721852335238,
+  "lastUpdate": 1721852460575,
   "repoUrl": "https://github.com/asterinas/asterinas",
   "entries": {
     "sysbench-thread Benchmark": [
@@ -5736,6 +5736,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "Average shell latency on Asterinas",
             "value": "841.5714",
+            "unit": "ms",
+            "extra": "aster_avg"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "YanWQ-monad",
+            "username": "YanWQ-monad",
+            "email": "YanWQmonad@gmail.com"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "5aa28eae7e14594bbe68827114443b31002bf742",
+          "message": "Extract x86-specific code from `call_irq_callback_functions`",
+          "timestamp": "2024-07-19T08:45:22Z",
+          "url": "https://github.com/asterinas/asterinas/commit/5aa28eae7e14594bbe68827114443b31002bf742"
+        },
+        "date": 1721852457503,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Average shell latency on Linux",
+            "value": "488.5455",
+            "unit": "ms",
+            "extra": "linux_avg"
+          },
+          {
+            "name": "Average shell latency on Asterinas",
+            "value": "824.1667",
             "unit": "ms",
             "extra": "aster_avg"
           }
