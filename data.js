@@ -1,6 +1,6 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1721938504674,
-  "repoUrl": "https://github.com/asterinas/asterinas",
+  "lastUpdate": 1721938562673,
+  "repoUrl": "https://github.com/grief8/asterinas",
   "entries": {
     "sysbench-thread Benchmark": [
       {
@@ -4328,6 +4328,39 @@ window.BENCHMARK_DATA = {
           {
             "name": "Average context switch latency on Asterinas",
             "value": "1.88",
+            "unit": "ms",
+            "extra": "aster_avg"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "StanPlatinum",
+            "email": "yangzhi.lwj@antgroup.com"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "0b8335c9431008dd7d037721a21724328c4a3024",
+          "message": "Add /proc/filesystems support",
+          "timestamp": "2024-07-13T09:31:50Z",
+          "url": "https://github.com/grief8/asterinas/commit/0b8335c9431008dd7d037721a21724328c4a3024"
+        },
+        "date": 1721938559190,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Average context switch latency on Linux",
+            "value": "1.72",
+            "unit": "ms",
+            "extra": "linux_avg"
+          },
+          {
+            "name": "Average context switch latency on Asterinas",
+            "value": "1.90",
             "unit": "ms",
             "extra": "aster_avg"
           }
