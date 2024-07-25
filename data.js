@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1721937883634,
+  "lastUpdate": 1721938015799,
   "repoUrl": "https://github.com/asterinas/asterinas",
   "entries": {
     "sysbench-thread Benchmark": [
@@ -4500,6 +4500,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "Average exec latency on Asterinas",
             "value": "398.7857",
+            "unit": "ms",
+            "extra": "aster_avg"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ruihan Li",
+            "username": "lrh2000",
+            "email": "lrh2000@pku.edu.cn"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "e83e1fc01ba38ad2a405d7d710ec7258fb664f60",
+          "message": "Unpack states from `Arc` in UNIX sockets",
+          "timestamp": "2024-06-30T15:08:25Z",
+          "url": "https://github.com/asterinas/asterinas/commit/e83e1fc01ba38ad2a405d7d710ec7258fb664f60"
+        },
+        "date": 1721938014097,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Average exec latency on Linux",
+            "value": "72.0649",
+            "unit": "ms",
+            "extra": "linux_avg"
+          },
+          {
+            "name": "Average exec latency on Asterinas",
+            "value": "199.7931",
             "unit": "ms",
             "extra": "aster_avg"
           }
