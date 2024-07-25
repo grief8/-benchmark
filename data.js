@@ -1,6 +1,6 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1721939501780,
-  "repoUrl": "https://github.com/asterinas/asterinas",
+  "lastUpdate": 1721939560956,
+  "repoUrl": "https://github.com/grief8/asterinas",
   "entries": {
     "sysbench-thread Benchmark": [
       {
@@ -6270,6 +6270,39 @@ window.BENCHMARK_DATA = {
           {
             "name": "Average open latency on Asterinas",
             "value": "2.3645",
+            "unit": "ms",
+            "extra": "aster_avg"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "StanPlatinum",
+            "email": "yangzhi.lwj@antgroup.com"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "0b8335c9431008dd7d037721a21724328c4a3024",
+          "message": "Add /proc/filesystems support",
+          "timestamp": "2024-07-13T09:31:50Z",
+          "url": "https://github.com/grief8/asterinas/commit/0b8335c9431008dd7d037721a21724328c4a3024"
+        },
+        "date": 1721939558092,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Average open latency on Linux",
+            "value": "1.2197",
+            "unit": "ms",
+            "extra": "linux_avg"
+          },
+          {
+            "name": "Average open latency on Asterinas",
+            "value": "2.3615",
             "unit": "ms",
             "extra": "aster_avg"
           }
