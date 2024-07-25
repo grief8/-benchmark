@@ -1,6 +1,6 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1721939258054,
-  "repoUrl": "https://github.com/asterinas/asterinas",
+  "lastUpdate": 1721939290565,
+  "repoUrl": "https://github.com/grief8/asterinas",
   "entries": {
     "sysbench-thread Benchmark": [
       {
@@ -5622,6 +5622,39 @@ window.BENCHMARK_DATA = {
           {
             "name": "Average memory read bandwidth on Asterinas",
             "value": "19033.93",
+            "unit": "MB/s",
+            "extra": "aster_avg"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "StanPlatinum",
+            "email": "yangzhi.lwj@antgroup.com"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "0b8335c9431008dd7d037721a21724328c4a3024",
+          "message": "Add /proc/filesystems support",
+          "timestamp": "2024-07-13T09:31:50Z",
+          "url": "https://github.com/grief8/asterinas/commit/0b8335c9431008dd7d037721a21724328c4a3024"
+        },
+        "date": 1721939287608,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Average memory read bandwidth on Linux",
+            "value": "19497.06",
+            "unit": "MB/s",
+            "extra": "linux_avg"
+          },
+          {
+            "name": "Average memory read bandwidth on Asterinas",
+            "value": "18820.41",
             "unit": "MB/s",
             "extra": "aster_avg"
           }
