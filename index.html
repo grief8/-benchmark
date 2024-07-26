@@ -70,6 +70,7 @@
         font-weight: 600;
         word-break: break-word;
         text-align: center;
+        margin-bottom: 5px;
       }
       .benchmark-graphs {
         display: flex;
@@ -81,6 +82,17 @@
       }
       .benchmark-chart {
         max-width: 1000px;
+      }
+      .chart-description {
+          font-family: 'Courier New', Courier, monospace;
+          color: #333; /* Changed to a darker color for better readability */
+          font-style: italic;
+          font-size: 0.9rem;
+          font-weight: 200;
+          word-break: break-word;
+          text-align: center;
+          margin-top: 0px; /* Added margin to create space between the title and the description */
+          margin-bottom: 20px; /* Added margin to create space between the description and the figure below it */
       }
     </style>
     <title>Benchmarks</title>
@@ -149,6 +161,7 @@
           return Object.keys(data.entries).map(name => ({
             name,
             dataSet: collectBenchesPerTestCase(data.entries[name]),
+            description: data.entries[name][data.entries[name].length - 1].description // Assuming description is the same for all entries of the same name
           }));
         }
 
@@ -209,8 +222,8 @@
                   {
                     scaleLabel: {
                       display: true,
-                      // Assuming all datasets has the same unit, take the first one
-                      labelString: benchSets.values().next().value.length > 0 ? benchSets.values().next().value[0].bench.unit : '',
+                      // Assuming all datasets has the same unit, take the last one
+                      labelString: benchSets.values().next().value.length > 0 ? benchSets.values().next().value[benchSets.values().next().value.length - 1].bench.unit : '',
                     },
                     ticks: {
                       beginAtZero: true,
@@ -255,6 +268,7 @@
               data,
               options,
             });
+
           }
 
           const main = document.getElementById('main');
@@ -262,7 +276,7 @@
           graphsElem.className = 'benchmark-graphs';
           main.appendChild(graphsElem);
         
-          for (const {name, dataSet} of dataSets) {
+          for (const {name, dataSet, description} of dataSets) {
             const setElem = document.createElement('div');
             setElem.className = 'benchmark-set';
             main.appendChild(setElem);
@@ -271,6 +285,11 @@
             nameElem.className = 'benchmark-title';
             nameElem.textContent = name;
             setElem.appendChild(nameElem);
+
+            const descriptionElem = document.createElement('div');
+            descriptionElem.className = 'chart-description';
+            descriptionElem.textContent = description;
+            setElem.appendChild(descriptionElem);
 
             const graphsElem = document.createElement('div');
             graphsElem.className = 'benchmark-graphs';
