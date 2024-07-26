@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1722025501552,
+  "lastUpdate": 1722025738298,
   "repoUrl": "https://github.com/asterinas/asterinas",
   "entries": {
     "sysbench-thread Benchmark": [
@@ -1051,6 +1051,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "Average Execution Time per Thread on Asterinas",
             "value": "52.77",
+            "unit": "ms",
+            "extra": "aster_avg"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ruihan Li",
+            "username": "lrh2000",
+            "email": "lrh2000@pku.edu.cn"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "e83e1fc01ba38ad2a405d7d710ec7258fb664f60",
+          "message": "Unpack states from `Arc` in UNIX sockets",
+          "timestamp": "2024-06-30T15:08:25Z",
+          "url": "https://github.com/asterinas/asterinas/commit/e83e1fc01ba38ad2a405d7d710ec7258fb664f60"
+        },
+        "date": 1722025731300,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Average Execution Time per Thread on Linux",
+            "value": "21.71",
+            "unit": "ms",
+            "extra": "linux_avg"
+          },
+          {
+            "name": "Average Execution Time per Thread on Asterinas",
+            "value": "50.61",
             "unit": "ms",
             "extra": "aster_avg"
           }
