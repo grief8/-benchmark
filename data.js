@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1722223353976,
+  "lastUpdate": 1722322357008,
   "repoUrl": "https://github.com/asterinas/asterinas",
   "entries": {
     "sysbench-thread Benchmark": [
@@ -5002,6 +5002,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "Average context switch latency on Asterinas",
             "value": "1.96",
+            "unit": "ms",
+            "extra": "aster_avg"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Zhang Junyang",
+            "username": "junyang-zh",
+            "email": "junyang@stu.pku.edu.cn"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "bdabea09c2ecc9a5fed6fe0bb0663e865d755ff0",
+          "message": "Add SMP boot options",
+          "timestamp": "2024-07-07T16:13:02Z",
+          "url": "https://github.com/asterinas/asterinas/commit/bdabea09c2ecc9a5fed6fe0bb0663e865d755ff0"
+        },
+        "date": 1722322355099,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Average context switch latency on Linux",
+            "value": "1.74",
+            "unit": "ms",
+            "extra": "linux_avg"
+          },
+          {
+            "name": "Average context switch latency on Asterinas",
+            "value": "1.87",
             "unit": "ms",
             "extra": "aster_avg"
           }
