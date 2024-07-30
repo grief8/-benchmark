@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1722324043047,
+  "lastUpdate": 1722324165857,
   "repoUrl": "https://github.com/asterinas/asterinas",
   "entries": {
     "sysbench-thread Benchmark": [
@@ -4661,6 +4661,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "Average Signal handler overhead on Asterinas",
             "value": "0.8340",
+            "unit": "ms",
+            "extra": "aster_avg"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Zhang Junyang",
+            "username": "junyang-zh",
+            "email": "junyang@stu.pku.edu.cn"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "bdabea09c2ecc9a5fed6fe0bb0663e865d755ff0",
+          "message": "Add SMP boot options",
+          "timestamp": "2024-07-07T16:13:02Z",
+          "url": "https://github.com/asterinas/asterinas/commit/bdabea09c2ecc9a5fed6fe0bb0663e865d755ff0"
+        },
+        "date": 1722324164240,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Average Signal handler overhead on Linux",
+            "value": "1.0503",
+            "unit": "ms",
+            "extra": "linux_avg"
+          },
+          {
+            "name": "Average Signal handler overhead on Asterinas",
+            "value": "0.8296",
             "unit": "ms",
             "extra": "aster_avg"
           }
