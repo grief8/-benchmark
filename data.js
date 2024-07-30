@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1722323547696,
+  "lastUpdate": 1722323711632,
   "repoUrl": "https://github.com/asterinas/asterinas",
   "entries": {
     "sysbench-thread Benchmark": [
@@ -8582,6 +8582,42 @@ window.BENCHMARK_DATA = {
             "name": "Average unix latency on Asterinas",
             "value": "5.9410",
             "unit": "ms",
+            "extra": "aster_avg"
+          }
+        ]
+      }
+    ],
+    "lmbench-pipe-bandwidth Benchmark": [
+      {
+        "commit": {
+          "author": {
+            "name": "Zhang Junyang",
+            "username": "junyang-zh",
+            "email": "junyang@stu.pku.edu.cn"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "bdabea09c2ecc9a5fed6fe0bb0663e865d755ff0",
+          "message": "Add SMP boot options",
+          "timestamp": "2024-07-07T16:13:02Z",
+          "url": "https://github.com/asterinas/asterinas/commit/bdabea09c2ecc9a5fed6fe0bb0663e865d755ff0"
+        },
+        "date": 1722323709931,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Average pipe bandwidth on Linux",
+            "value": "9588.68",
+            "unit": "MB/s",
+            "extra": "linux_avg"
+          },
+          {
+            "name": "Average pipe bandwidth on Asterinas",
+            "value": "6334.40",
+            "unit": "MB/s",
             "extra": "aster_avg"
           }
         ]
