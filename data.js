@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1722457495727,
+  "lastUpdate": 1722457613771,
   "repoUrl": "https://github.com/asterinas/asterinas",
   "entries": {
     "sysbench-thread Benchmark": [
@@ -8681,6 +8681,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "Average shell latency on Asterinas",
             "value": "597.4000",
+            "unit": "ms",
+            "extra": "aster_avg"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Shaowei Song",
+            "username": "lucassong-mh",
+            "email": "songshaowei.ssw@antgroup.com"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "20a856b07fa8210fdd2d46d3feb5087004c27afb",
+          "message": "Revise the naming of all sync/async io APIs",
+          "timestamp": "2024-07-30T09:31:02Z",
+          "url": "https://github.com/asterinas/asterinas/commit/20a856b07fa8210fdd2d46d3feb5087004c27afb"
+        },
+        "date": 1722457611862,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Average shell latency on Linux",
+            "value": "479.2500",
+            "unit": "ms",
+            "extra": "linux_avg"
+          },
+          {
+            "name": "Average shell latency on Asterinas",
+            "value": "625.4444",
             "unit": "ms",
             "extra": "aster_avg"
           }
