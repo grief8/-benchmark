@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1722543128021,
+  "lastUpdate": 1722543237933,
   "repoUrl": "https://github.com/asterinas/asterinas",
   "entries": {
     "sysbench-thread Benchmark": [
@@ -7590,6 +7590,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "Average memory read bandwidth on Asterinas",
             "value": "18267.13",
+            "unit": "MB/s",
+            "extra": "aster_avg"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Shaowei Song",
+            "username": "lucassong-mh",
+            "email": "songshaowei.ssw@antgroup.com"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "20a856b07fa8210fdd2d46d3feb5087004c27afb",
+          "message": "Revise the naming of all sync/async io APIs",
+          "timestamp": "2024-07-30T09:31:02Z",
+          "url": "https://github.com/asterinas/asterinas/commit/20a856b07fa8210fdd2d46d3feb5087004c27afb"
+        },
+        "date": 1722543236158,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Average memory read bandwidth on Linux",
+            "value": "18937.25",
+            "unit": "MB/s",
+            "extra": "linux_avg"
+          },
+          {
+            "name": "Average memory read bandwidth on Asterinas",
+            "value": "18740.26",
             "unit": "MB/s",
             "extra": "aster_avg"
           }
