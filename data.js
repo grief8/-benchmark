@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1722631023772,
+  "lastUpdate": 1722631135758,
   "repoUrl": "https://github.com/asterinas/asterinas",
   "entries": {
     "sysbench-thread Benchmark": [
@@ -10052,6 +10052,41 @@ window.BENCHMARK_DATA = {
             "name": "Average stat latency on Asterinas",
             "value": "1.9525",
             "unit": "ms",
+            "extra": "aster_avg"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Yuke Peng",
+            "username": "sdww0",
+            "email": "pykfirst@gmail.com"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "6f8978193c7a73a51403a8751314ddebc1c1983f",
+          "message": "Add benchmarks to workflow",
+          "timestamp": "2024-08-02T13:40:56Z",
+          "url": "https://github.com/asterinas/asterinas/commit/6f8978193c7a73a51403a8751314ddebc1c1983f"
+        },
+        "date": 1722631134019,
+        "tool": "customSmallerIsBetter",
+        "description": "The latency of the stat system call on a single processor.",
+        "benches": [
+          {
+            "name": "Average stat latency on Linux",
+            "value": "0.5542",
+            "unit": "µs",
+            "extra": "linux_avg"
+          },
+          {
+            "name": "Average stat latency on Asterinas",
+            "value": "1.9134",
+            "unit": "µs",
             "extra": "aster_avg"
           }
         ]
