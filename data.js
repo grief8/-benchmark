@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1722802999532,
+  "lastUpdate": 1722803143697,
   "repoUrl": "https://github.com/asterinas/asterinas",
   "entries": {
     "sysbench-thread Benchmark": [
@@ -11786,6 +11786,41 @@ window.BENCHMARK_DATA = {
           {
             "name": "Average pipe latency on Asterinas",
             "value": "5.3614",
+            "unit": "µs",
+            "extra": "aster_avg"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Zhang Junyang",
+            "username": "junyang-zh",
+            "email": "junyang@stu.pku.edu.cn"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "16690bc61b0bb8d90dbb1cec8a317ba34aa09f71",
+          "message": "Implement atomic signal masks and refactor `SigSet`",
+          "timestamp": "2024-08-02T08:26:56Z",
+          "url": "https://github.com/asterinas/asterinas/commit/16690bc61b0bb8d90dbb1cec8a317ba34aa09f71"
+        },
+        "date": 1722803141920,
+        "tool": "customSmallerIsBetter",
+        "description": "The latency of pipe on a single processor.",
+        "benches": [
+          {
+            "name": "Average pipe latency on Linux",
+            "value": "3.7185",
+            "unit": "µs",
+            "extra": "linux_avg"
+          },
+          {
+            "name": "Average pipe latency on Asterinas",
+            "value": "5.1205",
             "unit": "µs",
             "extra": "aster_avg"
           }
