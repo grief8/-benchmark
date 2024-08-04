@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1722802481980,
+  "lastUpdate": 1722802600951,
   "repoUrl": "https://github.com/asterinas/asterinas",
   "entries": {
     "sysbench-thread Benchmark": [
@@ -8531,6 +8531,41 @@ window.BENCHMARK_DATA = {
           {
             "name": "Average memory read bandwidth on Asterinas",
             "value": "21884.51",
+            "unit": "MB/s",
+            "extra": "aster_avg"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Zhang Junyang",
+            "username": "junyang-zh",
+            "email": "junyang@stu.pku.edu.cn"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "16690bc61b0bb8d90dbb1cec8a317ba34aa09f71",
+          "message": "Implement atomic signal masks and refactor `SigSet`",
+          "timestamp": "2024-08-02T08:26:56Z",
+          "url": "https://github.com/asterinas/asterinas/commit/16690bc61b0bb8d90dbb1cec8a317ba34aa09f71"
+        },
+        "date": 1722802599116,
+        "tool": "customBiggerIsBetter",
+        "description": "The memory bandwidth for reading 256 MB of data on a single processor.",
+        "benches": [
+          {
+            "name": "Average memory read bandwidth on Linux",
+            "value": "17962.76",
+            "unit": "MB/s",
+            "extra": "linux_avg"
+          },
+          {
+            "name": "Average memory read bandwidth on Asterinas",
+            "value": "19536.79",
             "unit": "MB/s",
             "extra": "aster_avg"
           }
