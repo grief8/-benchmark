@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1722802600951,
+  "lastUpdate": 1722802707699,
   "repoUrl": "https://github.com/asterinas/asterinas",
   "entries": {
     "sysbench-thread Benchmark": [
@@ -9147,6 +9147,41 @@ window.BENCHMARK_DATA = {
           {
             "name": "Average memory write bandwidth on Asterinas",
             "value": "13994.86",
+            "unit": "MB/s",
+            "extra": "aster_avg"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Zhang Junyang",
+            "username": "junyang-zh",
+            "email": "junyang@stu.pku.edu.cn"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "16690bc61b0bb8d90dbb1cec8a317ba34aa09f71",
+          "message": "Implement atomic signal masks and refactor `SigSet`",
+          "timestamp": "2024-08-02T08:26:56Z",
+          "url": "https://github.com/asterinas/asterinas/commit/16690bc61b0bb8d90dbb1cec8a317ba34aa09f71"
+        },
+        "date": 1722802705980,
+        "tool": "customBiggerIsBetter",
+        "description": "The memory bandwidth for writing 256 MB of data on a single processor using the fwr (fast write) method.",
+        "benches": [
+          {
+            "name": "Average memory write bandwidth on Linux",
+            "value": "18671.17",
+            "unit": "MB/s",
+            "extra": "linux_avg"
+          },
+          {
+            "name": "Average memory write bandwidth on Asterinas",
+            "value": "18452.98",
             "unit": "MB/s",
             "extra": "aster_avg"
           }
