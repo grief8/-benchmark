@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1722803929321,
+  "lastUpdate": 1722804088429,
   "repoUrl": "https://github.com/asterinas/asterinas",
   "entries": {
     "sysbench-thread Benchmark": [
@@ -12667,6 +12667,41 @@ window.BENCHMARK_DATA = {
           {
             "name": "Average unix bandwidth on Asterinas",
             "value": "429.14",
+            "unit": "MB/s",
+            "extra": "aster_avg"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Zhang Junyang",
+            "username": "junyang-zh",
+            "email": "junyang@stu.pku.edu.cn"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "16690bc61b0bb8d90dbb1cec8a317ba34aa09f71",
+          "message": "Implement atomic signal masks and refactor `SigSet`",
+          "timestamp": "2024-08-02T08:26:56Z",
+          "url": "https://github.com/asterinas/asterinas/commit/16690bc61b0bb8d90dbb1cec8a317ba34aa09f71"
+        },
+        "date": 1722804086680,
+        "tool": "customBiggerIsBetter",
+        "description": "The bandwidth of UNIX domain socket communication on a single processor.",
+        "benches": [
+          {
+            "name": "Average unix bandwidth on Linux",
+            "value": "7594.18",
+            "unit": "MB/s",
+            "extra": "linux_avg"
+          },
+          {
+            "name": "Average unix bandwidth on Asterinas",
+            "value": "442.48",
             "unit": "MB/s",
             "extra": "aster_avg"
           }
