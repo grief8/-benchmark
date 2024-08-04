@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1722803811858,
+  "lastUpdate": 1722803929321,
   "repoUrl": "https://github.com/asterinas/asterinas",
   "entries": {
     "sysbench-thread Benchmark": [
@@ -10891,6 +10891,41 @@ window.BENCHMARK_DATA = {
           {
             "name": "Average stat latency on Asterinas",
             "value": "1.8978",
+            "unit": "µs",
+            "extra": "aster_avg"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Zhang Junyang",
+            "username": "junyang-zh",
+            "email": "junyang@stu.pku.edu.cn"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "16690bc61b0bb8d90dbb1cec8a317ba34aa09f71",
+          "message": "Implement atomic signal masks and refactor `SigSet`",
+          "timestamp": "2024-08-02T08:26:56Z",
+          "url": "https://github.com/asterinas/asterinas/commit/16690bc61b0bb8d90dbb1cec8a317ba34aa09f71"
+        },
+        "date": 1722803927641,
+        "tool": "customSmallerIsBetter",
+        "description": "The latency of the stat system call on a single processor.",
+        "benches": [
+          {
+            "name": "Average stat latency on Linux",
+            "value": "0.5923",
+            "unit": "µs",
+            "extra": "linux_avg"
+          },
+          {
+            "name": "Average stat latency on Asterinas",
+            "value": "1.8844",
             "unit": "µs",
             "extra": "aster_avg"
           }
