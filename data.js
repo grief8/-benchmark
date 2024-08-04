@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1722804568233,
+  "lastUpdate": 1722804808557,
   "repoUrl": "https://github.com/asterinas/asterinas",
   "entries": {
     "sysbench-thread Benchmark": [
@@ -1291,6 +1291,41 @@ window.BENCHMARK_DATA = {
           {
             "name": "Average Execution Time per Thread on Asterinas",
             "value": "52.49",
+            "unit": "ms",
+            "extra": "aster_avg"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Zhang Junyang",
+            "username": "junyang-zh",
+            "email": "junyang@stu.pku.edu.cn"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "16690bc61b0bb8d90dbb1cec8a317ba34aa09f71",
+          "message": "Implement atomic signal masks and refactor `SigSet`",
+          "timestamp": "2024-08-02T08:26:56Z",
+          "url": "https://github.com/asterinas/asterinas/commit/16690bc61b0bb8d90dbb1cec8a317ba34aa09f71"
+        },
+        "date": 1722804806709,
+        "tool": "customSmallerIsBetter",
+        "description": "The average latency it takes for each thread operation (creation, yielding, locking, etc.) to complete.",
+        "benches": [
+          {
+            "name": "Average Execution Time per Thread on Linux",
+            "value": "21.63",
+            "unit": "ms",
+            "extra": "linux_avg"
+          },
+          {
+            "name": "Average Execution Time per Thread on Asterinas",
+            "value": "51.07",
             "unit": "ms",
             "extra": "aster_avg"
           }
