@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1722890573228,
+  "lastUpdate": 1722890690256,
   "repoUrl": "https://github.com/asterinas/asterinas",
   "entries": {
     "sysbench-thread Benchmark": [
@@ -12904,6 +12904,41 @@ window.BENCHMARK_DATA = {
           {
             "name": "Average write latency on Asterinas",
             "value": "0.3994",
+            "unit": "µs",
+            "extra": "aster_avg"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "azongchang",
+            "username": "azongchang",
+            "email": "azongchang@qq.com"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "aa84b31634b9c710e04b337c5d1b8fa207f8dbde",
+          "message": "Add the description of encoding option to the OSDK document",
+          "timestamp": "2024-08-05T05:52:13Z",
+          "url": "https://github.com/asterinas/asterinas/commit/aa84b31634b9c710e04b337c5d1b8fa207f8dbde"
+        },
+        "date": 1722890687897,
+        "tool": "customSmallerIsBetter",
+        "description": "The latency of the write system call on a single processor.",
+        "benches": [
+          {
+            "name": "Average write latency on Linux",
+            "value": "0.3271",
+            "unit": "µs",
+            "extra": "linux_avg"
+          },
+          {
+            "name": "Average write latency on Asterinas",
+            "value": "0.3967",
             "unit": "µs",
             "extra": "aster_avg"
           }
