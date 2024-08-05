@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1722888894048,
+  "lastUpdate": 1722889003667,
   "repoUrl": "https://github.com/asterinas/asterinas",
   "entries": {
     "sysbench-thread Benchmark": [
@@ -8846,6 +8846,41 @@ window.BENCHMARK_DATA = {
           {
             "name": "Average memory read bandwidth on Asterinas",
             "value": "19536.79",
+            "unit": "MB/s",
+            "extra": "aster_avg"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "azongchang",
+            "username": "azongchang",
+            "email": "azongchang@qq.com"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "aa84b31634b9c710e04b337c5d1b8fa207f8dbde",
+          "message": "Add the description of encoding option to the OSDK document",
+          "timestamp": "2024-08-05T05:52:13Z",
+          "url": "https://github.com/asterinas/asterinas/commit/aa84b31634b9c710e04b337c5d1b8fa207f8dbde"
+        },
+        "date": 1722889001833,
+        "tool": "customBiggerIsBetter",
+        "description": "The memory bandwidth for reading 256 MB of data on a single processor.",
+        "benches": [
+          {
+            "name": "Average memory read bandwidth on Linux",
+            "value": "20707.82",
+            "unit": "MB/s",
+            "extra": "linux_avg"
+          },
+          {
+            "name": "Average memory read bandwidth on Asterinas",
+            "value": "19212.39",
             "unit": "MB/s",
             "extra": "aster_avg"
           }
