@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1722889534778,
+  "lastUpdate": 1722889648318,
   "repoUrl": "https://github.com/asterinas/asterinas",
   "entries": {
     "sysbench-thread Benchmark": [
@@ -12555,6 +12555,41 @@ window.BENCHMARK_DATA = {
           {
             "name": "Average read latency on Asterinas",
             "value": "0.4059",
+            "unit": "µs",
+            "extra": "aster_avg"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "azongchang",
+            "username": "azongchang",
+            "email": "azongchang@qq.com"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "aa84b31634b9c710e04b337c5d1b8fa207f8dbde",
+          "message": "Add the description of encoding option to the OSDK document",
+          "timestamp": "2024-08-05T05:52:13Z",
+          "url": "https://github.com/asterinas/asterinas/commit/aa84b31634b9c710e04b337c5d1b8fa207f8dbde"
+        },
+        "date": 1722889646500,
+        "tool": "customSmallerIsBetter",
+        "description": "The latency of the read system call on a single processor.",
+        "benches": [
+          {
+            "name": "Average read latency on Linux",
+            "value": "0.3453",
+            "unit": "µs",
+            "extra": "linux_avg"
+          },
+          {
+            "name": "Average read latency on Asterinas",
+            "value": "0.4042",
             "unit": "µs",
             "extra": "aster_avg"
           }
