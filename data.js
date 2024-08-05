@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1722888779460,
+  "lastUpdate": 1722888894048,
   "repoUrl": "https://github.com/asterinas/asterinas",
   "entries": {
     "sysbench-thread Benchmark": [
@@ -8195,6 +8195,41 @@ window.BENCHMARK_DATA = {
           {
             "name": "Average memory copy bandwidth on Asterinas",
             "value": "13704.08",
+            "unit": "MB/s",
+            "extra": "aster_avg"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "azongchang",
+            "username": "azongchang",
+            "email": "azongchang@qq.com"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "aa84b31634b9c710e04b337c5d1b8fa207f8dbde",
+          "message": "Add the description of encoding option to the OSDK document",
+          "timestamp": "2024-08-05T05:52:13Z",
+          "url": "https://github.com/asterinas/asterinas/commit/aa84b31634b9c710e04b337c5d1b8fa207f8dbde"
+        },
+        "date": 1722888892282,
+        "tool": "customBiggerIsBetter",
+        "description": "The memory bandwidth for copying 128 MB of data on a single processor using the fcp (fast copy) method.",
+        "benches": [
+          {
+            "name": "Average memory copy bandwidth on Linux",
+            "value": "14622.26",
+            "unit": "MB/s",
+            "extra": "linux_avg"
+          },
+          {
+            "name": "Average memory copy bandwidth on Asterinas",
+            "value": "13845.44",
             "unit": "MB/s",
             "extra": "aster_avg"
           }
