@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1722974866478,
+  "lastUpdate": 1722974982705,
   "repoUrl": "https://github.com/asterinas/asterinas",
   "entries": {
     "sysbench-thread Benchmark": [
@@ -7719,6 +7719,41 @@ window.BENCHMARK_DATA = {
           {
             "name": "Average fstat latency on Asterinas",
             "value": "0.8993",
+            "unit": "µs",
+            "extra": "aster_avg"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ruihan Li",
+            "username": "lrh2000",
+            "email": "lrh2000@pku.edu.cn"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "b1ea422efaf6b0becd7d6cd99d270ae01fcd12de",
+          "message": "Fix accesses to VirtIO queue DMA",
+          "timestamp": "2024-08-05T14:06:02Z",
+          "url": "https://github.com/asterinas/asterinas/commit/b1ea422efaf6b0becd7d6cd99d270ae01fcd12de"
+        },
+        "date": 1722974980417,
+        "tool": "customSmallerIsBetter",
+        "description": "The latency of the fstat system call on a single processor.",
+        "benches": [
+          {
+            "name": "Average fstat latency on Linux",
+            "value": "0.5187",
+            "unit": "µs",
+            "extra": "linux_avg"
+          },
+          {
+            "name": "Average fstat latency on Asterinas",
+            "value": "0.9043",
             "unit": "µs",
             "extra": "aster_avg"
           }
