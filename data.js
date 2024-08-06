@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1722975882313,
+  "lastUpdate": 1722976044541,
   "repoUrl": "https://github.com/asterinas/asterinas",
   "entries": {
     "sysbench-thread Benchmark": [
@@ -12836,6 +12836,41 @@ window.BENCHMARK_DATA = {
           {
             "name": "Average pipe latency on Asterinas",
             "value": "5.0897",
+            "unit": "µs",
+            "extra": "aster_avg"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ruihan Li",
+            "username": "lrh2000",
+            "email": "lrh2000@pku.edu.cn"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "b1ea422efaf6b0becd7d6cd99d270ae01fcd12de",
+          "message": "Fix accesses to VirtIO queue DMA",
+          "timestamp": "2024-08-05T14:06:02Z",
+          "url": "https://github.com/asterinas/asterinas/commit/b1ea422efaf6b0becd7d6cd99d270ae01fcd12de"
+        },
+        "date": 1722976042057,
+        "tool": "customSmallerIsBetter",
+        "description": "The latency of pipe on a single processor.",
+        "benches": [
+          {
+            "name": "Average pipe latency on Linux",
+            "value": "3.6951",
+            "unit": "µs",
+            "extra": "linux_avg"
+          },
+          {
+            "name": "Average pipe latency on Asterinas",
+            "value": "5.1540",
             "unit": "µs",
             "extra": "aster_avg"
           }
