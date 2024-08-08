@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1723148990913,
+  "lastUpdate": 1723149110388,
   "repoUrl": "https://github.com/asterinas/asterinas",
   "entries": {
     "sysbench-thread Benchmark": [
@@ -12270,6 +12270,41 @@ window.BENCHMARK_DATA = {
             "name": "Average shell latency on Asterinas",
             "value": "633.2222",
             "unit": "ms",
+            "extra": "aster_avg"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Chen Chengjun",
+            "username": "cchanging",
+            "email": "chenchengjun.ccj@antgroup.com"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "acb4833aae0476d7ed2d61871036aff3eaf77c5d",
+          "message": "Optimize trim_mappings",
+          "timestamp": "2024-08-02T03:14:14Z",
+          "url": "https://github.com/asterinas/asterinas/commit/acb4833aae0476d7ed2d61871036aff3eaf77c5d"
+        },
+        "date": 1723149107975,
+        "tool": "customSmallerIsBetter",
+        "description": "The latency of creating and executing a shell process on a single processor.",
+        "benches": [
+          {
+            "name": "Average shell latency on Linux",
+            "value": "402.3846",
+            "unit": "µs",
+            "extra": "linux_avg"
+          },
+          {
+            "name": "Average shell latency on Asterinas",
+            "value": "1179.2000",
+            "unit": "µs",
             "extra": "aster_avg"
           }
         ]
