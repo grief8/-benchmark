@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1723235265911,
+  "lastUpdate": 1723235378130,
   "repoUrl": "https://github.com/asterinas/asterinas",
   "entries": {
     "sysbench-thread Benchmark": [
@@ -16478,6 +16478,41 @@ window.BENCHMARK_DATA = {
           {
             "name": "Average select file latency on Asterinas",
             "value": "23.4430",
+            "unit": "µs",
+            "extra": "aster_avg"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Chen Chengjun",
+            "username": "cchanging",
+            "email": "chenchengjun.ccj@antgroup.com"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "75da7fd30eca1e80ad57da15bfe5dff6963c03c1",
+          "message": "Replace old user space read/write with new APIs",
+          "timestamp": "2024-08-09T08:11:43Z",
+          "url": "https://github.com/asterinas/asterinas/commit/75da7fd30eca1e80ad57da15bfe5dff6963c03c1"
+        },
+        "date": 1723235375420,
+        "tool": "customSmallerIsBetter",
+        "description": "The latency of select file on a single processor.",
+        "benches": [
+          {
+            "name": "Average select file latency on Linux",
+            "value": "1.3290",
+            "unit": "µs",
+            "extra": "linux_avg"
+          },
+          {
+            "name": "Average select file latency on Asterinas",
+            "value": "23.7415",
             "unit": "µs",
             "extra": "aster_avg"
           }
