@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1723236137984,
+  "lastUpdate": 1723236257188,
   "repoUrl": "https://github.com/asterinas/asterinas",
   "entries": {
     "sysbench-thread Benchmark": [
@@ -16019,6 +16019,41 @@ window.BENCHMARK_DATA = {
           {
             "name": "Average write latency on Asterinas",
             "value": "0.3824",
+            "unit": "µs",
+            "extra": "aster_avg"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Chen Chengjun",
+            "username": "cchanging",
+            "email": "chenchengjun.ccj@antgroup.com"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "75da7fd30eca1e80ad57da15bfe5dff6963c03c1",
+          "message": "Replace old user space read/write with new APIs",
+          "timestamp": "2024-08-09T08:11:43Z",
+          "url": "https://github.com/asterinas/asterinas/commit/75da7fd30eca1e80ad57da15bfe5dff6963c03c1"
+        },
+        "date": 1723236255526,
+        "tool": "customSmallerIsBetter",
+        "description": "The latency of the write system call on a single processor.",
+        "benches": [
+          {
+            "name": "Average write latency on Linux",
+            "value": "0.3256",
+            "unit": "µs",
+            "extra": "linux_avg"
+          },
+          {
+            "name": "Average write latency on Asterinas",
+            "value": "0.3924",
             "unit": "µs",
             "extra": "aster_avg"
           }
