@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1723320981761,
+  "lastUpdate": 1723321095560,
   "repoUrl": "https://github.com/asterinas/asterinas",
   "entries": {
     "sysbench-thread Benchmark": [
@@ -11702,6 +11702,41 @@ window.BENCHMARK_DATA = {
           {
             "name": "Average memory write bandwidth on Asterinas",
             "value": "14205.19",
+            "unit": "MB/s",
+            "extra": "aster_avg"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Hsy-Intel",
+            "username": "Hsy-Intel",
+            "email": "siyuan.hui@intel.com"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "a739b3828d106d4e09fe2ba7dd8eed12d18dd20a",
+          "message": "Use tdx-guest crate VE handler and support release mode for TDX",
+          "timestamp": "2024-08-09T10:56:43Z",
+          "url": "https://github.com/asterinas/asterinas/commit/a739b3828d106d4e09fe2ba7dd8eed12d18dd20a"
+        },
+        "date": 1723321090179,
+        "tool": "customBiggerIsBetter",
+        "description": "The memory bandwidth for writing 256 MB of data on a single processor using the fwr (fast write) method.",
+        "benches": [
+          {
+            "name": "Average memory write bandwidth on Linux",
+            "value": "14439.00",
+            "unit": "MB/s",
+            "extra": "linux_avg"
+          },
+          {
+            "name": "Average memory write bandwidth on Asterinas",
+            "value": "18431.44",
             "unit": "MB/s",
             "extra": "aster_avg"
           }
