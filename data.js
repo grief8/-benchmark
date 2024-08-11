@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1723408043588,
+  "lastUpdate": 1723408176527,
   "repoUrl": "https://github.com/asterinas/asterinas",
   "entries": {
     "sysbench-thread Benchmark": [
@@ -16276,6 +16276,41 @@ window.BENCHMARK_DATA = {
           {
             "name": "Average read latency on Asterinas",
             "value": "0.4001",
+            "unit": "µs",
+            "extra": "aster_avg"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Hsy-Intel",
+            "username": "Hsy-Intel",
+            "email": "siyuan.hui@intel.com"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "a739b3828d106d4e09fe2ba7dd8eed12d18dd20a",
+          "message": "Use tdx-guest crate VE handler and support release mode for TDX",
+          "timestamp": "2024-08-09T10:56:43Z",
+          "url": "https://github.com/asterinas/asterinas/commit/a739b3828d106d4e09fe2ba7dd8eed12d18dd20a"
+        },
+        "date": 1723408173748,
+        "tool": "customSmallerIsBetter",
+        "description": "The latency of the read system call on a single processor.",
+        "benches": [
+          {
+            "name": "Average read latency on Linux",
+            "value": "0.3452",
+            "unit": "µs",
+            "extra": "linux_avg"
+          },
+          {
+            "name": "Average read latency on Asterinas",
+            "value": "0.3985",
             "unit": "µs",
             "extra": "aster_avg"
           }
