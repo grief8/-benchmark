@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1723407780708,
+  "lastUpdate": 1723407930290,
   "repoUrl": "https://github.com/asterinas/asterinas",
   "entries": {
     "sysbench-thread Benchmark": [
@@ -15298,6 +15298,41 @@ window.BENCHMARK_DATA = {
           {
             "name": "Average pipe bandwidth on Asterinas",
             "value": "6390.20",
+            "unit": "MB/s",
+            "extra": "aster_avg"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Hsy-Intel",
+            "username": "Hsy-Intel",
+            "email": "siyuan.hui@intel.com"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "a739b3828d106d4e09fe2ba7dd8eed12d18dd20a",
+          "message": "Use tdx-guest crate VE handler and support release mode for TDX",
+          "timestamp": "2024-08-09T10:56:43Z",
+          "url": "https://github.com/asterinas/asterinas/commit/a739b3828d106d4e09fe2ba7dd8eed12d18dd20a"
+        },
+        "date": 1723407927775,
+        "tool": "customBiggerIsBetter",
+        "description": "The bandwidth of pipe on a single processor.",
+        "benches": [
+          {
+            "name": "Average pipe bandwidth on Linux",
+            "value": "9597.00",
+            "unit": "MB/s",
+            "extra": "linux_avg"
+          },
+          {
+            "name": "Average pipe bandwidth on Asterinas",
+            "value": "6396.00",
             "unit": "MB/s",
             "extra": "aster_avg"
           }
