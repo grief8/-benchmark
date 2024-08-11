@@ -6546,7 +6546,7 @@ window.BENCHMARK_DATA = {
           },
           {
             "name": "Average context switch latency on Asterinas",
-            "value": "20:00:57--\n20:00:57\n20:00:58--\n20:01:01\n20:01:01--\n20:01:02\n2.50",
+            "value": "2.50",
             "unit": "ms",
             "extra": "aster_avg"
           }
@@ -6608,7 +6608,7 @@ window.BENCHMARK_DATA = {
         "benches": [
           {
             "name": "Average context switch latency on Linux",
-            "value": "0.565879]\n1.73",
+            "value": "1.73",
             "unit": "ms",
             "extra": "linux_avg"
           },
@@ -7155,7 +7155,7 @@ window.BENCHMARK_DATA = {
         "benches": [
           {
             "name": "Average context switch latency on Linux",
-            "value": "0.566145]\n1.70",
+            "value": "1.70",
             "unit": "µs",
             "extra": "linux_avg"
           },
@@ -7231,7 +7231,7 @@ window.BENCHMARK_DATA = {
           },
           {
             "name": "Average context switch latency on Asterinas",
-            "value": "derive_more\nderive_more\n1.86",
+            "value": "1.86",
             "unit": "µs",
             "extra": "aster_avg"
           }
@@ -7266,7 +7266,7 @@ window.BENCHMARK_DATA = {
           },
           {
             "name": "Average context switch latency on Asterinas",
-            "value": "derive_more\nderive_more\n1.78",
+            "value": "1.78",
             "unit": "µs",
             "extra": "aster_avg"
           }
@@ -7301,7 +7301,7 @@ window.BENCHMARK_DATA = {
           },
           {
             "name": "Average context switch latency on Asterinas",
-            "value": "derive_more\nderive_more\n1.76",
+            "value": "1.76",
             "unit": "µs",
             "extra": "aster_avg"
           }
@@ -7336,7 +7336,7 @@ window.BENCHMARK_DATA = {
           },
           {
             "name": "Average context switch latency on Asterinas",
-            "value": "derive_more\nderive_more\n1.94",
+            "value": "1.94",
             "unit": "µs",
             "extra": "aster_avg"
           }
@@ -7371,7 +7371,7 @@ window.BENCHMARK_DATA = {
           },
           {
             "name": "Average context switch latency on Asterinas",
-            "value": "derive_more\nderive_more\n1.78",
+            "value": "1.78",
             "unit": "µs",
             "extra": "aster_avg"
           }
