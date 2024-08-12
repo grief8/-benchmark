@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1723494409790,
+  "lastUpdate": 1723494532729,
   "repoUrl": "https://github.com/asterinas/asterinas",
   "entries": {
     "sysbench-thread Benchmark": [
@@ -16906,6 +16906,41 @@ window.BENCHMARK_DATA = {
           {
             "name": "Average read latency on Asterinas",
             "value": "0.3985",
+            "unit": "µs",
+            "extra": "aster_avg"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Fabing Li",
+            "username": "grief8",
+            "email": "lifabing.lfb@antgroup.com"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "f9bae1eee90c49d715569208009cc2c66768fe9a",
+          "message": "Fix lmbench-ctx extraction",
+          "timestamp": "2024-08-12T07:13:36Z",
+          "url": "https://github.com/asterinas/asterinas/commit/f9bae1eee90c49d715569208009cc2c66768fe9a"
+        },
+        "date": 1723494527165,
+        "tool": "customSmallerIsBetter",
+        "description": "The latency of the read system call on a single processor.",
+        "benches": [
+          {
+            "name": "Average read latency on Linux",
+            "value": "0.3492",
+            "unit": "µs",
+            "extra": "linux_avg"
+          },
+          {
+            "name": "Average read latency on Asterinas",
+            "value": "0.3465",
             "unit": "µs",
             "extra": "aster_avg"
           }
