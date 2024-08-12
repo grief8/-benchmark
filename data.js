@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1723493250313,
+  "lastUpdate": 1723493374191,
   "repoUrl": "https://github.com/asterinas/asterinas",
   "entries": {
     "sysbench-thread Benchmark": [
@@ -5586,6 +5586,41 @@ window.BENCHMARK_DATA = {
           {
             "name": "Average Fork latency on Asterinas",
             "value": "189.5172",
+            "unit": "µs",
+            "extra": "aster_avg"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Fabing Li",
+            "username": "grief8",
+            "email": "lifabing.lfb@antgroup.com"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "f9bae1eee90c49d715569208009cc2c66768fe9a",
+          "message": "Fix lmbench-ctx extraction",
+          "timestamp": "2024-08-12T07:13:36Z",
+          "url": "https://github.com/asterinas/asterinas/commit/f9bae1eee90c49d715569208009cc2c66768fe9a"
+        },
+        "date": 1723493368778,
+        "tool": "customSmallerIsBetter",
+        "description": "The latency of the fork system call on a single processor.",
+        "benches": [
+          {
+            "name": "Average Fork latency on Linux",
+            "value": "64.1786",
+            "unit": "µs",
+            "extra": "linux_avg"
+          },
+          {
+            "name": "Average Fork latency on Asterinas",
+            "value": "199.4231",
             "unit": "µs",
             "extra": "aster_avg"
           }
