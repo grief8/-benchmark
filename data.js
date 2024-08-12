@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1723494089861,
+  "lastUpdate": 1723494260050,
   "repoUrl": "https://github.com/asterinas/asterinas",
   "entries": {
     "sysbench-thread Benchmark": [
@@ -15858,6 +15858,41 @@ window.BENCHMARK_DATA = {
           {
             "name": "Average pipe bandwidth on Asterinas",
             "value": "6396.00",
+            "unit": "MB/s",
+            "extra": "aster_avg"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Fabing Li",
+            "username": "grief8",
+            "email": "lifabing.lfb@antgroup.com"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "f9bae1eee90c49d715569208009cc2c66768fe9a",
+          "message": "Fix lmbench-ctx extraction",
+          "timestamp": "2024-08-12T07:13:36Z",
+          "url": "https://github.com/asterinas/asterinas/commit/f9bae1eee90c49d715569208009cc2c66768fe9a"
+        },
+        "date": 1723494257419,
+        "tool": "customBiggerIsBetter",
+        "description": "The bandwidth of pipe on a single processor.",
+        "benches": [
+          {
+            "name": "Average pipe bandwidth on Linux",
+            "value": "9665.50",
+            "unit": "MB/s",
+            "extra": "linux_avg"
+          },
+          {
+            "name": "Average pipe bandwidth on Asterinas",
+            "value": "6465.92",
             "unit": "MB/s",
             "extra": "aster_avg"
           }
