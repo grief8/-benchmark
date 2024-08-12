@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1723494532729,
+  "lastUpdate": 1723494647354,
   "repoUrl": "https://github.com/asterinas/asterinas",
   "entries": {
     "sysbench-thread Benchmark": [
@@ -18239,6 +18239,41 @@ window.BENCHMARK_DATA = {
           {
             "name": "Average select file latency on Asterinas",
             "value": "23.6144",
+            "unit": "µs",
+            "extra": "aster_avg"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Fabing Li",
+            "username": "grief8",
+            "email": "lifabing.lfb@antgroup.com"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "f9bae1eee90c49d715569208009cc2c66768fe9a",
+          "message": "Fix lmbench-ctx extraction",
+          "timestamp": "2024-08-12T07:13:36Z",
+          "url": "https://github.com/asterinas/asterinas/commit/f9bae1eee90c49d715569208009cc2c66768fe9a"
+        },
+        "date": 1723494645635,
+        "tool": "customSmallerIsBetter",
+        "description": "The latency of select file on a single processor.",
+        "benches": [
+          {
+            "name": "Average select file latency on Linux",
+            "value": "1.3270",
+            "unit": "µs",
+            "extra": "linux_avg"
+          },
+          {
+            "name": "Average select file latency on Asterinas",
+            "value": "16.0612",
             "unit": "µs",
             "extra": "aster_avg"
           }
