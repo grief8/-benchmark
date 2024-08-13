@@ -7756,7 +7756,7 @@ window.BENCHMARK_DATA = {
           },
           {
             "name": "Average context switch latency on Asterinas",
-            "value": "derive_more\nderive_more\n1.76",
+            "value": "1.76",
             "unit": "µs",
             "extra": "aster_avg"
           }
