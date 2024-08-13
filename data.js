@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1723579476875,
+  "lastUpdate": 1723579594779,
   "repoUrl": "https://github.com/asterinas/asterinas",
   "entries": {
     "sysbench-thread Benchmark": [
@@ -8479,6 +8479,41 @@ window.BENCHMARK_DATA = {
           {
             "name": "Average exec latency on Asterinas",
             "value": "647.9000",
+            "unit": "µs",
+            "extra": "aster_avg"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Zhang Junyang",
+            "username": "junyang-zh",
+            "email": "junyang@stu.pku.edu.cn"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "be54a39592ff60fae6e729abaa3d4a26dd7f5624",
+          "message": "Remove the preempt guard from the IRQ guard",
+          "timestamp": "2024-08-12T13:04:53Z",
+          "url": "https://github.com/asterinas/asterinas/commit/be54a39592ff60fae6e729abaa3d4a26dd7f5624"
+        },
+        "date": 1723579589305,
+        "tool": "customSmallerIsBetter",
+        "description": "The latency of creating and executing processes on a single processor.",
+        "benches": [
+          {
+            "name": "Average exec latency on Linux",
+            "value": "260.3500",
+            "unit": "µs",
+            "extra": "linux_avg"
+          },
+          {
+            "name": "Average exec latency on Asterinas",
+            "value": "651.4444",
             "unit": "µs",
             "extra": "aster_avg"
           }
