@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1723666537642,
+  "lastUpdate": 1723666649965,
   "repoUrl": "https://github.com/asterinas/asterinas",
   "entries": {
     "sysbench-thread Benchmark": [
@@ -11797,6 +11797,41 @@ window.BENCHMARK_DATA = {
           {
             "name": "Average memory read bandwidth on Asterinas",
             "value": "17601.17",
+            "unit": "MB/s",
+            "extra": "aster_avg"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Zhang Junyang",
+            "username": "junyang-zh",
+            "email": "junyang@stu.pku.edu.cn"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "4844e7ca7ca6d78896a51a71487a6fdfe9ca6654",
+          "message": "Allow page table protectors to flush TLB entries precisely",
+          "timestamp": "2024-08-12T08:11:45Z",
+          "url": "https://github.com/asterinas/asterinas/commit/4844e7ca7ca6d78896a51a71487a6fdfe9ca6654"
+        },
+        "date": 1723666647049,
+        "tool": "customBiggerIsBetter",
+        "description": "The memory bandwidth for reading 256 MB of data on a single processor.",
+        "benches": [
+          {
+            "name": "Average memory read bandwidth on Linux",
+            "value": "19267.55",
+            "unit": "MB/s",
+            "extra": "linux_avg"
+          },
+          {
+            "name": "Average memory read bandwidth on Asterinas",
+            "value": "18478.38",
             "unit": "MB/s",
             "extra": "aster_avg"
           }
