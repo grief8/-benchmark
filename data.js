@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1723667202100,
+  "lastUpdate": 1723667312590,
   "repoUrl": "https://github.com/asterinas/asterinas",
   "entries": {
     "sysbench-thread Benchmark": [
@@ -19709,6 +19709,41 @@ window.BENCHMARK_DATA = {
           {
             "name": "Average select file latency on Asterinas",
             "value": "15.9507",
+            "unit": "µs",
+            "extra": "aster_avg"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Zhang Junyang",
+            "username": "junyang-zh",
+            "email": "junyang@stu.pku.edu.cn"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "4844e7ca7ca6d78896a51a71487a6fdfe9ca6654",
+          "message": "Allow page table protectors to flush TLB entries precisely",
+          "timestamp": "2024-08-12T08:11:45Z",
+          "url": "https://github.com/asterinas/asterinas/commit/4844e7ca7ca6d78896a51a71487a6fdfe9ca6654"
+        },
+        "date": 1723667310735,
+        "tool": "customSmallerIsBetter",
+        "description": "The latency of select file on a single processor.",
+        "benches": [
+          {
+            "name": "Average select file latency on Linux",
+            "value": "1.3281",
+            "unit": "µs",
+            "extra": "linux_avg"
+          },
+          {
+            "name": "Average select file latency on Asterinas",
+            "value": "15.8732",
             "unit": "µs",
             "extra": "aster_avg"
           }
