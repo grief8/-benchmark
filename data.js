@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1723668418886,
+  "lastUpdate": 1723668650310,
   "repoUrl": "https://github.com/asterinas/asterinas",
   "entries": {
     "sysbench-thread Benchmark": [
@@ -1676,6 +1676,41 @@ window.BENCHMARK_DATA = {
           {
             "name": "Average Execution Time per Thread on Asterinas",
             "value": "25.90",
+            "unit": "ms",
+            "extra": "aster_avg"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Zhang Junyang",
+            "username": "junyang-zh",
+            "email": "junyang@stu.pku.edu.cn"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "4844e7ca7ca6d78896a51a71487a6fdfe9ca6654",
+          "message": "Allow page table protectors to flush TLB entries precisely",
+          "timestamp": "2024-08-12T08:11:45Z",
+          "url": "https://github.com/asterinas/asterinas/commit/4844e7ca7ca6d78896a51a71487a6fdfe9ca6654"
+        },
+        "date": 1723668647578,
+        "tool": "customSmallerIsBetter",
+        "description": "The average latency it takes for each thread operation (creation, yielding, locking, etc.) to complete.",
+        "benches": [
+          {
+            "name": "Average Execution Time per Thread on Linux",
+            "value": "21.97",
+            "unit": "ms",
+            "extra": "linux_avg"
+          },
+          {
+            "name": "Average Execution Time per Thread on Asterinas",
+            "value": "25.44",
             "unit": "ms",
             "extra": "aster_avg"
           }
