@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1723752389206,
+  "lastUpdate": 1723752511482,
   "repoUrl": "https://github.com/asterinas/asterinas",
   "entries": {
     "sysbench-thread Benchmark": [
@@ -21079,6 +21079,43 @@ window.BENCHMARK_DATA = {
             "name": "Average unix bandwidth on Asterinas",
             "value": "4823.60",
             "unit": "MB/s",
+            "extra": "aster_avg"
+          }
+        ]
+      }
+    ],
+    "lmbench-fs-create-delete-files-10k Benchmark": [
+      {
+        "commit": {
+          "author": {
+            "name": "Chen Chengjun",
+            "username": "cchanging",
+            "email": "chenchengjun.ccj@antgroup.com"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "99a22ff124972872838fa5dc7094fa9a5eea557e",
+          "message": "Improve efficiency of global TLB flushing",
+          "timestamp": "2024-08-15T08:53:54Z",
+          "url": "https://github.com/asterinas/asterinas/commit/99a22ff124972872838fa5dc7094fa9a5eea557e"
+        },
+        "date": 1723752508604,
+        "tool": "customBiggerIsBetter",
+        "description": "The number of 10k-sized files created then deleted over a duration.",
+        "benches": [
+          {
+            "name": "Number of created/deleted files on Linux",
+            "value": "1087",
+            "unit": "number",
+            "extra": "linux_avg"
+          },
+          {
+            "name": "Number of created/deleted files on Asterinas",
+            "value": "687",
+            "unit": "number",
             "extra": "aster_avg"
           }
         ]
