@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1723754179337,
+  "lastUpdate": 1723754294251,
   "repoUrl": "https://github.com/asterinas/asterinas",
   "entries": {
     "sysbench-thread Benchmark": [
@@ -7281,6 +7281,41 @@ window.BENCHMARK_DATA = {
           {
             "name": "Average Signal handler overhead on Asterinas",
             "value": "0.5922",
+            "unit": "µs",
+            "extra": "aster_avg"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Chen Chengjun",
+            "username": "cchanging",
+            "email": "chenchengjun.ccj@antgroup.com"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "99a22ff124972872838fa5dc7094fa9a5eea557e",
+          "message": "Improve efficiency of global TLB flushing",
+          "timestamp": "2024-08-15T08:53:54Z",
+          "url": "https://github.com/asterinas/asterinas/commit/99a22ff124972872838fa5dc7094fa9a5eea557e"
+        },
+        "date": 1723754288542,
+        "tool": "customSmallerIsBetter",
+        "description": "The latency of signal handling on a single processor.",
+        "benches": [
+          {
+            "name": "Average Signal handler overhead on Linux",
+            "value": "1.0843",
+            "unit": "µs",
+            "extra": "linux_avg"
+          },
+          {
+            "name": "Average Signal handler overhead on Asterinas",
+            "value": "0.5551",
             "unit": "µs",
             "extra": "aster_avg"
           }
