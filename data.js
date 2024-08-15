@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1723668650310,
+  "lastUpdate": 1723752153129,
   "repoUrl": "https://github.com/asterinas/asterinas",
   "entries": {
     "sysbench-thread Benchmark": [
@@ -19497,6 +19497,41 @@ window.BENCHMARK_DATA = {
           {
             "name": "Average file read bandwidth on Asterinas",
             "value": "7395.63",
+            "unit": "MB/s",
+            "extra": "aster_avg"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Chen Chengjun",
+            "username": "cchanging",
+            "email": "chenchengjun.ccj@antgroup.com"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "99a22ff124972872838fa5dc7094fa9a5eea557e",
+          "message": "Improve efficiency of global TLB flushing",
+          "timestamp": "2024-08-15T08:53:54Z",
+          "url": "https://github.com/asterinas/asterinas/commit/99a22ff124972872838fa5dc7094fa9a5eea557e"
+        },
+        "date": 1723752150299,
+        "tool": "customBiggerIsBetter",
+        "description": "The bandwidth of reading a file on a single processor.",
+        "benches": [
+          {
+            "name": "Average file read bandwidth on Linux",
+            "value": "8992.06",
+            "unit": "MB/s",
+            "extra": "linux_avg"
+          },
+          {
+            "name": "Average file read bandwidth on Asterinas",
+            "value": "7342.13",
             "unit": "MB/s",
             "extra": "aster_avg"
           }
