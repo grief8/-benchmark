@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1723753004777,
+  "lastUpdate": 1723753109629,
   "repoUrl": "https://github.com/asterinas/asterinas",
   "entries": {
     "sysbench-thread Benchmark": [
@@ -11111,6 +11111,41 @@ window.BENCHMARK_DATA = {
           {
             "name": "Average memory copy bandwidth on Asterinas",
             "value": "13761.69",
+            "unit": "MB/s",
+            "extra": "aster_avg"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Chen Chengjun",
+            "username": "cchanging",
+            "email": "chenchengjun.ccj@antgroup.com"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "99a22ff124972872838fa5dc7094fa9a5eea557e",
+          "message": "Improve efficiency of global TLB flushing",
+          "timestamp": "2024-08-15T08:53:54Z",
+          "url": "https://github.com/asterinas/asterinas/commit/99a22ff124972872838fa5dc7094fa9a5eea557e"
+        },
+        "date": 1723753107776,
+        "tool": "customBiggerIsBetter",
+        "description": "The memory bandwidth for copying 128 MB of data on a single processor using the fcp (fast copy) method.",
+        "benches": [
+          {
+            "name": "Average memory copy bandwidth on Linux",
+            "value": "14108.88",
+            "unit": "MB/s",
+            "extra": "linux_avg"
+          },
+          {
+            "name": "Average memory copy bandwidth on Asterinas",
+            "value": "13588.92",
             "unit": "MB/s",
             "extra": "aster_avg"
           }
