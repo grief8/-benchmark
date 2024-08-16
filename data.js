@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1723782003907,
+  "lastUpdate": 1723782123268,
   "repoUrl": "https://github.com/asterinas/asterinas",
   "entries": {
     "sysbench-thread Benchmark": [
@@ -22690,6 +22690,41 @@ window.BENCHMARK_DATA = {
           {
             "name": "Number of created/deleted files on Asterinas",
             "value": "658",
+            "unit": "number",
+            "extra": "aster_avg"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Jianfeng Jiang",
+            "username": "StevenJiang1110",
+            "email": "jiangjianfeng.jjf@antgroup.com"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "0291b5dc6bb142b9c6165c1cb29b7658eefdaa63",
+          "message": "Optimize the latency of lmbench-select-file",
+          "timestamp": "2024-08-15T03:44:30Z",
+          "url": "https://github.com/asterinas/asterinas/commit/0291b5dc6bb142b9c6165c1cb29b7658eefdaa63"
+        },
+        "date": 1723782120279,
+        "tool": "customBiggerIsBetter",
+        "description": "The number of 10k-sized files created then deleted over a duration.",
+        "benches": [
+          {
+            "name": "Number of created/deleted files on Linux",
+            "value": "1101",
+            "unit": "number",
+            "extra": "linux_avg"
+          },
+          {
+            "name": "Number of created/deleted files on Asterinas",
+            "value": "673",
             "unit": "number",
             "extra": "aster_avg"
           }
