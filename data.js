@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1723779405323,
+  "lastUpdate": 1723779530361,
   "repoUrl": "https://github.com/asterinas/asterinas",
   "entries": {
     "sysbench-thread Benchmark": [
@@ -4803,6 +4803,41 @@ window.BENCHMARK_DATA = {
           {
             "name": "Average syscall latency on Asterinas",
             "value": "0.1554",
+            "unit": "µs",
+            "extra": "aster_avg"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Jianfeng Jiang",
+            "username": "StevenJiang1110",
+            "email": "jiangjianfeng.jjf@antgroup.com"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "0291b5dc6bb142b9c6165c1cb29b7658eefdaa63",
+          "message": "Optimize the latency of lmbench-select-file",
+          "timestamp": "2024-08-15T03:44:30Z",
+          "url": "https://github.com/asterinas/asterinas/commit/0291b5dc6bb142b9c6165c1cb29b7658eefdaa63"
+        },
+        "date": 1723779524293,
+        "tool": "customSmallerIsBetter",
+        "description": "The latency of the getpid system call on a single processor.",
+        "benches": [
+          {
+            "name": "Average syscall latency on Linux",
+            "value": "0.2845",
+            "unit": "µs",
+            "extra": "linux_avg"
+          },
+          {
+            "name": "Average syscall latency on Asterinas",
+            "value": "0.1562",
             "unit": "µs",
             "extra": "aster_avg"
           }
