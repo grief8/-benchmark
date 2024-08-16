@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1723781745419,
+  "lastUpdate": 1723781860159,
   "repoUrl": "https://github.com/asterinas/asterinas",
   "entries": {
     "sysbench-thread Benchmark": [
@@ -9389,6 +9389,41 @@ window.BENCHMARK_DATA = {
           {
             "name": "Average exec latency on Asterinas",
             "value": "567.0000",
+            "unit": "µs",
+            "extra": "aster_avg"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Jianfeng Jiang",
+            "username": "StevenJiang1110",
+            "email": "jiangjianfeng.jjf@antgroup.com"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "0291b5dc6bb142b9c6165c1cb29b7658eefdaa63",
+          "message": "Optimize the latency of lmbench-select-file",
+          "timestamp": "2024-08-15T03:44:30Z",
+          "url": "https://github.com/asterinas/asterinas/commit/0291b5dc6bb142b9c6165c1cb29b7658eefdaa63"
+        },
+        "date": 1723781858256,
+        "tool": "customSmallerIsBetter",
+        "description": "The latency of creating and executing processes on a single processor.",
+        "benches": [
+          {
+            "name": "Average exec latency on Linux",
+            "value": "257.4000",
+            "unit": "µs",
+            "extra": "linux_avg"
+          },
+          {
+            "name": "Average exec latency on Asterinas",
+            "value": "548.7000",
             "unit": "µs",
             "extra": "aster_avg"
           }
