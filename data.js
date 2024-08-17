@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1723925106130,
+  "lastUpdate": 1723925229158,
   "repoUrl": "https://github.com/asterinas/asterinas",
   "entries": {
     "sysbench-thread Benchmark": [
@@ -22297,6 +22297,41 @@ window.BENCHMARK_DATA = {
           {
             "name": "Average file read bandwidth on Asterinas",
             "value": "7382.10",
+            "unit": "MB/s",
+            "extra": "aster_avg"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Fabing Li",
+            "username": "grief8",
+            "email": "lifabing.lfb@antgroup.com"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "ce2af1eb057077753a7a757edc1833e677a83918",
+          "message": "Add flock and sys_flock",
+          "timestamp": "2024-08-12T03:51:41Z",
+          "url": "https://github.com/asterinas/asterinas/commit/ce2af1eb057077753a7a757edc1833e677a83918"
+        },
+        "date": 1723925227205,
+        "tool": "customBiggerIsBetter",
+        "description": "The bandwidth of reading a file on a single processor.",
+        "benches": [
+          {
+            "name": "Average file read bandwidth on Linux",
+            "value": "8818.22",
+            "unit": "MB/s",
+            "extra": "linux_avg"
+          },
+          {
+            "name": "Average file read bandwidth on Asterinas",
+            "value": "7403.38",
             "unit": "MB/s",
             "extra": "aster_avg"
           }
