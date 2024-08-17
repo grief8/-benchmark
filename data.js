@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1723926324020,
+  "lastUpdate": 1723926447106,
   "repoUrl": "https://github.com/asterinas/asterinas",
   "entries": {
     "sysbench-thread Benchmark": [
@@ -24828,6 +24828,43 @@ window.BENCHMARK_DATA = {
             "name": "Number of created/deleted files on Asterinas",
             "value": "1001",
             "unit": "number",
+            "extra": "aster_avg"
+          }
+        ]
+      }
+    ],
+    "lmbench-pagefault Benchmark": [
+      {
+        "commit": {
+          "author": {
+            "name": "Fabing Li",
+            "username": "grief8",
+            "email": "lifabing.lfb@antgroup.com"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "ce2af1eb057077753a7a757edc1833e677a83918",
+          "message": "Add flock and sys_flock",
+          "timestamp": "2024-08-12T03:51:41Z",
+          "url": "https://github.com/asterinas/asterinas/commit/ce2af1eb057077753a7a757edc1833e677a83918"
+        },
+        "date": 1723926444154,
+        "tool": "customSmallerIsBetter",
+        "description": "The latency of handling page fault on a single processor.",
+        "benches": [
+          {
+            "name": "Average page fault latency on Linux",
+            "value": "0.1327",
+            "unit": "µs",
+            "extra": "linux_avg"
+          },
+          {
+            "name": "Average page fault latency on Asterinas",
+            "value": "1.4525",
+            "unit": "µs",
             "extra": "aster_avg"
           }
         ]
