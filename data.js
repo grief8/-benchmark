@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1723924984573,
+  "lastUpdate": 1723925106130,
   "repoUrl": "https://github.com/asterinas/asterinas",
   "entries": {
     "sysbench-thread Benchmark": [
@@ -8982,6 +8982,41 @@ window.BENCHMARK_DATA = {
           {
             "name": "Average context switch latency on Asterinas",
             "value": "2.00",
+            "unit": "µs",
+            "extra": "aster_avg"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Fabing Li",
+            "username": "grief8",
+            "email": "lifabing.lfb@antgroup.com"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "ce2af1eb057077753a7a757edc1833e677a83918",
+          "message": "Add flock and sys_flock",
+          "timestamp": "2024-08-12T03:51:41Z",
+          "url": "https://github.com/asterinas/asterinas/commit/ce2af1eb057077753a7a757edc1833e677a83918"
+        },
+        "date": 1723925103196,
+        "tool": "customSmallerIsBetter",
+        "description": "The latency of context switching between 18 contexts on a single processor.",
+        "benches": [
+          {
+            "name": "Average context switch latency on Linux",
+            "value": "1.79",
+            "unit": "µs",
+            "extra": "linux_avg"
+          },
+          {
+            "name": "Average context switch latency on Asterinas",
+            "value": "1.94",
             "unit": "µs",
             "extra": "aster_avg"
           }
