@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1724099233465,
+  "lastUpdate": 1724099356927,
   "repoUrl": "https://github.com/asterinas/asterinas",
   "entries": {
     "sysbench-thread Benchmark": [
@@ -25779,6 +25779,43 @@ window.BENCHMARK_DATA = {
             "name": "Average mmap bandwidth on Asterinas",
             "value": "25880.78",
             "unit": "MB/s",
+            "extra": "aster_avg"
+          }
+        ]
+      }
+    ],
+    "lmbench-mmap-latency Benchmark": [
+      {
+        "commit": {
+          "author": {
+            "name": "Yuke Peng",
+            "username": "sdww0",
+            "email": "pykfirst@gmail.com"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "bbe43d76cc25538f04261379407f4fa721a13431",
+          "message": "Fix compile error due to `lock_irq_disabled`",
+          "timestamp": "2024-08-19T01:02:51Z",
+          "url": "https://github.com/asterinas/asterinas/commit/bbe43d76cc25538f04261379407f4fa721a13431"
+        },
+        "date": 1724099355188,
+        "tool": "customSmallerIsBetter",
+        "description": "The latency of mmap on a single processor.",
+        "benches": [
+          {
+            "name": "Average mmap latency on Linux",
+            "value": "1958",
+            "unit": "µs",
+            "extra": "linux_avg"
+          },
+          {
+            "name": "Average mmap latency on Asterinas",
+            "value": "2216",
+            "unit": "µs",
             "extra": "aster_avg"
           }
         ]
