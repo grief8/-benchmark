@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1724099101213,
+  "lastUpdate": 1724099233465,
   "repoUrl": "https://github.com/asterinas/asterinas",
   "entries": {
     "sysbench-thread Benchmark": [
@@ -25742,6 +25742,43 @@ window.BENCHMARK_DATA = {
             "name": "Average file locking latency on Asterinas",
             "value": "0.8688",
             "unit": "µs",
+            "extra": "aster_avg"
+          }
+        ]
+      }
+    ],
+    "lmbench-mmap-bandwidth Benchmark": [
+      {
+        "commit": {
+          "author": {
+            "name": "Yuke Peng",
+            "username": "sdww0",
+            "email": "pykfirst@gmail.com"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "bbe43d76cc25538f04261379407f4fa721a13431",
+          "message": "Fix compile error due to `lock_irq_disabled`",
+          "timestamp": "2024-08-19T01:02:51Z",
+          "url": "https://github.com/asterinas/asterinas/commit/bbe43d76cc25538f04261379407f4fa721a13431"
+        },
+        "date": 1724099226682,
+        "tool": "customBiggerIsBetter",
+        "description": "The bandwidth of mmap on a single processor.",
+        "benches": [
+          {
+            "name": "Average mmap bandwidth on Linux",
+            "value": "25709.75",
+            "unit": "MB/s",
+            "extra": "linux_avg"
+          },
+          {
+            "name": "Average mmap bandwidth on Asterinas",
+            "value": "25880.78",
+            "unit": "MB/s",
             "extra": "aster_avg"
           }
         ]
