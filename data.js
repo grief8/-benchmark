@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1724098235894,
+  "lastUpdate": 1724098362654,
   "repoUrl": "https://github.com/asterinas/asterinas",
   "entries": {
     "sysbench-thread Benchmark": [
@@ -25245,6 +25245,41 @@ window.BENCHMARK_DATA = {
           {
             "name": "Number of created/deleted files on Asterinas",
             "value": "683",
+            "unit": "number",
+            "extra": "aster_avg"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Yuke Peng",
+            "username": "sdww0",
+            "email": "pykfirst@gmail.com"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "bbe43d76cc25538f04261379407f4fa721a13431",
+          "message": "Fix compile error due to `lock_irq_disabled`",
+          "timestamp": "2024-08-19T01:02:51Z",
+          "url": "https://github.com/asterinas/asterinas/commit/bbe43d76cc25538f04261379407f4fa721a13431"
+        },
+        "date": 1724098359588,
+        "tool": "customBiggerIsBetter",
+        "description": "The number of 10k-sized files created then deleted over a duration.",
+        "benches": [
+          {
+            "name": "Number of created/deleted files on Linux",
+            "value": "1091",
+            "unit": "number",
+            "extra": "linux_avg"
+          },
+          {
+            "name": "Number of created/deleted files on Asterinas",
+            "value": "688",
             "unit": "number",
             "extra": "aster_avg"
           }
