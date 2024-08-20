@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1724187063165,
+  "lastUpdate": 1724187193037,
   "repoUrl": "https://github.com/asterinas/asterinas",
   "entries": {
     "sysbench-thread Benchmark": [
@@ -27254,6 +27254,41 @@ window.BENCHMARK_DATA = {
           {
             "name": "Average protection fault latency on Asterinas",
             "value": "0.6136",
+            "unit": "µs",
+            "extra": "aster_avg"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Marsman1996",
+            "username": "Marsman1996",
+            "email": "lqliuyuwei@outlook.com"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "fda0fa051265867c2399f4981fdccb9cc6df110d",
+          "message": "Align `len` in `madvise`",
+          "timestamp": "2024-08-19T09:01:16Z",
+          "url": "https://github.com/asterinas/asterinas/commit/fda0fa051265867c2399f4981fdccb9cc6df110d"
+        },
+        "date": 1724187189994,
+        "tool": "customSmallerIsBetter",
+        "description": "The latency to catch a protection fault on a single processor.",
+        "benches": [
+          {
+            "name": "Average protection fault latency on Linux",
+            "value": "0.6444",
+            "unit": "µs",
+            "extra": "linux_avg"
+          },
+          {
+            "name": "Average protection fault latency on Asterinas",
+            "value": "0.6242",
             "unit": "µs",
             "extra": "aster_avg"
           }
