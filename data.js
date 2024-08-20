@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1724186827824,
+  "lastUpdate": 1724186946420,
   "repoUrl": "https://github.com/asterinas/asterinas",
   "entries": {
     "sysbench-thread Benchmark": [
@@ -8261,6 +8261,41 @@ window.BENCHMARK_DATA = {
           {
             "name": "Average Signal handler overhead on Asterinas",
             "value": "0.5544",
+            "unit": "µs",
+            "extra": "aster_avg"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Marsman1996",
+            "username": "Marsman1996",
+            "email": "lqliuyuwei@outlook.com"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "fda0fa051265867c2399f4981fdccb9cc6df110d",
+          "message": "Align `len` in `madvise`",
+          "timestamp": "2024-08-19T09:01:16Z",
+          "url": "https://github.com/asterinas/asterinas/commit/fda0fa051265867c2399f4981fdccb9cc6df110d"
+        },
+        "date": 1724186943316,
+        "tool": "customSmallerIsBetter",
+        "description": "The latency of signal handling on a single processor.",
+        "benches": [
+          {
+            "name": "Average Signal handler overhead on Linux",
+            "value": "1.1178",
+            "unit": "µs",
+            "extra": "linux_avg"
+          },
+          {
+            "name": "Average Signal handler overhead on Asterinas",
+            "value": "0.5622",
             "unit": "µs",
             "extra": "aster_avg"
           }
