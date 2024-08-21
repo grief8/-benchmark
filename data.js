@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1724271181236,
+  "lastUpdate": 1724271299099,
   "repoUrl": "https://github.com/asterinas/asterinas",
   "entries": {
     "sysbench-thread Benchmark": [
@@ -27207,6 +27207,41 @@ window.BENCHMARK_DATA = {
           {
             "name": "Number of created/deleted files on Asterinas",
             "value": "987",
+            "unit": "number",
+            "extra": "aster_avg"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Shaowei Song",
+            "username": "lucassong-mh",
+            "email": "songshaowei.ssw@antgroup.com"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "2102107be18729fba8f3546d5a3fe39c819d814a",
+          "message": "Refactor `VmReader`&`VmWriter` as given fallibility marker",
+          "timestamp": "2024-08-20T02:05:25Z",
+          "url": "https://github.com/asterinas/asterinas/commit/2102107be18729fba8f3546d5a3fe39c819d814a"
+        },
+        "date": 1724271297391,
+        "tool": "customBiggerIsBetter",
+        "description": "The number of 0k-sized files created then deleted over a duration.",
+        "benches": [
+          {
+            "name": "Number of created/deleted files on Linux",
+            "value": "2443",
+            "unit": "number",
+            "extra": "linux_avg"
+          },
+          {
+            "name": "Number of created/deleted files on Asterinas",
+            "value": "1020",
             "unit": "number",
             "extra": "aster_avg"
           }
