@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1724272993228,
+  "lastUpdate": 1724273139888,
   "repoUrl": "https://github.com/asterinas/asterinas",
   "entries": {
     "sysbench-thread Benchmark": [
@@ -28127,6 +28127,41 @@ window.BENCHMARK_DATA = {
           {
             "name": "Average semaphore latency on Asterinas",
             "value": "1.1829",
+            "unit": "µs",
+            "extra": "aster_avg"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Shaowei Song",
+            "username": "lucassong-mh",
+            "email": "songshaowei.ssw@antgroup.com"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "2102107be18729fba8f3546d5a3fe39c819d814a",
+          "message": "Refactor `VmReader`&`VmWriter` as given fallibility marker",
+          "timestamp": "2024-08-20T02:05:25Z",
+          "url": "https://github.com/asterinas/asterinas/commit/2102107be18729fba8f3546d5a3fe39c819d814a"
+        },
+        "date": 1724273136673,
+        "tool": "customSmallerIsBetter",
+        "description": "The latency of semaphore on a single processor.",
+        "benches": [
+          {
+            "name": "Average semaphore latency on Linux",
+            "value": "0.7131",
+            "unit": "µs",
+            "extra": "linux_avg"
+          },
+          {
+            "name": "Average semaphore latency on Asterinas",
+            "value": "1.1836",
             "unit": "µs",
             "extra": "aster_avg"
           }
