@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1724272152404,
+  "lastUpdate": 1724272270916,
   "repoUrl": "https://github.com/asterinas/asterinas",
   "entries": {
     "sysbench-thread Benchmark": [
@@ -17089,6 +17089,41 @@ window.BENCHMARK_DATA = {
           {
             "name": "Average open latency on Asterinas",
             "value": "1.0086",
+            "unit": "µs",
+            "extra": "aster_avg"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Shaowei Song",
+            "username": "lucassong-mh",
+            "email": "songshaowei.ssw@antgroup.com"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "2102107be18729fba8f3546d5a3fe39c819d814a",
+          "message": "Refactor `VmReader`&`VmWriter` as given fallibility marker",
+          "timestamp": "2024-08-20T02:05:25Z",
+          "url": "https://github.com/asterinas/asterinas/commit/2102107be18729fba8f3546d5a3fe39c819d814a"
+        },
+        "date": 1724272267739,
+        "tool": "customSmallerIsBetter",
+        "description": "The latency of the open system call on a single processor.",
+        "benches": [
+          {
+            "name": "Average open latency on Linux",
+            "value": "1.2668",
+            "unit": "µs",
+            "extra": "linux_avg"
+          },
+          {
+            "name": "Average open latency on Asterinas",
+            "value": "0.9882",
             "unit": "µs",
             "extra": "aster_avg"
           }
