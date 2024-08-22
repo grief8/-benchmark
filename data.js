@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1724359119294,
+  "lastUpdate": 1724359267448,
   "repoUrl": "https://github.com/asterinas/asterinas",
   "entries": {
     "sysbench-thread Benchmark": [
@@ -28469,6 +28469,41 @@ window.BENCHMARK_DATA = {
           {
             "name": "Average page fault latency on Asterinas",
             "value": "1.5279",
+            "unit": "µs",
+            "extra": "aster_avg"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Yuke Peng",
+            "username": "sdww0",
+            "email": "pykfirst@gmail.com"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "bb4751741a6cd6b919015f8f483512c90e73bf55",
+          "message": "Bump smoltcp to newest git version",
+          "timestamp": "2024-08-22T06:34:41Z",
+          "url": "https://github.com/asterinas/asterinas/commit/bb4751741a6cd6b919015f8f483512c90e73bf55"
+        },
+        "date": 1724359264358,
+        "tool": "customSmallerIsBetter",
+        "description": "The latency of handling page fault on a single processor.",
+        "benches": [
+          {
+            "name": "Average page fault latency on Linux",
+            "value": "0.1335",
+            "unit": "µs",
+            "extra": "linux_avg"
+          },
+          {
+            "name": "Average page fault latency on Asterinas",
+            "value": "1.5166",
             "unit": "µs",
             "extra": "aster_avg"
           }
