@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1724360079491,
+  "lastUpdate": 1724360230430,
   "repoUrl": "https://github.com/asterinas/asterinas",
   "entries": {
     "sysbench-thread Benchmark": [
@@ -18580,6 +18580,41 @@ window.BENCHMARK_DATA = {
           {
             "name": "Average shell latency on Asterinas",
             "value": "831.8571",
+            "unit": "µs",
+            "extra": "aster_avg"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Yuke Peng",
+            "username": "sdww0",
+            "email": "pykfirst@gmail.com"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "bb4751741a6cd6b919015f8f483512c90e73bf55",
+          "message": "Bump smoltcp to newest git version",
+          "timestamp": "2024-08-22T06:34:41Z",
+          "url": "https://github.com/asterinas/asterinas/commit/bb4751741a6cd6b919015f8f483512c90e73bf55"
+        },
+        "date": 1724360227203,
+        "tool": "customSmallerIsBetter",
+        "description": "The latency of creating and executing a shell process on a single processor.",
+        "benches": [
+          {
+            "name": "Average shell latency on Linux",
+            "value": "407.7692",
+            "unit": "µs",
+            "extra": "linux_avg"
+          },
+          {
+            "name": "Average shell latency on Asterinas",
+            "value": "747.5000",
             "unit": "µs",
             "extra": "aster_avg"
           }
