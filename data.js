@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1724445702865,
+  "lastUpdate": 1724445838962,
   "repoUrl": "https://github.com/asterinas/asterinas",
   "entries": {
     "sysbench-thread Benchmark": [
@@ -17929,6 +17929,41 @@ window.BENCHMARK_DATA = {
           {
             "name": "Average open latency on Asterinas",
             "value": "0.9926",
+            "unit": "µs",
+            "extra": "aster_avg"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Zhang Junyang",
+            "username": "junyang-zh",
+            "email": "junyang@stu.pku.edu.cn"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "e50b05d1ee71f52679e8ed8ea310cda6bfcd7e0c",
+          "message": "Bump version to 0.8.0",
+          "timestamp": "2024-08-23T14:57:42Z",
+          "url": "https://github.com/asterinas/asterinas/commit/e50b05d1ee71f52679e8ed8ea310cda6bfcd7e0c"
+        },
+        "date": 1724445835573,
+        "tool": "customSmallerIsBetter",
+        "description": "The latency of the open system call on a single processor.",
+        "benches": [
+          {
+            "name": "Average open latency on Linux",
+            "value": "1.1759",
+            "unit": "µs",
+            "extra": "linux_avg"
+          },
+          {
+            "name": "Average open latency on Asterinas",
+            "value": "1.0112",
             "unit": "µs",
             "extra": "aster_avg"
           }
