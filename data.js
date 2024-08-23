@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1724444214282,
+  "lastUpdate": 1724444367592,
   "repoUrl": "https://github.com/asterinas/asterinas",
   "entries": {
     "sysbench-thread Benchmark": [
@@ -28922,6 +28922,41 @@ window.BENCHMARK_DATA = {
           {
             "name": "Number of created/deleted files on Asterinas",
             "value": "997",
+            "unit": "number",
+            "extra": "aster_avg"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Zhang Junyang",
+            "username": "junyang-zh",
+            "email": "junyang@stu.pku.edu.cn"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "e50b05d1ee71f52679e8ed8ea310cda6bfcd7e0c",
+          "message": "Bump version to 0.8.0",
+          "timestamp": "2024-08-23T14:57:42Z",
+          "url": "https://github.com/asterinas/asterinas/commit/e50b05d1ee71f52679e8ed8ea310cda6bfcd7e0c"
+        },
+        "date": 1724444359646,
+        "tool": "customBiggerIsBetter",
+        "description": "The number of 0k-sized files created then deleted over a duration.",
+        "benches": [
+          {
+            "name": "Number of created/deleted files on Linux",
+            "value": "2367",
+            "unit": "number",
+            "extra": "linux_avg"
+          },
+          {
+            "name": "Number of created/deleted files on Asterinas",
+            "value": "1043",
             "unit": "number",
             "extra": "aster_avg"
           }
