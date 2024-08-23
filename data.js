@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1724445838962,
+  "lastUpdate": 1724445993691,
   "repoUrl": "https://github.com/asterinas/asterinas",
   "entries": {
     "sysbench-thread Benchmark": [
@@ -29379,6 +29379,41 @@ window.BENCHMARK_DATA = {
           {
             "name": "Average page fault latency on Asterinas",
             "value": "1.5166",
+            "unit": "µs",
+            "extra": "aster_avg"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Zhang Junyang",
+            "username": "junyang-zh",
+            "email": "junyang@stu.pku.edu.cn"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "e50b05d1ee71f52679e8ed8ea310cda6bfcd7e0c",
+          "message": "Bump version to 0.8.0",
+          "timestamp": "2024-08-23T14:57:42Z",
+          "url": "https://github.com/asterinas/asterinas/commit/e50b05d1ee71f52679e8ed8ea310cda6bfcd7e0c"
+        },
+        "date": 1724445990337,
+        "tool": "customSmallerIsBetter",
+        "description": "The latency of handling page fault on a single processor.",
+        "benches": [
+          {
+            "name": "Average page fault latency on Linux",
+            "value": "0.1332",
+            "unit": "µs",
+            "extra": "linux_avg"
+          },
+          {
+            "name": "Average page fault latency on Asterinas",
+            "value": "1.1747",
             "unit": "µs",
             "extra": "aster_avg"
           }
