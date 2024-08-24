@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1724529784487,
+  "lastUpdate": 1724529920221,
   "repoUrl": "https://github.com/asterinas/asterinas",
   "entries": {
     "sysbench-thread Benchmark": [
@@ -30081,6 +30081,41 @@ window.BENCHMARK_DATA = {
           {
             "name": "Average file locking latency on Asterinas",
             "value": "0.8543",
+            "unit": "µs",
+            "extra": "aster_avg"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Zhang Junyang",
+            "username": "junyang-zh",
+            "email": "junyang@stu.pku.edu.cn"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "d22277a3e69040906cd198ea625614c5c69d66da",
+          "message": "Allow manually dispatching publishing workflows",
+          "timestamp": "2024-08-24T09:27:15Z",
+          "url": "https://github.com/asterinas/asterinas/commit/d22277a3e69040906cd198ea625614c5c69d66da"
+        },
+        "date": 1724529916874,
+        "tool": "customSmallerIsBetter",
+        "description": "The latency of file locking on a single processor.",
+        "benches": [
+          {
+            "name": "Average file locking latency on Linux",
+            "value": "2.9901",
+            "unit": "µs",
+            "extra": "linux_avg"
+          },
+          {
+            "name": "Average file locking latency on Asterinas",
+            "value": "0.8424",
             "unit": "µs",
             "extra": "aster_avg"
           }
