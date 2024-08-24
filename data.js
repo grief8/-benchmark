@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1724534133428,
+  "lastUpdate": 1724534280323,
   "repoUrl": "https://github.com/asterinas/asterinas",
   "entries": {
     "sysbench-thread Benchmark": [
@@ -22195,6 +22195,41 @@ window.BENCHMARK_DATA = {
           {
             "name": "Average unix latency on Asterinas",
             "value": "3.6581",
+            "unit": "µs",
+            "extra": "aster_avg"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Zhang Junyang",
+            "username": "junyang-zh",
+            "email": "junyang@stu.pku.edu.cn"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "d22277a3e69040906cd198ea625614c5c69d66da",
+          "message": "Allow manually dispatching publishing workflows",
+          "timestamp": "2024-08-24T09:27:15Z",
+          "url": "https://github.com/asterinas/asterinas/commit/d22277a3e69040906cd198ea625614c5c69d66da"
+        },
+        "date": 1724534278415,
+        "tool": "customSmallerIsBetter",
+        "description": "The latency of UNIX domain socket communication on a single processor.",
+        "benches": [
+          {
+            "name": "Average unix latency on Linux",
+            "value": "4.5849",
+            "unit": "µs",
+            "extra": "linux_avg"
+          },
+          {
+            "name": "Average unix latency on Asterinas",
+            "value": "3.6375",
             "unit": "µs",
             "extra": "aster_avg"
           }
