@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1724532238582,
+  "lastUpdate": 1724532414821,
   "repoUrl": "https://github.com/asterinas/asterinas",
   "entries": {
     "sysbench-thread Benchmark": [
@@ -23068,6 +23068,41 @@ window.BENCHMARK_DATA = {
           {
             "name": "Average pipe bandwidth on Asterinas",
             "value": "5651.49",
+            "unit": "MB/s",
+            "extra": "aster_avg"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Zhang Junyang",
+            "username": "junyang-zh",
+            "email": "junyang@stu.pku.edu.cn"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "d22277a3e69040906cd198ea625614c5c69d66da",
+          "message": "Allow manually dispatching publishing workflows",
+          "timestamp": "2024-08-24T09:27:15Z",
+          "url": "https://github.com/asterinas/asterinas/commit/d22277a3e69040906cd198ea625614c5c69d66da"
+        },
+        "date": 1724532411337,
+        "tool": "customBiggerIsBetter",
+        "description": "The bandwidth of pipe on a single processor.",
+        "benches": [
+          {
+            "name": "Average pipe bandwidth on Linux",
+            "value": "9457.05",
+            "unit": "MB/s",
+            "extra": "linux_avg"
+          },
+          {
+            "name": "Average pipe bandwidth on Asterinas",
+            "value": "5629.72",
             "unit": "MB/s",
             "extra": "aster_avg"
           }
