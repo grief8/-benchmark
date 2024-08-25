@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1724617498263,
+  "lastUpdate": 1724617630106,
   "repoUrl": "https://github.com/asterinas/asterinas",
   "entries": {
     "sysbench-thread Benchmark": [
@@ -32261,6 +32261,41 @@ window.BENCHMARK_DATA = {
           {
             "name": "Average file copy bandwidth on Asterinas",
             "value": "231.2000",
+            "unit": "MB/s",
+            "extra": "aster_avg"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Zhang Junyang",
+            "username": "junyang-zh",
+            "email": "junyang@stu.pku.edu.cn"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "4231645c02ec317d99f0150bc8ed3210489855a0",
+          "message": "Fix `is_tdx_enabled` in OSDK tests",
+          "timestamp": "2024-08-25T12:16:30Z",
+          "url": "https://github.com/asterinas/asterinas/commit/4231645c02ec317d99f0150bc8ed3210489855a0"
+        },
+        "date": 1724617626769,
+        "tool": "customBiggerIsBetter",
+        "description": "The bandwidth of file copy.",
+        "benches": [
+          {
+            "name": "Average file copy bandwidth on Linux",
+            "value": "1745.1947",
+            "unit": "MB/s",
+            "extra": "linux_avg"
+          },
+          {
+            "name": "Average file copy bandwidth on Asterinas",
+            "value": "243.8894",
             "unit": "MB/s",
             "extra": "aster_avg"
           }
