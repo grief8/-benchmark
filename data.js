@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1724620655042,
+  "lastUpdate": 1724620790359,
   "repoUrl": "https://github.com/asterinas/asterinas",
   "entries": {
     "sysbench-thread Benchmark": [
@@ -26810,6 +26810,41 @@ window.BENCHMARK_DATA = {
           {
             "name": "Average write latency on Asterinas",
             "value": "0.2601",
+            "unit": "µs",
+            "extra": "aster_avg"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Zhang Junyang",
+            "username": "junyang-zh",
+            "email": "junyang@stu.pku.edu.cn"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "4231645c02ec317d99f0150bc8ed3210489855a0",
+          "message": "Fix `is_tdx_enabled` in OSDK tests",
+          "timestamp": "2024-08-25T12:16:30Z",
+          "url": "https://github.com/asterinas/asterinas/commit/4231645c02ec317d99f0150bc8ed3210489855a0"
+        },
+        "date": 1724620786927,
+        "tool": "customSmallerIsBetter",
+        "description": "The latency of the write system call on a single processor.",
+        "benches": [
+          {
+            "name": "Average write latency on Linux",
+            "value": "0.1106",
+            "unit": "µs",
+            "extra": "linux_avg"
+          },
+          {
+            "name": "Average write latency on Asterinas",
+            "value": "0.2528",
             "unit": "µs",
             "extra": "aster_avg"
           }
