@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1724616327789,
+  "lastUpdate": 1724616476677,
   "repoUrl": "https://github.com/asterinas/asterinas",
   "entries": {
     "sysbench-thread Benchmark": [
@@ -10452,6 +10452,41 @@ window.BENCHMARK_DATA = {
           {
             "name": "Average context switch latency on Asterinas",
             "value": "1.85",
+            "unit": "µs",
+            "extra": "aster_avg"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Zhang Junyang",
+            "username": "junyang-zh",
+            "email": "junyang@stu.pku.edu.cn"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "4231645c02ec317d99f0150bc8ed3210489855a0",
+          "message": "Fix `is_tdx_enabled` in OSDK tests",
+          "timestamp": "2024-08-25T12:16:30Z",
+          "url": "https://github.com/asterinas/asterinas/commit/4231645c02ec317d99f0150bc8ed3210489855a0"
+        },
+        "date": 1724616469090,
+        "tool": "customSmallerIsBetter",
+        "description": "The latency of context switching between 18 contexts on a single processor.",
+        "benches": [
+          {
+            "name": "Average context switch latency on Linux",
+            "value": "1.04",
+            "unit": "µs",
+            "extra": "linux_avg"
+          },
+          {
+            "name": "Average context switch latency on Asterinas",
+            "value": "1.84",
             "unit": "µs",
             "extra": "aster_avg"
           }
