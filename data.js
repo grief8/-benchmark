@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1724703992854,
+  "lastUpdate": 1724704136118,
   "repoUrl": "https://github.com/asterinas/asterinas",
   "entries": {
     "sysbench-thread Benchmark": [
@@ -33381,6 +33381,41 @@ window.BENCHMARK_DATA = {
           {
             "name": "Average file copy bandwidth on Asterinas",
             "value": "243.8894",
+            "unit": "MB/s",
+            "extra": "aster_avg"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Chen Chengjun",
+            "username": "cchanging",
+            "email": "chenchengjun.ccj@antgroup.com"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "9e59db2f42c2ef9f8e91e0d1ee03562190726d56",
+          "message": "Make benchmark CI more fair",
+          "timestamp": "2024-08-26T09:41:40Z",
+          "url": "https://github.com/asterinas/asterinas/commit/9e59db2f42c2ef9f8e91e0d1ee03562190726d56"
+        },
+        "date": 1724704133916,
+        "tool": "customBiggerIsBetter",
+        "description": "The bandwidth of file copy.",
+        "benches": [
+          {
+            "name": "Average file copy bandwidth on Linux",
+            "value": "1749.9428",
+            "unit": "MB/s",
+            "extra": "linux_avg"
+          },
+          {
+            "name": "Average file copy bandwidth on Asterinas",
+            "value": "251.9183",
             "unit": "MB/s",
             "extra": "aster_avg"
           }
