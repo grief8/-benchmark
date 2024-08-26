@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1724703225990,
+  "lastUpdate": 1724703397707,
   "repoUrl": "https://github.com/asterinas/asterinas",
   "entries": {
     "sysbench-thread Benchmark": [
@@ -33348,6 +33348,41 @@ window.BENCHMARK_DATA = {
           {
             "name": "Average fifo latency on Asterinas",
             "value": "3.6924",
+            "unit": "µs",
+            "extra": "aster_avg"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Chen Chengjun",
+            "username": "cchanging",
+            "email": "chenchengjun.ccj@antgroup.com"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "9e59db2f42c2ef9f8e91e0d1ee03562190726d56",
+          "message": "Make benchmark CI more fair",
+          "timestamp": "2024-08-26T09:41:40Z",
+          "url": "https://github.com/asterinas/asterinas/commit/9e59db2f42c2ef9f8e91e0d1ee03562190726d56"
+        },
+        "date": 1724703394109,
+        "tool": "customSmallerIsBetter",
+        "description": "The latency of fifo on a single processor.",
+        "benches": [
+          {
+            "name": "Average fifo latency on Linux",
+            "value": "2.6399",
+            "unit": "µs",
+            "extra": "linux_avg"
+          },
+          {
+            "name": "Average fifo latency on Asterinas",
+            "value": "3.7309",
             "unit": "µs",
             "extra": "aster_avg"
           }
