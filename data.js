@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1724704728364,
+  "lastUpdate": 1724704882835,
   "repoUrl": "https://github.com/asterinas/asterinas",
   "entries": {
     "sysbench-thread Benchmark": [
@@ -32885,6 +32885,41 @@ window.BENCHMARK_DATA = {
           {
             "name": "Average mmap latency on Asterinas",
             "value": "2214",
+            "unit": "µs",
+            "extra": "aster_avg"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Chen Chengjun",
+            "username": "cchanging",
+            "email": "chenchengjun.ccj@antgroup.com"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "9e59db2f42c2ef9f8e91e0d1ee03562190726d56",
+          "message": "Make benchmark CI more fair",
+          "timestamp": "2024-08-26T09:41:40Z",
+          "url": "https://github.com/asterinas/asterinas/commit/9e59db2f42c2ef9f8e91e0d1ee03562190726d56"
+        },
+        "date": 1724704875075,
+        "tool": "customSmallerIsBetter",
+        "description": "The latency of mmap on a single processor.",
+        "benches": [
+          {
+            "name": "Average mmap latency on Linux",
+            "value": "1403",
+            "unit": "µs",
+            "extra": "linux_avg"
+          },
+          {
+            "name": "Average mmap latency on Asterinas",
+            "value": "2336",
             "unit": "µs",
             "extra": "aster_avg"
           }
