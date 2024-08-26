@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1724621313969,
+  "lastUpdate": 1724702653352,
   "repoUrl": "https://github.com/asterinas/asterinas",
   "entries": {
     "sysbench-thread Benchmark": [
@@ -11804,6 +11804,41 @@ window.BENCHMARK_DATA = {
           {
             "name": "Average exec latency on Asterinas",
             "value": "399.7857",
+            "unit": "µs",
+            "extra": "aster_avg"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Chen Chengjun",
+            "username": "cchanging",
+            "email": "chenchengjun.ccj@antgroup.com"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "9e59db2f42c2ef9f8e91e0d1ee03562190726d56",
+          "message": "Make benchmark CI more fair",
+          "timestamp": "2024-08-26T09:41:40Z",
+          "url": "https://github.com/asterinas/asterinas/commit/9e59db2f42c2ef9f8e91e0d1ee03562190726d56"
+        },
+        "date": 1724702650188,
+        "tool": "customSmallerIsBetter",
+        "description": "The latency of creating and executing processes on a single processor.",
+        "benches": [
+          {
+            "name": "Average exec latency on Linux",
+            "value": "209.0833",
+            "unit": "µs",
+            "extra": "linux_avg"
+          },
+          {
+            "name": "Average exec latency on Asterinas",
+            "value": "412.1538",
             "unit": "µs",
             "extra": "aster_avg"
           }
