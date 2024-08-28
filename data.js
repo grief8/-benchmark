@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1724822759228,
+  "lastUpdate": 1724822891685,
   "repoUrl": "https://github.com/asterinas/asterinas",
   "entries": {
     "sysbench-thread Benchmark": [
@@ -18118,6 +18118,41 @@ window.BENCHMARK_DATA = {
           {
             "name": "Average memory write bandwidth on Asterinas",
             "value": "8665.08",
+            "unit": "MB/s",
+            "extra": "aster_avg"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Chen Chengjun",
+            "username": "cchanging",
+            "email": "chenchengjun.ccj@antgroup.com"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "468dae33f0be940285844526b792d1f92a457894",
+          "message": "Add an optimization strategy for TLB flushing",
+          "timestamp": "2024-08-28T03:11:59Z",
+          "url": "https://github.com/asterinas/asterinas/commit/468dae33f0be940285844526b792d1f92a457894"
+        },
+        "date": 1724822873798,
+        "tool": "customBiggerIsBetter",
+        "description": "The memory bandwidth for writing 512 MB of data on a single processor using the fwr (fast write) method.",
+        "benches": [
+          {
+            "name": "Average memory write bandwidth on Linux",
+            "value": "8947.55",
+            "unit": "MB/s",
+            "extra": "linux_avg"
+          },
+          {
+            "name": "Average memory write bandwidth on Asterinas",
+            "value": "8715.86",
             "unit": "MB/s",
             "extra": "aster_avg"
           }
