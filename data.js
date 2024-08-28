@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1724878890998,
+  "lastUpdate": 1724879062933,
   "repoUrl": "https://github.com/asterinas/asterinas",
   "entries": {
     "sysbench-thread Benchmark": [
@@ -32663,6 +32663,41 @@ window.BENCHMARK_DATA = {
           {
             "name": "Average unix bandwidth on Asterinas",
             "value": "5537.30",
+            "unit": "MB/s",
+            "extra": "aster_avg"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Shaowei Song",
+            "username": "lucassong-mh",
+            "email": "songshaowei.ssw@antgroup.com"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "e6f465b553f613d60828e0e503dc94ce4109ded1",
+          "message": "Replace all the ring buffers with the new one",
+          "timestamp": "2024-08-28T06:23:24Z",
+          "url": "https://github.com/asterinas/asterinas/commit/e6f465b553f613d60828e0e503dc94ce4109ded1"
+        },
+        "date": 1724879059269,
+        "tool": "customBiggerIsBetter",
+        "description": "The bandwidth of UNIX domain socket communication on a single processor.",
+        "benches": [
+          {
+            "name": "Average unix bandwidth on Linux",
+            "value": "7548.30",
+            "unit": "MB/s",
+            "extra": "linux_avg"
+          },
+          {
+            "name": "Average unix bandwidth on Asterinas",
+            "value": "5464.49",
             "unit": "MB/s",
             "extra": "aster_avg"
           }
