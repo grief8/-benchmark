@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1724823025411,
+  "lastUpdate": 1724823152331,
   "repoUrl": "https://github.com/asterinas/asterinas",
   "entries": {
     "sysbench-thread Benchmark": [
@@ -33900,6 +33900,41 @@ window.BENCHMARK_DATA = {
           {
             "name": "Average mmap latency on Asterinas",
             "value": "2336",
+            "unit": "µs",
+            "extra": "aster_avg"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Chen Chengjun",
+            "username": "cchanging",
+            "email": "chenchengjun.ccj@antgroup.com"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "468dae33f0be940285844526b792d1f92a457894",
+          "message": "Add an optimization strategy for TLB flushing",
+          "timestamp": "2024-08-28T03:11:59Z",
+          "url": "https://github.com/asterinas/asterinas/commit/468dae33f0be940285844526b792d1f92a457894"
+        },
+        "date": 1724823139318,
+        "tool": "customSmallerIsBetter",
+        "description": "The latency of mmap on a single processor.",
+        "benches": [
+          {
+            "name": "Average mmap latency on Linux",
+            "value": "1408",
+            "unit": "µs",
+            "extra": "linux_avg"
+          },
+          {
+            "name": "Average mmap latency on Asterinas",
+            "value": "2171",
             "unit": "µs",
             "extra": "aster_avg"
           }
