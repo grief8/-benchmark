@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1724830904786,
+  "lastUpdate": 1724831032474,
   "repoUrl": "https://github.com/asterinas/asterinas",
   "entries": {
     "sysbench-thread Benchmark": [
@@ -20855,6 +20855,41 @@ window.BENCHMARK_DATA = {
           {
             "name": "Average shell latency on Asterinas",
             "value": "683.3750",
+            "unit": "µs",
+            "extra": "aster_avg"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Jianfeng Jiang",
+            "username": "StevenJiang1110",
+            "email": "jiangjianfeng.jjf@antgroup.com"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "a72c7dadf3b9bb680b3092af6b64084b98008cb7",
+          "message": "Optimize the latency of lmbench-signal-prot",
+          "timestamp": "2024-08-27T06:37:02Z",
+          "url": "https://github.com/asterinas/asterinas/commit/a72c7dadf3b9bb680b3092af6b64084b98008cb7"
+        },
+        "date": 1724831026462,
+        "tool": "customSmallerIsBetter",
+        "description": "The latency of creating and executing a shell process on a single processor.",
+        "benches": [
+          {
+            "name": "Average shell latency on Linux",
+            "value": "341.5333",
+            "unit": "µs",
+            "extra": "linux_avg"
+          },
+          {
+            "name": "Average shell latency on Asterinas",
+            "value": "533.8000",
             "unit": "µs",
             "extra": "aster_avg"
           }
