@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1724878768793,
+  "lastUpdate": 1724878890998,
   "repoUrl": "https://github.com/asterinas/asterinas",
   "entries": {
     "sysbench-thread Benchmark": [
@@ -22802,6 +22802,41 @@ window.BENCHMARK_DATA = {
           {
             "name": "Average stat latency on Asterinas",
             "value": "0.6266",
+            "unit": "µs",
+            "extra": "aster_avg"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Shaowei Song",
+            "username": "lucassong-mh",
+            "email": "songshaowei.ssw@antgroup.com"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "e6f465b553f613d60828e0e503dc94ce4109ded1",
+          "message": "Replace all the ring buffers with the new one",
+          "timestamp": "2024-08-28T06:23:24Z",
+          "url": "https://github.com/asterinas/asterinas/commit/e6f465b553f613d60828e0e503dc94ce4109ded1"
+        },
+        "date": 1724878888511,
+        "tool": "customSmallerIsBetter",
+        "description": "The latency of the stat system call on a single processor.",
+        "benches": [
+          {
+            "name": "Average stat latency on Linux",
+            "value": "0.3165",
+            "unit": "µs",
+            "extra": "linux_avg"
+          },
+          {
+            "name": "Average stat latency on Asterinas",
+            "value": "0.6255",
             "unit": "µs",
             "extra": "aster_avg"
           }
