@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1724822241548,
+  "lastUpdate": 1724822374582,
   "repoUrl": "https://github.com/asterinas/asterinas",
   "entries": {
     "sysbench-thread Benchmark": [
@@ -6028,6 +6028,41 @@ window.BENCHMARK_DATA = {
           {
             "name": "Average syscall latency on Asterinas",
             "value": "0.1559",
+            "unit": "µs",
+            "extra": "aster_avg"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Chen Chengjun",
+            "username": "cchanging",
+            "email": "chenchengjun.ccj@antgroup.com"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "468dae33f0be940285844526b792d1f92a457894",
+          "message": "Add an optimization strategy for TLB flushing",
+          "timestamp": "2024-08-28T03:11:59Z",
+          "url": "https://github.com/asterinas/asterinas/commit/468dae33f0be940285844526b792d1f92a457894"
+        },
+        "date": 1724822368636,
+        "tool": "customSmallerIsBetter",
+        "description": "The latency of the getpid system call on a single processor.",
+        "benches": [
+          {
+            "name": "Average syscall latency on Linux",
+            "value": "0.0908",
+            "unit": "µs",
+            "extra": "linux_avg"
+          },
+          {
+            "name": "Average syscall latency on Asterinas",
+            "value": "0.1579",
             "unit": "µs",
             "extra": "aster_avg"
           }
