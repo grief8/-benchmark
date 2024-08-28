@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1724834908180,
+  "lastUpdate": 1724835013367,
   "repoUrl": "https://github.com/asterinas/asterinas",
   "entries": {
     "sysbench-thread Benchmark": [
@@ -30911,6 +30911,41 @@ window.BENCHMARK_DATA = {
           {
             "name": "Average Signal handler install latency on Asterinas",
             "value": "0.2222",
+            "unit": "µs",
+            "extra": "aster_avg"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Jianfeng Jiang",
+            "username": "StevenJiang1110",
+            "email": "jiangjianfeng.jjf@antgroup.com"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "a72c7dadf3b9bb680b3092af6b64084b98008cb7",
+          "message": "Optimize the latency of lmbench-signal-prot",
+          "timestamp": "2024-08-27T06:37:02Z",
+          "url": "https://github.com/asterinas/asterinas/commit/a72c7dadf3b9bb680b3092af6b64084b98008cb7"
+        },
+        "date": 1724835009627,
+        "tool": "customSmallerIsBetter",
+        "description": "The latency of signal handling on a single processor.",
+        "benches": [
+          {
+            "name": "Average Signal handler install latency on Linux",
+            "value": "0.1448",
+            "unit": "µs",
+            "extra": "linux_avg"
+          },
+          {
+            "name": "Average Signal handler install latency on Asterinas",
+            "value": "0.2061",
             "unit": "µs",
             "extra": "aster_avg"
           }
