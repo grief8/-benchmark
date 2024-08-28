@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1724835013367,
+  "lastUpdate": 1724835128558,
   "repoUrl": "https://github.com/asterinas/asterinas",
   "entries": {
     "sysbench-thread Benchmark": [
@@ -34744,6 +34744,41 @@ window.BENCHMARK_DATA = {
           {
             "name": "Average protection fault latency on Asterinas",
             "value": "0.6086",
+            "unit": "µs",
+            "extra": "aster_avg"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Jianfeng Jiang",
+            "username": "StevenJiang1110",
+            "email": "jiangjianfeng.jjf@antgroup.com"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "a72c7dadf3b9bb680b3092af6b64084b98008cb7",
+          "message": "Optimize the latency of lmbench-signal-prot",
+          "timestamp": "2024-08-27T06:37:02Z",
+          "url": "https://github.com/asterinas/asterinas/commit/a72c7dadf3b9bb680b3092af6b64084b98008cb7"
+        },
+        "date": 1724835124597,
+        "tool": "customSmallerIsBetter",
+        "description": "The latency to catch a protection fault on a single processor.",
+        "benches": [
+          {
+            "name": "Average protection fault latency on Linux",
+            "value": "0.4587",
+            "unit": "µs",
+            "extra": "linux_avg"
+          },
+          {
+            "name": "Average protection fault latency on Asterinas",
+            "value": "0.6063",
             "unit": "µs",
             "extra": "aster_avg"
           }
