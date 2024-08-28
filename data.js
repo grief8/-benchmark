@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1724822374582,
+  "lastUpdate": 1724822497588,
   "repoUrl": "https://github.com/asterinas/asterinas",
   "entries": {
     "sysbench-thread Benchmark": [
@@ -34501,6 +34501,41 @@ window.BENCHMARK_DATA = {
           {
             "name": "Average file copy bandwidth on Asterinas",
             "value": "251.9183",
+            "unit": "MB/s",
+            "extra": "aster_avg"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Chen Chengjun",
+            "username": "cchanging",
+            "email": "chenchengjun.ccj@antgroup.com"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "468dae33f0be940285844526b792d1f92a457894",
+          "message": "Add an optimization strategy for TLB flushing",
+          "timestamp": "2024-08-28T03:11:59Z",
+          "url": "https://github.com/asterinas/asterinas/commit/468dae33f0be940285844526b792d1f92a457894"
+        },
+        "date": 1724822494180,
+        "tool": "customBiggerIsBetter",
+        "description": "The bandwidth of file copy.",
+        "benches": [
+          {
+            "name": "Average file copy bandwidth on Linux",
+            "value": "1740.6795",
+            "unit": "MB/s",
+            "extra": "linux_avg"
+          },
+          {
+            "name": "Average file copy bandwidth on Asterinas",
+            "value": "248.8788",
             "unit": "MB/s",
             "extra": "aster_avg"
           }
