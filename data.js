@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1724823152331,
+  "lastUpdate": 1724823267828,
   "repoUrl": "https://github.com/asterinas/asterinas",
   "entries": {
     "sysbench-thread Benchmark": [
@@ -19609,6 +19609,41 @@ window.BENCHMARK_DATA = {
           {
             "name": "Average open latency on Asterinas",
             "value": "1.0361",
+            "unit": "µs",
+            "extra": "aster_avg"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Chen Chengjun",
+            "username": "cchanging",
+            "email": "chenchengjun.ccj@antgroup.com"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "468dae33f0be940285844526b792d1f92a457894",
+          "message": "Add an optimization strategy for TLB flushing",
+          "timestamp": "2024-08-28T03:11:59Z",
+          "url": "https://github.com/asterinas/asterinas/commit/468dae33f0be940285844526b792d1f92a457894"
+        },
+        "date": 1724823264364,
+        "tool": "customSmallerIsBetter",
+        "description": "The latency of the open system call on a single processor.",
+        "benches": [
+          {
+            "name": "Average open latency on Linux",
+            "value": "0.6902",
+            "unit": "µs",
+            "extra": "linux_avg"
+          },
+          {
+            "name": "Average open latency on Asterinas",
+            "value": "0.9819",
             "unit": "µs",
             "extra": "aster_avg"
           }
