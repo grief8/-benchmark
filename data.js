@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1724822891685,
+  "lastUpdate": 1724823025411,
   "repoUrl": "https://github.com/asterinas/asterinas",
   "entries": {
     "sysbench-thread Benchmark": [
@@ -33583,6 +33583,41 @@ window.BENCHMARK_DATA = {
           {
             "name": "Average mmap bandwidth on Asterinas",
             "value": "29168.26",
+            "unit": "MB/s",
+            "extra": "aster_avg"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Chen Chengjun",
+            "username": "cchanging",
+            "email": "chenchengjun.ccj@antgroup.com"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "468dae33f0be940285844526b792d1f92a457894",
+          "message": "Add an optimization strategy for TLB flushing",
+          "timestamp": "2024-08-28T03:11:59Z",
+          "url": "https://github.com/asterinas/asterinas/commit/468dae33f0be940285844526b792d1f92a457894"
+        },
+        "date": 1724823022839,
+        "tool": "customBiggerIsBetter",
+        "description": "The bandwidth of mmap on a single processor.",
+        "benches": [
+          {
+            "name": "Average mmap bandwidth on Linux",
+            "value": "28265.29",
+            "unit": "MB/s",
+            "extra": "linux_avg"
+          },
+          {
+            "name": "Average mmap bandwidth on Asterinas",
+            "value": "26087.02",
             "unit": "MB/s",
             "extra": "aster_avg"
           }
