@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1724962969238,
+  "lastUpdate": 1724963100624,
   "repoUrl": "https://github.com/asterinas/asterinas",
   "entries": {
     "sysbench-thread Benchmark": [
@@ -39371,6 +39371,43 @@ window.BENCHMARK_DATA = {
             "name": "Average unix connect latency on Asterinas",
             "value": "10.0257",
             "unit": "µs",
+            "extra": "aster_avg"
+          }
+        ]
+      }
+    ],
+    "lmbench-http-bandwidth Benchmark": [
+      {
+        "commit": {
+          "author": {
+            "name": "Yuke Peng",
+            "username": "sdww0",
+            "email": "pykfirst@gmail.com"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "539984bbed414969b0c40cf181a10e9341ed2359",
+          "message": "Replace read with read_raw",
+          "timestamp": "2024-08-29T12:46:20Z",
+          "url": "https://github.com/asterinas/asterinas/commit/539984bbed414969b0c40cf181a10e9341ed2359"
+        },
+        "date": 1724963096458,
+        "tool": "customBiggerIsBetter",
+        "description": "The bandwidth of simple HTTP transaction with 64MB file.",
+        "benches": [
+          {
+            "name": "Average simple HTTP transaction bandwidth on Linux",
+            "value": "4076.85",
+            "unit": "MB/s",
+            "extra": "linux_avg"
+          },
+          {
+            "name": "Average simple HTTP transaction bandwidth on Asterinas",
+            "value": "18.44",
+            "unit": "MB/s",
             "extra": "aster_avg"
           }
         ]
