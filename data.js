@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1724910150612,
+  "lastUpdate": 1724910336302,
   "repoUrl": "https://github.com/asterinas/asterinas",
   "entries": {
     "sysbench-thread Benchmark": [
@@ -36352,6 +36352,41 @@ window.BENCHMARK_DATA = {
           {
             "name": "Average semaphore latency on Asterinas",
             "value": "1.0071",
+            "unit": "µs",
+            "extra": "aster_avg"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Chen Chengjun",
+            "username": "cchanging",
+            "email": "chenchengjun.ccj@antgroup.com"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "00d9b01d5c356fbc5f6b72b9a69a7571fdf0ab1f",
+          "message": "Add a fast path to page table fork",
+          "timestamp": "2024-08-29T03:52:33Z",
+          "url": "https://github.com/asterinas/asterinas/commit/00d9b01d5c356fbc5f6b72b9a69a7571fdf0ab1f"
+        },
+        "date": 1724910326326,
+        "tool": "customSmallerIsBetter",
+        "description": "The latency of semaphore on a single processor.",
+        "benches": [
+          {
+            "name": "Average semaphore latency on Linux",
+            "value": "0.4791",
+            "unit": "µs",
+            "extra": "linux_avg"
+          },
+          {
+            "name": "Average semaphore latency on Asterinas",
+            "value": "0.9409",
             "unit": "µs",
             "extra": "aster_avg"
           }
