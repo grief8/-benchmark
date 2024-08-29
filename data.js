@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1724915297664,
+  "lastUpdate": 1724915423235,
   "repoUrl": "https://github.com/asterinas/asterinas",
   "entries": {
     "sysbench-thread Benchmark": [
@@ -19238,6 +19238,41 @@ window.BENCHMARK_DATA = {
           {
             "name": "Average memory write bandwidth on Asterinas",
             "value": "8796.98",
+            "unit": "MB/s",
+            "extra": "aster_avg"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Chen Chengjun",
+            "username": "cchanging",
+            "email": "chenchengjun.ccj@antgroup.com"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "00d9b01d5c356fbc5f6b72b9a69a7571fdf0ab1f",
+          "message": "Add a fast path to page table fork",
+          "timestamp": "2024-08-29T03:52:33Z",
+          "url": "https://github.com/asterinas/asterinas/commit/00d9b01d5c356fbc5f6b72b9a69a7571fdf0ab1f"
+        },
+        "date": 1724915418694,
+        "tool": "customBiggerIsBetter",
+        "description": "The memory bandwidth for writing 512 MB of data on a single processor using the fwr (fast write) method.",
+        "benches": [
+          {
+            "name": "Average memory write bandwidth on Linux",
+            "value": "8860.57",
+            "unit": "MB/s",
+            "extra": "linux_avg"
+          },
+          {
+            "name": "Average memory write bandwidth on Asterinas",
+            "value": "8797.85",
             "unit": "MB/s",
             "extra": "aster_avg"
           }
