@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1724911034232,
+  "lastUpdate": 1724911233021,
   "repoUrl": "https://github.com/asterinas/asterinas",
   "entries": {
     "sysbench-thread Benchmark": [
@@ -33468,6 +33468,41 @@ window.BENCHMARK_DATA = {
           {
             "name": "Average unix bandwidth on Asterinas",
             "value": "5464.49",
+            "unit": "MB/s",
+            "extra": "aster_avg"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Chen Chengjun",
+            "username": "cchanging",
+            "email": "chenchengjun.ccj@antgroup.com"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "00d9b01d5c356fbc5f6b72b9a69a7571fdf0ab1f",
+          "message": "Add a fast path to page table fork",
+          "timestamp": "2024-08-29T03:52:33Z",
+          "url": "https://github.com/asterinas/asterinas/commit/00d9b01d5c356fbc5f6b72b9a69a7571fdf0ab1f"
+        },
+        "date": 1724911227813,
+        "tool": "customBiggerIsBetter",
+        "description": "The bandwidth of UNIX domain socket communication on a single processor.",
+        "benches": [
+          {
+            "name": "Average unix bandwidth on Linux",
+            "value": "7543.48",
+            "unit": "MB/s",
+            "extra": "linux_avg"
+          },
+          {
+            "name": "Average unix bandwidth on Asterinas",
+            "value": "5472.34",
             "unit": "MB/s",
             "extra": "aster_avg"
           }
