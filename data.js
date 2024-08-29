@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1724964623482,
+  "lastUpdate": 1724964746025,
   "repoUrl": "https://github.com/asterinas/asterinas",
   "entries": {
     "sysbench-thread Benchmark": [
@@ -39793,6 +39793,43 @@ window.BENCHMARK_DATA = {
             "name": "Average simple HTTP transaction bandwidth on Asterinas",
             "value": "18.44",
             "unit": "MB/s",
+            "extra": "aster_avg"
+          }
+        ]
+      }
+    ],
+    "lmbench-select-tcp Benchmark": [
+      {
+        "commit": {
+          "author": {
+            "name": "Yuke Peng",
+            "username": "sdww0",
+            "email": "pykfirst@gmail.com"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "539984bbed414969b0c40cf181a10e9341ed2359",
+          "message": "Replace read with read_raw",
+          "timestamp": "2024-08-29T12:46:20Z",
+          "url": "https://github.com/asterinas/asterinas/commit/539984bbed414969b0c40cf181a10e9341ed2359"
+        },
+        "date": 1724964741481,
+        "tool": "customSmallerIsBetter",
+        "description": "The latency of select TCP on a single processor.",
+        "benches": [
+          {
+            "name": "Average select TCP latency on Linux",
+            "value": "2.8514",
+            "unit": "µs",
+            "extra": "linux_avg"
+          },
+          {
+            "name": "Average select TCP latency on Asterinas",
+            "value": "1.6486",
+            "unit": "µs",
             "extra": "aster_avg"
           }
         ]
