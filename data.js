@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1725050169175,
+  "lastUpdate": 1725050290349,
   "repoUrl": "https://github.com/asterinas/asterinas",
   "entries": {
     "sysbench-thread Benchmark": [
@@ -20008,6 +20008,41 @@ window.BENCHMARK_DATA = {
           {
             "name": "Average memory write bandwidth on Asterinas",
             "value": "8856.48",
+            "unit": "MB/s",
+            "extra": "aster_avg"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Yuke Peng",
+            "username": "sdww0",
+            "email": "pykfirst@gmail.com"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "db16caf28c46e4ed24099fcba13d40b7d673164c",
+          "message": "[Semaphore] Replace Mutex with SpinLock",
+          "timestamp": "2024-08-30T11:23:53Z",
+          "url": "https://github.com/asterinas/asterinas/commit/db16caf28c46e4ed24099fcba13d40b7d673164c"
+        },
+        "date": 1725050285931,
+        "tool": "customBiggerIsBetter",
+        "description": "The memory bandwidth for writing 512 MB of data on a single processor using the fwr (fast write) method.",
+        "benches": [
+          {
+            "name": "Average memory write bandwidth on Linux",
+            "value": "8676.14",
+            "unit": "MB/s",
+            "extra": "linux_avg"
+          },
+          {
+            "name": "Average memory write bandwidth on Asterinas",
+            "value": "8720.96",
             "unit": "MB/s",
             "extra": "aster_avg"
           }
