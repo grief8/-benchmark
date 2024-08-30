@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1725049147434,
+  "lastUpdate": 1725049268937,
   "repoUrl": "https://github.com/asterinas/asterinas",
   "entries": {
     "sysbench-thread Benchmark": [
@@ -36657,6 +36657,41 @@ window.BENCHMARK_DATA = {
           {
             "name": "Number of created/deleted files on Asterinas",
             "value": "914",
+            "unit": "number",
+            "extra": "aster_avg"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Yuke Peng",
+            "username": "sdww0",
+            "email": "pykfirst@gmail.com"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "db16caf28c46e4ed24099fcba13d40b7d673164c",
+          "message": "[Semaphore] Replace Mutex with SpinLock",
+          "timestamp": "2024-08-30T11:23:53Z",
+          "url": "https://github.com/asterinas/asterinas/commit/db16caf28c46e4ed24099fcba13d40b7d673164c"
+        },
+        "date": 1725049265550,
+        "tool": "customBiggerIsBetter",
+        "description": "The number of 0k-sized files created then deleted over a duration.",
+        "benches": [
+          {
+            "name": "Number of created/deleted files on Linux",
+            "value": "3785",
+            "unit": "number",
+            "extra": "linux_avg"
+          },
+          {
+            "name": "Number of created/deleted files on Asterinas",
+            "value": "935",
             "unit": "number",
             "extra": "aster_avg"
           }
