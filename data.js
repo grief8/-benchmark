@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1725051191426,
+  "lastUpdate": 1725051314002,
   "repoUrl": "https://github.com/asterinas/asterinas",
   "entries": {
     "sysbench-thread Benchmark": [
@@ -33499,6 +33499,41 @@ window.BENCHMARK_DATA = {
           {
             "name": "Average select file latency on Asterinas",
             "value": "1.7851",
+            "unit": "µs",
+            "extra": "aster_avg"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Yuke Peng",
+            "username": "sdww0",
+            "email": "pykfirst@gmail.com"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "db16caf28c46e4ed24099fcba13d40b7d673164c",
+          "message": "[Semaphore] Replace Mutex with SpinLock",
+          "timestamp": "2024-08-30T11:23:53Z",
+          "url": "https://github.com/asterinas/asterinas/commit/db16caf28c46e4ed24099fcba13d40b7d673164c"
+        },
+        "date": 1725051310924,
+        "tool": "customSmallerIsBetter",
+        "description": "The latency of select file on a single processor.",
+        "benches": [
+          {
+            "name": "Average select file latency on Linux",
+            "value": "1.1411",
+            "unit": "µs",
+            "extra": "linux_avg"
+          },
+          {
+            "name": "Average select file latency on Asterinas",
+            "value": "1.7784",
             "unit": "µs",
             "extra": "aster_avg"
           }
