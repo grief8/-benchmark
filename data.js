@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1725048597570,
+  "lastUpdate": 1725048735366,
   "repoUrl": "https://github.com/asterinas/asterinas",
   "entries": {
     "sysbench-thread Benchmark": [
@@ -11887,6 +11887,41 @@ window.BENCHMARK_DATA = {
           {
             "name": "Average context switch latency on Asterinas",
             "value": "1.77",
+            "unit": "µs",
+            "extra": "aster_avg"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Yuke Peng",
+            "username": "sdww0",
+            "email": "pykfirst@gmail.com"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "db16caf28c46e4ed24099fcba13d40b7d673164c",
+          "message": "[Semaphore] Replace Mutex with SpinLock",
+          "timestamp": "2024-08-30T11:23:53Z",
+          "url": "https://github.com/asterinas/asterinas/commit/db16caf28c46e4ed24099fcba13d40b7d673164c"
+        },
+        "date": 1725048726420,
+        "tool": "customSmallerIsBetter",
+        "description": "The latency of context switching between 18 contexts on a single processor.",
+        "benches": [
+          {
+            "name": "Average context switch latency on Linux",
+            "value": "0.98",
+            "unit": "µs",
+            "extra": "linux_avg"
+          },
+          {
+            "name": "Average context switch latency on Asterinas",
+            "value": "1.76",
             "unit": "µs",
             "extra": "aster_avg"
           }
