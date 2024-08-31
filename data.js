@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1725138926316,
+  "lastUpdate": 1725139067494,
   "repoUrl": "https://github.com/asterinas/asterinas",
   "entries": {
     "sysbench-thread Benchmark": [
@@ -42952,6 +42952,41 @@ window.BENCHMARK_DATA = {
           {
             "name": "Average UDP latency on Asterinas",
             "value": "368.1171",
+            "unit": "µs",
+            "extra": "aster_avg"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "YanWQ-monad",
+            "username": "YanWQ-monad",
+            "email": "YanWQmonad@gmail.com"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "e6e771e9b5ae7d223a50aa4b38994500b0db6867",
+          "message": "Better timestamp in logging",
+          "timestamp": "2024-08-30T17:51:32Z",
+          "url": "https://github.com/asterinas/asterinas/commit/e6e771e9b5ae7d223a50aa4b38994500b0db6867"
+        },
+        "date": 1725139064634,
+        "tool": "customSmallerIsBetter",
+        "description": "The latency of UDP on localhost.",
+        "benches": [
+          {
+            "name": "Average UDP latency on Linux",
+            "value": "4.7754",
+            "unit": "µs",
+            "extra": "linux_avg"
+          },
+          {
+            "name": "Average UDP latency on Asterinas",
+            "value": "372.5514",
             "unit": "µs",
             "extra": "aster_avg"
           }
