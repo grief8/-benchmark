@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1725080301987,
+  "lastUpdate": 1725080426394,
   "repoUrl": "https://github.com/grief8/asterinas",
   "entries": {
     "sysbench-thread Benchmark": [
@@ -40830,6 +40830,41 @@ window.BENCHMARK_DATA = {
           {
             "name": "Average mmap latency on Asterinas",
             "value": "2071",
+            "unit": "µs",
+            "extra": "aster_avg"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Fabing Li",
+            "username": "grief8",
+            "email": "lifabing.lfb@antgroup.com"
+          },
+          "committer": {
+            "name": "Fabing Li",
+            "username": "grief8",
+            "email": "lifabing.lfb@antgroup.com"
+          },
+          "id": "f278439723fc308fd37c99bda734f59db09107c0",
+          "message": "temp",
+          "timestamp": "2024-08-31T02:38:56Z",
+          "url": "https://github.com/grief8/asterinas/commit/f278439723fc308fd37c99bda734f59db09107c0"
+        },
+        "date": 1725080418618,
+        "tool": "customSmallerIsBetter",
+        "description": "The latency of mmap on a single processor.",
+        "benches": [
+          {
+            "name": "Average mmap latency on Linux",
+            "value": "1441",
+            "unit": "µs",
+            "extra": "linux_avg"
+          },
+          {
+            "name": "Average mmap latency on Asterinas",
+            "value": "2126",
             "unit": "µs",
             "extra": "aster_avg"
           }
