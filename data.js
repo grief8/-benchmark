@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1725053794835,
+  "lastUpdate": 1725134561984,
   "repoUrl": "https://github.com/asterinas/asterinas",
   "entries": {
     "sysbench-thread Benchmark": [
@@ -12097,6 +12097,41 @@ window.BENCHMARK_DATA = {
           {
             "name": "Average context switch latency on Asterinas",
             "value": "1.76",
+            "unit": "µs",
+            "extra": "aster_avg"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "YanWQ-monad",
+            "username": "YanWQ-monad",
+            "email": "YanWQmonad@gmail.com"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "e6e771e9b5ae7d223a50aa4b38994500b0db6867",
+          "message": "Better timestamp in logging",
+          "timestamp": "2024-08-30T17:51:32Z",
+          "url": "https://github.com/asterinas/asterinas/commit/e6e771e9b5ae7d223a50aa4b38994500b0db6867"
+        },
+        "date": 1725134558123,
+        "tool": "customSmallerIsBetter",
+        "description": "The latency of context switching between 18 contexts on a single processor.",
+        "benches": [
+          {
+            "name": "Average context switch latency on Linux",
+            "value": "1.07",
+            "unit": "µs",
+            "extra": "linux_avg"
+          },
+          {
+            "name": "Average context switch latency on Asterinas",
+            "value": "1.89",
             "unit": "µs",
             "extra": "aster_avg"
           }
