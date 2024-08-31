@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1725138740729,
+  "lastUpdate": 1725138926316,
   "repoUrl": "https://github.com/asterinas/asterinas",
   "entries": {
     "sysbench-thread Benchmark": [
@@ -42845,6 +42845,41 @@ window.BENCHMARK_DATA = {
           {
             "name": "Average TCP latency on Asterinas",
             "value": "18.4939",
+            "unit": "µs",
+            "extra": "aster_avg"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "YanWQ-monad",
+            "username": "YanWQ-monad",
+            "email": "YanWQmonad@gmail.com"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "e6e771e9b5ae7d223a50aa4b38994500b0db6867",
+          "message": "Better timestamp in logging",
+          "timestamp": "2024-08-30T17:51:32Z",
+          "url": "https://github.com/asterinas/asterinas/commit/e6e771e9b5ae7d223a50aa4b38994500b0db6867"
+        },
+        "date": 1725138917164,
+        "tool": "customSmallerIsBetter",
+        "description": "The latency of TCP on localhost.",
+        "benches": [
+          {
+            "name": "Average TCP latency on Linux",
+            "value": "5.8806",
+            "unit": "µs",
+            "extra": "linux_avg"
+          },
+          {
+            "name": "Average TCP latency on Asterinas",
+            "value": "18.2440",
             "unit": "µs",
             "extra": "aster_avg"
           }
