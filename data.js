@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1725139030206,
+  "lastUpdate": 1725139153664,
   "repoUrl": "https://github.com/grief8/asterinas",
   "entries": {
     "sysbench-thread Benchmark": [
@@ -37036,6 +37036,41 @@ window.BENCHMARK_DATA = {
           {
             "name": "Average Signal handler install latency on Asterinas",
             "value": "0.1811",
+            "unit": "µs",
+            "extra": "aster_avg"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Fabing Li",
+            "username": "grief8",
+            "email": "lifabing.lfb@antgroup.com"
+          },
+          "committer": {
+            "name": "Fabing Li",
+            "username": "grief8",
+            "email": "lifabing.lfb@antgroup.com"
+          },
+          "id": "f278439723fc308fd37c99bda734f59db09107c0",
+          "message": "temp",
+          "timestamp": "2024-08-31T02:38:56Z",
+          "url": "https://github.com/grief8/asterinas/commit/f278439723fc308fd37c99bda734f59db09107c0"
+        },
+        "date": 1725139150645,
+        "tool": "customSmallerIsBetter",
+        "description": "The latency of signal handling on a single processor.",
+        "benches": [
+          {
+            "name": "Average Signal handler install latency on Linux",
+            "value": "0.1434",
+            "unit": "µs",
+            "extra": "linux_avg"
+          },
+          {
+            "name": "Average Signal handler install latency on Asterinas",
+            "value": "0.1724",
             "unit": "µs",
             "extra": "aster_avg"
           }
