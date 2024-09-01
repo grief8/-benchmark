@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1725222068369,
+  "lastUpdate": 1725222228055,
   "repoUrl": "https://github.com/grief8/asterinas",
   "entries": {
     "sysbench-thread Benchmark": [
@@ -44583,6 +44583,41 @@ window.BENCHMARK_DATA = {
           {
             "name": "Average fifo latency on Asterinas",
             "value": "3.4360",
+            "unit": "µs",
+            "extra": "aster_avg"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Fabing Li",
+            "username": "grief8",
+            "email": "lifabing.lfb@antgroup.com"
+          },
+          "committer": {
+            "name": "Fabing Li",
+            "username": "grief8",
+            "email": "lifabing.lfb@antgroup.com"
+          },
+          "id": "f278439723fc308fd37c99bda734f59db09107c0",
+          "message": "temp",
+          "timestamp": "2024-08-31T02:38:56Z",
+          "url": "https://github.com/grief8/asterinas/commit/f278439723fc308fd37c99bda734f59db09107c0"
+        },
+        "date": 1725222223624,
+        "tool": "customSmallerIsBetter",
+        "description": "The latency of fifo on a single processor.",
+        "benches": [
+          {
+            "name": "Average fifo latency on Linux",
+            "value": "2.6304",
+            "unit": "µs",
+            "extra": "linux_avg"
+          },
+          {
+            "name": "Average fifo latency on Asterinas",
+            "value": "3.5258",
             "unit": "µs",
             "extra": "aster_avg"
           }
