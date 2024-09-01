@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1725225999792,
+  "lastUpdate": 1725226232518,
   "repoUrl": "https://github.com/asterinas/asterinas",
   "entries": {
     "sysbench-thread Benchmark": [
@@ -4715,6 +4715,41 @@ window.BENCHMARK_DATA = {
           {
             "name": "Average Execution Time per CPU on Linux",
             "value": "3.84",
+            "unit": "ms",
+            "extra": "linux_avg"
+          },
+          {
+            "name": "Average Execution Time per CPU on Asterinas",
+            "value": "3.85",
+            "unit": "ms",
+            "extra": "aster_avg"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Marsman1996",
+            "username": "Marsman1996",
+            "email": "lqliuyuwei@outlook.com"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "745ac6d982638d3548f09ea2aa2103e37c135153",
+          "message": "Set overflow boundary to `isize::MAX` for memory related syscalls",
+          "timestamp": "2024-08-29T14:26:36Z",
+          "url": "https://github.com/asterinas/asterinas/commit/745ac6d982638d3548f09ea2aa2103e37c135153"
+        },
+        "date": 1725226228218,
+        "tool": "customSmallerIsBetter",
+        "description": "The average time it takes for each prime number calculation to complete during the sysbench CPU test.",
+        "benches": [
+          {
+            "name": "Average Execution Time per CPU on Linux",
+            "value": "3.83",
             "unit": "ms",
             "extra": "linux_avg"
           },
