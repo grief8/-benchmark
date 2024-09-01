@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1725226954830,
+  "lastUpdate": 1725227236116,
   "repoUrl": "https://github.com/grief8/asterinas",
   "entries": {
     "sysbench-thread Benchmark": [
@@ -4849,6 +4849,41 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/grief8/asterinas/commit/f278439723fc308fd37c99bda734f59db09107c0"
         },
         "date": 1725140845353,
+        "tool": "customSmallerIsBetter",
+        "description": "The average time it takes for each prime number calculation to complete during the sysbench CPU test.",
+        "benches": [
+          {
+            "name": "Average Execution Time per CPU on Linux",
+            "value": "3.83",
+            "unit": "ms",
+            "extra": "linux_avg"
+          },
+          {
+            "name": "Average Execution Time per CPU on Asterinas",
+            "value": "3.85",
+            "unit": "ms",
+            "extra": "aster_avg"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Fabing Li",
+            "username": "grief8",
+            "email": "lifabing.lfb@antgroup.com"
+          },
+          "committer": {
+            "name": "Fabing Li",
+            "username": "grief8",
+            "email": "lifabing.lfb@antgroup.com"
+          },
+          "id": "f278439723fc308fd37c99bda734f59db09107c0",
+          "message": "temp",
+          "timestamp": "2024-08-31T02:38:56Z",
+          "url": "https://github.com/grief8/asterinas/commit/f278439723fc308fd37c99bda734f59db09107c0"
+        },
+        "date": 1725227232094,
         "tool": "customSmallerIsBetter",
         "description": "The average time it takes for each prime number calculation to complete during the sysbench CPU test.",
         "benches": [
