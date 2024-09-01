@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1725225760699,
+  "lastUpdate": 1725225878220,
   "repoUrl": "https://github.com/asterinas/asterinas",
   "entries": {
     "sysbench-thread Benchmark": [
@@ -27410,6 +27410,41 @@ window.BENCHMARK_DATA = {
           {
             "name": "Average unix latency on Asterinas",
             "value": "3.7620",
+            "unit": "µs",
+            "extra": "aster_avg"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Marsman1996",
+            "username": "Marsman1996",
+            "email": "lqliuyuwei@outlook.com"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "745ac6d982638d3548f09ea2aa2103e37c135153",
+          "message": "Set overflow boundary to `isize::MAX` for memory related syscalls",
+          "timestamp": "2024-08-29T14:26:36Z",
+          "url": "https://github.com/asterinas/asterinas/commit/745ac6d982638d3548f09ea2aa2103e37c135153"
+        },
+        "date": 1725225874054,
+        "tool": "customSmallerIsBetter",
+        "description": "The latency of UNIX domain socket communication on a single processor.",
+        "benches": [
+          {
+            "name": "Average unix latency on Linux",
+            "value": "3.5006",
+            "unit": "µs",
+            "extra": "linux_avg"
+          },
+          {
+            "name": "Average unix latency on Asterinas",
+            "value": "3.6288",
             "unit": "µs",
             "extra": "aster_avg"
           }
