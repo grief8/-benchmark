@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1725223717566,
+  "lastUpdate": 1725223839590,
   "repoUrl": "https://github.com/asterinas/asterinas",
   "entries": {
     "sysbench-thread Benchmark": [
@@ -31221,6 +31221,41 @@ window.BENCHMARK_DATA = {
           {
             "name": "Average read latency on Asterinas",
             "value": "0.2674",
+            "unit": "µs",
+            "extra": "aster_avg"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Marsman1996",
+            "username": "Marsman1996",
+            "email": "lqliuyuwei@outlook.com"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "745ac6d982638d3548f09ea2aa2103e37c135153",
+          "message": "Set overflow boundary to `isize::MAX` for memory related syscalls",
+          "timestamp": "2024-08-29T14:26:36Z",
+          "url": "https://github.com/asterinas/asterinas/commit/745ac6d982638d3548f09ea2aa2103e37c135153"
+        },
+        "date": 1725223835460,
+        "tool": "customSmallerIsBetter",
+        "description": "The latency of the read system call on a single processor.",
+        "benches": [
+          {
+            "name": "Average read latency on Linux",
+            "value": "0.1291",
+            "unit": "µs",
+            "extra": "linux_avg"
+          },
+          {
+            "name": "Average read latency on Asterinas",
+            "value": "0.2670",
             "unit": "µs",
             "extra": "aster_avg"
           }
