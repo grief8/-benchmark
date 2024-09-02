@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1725286748077,
+  "lastUpdate": 1725286951241,
   "repoUrl": "https://github.com/grief8/asterinas",
   "entries": {
     "sysbench-thread Benchmark": [
@@ -32377,6 +32377,41 @@ window.BENCHMARK_DATA = {
           {
             "name": "Average pipe latency on Asterinas",
             "value": "3.1226",
+            "unit": "µs",
+            "extra": "aster_avg"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Fabing Li",
+            "username": "grief8",
+            "email": "lifabing.lfb@antgroup.com"
+          },
+          "committer": {
+            "name": "GitHub",
+            "username": "web-flow",
+            "email": "noreply@github.com"
+          },
+          "id": "8d3f4d94806921baa53dccba25e60d1197a85dee",
+          "message": "Update benchmark_asterinas.yml",
+          "timestamp": "2024-09-02T12:44:35Z",
+          "url": "https://github.com/grief8/asterinas/commit/8d3f4d94806921baa53dccba25e60d1197a85dee"
+        },
+        "date": 1725286939527,
+        "tool": "customSmallerIsBetter",
+        "description": "The latency of pipe on a single processor.",
+        "benches": [
+          {
+            "name": "Average pipe latency on Linux",
+            "value": "2.6427",
+            "unit": "µs",
+            "extra": "linux_avg"
+          },
+          {
+            "name": "Average pipe latency on Asterinas",
+            "value": "3.1129",
             "unit": "µs",
             "extra": "aster_avg"
           }
