@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1725267201160,
+  "lastUpdate": 1725267334045,
   "repoUrl": "https://github.com/grief8/asterinas",
   "entries": {
     "sysbench-thread Benchmark": [
@@ -40155,6 +40155,41 @@ window.BENCHMARK_DATA = {
           {
             "name": "Number of created/deleted files on Asterinas",
             "value": "612",
+            "unit": "number",
+            "extra": "aster_avg"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Fabing Li",
+            "username": "grief8",
+            "email": "lifabing.lfb@antgroup.com"
+          },
+          "committer": {
+            "name": "Fabing Li",
+            "username": "grief8",
+            "email": "lifabing.lfb@antgroup.com"
+          },
+          "id": "648339ec61f9a3d28838530e9ae5c4045f38306f",
+          "message": "Patch getpid",
+          "timestamp": "2024-09-02T08:42:23Z",
+          "url": "https://github.com/grief8/asterinas/commit/648339ec61f9a3d28838530e9ae5c4045f38306f"
+        },
+        "date": 1725267330258,
+        "tool": "customBiggerIsBetter",
+        "description": "The number of 10k-sized files created then deleted over a duration.",
+        "benches": [
+          {
+            "name": "Number of created/deleted files on Linux",
+            "value": "1567",
+            "unit": "number",
+            "extra": "linux_avg"
+          },
+          {
+            "name": "Number of created/deleted files on Asterinas",
+            "value": "616",
             "unit": "number",
             "extra": "aster_avg"
           }
