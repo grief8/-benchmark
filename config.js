@@ -25,7 +25,6 @@ window.BENCHMARK_CONFIG = {
         "lmbench-unix-connect-latency": "[Unix sockets] The latency of connect",
         "lmbench-tcp-connect-latency": "[TCP sockets] The latency of connect",
         "lmbench-select-file": "[Network] The cost of select (file fds)",
-        "lmbench-fifo-latency": "[FIFO] The cost of write+read (1B)",
     },
     "sysbench": {
         "sysbench-cpu": "[CPU] CPU performance",
