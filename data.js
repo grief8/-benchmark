@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1725266962581,
+  "lastUpdate": 1725267078084,
   "repoUrl": "https://github.com/grief8/asterinas",
   "entries": {
     "sysbench-thread Benchmark": [
@@ -14464,6 +14464,41 @@ window.BENCHMARK_DATA = {
           {
             "name": "Average exec latency on Asterinas",
             "value": "286.0000",
+            "unit": "µs",
+            "extra": "aster_avg"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Fabing Li",
+            "username": "grief8",
+            "email": "lifabing.lfb@antgroup.com"
+          },
+          "committer": {
+            "name": "Fabing Li",
+            "username": "grief8",
+            "email": "lifabing.lfb@antgroup.com"
+          },
+          "id": "648339ec61f9a3d28838530e9ae5c4045f38306f",
+          "message": "Patch getpid",
+          "timestamp": "2024-09-02T08:42:23Z",
+          "url": "https://github.com/grief8/asterinas/commit/648339ec61f9a3d28838530e9ae5c4045f38306f"
+        },
+        "date": 1725267075841,
+        "tool": "customSmallerIsBetter",
+        "description": "The latency of creating and executing processes on a single processor.",
+        "benches": [
+          {
+            "name": "Average exec latency on Linux",
+            "value": "219.4783",
+            "unit": "µs",
+            "extra": "linux_avg"
+          },
+          {
+            "name": "Average exec latency on Asterinas",
+            "value": "286.5500",
             "unit": "µs",
             "extra": "aster_avg"
           }
