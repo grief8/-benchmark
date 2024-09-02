@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1725276696318,
+  "lastUpdate": 1725276860283,
   "repoUrl": "https://github.com/grief8/asterinas",
   "entries": {
     "sysbench-thread Benchmark": [
@@ -45769,6 +45769,41 @@ window.BENCHMARK_DATA = {
           {
             "name": "Average protection fault latency on Asterinas",
             "value": "0.5030",
+            "unit": "µs",
+            "extra": "aster_avg"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Fabing Li",
+            "username": "grief8",
+            "email": "lifabing.lfb@antgroup.com"
+          },
+          "committer": {
+            "name": "Fabing Li",
+            "username": "grief8",
+            "email": "lifabing.lfb@antgroup.com"
+          },
+          "id": "b0a3167bf10ac86be2cefafd59208ac2c85e4515",
+          "message": "Patch getpid",
+          "timestamp": "2024-09-02T08:42:23Z",
+          "url": "https://github.com/grief8/asterinas/commit/b0a3167bf10ac86be2cefafd59208ac2c85e4515"
+        },
+        "date": 1725276857226,
+        "tool": "customSmallerIsBetter",
+        "description": "The latency to catch a protection fault on a single processor.",
+        "benches": [
+          {
+            "name": "Average protection fault latency on Linux",
+            "value": "0.4662",
+            "unit": "µs",
+            "extra": "linux_avg"
+          },
+          {
+            "name": "Average protection fault latency on Asterinas",
+            "value": "0.4849",
             "unit": "µs",
             "extra": "aster_avg"
           }
