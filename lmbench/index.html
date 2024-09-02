@@ -303,6 +303,7 @@
                           data: benches.map(d => d.bench.value),
                           fill: false,
                           borderColor: color,
+                          backgroundColor: color + '60', // Add alpha for #rrggbbaa
                         });
                         index++;
                     }
@@ -312,20 +313,20 @@
                         labels: benchSets.values().next().value.map(d => d.commit.id.slice(0, 7)),
                         datasets: datasets,
                     };
-                
+                    console.log('leng', benchSets.values().next().value.length > 0 ? benchSets.values().next().value[benchSets.values().next().value.length - 1].bench.unit : '');
                     const options = {
                         scales: {
                             x:{
-                                    scaleLabel: {
+                                    title: {
                                         display: true,
-                                        labelString: 'commit',
+                                        text: 'commit',
                                     },
                                 },
                             y: {
-                                    scaleLabel: {
+                                    title: {
                                         display: true,
                                         // Assuming all datasets has the same unit, take the last one
-                                        labelString: benchSets.values().next().value.length > 0 ? benchSets.values().next().value[benchSets.values().next().value.length - 1].bench.unit : '',
+                                        text: benchSets.values().next().value.length > 0 ? benchSets.values().next().value[benchSets.values().next().value.length - 1].bench.unit : '',
                                     },
                                     ticks: {
                                         beginAtZero: true,
