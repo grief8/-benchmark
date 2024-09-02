@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1725288962746,
+  "lastUpdate": 1725289128785,
   "repoUrl": "https://github.com/grief8/asterinas",
   "entries": {
     "sysbench-thread Benchmark": [
@@ -49316,6 +49316,41 @@ window.BENCHMARK_DATA = {
           {
             "name": "Average TCP connection latency on Asterinas",
             "value": "21.5748",
+            "unit": "µs",
+            "extra": "aster_avg"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Fabing Li",
+            "username": "grief8",
+            "email": "lifabing.lfb@antgroup.com"
+          },
+          "committer": {
+            "name": "GitHub",
+            "username": "web-flow",
+            "email": "noreply@github.com"
+          },
+          "id": "8d3f4d94806921baa53dccba25e60d1197a85dee",
+          "message": "Update benchmark_asterinas.yml",
+          "timestamp": "2024-09-02T12:44:35Z",
+          "url": "https://github.com/grief8/asterinas/commit/8d3f4d94806921baa53dccba25e60d1197a85dee"
+        },
+        "date": 1725289125770,
+        "tool": "customSmallerIsBetter",
+        "description": "The latency of TCP connection on localhost.",
+        "benches": [
+          {
+            "name": "Average TCP connection latency on Linux",
+            "value": "15.0822",
+            "unit": "µs",
+            "extra": "linux_avg"
+          },
+          {
+            "name": "Average TCP connection latency on Asterinas",
+            "value": "21.1899",
             "unit": "µs",
             "extra": "aster_avg"
           }
