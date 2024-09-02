@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1725314134056,
+  "lastUpdate": 1725314342779,
   "repoUrl": "https://github.com/grief8/asterinas",
   "entries": {
     "sysbench-thread Benchmark": [
@@ -41553,6 +41553,41 @@ window.BENCHMARK_DATA = {
           {
             "name": "Average unix bandwidth on Asterinas",
             "value": "5658.70",
+            "unit": "MB/s",
+            "extra": "aster_avg"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Fabing Li",
+            "username": "grief8",
+            "email": "lifabing.lfb@antgroup.com"
+          },
+          "committer": {
+            "name": "GitHub",
+            "username": "web-flow",
+            "email": "noreply@github.com"
+          },
+          "id": "8d3f4d94806921baa53dccba25e60d1197a85dee",
+          "message": "Update benchmark_asterinas.yml",
+          "timestamp": "2024-09-02T12:44:35Z",
+          "url": "https://github.com/grief8/asterinas/commit/8d3f4d94806921baa53dccba25e60d1197a85dee"
+        },
+        "date": 1725314339842,
+        "tool": "customBiggerIsBetter",
+        "description": "The bandwidth of UNIX domain socket communication on a single processor.",
+        "benches": [
+          {
+            "name": "Average unix bandwidth on Linux",
+            "value": "7501.54",
+            "unit": "MB/s",
+            "extra": "linux_avg"
+          },
+          {
+            "name": "Average unix bandwidth on Asterinas",
+            "value": "5580.26",
             "unit": "MB/s",
             "extra": "aster_avg"
           }
