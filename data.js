@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1725276164492,
+  "lastUpdate": 1725276336544,
   "repoUrl": "https://github.com/grief8/asterinas",
   "entries": {
     "sysbench-thread Benchmark": [
@@ -25510,6 +25510,41 @@ window.BENCHMARK_DATA = {
           {
             "name": "Average shell latency on Asterinas",
             "value": "534.5000",
+            "unit": "µs",
+            "extra": "aster_avg"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Fabing Li",
+            "username": "grief8",
+            "email": "lifabing.lfb@antgroup.com"
+          },
+          "committer": {
+            "name": "Fabing Li",
+            "username": "grief8",
+            "email": "lifabing.lfb@antgroup.com"
+          },
+          "id": "b0a3167bf10ac86be2cefafd59208ac2c85e4515",
+          "message": "Patch getpid",
+          "timestamp": "2024-09-02T08:42:23Z",
+          "url": "https://github.com/grief8/asterinas/commit/b0a3167bf10ac86be2cefafd59208ac2c85e4515"
+        },
+        "date": 1725276330959,
+        "tool": "customSmallerIsBetter",
+        "description": "The latency of creating and executing a shell process on a single processor.",
+        "benches": [
+          {
+            "name": "Average shell latency on Linux",
+            "value": "343.5333",
+            "unit": "µs",
+            "extra": "linux_avg"
+          },
+          {
+            "name": "Average shell latency on Asterinas",
+            "value": "544.1000",
             "unit": "µs",
             "extra": "aster_avg"
           }
