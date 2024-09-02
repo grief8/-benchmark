@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1725287336006,
+  "lastUpdate": 1725287525236,
   "repoUrl": "https://github.com/grief8/asterinas",
   "entries": {
     "sysbench-thread Benchmark": [
@@ -48824,6 +48824,41 @@ window.BENCHMARK_DATA = {
           {
             "name": "Average select TCP latency on Asterinas",
             "value": "1.6710",
+            "unit": "µs",
+            "extra": "aster_avg"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Fabing Li",
+            "username": "grief8",
+            "email": "lifabing.lfb@antgroup.com"
+          },
+          "committer": {
+            "name": "GitHub",
+            "username": "web-flow",
+            "email": "noreply@github.com"
+          },
+          "id": "8d3f4d94806921baa53dccba25e60d1197a85dee",
+          "message": "Update benchmark_asterinas.yml",
+          "timestamp": "2024-09-02T12:44:35Z",
+          "url": "https://github.com/grief8/asterinas/commit/8d3f4d94806921baa53dccba25e60d1197a85dee"
+        },
+        "date": 1725287520933,
+        "tool": "customSmallerIsBetter",
+        "description": "The latency of select TCP on a single processor.",
+        "benches": [
+          {
+            "name": "Average select TCP latency on Linux",
+            "value": "2.8498",
+            "unit": "µs",
+            "extra": "linux_avg"
+          },
+          {
+            "name": "Average select TCP latency on Asterinas",
+            "value": "1.6578",
             "unit": "µs",
             "extra": "aster_avg"
           }
