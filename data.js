@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1725276336544,
+  "lastUpdate": 1725276511945,
   "repoUrl": "https://github.com/grief8/asterinas",
   "entries": {
     "sysbench-thread Benchmark": [
@@ -11236,6 +11236,41 @@ window.BENCHMARK_DATA = {
           {
             "name": "Average Signal handler overhead on Asterinas",
             "value": "0.5255",
+            "unit": "µs",
+            "extra": "aster_avg"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Fabing Li",
+            "username": "grief8",
+            "email": "lifabing.lfb@antgroup.com"
+          },
+          "committer": {
+            "name": "Fabing Li",
+            "username": "grief8",
+            "email": "lifabing.lfb@antgroup.com"
+          },
+          "id": "b0a3167bf10ac86be2cefafd59208ac2c85e4515",
+          "message": "Patch getpid",
+          "timestamp": "2024-09-02T08:42:23Z",
+          "url": "https://github.com/grief8/asterinas/commit/b0a3167bf10ac86be2cefafd59208ac2c85e4515"
+        },
+        "date": 1725276501085,
+        "tool": "customSmallerIsBetter",
+        "description": "The latency of signal handling on a single processor.",
+        "benches": [
+          {
+            "name": "Average Signal handler overhead on Linux",
+            "value": "0.8595",
+            "unit": "µs",
+            "extra": "linux_avg"
+          },
+          {
+            "name": "Average Signal handler overhead on Asterinas",
+            "value": "0.5079",
             "unit": "µs",
             "extra": "aster_avg"
           }
