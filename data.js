@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1725309328156,
+  "lastUpdate": 1725309507999,
   "repoUrl": "https://github.com/grief8/asterinas",
   "entries": {
     "sysbench-thread Benchmark": [
@@ -7113,6 +7113,41 @@ window.BENCHMARK_DATA = {
           {
             "name": "Average syscall latency on Asterinas",
             "value": "0.0943",
+            "unit": "µs",
+            "extra": "aster_avg"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Fabing Li",
+            "username": "grief8",
+            "email": "lifabing.lfb@antgroup.com"
+          },
+          "committer": {
+            "name": "GitHub",
+            "username": "web-flow",
+            "email": "noreply@github.com"
+          },
+          "id": "8d3f4d94806921baa53dccba25e60d1197a85dee",
+          "message": "Update benchmark_asterinas.yml",
+          "timestamp": "2024-09-02T12:44:35Z",
+          "url": "https://github.com/grief8/asterinas/commit/8d3f4d94806921baa53dccba25e60d1197a85dee"
+        },
+        "date": 1725309503531,
+        "tool": "customSmallerIsBetter",
+        "description": "The latency of the getpid system call on a single processor.",
+        "benches": [
+          {
+            "name": "Average syscall latency on Linux",
+            "value": "0.0893",
+            "unit": "µs",
+            "extra": "linux_avg"
+          },
+          {
+            "name": "Average syscall latency on Asterinas",
+            "value": "0.0945",
             "unit": "µs",
             "extra": "aster_avg"
           }
