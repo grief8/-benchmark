@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1725274701683,
+  "lastUpdate": 1725274864044,
   "repoUrl": "https://github.com/grief8/asterinas",
   "entries": {
     "sysbench-thread Benchmark": [
@@ -42189,6 +42189,41 @@ window.BENCHMARK_DATA = {
           {
             "name": "Average page fault latency on Asterinas",
             "value": "0.1919",
+            "unit": "µs",
+            "extra": "aster_avg"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Fabing Li",
+            "username": "grief8",
+            "email": "lifabing.lfb@antgroup.com"
+          },
+          "committer": {
+            "name": "Fabing Li",
+            "username": "grief8",
+            "email": "lifabing.lfb@antgroup.com"
+          },
+          "id": "ce2c1a993f65b163b9af807e5bd4091839750234",
+          "message": "Patch getpid",
+          "timestamp": "2024-09-02T08:42:23Z",
+          "url": "https://github.com/grief8/asterinas/commit/ce2c1a993f65b163b9af807e5bd4091839750234"
+        },
+        "date": 1725274858523,
+        "tool": "customSmallerIsBetter",
+        "description": "The latency of handling page fault on a single processor.",
+        "benches": [
+          {
+            "name": "Average page fault latency on Linux",
+            "value": "0.1191",
+            "unit": "µs",
+            "extra": "linux_avg"
+          },
+          {
+            "name": "Average page fault latency on Asterinas",
+            "value": "0.1951",
             "unit": "µs",
             "extra": "aster_avg"
           }
