@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1725278413932,
+  "lastUpdate": 1725278599568,
   "repoUrl": "https://github.com/grief8/asterinas",
   "entries": {
     "sysbench-thread Benchmark": [
@@ -43311,6 +43311,41 @@ window.BENCHMARK_DATA = {
           {
             "name": "Average file locking latency on Asterinas",
             "value": "2.8051",
+            "unit": "µs",
+            "extra": "aster_avg"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Fabing Li",
+            "username": "grief8",
+            "email": "lifabing.lfb@antgroup.com"
+          },
+          "committer": {
+            "name": "Fabing Li",
+            "username": "grief8",
+            "email": "lifabing.lfb@antgroup.com"
+          },
+          "id": "b0a3167bf10ac86be2cefafd59208ac2c85e4515",
+          "message": "Patch getpid",
+          "timestamp": "2024-09-02T08:42:23Z",
+          "url": "https://github.com/grief8/asterinas/commit/b0a3167bf10ac86be2cefafd59208ac2c85e4515"
+        },
+        "date": 1725278584165,
+        "tool": "customSmallerIsBetter",
+        "description": "The latency of file locking on a single processor.",
+        "benches": [
+          {
+            "name": "Average file locking latency on Linux",
+            "value": "1.6172",
+            "unit": "µs",
+            "extra": "linux_avg"
+          },
+          {
+            "name": "Average file locking latency on Asterinas",
+            "value": "2.7698",
             "unit": "µs",
             "extra": "aster_avg"
           }
