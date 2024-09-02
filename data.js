@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1725313946082,
+  "lastUpdate": 1725314134056,
   "repoUrl": "https://github.com/grief8/asterinas",
   "entries": {
     "sysbench-thread Benchmark": [
@@ -51457,6 +51457,41 @@ window.BENCHMARK_DATA = {
           {
             "name": "Average UDP latency on Asterinas",
             "value": "370.5368",
+            "unit": "µs",
+            "extra": "aster_avg"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Fabing Li",
+            "username": "grief8",
+            "email": "lifabing.lfb@antgroup.com"
+          },
+          "committer": {
+            "name": "GitHub",
+            "username": "web-flow",
+            "email": "noreply@github.com"
+          },
+          "id": "8d3f4d94806921baa53dccba25e60d1197a85dee",
+          "message": "Update benchmark_asterinas.yml",
+          "timestamp": "2024-09-02T12:44:35Z",
+          "url": "https://github.com/grief8/asterinas/commit/8d3f4d94806921baa53dccba25e60d1197a85dee"
+        },
+        "date": 1725314132236,
+        "tool": "customSmallerIsBetter",
+        "description": "The latency of UDP on localhost.",
+        "benches": [
+          {
+            "name": "Average UDP latency on Linux",
+            "value": "4.7639",
+            "unit": "µs",
+            "extra": "linux_avg"
+          },
+          {
+            "name": "Average UDP latency on Asterinas",
+            "value": "367.8077",
             "unit": "µs",
             "extra": "aster_avg"
           }
