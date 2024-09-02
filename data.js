@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1725277045239,
+  "lastUpdate": 1725277223558,
   "repoUrl": "https://github.com/grief8/asterinas",
   "entries": {
     "sysbench-thread Benchmark": [
@@ -48338,6 +48338,41 @@ window.BENCHMARK_DATA = {
           {
             "name": "Average TCP bandwidth on Asterinas",
             "value": "348.28",
+            "unit": "MB/s",
+            "extra": "aster_avg"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Fabing Li",
+            "username": "grief8",
+            "email": "lifabing.lfb@antgroup.com"
+          },
+          "committer": {
+            "name": "Fabing Li",
+            "username": "grief8",
+            "email": "lifabing.lfb@antgroup.com"
+          },
+          "id": "b0a3167bf10ac86be2cefafd59208ac2c85e4515",
+          "message": "Patch getpid",
+          "timestamp": "2024-09-02T08:42:23Z",
+          "url": "https://github.com/grief8/asterinas/commit/b0a3167bf10ac86be2cefafd59208ac2c85e4515"
+        },
+        "date": 1725277219683,
+        "tool": "customBiggerIsBetter",
+        "description": "The bandwidth of TCP with 4096 message size in localhost.",
+        "benches": [
+          {
+            "name": "Average TCP bandwidth on Linux",
+            "value": "4399.25",
+            "unit": "MB/s",
+            "extra": "linux_avg"
+          },
+          {
+            "name": "Average TCP bandwidth on Asterinas",
+            "value": "404.53",
             "unit": "MB/s",
             "extra": "aster_avg"
           }
