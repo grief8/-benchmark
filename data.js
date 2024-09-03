@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1725399205091,
+  "lastUpdate": 1725399384084,
   "repoUrl": "https://github.com/asterinas/asterinas",
   "entries": {
     "sysbench-thread Benchmark": [
@@ -17936,6 +17936,41 @@ window.BENCHMARK_DATA = {
           {
             "name": "Average memory copy bandwidth on Asterinas",
             "value": "5793.86",
+            "unit": "MB/s",
+            "extra": "aster_avg"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Shaowei Song",
+            "username": "lucassong-mh",
+            "email": "songshaowei.ssw@antgroup.com"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "963874471284ed014b76d268d933b6d13073c2cc",
+          "message": "Unseekable files need not to manipulate the `offset`",
+          "timestamp": "2024-09-02T09:48:15Z",
+          "url": "https://github.com/asterinas/asterinas/commit/963874471284ed014b76d268d933b6d13073c2cc"
+        },
+        "date": 1725399374609,
+        "tool": "customBiggerIsBetter",
+        "description": "The memory bandwidth for copying 512 MB of data on a single processor using the fcp (fast copy) method.",
+        "benches": [
+          {
+            "name": "Average memory copy bandwidth on Linux",
+            "value": "6530.01",
+            "unit": "MB/s",
+            "extra": "linux_avg"
+          },
+          {
+            "name": "Average memory copy bandwidth on Asterinas",
+            "value": "6452.23",
             "unit": "MB/s",
             "extra": "aster_avg"
           }
