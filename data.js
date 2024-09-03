@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1725401380876,
+  "lastUpdate": 1725401594492,
   "repoUrl": "https://github.com/asterinas/asterinas",
   "entries": {
     "sysbench-thread Benchmark": [
@@ -43667,6 +43667,41 @@ window.BENCHMARK_DATA = {
           {
             "name": "Average semaphore latency on Asterinas",
             "value": "0.7666",
+            "unit": "µs",
+            "extra": "aster_avg"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Shaowei Song",
+            "username": "lucassong-mh",
+            "email": "songshaowei.ssw@antgroup.com"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "963874471284ed014b76d268d933b6d13073c2cc",
+          "message": "Unseekable files need not to manipulate the `offset`",
+          "timestamp": "2024-09-02T09:48:15Z",
+          "url": "https://github.com/asterinas/asterinas/commit/963874471284ed014b76d268d933b6d13073c2cc"
+        },
+        "date": 1725401584904,
+        "tool": "customSmallerIsBetter",
+        "description": "The latency of semaphore on a single processor.",
+        "benches": [
+          {
+            "name": "Average semaphore latency on Linux",
+            "value": "0.4934",
+            "unit": "µs",
+            "extra": "linux_avg"
+          },
+          {
+            "name": "Average semaphore latency on Asterinas",
+            "value": "0.7545",
             "unit": "µs",
             "extra": "aster_avg"
           }
