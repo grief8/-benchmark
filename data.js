@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1725342386828,
+  "lastUpdate": 1725342569809,
   "repoUrl": "https://github.com/grief8/asterinas",
   "entries": {
     "sysbench-thread Benchmark": [
@@ -28682,6 +28682,41 @@ window.BENCHMARK_DATA = {
           {
             "name": "Average stat latency on Asterinas",
             "value": "0.5780",
+            "unit": "µs",
+            "extra": "aster_avg"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Fabing Li",
+            "username": "grief8",
+            "email": "lifabing.lfb@antgroup.com"
+          },
+          "committer": {
+            "name": "Fabing Li",
+            "username": "grief8",
+            "email": "lifabing.lfb@antgroup.com"
+          },
+          "id": "8d2cc18eae73efec9e2442eda5fe886ec2c57504",
+          "message": "patch read-write",
+          "timestamp": "2024-09-03T03:41:39Z",
+          "url": "https://github.com/grief8/asterinas/commit/8d2cc18eae73efec9e2442eda5fe886ec2c57504"
+        },
+        "date": 1725342567064,
+        "tool": "customSmallerIsBetter",
+        "description": "The latency of the stat system call on a single processor.",
+        "benches": [
+          {
+            "name": "Average stat latency on Linux",
+            "value": "0.3181",
+            "unit": "µs",
+            "extra": "linux_avg"
+          },
+          {
+            "name": "Average stat latency on Asterinas",
+            "value": "0.5765",
             "unit": "µs",
             "extra": "aster_avg"
           }
