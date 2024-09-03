@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1725393784688,
+  "lastUpdate": 1725393949774,
   "repoUrl": "https://github.com/asterinas/asterinas",
   "entries": {
     "sysbench-thread Benchmark": [
@@ -41246,6 +41246,41 @@ window.BENCHMARK_DATA = {
           {
             "name": "Average file locking latency on Asterinas",
             "value": "2.9781",
+            "unit": "µs",
+            "extra": "aster_avg"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Shaowei Song",
+            "username": "lucassong-mh",
+            "email": "songshaowei.ssw@antgroup.com"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "963874471284ed014b76d268d933b6d13073c2cc",
+          "message": "Unseekable files need not to manipulate the `offset`",
+          "timestamp": "2024-09-02T09:48:15Z",
+          "url": "https://github.com/asterinas/asterinas/commit/963874471284ed014b76d268d933b6d13073c2cc"
+        },
+        "date": 1725393946859,
+        "tool": "customSmallerIsBetter",
+        "description": "The latency of file locking on a single processor.",
+        "benches": [
+          {
+            "name": "Average file locking latency on Linux",
+            "value": "1.6269",
+            "unit": "µs",
+            "extra": "linux_avg"
+          },
+          {
+            "name": "Average file locking latency on Asterinas",
+            "value": "2.9669",
             "unit": "µs",
             "extra": "aster_avg"
           }
