@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1725403618153,
+  "lastUpdate": 1725403787563,
   "repoUrl": "https://github.com/asterinas/asterinas",
   "entries": {
     "sysbench-thread Benchmark": [
@@ -28460,6 +28460,41 @@ window.BENCHMARK_DATA = {
           {
             "name": "Average unix latency on Asterinas",
             "value": "3.6549",
+            "unit": "µs",
+            "extra": "aster_avg"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Shaowei Song",
+            "username": "lucassong-mh",
+            "email": "songshaowei.ssw@antgroup.com"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "963874471284ed014b76d268d933b6d13073c2cc",
+          "message": "Unseekable files need not to manipulate the `offset`",
+          "timestamp": "2024-09-02T09:48:15Z",
+          "url": "https://github.com/asterinas/asterinas/commit/963874471284ed014b76d268d933b6d13073c2cc"
+        },
+        "date": 1725403783166,
+        "tool": "customSmallerIsBetter",
+        "description": "The latency of UNIX domain socket communication on a single processor.",
+        "benches": [
+          {
+            "name": "Average unix latency on Linux",
+            "value": "3.4994",
+            "unit": "µs",
+            "extra": "linux_avg"
+          },
+          {
+            "name": "Average unix latency on Asterinas",
+            "value": "3.6599",
             "unit": "µs",
             "extra": "aster_avg"
           }
