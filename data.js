@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1725395154635,
+  "lastUpdate": 1725395322259,
   "repoUrl": "https://github.com/grief8/asterinas",
   "entries": {
     "sysbench-thread Benchmark": [
@@ -9436,6 +9436,41 @@ window.BENCHMARK_DATA = {
           {
             "name": "Average Fork latency on Asterinas",
             "value": "73.8767",
+            "unit": "µs",
+            "extra": "aster_avg"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Fabing Li",
+            "username": "grief8",
+            "email": "lifabing.lfb@antgroup.com"
+          },
+          "committer": {
+            "name": "Fabing Li",
+            "username": "grief8",
+            "email": "lifabing.lfb@antgroup.com"
+          },
+          "id": "8d2cc18eae73efec9e2442eda5fe886ec2c57504",
+          "message": "patch read-write",
+          "timestamp": "2024-09-03T03:41:39Z",
+          "url": "https://github.com/grief8/asterinas/commit/8d2cc18eae73efec9e2442eda5fe886ec2c57504"
+        },
+        "date": 1725395318956,
+        "tool": "customSmallerIsBetter",
+        "description": "The latency of the fork system call on a single processor.",
+        "benches": [
+          {
+            "name": "Average Fork latency on Linux",
+            "value": "55.7677",
+            "unit": "µs",
+            "extra": "linux_avg"
+          },
+          {
+            "name": "Average Fork latency on Asterinas",
+            "value": "72.8219",
             "unit": "µs",
             "extra": "aster_avg"
           }
