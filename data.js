@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1725398687628,
+  "lastUpdate": 1725398862935,
   "repoUrl": "https://github.com/asterinas/asterinas",
   "entries": {
     "sysbench-thread Benchmark": [
@@ -6938,6 +6938,41 @@ window.BENCHMARK_DATA = {
           {
             "name": "Average syscall latency on Asterinas",
             "value": "0.1567",
+            "unit": "µs",
+            "extra": "aster_avg"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Shaowei Song",
+            "username": "lucassong-mh",
+            "email": "songshaowei.ssw@antgroup.com"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "963874471284ed014b76d268d933b6d13073c2cc",
+          "message": "Unseekable files need not to manipulate the `offset`",
+          "timestamp": "2024-09-02T09:48:15Z",
+          "url": "https://github.com/asterinas/asterinas/commit/963874471284ed014b76d268d933b6d13073c2cc"
+        },
+        "date": 1725398858480,
+        "tool": "customSmallerIsBetter",
+        "description": "The latency of the getpid system call on a single processor.",
+        "benches": [
+          {
+            "name": "Average syscall latency on Linux",
+            "value": "0.0974",
+            "unit": "µs",
+            "extra": "linux_avg"
+          },
+          {
+            "name": "Average syscall latency on Asterinas",
+            "value": "0.1605",
             "unit": "µs",
             "extra": "aster_avg"
           }
