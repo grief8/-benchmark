@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1725485052727,
+  "lastUpdate": 1725485223116,
   "repoUrl": "https://github.com/asterinas/asterinas",
   "entries": {
     "sysbench-thread Benchmark": [
@@ -46512,6 +46512,41 @@ window.BENCHMARK_DATA = {
           {
             "name": "Average simple HTTP transaction bandwidth on Asterinas",
             "value": "18.43",
+            "unit": "MB/s",
+            "extra": "aster_avg"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ruize Tang",
+            "username": "tangruize",
+            "email": "1466040111@qq.com"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "458a6a5b3b01aebe78c124fe20be91a91f0139da",
+          "message": "Fix unexpected unlock of mutexes, add a testcase",
+          "timestamp": "2024-09-03T07:33:12Z",
+          "url": "https://github.com/asterinas/asterinas/commit/458a6a5b3b01aebe78c124fe20be91a91f0139da"
+        },
+        "date": 1725485215233,
+        "tool": "customBiggerIsBetter",
+        "description": "The bandwidth of simple HTTP transaction with 64MB file.",
+        "benches": [
+          {
+            "name": "Average simple HTTP transaction bandwidth on Linux",
+            "value": "4244.72",
+            "unit": "MB/s",
+            "extra": "linux_avg"
+          },
+          {
+            "name": "Average simple HTTP transaction bandwidth on Asterinas",
+            "value": "18.75",
             "unit": "MB/s",
             "extra": "aster_avg"
           }
