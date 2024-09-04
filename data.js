@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1725484802938,
+  "lastUpdate": 1725485003120,
   "repoUrl": "https://github.com/grief8/asterinas",
   "entries": {
     "sysbench-thread Benchmark": [
@@ -49932,6 +49932,41 @@ window.BENCHMARK_DATA = {
           {
             "name": "Average semaphore latency on Asterinas",
             "value": "0.7372",
+            "unit": "µs",
+            "extra": "aster_avg"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Fabing Li",
+            "username": "grief8",
+            "email": "lifabing.lfb@antgroup.com"
+          },
+          "committer": {
+            "name": "Fabing Li",
+            "username": "grief8",
+            "email": "lifabing.lfb@antgroup.com"
+          },
+          "id": "64ce6334edcd7bd4c2ecac0236c27513285bb50e",
+          "message": "Jiang patch",
+          "timestamp": "2024-09-04T11:23:09Z",
+          "url": "https://github.com/grief8/asterinas/commit/64ce6334edcd7bd4c2ecac0236c27513285bb50e"
+        },
+        "date": 1725484999887,
+        "tool": "customSmallerIsBetter",
+        "description": "The latency of semaphore on a single processor.",
+        "benches": [
+          {
+            "name": "Average semaphore latency on Linux",
+            "value": "0.4349",
+            "unit": "µs",
+            "extra": "linux_avg"
+          },
+          {
+            "name": "Average semaphore latency on Asterinas",
+            "value": "0.7398",
             "unit": "µs",
             "extra": "aster_avg"
           }
