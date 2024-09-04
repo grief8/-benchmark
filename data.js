@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1725484409392,
+  "lastUpdate": 1725484571023,
   "repoUrl": "https://github.com/grief8/asterinas",
   "entries": {
     "sysbench-thread Benchmark": [
@@ -36086,6 +36086,41 @@ window.BENCHMARK_DATA = {
           {
             "name": "Average read latency on Asterinas",
             "value": "0.1359",
+            "unit": "µs",
+            "extra": "aster_avg"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Fabing Li",
+            "username": "grief8",
+            "email": "lifabing.lfb@antgroup.com"
+          },
+          "committer": {
+            "name": "Fabing Li",
+            "username": "grief8",
+            "email": "lifabing.lfb@antgroup.com"
+          },
+          "id": "64ce6334edcd7bd4c2ecac0236c27513285bb50e",
+          "message": "Jiang patch",
+          "timestamp": "2024-09-04T11:23:09Z",
+          "url": "https://github.com/grief8/asterinas/commit/64ce6334edcd7bd4c2ecac0236c27513285bb50e"
+        },
+        "date": 1725484566828,
+        "tool": "customSmallerIsBetter",
+        "description": "The latency of the read system call on a single processor.",
+        "benches": [
+          {
+            "name": "Average read latency on Linux",
+            "value": "0.1397",
+            "unit": "µs",
+            "extra": "linux_avg"
+          },
+          {
+            "name": "Average read latency on Asterinas",
+            "value": "0.1336",
             "unit": "µs",
             "extra": "aster_avg"
           }
