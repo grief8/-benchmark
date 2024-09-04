@@ -176,7 +176,7 @@
           const filter = (() => {
             const pathname = window.location.pathname;
             const pathSegments = pathname.split('/').filter(Boolean);
-            if (pathSegments.length < 2) {
+            if (pathSegments.length < 2 || pathSegments[pathSegments.length - 1] === 'dev') {
               return null; 
             }
             return pathSegments[pathSegments.length - 1];
@@ -199,7 +199,6 @@
               }));
           }
           
-          console.log(dataSets);
           dataSets.sort((a, b) => {
             const titleA = a.dataSet.values().next().value[a.dataSet.values().next().value.length - 1].title || a.name;
             const titleB = b.dataSet.values().next().value[b.dataSet.values().next().value.length - 1].title || b.name;
