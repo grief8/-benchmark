@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1725488429540,
+  "lastUpdate": 1725488602347,
   "repoUrl": "https://github.com/asterinas/asterinas",
   "entries": {
     "sysbench-thread Benchmark": [
@@ -45489,6 +45489,41 @@ window.BENCHMARK_DATA = {
           {
             "name": "Average protection fault latency on Asterinas",
             "value": "0.5046",
+            "unit": "µs",
+            "extra": "aster_avg"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ruize Tang",
+            "username": "tangruize",
+            "email": "1466040111@qq.com"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "458a6a5b3b01aebe78c124fe20be91a91f0139da",
+          "message": "Fix unexpected unlock of mutexes, add a testcase",
+          "timestamp": "2024-09-03T07:33:12Z",
+          "url": "https://github.com/asterinas/asterinas/commit/458a6a5b3b01aebe78c124fe20be91a91f0139da"
+        },
+        "date": 1725488597463,
+        "tool": "customSmallerIsBetter",
+        "description": "The latency to catch a protection fault on a single processor.",
+        "benches": [
+          {
+            "name": "Average protection fault latency on Linux",
+            "value": "0.4457",
+            "unit": "µs",
+            "extra": "linux_avg"
+          },
+          {
+            "name": "Average protection fault latency on Asterinas",
+            "value": "0.5404",
             "unit": "µs",
             "extra": "aster_avg"
           }
