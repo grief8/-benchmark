@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1725571088650,
+  "lastUpdate": 1725571254706,
   "repoUrl": "https://github.com/asterinas/asterinas",
   "entries": {
     "sysbench-thread Benchmark": [
@@ -41942,6 +41942,41 @@ window.BENCHMARK_DATA = {
           {
             "name": "Number of created/deleted files on Asterinas",
             "value": "930",
+            "unit": "number",
+            "extra": "aster_avg"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ruize Tang",
+            "username": "tangruize",
+            "email": "1466040111@qq.com"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "458a6a5b3b01aebe78c124fe20be91a91f0139da",
+          "message": "Fix unexpected unlock of mutexes, add a testcase",
+          "timestamp": "2024-09-03T07:33:12Z",
+          "url": "https://github.com/asterinas/asterinas/commit/458a6a5b3b01aebe78c124fe20be91a91f0139da"
+        },
+        "date": 1725571252053,
+        "tool": "customBiggerIsBetter",
+        "description": "The number of 0k-sized files created then deleted over a duration.",
+        "benches": [
+          {
+            "name": "Number of created/deleted files on Linux",
+            "value": "3625",
+            "unit": "number",
+            "extra": "linux_avg"
+          },
+          {
+            "name": "Number of created/deleted files on Asterinas",
+            "value": "912",
             "unit": "number",
             "extra": "aster_avg"
           }
