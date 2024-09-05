@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1725575269424,
+  "lastUpdate": 1725575449787,
   "repoUrl": "https://github.com/asterinas/asterinas",
   "entries": {
     "sysbench-thread Benchmark": [
@@ -49178,6 +49178,41 @@ window.BENCHMARK_DATA = {
           {
             "name": "Average TCP bandwidth on Asterinas",
             "value": "402.89",
+            "unit": "MB/s",
+            "extra": "aster_avg"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ruize Tang",
+            "username": "tangruize",
+            "email": "1466040111@qq.com"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "458a6a5b3b01aebe78c124fe20be91a91f0139da",
+          "message": "Fix unexpected unlock of mutexes, add a testcase",
+          "timestamp": "2024-09-03T07:33:12Z",
+          "url": "https://github.com/asterinas/asterinas/commit/458a6a5b3b01aebe78c124fe20be91a91f0139da"
+        },
+        "date": 1725575446560,
+        "tool": "customBiggerIsBetter",
+        "description": "The bandwidth of TCP with 4096 message size in localhost.",
+        "benches": [
+          {
+            "name": "Average TCP bandwidth on Linux",
+            "value": "4411.01",
+            "unit": "MB/s",
+            "extra": "linux_avg"
+          },
+          {
+            "name": "Average TCP bandwidth on Asterinas",
+            "value": "416.21",
             "unit": "MB/s",
             "extra": "aster_avg"
           }
