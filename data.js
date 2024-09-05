@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1725575449787,
+  "lastUpdate": 1725575615146,
   "repoUrl": "https://github.com/asterinas/asterinas",
   "entries": {
     "sysbench-thread Benchmark": [
@@ -48931,6 +48931,41 @@ window.BENCHMARK_DATA = {
           {
             "name": "Average TCP connection latency on Asterinas",
             "value": "21.6417",
+            "unit": "µs",
+            "extra": "aster_avg"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ruize Tang",
+            "username": "tangruize",
+            "email": "1466040111@qq.com"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "458a6a5b3b01aebe78c124fe20be91a91f0139da",
+          "message": "Fix unexpected unlock of mutexes, add a testcase",
+          "timestamp": "2024-09-03T07:33:12Z",
+          "url": "https://github.com/asterinas/asterinas/commit/458a6a5b3b01aebe78c124fe20be91a91f0139da"
+        },
+        "date": 1725575612873,
+        "tool": "customSmallerIsBetter",
+        "description": "The latency of TCP connection on localhost.",
+        "benches": [
+          {
+            "name": "Average TCP connection latency on Linux",
+            "value": "15.5759",
+            "unit": "µs",
+            "extra": "linux_avg"
+          },
+          {
+            "name": "Average TCP connection latency on Asterinas",
+            "value": "21.3398",
             "unit": "µs",
             "extra": "aster_avg"
           }
