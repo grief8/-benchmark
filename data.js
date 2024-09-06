@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1725658011436,
+  "lastUpdate": 1725658174916,
   "repoUrl": "https://github.com/asterinas/asterinas",
   "entries": {
     "sysbench-thread Benchmark": [
@@ -48927,6 +48927,41 @@ window.BENCHMARK_DATA = {
           {
             "name": "Average simple HTTP transaction bandwidth on Asterinas",
             "value": "18.16",
+            "unit": "MB/s",
+            "extra": "aster_avg"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Thomas Dickson",
+            "username": "Hoverth",
+            "email": "modscrat+github@gmail.com"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "64e43d34aab13eeddea8dd7485c712acc99116ca",
+          "message": "doc: fix typo in README.md",
+          "timestamp": "2024-09-06T04:11:16Z",
+          "url": "https://github.com/asterinas/asterinas/commit/64e43d34aab13eeddea8dd7485c712acc99116ca"
+        },
+        "date": 1725658172488,
+        "tool": "customBiggerIsBetter",
+        "description": "The bandwidth of simple HTTP transaction with 64MB file.",
+        "benches": [
+          {
+            "name": "Average simple HTTP transaction bandwidth on Linux",
+            "value": "4229.47",
+            "unit": "MB/s",
+            "extra": "linux_avg"
+          },
+          {
+            "name": "Average simple HTTP transaction bandwidth on Asterinas",
+            "value": "18.25",
             "unit": "MB/s",
             "extra": "aster_avg"
           }
