@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1725746400687,
+  "lastUpdate": 1725746556964,
   "repoUrl": "https://github.com/grief8/asterinas",
   "entries": {
     "sysbench-thread Benchmark": [
@@ -32800,6 +32800,41 @@ window.BENCHMARK_DATA = {
           {
             "name": "Average unix latency on Asterinas",
             "value": "3.4117",
+            "unit": "µs",
+            "extra": "aster_avg"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Fabing Li",
+            "username": "grief8",
+            "email": "lifabing.lfb@antgroup.com"
+          },
+          "committer": {
+            "name": "Fabing Li",
+            "username": "grief8",
+            "email": "lifabing.lfb@antgroup.com"
+          },
+          "id": "64ce6334edcd7bd4c2ecac0236c27513285bb50e",
+          "message": "Jiang patch",
+          "timestamp": "2024-09-04T11:23:09Z",
+          "url": "https://github.com/grief8/asterinas/commit/64ce6334edcd7bd4c2ecac0236c27513285bb50e"
+        },
+        "date": 1725746552369,
+        "tool": "customSmallerIsBetter",
+        "description": "The latency of UNIX domain socket communication on a single processor.",
+        "benches": [
+          {
+            "name": "Average unix latency on Linux",
+            "value": "3.5028",
+            "unit": "µs",
+            "extra": "linux_avg"
+          },
+          {
+            "name": "Average unix latency on Asterinas",
+            "value": "3.3737",
             "unit": "µs",
             "extra": "aster_avg"
           }
