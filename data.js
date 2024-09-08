@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1725829015774,
+  "lastUpdate": 1725829210505,
   "repoUrl": "https://github.com/grief8/asterinas",
   "entries": {
     "sysbench-thread Benchmark": [
@@ -51713,6 +51713,41 @@ window.BENCHMARK_DATA = {
           {
             "name": "Average mmap bandwidth on Asterinas",
             "value": "25540.96",
+            "unit": "MB/s",
+            "extra": "aster_avg"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Fabing Li",
+            "username": "grief8",
+            "email": "lifabing.lfb@antgroup.com"
+          },
+          "committer": {
+            "name": "Fabing Li",
+            "username": "grief8",
+            "email": "lifabing.lfb@antgroup.com"
+          },
+          "id": "64ce6334edcd7bd4c2ecac0236c27513285bb50e",
+          "message": "Jiang patch",
+          "timestamp": "2024-09-04T11:23:09Z",
+          "url": "https://github.com/grief8/asterinas/commit/64ce6334edcd7bd4c2ecac0236c27513285bb50e"
+        },
+        "date": 1725829205434,
+        "tool": "customBiggerIsBetter",
+        "description": "The bandwidth of mmap on a single processor.",
+        "benches": [
+          {
+            "name": "Average mmap bandwidth on Linux",
+            "value": "19935.79",
+            "unit": "MB/s",
+            "extra": "linux_avg"
+          },
+          {
+            "name": "Average mmap bandwidth on Asterinas",
+            "value": "22517.86",
             "unit": "MB/s",
             "extra": "aster_avg"
           }
