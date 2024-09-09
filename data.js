@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1725922074147,
+  "lastUpdate": 1725922359120,
   "repoUrl": "https://github.com/asterinas/asterinas",
   "entries": {
     "sysbench-thread Benchmark": [
@@ -5281,6 +5281,41 @@ window.BENCHMARK_DATA = {
           {
             "name": "Average Execution Time per CPU on Asterinas",
             "value": "3.85",
+            "unit": "ms",
+            "extra": "aster_avg"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Zhang Junyang",
+            "username": "junyang-zh",
+            "email": "junyang@stu.pku.edu.cn"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "c68302f7007225fa47f22a1085a8c59dcdae2ad4",
+          "message": "Don't hold any locks while waiting in `EpollFile`",
+          "timestamp": "2024-09-06T12:05:01Z",
+          "url": "https://github.com/asterinas/asterinas/commit/c68302f7007225fa47f22a1085a8c59dcdae2ad4"
+        },
+        "date": 1725922354904,
+        "tool": "customSmallerIsBetter",
+        "description": "The average time it takes for each prime number calculation to complete during the sysbench CPU test.",
+        "benches": [
+          {
+            "name": "Average Execution Time per CPU on Linux",
+            "value": "3.83",
+            "unit": "ms",
+            "extra": "linux_avg"
+          },
+          {
+            "name": "Average Execution Time per CPU on Asterinas",
+            "value": "3.84",
             "unit": "ms",
             "extra": "aster_avg"
           }
