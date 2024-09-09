@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1725913900465,
+  "lastUpdate": 1725914070482,
   "repoUrl": "https://github.com/grief8/asterinas",
   "entries": {
     "sysbench-thread Benchmark": [
@@ -18685,6 +18685,41 @@ window.BENCHMARK_DATA = {
           {
             "name": "Average fstat latency on Asterinas",
             "value": "0.2723",
+            "unit": "µs",
+            "extra": "aster_avg"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Fabing Li",
+            "username": "grief8",
+            "email": "lifabing.lfb@antgroup.com"
+          },
+          "committer": {
+            "name": "Fabing Li",
+            "username": "grief8",
+            "email": "lifabing.lfb@antgroup.com"
+          },
+          "id": "64ce6334edcd7bd4c2ecac0236c27513285bb50e",
+          "message": "Jiang patch",
+          "timestamp": "2024-09-04T11:23:09Z",
+          "url": "https://github.com/grief8/asterinas/commit/64ce6334edcd7bd4c2ecac0236c27513285bb50e"
+        },
+        "date": 1725914065617,
+        "tool": "customSmallerIsBetter",
+        "description": "The latency of the fstat system call on a single processor.",
+        "benches": [
+          {
+            "name": "Average fstat latency on Linux",
+            "value": "0.2912",
+            "unit": "µs",
+            "extra": "linux_avg"
+          },
+          {
+            "name": "Average fstat latency on Asterinas",
+            "value": "0.2717",
             "unit": "µs",
             "extra": "aster_avg"
           }
