@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1726001034251,
+  "lastUpdate": 1726001198116,
   "repoUrl": "https://github.com/grief8/asterinas",
   "entries": {
     "sysbench-thread Benchmark": [
@@ -57391,6 +57391,41 @@ window.BENCHMARK_DATA = {
           {
             "name": "Average file copy bandwidth on Asterinas",
             "value": "2856.9197",
+            "unit": "MB/s",
+            "extra": "aster_avg"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Fabing Li",
+            "username": "grief8",
+            "email": "lifabing.lfb@antgroup.com"
+          },
+          "committer": {
+            "name": "Fabing Li",
+            "username": "grief8",
+            "email": "lifabing.lfb@antgroup.com"
+          },
+          "id": "64ce6334edcd7bd4c2ecac0236c27513285bb50e",
+          "message": "Jiang patch",
+          "timestamp": "2024-09-04T11:23:09Z",
+          "url": "https://github.com/grief8/asterinas/commit/64ce6334edcd7bd4c2ecac0236c27513285bb50e"
+        },
+        "date": 1726001194266,
+        "tool": "customBiggerIsBetter",
+        "description": "The bandwidth of file copy.",
+        "benches": [
+          {
+            "name": "Average file copy bandwidth on Linux",
+            "value": "1750.1940",
+            "unit": "MB/s",
+            "extra": "linux_avg"
+          },
+          {
+            "name": "Average file copy bandwidth on Asterinas",
+            "value": "2791.6056",
             "unit": "MB/s",
             "extra": "aster_avg"
           }
