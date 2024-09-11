@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1726088145151,
+  "lastUpdate": 1726088286700,
   "repoUrl": "https://github.com/asterinas/asterinas",
   "entries": {
     "sysbench-thread Benchmark": [
@@ -55789,6 +55789,41 @@ window.BENCHMARK_DATA = {
           {
             "name": "Average select TCP latency on Asterinas",
             "value": "1.6780",
+            "unit": "µs",
+            "extra": "aster_avg"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Shaowei Song",
+            "username": "lucassong-mh",
+            "email": "songshaowei.ssw@antgroup.com"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "8bfbdf6642a9d04db3490792926d6a299d1e30be",
+          "message": "Optimize the lock usage in `RamInode`'s read/write",
+          "timestamp": "2024-09-02T13:23:46Z",
+          "url": "https://github.com/asterinas/asterinas/commit/8bfbdf6642a9d04db3490792926d6a299d1e30be"
+        },
+        "date": 1726088275809,
+        "tool": "customSmallerIsBetter",
+        "description": "The latency of select TCP on a single processor.",
+        "benches": [
+          {
+            "name": "Average select TCP latency on Linux",
+            "value": "2.8433",
+            "unit": "µs",
+            "extra": "linux_avg"
+          },
+          {
+            "name": "Average select TCP latency on Asterinas",
+            "value": "1.6771",
             "unit": "µs",
             "extra": "aster_avg"
           }
