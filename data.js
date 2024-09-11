@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1726087379909,
+  "lastUpdate": 1726087516153,
   "repoUrl": "https://github.com/asterinas/asterinas",
   "entries": {
     "sysbench-thread Benchmark": [
@@ -48349,6 +48349,41 @@ window.BENCHMARK_DATA = {
           {
             "name": "Average page fault latency on Asterinas",
             "value": "0.1856",
+            "unit": "µs",
+            "extra": "aster_avg"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Shaowei Song",
+            "username": "lucassong-mh",
+            "email": "songshaowei.ssw@antgroup.com"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "8bfbdf6642a9d04db3490792926d6a299d1e30be",
+          "message": "Optimize the lock usage in `RamInode`'s read/write",
+          "timestamp": "2024-09-02T13:23:46Z",
+          "url": "https://github.com/asterinas/asterinas/commit/8bfbdf6642a9d04db3490792926d6a299d1e30be"
+        },
+        "date": 1726087511728,
+        "tool": "customSmallerIsBetter",
+        "description": "The latency of handling page fault on a single processor.",
+        "benches": [
+          {
+            "name": "Average page fault latency on Linux",
+            "value": "0.1449",
+            "unit": "µs",
+            "extra": "linux_avg"
+          },
+          {
+            "name": "Average page fault latency on Asterinas",
+            "value": "0.1810",
             "unit": "µs",
             "extra": "aster_avg"
           }
