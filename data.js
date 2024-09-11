@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1726085965745,
+  "lastUpdate": 1726086107332,
   "repoUrl": "https://github.com/asterinas/asterinas",
   "entries": {
     "sysbench-thread Benchmark": [
@@ -18335,6 +18335,41 @@ window.BENCHMARK_DATA = {
           {
             "name": "Average fstat latency on Asterinas",
             "value": "0.3070",
+            "unit": "µs",
+            "extra": "aster_avg"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Shaowei Song",
+            "username": "lucassong-mh",
+            "email": "songshaowei.ssw@antgroup.com"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "8bfbdf6642a9d04db3490792926d6a299d1e30be",
+          "message": "Optimize the lock usage in `RamInode`'s read/write",
+          "timestamp": "2024-09-02T13:23:46Z",
+          "url": "https://github.com/asterinas/asterinas/commit/8bfbdf6642a9d04db3490792926d6a299d1e30be"
+        },
+        "date": 1726086102223,
+        "tool": "customSmallerIsBetter",
+        "description": "The latency of the fstat system call on a single processor.",
+        "benches": [
+          {
+            "name": "Average fstat latency on Linux",
+            "value": "0.2834",
+            "unit": "µs",
+            "extra": "linux_avg"
+          },
+          {
+            "name": "Average fstat latency on Asterinas",
+            "value": "0.3054",
             "unit": "µs",
             "extra": "aster_avg"
           }
