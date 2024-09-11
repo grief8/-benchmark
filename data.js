@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1726086666397,
+  "lastUpdate": 1726086810984,
   "repoUrl": "https://github.com/asterinas/asterinas",
   "entries": {
     "sysbench-thread Benchmark": [
@@ -22542,6 +22542,41 @@ window.BENCHMARK_DATA = {
           {
             "name": "Average memory read bandwidth on Asterinas",
             "value": "10531.22",
+            "unit": "MB/s",
+            "extra": "aster_avg"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Shaowei Song",
+            "username": "lucassong-mh",
+            "email": "songshaowei.ssw@antgroup.com"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "8bfbdf6642a9d04db3490792926d6a299d1e30be",
+          "message": "Optimize the lock usage in `RamInode`'s read/write",
+          "timestamp": "2024-09-02T13:23:46Z",
+          "url": "https://github.com/asterinas/asterinas/commit/8bfbdf6642a9d04db3490792926d6a299d1e30be"
+        },
+        "date": 1726086806608,
+        "tool": "customBiggerIsBetter",
+        "description": "The memory bandwidth for reading 512 MB of data on a single processor.",
+        "benches": [
+          {
+            "name": "Average memory read bandwidth on Linux",
+            "value": "10524.61",
+            "unit": "MB/s",
+            "extra": "linux_avg"
+          },
+          {
+            "name": "Average memory read bandwidth on Asterinas",
+            "value": "11338.35",
             "unit": "MB/s",
             "extra": "aster_avg"
           }
