@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1726176845896,
+  "lastUpdate": 1726177100830,
   "repoUrl": "https://github.com/asterinas/asterinas",
   "entries": {
     "sysbench-thread Benchmark": [
@@ -5479,6 +5479,41 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/asterinas/asterinas/commit/8bfbdf6642a9d04db3490792926d6a299d1e30be"
         },
         "date": 1726090918023,
+        "tool": "customSmallerIsBetter",
+        "description": "The average time it takes for each prime number calculation to complete during the sysbench CPU test.",
+        "benches": [
+          {
+            "name": "Average Execution Time per CPU on Linux",
+            "value": "3.83",
+            "unit": "ms",
+            "extra": "linux_avg"
+          },
+          {
+            "name": "Average Execution Time per CPU on Asterinas",
+            "value": "3.85",
+            "unit": "ms",
+            "extra": "aster_avg"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Marsman1996",
+            "username": "Marsman1996",
+            "email": "lqliuyuwei@outlook.com"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "6fcad6ce143b8f65e8be76297eb95a9cb56da22e",
+          "message": "Fix integer overflow in handle_page_faults_around",
+          "timestamp": "2024-09-12T12:15:04Z",
+          "url": "https://github.com/asterinas/asterinas/commit/6fcad6ce143b8f65e8be76297eb95a9cb56da22e"
+        },
+        "date": 1726177096963,
         "tool": "customSmallerIsBetter",
         "description": "The average time it takes for each prime number calculation to complete during the sysbench CPU test.",
         "benches": [
