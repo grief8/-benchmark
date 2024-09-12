@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1726176420877,
+  "lastUpdate": 1726176564987,
   "repoUrl": "https://github.com/asterinas/asterinas",
   "entries": {
     "sysbench-thread Benchmark": [
@@ -56345,6 +56345,41 @@ window.BENCHMARK_DATA = {
           {
             "name": "Average unix connect latency on Asterinas",
             "value": "9.0017",
+            "unit": "µs",
+            "extra": "aster_avg"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Marsman1996",
+            "username": "Marsman1996",
+            "email": "lqliuyuwei@outlook.com"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "6fcad6ce143b8f65e8be76297eb95a9cb56da22e",
+          "message": "Fix integer overflow in handle_page_faults_around",
+          "timestamp": "2024-09-12T12:15:04Z",
+          "url": "https://github.com/asterinas/asterinas/commit/6fcad6ce143b8f65e8be76297eb95a9cb56da22e"
+        },
+        "date": 1726176561106,
+        "tool": "customSmallerIsBetter",
+        "description": "The latency of UNIX domain socket connection on a single processor.",
+        "benches": [
+          {
+            "name": "Average unix connect latency on Linux",
+            "value": "7.2008",
+            "unit": "µs",
+            "extra": "linux_avg"
+          },
+          {
+            "name": "Average unix connect latency on Asterinas",
+            "value": "8.8511",
             "unit": "µs",
             "extra": "aster_avg"
           }
