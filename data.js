@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1726172815229,
+  "lastUpdate": 1726172949241,
   "repoUrl": "https://github.com/asterinas/asterinas",
   "entries": {
     "sysbench-thread Benchmark": [
@@ -56137,6 +56137,41 @@ window.BENCHMARK_DATA = {
           {
             "name": "Average simple HTTP transaction bandwidth on Asterinas",
             "value": "18.76",
+            "unit": "MB/s",
+            "extra": "aster_avg"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Marsman1996",
+            "username": "Marsman1996",
+            "email": "lqliuyuwei@outlook.com"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "6fcad6ce143b8f65e8be76297eb95a9cb56da22e",
+          "message": "Fix integer overflow in handle_page_faults_around",
+          "timestamp": "2024-09-12T12:15:04Z",
+          "url": "https://github.com/asterinas/asterinas/commit/6fcad6ce143b8f65e8be76297eb95a9cb56da22e"
+        },
+        "date": 1726172945892,
+        "tool": "customBiggerIsBetter",
+        "description": "The bandwidth of simple HTTP transaction with 64MB file.",
+        "benches": [
+          {
+            "name": "Average simple HTTP transaction bandwidth on Linux",
+            "value": "4126.23",
+            "unit": "MB/s",
+            "extra": "linux_avg"
+          },
+          {
+            "name": "Average simple HTTP transaction bandwidth on Asterinas",
+            "value": "18.65",
             "unit": "MB/s",
             "extra": "aster_avg"
           }
