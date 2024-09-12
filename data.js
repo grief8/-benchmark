@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1726172244623,
+  "lastUpdate": 1726172390493,
   "repoUrl": "https://github.com/asterinas/asterinas",
   "entries": {
     "sysbench-thread Benchmark": [
@@ -48067,6 +48067,41 @@ window.BENCHMARK_DATA = {
           {
             "name": "Number of created/deleted files on Asterinas",
             "value": "1016",
+            "unit": "number",
+            "extra": "aster_avg"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Marsman1996",
+            "username": "Marsman1996",
+            "email": "lqliuyuwei@outlook.com"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "6fcad6ce143b8f65e8be76297eb95a9cb56da22e",
+          "message": "Fix integer overflow in handle_page_faults_around",
+          "timestamp": "2024-09-12T12:15:04Z",
+          "url": "https://github.com/asterinas/asterinas/commit/6fcad6ce143b8f65e8be76297eb95a9cb56da22e"
+        },
+        "date": 1726172385982,
+        "tool": "customBiggerIsBetter",
+        "description": "The number of 0k-sized files created then deleted over a duration.",
+        "benches": [
+          {
+            "name": "Number of created/deleted files on Linux",
+            "value": "3583",
+            "unit": "number",
+            "extra": "linux_avg"
+          },
+          {
+            "name": "Number of created/deleted files on Asterinas",
+            "value": "951",
             "unit": "number",
             "extra": "aster_avg"
           }
