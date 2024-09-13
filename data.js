@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1726237069849,
+  "lastUpdate": 1726237075898,
   "repoUrl": "https://github.com/grief8/asterinas",
   "entries": {
     "sysbench/thread_lat": [
@@ -38435,6 +38435,43 @@ window.BENCHMARK_DATA = {
             "value": "0.2033",
             "unit": "µs",
             "extra": "aster_avg"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Fabing Li",
+            "username": "grief8",
+            "email": "lifabing.lfb@antgroup.com"
+          },
+          "committer": {
+            "name": "Fabing Li",
+            "username": "grief8",
+            "email": "lifabing.lfb@antgroup.com"
+          },
+          "id": "2426c1687d205c276ff6a4af1ad3a9f92ae74355",
+          "message": "ss",
+          "timestamp": "2024-09-13T10:48:35Z",
+          "url": "https://github.com/grief8/asterinas/commit/2426c1687d205c276ff6a4af1ad3a9f92ae74355"
+        },
+        "date": 1726237064766,
+        "tool": "customSmallerIsBetter",
+        "title": "[VFS] The cost of read (/dev/zero)",
+        "description": "lat_syscall read",
+        "display": true,
+        "benches": [
+          {
+            "name": "Average read latency on Linux",
+            "value": "0.1075",
+            "unit": "µs",
+            "extra": "linux_result"
+          },
+          {
+            "name": "Average read latency on Asterinas",
+            "value": "0.2474",
+            "unit": "µs",
+            "extra": "aster_result"
           }
         ]
       }
