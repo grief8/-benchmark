@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1726262389700,
+  "lastUpdate": 1726262528971,
   "repoUrl": "https://github.com/asterinas/asterinas",
   "entries": {
     "sysbench/thread_lat": [
@@ -18977,6 +18977,43 @@ window.BENCHMARK_DATA = {
             "value": "0.3110",
             "unit": "µs",
             "extra": "aster_avg"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Yuke Peng",
+            "username": "sdww0",
+            "email": "pykfirst@gmail.com"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "32ea24e945efde86117d2278a48145d71b9ec90c",
+          "message": "Bump version to 0.8.2",
+          "timestamp": "2024-09-13T05:02:35Z",
+          "url": "https://github.com/asterinas/asterinas/commit/32ea24e945efde86117d2278a48145d71b9ec90c"
+        },
+        "date": 1726262524202,
+        "tool": "customSmallerIsBetter",
+        "title": "[VFS] The cost of fstat",
+        "description": "lat_syscall fstat",
+        "display": true,
+        "benches": [
+          {
+            "name": "Average fstat latency on Linux",
+            "value": "0.2837",
+            "unit": "µs",
+            "extra": "linux_result"
+          },
+          {
+            "name": "Average fstat latency on Asterinas",
+            "value": "0.3082",
+            "unit": "µs",
+            "extra": "aster_result"
           }
         ]
       }
