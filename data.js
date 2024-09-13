@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1726258676725,
+  "lastUpdate": 1726258819287,
   "repoUrl": "https://github.com/asterinas/asterinas",
   "entries": {
     "sysbench/thread_lat": [
@@ -23071,6 +23071,43 @@ window.BENCHMARK_DATA = {
             "value": "10135.38",
             "unit": "MB/s",
             "extra": "aster_avg"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Yuke Peng",
+            "username": "sdww0",
+            "email": "pykfirst@gmail.com"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "32ea24e945efde86117d2278a48145d71b9ec90c",
+          "message": "Bump version to 0.8.2",
+          "timestamp": "2024-09-13T05:02:35Z",
+          "url": "https://github.com/asterinas/asterinas/commit/32ea24e945efde86117d2278a48145d71b9ec90c"
+        },
+        "date": 1726258814937,
+        "tool": "customBiggerIsBetter",
+        "title": "[Memory] The bandwidth of reading integers",
+        "description": "bw_mem frd",
+        "display": true,
+        "benches": [
+          {
+            "name": "Average memory read bandwidth on Linux",
+            "value": "10554.82",
+            "unit": "MB/s",
+            "extra": "linux_result"
+          },
+          {
+            "name": "Average memory read bandwidth on Asterinas",
+            "value": "10341.54",
+            "unit": "MB/s",
+            "extra": "aster_result"
           }
         ]
       }
