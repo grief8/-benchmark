@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1726258541164,
+  "lastUpdate": 1726258676725,
   "repoUrl": "https://github.com/asterinas/asterinas",
   "entries": {
     "sysbench/thread_lat": [
@@ -52668,6 +52668,43 @@ window.BENCHMARK_DATA = {
             "value": "34",
             "unit": "µs",
             "extra": "aster_avg"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Yuke Peng",
+            "username": "sdww0",
+            "email": "pykfirst@gmail.com"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "32ea24e945efde86117d2278a48145d71b9ec90c",
+          "message": "Bump version to 0.8.2",
+          "timestamp": "2024-09-13T05:02:35Z",
+          "url": "https://github.com/asterinas/asterinas/commit/32ea24e945efde86117d2278a48145d71b9ec90c"
+        },
+        "date": 1726258674089,
+        "tool": "customSmallerIsBetter",
+        "title": "[Memory] The cost of mmap+unmap",
+        "description": "lat_mmap",
+        "display": true,
+        "benches": [
+          {
+            "name": "Average mmap latency on Linux",
+            "value": "23",
+            "unit": "µs",
+            "extra": "linux_result"
+          },
+          {
+            "name": "Average mmap latency on Asterinas",
+            "value": "32",
+            "unit": "µs",
+            "extra": "aster_result"
           }
         ]
       }
