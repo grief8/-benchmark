@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1726260877453,
+  "lastUpdate": 1726261033916,
   "repoUrl": "https://github.com/asterinas/asterinas",
   "entries": {
     "sysbench/thread_lat": [
@@ -59337,6 +59337,43 @@ window.BENCHMARK_DATA = {
             "value": "401.57",
             "unit": "MB/s",
             "extra": "aster_avg"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Yuke Peng",
+            "username": "sdww0",
+            "email": "pykfirst@gmail.com"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "32ea24e945efde86117d2278a48145d71b9ec90c",
+          "message": "Bump version to 0.8.2",
+          "timestamp": "2024-09-13T05:02:35Z",
+          "url": "https://github.com/asterinas/asterinas/commit/32ea24e945efde86117d2278a48145d71b9ec90c"
+        },
+        "date": 1726261030303,
+        "tool": "customBiggerIsBetter",
+        "title": "[TCP sockets] The bandwidth (localhost)",
+        "description": "bw_tcp -l",
+        "display": true,
+        "benches": [
+          {
+            "name": "Average TCP bandwidth on Linux",
+            "value": "4407.75",
+            "unit": "MB/s",
+            "extra": "linux_result"
+          },
+          {
+            "name": "Average TCP bandwidth on Asterinas",
+            "value": "418.37",
+            "unit": "MB/s",
+            "extra": "aster_result"
           }
         ]
       }
