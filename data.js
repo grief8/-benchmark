@@ -2,7 +2,7 @@ window.BENCHMARK_DATA = {
   "lastUpdate": 1726177353384,
   "repoUrl": "https://github.com/asterinas/asterinas",
   "entries": {
-    "sysbench-thread Benchmark": [
+    "sysbench/thread_lat": [
       {
         "commit": {
           "author": {
@@ -2732,7 +2732,7 @@ window.BENCHMARK_DATA = {
         ]
       }
     ],
-    "sysbench-cpu Benchmark": [
+    "sysbench/cpu_lat": [
       {
         "commit": {
           "author": {
@@ -5567,7 +5567,7 @@ window.BENCHMARK_DATA = {
         ]
       }
     ],
-    "lmbench-getpid Benchmark": [
+    "lmbench/process_getppid_lat": [
       {
         "commit": {
           "author": {
@@ -7994,7 +7994,7 @@ window.BENCHMARK_DATA = {
         ]
       }
     ],
-    "lmbench-fork Benchmark": [
+    "lmbench/process_fork_lat": [
       {
         "commit": {
           "author": {
@@ -10387,7 +10387,7 @@ window.BENCHMARK_DATA = {
         ]
       }
     ],
-    "lmbench-signal Benchmark": [
+    "lmbench/signal_catch_lat": [
       {
         "commit": {
           "author": {
@@ -12712,7 +12712,7 @@ window.BENCHMARK_DATA = {
         ]
       }
     ],
-    "lmbench-ctx Benchmark": [
+    "lmbench/process_ctx_lat": [
       {
         "commit": {
           "author": {
@@ -14833,7 +14833,7 @@ window.BENCHMARK_DATA = {
         ]
       }
     ],
-    "lmbench-exec Benchmark": [
+    "lmbench/process_exec_lat": [
       {
         "commit": {
           "author": {
@@ -16675,7 +16675,7 @@ window.BENCHMARK_DATA = {
         ]
       }
     ],
-    "lmbench-fstat Benchmark": [
+    "lmbench/vfs_fstat_lat": [
       {
         "commit": {
           "author": {
@@ -18796,7 +18796,7 @@ window.BENCHMARK_DATA = {
         ]
       }
     ],
-    "lmbench-mem-fcp Benchmark": [
+    "lmbench/mem_copy_bw": [
       {
         "commit": {
           "author": {
@@ -20917,7 +20917,7 @@ window.BENCHMARK_DATA = {
         ]
       }
     ],
-    "lmbench-mem-frd Benchmark": [
+    "lmbench/mem_read_bw": [
       {
         "commit": {
           "author": {
@@ -23038,7 +23038,7 @@ window.BENCHMARK_DATA = {
         ]
       }
     ],
-    "lmbench-mem-fwr Benchmark": [
+    "lmbench/mem_write_bw": [
       {
         "commit": {
           "author": {
@@ -25159,7 +25159,7 @@ window.BENCHMARK_DATA = {
         ]
       }
     ],
-    "lmbench-open Benchmark": [
+    "lmbench/vfs_open_lat": [
       {
         "commit": {
           "author": {
@@ -27280,7 +27280,7 @@ window.BENCHMARK_DATA = {
         ]
       }
     ],
-    "lmbench-shell Benchmark": [
+    "lmbench/process_shell_lat": [
       {
         "commit": {
           "author": {
@@ -29156,7 +29156,7 @@ window.BENCHMARK_DATA = {
         ]
       }
     ],
-    "lmbench-stat Benchmark": [
+    "lmbench/vfs_stat_lat": [
       {
         "commit": {
           "author": {
@@ -31243,7 +31243,7 @@ window.BENCHMARK_DATA = {
         ]
       }
     ],
-    "lmbench-unix-latency Benchmark": [
+    "lmbench/unix_lat": [
       {
         "commit": {
           "author": {
@@ -33296,7 +33296,7 @@ window.BENCHMARK_DATA = {
         ]
       }
     ],
-    "lmbench-pipe-bandwidth Benchmark": [
+    "lmbench/pipe_bw": [
       {
         "commit": {
           "author": {
@@ -35009,7 +35009,7 @@ window.BENCHMARK_DATA = {
         ]
       }
     ],
-    "lmbench-pipe-latency Benchmark": [
+    "lmbench/pipe_lat": [
       {
         "commit": {
           "author": {
@@ -36688,7 +36688,7 @@ window.BENCHMARK_DATA = {
         ]
       }
     ],
-    "lmbench-read Benchmark": [
+    "lmbench/vfs_read_lat": [
       {
         "commit": {
           "author": {
@@ -38402,7 +38402,7 @@ window.BENCHMARK_DATA = {
         ]
       }
     ],
-    "lmbench-write Benchmark": [
+    "lmbench/vfs_write_lat": [
       {
         "commit": {
           "author": {
@@ -40116,7 +40116,7 @@ window.BENCHMARK_DATA = {
         ]
       }
     ],
-    "lmbench-file-rd-bandwidth Benchmark": [
+    "lmbench/vfs_read_pagecache_bw": [
       {
         "commit": {
           "author": {
@@ -41728,7 +41728,7 @@ window.BENCHMARK_DATA = {
         ]
       }
     ],
-    "lmbench-select-file Benchmark": [
+    "lmbench/vfs_select_lat": [
       {
         "commit": {
           "author": {
@@ -43340,7 +43340,7 @@ window.BENCHMARK_DATA = {
         ]
       }
     ],
-    "lmbench-signal-install Benchmark": [
+    "lmbench/signal_install_lat": [
       {
         "commit": {
           "author": {
@@ -44952,7 +44952,7 @@ window.BENCHMARK_DATA = {
         ]
       }
     ],
-    "lmbench-unix-bandwidth Benchmark": [
+    "lmbench/unix_bw": [
       {
         "commit": {
           "author": {
@@ -46529,7 +46529,7 @@ window.BENCHMARK_DATA = {
         ]
       }
     ],
-    "lmbench-fs-create-delete-files-10k Benchmark": [
+    "lmbench/ramfs_create_delete_files_10k_ops": [
       {
         "commit": {
           "author": {
@@ -47651,7 +47651,7 @@ window.BENCHMARK_DATA = {
         ]
       }
     ],
-    "lmbench-fs-create-delete-files-0k Benchmark": [
+    "lmbench/ramfs_create_delete_files_0k_ops": [
       {
         "commit": {
           "author": {
@@ -48773,7 +48773,7 @@ window.BENCHMARK_DATA = {
         ]
       }
     ],
-    "lmbench-pagefault Benchmark": [
+    "lmbench/mem_pagefault_lat": [
       {
         "commit": {
           "author": {
@@ -49755,7 +49755,7 @@ window.BENCHMARK_DATA = {
         ]
       }
     ],
-    "lmbench-fcntl Benchmark": [
+    "lmbench/vfs_fcntl_lat": [
       {
         "commit": {
           "author": {
@@ -50667,7 +50667,7 @@ window.BENCHMARK_DATA = {
         ]
       }
     ],
-    "lmbench-mmap-bandwidth Benchmark": [
+    "lmbench/mem_mmap_bw": [
       {
         "commit": {
           "author": {
@@ -51614,7 +51614,7 @@ window.BENCHMARK_DATA = {
         ]
       }
     ],
-    "lmbench-mmap-latency Benchmark": [
+    "lmbench/mem_mmap_lat": [
       {
         "commit": {
           "author": {
@@ -52561,7 +52561,7 @@ window.BENCHMARK_DATA = {
         ]
       }
     ],
-    "lmbench-semaphore Benchmark": [
+    "lmbench/semaphore_lat": [
       {
         "commit": {
           "author": {
@@ -53473,7 +53473,7 @@ window.BENCHMARK_DATA = {
         ]
       }
     ],
-    "lmbench-signal-prot Benchmark": [
+    "lmbench/signal_prot_lat": [
       {
         "commit": {
           "author": {
@@ -54420,7 +54420,7 @@ window.BENCHMARK_DATA = {
         ]
       }
     ],
-    "lmbench-lmdd Benchmark": [
+    "lmbench/ext2_copy_files_bw": [
       {
         "commit": {
           "author": {
@@ -55262,7 +55262,7 @@ window.BENCHMARK_DATA = {
         ]
       }
     ],
-    "lmbench-fifo-latency Benchmark": [
+    "lmbench/fifo_lat": [
       {
         "commit": {
           "author": {
@@ -55719,7 +55719,7 @@ window.BENCHMARK_DATA = {
         ]
       }
     ],
-    "lmbench-unix-connect-latency Benchmark": [
+    "lmbench/unix_connect_lat": [
       {
         "commit": {
           "author": {
@@ -56526,7 +56526,7 @@ window.BENCHMARK_DATA = {
         ]
       }
     ],
-    "lmbench-http-bandwidth Benchmark": [
+    "lmbench/tcp_loopback_http_bw": [
       {
         "commit": {
           "author": {
@@ -56983,7 +56983,7 @@ window.BENCHMARK_DATA = {
         ]
       }
     ],
-    "lmbench-select-tcp Benchmark": [
+    "lmbench/tcp_loopback_select_lat": [
       {
         "commit": {
           "author": {
@@ -57510,7 +57510,7 @@ window.BENCHMARK_DATA = {
         ]
       }
     ],
-    "lmbench-tcp-connect-latency Benchmark": [
+    "lmbench/tcp_loopback_connect_lat": [
       {
         "commit": {
           "author": {
@@ -58037,7 +58037,7 @@ window.BENCHMARK_DATA = {
         ]
       }
     ],
-    "lmbench-tcp-bandwidth-localhost Benchmark": [
+    "lmbench/tcp_loopback_bw": [
       {
         "commit": {
           "author": {
@@ -58564,7 +58564,7 @@ window.BENCHMARK_DATA = {
         ]
       }
     ],
-    "lmbench-tcp-latency-localhost Benchmark": [
+    "lmbench/tcp_latency_localhost": [
       {
         "commit": {
           "author": {
@@ -59091,7 +59091,7 @@ window.BENCHMARK_DATA = {
         ]
       }
     ],
-    "lmbench-udp-latency-localhost Benchmark": [
+    "lmbench/udp_loopback_lat": [
       {
         "commit": {
           "author": {
