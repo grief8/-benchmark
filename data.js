@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1726237123435,
+  "lastUpdate": 1726237129685,
   "repoUrl": "https://github.com/grief8/asterinas",
   "entries": {
     "sysbench/thread_lat": [
@@ -59947,6 +59947,43 @@ window.BENCHMARK_DATA = {
             "value": "372.9157",
             "unit": "µs",
             "extra": "aster_avg"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Fabing Li",
+            "username": "grief8",
+            "email": "lifabing.lfb@antgroup.com"
+          },
+          "committer": {
+            "name": "Fabing Li",
+            "username": "grief8",
+            "email": "lifabing.lfb@antgroup.com"
+          },
+          "id": "2426c1687d205c276ff6a4af1ad3a9f92ae74355",
+          "message": "ss",
+          "timestamp": "2024-09-13T10:48:35Z",
+          "url": "https://github.com/grief8/asterinas/commit/2426c1687d205c276ff6a4af1ad3a9f92ae74355"
+        },
+        "date": 1726237120356,
+        "tool": "customSmallerIsBetter",
+        "title": "[UDP sockets] The latency of write+read",
+        "description": "lat_udp",
+        "display": true,
+        "benches": [
+          {
+            "name": "Average UDP latency on Linux",
+            "value": "4.8622",
+            "unit": "µs",
+            "extra": "linux_result"
+          },
+          {
+            "name": "Average UDP latency on Asterinas",
+            "value": "182.7823",
+            "unit": "µs",
+            "extra": "aster_result"
           }
         ]
       }
