@@ -27,13 +27,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Execution Time per Thread on Linux",
             "value": "21.33",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Execution Time per Thread on Asterinas",
             "value": "447.97",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -61,13 +61,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Execution Time per Thread on Linux",
             "value": "21.32",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Execution Time per Thread on Asterinas",
             "value": "360.34",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -95,13 +95,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Execution Time per Thread on Linux",
             "value": "22.02",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Execution Time per Thread on Asterinas",
             "value": "428.14",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -129,13 +129,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Execution Time per Thread on Linux",
             "value": "22.33",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Execution Time per Thread on Asterinas",
             "value": "455.13",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -163,13 +163,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Execution Time per Thread on Linux",
             "value": "21.20",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Execution Time per Thread on Asterinas",
             "value": "374.60",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -197,13 +197,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Execution Time per Thread on Linux",
             "value": "22.47",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Execution Time per Thread on Asterinas",
             "value": "429.32",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -231,13 +231,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Execution Time per Thread on Linux",
             "value": "21.15",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Execution Time per Thread on Asterinas",
             "value": "434.14",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -265,13 +265,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Execution Time per Thread on Linux",
             "value": "21.61",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Execution Time per Thread on Asterinas",
             "value": "478.77",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -299,13 +299,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Execution Time per Thread on Linux",
             "value": "21.40",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Execution Time per Thread on Asterinas",
             "value": "505.39",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -333,13 +333,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Execution Time per Thread on Linux",
             "value": "21.87",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Execution Time per Thread on Asterinas",
             "value": "415.98",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -367,13 +367,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Execution Time per Thread on Linux",
             "value": "21.96",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Execution Time per Thread on Asterinas",
             "value": "423.43",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -401,13 +401,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Execution Time per Thread on Linux",
             "value": "22.71",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Execution Time per Thread on Asterinas",
             "value": "476.82",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -435,13 +435,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Execution Time per Thread on Linux",
             "value": "22.86",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Execution Time per Thread on Asterinas",
             "value": "506.96",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -469,13 +469,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Execution Time per Thread on Linux",
             "value": "23.01",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Execution Time per Thread on Asterinas",
             "value": "543.11",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -503,13 +503,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Execution Time per Thread on Linux",
             "value": "22.21",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Execution Time per Thread on Asterinas",
             "value": "441.83",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -537,13 +537,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Execution Time per Thread on Linux",
             "value": "21.59",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Execution Time per Thread on Asterinas",
             "value": "446.51",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -571,13 +571,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Execution Time per Thread on Linux",
             "value": "22.29",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Execution Time per Thread on Asterinas",
             "value": "447.68",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -605,13 +605,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Execution Time per Thread on Linux",
             "value": "21.91",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Execution Time per Thread on Asterinas",
             "value": "473.53",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -639,13 +639,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Execution Time per Thread on Linux",
             "value": "22.00",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Execution Time per Thread on Asterinas",
             "value": "442.26",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -673,13 +673,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Execution Time per Thread on Linux",
             "value": "21.09",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Execution Time per Thread on Asterinas",
             "value": "462.16",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -707,13 +707,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Execution Time per Thread on Linux",
             "value": "21.61",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Execution Time per Thread on Asterinas",
             "value": "455.53",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -741,13 +741,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Execution Time per Thread on Linux",
             "value": "21.40",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Execution Time per Thread on Asterinas",
             "value": "464.24",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -775,13 +775,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Execution Time per Thread on Linux",
             "value": "21.89",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Execution Time per Thread on Asterinas",
             "value": "65.10",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -809,13 +809,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Execution Time per Thread on Linux",
             "value": "22.22",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Execution Time per Thread on Asterinas",
             "value": "65.51",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -843,13 +843,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Execution Time per Thread on Linux",
             "value": "21.53",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Execution Time per Thread on Asterinas",
             "value": "64.06",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -877,13 +877,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Execution Time per Thread on Linux",
             "value": "22.20",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Execution Time per Thread on Asterinas",
             "value": "61.71",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -911,13 +911,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Execution Time per Thread on Linux",
             "value": "21.49",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Execution Time per Thread on Asterinas",
             "value": "61.25",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -945,13 +945,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Execution Time per Thread on Linux",
             "value": "22.01",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Execution Time per Thread on Asterinas",
             "value": "64.45",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -979,13 +979,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Execution Time per Thread on Linux",
             "value": "21.89",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Execution Time per Thread on Asterinas",
             "value": "63.43",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -1013,13 +1013,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Execution Time per Thread on Linux",
             "value": "22.09",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Execution Time per Thread on Asterinas",
             "value": "51.20",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -1046,13 +1046,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Execution Time per Thread on Linux",
             "value": "21.15",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Execution Time per Thread on Asterinas",
             "value": "52.77",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -1080,13 +1080,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Execution Time per Thread on Linux",
             "value": "21.71",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Execution Time per Thread on Asterinas",
             "value": "50.61",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -1114,13 +1114,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Execution Time per Thread on Linux",
             "value": "21.90",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Execution Time per Thread on Asterinas",
             "value": "53.05",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -1148,13 +1148,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Execution Time per Thread on Linux",
             "value": "21.18",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Execution Time per Thread on Asterinas",
             "value": "52.99",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -1182,13 +1182,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Execution Time per Thread on Linux",
             "value": "22.02",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Execution Time per Thread on Asterinas",
             "value": "52.96",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -1216,13 +1216,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Execution Time per Thread on Linux",
             "value": "21.15",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Execution Time per Thread on Asterinas",
             "value": "51.55",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -1251,13 +1251,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Execution Time per Thread on Linux",
             "value": "22.11",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Execution Time per Thread on Asterinas",
             "value": "52.48",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -1286,13 +1286,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Execution Time per Thread on Linux",
             "value": "22.56",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Execution Time per Thread on Asterinas",
             "value": "52.49",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -1321,13 +1321,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Execution Time per Thread on Linux",
             "value": "21.63",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Execution Time per Thread on Asterinas",
             "value": "51.07",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -1356,13 +1356,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Execution Time per Thread on Linux",
             "value": "22.09",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Execution Time per Thread on Asterinas",
             "value": "50.92",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -1391,13 +1391,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Execution Time per Thread on Linux",
             "value": "21.73",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Execution Time per Thread on Asterinas",
             "value": "50.94",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -1426,13 +1426,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Execution Time per Thread on Linux",
             "value": "21.93",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Execution Time per Thread on Asterinas",
             "value": "51.18",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -1461,13 +1461,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Execution Time per Thread on Linux",
             "value": "21.36",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Execution Time per Thread on Asterinas",
             "value": "51.47",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -1496,13 +1496,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Execution Time per Thread on Linux",
             "value": "22.58",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Execution Time per Thread on Asterinas",
             "value": "25.70",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -1531,13 +1531,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Execution Time per Thread on Linux",
             "value": "22.59",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Execution Time per Thread on Asterinas",
             "value": "26.07",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -1566,13 +1566,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Execution Time per Thread on Linux",
             "value": "22.36",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Execution Time per Thread on Asterinas",
             "value": "25.46",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -1601,13 +1601,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Execution Time per Thread on Linux",
             "value": "21.97",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Execution Time per Thread on Asterinas",
             "value": "26.27",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -1636,13 +1636,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Execution Time per Thread on Linux",
             "value": "21.72",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Execution Time per Thread on Asterinas",
             "value": "25.65",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -1671,13 +1671,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Execution Time per Thread on Linux",
             "value": "22.00",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Execution Time per Thread on Asterinas",
             "value": "25.90",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -1706,13 +1706,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Execution Time per Thread on Linux",
             "value": "21.97",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Execution Time per Thread on Asterinas",
             "value": "25.44",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -1741,13 +1741,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Execution Time per Thread on Linux",
             "value": "21.62",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Execution Time per Thread on Asterinas",
             "value": "23.35",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -1776,13 +1776,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Execution Time per Thread on Linux",
             "value": "21.75",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Execution Time per Thread on Asterinas",
             "value": "24.00",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -1811,13 +1811,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Execution Time per Thread on Linux",
             "value": "21.26",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Execution Time per Thread on Asterinas",
             "value": "23.18",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -1846,13 +1846,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Execution Time per Thread on Linux",
             "value": "23.17",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Execution Time per Thread on Asterinas",
             "value": "23.57",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -1881,13 +1881,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Execution Time per Thread on Linux",
             "value": "21.34",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Execution Time per Thread on Asterinas",
             "value": "23.50",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -1916,13 +1916,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Execution Time per Thread on Linux",
             "value": "22.46",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Execution Time per Thread on Asterinas",
             "value": "23.23",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -1951,13 +1951,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Execution Time per Thread on Linux",
             "value": "22.47",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Execution Time per Thread on Asterinas",
             "value": "23.61",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -1986,13 +1986,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Execution Time per Thread on Linux",
             "value": "21.36",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Execution Time per Thread on Asterinas",
             "value": "23.39",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -2021,13 +2021,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Execution Time per Thread on Linux",
             "value": "21.69",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Execution Time per Thread on Asterinas",
             "value": "23.45",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -2056,13 +2056,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Execution Time per Thread on Linux",
             "value": "13.73",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Execution Time per Thread on Asterinas",
             "value": "23.20",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -2091,13 +2091,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Execution Time per Thread on Linux",
             "value": "13.71",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Execution Time per Thread on Asterinas",
             "value": "23.53",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -2126,13 +2126,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Execution Time per Thread on Linux",
             "value": "13.52",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Execution Time per Thread on Asterinas",
             "value": "24.95",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -2161,13 +2161,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Execution Time per Thread on Linux",
             "value": "13.58",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Execution Time per Thread on Asterinas",
             "value": "25.48",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -2196,13 +2196,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Execution Time per Thread on Linux",
             "value": "13.34",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Execution Time per Thread on Asterinas",
             "value": "25.73",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -2231,13 +2231,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Execution Time per Thread on Linux",
             "value": "13.39",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Execution Time per Thread on Asterinas",
             "value": "25.92",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -2266,13 +2266,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Execution Time per Thread on Linux",
             "value": "13.60",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Execution Time per Thread on Asterinas",
             "value": "25.79",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -2301,13 +2301,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Execution Time per Thread on Linux",
             "value": "13.47",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Execution Time per Thread on Asterinas",
             "value": "24.99",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -2336,13 +2336,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Execution Time per Thread on Linux",
             "value": "13.49",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Execution Time per Thread on Asterinas",
             "value": "25.39",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -2371,13 +2371,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Execution Time per Thread on Linux",
             "value": "13.57",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Execution Time per Thread on Asterinas",
             "value": "23.93",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -2406,13 +2406,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Execution Time per Thread on Linux",
             "value": "13.43",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Execution Time per Thread on Asterinas",
             "value": "23.89",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -2441,13 +2441,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Execution Time per Thread on Linux",
             "value": "13.32",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Execution Time per Thread on Asterinas",
             "value": "23.67",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -2476,13 +2476,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Execution Time per Thread on Linux",
             "value": "13.64",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Execution Time per Thread on Asterinas",
             "value": "23.81",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -2511,13 +2511,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Execution Time per Thread on Linux",
             "value": "13.61",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Execution Time per Thread on Asterinas",
             "value": "23.81",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -2546,13 +2546,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Execution Time per Thread on Linux",
             "value": "13.94",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Execution Time per Thread on Asterinas",
             "value": "23.92",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -2581,13 +2581,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Execution Time per Thread on Linux",
             "value": "13.60",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Execution Time per Thread on Asterinas",
             "value": "23.83",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -2616,13 +2616,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Execution Time per Thread on Linux",
             "value": "13.42",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Execution Time per Thread on Asterinas",
             "value": "23.67",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -2651,13 +2651,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Execution Time per Thread on Linux",
             "value": "13.49",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Execution Time per Thread on Asterinas",
             "value": "23.97",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -2686,13 +2686,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Execution Time per Thread on Linux",
             "value": "13.87",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Execution Time per Thread on Asterinas",
             "value": "24.21",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -2721,13 +2721,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Execution Time per Thread on Linux",
             "value": "13.76",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Execution Time per Thread on Asterinas",
             "value": "23.96",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -2794,13 +2794,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Execution Time per CPU on Linux",
             "value": "3.83",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Execution Time per CPU on Asterinas",
             "value": "3.82",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -2828,13 +2828,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Execution Time per CPU on Linux",
             "value": "3.83",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Execution Time per CPU on Asterinas",
             "value": "3.82",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -2862,13 +2862,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Execution Time per CPU on Linux",
             "value": "3.83",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Execution Time per CPU on Asterinas",
             "value": "3.82",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -2896,13 +2896,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Execution Time per CPU on Linux",
             "value": "3.83",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Execution Time per CPU on Asterinas",
             "value": "3.82",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -2930,13 +2930,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Execution Time per CPU on Linux",
             "value": "3.83",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Execution Time per CPU on Asterinas",
             "value": "3.82",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -2964,13 +2964,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Execution Time per CPU on Linux",
             "value": "3.83",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Execution Time per CPU on Asterinas",
             "value": "3.83",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -2998,13 +2998,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Execution Time per CPU on Linux",
             "value": "3.83",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Execution Time per CPU on Asterinas",
             "value": "3.81",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -3032,13 +3032,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Execution Time per CPU on Linux",
             "value": "3.83",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Execution Time per CPU on Asterinas",
             "value": "3.82",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -3066,13 +3066,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Execution Time per CPU on Linux",
             "value": "3.83",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Execution Time per CPU on Asterinas",
             "value": "3.82",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -3100,13 +3100,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Execution Time per CPU on Linux",
             "value": "3.83",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Execution Time per CPU on Asterinas",
             "value": "3.82",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -3134,13 +3134,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Execution Time per CPU on Linux",
             "value": "3.83",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Execution Time per CPU on Asterinas",
             "value": "3.82",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -3168,13 +3168,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Execution Time per CPU on Linux",
             "value": "3.83",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Execution Time per CPU on Asterinas",
             "value": "3.81",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -3202,13 +3202,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Execution Time per CPU on Linux",
             "value": "3.83",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Execution Time per CPU on Asterinas",
             "value": "3.81",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -3236,13 +3236,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Execution Time per CPU on Linux",
             "value": "3.83",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Execution Time per CPU on Asterinas",
             "value": "3.82",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -3270,13 +3270,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Execution Time per CPU on Linux",
             "value": "3.83",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Execution Time per CPU on Asterinas",
             "value": "3.82",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -3304,13 +3304,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Execution Time per CPU on Linux",
             "value": "3.83",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Execution Time per CPU on Asterinas",
             "value": "3.81",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -3338,13 +3338,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Execution Time per CPU on Linux",
             "value": "3.83",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Execution Time per CPU on Asterinas",
             "value": "3.82",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -3372,13 +3372,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Execution Time per CPU on Linux",
             "value": "3.83",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Execution Time per CPU on Asterinas",
             "value": "3.83",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -3406,13 +3406,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Execution Time per CPU on Linux",
             "value": "3.83",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Execution Time per CPU on Asterinas",
             "value": "3.82",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -3440,13 +3440,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Execution Time per CPU on Linux",
             "value": "3.83",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Execution Time per CPU on Asterinas",
             "value": "3.82",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -3474,13 +3474,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Execution Time per CPU on Linux",
             "value": "3.83",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Execution Time per CPU on Asterinas",
             "value": "3.81",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -3508,13 +3508,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Execution Time per CPU on Linux",
             "value": "3.83",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Execution Time per CPU on Asterinas",
             "value": "3.82",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -3542,13 +3542,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Execution Time per CPU on Linux",
             "value": "3.83",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Execution Time per CPU on Asterinas",
             "value": "3.83",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -3576,13 +3576,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Execution Time per CPU on Linux",
             "value": "3.83",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Execution Time per CPU on Asterinas",
             "value": "3.82",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -3610,13 +3610,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Execution Time per CPU on Linux",
             "value": "3.83",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Execution Time per CPU on Asterinas",
             "value": "3.82",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -3644,13 +3644,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Execution Time per CPU on Linux",
             "value": "3.83",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Execution Time per CPU on Asterinas",
             "value": "3.82",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -3678,13 +3678,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Execution Time per CPU on Linux",
             "value": "3.83",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Execution Time per CPU on Asterinas",
             "value": "3.81",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -3712,13 +3712,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Execution Time per CPU on Linux",
             "value": "3.84",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Execution Time per CPU on Asterinas",
             "value": "3.82",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -3746,13 +3746,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Execution Time per CPU on Linux",
             "value": "3.84",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Execution Time per CPU on Asterinas",
             "value": "3.82",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -3780,13 +3780,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Execution Time per CPU on Linux",
             "value": "3.83",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Execution Time per CPU on Asterinas",
             "value": "3.83",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -3813,13 +3813,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Execution Time per CPU on Linux",
             "value": "3.83",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Execution Time per CPU on Asterinas",
             "value": "3.81",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -3847,13 +3847,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Execution Time per CPU on Linux",
             "value": "3.84",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Execution Time per CPU on Asterinas",
             "value": "3.82",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -3881,13 +3881,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Execution Time per CPU on Linux",
             "value": "3.83",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Execution Time per CPU on Asterinas",
             "value": "3.82",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -3915,13 +3915,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Execution Time per CPU on Linux",
             "value": "3.83",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Execution Time per CPU on Asterinas",
             "value": "3.82",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -3949,13 +3949,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Execution Time per CPU on Linux",
             "value": "3.83",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Execution Time per CPU on Asterinas",
             "value": "3.82",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -3983,13 +3983,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Execution Time per CPU on Linux",
             "value": "3.83",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Execution Time per CPU on Asterinas",
             "value": "3.82",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -4018,13 +4018,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Execution Time per CPU on Linux",
             "value": "3.83",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Execution Time per CPU on Asterinas",
             "value": "3.83",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -4053,13 +4053,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Execution Time per CPU on Linux",
             "value": "3.83",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Execution Time per CPU on Asterinas",
             "value": "3.82",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -4088,13 +4088,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Execution Time per CPU on Linux",
             "value": "3.83",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Execution Time per CPU on Asterinas",
             "value": "3.81",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -4123,13 +4123,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Execution Time per CPU on Linux",
             "value": "3.83",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Execution Time per CPU on Asterinas",
             "value": "3.81",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -4158,13 +4158,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Execution Time per CPU on Linux",
             "value": "3.83",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Execution Time per CPU on Asterinas",
             "value": "3.82",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -4193,13 +4193,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Execution Time per CPU on Linux",
             "value": "3.83",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Execution Time per CPU on Asterinas",
             "value": "3.83",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -4228,13 +4228,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Execution Time per CPU on Linux",
             "value": "3.83",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Execution Time per CPU on Asterinas",
             "value": "3.81",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -4263,13 +4263,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Execution Time per CPU on Linux",
             "value": "3.83",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Execution Time per CPU on Asterinas",
             "value": "3.82",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -4298,13 +4298,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Execution Time per CPU on Linux",
             "value": "3.83",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Execution Time per CPU on Asterinas",
             "value": "3.83",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -4333,13 +4333,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Execution Time per CPU on Linux",
             "value": "3.83",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Execution Time per CPU on Asterinas",
             "value": "3.82",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -4368,13 +4368,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Execution Time per CPU on Linux",
             "value": "3.83",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Execution Time per CPU on Asterinas",
             "value": "3.82",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -4403,13 +4403,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Execution Time per CPU on Linux",
             "value": "3.83",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Execution Time per CPU on Asterinas",
             "value": "3.83",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -4438,13 +4438,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Execution Time per CPU on Linux",
             "value": "3.83",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Execution Time per CPU on Asterinas",
             "value": "3.82",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -4473,13 +4473,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Execution Time per CPU on Linux",
             "value": "3.83",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Execution Time per CPU on Asterinas",
             "value": "3.83",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -4508,13 +4508,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Execution Time per CPU on Linux",
             "value": "3.83",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Execution Time per CPU on Asterinas",
             "value": "3.84",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -4543,13 +4543,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Execution Time per CPU on Linux",
             "value": "3.83",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Execution Time per CPU on Asterinas",
             "value": "3.84",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -4578,13 +4578,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Execution Time per CPU on Linux",
             "value": "3.83",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Execution Time per CPU on Asterinas",
             "value": "3.84",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -4613,13 +4613,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Execution Time per CPU on Linux",
             "value": "3.83",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Execution Time per CPU on Asterinas",
             "value": "3.84",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -4648,13 +4648,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Execution Time per CPU on Linux",
             "value": "3.83",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Execution Time per CPU on Asterinas",
             "value": "3.85",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -4683,13 +4683,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Execution Time per CPU on Linux",
             "value": "3.83",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Execution Time per CPU on Asterinas",
             "value": "3.85",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -4718,13 +4718,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Execution Time per CPU on Linux",
             "value": "3.83",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Execution Time per CPU on Asterinas",
             "value": "3.85",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -4753,13 +4753,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Execution Time per CPU on Linux",
             "value": "3.83",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Execution Time per CPU on Asterinas",
             "value": "3.84",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -4788,13 +4788,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Execution Time per CPU on Linux",
             "value": "3.83",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Execution Time per CPU on Asterinas",
             "value": "3.85",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -4823,13 +4823,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Execution Time per CPU on Linux",
             "value": "3.83",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Execution Time per CPU on Asterinas",
             "value": "3.85",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -4858,13 +4858,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Execution Time per CPU on Linux",
             "value": "3.83",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Execution Time per CPU on Asterinas",
             "value": "3.84",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -4893,13 +4893,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Execution Time per CPU on Linux",
             "value": "3.83",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Execution Time per CPU on Asterinas",
             "value": "3.84",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -4928,13 +4928,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Execution Time per CPU on Linux",
             "value": "3.83",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Execution Time per CPU on Asterinas",
             "value": "3.85",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -4963,13 +4963,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Execution Time per CPU on Linux",
             "value": "3.83",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Execution Time per CPU on Asterinas",
             "value": "3.85",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -4998,13 +4998,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Execution Time per CPU on Linux",
             "value": "3.83",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Execution Time per CPU on Asterinas",
             "value": "3.85",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -5033,13 +5033,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Execution Time per CPU on Linux",
             "value": "3.83",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Execution Time per CPU on Asterinas",
             "value": "3.85",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -5068,13 +5068,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Execution Time per CPU on Linux",
             "value": "3.83",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Execution Time per CPU on Asterinas",
             "value": "3.84",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -5103,13 +5103,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Execution Time per CPU on Linux",
             "value": "3.83",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Execution Time per CPU on Asterinas",
             "value": "3.84",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -5138,13 +5138,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Execution Time per CPU on Linux",
             "value": "3.83",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Execution Time per CPU on Asterinas",
             "value": "3.85",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -5173,13 +5173,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Execution Time per CPU on Linux",
             "value": "3.84",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Execution Time per CPU on Asterinas",
             "value": "3.85",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -5208,13 +5208,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Execution Time per CPU on Linux",
             "value": "3.83",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Execution Time per CPU on Asterinas",
             "value": "3.85",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -5243,13 +5243,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Execution Time per CPU on Linux",
             "value": "3.83",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Execution Time per CPU on Asterinas",
             "value": "3.84",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -5278,13 +5278,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Execution Time per CPU on Linux",
             "value": "3.83",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Execution Time per CPU on Asterinas",
             "value": "3.85",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -5313,13 +5313,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Execution Time per CPU on Linux",
             "value": "3.83",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Execution Time per CPU on Asterinas",
             "value": "3.85",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -5348,13 +5348,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Execution Time per CPU on Linux",
             "value": "3.83",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Execution Time per CPU on Asterinas",
             "value": "3.85",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -5383,13 +5383,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Execution Time per CPU on Linux",
             "value": "3.83",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Execution Time per CPU on Asterinas",
             "value": "3.84",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -5418,13 +5418,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Execution Time per CPU on Linux",
             "value": "3.83",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Execution Time per CPU on Asterinas",
             "value": "3.85",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -5453,13 +5453,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Execution Time per CPU on Linux",
             "value": "3.83",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Execution Time per CPU on Asterinas",
             "value": "3.85",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -5488,13 +5488,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Execution Time per CPU on Linux",
             "value": "3.83",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Execution Time per CPU on Asterinas",
             "value": "3.84",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -5523,13 +5523,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Execution Time per CPU on Linux",
             "value": "3.83",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Execution Time per CPU on Asterinas",
             "value": "3.85",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -5558,13 +5558,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Execution Time per CPU on Linux",
             "value": "3.83",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Execution Time per CPU on Asterinas",
             "value": "3.85",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -5593,13 +5593,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Execution Time per CPU on Linux",
             "value": "3.83",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Execution Time per CPU on Asterinas",
             "value": "3.85",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -5666,13 +5666,13 @@ window.BENCHMARK_DATA = {
             "name": "Average syscall latency on Linux",
             "value": "0.3071",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average syscall latency on Asterinas",
             "value": "0.2906",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -5700,13 +5700,13 @@ window.BENCHMARK_DATA = {
             "name": "Average syscall latency on Linux",
             "value": "0.3114",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average syscall latency on Asterinas",
             "value": "0.2934",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -5734,13 +5734,13 @@ window.BENCHMARK_DATA = {
             "name": "Average syscall latency on Linux",
             "value": "0.2943",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average syscall latency on Asterinas",
             "value": "0.2949",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -5768,13 +5768,13 @@ window.BENCHMARK_DATA = {
             "name": "Average syscall latency on Linux",
             "value": "0.2926",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average syscall latency on Asterinas",
             "value": "0.2950",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -5802,13 +5802,13 @@ window.BENCHMARK_DATA = {
             "name": "Average syscall latency on Linux",
             "value": "0.3076",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average syscall latency on Asterinas",
             "value": "0.2955",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -5836,13 +5836,13 @@ window.BENCHMARK_DATA = {
             "name": "Average syscall latency on Linux",
             "value": "0.2718",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average syscall latency on Asterinas",
             "value": "0.2958",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -5870,13 +5870,13 @@ window.BENCHMARK_DATA = {
             "name": "Average syscall latency on Linux",
             "value": "0.3363",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average syscall latency on Asterinas",
             "value": "0.2928",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -5904,13 +5904,13 @@ window.BENCHMARK_DATA = {
             "name": "Average syscall latency on Linux",
             "value": "0.2753",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average syscall latency on Asterinas",
             "value": "0.2925",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -5938,13 +5938,13 @@ window.BENCHMARK_DATA = {
             "name": "Average syscall latency on Linux",
             "value": "0.2760",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average syscall latency on Asterinas",
             "value": "0.2949",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -5972,13 +5972,13 @@ window.BENCHMARK_DATA = {
             "name": "Average syscall latency on Linux",
             "value": "0.2947",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average syscall latency on Asterinas",
             "value": "0.2951",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -6006,13 +6006,13 @@ window.BENCHMARK_DATA = {
             "name": "Average syscall latency on Linux",
             "value": "0.3202",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average syscall latency on Asterinas",
             "value": "0.2945",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -6040,13 +6040,13 @@ window.BENCHMARK_DATA = {
             "name": "Average syscall latency on Linux",
             "value": "0.2795",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average syscall latency on Asterinas",
             "value": "0.2941",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -6074,13 +6074,13 @@ window.BENCHMARK_DATA = {
             "name": "Average syscall latency on Linux",
             "value": "0.2720",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average syscall latency on Asterinas",
             "value": "0.2942",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -6108,13 +6108,13 @@ window.BENCHMARK_DATA = {
             "name": "Average syscall latency on Linux",
             "value": "0.2944",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average syscall latency on Asterinas",
             "value": "0.2922",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -6142,13 +6142,13 @@ window.BENCHMARK_DATA = {
             "name": "Average syscall latency on Linux",
             "value": "0.2722",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average syscall latency on Asterinas",
             "value": "0.2942",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -6176,13 +6176,13 @@ window.BENCHMARK_DATA = {
             "name": "Average syscall latency on Linux",
             "value": "0.3275",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average syscall latency on Asterinas",
             "value": "0.2942",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -6210,13 +6210,13 @@ window.BENCHMARK_DATA = {
             "name": "Average syscall latency on Linux",
             "value": "0.3288",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average syscall latency on Asterinas",
             "value": "0.2940",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -6244,13 +6244,13 @@ window.BENCHMARK_DATA = {
             "name": "Average syscall latency on Linux",
             "value": "0.2812",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average syscall latency on Asterinas",
             "value": "0.2570",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -6277,13 +6277,13 @@ window.BENCHMARK_DATA = {
             "name": "Average syscall latency on Linux",
             "value": "0.2879",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average syscall latency on Asterinas",
             "value": "0.2591",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -6311,13 +6311,13 @@ window.BENCHMARK_DATA = {
             "name": "Average syscall latency on Linux",
             "value": "0.3122",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average syscall latency on Asterinas",
             "value": "0.2570",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -6345,13 +6345,13 @@ window.BENCHMARK_DATA = {
             "name": "Average syscall latency on Linux",
             "value": "0.3241",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average syscall latency on Asterinas",
             "value": "0.2565",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -6379,13 +6379,13 @@ window.BENCHMARK_DATA = {
             "name": "Average syscall latency on Linux",
             "value": "0.2751",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average syscall latency on Asterinas",
             "value": "0.2580",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -6413,13 +6413,13 @@ window.BENCHMARK_DATA = {
             "name": "Average syscall latency on Linux",
             "value": "0.2744",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average syscall latency on Asterinas",
             "value": "0.2573",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -6447,13 +6447,13 @@ window.BENCHMARK_DATA = {
             "name": "Average syscall latency on Linux",
             "value": "0.2841",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average syscall latency on Asterinas",
             "value": "0.2577",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -6482,13 +6482,13 @@ window.BENCHMARK_DATA = {
             "name": "Average syscall latency on Linux",
             "value": "0.2779",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average syscall latency on Asterinas",
             "value": "0.2573",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -6517,13 +6517,13 @@ window.BENCHMARK_DATA = {
             "name": "Average syscall latency on Linux",
             "value": "0.2763",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average syscall latency on Asterinas",
             "value": "0.2588",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -6552,13 +6552,13 @@ window.BENCHMARK_DATA = {
             "name": "Average syscall latency on Linux",
             "value": "0.2777",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average syscall latency on Asterinas",
             "value": "0.2293",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -6587,13 +6587,13 @@ window.BENCHMARK_DATA = {
             "name": "Average syscall latency on Linux",
             "value": "0.2751",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average syscall latency on Asterinas",
             "value": "0.2296",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -6622,13 +6622,13 @@ window.BENCHMARK_DATA = {
             "name": "Average syscall latency on Linux",
             "value": "0.2999",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average syscall latency on Asterinas",
             "value": "0.2294",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -6657,13 +6657,13 @@ window.BENCHMARK_DATA = {
             "name": "Average syscall latency on Linux",
             "value": "0.2996",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average syscall latency on Asterinas",
             "value": "0.2292",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -6692,13 +6692,13 @@ window.BENCHMARK_DATA = {
             "name": "Average syscall latency on Linux",
             "value": "0.2968",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average syscall latency on Asterinas",
             "value": "0.2314",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -6727,13 +6727,13 @@ window.BENCHMARK_DATA = {
             "name": "Average syscall latency on Linux",
             "value": "0.2810",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average syscall latency on Asterinas",
             "value": "0.2238",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -6762,13 +6762,13 @@ window.BENCHMARK_DATA = {
             "name": "Average syscall latency on Linux",
             "value": "0.2853",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average syscall latency on Asterinas",
             "value": "0.2236",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -6797,13 +6797,13 @@ window.BENCHMARK_DATA = {
             "name": "Average syscall latency on Linux",
             "value": "0.2807",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average syscall latency on Asterinas",
             "value": "0.2230",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -6832,13 +6832,13 @@ window.BENCHMARK_DATA = {
             "name": "Average syscall latency on Linux",
             "value": "0.2749",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average syscall latency on Asterinas",
             "value": "0.2225",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -6867,13 +6867,13 @@ window.BENCHMARK_DATA = {
             "name": "Average syscall latency on Linux",
             "value": "0.2719",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average syscall latency on Asterinas",
             "value": "0.1849",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -6902,13 +6902,13 @@ window.BENCHMARK_DATA = {
             "name": "Average syscall latency on Linux",
             "value": "0.2776",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average syscall latency on Asterinas",
             "value": "0.1839",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -6937,13 +6937,13 @@ window.BENCHMARK_DATA = {
             "name": "Average syscall latency on Linux",
             "value": "0.2716",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average syscall latency on Asterinas",
             "value": "0.1836",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -6972,13 +6972,13 @@ window.BENCHMARK_DATA = {
             "name": "Average syscall latency on Linux",
             "value": "0.2715",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average syscall latency on Asterinas",
             "value": "0.1554",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -7007,13 +7007,13 @@ window.BENCHMARK_DATA = {
             "name": "Average syscall latency on Linux",
             "value": "0.2845",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average syscall latency on Asterinas",
             "value": "0.1562",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -7042,13 +7042,13 @@ window.BENCHMARK_DATA = {
             "name": "Average syscall latency on Linux",
             "value": "0.3208",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average syscall latency on Asterinas",
             "value": "0.1560",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -7077,13 +7077,13 @@ window.BENCHMARK_DATA = {
             "name": "Average syscall latency on Linux",
             "value": "0.2738",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average syscall latency on Asterinas",
             "value": "0.1553",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -7112,13 +7112,13 @@ window.BENCHMARK_DATA = {
             "name": "Average syscall latency on Linux",
             "value": "0.2755",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average syscall latency on Asterinas",
             "value": "0.1554",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -7147,13 +7147,13 @@ window.BENCHMARK_DATA = {
             "name": "Average syscall latency on Linux",
             "value": "0.2753",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average syscall latency on Asterinas",
             "value": "0.1571",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -7182,13 +7182,13 @@ window.BENCHMARK_DATA = {
             "name": "Average syscall latency on Linux",
             "value": "0.2864",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average syscall latency on Asterinas",
             "value": "0.1555",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -7217,13 +7217,13 @@ window.BENCHMARK_DATA = {
             "name": "Average syscall latency on Linux",
             "value": "0.2742",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average syscall latency on Asterinas",
             "value": "0.1569",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -7252,13 +7252,13 @@ window.BENCHMARK_DATA = {
             "name": "Average syscall latency on Linux",
             "value": "0.2745",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average syscall latency on Asterinas",
             "value": "0.1552",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -7287,13 +7287,13 @@ window.BENCHMARK_DATA = {
             "name": "Average syscall latency on Linux",
             "value": "0.3105",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average syscall latency on Asterinas",
             "value": "0.1554",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -7322,13 +7322,13 @@ window.BENCHMARK_DATA = {
             "name": "Average syscall latency on Linux",
             "value": "0.2755",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average syscall latency on Asterinas",
             "value": "0.1556",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -7357,13 +7357,13 @@ window.BENCHMARK_DATA = {
             "name": "Average syscall latency on Linux",
             "value": "0.0925",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average syscall latency on Asterinas",
             "value": "0.1567",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -7392,13 +7392,13 @@ window.BENCHMARK_DATA = {
             "name": "Average syscall latency on Linux",
             "value": "0.0886",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average syscall latency on Asterinas",
             "value": "0.1559",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -7427,13 +7427,13 @@ window.BENCHMARK_DATA = {
             "name": "Average syscall latency on Linux",
             "value": "0.0908",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average syscall latency on Asterinas",
             "value": "0.1579",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -7462,13 +7462,13 @@ window.BENCHMARK_DATA = {
             "name": "Average syscall latency on Linux",
             "value": "0.0917",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average syscall latency on Asterinas",
             "value": "0.1588",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -7497,13 +7497,13 @@ window.BENCHMARK_DATA = {
             "name": "Average syscall latency on Linux",
             "value": "0.0892",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average syscall latency on Asterinas",
             "value": "0.1614",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -7532,13 +7532,13 @@ window.BENCHMARK_DATA = {
             "name": "Average syscall latency on Linux",
             "value": "0.0888",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average syscall latency on Asterinas",
             "value": "0.1615",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -7567,13 +7567,13 @@ window.BENCHMARK_DATA = {
             "name": "Average syscall latency on Linux",
             "value": "0.0886",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average syscall latency on Asterinas",
             "value": "0.1600",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -7602,13 +7602,13 @@ window.BENCHMARK_DATA = {
             "name": "Average syscall latency on Linux",
             "value": "0.0912",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average syscall latency on Asterinas",
             "value": "0.1604",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -7637,13 +7637,13 @@ window.BENCHMARK_DATA = {
             "name": "Average syscall latency on Linux",
             "value": "0.0942",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average syscall latency on Asterinas",
             "value": "0.1600",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -7672,13 +7672,13 @@ window.BENCHMARK_DATA = {
             "name": "Average syscall latency on Linux",
             "value": "0.0938",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average syscall latency on Asterinas",
             "value": "0.1621",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -7707,13 +7707,13 @@ window.BENCHMARK_DATA = {
             "name": "Average syscall latency on Linux",
             "value": "0.0889",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average syscall latency on Asterinas",
             "value": "0.1567",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -7742,13 +7742,13 @@ window.BENCHMARK_DATA = {
             "name": "Average syscall latency on Linux",
             "value": "0.0974",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average syscall latency on Asterinas",
             "value": "0.1605",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -7777,13 +7777,13 @@ window.BENCHMARK_DATA = {
             "name": "Average syscall latency on Linux",
             "value": "0.0922",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average syscall latency on Asterinas",
             "value": "0.1581",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -7812,13 +7812,13 @@ window.BENCHMARK_DATA = {
             "name": "Average syscall latency on Linux",
             "value": "0.0967",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average syscall latency on Asterinas",
             "value": "0.1576",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -7847,13 +7847,13 @@ window.BENCHMARK_DATA = {
             "name": "Average syscall latency on Linux",
             "value": "0.0892",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average syscall latency on Asterinas",
             "value": "0.1591",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -7882,13 +7882,13 @@ window.BENCHMARK_DATA = {
             "name": "Average syscall latency on Linux",
             "value": "0.0889",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average syscall latency on Asterinas",
             "value": "0.1588",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -7917,13 +7917,13 @@ window.BENCHMARK_DATA = {
             "name": "Average syscall latency on Linux",
             "value": "0.0947",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average syscall latency on Asterinas",
             "value": "0.1588",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -7952,13 +7952,13 @@ window.BENCHMARK_DATA = {
             "name": "Average syscall latency on Linux",
             "value": "0.0890",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average syscall latency on Asterinas",
             "value": "0.1588",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -7987,13 +7987,13 @@ window.BENCHMARK_DATA = {
             "name": "Average syscall latency on Linux",
             "value": "0.0889",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average syscall latency on Asterinas",
             "value": "0.1583",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -8022,13 +8022,13 @@ window.BENCHMARK_DATA = {
             "name": "Average syscall latency on Linux",
             "value": "0.0886",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average syscall latency on Asterinas",
             "value": "0.1581",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -8057,13 +8057,13 @@ window.BENCHMARK_DATA = {
             "name": "Average syscall latency on Linux",
             "value": "0.0887",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average syscall latency on Asterinas",
             "value": "0.1232",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -8130,13 +8130,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Fork latency on Linux",
             "value": "62.6705",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Fork latency on Asterinas",
             "value": "384.0667",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -8164,13 +8164,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Fork latency on Linux",
             "value": "63.0465",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Fork latency on Asterinas",
             "value": "392.7143",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -8198,13 +8198,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Fork latency on Linux",
             "value": "65.5476",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Fork latency on Asterinas",
             "value": "400.2143",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -8232,13 +8232,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Fork latency on Linux",
             "value": "61.9888",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Fork latency on Asterinas",
             "value": "391.2857",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -8266,13 +8266,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Fork latency on Linux",
             "value": "64.2674",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Fork latency on Asterinas",
             "value": "386.3571",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -8300,13 +8300,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Fork latency on Linux",
             "value": "64.7882",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Fork latency on Asterinas",
             "value": "396.7143",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -8334,13 +8334,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Fork latency on Linux",
             "value": "61.5667",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Fork latency on Asterinas",
             "value": "384.0556",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -8368,13 +8368,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Fork latency on Linux",
             "value": "67.4634",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Fork latency on Asterinas",
             "value": "395.0625",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -8402,13 +8402,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Fork latency on Linux",
             "value": "64.4941",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Fork latency on Asterinas",
             "value": "393.4286",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -8436,13 +8436,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Fork latency on Linux",
             "value": "62.5730",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Fork latency on Asterinas",
             "value": "399.9286",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -8470,13 +8470,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Fork latency on Linux",
             "value": "62.2697",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Fork latency on Asterinas",
             "value": "400.3125",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -8504,13 +8504,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Fork latency on Linux",
             "value": "64.4353",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Fork latency on Asterinas",
             "value": "393.5000",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -8538,13 +8538,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Fork latency on Linux",
             "value": "65.3176",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Fork latency on Asterinas",
             "value": "395.5000",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -8572,13 +8572,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Fork latency on Linux",
             "value": "64.3176",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Fork latency on Asterinas",
             "value": "388.0667",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -8606,13 +8606,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Fork latency on Linux",
             "value": "64.3882",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Fork latency on Asterinas",
             "value": "393.5000",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -8640,13 +8640,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Fork latency on Linux",
             "value": "62.8966",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Fork latency on Asterinas",
             "value": "374.1333",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -8674,13 +8674,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Fork latency on Linux",
             "value": "62.4773",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Fork latency on Asterinas",
             "value": "197.8214",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -8707,13 +8707,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Fork latency on Linux",
             "value": "62.3258",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Fork latency on Asterinas",
             "value": "328.3529",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -8741,13 +8741,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Fork latency on Linux",
             "value": "64.8235",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Fork latency on Asterinas",
             "value": "212.4000",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -8775,13 +8775,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Fork latency on Linux",
             "value": "63.3140",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Fork latency on Asterinas",
             "value": "190.6129",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -8809,13 +8809,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Fork latency on Linux",
             "value": "63.9186",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Fork latency on Asterinas",
             "value": "207.7308",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -8843,13 +8843,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Fork latency on Linux",
             "value": "63.6207",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Fork latency on Asterinas",
             "value": "198.1034",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -8877,13 +8877,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Fork latency on Linux",
             "value": "63.4368",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Fork latency on Asterinas",
             "value": "193.2500",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -8912,13 +8912,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Fork latency on Linux",
             "value": "63.8506",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Fork latency on Asterinas",
             "value": "210.6923",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -8947,13 +8947,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Fork latency on Linux",
             "value": "65.1059",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Fork latency on Asterinas",
             "value": "208.3600",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -8982,13 +8982,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Fork latency on Linux",
             "value": "66.3614",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Fork latency on Asterinas",
             "value": "197.3333",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -9017,13 +9017,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Fork latency on Linux",
             "value": "64.1529",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Fork latency on Asterinas",
             "value": "181.0000",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -9052,13 +9052,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Fork latency on Linux",
             "value": "65.0000",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Fork latency on Asterinas",
             "value": "189.1379",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -9087,13 +9087,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Fork latency on Linux",
             "value": "62.6667",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Fork latency on Asterinas",
             "value": "194.8571",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -9122,13 +9122,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Fork latency on Linux",
             "value": "59.9667",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Fork latency on Asterinas",
             "value": "195.0357",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -9157,13 +9157,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Fork latency on Linux",
             "value": "60.8889",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Fork latency on Asterinas",
             "value": "190.9310",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -9192,13 +9192,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Fork latency on Linux",
             "value": "62.4432",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Fork latency on Asterinas",
             "value": "186.7667",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -9227,13 +9227,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Fork latency on Linux",
             "value": "61.5795",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Fork latency on Asterinas",
             "value": "206.9200",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -9262,13 +9262,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Fork latency on Linux",
             "value": "62.4598",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Fork latency on Asterinas",
             "value": "189.5172",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -9297,13 +9297,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Fork latency on Linux",
             "value": "64.1786",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Fork latency on Asterinas",
             "value": "199.4231",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -9332,13 +9332,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Fork latency on Linux",
             "value": "66.1500",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Fork latency on Asterinas",
             "value": "208.8889",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -9367,13 +9367,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Fork latency on Linux",
             "value": "62.6512",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Fork latency on Asterinas",
             "value": "248.0000",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -9402,13 +9402,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Fork latency on Linux",
             "value": "66.1358",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Fork latency on Asterinas",
             "value": "203.8667",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -9437,13 +9437,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Fork latency on Linux",
             "value": "64.9167",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Fork latency on Asterinas",
             "value": "167.2353",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -9472,13 +9472,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Fork latency on Linux",
             "value": "66.4146",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Fork latency on Asterinas",
             "value": "181.4483",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -9507,13 +9507,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Fork latency on Linux",
             "value": "62.9540",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Fork latency on Asterinas",
             "value": "180.7419",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -9542,13 +9542,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Fork latency on Linux",
             "value": "67.9494",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Fork latency on Asterinas",
             "value": "183.6552",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -9577,13 +9577,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Fork latency on Linux",
             "value": "67.3210",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Fork latency on Asterinas",
             "value": "187.3793",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -9612,13 +9612,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Fork latency on Linux",
             "value": "66.4699",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Fork latency on Asterinas",
             "value": "182.3667",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -9647,13 +9647,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Fork latency on Linux",
             "value": "67.4815",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Fork latency on Asterinas",
             "value": "174.0625",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -9682,13 +9682,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Fork latency on Linux",
             "value": "62.8851",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Fork latency on Asterinas",
             "value": "87.5484",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -9717,13 +9717,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Fork latency on Linux",
             "value": "63.5233",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Fork latency on Asterinas",
             "value": "86.6667",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -9752,13 +9752,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Fork latency on Linux",
             "value": "64.4353",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Fork latency on Asterinas",
             "value": "89.8030",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -9787,13 +9787,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Fork latency on Linux",
             "value": "56.2842",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Fork latency on Asterinas",
             "value": "88.1719",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -9822,13 +9822,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Fork latency on Linux",
             "value": "55.1515",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Fork latency on Asterinas",
             "value": "89.6269",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -9857,13 +9857,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Fork latency on Linux",
             "value": "55.9485",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Fork latency on Asterinas",
             "value": "91.2581",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -9892,13 +9892,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Fork latency on Linux",
             "value": "54.6970",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Fork latency on Asterinas",
             "value": "97.3684",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -9927,13 +9927,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Fork latency on Linux",
             "value": "54.4536",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Fork latency on Asterinas",
             "value": "76.6143",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -9962,13 +9962,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Fork latency on Linux",
             "value": "57.7158",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Fork latency on Asterinas",
             "value": "75.3056",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -9997,13 +9997,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Fork latency on Linux",
             "value": "58.0421",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Fork latency on Asterinas",
             "value": "76.0429",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -10032,13 +10032,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Fork latency on Linux",
             "value": "57.9312",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Fork latency on Asterinas",
             "value": "76.5775",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -10067,13 +10067,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Fork latency on Linux",
             "value": "53.4158",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Fork latency on Asterinas",
             "value": "76.2143",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -10102,13 +10102,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Fork latency on Linux",
             "value": "55.2500",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Fork latency on Asterinas",
             "value": "78.2857",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -10137,13 +10137,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Fork latency on Linux",
             "value": "54.8900",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Fork latency on Asterinas",
             "value": "72.8108",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -10172,13 +10172,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Fork latency on Linux",
             "value": "57.9362",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Fork latency on Asterinas",
             "value": "74.3803",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -10207,13 +10207,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Fork latency on Linux",
             "value": "55.3434",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Fork latency on Asterinas",
             "value": "73.7123",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -10242,13 +10242,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Fork latency on Linux",
             "value": "55.3505",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Fork latency on Asterinas",
             "value": "73.9861",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -10277,13 +10277,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Fork latency on Linux",
             "value": "48.6909",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Fork latency on Asterinas",
             "value": "72.4247",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -10312,13 +10312,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Fork latency on Linux",
             "value": "53.8100",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Fork latency on Asterinas",
             "value": "73.9863",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -10347,13 +10347,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Fork latency on Linux",
             "value": "54.7980",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Fork latency on Asterinas",
             "value": "73.4054",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -10382,13 +10382,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Fork latency on Linux",
             "value": "57.4839",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Fork latency on Asterinas",
             "value": "73.2667",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -10417,13 +10417,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Fork latency on Linux",
             "value": "55.3434",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Fork latency on Asterinas",
             "value": "72.7945",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -10452,13 +10452,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Fork latency on Linux",
             "value": "54.0204",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Fork latency on Asterinas",
             "value": "72.5890",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -10487,13 +10487,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Fork latency on Linux",
             "value": "55.9694",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Fork latency on Asterinas",
             "value": "73.2973",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -10560,13 +10560,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Signal handler overhead on Linux",
             "value": "1.0691",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Signal handler overhead on Asterinas",
             "value": "0.9632",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -10594,13 +10594,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Signal handler overhead on Linux",
             "value": "1.0682",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Signal handler overhead on Asterinas",
             "value": "0.9542",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -10628,13 +10628,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Signal handler overhead on Linux",
             "value": "1.0503",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Signal handler overhead on Asterinas",
             "value": "0.9546",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -10662,13 +10662,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Signal handler overhead on Linux",
             "value": "1.0827",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Signal handler overhead on Asterinas",
             "value": "0.9891",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -10696,13 +10696,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Signal handler overhead on Linux",
             "value": "1.0524",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Signal handler overhead on Asterinas",
             "value": "0.9572",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -10730,13 +10730,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Signal handler overhead on Linux",
             "value": "1.0806",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Signal handler overhead on Asterinas",
             "value": "0.9595",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -10764,13 +10764,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Signal handler overhead on Linux",
             "value": "1.1063",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Signal handler overhead on Asterinas",
             "value": "0.9605",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -10798,13 +10798,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Signal handler overhead on Linux",
             "value": "1.0679",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Signal handler overhead on Asterinas",
             "value": "0.9758",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -10832,13 +10832,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Signal handler overhead on Linux",
             "value": "1.0564",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Signal handler overhead on Asterinas",
             "value": "0.9773",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -10866,13 +10866,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Signal handler overhead on Linux",
             "value": "1.0494",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Signal handler overhead on Asterinas",
             "value": "0.9653",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -10900,13 +10900,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Signal handler overhead on Linux",
             "value": "1.0925",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Signal handler overhead on Asterinas",
             "value": "0.9551",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -10934,13 +10934,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Signal handler overhead on Linux",
             "value": "1.0801",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Signal handler overhead on Asterinas",
             "value": "0.9555",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -10968,13 +10968,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Signal handler overhead on Linux",
             "value": "1.0724",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Signal handler overhead on Asterinas",
             "value": "0.9548",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -11002,13 +11002,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Signal handler overhead on Linux",
             "value": "1.0704",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Signal handler overhead on Asterinas",
             "value": "0.8326",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -11035,13 +11035,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Signal handler overhead on Linux",
             "value": "1.0858",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Signal handler overhead on Asterinas",
             "value": "0.8275",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -11069,13 +11069,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Signal handler overhead on Linux",
             "value": "1.0542",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Signal handler overhead on Asterinas",
             "value": "0.8343",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -11103,13 +11103,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Signal handler overhead on Linux",
             "value": "1.0783",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Signal handler overhead on Asterinas",
             "value": "0.8340",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -11137,13 +11137,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Signal handler overhead on Linux",
             "value": "1.0503",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Signal handler overhead on Asterinas",
             "value": "0.8296",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -11171,13 +11171,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Signal handler overhead on Linux",
             "value": "1.0764",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Signal handler overhead on Asterinas",
             "value": "0.8296",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -11205,13 +11205,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Signal handler overhead on Linux",
             "value": "1.0769",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Signal handler overhead on Asterinas",
             "value": "0.8234",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -11239,13 +11239,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Signal handler overhead on Linux",
             "value": "1.1095",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Signal handler overhead on Asterinas",
             "value": "0.8263",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -11274,13 +11274,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Signal handler overhead on Linux",
             "value": "1.0716",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Signal handler overhead on Asterinas",
             "value": "0.8235",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -11309,13 +11309,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Signal handler overhead on Linux",
             "value": "1.0828",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Signal handler overhead on Asterinas",
             "value": "0.8323",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -11344,13 +11344,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Signal handler overhead on Linux",
             "value": "1.0805",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Signal handler overhead on Asterinas",
             "value": "0.7304",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -11379,13 +11379,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Signal handler overhead on Linux",
             "value": "1.1168",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Signal handler overhead on Asterinas",
             "value": "0.7131",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -11414,13 +11414,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Signal handler overhead on Linux",
             "value": "1.0793",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Signal handler overhead on Asterinas",
             "value": "0.7183",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -11449,13 +11449,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Signal handler overhead on Linux",
             "value": "1.0872",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Signal handler overhead on Asterinas",
             "value": "0.7054",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -11484,13 +11484,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Signal handler overhead on Linux",
             "value": "1.1143",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Signal handler overhead on Asterinas",
             "value": "0.6926",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -11519,13 +11519,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Signal handler overhead on Linux",
             "value": "1.1039",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Signal handler overhead on Asterinas",
             "value": "0.6385",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -11554,13 +11554,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Signal handler overhead on Linux",
             "value": "1.0752",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Signal handler overhead on Asterinas",
             "value": "0.6489",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -11589,13 +11589,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Signal handler overhead on Linux",
             "value": "1.1015",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Signal handler overhead on Asterinas",
             "value": "0.6588",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -11624,13 +11624,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Signal handler overhead on Linux",
             "value": "1.0457",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Signal handler overhead on Asterinas",
             "value": "0.6509",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -11659,13 +11659,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Signal handler overhead on Linux",
             "value": "1.0515",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Signal handler overhead on Asterinas",
             "value": "0.6038",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -11694,13 +11694,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Signal handler overhead on Linux",
             "value": "1.0463",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Signal handler overhead on Asterinas",
             "value": "0.5911",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -11729,13 +11729,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Signal handler overhead on Linux",
             "value": "1.0758",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Signal handler overhead on Asterinas",
             "value": "0.5922",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -11764,13 +11764,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Signal handler overhead on Linux",
             "value": "1.0843",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Signal handler overhead on Asterinas",
             "value": "0.5551",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -11799,13 +11799,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Signal handler overhead on Linux",
             "value": "1.0692",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Signal handler overhead on Asterinas",
             "value": "0.5346",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -11834,13 +11834,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Signal handler overhead on Linux",
             "value": "1.0830",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Signal handler overhead on Asterinas",
             "value": "0.5357",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -11869,13 +11869,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Signal handler overhead on Linux",
             "value": "1.0993",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Signal handler overhead on Asterinas",
             "value": "0.5382",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -11904,13 +11904,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Signal handler overhead on Linux",
             "value": "1.0798",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Signal handler overhead on Asterinas",
             "value": "0.5599",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -11939,13 +11939,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Signal handler overhead on Linux",
             "value": "1.0862",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Signal handler overhead on Asterinas",
             "value": "0.5544",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -11974,13 +11974,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Signal handler overhead on Linux",
             "value": "1.1178",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Signal handler overhead on Asterinas",
             "value": "0.5622",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -12009,13 +12009,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Signal handler overhead on Linux",
             "value": "1.0820",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Signal handler overhead on Asterinas",
             "value": "0.5375",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -12044,13 +12044,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Signal handler overhead on Linux",
             "value": "1.1013",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Signal handler overhead on Asterinas",
             "value": "0.5270",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -12079,13 +12079,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Signal handler overhead on Linux",
             "value": "1.0643",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Signal handler overhead on Asterinas",
             "value": "0.5494",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -12114,13 +12114,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Signal handler overhead on Linux",
             "value": "1.0434",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Signal handler overhead on Asterinas",
             "value": "0.5419",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -12149,13 +12149,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Signal handler overhead on Linux",
             "value": "0.8597",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Signal handler overhead on Asterinas",
             "value": "0.5540",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -12184,13 +12184,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Signal handler overhead on Linux",
             "value": "0.8544",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Signal handler overhead on Asterinas",
             "value": "0.5528",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -12219,13 +12219,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Signal handler overhead on Linux",
             "value": "0.8529",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Signal handler overhead on Asterinas",
             "value": "0.5506",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -12254,13 +12254,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Signal handler overhead on Linux",
             "value": "0.8741",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Signal handler overhead on Asterinas",
             "value": "0.5392",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -12289,13 +12289,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Signal handler overhead on Linux",
             "value": "0.8629",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Signal handler overhead on Asterinas",
             "value": "0.5378",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -12324,13 +12324,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Signal handler overhead on Linux",
             "value": "0.8529",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Signal handler overhead on Asterinas",
             "value": "0.5395",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -12359,13 +12359,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Signal handler overhead on Linux",
             "value": "0.8512",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Signal handler overhead on Asterinas",
             "value": "0.5426",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -12394,13 +12394,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Signal handler overhead on Linux",
             "value": "0.8673",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Signal handler overhead on Asterinas",
             "value": "0.5423",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -12429,13 +12429,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Signal handler overhead on Linux",
             "value": "0.8513",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Signal handler overhead on Asterinas",
             "value": "0.5597",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -12464,13 +12464,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Signal handler overhead on Linux",
             "value": "0.8437",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Signal handler overhead on Asterinas",
             "value": "0.5499",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -12499,13 +12499,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Signal handler overhead on Linux",
             "value": "0.8621",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Signal handler overhead on Asterinas",
             "value": "0.5535",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -12534,13 +12534,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Signal handler overhead on Linux",
             "value": "0.8592",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Signal handler overhead on Asterinas",
             "value": "0.5383",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -12569,13 +12569,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Signal handler overhead on Linux",
             "value": "0.8602",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Signal handler overhead on Asterinas",
             "value": "0.5623",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -12604,13 +12604,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Signal handler overhead on Linux",
             "value": "0.8427",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Signal handler overhead on Asterinas",
             "value": "0.5363",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -12639,13 +12639,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Signal handler overhead on Linux",
             "value": "0.8561",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Signal handler overhead on Asterinas",
             "value": "0.5330",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -12674,13 +12674,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Signal handler overhead on Linux",
             "value": "0.8706",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Signal handler overhead on Asterinas",
             "value": "0.5312",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -12709,13 +12709,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Signal handler overhead on Linux",
             "value": "0.8504",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Signal handler overhead on Asterinas",
             "value": "0.5338",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -12744,13 +12744,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Signal handler overhead on Linux",
             "value": "0.8752",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Signal handler overhead on Asterinas",
             "value": "0.5302",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -12779,13 +12779,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Signal handler overhead on Linux",
             "value": "0.8764",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Signal handler overhead on Asterinas",
             "value": "0.5258",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -12814,13 +12814,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Signal handler overhead on Linux",
             "value": "0.8466",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Signal handler overhead on Asterinas",
             "value": "0.5334",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -12849,13 +12849,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Signal handler overhead on Linux",
             "value": "0.8468",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Signal handler overhead on Asterinas",
             "value": "0.5385",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -12922,13 +12922,13 @@ window.BENCHMARK_DATA = {
             "name": "Average context switch latency on Linux",
             "value": "1.72",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average context switch latency on Asterinas",
             "value": "2.50",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -12956,13 +12956,13 @@ window.BENCHMARK_DATA = {
             "name": "Average context switch latency on Linux",
             "value": "1.76",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average context switch latency on Asterinas",
             "value": "2.29",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -12990,13 +12990,13 @@ window.BENCHMARK_DATA = {
             "name": "Average context switch latency on Linux",
             "value": "1.73",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average context switch latency on Asterinas",
             "value": "2.44",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -13024,13 +13024,13 @@ window.BENCHMARK_DATA = {
             "name": "Average context switch latency on Linux",
             "value": "1.68",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average context switch latency on Asterinas",
             "value": "2.36",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -13058,13 +13058,13 @@ window.BENCHMARK_DATA = {
             "name": "Average context switch latency on Linux",
             "value": "1.74",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average context switch latency on Asterinas",
             "value": "2.36",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -13092,13 +13092,13 @@ window.BENCHMARK_DATA = {
             "name": "Average context switch latency on Linux",
             "value": "1.71",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average context switch latency on Asterinas",
             "value": "2.42",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -13126,13 +13126,13 @@ window.BENCHMARK_DATA = {
             "name": "Average context switch latency on Linux",
             "value": "1.73",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average context switch latency on Asterinas",
             "value": "2.38",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -13160,13 +13160,13 @@ window.BENCHMARK_DATA = {
             "name": "Average context switch latency on Linux",
             "value": "1.72",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average context switch latency on Asterinas",
             "value": "1.88",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -13193,13 +13193,13 @@ window.BENCHMARK_DATA = {
             "name": "Average context switch latency on Linux",
             "value": "1.72",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average context switch latency on Asterinas",
             "value": "1.90",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -13227,13 +13227,13 @@ window.BENCHMARK_DATA = {
             "name": "Average context switch latency on Linux",
             "value": "1.70",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average context switch latency on Asterinas",
             "value": "1.90",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -13261,13 +13261,13 @@ window.BENCHMARK_DATA = {
             "name": "Average context switch latency on Linux",
             "value": "1.71",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average context switch latency on Asterinas",
             "value": "1.96",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -13295,13 +13295,13 @@ window.BENCHMARK_DATA = {
             "name": "Average context switch latency on Linux",
             "value": "1.74",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average context switch latency on Asterinas",
             "value": "1.87",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -13329,13 +13329,13 @@ window.BENCHMARK_DATA = {
             "name": "Average context switch latency on Linux",
             "value": "1.76",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average context switch latency on Asterinas",
             "value": "1.90",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -13363,13 +13363,13 @@ window.BENCHMARK_DATA = {
             "name": "Average context switch latency on Linux",
             "value": "1.71",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average context switch latency on Asterinas",
             "value": "2.00",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -13397,13 +13397,13 @@ window.BENCHMARK_DATA = {
             "name": "Average context switch latency on Linux",
             "value": "1.75",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average context switch latency on Asterinas",
             "value": "2.00",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -13432,13 +13432,13 @@ window.BENCHMARK_DATA = {
             "name": "Average context switch latency on Linux",
             "value": "1.73",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average context switch latency on Asterinas",
             "value": "1.92",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -13467,13 +13467,13 @@ window.BENCHMARK_DATA = {
             "name": "Average context switch latency on Linux",
             "value": "1.69",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average context switch latency on Asterinas",
             "value": "2.01",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -13502,13 +13502,13 @@ window.BENCHMARK_DATA = {
             "name": "Average context switch latency on Linux",
             "value": "1.71",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average context switch latency on Asterinas",
             "value": "1.84",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -13537,13 +13537,13 @@ window.BENCHMARK_DATA = {
             "name": "Average context switch latency on Linux",
             "value": "1.70",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average context switch latency on Asterinas",
             "value": "1.83",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -13572,13 +13572,13 @@ window.BENCHMARK_DATA = {
             "name": "Average context switch latency on Linux",
             "value": "1.73",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average context switch latency on Asterinas",
             "value": "1.97",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -13607,13 +13607,13 @@ window.BENCHMARK_DATA = {
             "name": "Average context switch latency on Linux",
             "value": "1.76",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average context switch latency on Asterinas",
             "value": "1.86",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -13642,13 +13642,13 @@ window.BENCHMARK_DATA = {
             "name": "Average context switch latency on Linux",
             "value": "1.75",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average context switch latency on Asterinas",
             "value": "1.78",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -13677,13 +13677,13 @@ window.BENCHMARK_DATA = {
             "name": "Average context switch latency on Linux",
             "value": "1.80",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average context switch latency on Asterinas",
             "value": "1.76",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -13712,13 +13712,13 @@ window.BENCHMARK_DATA = {
             "name": "Average context switch latency on Linux",
             "value": "1.79",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average context switch latency on Asterinas",
             "value": "1.94",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -13747,13 +13747,13 @@ window.BENCHMARK_DATA = {
             "name": "Average context switch latency on Linux",
             "value": "1.80",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average context switch latency on Asterinas",
             "value": "1.78",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -13782,13 +13782,13 @@ window.BENCHMARK_DATA = {
             "name": "Average context switch latency on Linux",
             "value": "1.79",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average context switch latency on Asterinas",
             "value": "1.76",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -13817,13 +13817,13 @@ window.BENCHMARK_DATA = {
             "name": "Average context switch latency on Linux",
             "value": "1.79",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average context switch latency on Asterinas",
             "value": "1.74",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -13852,13 +13852,13 @@ window.BENCHMARK_DATA = {
             "name": "Average context switch latency on Linux",
             "value": "1.75",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average context switch latency on Asterinas",
             "value": "1.79",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -13887,13 +13887,13 @@ window.BENCHMARK_DATA = {
             "name": "Average context switch latency on Linux",
             "value": "1.80",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average context switch latency on Asterinas",
             "value": "1.81",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -13922,13 +13922,13 @@ window.BENCHMARK_DATA = {
             "name": "Average context switch latency on Linux",
             "value": "1.80",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average context switch latency on Asterinas",
             "value": "2.16",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -13957,13 +13957,13 @@ window.BENCHMARK_DATA = {
             "name": "Average context switch latency on Linux",
             "value": "1.77",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average context switch latency on Asterinas",
             "value": "2.14",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -13992,13 +13992,13 @@ window.BENCHMARK_DATA = {
             "name": "Average context switch latency on Linux",
             "value": "1.79",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average context switch latency on Asterinas",
             "value": "2.03",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -14027,13 +14027,13 @@ window.BENCHMARK_DATA = {
             "name": "Average context switch latency on Linux",
             "value": "1.79",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average context switch latency on Asterinas",
             "value": "2.00",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -14062,13 +14062,13 @@ window.BENCHMARK_DATA = {
             "name": "Average context switch latency on Linux",
             "value": "1.79",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average context switch latency on Asterinas",
             "value": "1.94",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -14097,13 +14097,13 @@ window.BENCHMARK_DATA = {
             "name": "Average context switch latency on Linux",
             "value": "1.75",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average context switch latency on Asterinas",
             "value": "2.04",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -14132,13 +14132,13 @@ window.BENCHMARK_DATA = {
             "name": "Average context switch latency on Linux",
             "value": "1.78",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average context switch latency on Asterinas",
             "value": "1.88",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -14167,13 +14167,13 @@ window.BENCHMARK_DATA = {
             "name": "Average context switch latency on Linux",
             "value": "1.74",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average context switch latency on Asterinas",
             "value": "2.00",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -14202,13 +14202,13 @@ window.BENCHMARK_DATA = {
             "name": "Average context switch latency on Linux",
             "value": "1.71",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average context switch latency on Asterinas",
             "value": "1.81",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -14237,13 +14237,13 @@ window.BENCHMARK_DATA = {
             "name": "Average context switch latency on Linux",
             "value": "1.77",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average context switch latency on Asterinas",
             "value": "1.83",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -14272,13 +14272,13 @@ window.BENCHMARK_DATA = {
             "name": "Average context switch latency on Linux",
             "value": "1.77",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average context switch latency on Asterinas",
             "value": "1.85",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -14307,13 +14307,13 @@ window.BENCHMARK_DATA = {
             "name": "Average context switch latency on Linux",
             "value": "1.04",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average context switch latency on Asterinas",
             "value": "1.84",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -14342,13 +14342,13 @@ window.BENCHMARK_DATA = {
             "name": "Average context switch latency on Linux",
             "value": "0.98",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average context switch latency on Asterinas",
             "value": "1.85",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -14377,13 +14377,13 @@ window.BENCHMARK_DATA = {
             "name": "Average context switch latency on Linux",
             "value": "1.06",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average context switch latency on Asterinas",
             "value": "1.83",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -14412,13 +14412,13 @@ window.BENCHMARK_DATA = {
             "name": "Average context switch latency on Linux",
             "value": "1.08",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average context switch latency on Asterinas",
             "value": "1.92",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -14447,13 +14447,13 @@ window.BENCHMARK_DATA = {
             "name": "Average context switch latency on Linux",
             "value": "1.06",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average context switch latency on Asterinas",
             "value": "1.89",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -14482,13 +14482,13 @@ window.BENCHMARK_DATA = {
             "name": "Average context switch latency on Linux",
             "value": "1.07",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average context switch latency on Asterinas",
             "value": "1.92",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -14517,13 +14517,13 @@ window.BENCHMARK_DATA = {
             "name": "Average context switch latency on Linux",
             "value": "1.06",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average context switch latency on Asterinas",
             "value": "1.77",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -14552,13 +14552,13 @@ window.BENCHMARK_DATA = {
             "name": "Average context switch latency on Linux",
             "value": "0.98",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average context switch latency on Asterinas",
             "value": "1.76",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -14587,13 +14587,13 @@ window.BENCHMARK_DATA = {
             "name": "Average context switch latency on Linux",
             "value": "1.07",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average context switch latency on Asterinas",
             "value": "1.89",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -14622,13 +14622,13 @@ window.BENCHMARK_DATA = {
             "name": "Average context switch latency on Linux",
             "value": "1.07",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average context switch latency on Asterinas",
             "value": "1.91",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -14657,13 +14657,13 @@ window.BENCHMARK_DATA = {
             "name": "Average context switch latency on Linux",
             "value": "1.06",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average context switch latency on Asterinas",
             "value": "1.85",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -14692,13 +14692,13 @@ window.BENCHMARK_DATA = {
             "name": "Average context switch latency on Linux",
             "value": "1.07",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average context switch latency on Asterinas",
             "value": "1.85",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -14727,13 +14727,13 @@ window.BENCHMARK_DATA = {
             "name": "Average context switch latency on Linux",
             "value": "1.07",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average context switch latency on Asterinas",
             "value": "1.85",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -14762,13 +14762,13 @@ window.BENCHMARK_DATA = {
             "name": "Average context switch latency on Linux",
             "value": "0.98",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average context switch latency on Asterinas",
             "value": "1.81",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -14797,13 +14797,13 @@ window.BENCHMARK_DATA = {
             "name": "Average context switch latency on Linux",
             "value": "1.07",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average context switch latency on Asterinas",
             "value": "1.85",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -14832,13 +14832,13 @@ window.BENCHMARK_DATA = {
             "name": "Average context switch latency on Linux",
             "value": "1.06",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average context switch latency on Asterinas",
             "value": "1.85",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -14867,13 +14867,13 @@ window.BENCHMARK_DATA = {
             "name": "Average context switch latency on Linux",
             "value": "1.07",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average context switch latency on Asterinas",
             "value": "1.76",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -14902,13 +14902,13 @@ window.BENCHMARK_DATA = {
             "name": "Average context switch latency on Linux",
             "value": "1.06",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average context switch latency on Asterinas",
             "value": "1.72",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -14937,13 +14937,13 @@ window.BENCHMARK_DATA = {
             "name": "Average context switch latency on Linux",
             "value": "0.98",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average context switch latency on Asterinas",
             "value": "1.82",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -14972,13 +14972,13 @@ window.BENCHMARK_DATA = {
             "name": "Average context switch latency on Linux",
             "value": "1.06",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average context switch latency on Asterinas",
             "value": "1.86",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -15007,13 +15007,13 @@ window.BENCHMARK_DATA = {
             "name": "Average context switch latency on Linux",
             "value": "1.06",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average context switch latency on Asterinas",
             "value": "1.83",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -15080,13 +15080,13 @@ window.BENCHMARK_DATA = {
             "name": "Average exec latency on Linux",
             "value": "68.1358",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average exec latency on Asterinas",
             "value": "415.2143",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -15114,13 +15114,13 @@ window.BENCHMARK_DATA = {
             "name": "Average exec latency on Linux",
             "value": "71.2821",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average exec latency on Asterinas",
             "value": "409.8571",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -15148,13 +15148,13 @@ window.BENCHMARK_DATA = {
             "name": "Average exec latency on Linux",
             "value": "72.3117",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average exec latency on Asterinas",
             "value": "394.1429",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -15182,13 +15182,13 @@ window.BENCHMARK_DATA = {
             "name": "Average exec latency on Linux",
             "value": "71.6623",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average exec latency on Asterinas",
             "value": "390.6429",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -15216,13 +15216,13 @@ window.BENCHMARK_DATA = {
             "name": "Average exec latency on Linux",
             "value": "73.2368",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average exec latency on Asterinas",
             "value": "384.1429",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -15250,13 +15250,13 @@ window.BENCHMARK_DATA = {
             "name": "Average exec latency on Linux",
             "value": "72.4000",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average exec latency on Asterinas",
             "value": "398.7857",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -15284,13 +15284,13 @@ window.BENCHMARK_DATA = {
             "name": "Average exec latency on Linux",
             "value": "72.0649",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average exec latency on Asterinas",
             "value": "199.7931",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -15317,13 +15317,13 @@ window.BENCHMARK_DATA = {
             "name": "Average exec latency on Linux",
             "value": "71.0390",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average exec latency on Asterinas",
             "value": "370.4375",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -15351,13 +15351,13 @@ window.BENCHMARK_DATA = {
             "name": "Average exec latency on Linux",
             "value": "71.4805",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average exec latency on Asterinas",
             "value": "216.9231",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -15385,13 +15385,13 @@ window.BENCHMARK_DATA = {
             "name": "Average exec latency on Linux",
             "value": "70.0127",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average exec latency on Asterinas",
             "value": "214.8000",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -15419,13 +15419,13 @@ window.BENCHMARK_DATA = {
             "name": "Average exec latency on Linux",
             "value": "66.4756",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average exec latency on Asterinas",
             "value": "197.0741",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -15453,13 +15453,13 @@ window.BENCHMARK_DATA = {
             "name": "Average exec latency on Linux",
             "value": "69.8608",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average exec latency on Asterinas",
             "value": "200.0370",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -15487,13 +15487,13 @@ window.BENCHMARK_DATA = {
             "name": "Average exec latency on Linux",
             "value": "71.1923",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average exec latency on Asterinas",
             "value": "201.1481",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -15521,13 +15521,13 @@ window.BENCHMARK_DATA = {
             "name": "Average exec latency on Linux",
             "value": "70.3462",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average exec latency on Asterinas",
             "value": "200.8065",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -15556,13 +15556,13 @@ window.BENCHMARK_DATA = {
             "name": "Average exec latency on Linux",
             "value": "260.1905",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average exec latency on Asterinas",
             "value": "767.5000",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -15591,13 +15591,13 @@ window.BENCHMARK_DATA = {
             "name": "Average exec latency on Linux",
             "value": "258.9000",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average exec latency on Asterinas",
             "value": "655.4444",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -15626,13 +15626,13 @@ window.BENCHMARK_DATA = {
             "name": "Average exec latency on Linux",
             "value": "255.6190",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average exec latency on Asterinas",
             "value": "662.2500",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -15661,13 +15661,13 @@ window.BENCHMARK_DATA = {
             "name": "Average exec latency on Linux",
             "value": "259.7000",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average exec latency on Asterinas",
             "value": "648.5556",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -15696,13 +15696,13 @@ window.BENCHMARK_DATA = {
             "name": "Average exec latency on Linux",
             "value": "254.7500",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average exec latency on Asterinas",
             "value": "647.9000",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -15731,13 +15731,13 @@ window.BENCHMARK_DATA = {
             "name": "Average exec latency on Linux",
             "value": "260.3500",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average exec latency on Asterinas",
             "value": "651.4444",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -15766,13 +15766,13 @@ window.BENCHMARK_DATA = {
             "name": "Average exec latency on Linux",
             "value": "259.6000",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average exec latency on Asterinas",
             "value": "627.1111",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -15801,13 +15801,13 @@ window.BENCHMARK_DATA = {
             "name": "Average exec latency on Linux",
             "value": "258.8500",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average exec latency on Asterinas",
             "value": "567.5000",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -15836,13 +15836,13 @@ window.BENCHMARK_DATA = {
             "name": "Average exec latency on Linux",
             "value": "258.6818",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average exec latency on Asterinas",
             "value": "567.0000",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -15871,13 +15871,13 @@ window.BENCHMARK_DATA = {
             "name": "Average exec latency on Linux",
             "value": "257.4000",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average exec latency on Asterinas",
             "value": "548.7000",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -15906,13 +15906,13 @@ window.BENCHMARK_DATA = {
             "name": "Average exec latency on Linux",
             "value": "259.5500",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average exec latency on Asterinas",
             "value": "515.9091",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -15941,13 +15941,13 @@ window.BENCHMARK_DATA = {
             "name": "Average exec latency on Linux",
             "value": "252.0000",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average exec latency on Asterinas",
             "value": "548.1000",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -15976,13 +15976,13 @@ window.BENCHMARK_DATA = {
             "name": "Average exec latency on Linux",
             "value": "254.6500",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average exec latency on Asterinas",
             "value": "541.4167",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -16011,13 +16011,13 @@ window.BENCHMARK_DATA = {
             "name": "Average exec latency on Linux",
             "value": "261.2273",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average exec latency on Asterinas",
             "value": "553.7000",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -16046,13 +16046,13 @@ window.BENCHMARK_DATA = {
             "name": "Average exec latency on Linux",
             "value": "255.6667",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average exec latency on Asterinas",
             "value": "555.7000",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -16081,13 +16081,13 @@ window.BENCHMARK_DATA = {
             "name": "Average exec latency on Linux",
             "value": "259.1500",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average exec latency on Asterinas",
             "value": "450.5833",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -16116,13 +16116,13 @@ window.BENCHMARK_DATA = {
             "name": "Average exec latency on Linux",
             "value": "256.6667",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average exec latency on Asterinas",
             "value": "410.9231",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -16151,13 +16151,13 @@ window.BENCHMARK_DATA = {
             "name": "Average exec latency on Linux",
             "value": "254.9524",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average exec latency on Asterinas",
             "value": "403.0000",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -16186,13 +16186,13 @@ window.BENCHMARK_DATA = {
             "name": "Average exec latency on Linux",
             "value": "211.6667",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average exec latency on Asterinas",
             "value": "399.7857",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -16221,13 +16221,13 @@ window.BENCHMARK_DATA = {
             "name": "Average exec latency on Linux",
             "value": "209.0833",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average exec latency on Asterinas",
             "value": "412.1538",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -16256,13 +16256,13 @@ window.BENCHMARK_DATA = {
             "name": "Average exec latency on Linux",
             "value": "220.9130",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average exec latency on Asterinas",
             "value": "332.5294",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -16291,13 +16291,13 @@ window.BENCHMARK_DATA = {
             "name": "Average exec latency on Linux",
             "value": "220.4348",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average exec latency on Asterinas",
             "value": "318.8235",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -16326,13 +16326,13 @@ window.BENCHMARK_DATA = {
             "name": "Average exec latency on Linux",
             "value": "218.3333",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average exec latency on Asterinas",
             "value": "285.6667",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -16361,13 +16361,13 @@ window.BENCHMARK_DATA = {
             "name": "Average exec latency on Linux",
             "value": "219.0833",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average exec latency on Asterinas",
             "value": "298.1176",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -16396,13 +16396,13 @@ window.BENCHMARK_DATA = {
             "name": "Average exec latency on Linux",
             "value": "224.0455",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average exec latency on Asterinas",
             "value": "288.9474",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -16431,13 +16431,13 @@ window.BENCHMARK_DATA = {
             "name": "Average exec latency on Linux",
             "value": "219.5600",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average exec latency on Asterinas",
             "value": "288.1667",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -16466,13 +16466,13 @@ window.BENCHMARK_DATA = {
             "name": "Average exec latency on Linux",
             "value": "222.4783",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average exec latency on Asterinas",
             "value": "288.4500",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -16501,13 +16501,13 @@ window.BENCHMARK_DATA = {
             "name": "Average exec latency on Linux",
             "value": "220.9130",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average exec latency on Asterinas",
             "value": "288.3000",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -16536,13 +16536,13 @@ window.BENCHMARK_DATA = {
             "name": "Average exec latency on Linux",
             "value": "220.7391",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average exec latency on Asterinas",
             "value": "280.3889",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -16571,13 +16571,13 @@ window.BENCHMARK_DATA = {
             "name": "Average exec latency on Linux",
             "value": "219.2609",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average exec latency on Asterinas",
             "value": "288.7778",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -16606,13 +16606,13 @@ window.BENCHMARK_DATA = {
             "name": "Average exec latency on Linux",
             "value": "223.7727",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average exec latency on Asterinas",
             "value": "281.7778",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -16641,13 +16641,13 @@ window.BENCHMARK_DATA = {
             "name": "Average exec latency on Linux",
             "value": "219.2174",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average exec latency on Asterinas",
             "value": "283.9500",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -16676,13 +16676,13 @@ window.BENCHMARK_DATA = {
             "name": "Average exec latency on Linux",
             "value": "220.3913",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average exec latency on Asterinas",
             "value": "280.1667",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -16711,13 +16711,13 @@ window.BENCHMARK_DATA = {
             "name": "Average exec latency on Linux",
             "value": "213.1304",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average exec latency on Asterinas",
             "value": "280.6000",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -16746,13 +16746,13 @@ window.BENCHMARK_DATA = {
             "name": "Average exec latency on Linux",
             "value": "219.1739",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average exec latency on Asterinas",
             "value": "270.9524",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -16781,13 +16781,13 @@ window.BENCHMARK_DATA = {
             "name": "Average exec latency on Linux",
             "value": "221.6957",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average exec latency on Asterinas",
             "value": "279.7222",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -16816,13 +16816,13 @@ window.BENCHMARK_DATA = {
             "name": "Average exec latency on Linux",
             "value": "218.1304",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average exec latency on Asterinas",
             "value": "283.5000",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -16851,13 +16851,13 @@ window.BENCHMARK_DATA = {
             "name": "Average exec latency on Linux",
             "value": "218.0435",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average exec latency on Asterinas",
             "value": "287.8000",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -16886,13 +16886,13 @@ window.BENCHMARK_DATA = {
             "name": "Average exec latency on Linux",
             "value": "221.7391",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average exec latency on Asterinas",
             "value": "275.0000",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -16959,13 +16959,13 @@ window.BENCHMARK_DATA = {
             "name": "Average fstat latency on Linux",
             "value": "0.5801",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average fstat latency on Asterinas",
             "value": "1.1122",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -16993,13 +16993,13 @@ window.BENCHMARK_DATA = {
             "name": "Average fstat latency on Linux",
             "value": "0.5222",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average fstat latency on Asterinas",
             "value": "1.1204",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -17027,13 +17027,13 @@ window.BENCHMARK_DATA = {
             "name": "Average fstat latency on Linux",
             "value": "0.5592",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average fstat latency on Asterinas",
             "value": "1.1109",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -17061,13 +17061,13 @@ window.BENCHMARK_DATA = {
             "name": "Average fstat latency on Linux",
             "value": "0.5224",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average fstat latency on Asterinas",
             "value": "1.1240",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -17095,13 +17095,13 @@ window.BENCHMARK_DATA = {
             "name": "Average fstat latency on Linux",
             "value": "0.5660",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average fstat latency on Asterinas",
             "value": "1.1096",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -17129,13 +17129,13 @@ window.BENCHMARK_DATA = {
             "name": "Average fstat latency on Linux",
             "value": "0.5403",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average fstat latency on Asterinas",
             "value": "1.1095",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -17163,13 +17163,13 @@ window.BENCHMARK_DATA = {
             "name": "Average fstat latency on Linux",
             "value": "0.5493",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average fstat latency on Asterinas",
             "value": "1.1085",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -17197,13 +17197,13 @@ window.BENCHMARK_DATA = {
             "name": "Average fstat latency on Linux",
             "value": "0.5235",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average fstat latency on Asterinas",
             "value": "0.9450",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -17230,13 +17230,13 @@ window.BENCHMARK_DATA = {
             "name": "Average fstat latency on Linux",
             "value": "0.5223",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average fstat latency on Asterinas",
             "value": "0.9301",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -17264,13 +17264,13 @@ window.BENCHMARK_DATA = {
             "name": "Average fstat latency on Linux",
             "value": "0.5176",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average fstat latency on Asterinas",
             "value": "0.9460",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -17298,13 +17298,13 @@ window.BENCHMARK_DATA = {
             "name": "Average fstat latency on Linux",
             "value": "0.5243",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average fstat latency on Asterinas",
             "value": "0.9453",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -17332,13 +17332,13 @@ window.BENCHMARK_DATA = {
             "name": "Average fstat latency on Linux",
             "value": "0.5503",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average fstat latency on Asterinas",
             "value": "0.9401",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -17366,13 +17366,13 @@ window.BENCHMARK_DATA = {
             "name": "Average fstat latency on Linux",
             "value": "0.5468",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average fstat latency on Asterinas",
             "value": "0.9505",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -17400,13 +17400,13 @@ window.BENCHMARK_DATA = {
             "name": "Average fstat latency on Linux",
             "value": "0.5721",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average fstat latency on Asterinas",
             "value": "0.9547",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -17434,13 +17434,13 @@ window.BENCHMARK_DATA = {
             "name": "Average fstat latency on Linux",
             "value": "0.5580",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average fstat latency on Asterinas",
             "value": "0.9448",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -17469,13 +17469,13 @@ window.BENCHMARK_DATA = {
             "name": "Average fstat latency on Linux",
             "value": "0.5592",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average fstat latency on Asterinas",
             "value": "0.9385",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -17504,13 +17504,13 @@ window.BENCHMARK_DATA = {
             "name": "Average fstat latency on Linux",
             "value": "0.5228",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average fstat latency on Asterinas",
             "value": "0.9466",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -17539,13 +17539,13 @@ window.BENCHMARK_DATA = {
             "name": "Average fstat latency on Linux",
             "value": "0.5272",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average fstat latency on Asterinas",
             "value": "0.9090",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -17574,13 +17574,13 @@ window.BENCHMARK_DATA = {
             "name": "Average fstat latency on Linux",
             "value": "0.5258",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average fstat latency on Asterinas",
             "value": "0.8993",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -17609,13 +17609,13 @@ window.BENCHMARK_DATA = {
             "name": "Average fstat latency on Linux",
             "value": "0.5187",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average fstat latency on Asterinas",
             "value": "0.9043",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -17644,13 +17644,13 @@ window.BENCHMARK_DATA = {
             "name": "Average fstat latency on Linux",
             "value": "0.5219",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average fstat latency on Asterinas",
             "value": "0.9034",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -17679,13 +17679,13 @@ window.BENCHMARK_DATA = {
             "name": "Average fstat latency on Linux",
             "value": "0.5347",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average fstat latency on Asterinas",
             "value": "0.9004",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -17714,13 +17714,13 @@ window.BENCHMARK_DATA = {
             "name": "Average fstat latency on Linux",
             "value": "0.5251",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average fstat latency on Asterinas",
             "value": "0.8872",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -17749,13 +17749,13 @@ window.BENCHMARK_DATA = {
             "name": "Average fstat latency on Linux",
             "value": "0.5662",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average fstat latency on Asterinas",
             "value": "0.4101",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -17784,13 +17784,13 @@ window.BENCHMARK_DATA = {
             "name": "Average fstat latency on Linux",
             "value": "0.5272",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average fstat latency on Asterinas",
             "value": "0.4025",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -17819,13 +17819,13 @@ window.BENCHMARK_DATA = {
             "name": "Average fstat latency on Linux",
             "value": "0.5203",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average fstat latency on Asterinas",
             "value": "0.4085",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -17854,13 +17854,13 @@ window.BENCHMARK_DATA = {
             "name": "Average fstat latency on Linux",
             "value": "0.5499",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average fstat latency on Asterinas",
             "value": "0.3466",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -17889,13 +17889,13 @@ window.BENCHMARK_DATA = {
             "name": "Average fstat latency on Linux",
             "value": "0.5460",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average fstat latency on Asterinas",
             "value": "0.3391",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -17924,13 +17924,13 @@ window.BENCHMARK_DATA = {
             "name": "Average fstat latency on Linux",
             "value": "0.5186",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average fstat latency on Asterinas",
             "value": "0.3384",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -17959,13 +17959,13 @@ window.BENCHMARK_DATA = {
             "name": "Average fstat latency on Linux",
             "value": "0.5224",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average fstat latency on Asterinas",
             "value": "0.3136",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -17994,13 +17994,13 @@ window.BENCHMARK_DATA = {
             "name": "Average fstat latency on Linux",
             "value": "0.5196",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average fstat latency on Asterinas",
             "value": "0.3103",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -18029,13 +18029,13 @@ window.BENCHMARK_DATA = {
             "name": "Average fstat latency on Linux",
             "value": "0.5751",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average fstat latency on Asterinas",
             "value": "0.3113",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -18064,13 +18064,13 @@ window.BENCHMARK_DATA = {
             "name": "Average fstat latency on Linux",
             "value": "0.5308",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average fstat latency on Asterinas",
             "value": "0.3075",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -18099,13 +18099,13 @@ window.BENCHMARK_DATA = {
             "name": "Average fstat latency on Linux",
             "value": "0.5497",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average fstat latency on Asterinas",
             "value": "0.3247",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -18134,13 +18134,13 @@ window.BENCHMARK_DATA = {
             "name": "Average fstat latency on Linux",
             "value": "0.5510",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average fstat latency on Asterinas",
             "value": "0.3075",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -18169,13 +18169,13 @@ window.BENCHMARK_DATA = {
             "name": "Average fstat latency on Linux",
             "value": "0.5732",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average fstat latency on Asterinas",
             "value": "0.3097",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -18204,13 +18204,13 @@ window.BENCHMARK_DATA = {
             "name": "Average fstat latency on Linux",
             "value": "0.5216",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average fstat latency on Asterinas",
             "value": "0.3076",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -18239,13 +18239,13 @@ window.BENCHMARK_DATA = {
             "name": "Average fstat latency on Linux",
             "value": "0.5329",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average fstat latency on Asterinas",
             "value": "0.3109",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -18274,13 +18274,13 @@ window.BENCHMARK_DATA = {
             "name": "Average fstat latency on Linux",
             "value": "0.5240",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average fstat latency on Asterinas",
             "value": "0.3078",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -18309,13 +18309,13 @@ window.BENCHMARK_DATA = {
             "name": "Average fstat latency on Linux",
             "value": "0.5189",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average fstat latency on Asterinas",
             "value": "0.2924",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -18344,13 +18344,13 @@ window.BENCHMARK_DATA = {
             "name": "Average fstat latency on Linux",
             "value": "0.2843",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average fstat latency on Asterinas",
             "value": "0.3029",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -18379,13 +18379,13 @@ window.BENCHMARK_DATA = {
             "name": "Average fstat latency on Linux",
             "value": "0.2830",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average fstat latency on Asterinas",
             "value": "0.3113",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -18414,13 +18414,13 @@ window.BENCHMARK_DATA = {
             "name": "Average fstat latency on Linux",
             "value": "0.2860",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average fstat latency on Asterinas",
             "value": "0.3243",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -18449,13 +18449,13 @@ window.BENCHMARK_DATA = {
             "name": "Average fstat latency on Linux",
             "value": "0.2833",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average fstat latency on Asterinas",
             "value": "0.3148",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -18484,13 +18484,13 @@ window.BENCHMARK_DATA = {
             "name": "Average fstat latency on Linux",
             "value": "0.2837",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average fstat latency on Asterinas",
             "value": "0.3177",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -18519,13 +18519,13 @@ window.BENCHMARK_DATA = {
             "name": "Average fstat latency on Linux",
             "value": "0.2887",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average fstat latency on Asterinas",
             "value": "0.3184",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -18554,13 +18554,13 @@ window.BENCHMARK_DATA = {
             "name": "Average fstat latency on Linux",
             "value": "0.2836",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average fstat latency on Asterinas",
             "value": "0.3087",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -18589,13 +18589,13 @@ window.BENCHMARK_DATA = {
             "name": "Average fstat latency on Linux",
             "value": "0.2847",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average fstat latency on Asterinas",
             "value": "0.3145",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -18624,13 +18624,13 @@ window.BENCHMARK_DATA = {
             "name": "Average fstat latency on Linux",
             "value": "0.2843",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average fstat latency on Asterinas",
             "value": "0.3103",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -18659,13 +18659,13 @@ window.BENCHMARK_DATA = {
             "name": "Average fstat latency on Linux",
             "value": "0.2828",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average fstat latency on Asterinas",
             "value": "0.3095",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -18694,13 +18694,13 @@ window.BENCHMARK_DATA = {
             "name": "Average fstat latency on Linux",
             "value": "0.2837",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average fstat latency on Asterinas",
             "value": "0.3075",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -18729,13 +18729,13 @@ window.BENCHMARK_DATA = {
             "name": "Average fstat latency on Linux",
             "value": "0.2851",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average fstat latency on Asterinas",
             "value": "0.3049",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -18764,13 +18764,13 @@ window.BENCHMARK_DATA = {
             "name": "Average fstat latency on Linux",
             "value": "0.2833",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average fstat latency on Asterinas",
             "value": "0.3066",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -18799,13 +18799,13 @@ window.BENCHMARK_DATA = {
             "name": "Average fstat latency on Linux",
             "value": "0.2836",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average fstat latency on Asterinas",
             "value": "0.3062",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -18834,13 +18834,13 @@ window.BENCHMARK_DATA = {
             "name": "Average fstat latency on Linux",
             "value": "0.2851",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average fstat latency on Asterinas",
             "value": "0.3047",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -18869,13 +18869,13 @@ window.BENCHMARK_DATA = {
             "name": "Average fstat latency on Linux",
             "value": "0.2842",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average fstat latency on Asterinas",
             "value": "0.3062",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -18904,13 +18904,13 @@ window.BENCHMARK_DATA = {
             "name": "Average fstat latency on Linux",
             "value": "0.2849",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average fstat latency on Asterinas",
             "value": "0.3068",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -18939,13 +18939,13 @@ window.BENCHMARK_DATA = {
             "name": "Average fstat latency on Linux",
             "value": "0.2838",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average fstat latency on Asterinas",
             "value": "0.3066",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -18974,13 +18974,13 @@ window.BENCHMARK_DATA = {
             "name": "Average fstat latency on Linux",
             "value": "0.2940",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average fstat latency on Asterinas",
             "value": "0.3070",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -19009,13 +19009,13 @@ window.BENCHMARK_DATA = {
             "name": "Average fstat latency on Linux",
             "value": "0.2834",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average fstat latency on Asterinas",
             "value": "0.3054",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -19044,13 +19044,13 @@ window.BENCHMARK_DATA = {
             "name": "Average fstat latency on Linux",
             "value": "0.2834",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average fstat latency on Asterinas",
             "value": "0.3110",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -19117,13 +19117,13 @@ window.BENCHMARK_DATA = {
             "name": "Average memory copy bandwidth on Linux",
             "value": "14889.92",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average memory copy bandwidth on Asterinas",
             "value": "12378.28",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -19151,13 +19151,13 @@ window.BENCHMARK_DATA = {
             "name": "Average memory copy bandwidth on Linux",
             "value": "11949.58",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average memory copy bandwidth on Asterinas",
             "value": "14750.82",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -19185,13 +19185,13 @@ window.BENCHMARK_DATA = {
             "name": "Average memory copy bandwidth on Linux",
             "value": "14716.86",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average memory copy bandwidth on Asterinas",
             "value": "11457.89",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -19219,13 +19219,13 @@ window.BENCHMARK_DATA = {
             "name": "Average memory copy bandwidth on Linux",
             "value": "12495.83",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average memory copy bandwidth on Asterinas",
             "value": "12001.94",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -19253,13 +19253,13 @@ window.BENCHMARK_DATA = {
             "name": "Average memory copy bandwidth on Linux",
             "value": "13065.10",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average memory copy bandwidth on Asterinas",
             "value": "11700.61",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -19287,13 +19287,13 @@ window.BENCHMARK_DATA = {
             "name": "Average memory copy bandwidth on Linux",
             "value": "12338.46",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average memory copy bandwidth on Asterinas",
             "value": "11516.88",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -19321,13 +19321,13 @@ window.BENCHMARK_DATA = {
             "name": "Average memory copy bandwidth on Linux",
             "value": "13497.36",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average memory copy bandwidth on Asterinas",
             "value": "12467.97",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -19355,13 +19355,13 @@ window.BENCHMARK_DATA = {
             "name": "Average memory copy bandwidth on Linux",
             "value": "12841.34",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average memory copy bandwidth on Asterinas",
             "value": "12991.75",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -19388,13 +19388,13 @@ window.BENCHMARK_DATA = {
             "name": "Average memory copy bandwidth on Linux",
             "value": "14692.69",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average memory copy bandwidth on Asterinas",
             "value": "11744.64",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -19422,13 +19422,13 @@ window.BENCHMARK_DATA = {
             "name": "Average memory copy bandwidth on Linux",
             "value": "11191.34",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average memory copy bandwidth on Asterinas",
             "value": "14543.04",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -19456,13 +19456,13 @@ window.BENCHMARK_DATA = {
             "name": "Average memory copy bandwidth on Linux",
             "value": "14310.45",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average memory copy bandwidth on Asterinas",
             "value": "12838.89",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -19490,13 +19490,13 @@ window.BENCHMARK_DATA = {
             "name": "Average memory copy bandwidth on Linux",
             "value": "14667.00",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average memory copy bandwidth on Asterinas",
             "value": "12882.02",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -19524,13 +19524,13 @@ window.BENCHMARK_DATA = {
             "name": "Average memory copy bandwidth on Linux",
             "value": "12363.46",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average memory copy bandwidth on Asterinas",
             "value": "13573.80",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -19558,13 +19558,13 @@ window.BENCHMARK_DATA = {
             "name": "Average memory copy bandwidth on Linux",
             "value": "14850.38",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average memory copy bandwidth on Asterinas",
             "value": "12255.09",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -19592,13 +19592,13 @@ window.BENCHMARK_DATA = {
             "name": "Average memory copy bandwidth on Linux",
             "value": "11613.54",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average memory copy bandwidth on Asterinas",
             "value": "14750.82",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -19627,13 +19627,13 @@ window.BENCHMARK_DATA = {
             "name": "Average memory copy bandwidth on Linux",
             "value": "14778.43",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average memory copy bandwidth on Asterinas",
             "value": "14606.35",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -19662,13 +19662,13 @@ window.BENCHMARK_DATA = {
             "name": "Average memory copy bandwidth on Linux",
             "value": "11900.84",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average memory copy bandwidth on Asterinas",
             "value": "12945.38",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -19697,13 +19697,13 @@ window.BENCHMARK_DATA = {
             "name": "Average memory copy bandwidth on Linux",
             "value": "13145.71",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average memory copy bandwidth on Asterinas",
             "value": "13704.08",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -19732,13 +19732,13 @@ window.BENCHMARK_DATA = {
             "name": "Average memory copy bandwidth on Linux",
             "value": "14622.26",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average memory copy bandwidth on Asterinas",
             "value": "13845.44",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -19767,13 +19767,13 @@ window.BENCHMARK_DATA = {
             "name": "Average memory copy bandwidth on Linux",
             "value": "12449.47",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average memory copy bandwidth on Asterinas",
             "value": "14622.26",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -19802,13 +19802,13 @@ window.BENCHMARK_DATA = {
             "name": "Average memory copy bandwidth on Linux",
             "value": "14728.16",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average memory copy bandwidth on Asterinas",
             "value": "12786.29",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -19837,13 +19837,13 @@ window.BENCHMARK_DATA = {
             "name": "Average memory copy bandwidth on Linux",
             "value": "14710.40",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average memory copy bandwidth on Asterinas",
             "value": "13512.31",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -19872,13 +19872,13 @@ window.BENCHMARK_DATA = {
             "name": "Average memory copy bandwidth on Linux",
             "value": "13619.25",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average memory copy bandwidth on Asterinas",
             "value": "12711.22",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -19907,13 +19907,13 @@ window.BENCHMARK_DATA = {
             "name": "Average memory copy bandwidth on Linux",
             "value": "14745.96",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average memory copy bandwidth on Asterinas",
             "value": "11274.06",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -19942,13 +19942,13 @@ window.BENCHMARK_DATA = {
             "name": "Average memory copy bandwidth on Linux",
             "value": "13131.57",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average memory copy bandwidth on Asterinas",
             "value": "11147.65",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -19977,13 +19977,13 @@ window.BENCHMARK_DATA = {
             "name": "Average memory copy bandwidth on Linux",
             "value": "11614.55",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average memory copy bandwidth on Asterinas",
             "value": "12726.88",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -20012,13 +20012,13 @@ window.BENCHMARK_DATA = {
             "name": "Average memory copy bandwidth on Linux",
             "value": "12293.25",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average memory copy bandwidth on Asterinas",
             "value": "12479.57",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -20047,13 +20047,13 @@ window.BENCHMARK_DATA = {
             "name": "Average memory copy bandwidth on Linux",
             "value": "12595.51",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average memory copy bandwidth on Asterinas",
             "value": "12072.11",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -20082,13 +20082,13 @@ window.BENCHMARK_DATA = {
             "name": "Average memory copy bandwidth on Linux",
             "value": "13400.33",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average memory copy bandwidth on Asterinas",
             "value": "13761.69",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -20117,13 +20117,13 @@ window.BENCHMARK_DATA = {
             "name": "Average memory copy bandwidth on Linux",
             "value": "14108.88",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average memory copy bandwidth on Asterinas",
             "value": "13588.92",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -20152,13 +20152,13 @@ window.BENCHMARK_DATA = {
             "name": "Average memory copy bandwidth on Linux",
             "value": "11877.68",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average memory copy bandwidth on Asterinas",
             "value": "11090.54",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -20187,13 +20187,13 @@ window.BENCHMARK_DATA = {
             "name": "Average memory copy bandwidth on Linux",
             "value": "14781.69",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average memory copy bandwidth on Asterinas",
             "value": "11724.12",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -20222,13 +20222,13 @@ window.BENCHMARK_DATA = {
             "name": "Average memory copy bandwidth on Linux",
             "value": "11850.41",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average memory copy bandwidth on Asterinas",
             "value": "12647.73",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -20257,13 +20257,13 @@ window.BENCHMARK_DATA = {
             "name": "Average memory copy bandwidth on Linux",
             "value": "14580.96",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average memory copy bandwidth on Asterinas",
             "value": "14503.75",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -20292,13 +20292,13 @@ window.BENCHMARK_DATA = {
             "name": "Average memory copy bandwidth on Linux",
             "value": "6333.41",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average memory copy bandwidth on Asterinas",
             "value": "6489.75",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -20327,13 +20327,13 @@ window.BENCHMARK_DATA = {
             "name": "Average memory copy bandwidth on Linux",
             "value": "6481.60",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average memory copy bandwidth on Asterinas",
             "value": "6502.80",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -20362,13 +20362,13 @@ window.BENCHMARK_DATA = {
             "name": "Average memory copy bandwidth on Linux",
             "value": "6403.36",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average memory copy bandwidth on Asterinas",
             "value": "6338.65",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -20397,13 +20397,13 @@ window.BENCHMARK_DATA = {
             "name": "Average memory copy bandwidth on Linux",
             "value": "6386.83",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average memory copy bandwidth on Asterinas",
             "value": "6507.13",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -20432,13 +20432,13 @@ window.BENCHMARK_DATA = {
             "name": "Average memory copy bandwidth on Linux",
             "value": "6395.36",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average memory copy bandwidth on Asterinas",
             "value": "6496.03",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -20467,13 +20467,13 @@ window.BENCHMARK_DATA = {
             "name": "Average memory copy bandwidth on Linux",
             "value": "6435.53",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average memory copy bandwidth on Asterinas",
             "value": "6549.12",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -20502,13 +20502,13 @@ window.BENCHMARK_DATA = {
             "name": "Average memory copy bandwidth on Linux",
             "value": "6587.86",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average memory copy bandwidth on Asterinas",
             "value": "6559.45",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -20537,13 +20537,13 @@ window.BENCHMARK_DATA = {
             "name": "Average memory copy bandwidth on Linux",
             "value": "6351.40",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average memory copy bandwidth on Asterinas",
             "value": "6547.13",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -20572,13 +20572,13 @@ window.BENCHMARK_DATA = {
             "name": "Average memory copy bandwidth on Linux",
             "value": "6426.13",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average memory copy bandwidth on Asterinas",
             "value": "6504.53",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -20607,13 +20607,13 @@ window.BENCHMARK_DATA = {
             "name": "Average memory copy bandwidth on Linux",
             "value": "6403.59",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average memory copy bandwidth on Asterinas",
             "value": "6527.23",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -20642,13 +20642,13 @@ window.BENCHMARK_DATA = {
             "name": "Average memory copy bandwidth on Linux",
             "value": "6559.28",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average memory copy bandwidth on Asterinas",
             "value": "6505.16",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -20677,13 +20677,13 @@ window.BENCHMARK_DATA = {
             "name": "Average memory copy bandwidth on Linux",
             "value": "6468.79",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average memory copy bandwidth on Asterinas",
             "value": "6463.65",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -20712,13 +20712,13 @@ window.BENCHMARK_DATA = {
             "name": "Average memory copy bandwidth on Linux",
             "value": "6480.90",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average memory copy bandwidth on Asterinas",
             "value": "6356.96",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -20747,13 +20747,13 @@ window.BENCHMARK_DATA = {
             "name": "Average memory copy bandwidth on Linux",
             "value": "6466.77",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average memory copy bandwidth on Asterinas",
             "value": "6476.99",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -20782,13 +20782,13 @@ window.BENCHMARK_DATA = {
             "name": "Average memory copy bandwidth on Linux",
             "value": "6476.91",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average memory copy bandwidth on Asterinas",
             "value": "6303.60",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -20817,13 +20817,13 @@ window.BENCHMARK_DATA = {
             "name": "Average memory copy bandwidth on Linux",
             "value": "6329.16",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average memory copy bandwidth on Asterinas",
             "value": "5018.38",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -20852,13 +20852,13 @@ window.BENCHMARK_DATA = {
             "name": "Average memory copy bandwidth on Linux",
             "value": "6371.30",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average memory copy bandwidth on Asterinas",
             "value": "5793.86",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -20887,13 +20887,13 @@ window.BENCHMARK_DATA = {
             "name": "Average memory copy bandwidth on Linux",
             "value": "6530.01",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average memory copy bandwidth on Asterinas",
             "value": "6452.23",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -20922,13 +20922,13 @@ window.BENCHMARK_DATA = {
             "name": "Average memory copy bandwidth on Linux",
             "value": "6454.64",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average memory copy bandwidth on Asterinas",
             "value": "6472.77",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -20957,13 +20957,13 @@ window.BENCHMARK_DATA = {
             "name": "Average memory copy bandwidth on Linux",
             "value": "6439.69",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average memory copy bandwidth on Asterinas",
             "value": "6455.80",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -20992,13 +20992,13 @@ window.BENCHMARK_DATA = {
             "name": "Average memory copy bandwidth on Linux",
             "value": "6372.96",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average memory copy bandwidth on Asterinas",
             "value": "6462.56",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -21027,13 +21027,13 @@ window.BENCHMARK_DATA = {
             "name": "Average memory copy bandwidth on Linux",
             "value": "6524.45",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average memory copy bandwidth on Asterinas",
             "value": "6469.81",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -21062,13 +21062,13 @@ window.BENCHMARK_DATA = {
             "name": "Average memory copy bandwidth on Linux",
             "value": "6599.28",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average memory copy bandwidth on Asterinas",
             "value": "6546.25",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -21097,13 +21097,13 @@ window.BENCHMARK_DATA = {
             "name": "Average memory copy bandwidth on Linux",
             "value": "6352.00",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average memory copy bandwidth on Asterinas",
             "value": "6306.93",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -21132,13 +21132,13 @@ window.BENCHMARK_DATA = {
             "name": "Average memory copy bandwidth on Linux",
             "value": "6521.60",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average memory copy bandwidth on Asterinas",
             "value": "6474.96",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -21167,13 +21167,13 @@ window.BENCHMARK_DATA = {
             "name": "Average memory copy bandwidth on Linux",
             "value": "6407.64",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average memory copy bandwidth on Asterinas",
             "value": "6493.83",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -21202,13 +21202,13 @@ window.BENCHMARK_DATA = {
             "name": "Average memory copy bandwidth on Linux",
             "value": "6293.69",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average memory copy bandwidth on Asterinas",
             "value": "6391.24",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -21275,13 +21275,13 @@ window.BENCHMARK_DATA = {
             "name": "Average memory read bandwidth on Linux",
             "value": "22841.68",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average memory read bandwidth on Asterinas",
             "value": "19579.54",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -21309,13 +21309,13 @@ window.BENCHMARK_DATA = {
             "name": "Average memory read bandwidth on Linux",
             "value": "20719.01",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average memory read bandwidth on Asterinas",
             "value": "18553.74",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -21343,13 +21343,13 @@ window.BENCHMARK_DATA = {
             "name": "Average memory read bandwidth on Linux",
             "value": "17035.95",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average memory read bandwidth on Asterinas",
             "value": "17858.79",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -21377,13 +21377,13 @@ window.BENCHMARK_DATA = {
             "name": "Average memory read bandwidth on Linux",
             "value": "18698.49",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average memory read bandwidth on Asterinas",
             "value": "19017.74",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -21411,13 +21411,13 @@ window.BENCHMARK_DATA = {
             "name": "Average memory read bandwidth on Linux",
             "value": "17277.17",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average memory read bandwidth on Asterinas",
             "value": "18885.29",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -21445,13 +21445,13 @@ window.BENCHMARK_DATA = {
             "name": "Average memory read bandwidth on Linux",
             "value": "22506.54",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average memory read bandwidth on Asterinas",
             "value": "18176.83",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -21479,13 +21479,13 @@ window.BENCHMARK_DATA = {
             "name": "Average memory read bandwidth on Linux",
             "value": "17859.98",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average memory read bandwidth on Asterinas",
             "value": "19524.00",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -21513,13 +21513,13 @@ window.BENCHMARK_DATA = {
             "name": "Average memory read bandwidth on Linux",
             "value": "20960.06",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average memory read bandwidth on Asterinas",
             "value": "19033.93",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -21546,13 +21546,13 @@ window.BENCHMARK_DATA = {
             "name": "Average memory read bandwidth on Linux",
             "value": "19497.06",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average memory read bandwidth on Asterinas",
             "value": "18820.41",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -21580,13 +21580,13 @@ window.BENCHMARK_DATA = {
             "name": "Average memory read bandwidth on Linux",
             "value": "15479.81",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average memory read bandwidth on Asterinas",
             "value": "18787.48",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -21614,13 +21614,13 @@ window.BENCHMARK_DATA = {
             "name": "Average memory read bandwidth on Linux",
             "value": "19828.29",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average memory read bandwidth on Asterinas",
             "value": "16286.58",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -21648,13 +21648,13 @@ window.BENCHMARK_DATA = {
             "name": "Average memory read bandwidth on Linux",
             "value": "15976.40",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average memory read bandwidth on Asterinas",
             "value": "20332.94",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -21682,13 +21682,13 @@ window.BENCHMARK_DATA = {
             "name": "Average memory read bandwidth on Linux",
             "value": "21571.48",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average memory read bandwidth on Asterinas",
             "value": "16633.75",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -21716,13 +21716,13 @@ window.BENCHMARK_DATA = {
             "name": "Average memory read bandwidth on Linux",
             "value": "20703.03",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average memory read bandwidth on Asterinas",
             "value": "18267.13",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -21750,13 +21750,13 @@ window.BENCHMARK_DATA = {
             "name": "Average memory read bandwidth on Linux",
             "value": "18937.25",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average memory read bandwidth on Asterinas",
             "value": "18740.26",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -21785,13 +21785,13 @@ window.BENCHMARK_DATA = {
             "name": "Average memory read bandwidth on Linux",
             "value": "19831.22",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average memory read bandwidth on Asterinas",
             "value": "18922.56",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -21820,13 +21820,13 @@ window.BENCHMARK_DATA = {
             "name": "Average memory read bandwidth on Linux",
             "value": "22084.36",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average memory read bandwidth on Asterinas",
             "value": "21884.51",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -21855,13 +21855,13 @@ window.BENCHMARK_DATA = {
             "name": "Average memory read bandwidth on Linux",
             "value": "17962.76",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average memory read bandwidth on Asterinas",
             "value": "19536.79",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -21890,13 +21890,13 @@ window.BENCHMARK_DATA = {
             "name": "Average memory read bandwidth on Linux",
             "value": "20707.82",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average memory read bandwidth on Asterinas",
             "value": "19212.39",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -21925,13 +21925,13 @@ window.BENCHMARK_DATA = {
             "name": "Average memory read bandwidth on Linux",
             "value": "17608.10",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average memory read bandwidth on Asterinas",
             "value": "17520.75",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -21960,13 +21960,13 @@ window.BENCHMARK_DATA = {
             "name": "Average memory read bandwidth on Linux",
             "value": "22129.88",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average memory read bandwidth on Asterinas",
             "value": "22017.34",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -21995,13 +21995,13 @@ window.BENCHMARK_DATA = {
             "name": "Average memory read bandwidth on Linux",
             "value": "20339.10",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average memory read bandwidth on Asterinas",
             "value": "17450.14",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -22030,13 +22030,13 @@ window.BENCHMARK_DATA = {
             "name": "Average memory read bandwidth on Linux",
             "value": "22182.92",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average memory read bandwidth on Asterinas",
             "value": "22451.95",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -22065,13 +22065,13 @@ window.BENCHMARK_DATA = {
             "name": "Average memory read bandwidth on Linux",
             "value": "16389.00",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average memory read bandwidth on Asterinas",
             "value": "15716.36",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -22100,13 +22100,13 @@ window.BENCHMARK_DATA = {
             "name": "Average memory read bandwidth on Linux",
             "value": "22416.32",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average memory read bandwidth on Asterinas",
             "value": "17410.52",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -22135,13 +22135,13 @@ window.BENCHMARK_DATA = {
             "name": "Average memory read bandwidth on Linux",
             "value": "18769.09",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average memory read bandwidth on Asterinas",
             "value": "18236.10",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -22170,13 +22170,13 @@ window.BENCHMARK_DATA = {
             "name": "Average memory read bandwidth on Linux",
             "value": "17154.62",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average memory read bandwidth on Asterinas",
             "value": "22497.10",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -22205,13 +22205,13 @@ window.BENCHMARK_DATA = {
             "name": "Average memory read bandwidth on Linux",
             "value": "17402.62",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average memory read bandwidth on Asterinas",
             "value": "17601.17",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -22240,13 +22240,13 @@ window.BENCHMARK_DATA = {
             "name": "Average memory read bandwidth on Linux",
             "value": "19267.55",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average memory read bandwidth on Asterinas",
             "value": "18478.38",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -22275,13 +22275,13 @@ window.BENCHMARK_DATA = {
             "name": "Average memory read bandwidth on Linux",
             "value": "19736.45",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average memory read bandwidth on Asterinas",
             "value": "16979.91",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -22310,13 +22310,13 @@ window.BENCHMARK_DATA = {
             "name": "Average memory read bandwidth on Linux",
             "value": "17943.55",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average memory read bandwidth on Asterinas",
             "value": "15839.70",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -22345,13 +22345,13 @@ window.BENCHMARK_DATA = {
             "name": "Average memory read bandwidth on Linux",
             "value": "17125.07",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average memory read bandwidth on Asterinas",
             "value": "15954.56",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -22380,13 +22380,13 @@ window.BENCHMARK_DATA = {
             "name": "Average memory read bandwidth on Linux",
             "value": "19264.78",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average memory read bandwidth on Asterinas",
             "value": "18937.25",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -22415,13 +22415,13 @@ window.BENCHMARK_DATA = {
             "name": "Average memory read bandwidth on Linux",
             "value": "18899.91",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average memory read bandwidth on Asterinas",
             "value": "18531.96",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -22450,13 +22450,13 @@ window.BENCHMARK_DATA = {
             "name": "Average memory read bandwidth on Linux",
             "value": "10673.17",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average memory read bandwidth on Asterinas",
             "value": "10609.05",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -22485,13 +22485,13 @@ window.BENCHMARK_DATA = {
             "name": "Average memory read bandwidth on Linux",
             "value": "9801.92",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average memory read bandwidth on Asterinas",
             "value": "10144.38",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -22520,13 +22520,13 @@ window.BENCHMARK_DATA = {
             "name": "Average memory read bandwidth on Linux",
             "value": "10084.92",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average memory read bandwidth on Asterinas",
             "value": "10565.21",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -22555,13 +22555,13 @@ window.BENCHMARK_DATA = {
             "name": "Average memory read bandwidth on Linux",
             "value": "10615.13",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average memory read bandwidth on Asterinas",
             "value": "10408.31",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -22590,13 +22590,13 @@ window.BENCHMARK_DATA = {
             "name": "Average memory read bandwidth on Linux",
             "value": "11120.17",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average memory read bandwidth on Asterinas",
             "value": "10988.17",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -22625,13 +22625,13 @@ window.BENCHMARK_DATA = {
             "name": "Average memory read bandwidth on Linux",
             "value": "10555.44",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average memory read bandwidth on Asterinas",
             "value": "10645.23",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -22660,13 +22660,13 @@ window.BENCHMARK_DATA = {
             "name": "Average memory read bandwidth on Linux",
             "value": "10840.18",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average memory read bandwidth on Asterinas",
             "value": "10938.69",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -22695,13 +22695,13 @@ window.BENCHMARK_DATA = {
             "name": "Average memory read bandwidth on Linux",
             "value": "10742.36",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average memory read bandwidth on Asterinas",
             "value": "10590.21",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -22730,13 +22730,13 @@ window.BENCHMARK_DATA = {
             "name": "Average memory read bandwidth on Linux",
             "value": "10086.06",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average memory read bandwidth on Asterinas",
             "value": "10942.70",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -22765,13 +22765,13 @@ window.BENCHMARK_DATA = {
             "name": "Average memory read bandwidth on Linux",
             "value": "10701.46",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average memory read bandwidth on Asterinas",
             "value": "11161.56",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -22800,13 +22800,13 @@ window.BENCHMARK_DATA = {
             "name": "Average memory read bandwidth on Linux",
             "value": "10803.32",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average memory read bandwidth on Asterinas",
             "value": "10529.56",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -22835,13 +22835,13 @@ window.BENCHMARK_DATA = {
             "name": "Average memory read bandwidth on Linux",
             "value": "11172.24",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average memory read bandwidth on Asterinas",
             "value": "10396.42",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -22870,13 +22870,13 @@ window.BENCHMARK_DATA = {
             "name": "Average memory read bandwidth on Linux",
             "value": "10153.20",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average memory read bandwidth on Asterinas",
             "value": "10151.28",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -22905,13 +22905,13 @@ window.BENCHMARK_DATA = {
             "name": "Average memory read bandwidth on Linux",
             "value": "10516.57",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average memory read bandwidth on Asterinas",
             "value": "10949.85",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -22940,13 +22940,13 @@ window.BENCHMARK_DATA = {
             "name": "Average memory read bandwidth on Linux",
             "value": "10720.05",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average memory read bandwidth on Asterinas",
             "value": "10041.73",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -22975,13 +22975,13 @@ window.BENCHMARK_DATA = {
             "name": "Average memory read bandwidth on Linux",
             "value": "11472.58",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average memory read bandwidth on Asterinas",
             "value": "10221.44",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -23010,13 +23010,13 @@ window.BENCHMARK_DATA = {
             "name": "Average memory read bandwidth on Linux",
             "value": "11452.76",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average memory read bandwidth on Asterinas",
             "value": "11011.61",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -23045,13 +23045,13 @@ window.BENCHMARK_DATA = {
             "name": "Average memory read bandwidth on Linux",
             "value": "10358.90",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average memory read bandwidth on Asterinas",
             "value": "10394.20",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -23080,13 +23080,13 @@ window.BENCHMARK_DATA = {
             "name": "Average memory read bandwidth on Linux",
             "value": "10490.27",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average memory read bandwidth on Asterinas",
             "value": "9781.39",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -23115,13 +23115,13 @@ window.BENCHMARK_DATA = {
             "name": "Average memory read bandwidth on Linux",
             "value": "10008.41",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average memory read bandwidth on Asterinas",
             "value": "10390.98",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -23150,13 +23150,13 @@ window.BENCHMARK_DATA = {
             "name": "Average memory read bandwidth on Linux",
             "value": "10969.09",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average memory read bandwidth on Asterinas",
             "value": "10592.30",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -23185,13 +23185,13 @@ window.BENCHMARK_DATA = {
             "name": "Average memory read bandwidth on Linux",
             "value": "9658.38",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average memory read bandwidth on Asterinas",
             "value": "10114.94",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -23220,13 +23220,13 @@ window.BENCHMARK_DATA = {
             "name": "Average memory read bandwidth on Linux",
             "value": "10137.67",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average memory read bandwidth on Asterinas",
             "value": "10526.26",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -23255,13 +23255,13 @@ window.BENCHMARK_DATA = {
             "name": "Average memory read bandwidth on Linux",
             "value": "10651.99",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average memory read bandwidth on Asterinas",
             "value": "10823.57",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -23290,13 +23290,13 @@ window.BENCHMARK_DATA = {
             "name": "Average memory read bandwidth on Linux",
             "value": "10679.32",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average memory read bandwidth on Asterinas",
             "value": "10531.22",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -23325,13 +23325,13 @@ window.BENCHMARK_DATA = {
             "name": "Average memory read bandwidth on Linux",
             "value": "10524.61",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average memory read bandwidth on Asterinas",
             "value": "11338.35",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -23360,13 +23360,13 @@ window.BENCHMARK_DATA = {
             "name": "Average memory read bandwidth on Linux",
             "value": "11524.54",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average memory read bandwidth on Asterinas",
             "value": "10135.38",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -23433,13 +23433,13 @@ window.BENCHMARK_DATA = {
             "name": "Average memory write bandwidth on Linux",
             "value": "14258.76",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average memory write bandwidth on Asterinas",
             "value": "14903.97",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -23467,13 +23467,13 @@ window.BENCHMARK_DATA = {
             "name": "Average memory write bandwidth on Linux",
             "value": "18099.62",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average memory write bandwidth on Asterinas",
             "value": "14049.06",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -23501,13 +23501,13 @@ window.BENCHMARK_DATA = {
             "name": "Average memory write bandwidth on Linux",
             "value": "15774.55",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average memory write bandwidth on Asterinas",
             "value": "14798.80",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -23535,13 +23535,13 @@ window.BENCHMARK_DATA = {
             "name": "Average memory write bandwidth on Linux",
             "value": "12801.54",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average memory write bandwidth on Asterinas",
             "value": "16723.91",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -23569,13 +23569,13 @@ window.BENCHMARK_DATA = {
             "name": "Average memory write bandwidth on Linux",
             "value": "14264.07",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average memory write bandwidth on Asterinas",
             "value": "16025.04",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -23603,13 +23603,13 @@ window.BENCHMARK_DATA = {
             "name": "Average memory write bandwidth on Linux",
             "value": "17310.60",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average memory write bandwidth on Asterinas",
             "value": "15551.56",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -23637,13 +23637,13 @@ window.BENCHMARK_DATA = {
             "name": "Average memory write bandwidth on Linux",
             "value": "15024.93",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average memory write bandwidth on Asterinas",
             "value": "16137.76",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -23671,13 +23671,13 @@ window.BENCHMARK_DATA = {
             "name": "Average memory write bandwidth on Linux",
             "value": "17503.62",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average memory write bandwidth on Asterinas",
             "value": "8685.26",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -23704,13 +23704,13 @@ window.BENCHMARK_DATA = {
             "name": "Average memory write bandwidth on Linux",
             "value": "15847.18",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average memory write bandwidth on Asterinas",
             "value": "15700.73",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -23738,13 +23738,13 @@ window.BENCHMARK_DATA = {
             "name": "Average memory write bandwidth on Linux",
             "value": "16174.71",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average memory write bandwidth on Asterinas",
             "value": "16192.27",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -23772,13 +23772,13 @@ window.BENCHMARK_DATA = {
             "name": "Average memory write bandwidth on Linux",
             "value": "15231.24",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average memory write bandwidth on Asterinas",
             "value": "18446.64",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -23806,13 +23806,13 @@ window.BENCHMARK_DATA = {
             "name": "Average memory write bandwidth on Linux",
             "value": "18688.07",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average memory write bandwidth on Asterinas",
             "value": "17043.52",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -23840,13 +23840,13 @@ window.BENCHMARK_DATA = {
             "name": "Average memory write bandwidth on Linux",
             "value": "16120.31",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average memory write bandwidth on Asterinas",
             "value": "15677.81",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -23874,13 +23874,13 @@ window.BENCHMARK_DATA = {
             "name": "Average memory write bandwidth on Linux",
             "value": "14055.68",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average memory write bandwidth on Asterinas",
             "value": "15814.51",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -23908,13 +23908,13 @@ window.BENCHMARK_DATA = {
             "name": "Average memory write bandwidth on Linux",
             "value": "15226.06",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average memory write bandwidth on Asterinas",
             "value": "15550.66",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -23943,13 +23943,13 @@ window.BENCHMARK_DATA = {
             "name": "Average memory write bandwidth on Linux",
             "value": "16482.59",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average memory write bandwidth on Asterinas",
             "value": "15289.37",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -23978,13 +23978,13 @@ window.BENCHMARK_DATA = {
             "name": "Average memory write bandwidth on Linux",
             "value": "15889.40",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average memory write bandwidth on Asterinas",
             "value": "13994.86",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -24013,13 +24013,13 @@ window.BENCHMARK_DATA = {
             "name": "Average memory write bandwidth on Linux",
             "value": "18671.17",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average memory write bandwidth on Asterinas",
             "value": "18452.98",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -24048,13 +24048,13 @@ window.BENCHMARK_DATA = {
             "name": "Average memory write bandwidth on Linux",
             "value": "18689.37",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average memory write bandwidth on Asterinas",
             "value": "15403.42",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -24083,13 +24083,13 @@ window.BENCHMARK_DATA = {
             "name": "Average memory write bandwidth on Linux",
             "value": "15645.83",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average memory write bandwidth on Asterinas",
             "value": "17717.34",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -24118,13 +24118,13 @@ window.BENCHMARK_DATA = {
             "name": "Average memory write bandwidth on Linux",
             "value": "16570.09",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average memory write bandwidth on Asterinas",
             "value": "14655.79",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -24153,13 +24153,13 @@ window.BENCHMARK_DATA = {
             "name": "Average memory write bandwidth on Linux",
             "value": "18681.57",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average memory write bandwidth on Asterinas",
             "value": "15569.60",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -24188,13 +24188,13 @@ window.BENCHMARK_DATA = {
             "name": "Average memory write bandwidth on Linux",
             "value": "12741.38",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average memory write bandwidth on Asterinas",
             "value": "17152.43",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -24223,13 +24223,13 @@ window.BENCHMARK_DATA = {
             "name": "Average memory write bandwidth on Linux",
             "value": "15726.49",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average memory write bandwidth on Asterinas",
             "value": "14205.19",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -24258,13 +24258,13 @@ window.BENCHMARK_DATA = {
             "name": "Average memory write bandwidth on Linux",
             "value": "14439.00",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average memory write bandwidth on Asterinas",
             "value": "18431.44",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -24293,13 +24293,13 @@ window.BENCHMARK_DATA = {
             "name": "Average memory write bandwidth on Linux",
             "value": "18690.67",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average memory write bandwidth on Asterinas",
             "value": "15008.13",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -24328,13 +24328,13 @@ window.BENCHMARK_DATA = {
             "name": "Average memory write bandwidth on Linux",
             "value": "14554.08",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average memory write bandwidth on Asterinas",
             "value": "14659.79",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -24363,13 +24363,13 @@ window.BENCHMARK_DATA = {
             "name": "Average memory write bandwidth on Linux",
             "value": "16853.05",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average memory write bandwidth on Asterinas",
             "value": "14120.01",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -24398,13 +24398,13 @@ window.BENCHMARK_DATA = {
             "name": "Average memory write bandwidth on Linux",
             "value": "15975.45",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average memory write bandwidth on Asterinas",
             "value": "15934.67",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -24433,13 +24433,13 @@ window.BENCHMARK_DATA = {
             "name": "Average memory write bandwidth on Linux",
             "value": "14888.27",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average memory write bandwidth on Asterinas",
             "value": "14577.00",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -24468,13 +24468,13 @@ window.BENCHMARK_DATA = {
             "name": "Average memory write bandwidth on Linux",
             "value": "14945.46",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average memory write bandwidth on Asterinas",
             "value": "14159.48",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -24503,13 +24503,13 @@ window.BENCHMARK_DATA = {
             "name": "Average memory write bandwidth on Linux",
             "value": "15188.16",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average memory write bandwidth on Asterinas",
             "value": "14292.93",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -24538,13 +24538,13 @@ window.BENCHMARK_DATA = {
             "name": "Average memory write bandwidth on Linux",
             "value": "13900.65",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average memory write bandwidth on Asterinas",
             "value": "15170.99",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -24573,13 +24573,13 @@ window.BENCHMARK_DATA = {
             "name": "Average memory write bandwidth on Linux",
             "value": "17098.89",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average memory write bandwidth on Asterinas",
             "value": "15207.95",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -24608,13 +24608,13 @@ window.BENCHMARK_DATA = {
             "name": "Average memory write bandwidth on Linux",
             "value": "8552.30",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average memory write bandwidth on Asterinas",
             "value": "8773.83",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -24643,13 +24643,13 @@ window.BENCHMARK_DATA = {
             "name": "Average memory write bandwidth on Linux",
             "value": "8692.58",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average memory write bandwidth on Asterinas",
             "value": "8791.07",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -24678,13 +24678,13 @@ window.BENCHMARK_DATA = {
             "name": "Average memory write bandwidth on Linux",
             "value": "8910.57",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average memory write bandwidth on Asterinas",
             "value": "8664.94",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -24713,13 +24713,13 @@ window.BENCHMARK_DATA = {
             "name": "Average memory write bandwidth on Linux",
             "value": "8935.93",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average memory write bandwidth on Asterinas",
             "value": "9567.67",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -24748,13 +24748,13 @@ window.BENCHMARK_DATA = {
             "name": "Average memory write bandwidth on Linux",
             "value": "8641.65",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average memory write bandwidth on Asterinas",
             "value": "8693.56",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -24783,13 +24783,13 @@ window.BENCHMARK_DATA = {
             "name": "Average memory write bandwidth on Linux",
             "value": "8682.17",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average memory write bandwidth on Asterinas",
             "value": "8841.60",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -24818,13 +24818,13 @@ window.BENCHMARK_DATA = {
             "name": "Average memory write bandwidth on Linux",
             "value": "8762.95",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average memory write bandwidth on Asterinas",
             "value": "8889.18",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -24853,13 +24853,13 @@ window.BENCHMARK_DATA = {
             "name": "Average memory write bandwidth on Linux",
             "value": "8714.45",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average memory write bandwidth on Asterinas",
             "value": "8665.08",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -24888,13 +24888,13 @@ window.BENCHMARK_DATA = {
             "name": "Average memory write bandwidth on Linux",
             "value": "8947.55",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average memory write bandwidth on Asterinas",
             "value": "8715.86",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -24923,13 +24923,13 @@ window.BENCHMARK_DATA = {
             "name": "Average memory write bandwidth on Linux",
             "value": "8719.68",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average memory write bandwidth on Asterinas",
             "value": "8736.57",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -24958,13 +24958,13 @@ window.BENCHMARK_DATA = {
             "name": "Average memory write bandwidth on Linux",
             "value": "9036.71",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average memory write bandwidth on Asterinas",
             "value": "8796.98",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -24993,13 +24993,13 @@ window.BENCHMARK_DATA = {
             "name": "Average memory write bandwidth on Linux",
             "value": "8860.57",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average memory write bandwidth on Asterinas",
             "value": "8797.85",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -25028,13 +25028,13 @@ window.BENCHMARK_DATA = {
             "name": "Average memory write bandwidth on Linux",
             "value": "8980.33",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average memory write bandwidth on Asterinas",
             "value": "8856.48",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -25063,13 +25063,13 @@ window.BENCHMARK_DATA = {
             "name": "Average memory write bandwidth on Linux",
             "value": "8676.14",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average memory write bandwidth on Asterinas",
             "value": "8720.96",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -25098,13 +25098,13 @@ window.BENCHMARK_DATA = {
             "name": "Average memory write bandwidth on Linux",
             "value": "8659.49",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average memory write bandwidth on Asterinas",
             "value": "8834.76",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -25133,13 +25133,13 @@ window.BENCHMARK_DATA = {
             "name": "Average memory write bandwidth on Linux",
             "value": "9016.68",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average memory write bandwidth on Asterinas",
             "value": "8813.88",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -25168,13 +25168,13 @@ window.BENCHMARK_DATA = {
             "name": "Average memory write bandwidth on Linux",
             "value": "8833.02",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average memory write bandwidth on Asterinas",
             "value": "8700.89",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -25203,13 +25203,13 @@ window.BENCHMARK_DATA = {
             "name": "Average memory write bandwidth on Linux",
             "value": "8944.72",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average memory write bandwidth on Asterinas",
             "value": "8695.81",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -25238,13 +25238,13 @@ window.BENCHMARK_DATA = {
             "name": "Average memory write bandwidth on Linux",
             "value": "8691.73",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average memory write bandwidth on Asterinas",
             "value": "8750.95",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -25273,13 +25273,13 @@ window.BENCHMARK_DATA = {
             "name": "Average memory write bandwidth on Linux",
             "value": "8619.59",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average memory write bandwidth on Asterinas",
             "value": "8959.50",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -25308,13 +25308,13 @@ window.BENCHMARK_DATA = {
             "name": "Average memory write bandwidth on Linux",
             "value": "8774.55",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average memory write bandwidth on Asterinas",
             "value": "8704.27",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -25343,13 +25343,13 @@ window.BENCHMARK_DATA = {
             "name": "Average memory write bandwidth on Linux",
             "value": "8684.14",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average memory write bandwidth on Asterinas",
             "value": "8556.53",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -25378,13 +25378,13 @@ window.BENCHMARK_DATA = {
             "name": "Average memory write bandwidth on Linux",
             "value": "8591.86",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average memory write bandwidth on Asterinas",
             "value": "8894.04",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -25413,13 +25413,13 @@ window.BENCHMARK_DATA = {
             "name": "Average memory write bandwidth on Linux",
             "value": "8600.67",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average memory write bandwidth on Asterinas",
             "value": "8562.67",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -25448,13 +25448,13 @@ window.BENCHMARK_DATA = {
             "name": "Average memory write bandwidth on Linux",
             "value": "8721.10",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average memory write bandwidth on Asterinas",
             "value": "8720.96",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -25483,13 +25483,13 @@ window.BENCHMARK_DATA = {
             "name": "Average memory write bandwidth on Linux",
             "value": "8554.08",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average memory write bandwidth on Asterinas",
             "value": "8889.62",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -25518,13 +25518,13 @@ window.BENCHMARK_DATA = {
             "name": "Average memory write bandwidth on Linux",
             "value": "8645.13",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average memory write bandwidth on Asterinas",
             "value": "8820.39",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -25591,13 +25591,13 @@ window.BENCHMARK_DATA = {
             "name": "Average open latency on Linux",
             "value": "1.2240",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average open latency on Asterinas",
             "value": "2.7609",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -25625,13 +25625,13 @@ window.BENCHMARK_DATA = {
             "name": "Average open latency on Linux",
             "value": "1.2839",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average open latency on Asterinas",
             "value": "2.7758",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -25659,13 +25659,13 @@ window.BENCHMARK_DATA = {
             "name": "Average open latency on Linux",
             "value": "1.2046",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average open latency on Asterinas",
             "value": "2.7583",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -25693,13 +25693,13 @@ window.BENCHMARK_DATA = {
             "name": "Average open latency on Linux",
             "value": "1.2098",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average open latency on Asterinas",
             "value": "2.7776",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -25727,13 +25727,13 @@ window.BENCHMARK_DATA = {
             "name": "Average open latency on Linux",
             "value": "1.2113",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average open latency on Asterinas",
             "value": "2.7692",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -25761,13 +25761,13 @@ window.BENCHMARK_DATA = {
             "name": "Average open latency on Linux",
             "value": "1.2000",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average open latency on Asterinas",
             "value": "2.7666",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -25795,13 +25795,13 @@ window.BENCHMARK_DATA = {
             "name": "Average open latency on Linux",
             "value": "1.2056",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average open latency on Asterinas",
             "value": "2.7636",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -25829,13 +25829,13 @@ window.BENCHMARK_DATA = {
             "name": "Average open latency on Linux",
             "value": "1.1953",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average open latency on Asterinas",
             "value": "2.3645",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -25862,13 +25862,13 @@ window.BENCHMARK_DATA = {
             "name": "Average open latency on Linux",
             "value": "1.2197",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average open latency on Asterinas",
             "value": "2.3615",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -25896,13 +25896,13 @@ window.BENCHMARK_DATA = {
             "name": "Average open latency on Linux",
             "value": "1.2350",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average open latency on Asterinas",
             "value": "2.3696",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -25930,13 +25930,13 @@ window.BENCHMARK_DATA = {
             "name": "Average open latency on Linux",
             "value": "1.2336",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average open latency on Asterinas",
             "value": "2.3721",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -25964,13 +25964,13 @@ window.BENCHMARK_DATA = {
             "name": "Average open latency on Linux",
             "value": "1.2025",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average open latency on Asterinas",
             "value": "2.3530",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -25998,13 +25998,13 @@ window.BENCHMARK_DATA = {
             "name": "Average open latency on Linux",
             "value": "1.1753",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average open latency on Asterinas",
             "value": "2.3981",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -26032,13 +26032,13 @@ window.BENCHMARK_DATA = {
             "name": "Average open latency on Linux",
             "value": "1.1844",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average open latency on Asterinas",
             "value": "2.3942",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -26066,13 +26066,13 @@ window.BENCHMARK_DATA = {
             "name": "Average open latency on Linux",
             "value": "1.2056",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average open latency on Asterinas",
             "value": "2.3839",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -26101,13 +26101,13 @@ window.BENCHMARK_DATA = {
             "name": "Average open latency on Linux",
             "value": "1.2421",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average open latency on Asterinas",
             "value": "2.3527",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -26136,13 +26136,13 @@ window.BENCHMARK_DATA = {
             "name": "Average open latency on Linux",
             "value": "1.2676",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average open latency on Asterinas",
             "value": "2.3611",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -26171,13 +26171,13 @@ window.BENCHMARK_DATA = {
             "name": "Average open latency on Linux",
             "value": "1.2863",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average open latency on Asterinas",
             "value": "2.2979",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -26206,13 +26206,13 @@ window.BENCHMARK_DATA = {
             "name": "Average open latency on Linux",
             "value": "1.2066",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average open latency on Asterinas",
             "value": "2.2841",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -26241,13 +26241,13 @@ window.BENCHMARK_DATA = {
             "name": "Average open latency on Linux",
             "value": "1.1990",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average open latency on Asterinas",
             "value": "2.2861",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -26276,13 +26276,13 @@ window.BENCHMARK_DATA = {
             "name": "Average open latency on Linux",
             "value": "1.2005",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average open latency on Asterinas",
             "value": "2.3206",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -26311,13 +26311,13 @@ window.BENCHMARK_DATA = {
             "name": "Average open latency on Linux",
             "value": "1.2640",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average open latency on Asterinas",
             "value": "2.2945",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -26346,13 +26346,13 @@ window.BENCHMARK_DATA = {
             "name": "Average open latency on Linux",
             "value": "1.2107",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average open latency on Asterinas",
             "value": "2.3360",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -26381,13 +26381,13 @@ window.BENCHMARK_DATA = {
             "name": "Average open latency on Linux",
             "value": "1.1957",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average open latency on Asterinas",
             "value": "1.1523",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -26416,13 +26416,13 @@ window.BENCHMARK_DATA = {
             "name": "Average open latency on Linux",
             "value": "1.1799",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average open latency on Asterinas",
             "value": "1.1376",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -26451,13 +26451,13 @@ window.BENCHMARK_DATA = {
             "name": "Average open latency on Linux",
             "value": "1.1696",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average open latency on Asterinas",
             "value": "1.1402",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -26486,13 +26486,13 @@ window.BENCHMARK_DATA = {
             "name": "Average open latency on Linux",
             "value": "1.2288",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average open latency on Asterinas",
             "value": "1.0330",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -26521,13 +26521,13 @@ window.BENCHMARK_DATA = {
             "name": "Average open latency on Linux",
             "value": "1.2788",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average open latency on Asterinas",
             "value": "1.0179",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -26556,13 +26556,13 @@ window.BENCHMARK_DATA = {
             "name": "Average open latency on Linux",
             "value": "1.2093",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average open latency on Asterinas",
             "value": "1.0172",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -26591,13 +26591,13 @@ window.BENCHMARK_DATA = {
             "name": "Average open latency on Linux",
             "value": "1.1877",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average open latency on Asterinas",
             "value": "0.9762",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -26626,13 +26626,13 @@ window.BENCHMARK_DATA = {
             "name": "Average open latency on Linux",
             "value": "1.2299",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average open latency on Asterinas",
             "value": "0.9760",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -26661,13 +26661,13 @@ window.BENCHMARK_DATA = {
             "name": "Average open latency on Linux",
             "value": "1.1928",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average open latency on Asterinas",
             "value": "0.9637",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -26696,13 +26696,13 @@ window.BENCHMARK_DATA = {
             "name": "Average open latency on Linux",
             "value": "1.2888",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average open latency on Asterinas",
             "value": "0.9752",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -26731,13 +26731,13 @@ window.BENCHMARK_DATA = {
             "name": "Average open latency on Linux",
             "value": "1.1887",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average open latency on Asterinas",
             "value": "0.9884",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -26766,13 +26766,13 @@ window.BENCHMARK_DATA = {
             "name": "Average open latency on Linux",
             "value": "1.1843",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average open latency on Asterinas",
             "value": "0.9934",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -26801,13 +26801,13 @@ window.BENCHMARK_DATA = {
             "name": "Average open latency on Linux",
             "value": "1.1722",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average open latency on Asterinas",
             "value": "1.0086",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -26836,13 +26836,13 @@ window.BENCHMARK_DATA = {
             "name": "Average open latency on Linux",
             "value": "1.2668",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average open latency on Asterinas",
             "value": "0.9882",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -26871,13 +26871,13 @@ window.BENCHMARK_DATA = {
             "name": "Average open latency on Linux",
             "value": "1.1804",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average open latency on Asterinas",
             "value": "0.9926",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -26906,13 +26906,13 @@ window.BENCHMARK_DATA = {
             "name": "Average open latency on Linux",
             "value": "1.1759",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average open latency on Asterinas",
             "value": "1.0112",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -26941,13 +26941,13 @@ window.BENCHMARK_DATA = {
             "name": "Average open latency on Linux",
             "value": "1.1687",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average open latency on Asterinas",
             "value": "1.0074",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -26976,13 +26976,13 @@ window.BENCHMARK_DATA = {
             "name": "Average open latency on Linux",
             "value": "0.6935",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average open latency on Asterinas",
             "value": "1.0177",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -27011,13 +27011,13 @@ window.BENCHMARK_DATA = {
             "name": "Average open latency on Linux",
             "value": "0.6856",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average open latency on Asterinas",
             "value": "1.0361",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -27046,13 +27046,13 @@ window.BENCHMARK_DATA = {
             "name": "Average open latency on Linux",
             "value": "0.6902",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average open latency on Asterinas",
             "value": "0.9819",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -27081,13 +27081,13 @@ window.BENCHMARK_DATA = {
             "name": "Average open latency on Linux",
             "value": "0.6900",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average open latency on Asterinas",
             "value": "0.9937",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -27116,13 +27116,13 @@ window.BENCHMARK_DATA = {
             "name": "Average open latency on Linux",
             "value": "0.6825",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average open latency on Asterinas",
             "value": "0.9917",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -27151,13 +27151,13 @@ window.BENCHMARK_DATA = {
             "name": "Average open latency on Linux",
             "value": "0.7088",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average open latency on Asterinas",
             "value": "0.9964",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -27186,13 +27186,13 @@ window.BENCHMARK_DATA = {
             "name": "Average open latency on Linux",
             "value": "0.6975",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average open latency on Asterinas",
             "value": "1.1121",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -27221,13 +27221,13 @@ window.BENCHMARK_DATA = {
             "name": "Average open latency on Linux",
             "value": "0.6938",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average open latency on Asterinas",
             "value": "1.1152",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -27256,13 +27256,13 @@ window.BENCHMARK_DATA = {
             "name": "Average open latency on Linux",
             "value": "0.6767",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average open latency on Asterinas",
             "value": "1.1093",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -27291,13 +27291,13 @@ window.BENCHMARK_DATA = {
             "name": "Average open latency on Linux",
             "value": "0.7015",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average open latency on Asterinas",
             "value": "1.1033",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -27326,13 +27326,13 @@ window.BENCHMARK_DATA = {
             "name": "Average open latency on Linux",
             "value": "0.7084",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average open latency on Asterinas",
             "value": "1.0786",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -27361,13 +27361,13 @@ window.BENCHMARK_DATA = {
             "name": "Average open latency on Linux",
             "value": "0.6781",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average open latency on Asterinas",
             "value": "1.0796",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -27396,13 +27396,13 @@ window.BENCHMARK_DATA = {
             "name": "Average open latency on Linux",
             "value": "0.6845",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average open latency on Asterinas",
             "value": "1.0962",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -27431,13 +27431,13 @@ window.BENCHMARK_DATA = {
             "name": "Average open latency on Linux",
             "value": "0.6808",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average open latency on Asterinas",
             "value": "1.0767",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -27466,13 +27466,13 @@ window.BENCHMARK_DATA = {
             "name": "Average open latency on Linux",
             "value": "0.6970",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average open latency on Asterinas",
             "value": "1.0783",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -27501,13 +27501,13 @@ window.BENCHMARK_DATA = {
             "name": "Average open latency on Linux",
             "value": "0.6872",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average open latency on Asterinas",
             "value": "1.0942",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -27536,13 +27536,13 @@ window.BENCHMARK_DATA = {
             "name": "Average open latency on Linux",
             "value": "0.6766",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average open latency on Asterinas",
             "value": "1.0823",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -27571,13 +27571,13 @@ window.BENCHMARK_DATA = {
             "name": "Average open latency on Linux",
             "value": "0.6890",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average open latency on Asterinas",
             "value": "1.0830",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -27606,13 +27606,13 @@ window.BENCHMARK_DATA = {
             "name": "Average open latency on Linux",
             "value": "0.6840",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average open latency on Asterinas",
             "value": "1.0886",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -27641,13 +27641,13 @@ window.BENCHMARK_DATA = {
             "name": "Average open latency on Linux",
             "value": "0.6902",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average open latency on Asterinas",
             "value": "1.0844",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -27676,13 +27676,13 @@ window.BENCHMARK_DATA = {
             "name": "Average open latency on Linux",
             "value": "0.6787",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average open latency on Asterinas",
             "value": "1.0898",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -27749,13 +27749,13 @@ window.BENCHMARK_DATA = {
             "name": "Average shell latency on Linux",
             "value": "488.9091",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average shell latency on Asterinas",
             "value": "859.0000",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -27783,13 +27783,13 @@ window.BENCHMARK_DATA = {
             "name": "Average shell latency on Linux",
             "value": "494.2000",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average shell latency on Asterinas",
             "value": "832.2857",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -27817,13 +27817,13 @@ window.BENCHMARK_DATA = {
             "name": "Average shell latency on Linux",
             "value": "492.4545",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average shell latency on Asterinas",
             "value": "814.8333",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -27851,13 +27851,13 @@ window.BENCHMARK_DATA = {
             "name": "Average shell latency on Linux",
             "value": "481.7273",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average shell latency on Asterinas",
             "value": "828.5000",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -27885,13 +27885,13 @@ window.BENCHMARK_DATA = {
             "name": "Average shell latency on Linux",
             "value": "473.5833",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average shell latency on Asterinas",
             "value": "877.8333",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -27919,13 +27919,13 @@ window.BENCHMARK_DATA = {
             "name": "Average shell latency on Linux",
             "value": "483.4545",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average shell latency on Asterinas",
             "value": "841.5714",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -27953,13 +27953,13 @@ window.BENCHMARK_DATA = {
             "name": "Average shell latency on Linux",
             "value": "488.5455",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average shell latency on Asterinas",
             "value": "824.1667",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -27987,13 +27987,13 @@ window.BENCHMARK_DATA = {
             "name": "Average shell latency on Linux",
             "value": "523.9091",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average shell latency on Asterinas",
             "value": "617.4444",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -28020,13 +28020,13 @@ window.BENCHMARK_DATA = {
             "name": "Average shell latency on Linux",
             "value": "481.7273",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average shell latency on Asterinas",
             "value": "765.3750",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -28054,13 +28054,13 @@ window.BENCHMARK_DATA = {
             "name": "Average shell latency on Linux",
             "value": "477.9167",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average shell latency on Asterinas",
             "value": "639.4444",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -28088,13 +28088,13 @@ window.BENCHMARK_DATA = {
             "name": "Average shell latency on Linux",
             "value": "482.7273",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average shell latency on Asterinas",
             "value": "645.3333",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -28122,13 +28122,13 @@ window.BENCHMARK_DATA = {
             "name": "Average shell latency on Linux",
             "value": "487.4545",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average shell latency on Asterinas",
             "value": "635.4444",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -28156,13 +28156,13 @@ window.BENCHMARK_DATA = {
             "name": "Average shell latency on Linux",
             "value": "489.3636",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average shell latency on Asterinas",
             "value": "597.4000",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -28190,13 +28190,13 @@ window.BENCHMARK_DATA = {
             "name": "Average shell latency on Linux",
             "value": "479.2500",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average shell latency on Asterinas",
             "value": "625.4444",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -28224,13 +28224,13 @@ window.BENCHMARK_DATA = {
             "name": "Average shell latency on Linux",
             "value": "493.0909",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average shell latency on Asterinas",
             "value": "633.2222",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -28259,13 +28259,13 @@ window.BENCHMARK_DATA = {
             "name": "Average shell latency on Linux",
             "value": "402.3846",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average shell latency on Asterinas",
             "value": "1179.2000",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -28294,13 +28294,13 @@ window.BENCHMARK_DATA = {
             "name": "Average shell latency on Linux",
             "value": "389.8571",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average shell latency on Asterinas",
             "value": "931.4286",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -28329,13 +28329,13 @@ window.BENCHMARK_DATA = {
             "name": "Average shell latency on Linux",
             "value": "408.6154",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average shell latency on Asterinas",
             "value": "939.8571",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -28364,13 +28364,13 @@ window.BENCHMARK_DATA = {
             "name": "Average shell latency on Linux",
             "value": "405.1538",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average shell latency on Asterinas",
             "value": "945.8333",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -28399,13 +28399,13 @@ window.BENCHMARK_DATA = {
             "name": "Average shell latency on Linux",
             "value": "397.8462",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average shell latency on Asterinas",
             "value": "960.6667",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -28434,13 +28434,13 @@ window.BENCHMARK_DATA = {
             "name": "Average shell latency on Linux",
             "value": "406.5385",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average shell latency on Asterinas",
             "value": "966.1667",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -28469,13 +28469,13 @@ window.BENCHMARK_DATA = {
             "name": "Average shell latency on Linux",
             "value": "401.3846",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average shell latency on Asterinas",
             "value": "949.9167",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -28504,13 +28504,13 @@ window.BENCHMARK_DATA = {
             "name": "Average shell latency on Linux",
             "value": "393.5714",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average shell latency on Asterinas",
             "value": "939.1667",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -28539,13 +28539,13 @@ window.BENCHMARK_DATA = {
             "name": "Average shell latency on Linux",
             "value": "399.1538",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average shell latency on Asterinas",
             "value": "803.0000",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -28574,13 +28574,13 @@ window.BENCHMARK_DATA = {
             "name": "Average shell latency on Linux",
             "value": "402.9231",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average shell latency on Asterinas",
             "value": "792.1429",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -28609,13 +28609,13 @@ window.BENCHMARK_DATA = {
             "name": "Average shell latency on Linux",
             "value": "406.3077",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average shell latency on Asterinas",
             "value": "855.0000",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -28644,13 +28644,13 @@ window.BENCHMARK_DATA = {
             "name": "Average shell latency on Linux",
             "value": "396.7857",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average shell latency on Asterinas",
             "value": "810.1429",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -28679,13 +28679,13 @@ window.BENCHMARK_DATA = {
             "name": "Average shell latency on Linux",
             "value": "394.0769",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average shell latency on Asterinas",
             "value": "843.7143",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -28714,13 +28714,13 @@ window.BENCHMARK_DATA = {
             "name": "Average shell latency on Linux",
             "value": "395.6923",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average shell latency on Asterinas",
             "value": "795.4286",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -28749,13 +28749,13 @@ window.BENCHMARK_DATA = {
             "name": "Average shell latency on Linux",
             "value": "402.0000",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average shell latency on Asterinas",
             "value": "831.8571",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -28784,13 +28784,13 @@ window.BENCHMARK_DATA = {
             "name": "Average shell latency on Linux",
             "value": "407.7692",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average shell latency on Asterinas",
             "value": "747.5000",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -28819,13 +28819,13 @@ window.BENCHMARK_DATA = {
             "name": "Average shell latency on Linux",
             "value": "396.3077",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average shell latency on Asterinas",
             "value": "692.7500",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -28854,13 +28854,13 @@ window.BENCHMARK_DATA = {
             "name": "Average shell latency on Linux",
             "value": "393.5385",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average shell latency on Asterinas",
             "value": "659.5556",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -28889,13 +28889,13 @@ window.BENCHMARK_DATA = {
             "name": "Average shell latency on Linux",
             "value": "340.3125",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average shell latency on Asterinas",
             "value": "698.2500",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -28924,13 +28924,13 @@ window.BENCHMARK_DATA = {
             "name": "Average shell latency on Linux",
             "value": "343.4000",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average shell latency on Asterinas",
             "value": "683.3750",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -28959,13 +28959,13 @@ window.BENCHMARK_DATA = {
             "name": "Average shell latency on Linux",
             "value": "341.5333",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average shell latency on Asterinas",
             "value": "533.8000",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -28994,13 +28994,13 @@ window.BENCHMARK_DATA = {
             "name": "Average shell latency on Linux",
             "value": "344.8667",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average shell latency on Asterinas",
             "value": "536.9000",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -29029,13 +29029,13 @@ window.BENCHMARK_DATA = {
             "name": "Average shell latency on Linux",
             "value": "343.8125",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average shell latency on Asterinas",
             "value": "555.8000",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -29064,13 +29064,13 @@ window.BENCHMARK_DATA = {
             "name": "Average shell latency on Linux",
             "value": "339.1250",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average shell latency on Asterinas",
             "value": "534.0000",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -29099,13 +29099,13 @@ window.BENCHMARK_DATA = {
             "name": "Average shell latency on Linux",
             "value": "342.4667",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average shell latency on Asterinas",
             "value": "536.9000",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -29134,13 +29134,13 @@ window.BENCHMARK_DATA = {
             "name": "Average shell latency on Linux",
             "value": "343.1333",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average shell latency on Asterinas",
             "value": "564.8000",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -29169,13 +29169,13 @@ window.BENCHMARK_DATA = {
             "name": "Average shell latency on Linux",
             "value": "328.0625",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average shell latency on Asterinas",
             "value": "506.9091",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -29204,13 +29204,13 @@ window.BENCHMARK_DATA = {
             "name": "Average shell latency on Linux",
             "value": "335.5625",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average shell latency on Asterinas",
             "value": "544.7000",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -29239,13 +29239,13 @@ window.BENCHMARK_DATA = {
             "name": "Average shell latency on Linux",
             "value": "342.8000",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average shell latency on Asterinas",
             "value": "516.7273",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -29274,13 +29274,13 @@ window.BENCHMARK_DATA = {
             "name": "Average shell latency on Linux",
             "value": "349.4000",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average shell latency on Asterinas",
             "value": "534.3000",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -29309,13 +29309,13 @@ window.BENCHMARK_DATA = {
             "name": "Average shell latency on Linux",
             "value": "343.2333",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average shell latency on Asterinas",
             "value": "524.7000",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -29344,13 +29344,13 @@ window.BENCHMARK_DATA = {
             "name": "Average shell latency on Linux",
             "value": "336.6000",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average shell latency on Asterinas",
             "value": "544.5000",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -29379,13 +29379,13 @@ window.BENCHMARK_DATA = {
             "name": "Average shell latency on Linux",
             "value": "341.0000",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average shell latency on Asterinas",
             "value": "546.4000",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -29414,13 +29414,13 @@ window.BENCHMARK_DATA = {
             "name": "Average shell latency on Linux",
             "value": "341.3333",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average shell latency on Asterinas",
             "value": "550.0000",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -29449,13 +29449,13 @@ window.BENCHMARK_DATA = {
             "name": "Average shell latency on Linux",
             "value": "341.0667",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average shell latency on Asterinas",
             "value": "542.1000",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -29484,13 +29484,13 @@ window.BENCHMARK_DATA = {
             "name": "Average shell latency on Linux",
             "value": "344.0000",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average shell latency on Asterinas",
             "value": "551.5000",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -29519,13 +29519,13 @@ window.BENCHMARK_DATA = {
             "name": "Average shell latency on Linux",
             "value": "332.0000",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average shell latency on Asterinas",
             "value": "556.7000",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -29554,13 +29554,13 @@ window.BENCHMARK_DATA = {
             "name": "Average shell latency on Linux",
             "value": "347.1333",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average shell latency on Asterinas",
             "value": "524.7143",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -29589,13 +29589,13 @@ window.BENCHMARK_DATA = {
             "name": "Average shell latency on Linux",
             "value": "344.9333",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average shell latency on Asterinas",
             "value": "516.4545",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -29662,13 +29662,13 @@ window.BENCHMARK_DATA = {
             "name": "Average stat latency on Linux",
             "value": "0.5598",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average stat latency on Asterinas",
             "value": "2.2186",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -29696,13 +29696,13 @@ window.BENCHMARK_DATA = {
             "name": "Average stat latency on Linux",
             "value": "0.5552",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average stat latency on Asterinas",
             "value": "2.2376",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -29730,13 +29730,13 @@ window.BENCHMARK_DATA = {
             "name": "Average stat latency on Linux",
             "value": "0.5735",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average stat latency on Asterinas",
             "value": "2.2241",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -29764,13 +29764,13 @@ window.BENCHMARK_DATA = {
             "name": "Average stat latency on Linux",
             "value": "0.5530",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average stat latency on Asterinas",
             "value": "2.2293",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -29798,13 +29798,13 @@ window.BENCHMARK_DATA = {
             "name": "Average stat latency on Linux",
             "value": "0.5496",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average stat latency on Asterinas",
             "value": "2.2060",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -29832,13 +29832,13 @@ window.BENCHMARK_DATA = {
             "name": "Average stat latency on Linux",
             "value": "0.5512",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average stat latency on Asterinas",
             "value": "2.2047",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -29866,13 +29866,13 @@ window.BENCHMARK_DATA = {
             "name": "Average stat latency on Linux",
             "value": "0.5686",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average stat latency on Asterinas",
             "value": "2.2098",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -29900,13 +29900,13 @@ window.BENCHMARK_DATA = {
             "name": "Average stat latency on Linux",
             "value": "0.5627",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average stat latency on Asterinas",
             "value": "1.9436",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -29933,13 +29933,13 @@ window.BENCHMARK_DATA = {
             "name": "Average stat latency on Linux",
             "value": "0.5615",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average stat latency on Asterinas",
             "value": "1.9188",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -29967,13 +29967,13 @@ window.BENCHMARK_DATA = {
             "name": "Average stat latency on Linux",
             "value": "0.5630",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average stat latency on Asterinas",
             "value": "1.9458",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -30001,13 +30001,13 @@ window.BENCHMARK_DATA = {
             "name": "Average stat latency on Linux",
             "value": "0.5542",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average stat latency on Asterinas",
             "value": "1.9464",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -30035,13 +30035,13 @@ window.BENCHMARK_DATA = {
             "name": "Average stat latency on Linux",
             "value": "0.6033",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average stat latency on Asterinas",
             "value": "1.9471",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -30069,13 +30069,13 @@ window.BENCHMARK_DATA = {
             "name": "Average stat latency on Linux",
             "value": "0.5752",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average stat latency on Asterinas",
             "value": "1.9179",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -30103,13 +30103,13 @@ window.BENCHMARK_DATA = {
             "name": "Average stat latency on Linux",
             "value": "0.5793",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average stat latency on Asterinas",
             "value": "1.9525",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -30138,13 +30138,13 @@ window.BENCHMARK_DATA = {
             "name": "Average stat latency on Linux",
             "value": "0.5542",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average stat latency on Asterinas",
             "value": "1.9134",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -30173,13 +30173,13 @@ window.BENCHMARK_DATA = {
             "name": "Average stat latency on Linux",
             "value": "0.5947",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average stat latency on Asterinas",
             "value": "1.8978",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -30208,13 +30208,13 @@ window.BENCHMARK_DATA = {
             "name": "Average stat latency on Linux",
             "value": "0.5923",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average stat latency on Asterinas",
             "value": "1.8844",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -30243,13 +30243,13 @@ window.BENCHMARK_DATA = {
             "name": "Average stat latency on Linux",
             "value": "0.5516",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average stat latency on Asterinas",
             "value": "1.9093",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -30278,13 +30278,13 @@ window.BENCHMARK_DATA = {
             "name": "Average stat latency on Linux",
             "value": "0.5927",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average stat latency on Asterinas",
             "value": "1.9233",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -30313,13 +30313,13 @@ window.BENCHMARK_DATA = {
             "name": "Average stat latency on Linux",
             "value": "0.5518",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average stat latency on Asterinas",
             "value": "1.9115",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -30348,13 +30348,13 @@ window.BENCHMARK_DATA = {
             "name": "Average stat latency on Linux",
             "value": "0.6004",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average stat latency on Asterinas",
             "value": "1.9051",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -30383,13 +30383,13 @@ window.BENCHMARK_DATA = {
             "name": "Average stat latency on Linux",
             "value": "0.5940",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average stat latency on Asterinas",
             "value": "1.9176",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -30418,13 +30418,13 @@ window.BENCHMARK_DATA = {
             "name": "Average stat latency on Linux",
             "value": "0.5543",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average stat latency on Asterinas",
             "value": "0.7388",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -30453,13 +30453,13 @@ window.BENCHMARK_DATA = {
             "name": "Average stat latency on Linux",
             "value": "0.5512",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average stat latency on Asterinas",
             "value": "0.7148",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -30488,13 +30488,13 @@ window.BENCHMARK_DATA = {
             "name": "Average stat latency on Linux",
             "value": "0.5499",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average stat latency on Asterinas",
             "value": "0.7270",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -30523,13 +30523,13 @@ window.BENCHMARK_DATA = {
             "name": "Average stat latency on Linux",
             "value": "0.5599",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average stat latency on Asterinas",
             "value": "0.6675",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -30558,13 +30558,13 @@ window.BENCHMARK_DATA = {
             "name": "Average stat latency on Linux",
             "value": "0.5990",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average stat latency on Asterinas",
             "value": "0.6629",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -30593,13 +30593,13 @@ window.BENCHMARK_DATA = {
             "name": "Average stat latency on Linux",
             "value": "0.5497",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average stat latency on Asterinas",
             "value": "0.6606",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -30628,13 +30628,13 @@ window.BENCHMARK_DATA = {
             "name": "Average stat latency on Linux",
             "value": "0.5730",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average stat latency on Asterinas",
             "value": "0.6243",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -30663,13 +30663,13 @@ window.BENCHMARK_DATA = {
             "name": "Average stat latency on Linux",
             "value": "0.5500",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average stat latency on Asterinas",
             "value": "0.6243",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -30698,13 +30698,13 @@ window.BENCHMARK_DATA = {
             "name": "Average stat latency on Linux",
             "value": "0.6047",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average stat latency on Asterinas",
             "value": "0.6097",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -30733,13 +30733,13 @@ window.BENCHMARK_DATA = {
             "name": "Average stat latency on Linux",
             "value": "0.5503",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average stat latency on Asterinas",
             "value": "0.6215",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -30768,13 +30768,13 @@ window.BENCHMARK_DATA = {
             "name": "Average stat latency on Linux",
             "value": "0.5931",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average stat latency on Asterinas",
             "value": "0.6227",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -30803,13 +30803,13 @@ window.BENCHMARK_DATA = {
             "name": "Average stat latency on Linux",
             "value": "0.5515",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average stat latency on Asterinas",
             "value": "0.6153",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -30838,13 +30838,13 @@ window.BENCHMARK_DATA = {
             "name": "Average stat latency on Linux",
             "value": "0.5693",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average stat latency on Asterinas",
             "value": "0.6333",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -30873,13 +30873,13 @@ window.BENCHMARK_DATA = {
             "name": "Average stat latency on Linux",
             "value": "0.5535",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average stat latency on Asterinas",
             "value": "0.6232",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -30908,13 +30908,13 @@ window.BENCHMARK_DATA = {
             "name": "Average stat latency on Linux",
             "value": "0.5500",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average stat latency on Asterinas",
             "value": "0.6375",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -30943,13 +30943,13 @@ window.BENCHMARK_DATA = {
             "name": "Average stat latency on Linux",
             "value": "0.5571",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average stat latency on Asterinas",
             "value": "0.6618",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -30978,13 +30978,13 @@ window.BENCHMARK_DATA = {
             "name": "Average stat latency on Linux",
             "value": "0.5516",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average stat latency on Asterinas",
             "value": "0.6555",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -31013,13 +31013,13 @@ window.BENCHMARK_DATA = {
             "name": "Average stat latency on Linux",
             "value": "0.3164",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average stat latency on Asterinas",
             "value": "0.6684",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -31048,13 +31048,13 @@ window.BENCHMARK_DATA = {
             "name": "Average stat latency on Linux",
             "value": "0.3172",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average stat latency on Asterinas",
             "value": "0.6578",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -31083,13 +31083,13 @@ window.BENCHMARK_DATA = {
             "name": "Average stat latency on Linux",
             "value": "0.3187",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average stat latency on Asterinas",
             "value": "0.6266",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -31118,13 +31118,13 @@ window.BENCHMARK_DATA = {
             "name": "Average stat latency on Linux",
             "value": "0.3165",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average stat latency on Asterinas",
             "value": "0.6255",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -31153,13 +31153,13 @@ window.BENCHMARK_DATA = {
             "name": "Average stat latency on Linux",
             "value": "0.3183",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average stat latency on Asterinas",
             "value": "0.6318",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -31188,13 +31188,13 @@ window.BENCHMARK_DATA = {
             "name": "Average stat latency on Linux",
             "value": "0.3166",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average stat latency on Asterinas",
             "value": "0.6325",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -31223,13 +31223,13 @@ window.BENCHMARK_DATA = {
             "name": "Average stat latency on Linux",
             "value": "0.3176",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average stat latency on Asterinas",
             "value": "0.6262",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -31258,13 +31258,13 @@ window.BENCHMARK_DATA = {
             "name": "Average stat latency on Linux",
             "value": "0.3166",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average stat latency on Asterinas",
             "value": "0.6281",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -31293,13 +31293,13 @@ window.BENCHMARK_DATA = {
             "name": "Average stat latency on Linux",
             "value": "0.3174",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average stat latency on Asterinas",
             "value": "0.6211",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -31328,13 +31328,13 @@ window.BENCHMARK_DATA = {
             "name": "Average stat latency on Linux",
             "value": "0.3178",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average stat latency on Asterinas",
             "value": "0.6215",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -31363,13 +31363,13 @@ window.BENCHMARK_DATA = {
             "name": "Average stat latency on Linux",
             "value": "0.3172",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average stat latency on Asterinas",
             "value": "0.6123",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -31398,13 +31398,13 @@ window.BENCHMARK_DATA = {
             "name": "Average stat latency on Linux",
             "value": "0.3176",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average stat latency on Asterinas",
             "value": "0.6132",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -31433,13 +31433,13 @@ window.BENCHMARK_DATA = {
             "name": "Average stat latency on Linux",
             "value": "0.3172",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average stat latency on Asterinas",
             "value": "0.6116",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -31468,13 +31468,13 @@ window.BENCHMARK_DATA = {
             "name": "Average stat latency on Linux",
             "value": "0.3166",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average stat latency on Asterinas",
             "value": "0.6146",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -31503,13 +31503,13 @@ window.BENCHMARK_DATA = {
             "name": "Average stat latency on Linux",
             "value": "0.3165",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average stat latency on Asterinas",
             "value": "0.6116",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -31538,13 +31538,13 @@ window.BENCHMARK_DATA = {
             "name": "Average stat latency on Linux",
             "value": "0.3169",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average stat latency on Asterinas",
             "value": "0.6151",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -31573,13 +31573,13 @@ window.BENCHMARK_DATA = {
             "name": "Average stat latency on Linux",
             "value": "0.3169",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average stat latency on Asterinas",
             "value": "0.6149",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -31608,13 +31608,13 @@ window.BENCHMARK_DATA = {
             "name": "Average stat latency on Linux",
             "value": "0.3168",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average stat latency on Asterinas",
             "value": "0.6154",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -31643,13 +31643,13 @@ window.BENCHMARK_DATA = {
             "name": "Average stat latency on Linux",
             "value": "0.3176",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average stat latency on Asterinas",
             "value": "0.6126",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -31678,13 +31678,13 @@ window.BENCHMARK_DATA = {
             "name": "Average stat latency on Linux",
             "value": "0.3173",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average stat latency on Asterinas",
             "value": "0.6145",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -31713,13 +31713,13 @@ window.BENCHMARK_DATA = {
             "name": "Average stat latency on Linux",
             "value": "0.3178",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average stat latency on Asterinas",
             "value": "0.6166",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -31786,13 +31786,13 @@ window.BENCHMARK_DATA = {
             "name": "Average unix latency on Linux",
             "value": "4.5580",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average unix latency on Asterinas",
             "value": "7.2898",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -31820,13 +31820,13 @@ window.BENCHMARK_DATA = {
             "name": "Average unix latency on Linux",
             "value": "4.6047",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average unix latency on Asterinas",
             "value": "7.2029",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -31854,13 +31854,13 @@ window.BENCHMARK_DATA = {
             "name": "Average unix latency on Linux",
             "value": "4.5749",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average unix latency on Asterinas",
             "value": "7.1370",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -31888,13 +31888,13 @@ window.BENCHMARK_DATA = {
             "name": "Average unix latency on Linux",
             "value": "4.5765",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average unix latency on Asterinas",
             "value": "7.1421",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -31922,13 +31922,13 @@ window.BENCHMARK_DATA = {
             "name": "Average unix latency on Linux",
             "value": "4.5644",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average unix latency on Asterinas",
             "value": "7.1421",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -31956,13 +31956,13 @@ window.BENCHMARK_DATA = {
             "name": "Average unix latency on Linux",
             "value": "4.5740",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average unix latency on Asterinas",
             "value": "7.1459",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -31990,13 +31990,13 @@ window.BENCHMARK_DATA = {
             "name": "Average unix latency on Linux",
             "value": "4.5796",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average unix latency on Asterinas",
             "value": "7.1512",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -32024,13 +32024,13 @@ window.BENCHMARK_DATA = {
             "name": "Average unix latency on Linux",
             "value": "4.6050",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average unix latency on Asterinas",
             "value": "5.8757",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -32057,13 +32057,13 @@ window.BENCHMARK_DATA = {
             "name": "Average unix latency on Linux",
             "value": "4.5930",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average unix latency on Asterinas",
             "value": "5.5359",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -32091,13 +32091,13 @@ window.BENCHMARK_DATA = {
             "name": "Average unix latency on Linux",
             "value": "4.5781",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average unix latency on Asterinas",
             "value": "5.9410",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -32125,13 +32125,13 @@ window.BENCHMARK_DATA = {
             "name": "Average unix latency on Linux",
             "value": "4.5768",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average unix latency on Asterinas",
             "value": "5.9837",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -32159,13 +32159,13 @@ window.BENCHMARK_DATA = {
             "name": "Average unix latency on Linux",
             "value": "4.7873",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average unix latency on Asterinas",
             "value": "5.9101",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -32193,13 +32193,13 @@ window.BENCHMARK_DATA = {
             "name": "Average unix latency on Linux",
             "value": "4.6030",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average unix latency on Asterinas",
             "value": "6.0145",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -32228,13 +32228,13 @@ window.BENCHMARK_DATA = {
             "name": "Average unix latency on Linux",
             "value": "4.6338",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average unix latency on Asterinas",
             "value": "5.9880",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -32263,13 +32263,13 @@ window.BENCHMARK_DATA = {
             "name": "Average unix latency on Linux",
             "value": "4.6684",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average unix latency on Asterinas",
             "value": "5.8879",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -32298,13 +32298,13 @@ window.BENCHMARK_DATA = {
             "name": "Average unix latency on Linux",
             "value": "4.7654",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average unix latency on Asterinas",
             "value": "5.7206",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -32333,13 +32333,13 @@ window.BENCHMARK_DATA = {
             "name": "Average unix latency on Linux",
             "value": "4.5503",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average unix latency on Asterinas",
             "value": "5.6917",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -32368,13 +32368,13 @@ window.BENCHMARK_DATA = {
             "name": "Average unix latency on Linux",
             "value": "4.6058",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average unix latency on Asterinas",
             "value": "5.7666",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -32403,13 +32403,13 @@ window.BENCHMARK_DATA = {
             "name": "Average unix latency on Linux",
             "value": "4.5731",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average unix latency on Asterinas",
             "value": "5.7523",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -32438,13 +32438,13 @@ window.BENCHMARK_DATA = {
             "name": "Average unix latency on Linux",
             "value": "4.5985",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average unix latency on Asterinas",
             "value": "5.7175",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -32473,13 +32473,13 @@ window.BENCHMARK_DATA = {
             "name": "Average unix latency on Linux",
             "value": "4.5860",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average unix latency on Asterinas",
             "value": "5.6047",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -32508,13 +32508,13 @@ window.BENCHMARK_DATA = {
             "name": "Average unix latency on Linux",
             "value": "4.5718",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average unix latency on Asterinas",
             "value": "5.6133",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -32543,13 +32543,13 @@ window.BENCHMARK_DATA = {
             "name": "Average unix latency on Linux",
             "value": "4.5669",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average unix latency on Asterinas",
             "value": "5.6095",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -32578,13 +32578,13 @@ window.BENCHMARK_DATA = {
             "name": "Average unix latency on Linux",
             "value": "4.5951",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average unix latency on Asterinas",
             "value": "5.4891",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -32613,13 +32613,13 @@ window.BENCHMARK_DATA = {
             "name": "Average unix latency on Linux",
             "value": "4.5546",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average unix latency on Asterinas",
             "value": "5.3599",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -32648,13 +32648,13 @@ window.BENCHMARK_DATA = {
             "name": "Average unix latency on Linux",
             "value": "4.7565",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average unix latency on Asterinas",
             "value": "5.3167",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -32683,13 +32683,13 @@ window.BENCHMARK_DATA = {
             "name": "Average unix latency on Linux",
             "value": "4.5524",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average unix latency on Asterinas",
             "value": "5.3390",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -32718,13 +32718,13 @@ window.BENCHMARK_DATA = {
             "name": "Average unix latency on Linux",
             "value": "4.5712",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average unix latency on Asterinas",
             "value": "3.6696",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -32753,13 +32753,13 @@ window.BENCHMARK_DATA = {
             "name": "Average unix latency on Linux",
             "value": "4.6774",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average unix latency on Asterinas",
             "value": "3.5435",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -32788,13 +32788,13 @@ window.BENCHMARK_DATA = {
             "name": "Average unix latency on Linux",
             "value": "4.6439",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average unix latency on Asterinas",
             "value": "3.6632",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -32823,13 +32823,13 @@ window.BENCHMARK_DATA = {
             "name": "Average unix latency on Linux",
             "value": "4.6946",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average unix latency on Asterinas",
             "value": "3.6843",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -32858,13 +32858,13 @@ window.BENCHMARK_DATA = {
             "name": "Average unix latency on Linux",
             "value": "4.5467",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average unix latency on Asterinas",
             "value": "3.6798",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -32893,13 +32893,13 @@ window.BENCHMARK_DATA = {
             "name": "Average unix latency on Linux",
             "value": "4.5915",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average unix latency on Asterinas",
             "value": "3.5604",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -32928,13 +32928,13 @@ window.BENCHMARK_DATA = {
             "name": "Average unix latency on Linux",
             "value": "4.5691",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average unix latency on Asterinas",
             "value": "3.6965",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -32963,13 +32963,13 @@ window.BENCHMARK_DATA = {
             "name": "Average unix latency on Linux",
             "value": "4.5874",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average unix latency on Asterinas",
             "value": "3.6824",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -32998,13 +32998,13 @@ window.BENCHMARK_DATA = {
             "name": "Average unix latency on Linux",
             "value": "4.5706",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average unix latency on Asterinas",
             "value": "3.6014",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -33033,13 +33033,13 @@ window.BENCHMARK_DATA = {
             "name": "Average unix latency on Linux",
             "value": "4.5740",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average unix latency on Asterinas",
             "value": "3.6581",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -33068,13 +33068,13 @@ window.BENCHMARK_DATA = {
             "name": "Average unix latency on Linux",
             "value": "4.5849",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average unix latency on Asterinas",
             "value": "3.6375",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -33103,13 +33103,13 @@ window.BENCHMARK_DATA = {
             "name": "Average unix latency on Linux",
             "value": "3.1074",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average unix latency on Asterinas",
             "value": "3.6519",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -33138,13 +33138,13 @@ window.BENCHMARK_DATA = {
             "name": "Average unix latency on Linux",
             "value": "3.4895",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average unix latency on Asterinas",
             "value": "3.6192",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -33173,13 +33173,13 @@ window.BENCHMARK_DATA = {
             "name": "Average unix latency on Linux",
             "value": "3.5000",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average unix latency on Asterinas",
             "value": "3.7678",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -33208,13 +33208,13 @@ window.BENCHMARK_DATA = {
             "name": "Average unix latency on Linux",
             "value": "3.5041",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average unix latency on Asterinas",
             "value": "3.7205",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -33243,13 +33243,13 @@ window.BENCHMARK_DATA = {
             "name": "Average unix latency on Linux",
             "value": "3.4830",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average unix latency on Asterinas",
             "value": "3.6640",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -33278,13 +33278,13 @@ window.BENCHMARK_DATA = {
             "name": "Average unix latency on Linux",
             "value": "3.4894",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average unix latency on Asterinas",
             "value": "3.7493",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -33313,13 +33313,13 @@ window.BENCHMARK_DATA = {
             "name": "Average unix latency on Linux",
             "value": "3.4924",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average unix latency on Asterinas",
             "value": "3.7748",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -33348,13 +33348,13 @@ window.BENCHMARK_DATA = {
             "name": "Average unix latency on Linux",
             "value": "3.3329",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average unix latency on Asterinas",
             "value": "3.7710",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -33383,13 +33383,13 @@ window.BENCHMARK_DATA = {
             "name": "Average unix latency on Linux",
             "value": "3.4638",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average unix latency on Asterinas",
             "value": "3.7620",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -33418,13 +33418,13 @@ window.BENCHMARK_DATA = {
             "name": "Average unix latency on Linux",
             "value": "3.5006",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average unix latency on Asterinas",
             "value": "3.6288",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -33453,13 +33453,13 @@ window.BENCHMARK_DATA = {
             "name": "Average unix latency on Linux",
             "value": "3.3082",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average unix latency on Asterinas",
             "value": "3.6549",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -33488,13 +33488,13 @@ window.BENCHMARK_DATA = {
             "name": "Average unix latency on Linux",
             "value": "3.4994",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average unix latency on Asterinas",
             "value": "3.6599",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -33523,13 +33523,13 @@ window.BENCHMARK_DATA = {
             "name": "Average unix latency on Linux",
             "value": "3.4913",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average unix latency on Asterinas",
             "value": "3.6303",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -33558,13 +33558,13 @@ window.BENCHMARK_DATA = {
             "name": "Average unix latency on Linux",
             "value": "3.4668",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average unix latency on Asterinas",
             "value": "3.6436",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -33593,13 +33593,13 @@ window.BENCHMARK_DATA = {
             "name": "Average unix latency on Linux",
             "value": "3.3087",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average unix latency on Asterinas",
             "value": "3.6191",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -33628,13 +33628,13 @@ window.BENCHMARK_DATA = {
             "name": "Average unix latency on Linux",
             "value": "3.3306",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average unix latency on Asterinas",
             "value": "3.6133",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -33663,13 +33663,13 @@ window.BENCHMARK_DATA = {
             "name": "Average unix latency on Linux",
             "value": "3.4867",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average unix latency on Asterinas",
             "value": "3.6479",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -33698,13 +33698,13 @@ window.BENCHMARK_DATA = {
             "name": "Average unix latency on Linux",
             "value": "3.4994",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average unix latency on Asterinas",
             "value": "3.6225",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -33733,13 +33733,13 @@ window.BENCHMARK_DATA = {
             "name": "Average unix latency on Linux",
             "value": "3.2886",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average unix latency on Asterinas",
             "value": "3.6602",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -33768,13 +33768,13 @@ window.BENCHMARK_DATA = {
             "name": "Average unix latency on Linux",
             "value": "3.3096",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average unix latency on Asterinas",
             "value": "3.6052",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -33803,13 +33803,13 @@ window.BENCHMARK_DATA = {
             "name": "Average unix latency on Linux",
             "value": "3.4930",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average unix latency on Asterinas",
             "value": "3.4947",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -33876,13 +33876,13 @@ window.BENCHMARK_DATA = {
             "name": "Average pipe bandwidth on Linux",
             "value": "9588.68",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average pipe bandwidth on Asterinas",
             "value": "6334.40",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -33910,13 +33910,13 @@ window.BENCHMARK_DATA = {
             "name": "Average pipe bandwidth on Linux",
             "value": "9558.55",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average pipe bandwidth on Asterinas",
             "value": "6340.88",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -33944,13 +33944,13 @@ window.BENCHMARK_DATA = {
             "name": "Average pipe bandwidth on Linux",
             "value": "9476.19",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average pipe bandwidth on Asterinas",
             "value": "6329.94",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -33978,13 +33978,13 @@ window.BENCHMARK_DATA = {
             "name": "Average pipe bandwidth on Linux",
             "value": "9647.98",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average pipe bandwidth on Asterinas",
             "value": "6330.41",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -34013,13 +34013,13 @@ window.BENCHMARK_DATA = {
             "name": "Average pipe bandwidth on Linux",
             "value": "9616.71",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average pipe bandwidth on Asterinas",
             "value": "6338.13",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -34048,13 +34048,13 @@ window.BENCHMARK_DATA = {
             "name": "Average pipe bandwidth on Linux",
             "value": "9646.72",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average pipe bandwidth on Asterinas",
             "value": "6354.97",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -34083,13 +34083,13 @@ window.BENCHMARK_DATA = {
             "name": "Average pipe bandwidth on Linux",
             "value": "9528.39",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average pipe bandwidth on Asterinas",
             "value": "6366.58",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -34118,13 +34118,13 @@ window.BENCHMARK_DATA = {
             "name": "Average pipe bandwidth on Linux",
             "value": "9520.65",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average pipe bandwidth on Asterinas",
             "value": "6386.32",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -34153,13 +34153,13 @@ window.BENCHMARK_DATA = {
             "name": "Average pipe bandwidth on Linux",
             "value": "9538.41",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average pipe bandwidth on Asterinas",
             "value": "6362.77",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -34188,13 +34188,13 @@ window.BENCHMARK_DATA = {
             "name": "Average pipe bandwidth on Linux",
             "value": "9533.19",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average pipe bandwidth on Asterinas",
             "value": "6382.55",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -34223,13 +34223,13 @@ window.BENCHMARK_DATA = {
             "name": "Average pipe bandwidth on Linux",
             "value": "9557.31",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average pipe bandwidth on Asterinas",
             "value": "6395.82",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -34258,13 +34258,13 @@ window.BENCHMARK_DATA = {
             "name": "Average pipe bandwidth on Linux",
             "value": "9444.54",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average pipe bandwidth on Asterinas",
             "value": "6419.20",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -34293,13 +34293,13 @@ window.BENCHMARK_DATA = {
             "name": "Average pipe bandwidth on Linux",
             "value": "9573.37",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average pipe bandwidth on Asterinas",
             "value": "6390.33",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -34328,13 +34328,13 @@ window.BENCHMARK_DATA = {
             "name": "Average pipe bandwidth on Linux",
             "value": "9453.84",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average pipe bandwidth on Asterinas",
             "value": "6390.20",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -34363,13 +34363,13 @@ window.BENCHMARK_DATA = {
             "name": "Average pipe bandwidth on Linux",
             "value": "9597.00",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average pipe bandwidth on Asterinas",
             "value": "6396.00",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -34398,13 +34398,13 @@ window.BENCHMARK_DATA = {
             "name": "Average pipe bandwidth on Linux",
             "value": "9665.50",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average pipe bandwidth on Asterinas",
             "value": "6465.92",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -34433,13 +34433,13 @@ window.BENCHMARK_DATA = {
             "name": "Average pipe bandwidth on Linux",
             "value": "9574.60",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average pipe bandwidth on Asterinas",
             "value": "4954.88",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -34468,13 +34468,13 @@ window.BENCHMARK_DATA = {
             "name": "Average pipe bandwidth on Linux",
             "value": "9571.36",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average pipe bandwidth on Asterinas",
             "value": "4975.53",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -34503,13 +34503,13 @@ window.BENCHMARK_DATA = {
             "name": "Average pipe bandwidth on Linux",
             "value": "9470.83",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average pipe bandwidth on Asterinas",
             "value": "5695.53",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -34538,13 +34538,13 @@ window.BENCHMARK_DATA = {
             "name": "Average pipe bandwidth on Linux",
             "value": "9637.07",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average pipe bandwidth on Asterinas",
             "value": "5642.03",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -34573,13 +34573,13 @@ window.BENCHMARK_DATA = {
             "name": "Average pipe bandwidth on Linux",
             "value": "9507.28",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average pipe bandwidth on Asterinas",
             "value": "5625.34",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -34608,13 +34608,13 @@ window.BENCHMARK_DATA = {
             "name": "Average pipe bandwidth on Linux",
             "value": "9416.91",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average pipe bandwidth on Asterinas",
             "value": "5616.69",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -34643,13 +34643,13 @@ window.BENCHMARK_DATA = {
             "name": "Average pipe bandwidth on Linux",
             "value": "9560.14",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average pipe bandwidth on Asterinas",
             "value": "5629.46",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -34678,13 +34678,13 @@ window.BENCHMARK_DATA = {
             "name": "Average pipe bandwidth on Linux",
             "value": "9538.97",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average pipe bandwidth on Asterinas",
             "value": "5600.82",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -34713,13 +34713,13 @@ window.BENCHMARK_DATA = {
             "name": "Average pipe bandwidth on Linux",
             "value": "9652.54",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average pipe bandwidth on Asterinas",
             "value": "5612.07",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -34748,13 +34748,13 @@ window.BENCHMARK_DATA = {
             "name": "Average pipe bandwidth on Linux",
             "value": "9503.65",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average pipe bandwidth on Asterinas",
             "value": "5623.15",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -34783,13 +34783,13 @@ window.BENCHMARK_DATA = {
             "name": "Average pipe bandwidth on Linux",
             "value": "9445.12",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average pipe bandwidth on Asterinas",
             "value": "5634.78",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -34818,13 +34818,13 @@ window.BENCHMARK_DATA = {
             "name": "Average pipe bandwidth on Linux",
             "value": "9348.82",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average pipe bandwidth on Asterinas",
             "value": "5651.49",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -34853,13 +34853,13 @@ window.BENCHMARK_DATA = {
             "name": "Average pipe bandwidth on Linux",
             "value": "9457.05",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average pipe bandwidth on Asterinas",
             "value": "5629.72",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -34888,13 +34888,13 @@ window.BENCHMARK_DATA = {
             "name": "Average pipe bandwidth on Linux",
             "value": "10874.12",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average pipe bandwidth on Asterinas",
             "value": "5615.46",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -34923,13 +34923,13 @@ window.BENCHMARK_DATA = {
             "name": "Average pipe bandwidth on Linux",
             "value": "10082.57",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average pipe bandwidth on Asterinas",
             "value": "5643.66",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -34958,13 +34958,13 @@ window.BENCHMARK_DATA = {
             "name": "Average pipe bandwidth on Linux",
             "value": "10108.33",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average pipe bandwidth on Asterinas",
             "value": "10942.84",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -34993,13 +34993,13 @@ window.BENCHMARK_DATA = {
             "name": "Average pipe bandwidth on Linux",
             "value": "10099.70",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average pipe bandwidth on Asterinas",
             "value": "11239.54",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -35028,13 +35028,13 @@ window.BENCHMARK_DATA = {
             "name": "Average pipe bandwidth on Linux",
             "value": "10099.87",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average pipe bandwidth on Asterinas",
             "value": "10938.16",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -35063,13 +35063,13 @@ window.BENCHMARK_DATA = {
             "name": "Average pipe bandwidth on Linux",
             "value": "10310.45",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average pipe bandwidth on Asterinas",
             "value": "11270.76",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -35098,13 +35098,13 @@ window.BENCHMARK_DATA = {
             "name": "Average pipe bandwidth on Linux",
             "value": "10397.06",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average pipe bandwidth on Asterinas",
             "value": "11264.73",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -35133,13 +35133,13 @@ window.BENCHMARK_DATA = {
             "name": "Average pipe bandwidth on Linux",
             "value": "10085.55",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average pipe bandwidth on Asterinas",
             "value": "10937.10",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -35168,13 +35168,13 @@ window.BENCHMARK_DATA = {
             "name": "Average pipe bandwidth on Linux",
             "value": "9882.39",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average pipe bandwidth on Asterinas",
             "value": "10946.44",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -35203,13 +35203,13 @@ window.BENCHMARK_DATA = {
             "name": "Average pipe bandwidth on Linux",
             "value": "10056.00",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average pipe bandwidth on Asterinas",
             "value": "11141.22",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -35238,13 +35238,13 @@ window.BENCHMARK_DATA = {
             "name": "Average pipe bandwidth on Linux",
             "value": "10081.68",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average pipe bandwidth on Asterinas",
             "value": "11128.84",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -35273,13 +35273,13 @@ window.BENCHMARK_DATA = {
             "name": "Average pipe bandwidth on Linux",
             "value": "10249.41",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average pipe bandwidth on Asterinas",
             "value": "11468.97",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -35308,13 +35308,13 @@ window.BENCHMARK_DATA = {
             "name": "Average pipe bandwidth on Linux",
             "value": "10085.61",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average pipe bandwidth on Asterinas",
             "value": "11148.68",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -35343,13 +35343,13 @@ window.BENCHMARK_DATA = {
             "name": "Average pipe bandwidth on Linux",
             "value": "10060.08",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average pipe bandwidth on Asterinas",
             "value": "11172.47",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -35378,13 +35378,13 @@ window.BENCHMARK_DATA = {
             "name": "Average pipe bandwidth on Linux",
             "value": "10064.78",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average pipe bandwidth on Asterinas",
             "value": "11191.39",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -35413,13 +35413,13 @@ window.BENCHMARK_DATA = {
             "name": "Average pipe bandwidth on Linux",
             "value": "10336.76",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average pipe bandwidth on Asterinas",
             "value": "11163.85",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -35448,13 +35448,13 @@ window.BENCHMARK_DATA = {
             "name": "Average pipe bandwidth on Linux",
             "value": "10095.63",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average pipe bandwidth on Asterinas",
             "value": "11157.60",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -35483,13 +35483,13 @@ window.BENCHMARK_DATA = {
             "name": "Average pipe bandwidth on Linux",
             "value": "10299.14",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average pipe bandwidth on Asterinas",
             "value": "11212.37",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -35518,13 +35518,13 @@ window.BENCHMARK_DATA = {
             "name": "Average pipe bandwidth on Linux",
             "value": "10116.52",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average pipe bandwidth on Asterinas",
             "value": "11204.53",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -35553,13 +35553,13 @@ window.BENCHMARK_DATA = {
             "name": "Average pipe bandwidth on Linux",
             "value": "10335.37",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average pipe bandwidth on Asterinas",
             "value": "11156.98",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -35626,13 +35626,13 @@ window.BENCHMARK_DATA = {
             "name": "Average pipe latency on Linux",
             "value": "3.7126",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average pipe latency on Asterinas",
             "value": "5.4062",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -35660,13 +35660,13 @@ window.BENCHMARK_DATA = {
             "name": "Average pipe latency on Linux",
             "value": "3.7721",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average pipe latency on Asterinas",
             "value": "5.3951",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -35694,13 +35694,13 @@ window.BENCHMARK_DATA = {
             "name": "Average pipe latency on Linux",
             "value": "3.7035",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average pipe latency on Asterinas",
             "value": "5.4511",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -35729,13 +35729,13 @@ window.BENCHMARK_DATA = {
             "name": "Average pipe latency on Linux",
             "value": "3.6849",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average pipe latency on Asterinas",
             "value": "5.3996",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -35764,13 +35764,13 @@ window.BENCHMARK_DATA = {
             "name": "Average pipe latency on Linux",
             "value": "3.7552",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average pipe latency on Asterinas",
             "value": "5.3614",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -35799,13 +35799,13 @@ window.BENCHMARK_DATA = {
             "name": "Average pipe latency on Linux",
             "value": "3.7185",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average pipe latency on Asterinas",
             "value": "5.1205",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -35834,13 +35834,13 @@ window.BENCHMARK_DATA = {
             "name": "Average pipe latency on Linux",
             "value": "3.7030",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average pipe latency on Asterinas",
             "value": "5.0897",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -35869,13 +35869,13 @@ window.BENCHMARK_DATA = {
             "name": "Average pipe latency on Linux",
             "value": "3.6951",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average pipe latency on Asterinas",
             "value": "5.1540",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -35904,13 +35904,13 @@ window.BENCHMARK_DATA = {
             "name": "Average pipe latency on Linux",
             "value": "3.7115",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average pipe latency on Asterinas",
             "value": "5.1578",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -35939,13 +35939,13 @@ window.BENCHMARK_DATA = {
             "name": "Average pipe latency on Linux",
             "value": "3.6847",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average pipe latency on Asterinas",
             "value": "5.0077",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -35974,13 +35974,13 @@ window.BENCHMARK_DATA = {
             "name": "Average pipe latency on Linux",
             "value": "3.7078",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average pipe latency on Asterinas",
             "value": "5.0511",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -36009,13 +36009,13 @@ window.BENCHMARK_DATA = {
             "name": "Average pipe latency on Linux",
             "value": "3.6759",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average pipe latency on Asterinas",
             "value": "4.9123",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -36044,13 +36044,13 @@ window.BENCHMARK_DATA = {
             "name": "Average pipe latency on Linux",
             "value": "3.6842",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average pipe latency on Asterinas",
             "value": "4.9376",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -36079,13 +36079,13 @@ window.BENCHMARK_DATA = {
             "name": "Average pipe latency on Linux",
             "value": "3.6912",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average pipe latency on Asterinas",
             "value": "4.9958",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -36114,13 +36114,13 @@ window.BENCHMARK_DATA = {
             "name": "Average pipe latency on Linux",
             "value": "3.6876",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average pipe latency on Asterinas",
             "value": "4.7847",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -36149,13 +36149,13 @@ window.BENCHMARK_DATA = {
             "name": "Average pipe latency on Linux",
             "value": "3.8999",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average pipe latency on Asterinas",
             "value": "4.6387",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -36184,13 +36184,13 @@ window.BENCHMARK_DATA = {
             "name": "Average pipe latency on Linux",
             "value": "3.7014",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average pipe latency on Asterinas",
             "value": "4.7415",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -36219,13 +36219,13 @@ window.BENCHMARK_DATA = {
             "name": "Average pipe latency on Linux",
             "value": "3.6861",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average pipe latency on Asterinas",
             "value": "3.3925",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -36254,13 +36254,13 @@ window.BENCHMARK_DATA = {
             "name": "Average pipe latency on Linux",
             "value": "3.6876",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average pipe latency on Asterinas",
             "value": "3.3914",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -36289,13 +36289,13 @@ window.BENCHMARK_DATA = {
             "name": "Average pipe latency on Linux",
             "value": "3.7500",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average pipe latency on Asterinas",
             "value": "3.3898",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -36324,13 +36324,13 @@ window.BENCHMARK_DATA = {
             "name": "Average pipe latency on Linux",
             "value": "3.6832",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average pipe latency on Asterinas",
             "value": "3.2625",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -36359,13 +36359,13 @@ window.BENCHMARK_DATA = {
             "name": "Average pipe latency on Linux",
             "value": "3.7041",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average pipe latency on Asterinas",
             "value": "3.3861",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -36394,13 +36394,13 @@ window.BENCHMARK_DATA = {
             "name": "Average pipe latency on Linux",
             "value": "3.8538",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average pipe latency on Asterinas",
             "value": "3.3976",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -36429,13 +36429,13 @@ window.BENCHMARK_DATA = {
             "name": "Average pipe latency on Linux",
             "value": "3.8189",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average pipe latency on Asterinas",
             "value": "3.4231",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -36464,13 +36464,13 @@ window.BENCHMARK_DATA = {
             "name": "Average pipe latency on Linux",
             "value": "3.6823",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average pipe latency on Asterinas",
             "value": "3.3885",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -36499,13 +36499,13 @@ window.BENCHMARK_DATA = {
             "name": "Average pipe latency on Linux",
             "value": "3.7477",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average pipe latency on Asterinas",
             "value": "3.3116",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -36534,13 +36534,13 @@ window.BENCHMARK_DATA = {
             "name": "Average pipe latency on Linux",
             "value": "3.6956",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average pipe latency on Asterinas",
             "value": "3.3236",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -36569,13 +36569,13 @@ window.BENCHMARK_DATA = {
             "name": "Average pipe latency on Linux",
             "value": "3.6816",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average pipe latency on Asterinas",
             "value": "3.3299",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -36604,13 +36604,13 @@ window.BENCHMARK_DATA = {
             "name": "Average pipe latency on Linux",
             "value": "2.3064",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average pipe latency on Asterinas",
             "value": "3.3510",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -36639,13 +36639,13 @@ window.BENCHMARK_DATA = {
             "name": "Average pipe latency on Linux",
             "value": "2.6139",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average pipe latency on Asterinas",
             "value": "3.3549",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -36674,13 +36674,13 @@ window.BENCHMARK_DATA = {
             "name": "Average pipe latency on Linux",
             "value": "2.6253",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average pipe latency on Asterinas",
             "value": "3.3141",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -36709,13 +36709,13 @@ window.BENCHMARK_DATA = {
             "name": "Average pipe latency on Linux",
             "value": "2.6356",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average pipe latency on Asterinas",
             "value": "3.3147",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -36744,13 +36744,13 @@ window.BENCHMARK_DATA = {
             "name": "Average pipe latency on Linux",
             "value": "2.6456",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average pipe latency on Asterinas",
             "value": "3.3244",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -36779,13 +36779,13 @@ window.BENCHMARK_DATA = {
             "name": "Average pipe latency on Linux",
             "value": "2.6276",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average pipe latency on Asterinas",
             "value": "3.1539",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -36814,13 +36814,13 @@ window.BENCHMARK_DATA = {
             "name": "Average pipe latency on Linux",
             "value": "2.6198",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average pipe latency on Asterinas",
             "value": "3.3077",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -36849,13 +36849,13 @@ window.BENCHMARK_DATA = {
             "name": "Average pipe latency on Linux",
             "value": "2.6258",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average pipe latency on Asterinas",
             "value": "3.3115",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -36884,13 +36884,13 @@ window.BENCHMARK_DATA = {
             "name": "Average pipe latency on Linux",
             "value": "2.4655",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average pipe latency on Asterinas",
             "value": "3.3035",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -36919,13 +36919,13 @@ window.BENCHMARK_DATA = {
             "name": "Average pipe latency on Linux",
             "value": "2.6530",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average pipe latency on Asterinas",
             "value": "3.2047",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -36954,13 +36954,13 @@ window.BENCHMARK_DATA = {
             "name": "Average pipe latency on Linux",
             "value": "2.4750",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average pipe latency on Asterinas",
             "value": "3.1970",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -36989,13 +36989,13 @@ window.BENCHMARK_DATA = {
             "name": "Average pipe latency on Linux",
             "value": "2.6461",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average pipe latency on Asterinas",
             "value": "3.1741",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -37024,13 +37024,13 @@ window.BENCHMARK_DATA = {
             "name": "Average pipe latency on Linux",
             "value": "2.6376",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average pipe latency on Asterinas",
             "value": "3.1980",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -37059,13 +37059,13 @@ window.BENCHMARK_DATA = {
             "name": "Average pipe latency on Linux",
             "value": "2.5855",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average pipe latency on Asterinas",
             "value": "3.0754",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -37094,13 +37094,13 @@ window.BENCHMARK_DATA = {
             "name": "Average pipe latency on Linux",
             "value": "2.6199",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average pipe latency on Asterinas",
             "value": "3.1998",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -37129,13 +37129,13 @@ window.BENCHMARK_DATA = {
             "name": "Average pipe latency on Linux",
             "value": "2.6223",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average pipe latency on Asterinas",
             "value": "3.1954",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -37164,13 +37164,13 @@ window.BENCHMARK_DATA = {
             "name": "Average pipe latency on Linux",
             "value": "2.4649",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average pipe latency on Asterinas",
             "value": "3.1925",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -37199,13 +37199,13 @@ window.BENCHMARK_DATA = {
             "name": "Average pipe latency on Linux",
             "value": "2.6281",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average pipe latency on Asterinas",
             "value": "3.0795",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -37234,13 +37234,13 @@ window.BENCHMARK_DATA = {
             "name": "Average pipe latency on Linux",
             "value": "2.6247",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average pipe latency on Asterinas",
             "value": "3.1907",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -37269,13 +37269,13 @@ window.BENCHMARK_DATA = {
             "name": "Average pipe latency on Linux",
             "value": "2.6387",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average pipe latency on Asterinas",
             "value": "3.2153",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -37342,13 +37342,13 @@ window.BENCHMARK_DATA = {
             "name": "Average read latency on Linux",
             "value": "0.3452",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average read latency on Asterinas",
             "value": "0.4317",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -37376,13 +37376,13 @@ window.BENCHMARK_DATA = {
             "name": "Average read latency on Linux",
             "value": "0.3472",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average read latency on Asterinas",
             "value": "0.4338",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -37410,13 +37410,13 @@ window.BENCHMARK_DATA = {
             "name": "Average read latency on Linux",
             "value": "0.3556",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average read latency on Asterinas",
             "value": "0.4242",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -37445,13 +37445,13 @@ window.BENCHMARK_DATA = {
             "name": "Average read latency on Linux",
             "value": "0.3473",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average read latency on Asterinas",
             "value": "0.4321",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -37480,13 +37480,13 @@ window.BENCHMARK_DATA = {
             "name": "Average read latency on Linux",
             "value": "0.3514",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average read latency on Asterinas",
             "value": "0.4313",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -37515,13 +37515,13 @@ window.BENCHMARK_DATA = {
             "name": "Average read latency on Linux",
             "value": "0.3543",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average read latency on Asterinas",
             "value": "0.4059",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -37550,13 +37550,13 @@ window.BENCHMARK_DATA = {
             "name": "Average read latency on Linux",
             "value": "0.3453",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average read latency on Asterinas",
             "value": "0.4042",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -37585,13 +37585,13 @@ window.BENCHMARK_DATA = {
             "name": "Average read latency on Linux",
             "value": "0.3468",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average read latency on Asterinas",
             "value": "0.3994",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -37620,13 +37620,13 @@ window.BENCHMARK_DATA = {
             "name": "Average read latency on Linux",
             "value": "0.3477",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average read latency on Asterinas",
             "value": "0.3993",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -37655,13 +37655,13 @@ window.BENCHMARK_DATA = {
             "name": "Average read latency on Linux",
             "value": "0.3531",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average read latency on Asterinas",
             "value": "0.4074",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -37690,13 +37690,13 @@ window.BENCHMARK_DATA = {
             "name": "Average read latency on Linux",
             "value": "0.3702",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average read latency on Asterinas",
             "value": "0.3925",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -37725,13 +37725,13 @@ window.BENCHMARK_DATA = {
             "name": "Average read latency on Linux",
             "value": "0.3715",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average read latency on Asterinas",
             "value": "0.3995",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -37760,13 +37760,13 @@ window.BENCHMARK_DATA = {
             "name": "Average read latency on Linux",
             "value": "0.3457",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average read latency on Asterinas",
             "value": "0.4001",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -37795,13 +37795,13 @@ window.BENCHMARK_DATA = {
             "name": "Average read latency on Linux",
             "value": "0.3452",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average read latency on Asterinas",
             "value": "0.3985",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -37830,13 +37830,13 @@ window.BENCHMARK_DATA = {
             "name": "Average read latency on Linux",
             "value": "0.3492",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average read latency on Asterinas",
             "value": "0.3465",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -37865,13 +37865,13 @@ window.BENCHMARK_DATA = {
             "name": "Average read latency on Linux",
             "value": "0.3440",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average read latency on Asterinas",
             "value": "0.3387",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -37900,13 +37900,13 @@ window.BENCHMARK_DATA = {
             "name": "Average read latency on Linux",
             "value": "0.3965",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average read latency on Asterinas",
             "value": "0.3373",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -37935,13 +37935,13 @@ window.BENCHMARK_DATA = {
             "name": "Average read latency on Linux",
             "value": "0.3445",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average read latency on Asterinas",
             "value": "0.3083",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -37970,13 +37970,13 @@ window.BENCHMARK_DATA = {
             "name": "Average read latency on Linux",
             "value": "0.3723",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average read latency on Asterinas",
             "value": "0.3102",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -38005,13 +38005,13 @@ window.BENCHMARK_DATA = {
             "name": "Average read latency on Linux",
             "value": "0.3599",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average read latency on Asterinas",
             "value": "0.3141",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -38040,13 +38040,13 @@ window.BENCHMARK_DATA = {
             "name": "Average read latency on Linux",
             "value": "0.3840",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average read latency on Asterinas",
             "value": "0.3042",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -38075,13 +38075,13 @@ window.BENCHMARK_DATA = {
             "name": "Average read latency on Linux",
             "value": "0.3507",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average read latency on Asterinas",
             "value": "0.3160",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -38110,13 +38110,13 @@ window.BENCHMARK_DATA = {
             "name": "Average read latency on Linux",
             "value": "0.3500",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average read latency on Asterinas",
             "value": "0.3103",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -38145,13 +38145,13 @@ window.BENCHMARK_DATA = {
             "name": "Average read latency on Linux",
             "value": "0.3434",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average read latency on Asterinas",
             "value": "0.3141",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -38180,13 +38180,13 @@ window.BENCHMARK_DATA = {
             "name": "Average read latency on Linux",
             "value": "0.3603",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average read latency on Asterinas",
             "value": "0.3132",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -38215,13 +38215,13 @@ window.BENCHMARK_DATA = {
             "name": "Average read latency on Linux",
             "value": "0.3457",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average read latency on Asterinas",
             "value": "0.2639",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -38250,13 +38250,13 @@ window.BENCHMARK_DATA = {
             "name": "Average read latency on Linux",
             "value": "0.3469",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average read latency on Asterinas",
             "value": "0.2652",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -38285,13 +38285,13 @@ window.BENCHMARK_DATA = {
             "name": "Average read latency on Linux",
             "value": "0.3498",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average read latency on Asterinas",
             "value": "0.2617",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -38320,13 +38320,13 @@ window.BENCHMARK_DATA = {
             "name": "Average read latency on Linux",
             "value": "0.1278",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average read latency on Asterinas",
             "value": "0.2654",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -38355,13 +38355,13 @@ window.BENCHMARK_DATA = {
             "name": "Average read latency on Linux",
             "value": "0.1282",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average read latency on Asterinas",
             "value": "0.2691",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -38390,13 +38390,13 @@ window.BENCHMARK_DATA = {
             "name": "Average read latency on Linux",
             "value": "0.1276",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average read latency on Asterinas",
             "value": "0.2676",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -38425,13 +38425,13 @@ window.BENCHMARK_DATA = {
             "name": "Average read latency on Linux",
             "value": "0.1275",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average read latency on Asterinas",
             "value": "0.2594",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -38460,13 +38460,13 @@ window.BENCHMARK_DATA = {
             "name": "Average read latency on Linux",
             "value": "0.1287",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average read latency on Asterinas",
             "value": "0.2689",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -38495,13 +38495,13 @@ window.BENCHMARK_DATA = {
             "name": "Average read latency on Linux",
             "value": "0.1284",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average read latency on Asterinas",
             "value": "0.2692",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -38530,13 +38530,13 @@ window.BENCHMARK_DATA = {
             "name": "Average read latency on Linux",
             "value": "0.1270",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average read latency on Asterinas",
             "value": "0.2663",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -38565,13 +38565,13 @@ window.BENCHMARK_DATA = {
             "name": "Average read latency on Linux",
             "value": "0.1280",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average read latency on Asterinas",
             "value": "0.2654",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -38600,13 +38600,13 @@ window.BENCHMARK_DATA = {
             "name": "Average read latency on Linux",
             "value": "0.1267",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average read latency on Asterinas",
             "value": "0.2674",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -38635,13 +38635,13 @@ window.BENCHMARK_DATA = {
             "name": "Average read latency on Linux",
             "value": "0.1291",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average read latency on Asterinas",
             "value": "0.2670",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -38670,13 +38670,13 @@ window.BENCHMARK_DATA = {
             "name": "Average read latency on Linux",
             "value": "0.1291",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average read latency on Asterinas",
             "value": "0.1851",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -38705,13 +38705,13 @@ window.BENCHMARK_DATA = {
             "name": "Average read latency on Linux",
             "value": "0.1279",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average read latency on Asterinas",
             "value": "0.1848",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -38740,13 +38740,13 @@ window.BENCHMARK_DATA = {
             "name": "Average read latency on Linux",
             "value": "0.1291",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average read latency on Asterinas",
             "value": "0.1845",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -38775,13 +38775,13 @@ window.BENCHMARK_DATA = {
             "name": "Average read latency on Linux",
             "value": "0.1285",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average read latency on Asterinas",
             "value": "0.1841",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -38810,13 +38810,13 @@ window.BENCHMARK_DATA = {
             "name": "Average read latency on Linux",
             "value": "0.1282",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average read latency on Asterinas",
             "value": "0.1852",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -38845,13 +38845,13 @@ window.BENCHMARK_DATA = {
             "name": "Average read latency on Linux",
             "value": "0.1299",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average read latency on Asterinas",
             "value": "0.1848",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -38880,13 +38880,13 @@ window.BENCHMARK_DATA = {
             "name": "Average read latency on Linux",
             "value": "0.1295",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average read latency on Asterinas",
             "value": "0.1844",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -38915,13 +38915,13 @@ window.BENCHMARK_DATA = {
             "name": "Average read latency on Linux",
             "value": "0.1298",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average read latency on Asterinas",
             "value": "0.1846",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -38950,13 +38950,13 @@ window.BENCHMARK_DATA = {
             "name": "Average read latency on Linux",
             "value": "0.1306",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average read latency on Asterinas",
             "value": "0.1760",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -38985,13 +38985,13 @@ window.BENCHMARK_DATA = {
             "name": "Average read latency on Linux",
             "value": "0.1275",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average read latency on Asterinas",
             "value": "0.2028",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -39020,13 +39020,13 @@ window.BENCHMARK_DATA = {
             "name": "Average read latency on Linux",
             "value": "0.1275",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average read latency on Asterinas",
             "value": "0.2033",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -39093,13 +39093,13 @@ window.BENCHMARK_DATA = {
             "name": "Average write latency on Linux",
             "value": "0.3642",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average write latency on Asterinas",
             "value": "0.4277",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -39127,13 +39127,13 @@ window.BENCHMARK_DATA = {
             "name": "Average write latency on Linux",
             "value": "0.3696",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average write latency on Asterinas",
             "value": "0.4277",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -39161,13 +39161,13 @@ window.BENCHMARK_DATA = {
             "name": "Average write latency on Linux",
             "value": "0.3387",
             "unit": "ms",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average write latency on Asterinas",
             "value": "0.4287",
             "unit": "ms",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -39196,13 +39196,13 @@ window.BENCHMARK_DATA = {
             "name": "Average write latency on Linux",
             "value": "0.3463",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average write latency on Asterinas",
             "value": "0.4272",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -39231,13 +39231,13 @@ window.BENCHMARK_DATA = {
             "name": "Average write latency on Linux",
             "value": "0.3335",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average write latency on Asterinas",
             "value": "0.4272",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -39266,13 +39266,13 @@ window.BENCHMARK_DATA = {
             "name": "Average write latency on Linux",
             "value": "0.3490",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average write latency on Asterinas",
             "value": "0.3994",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -39301,13 +39301,13 @@ window.BENCHMARK_DATA = {
             "name": "Average write latency on Linux",
             "value": "0.3271",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average write latency on Asterinas",
             "value": "0.3967",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -39336,13 +39336,13 @@ window.BENCHMARK_DATA = {
             "name": "Average write latency on Linux",
             "value": "0.3350",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average write latency on Asterinas",
             "value": "0.3954",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -39371,13 +39371,13 @@ window.BENCHMARK_DATA = {
             "name": "Average write latency on Linux",
             "value": "0.3710",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average write latency on Asterinas",
             "value": "0.3949",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -39406,13 +39406,13 @@ window.BENCHMARK_DATA = {
             "name": "Average write latency on Linux",
             "value": "0.3488",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average write latency on Asterinas",
             "value": "0.4000",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -39441,13 +39441,13 @@ window.BENCHMARK_DATA = {
             "name": "Average write latency on Linux",
             "value": "0.3247",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average write latency on Asterinas",
             "value": "0.3824",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -39476,13 +39476,13 @@ window.BENCHMARK_DATA = {
             "name": "Average write latency on Linux",
             "value": "0.3256",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average write latency on Asterinas",
             "value": "0.3924",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -39511,13 +39511,13 @@ window.BENCHMARK_DATA = {
             "name": "Average write latency on Linux",
             "value": "0.3306",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average write latency on Asterinas",
             "value": "0.3902",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -39546,13 +39546,13 @@ window.BENCHMARK_DATA = {
             "name": "Average write latency on Linux",
             "value": "0.3247",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average write latency on Asterinas",
             "value": "0.3903",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -39581,13 +39581,13 @@ window.BENCHMARK_DATA = {
             "name": "Average write latency on Linux",
             "value": "0.3245",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average write latency on Asterinas",
             "value": "0.3353",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -39616,13 +39616,13 @@ window.BENCHMARK_DATA = {
             "name": "Average write latency on Linux",
             "value": "0.3768",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average write latency on Asterinas",
             "value": "0.3313",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -39651,13 +39651,13 @@ window.BENCHMARK_DATA = {
             "name": "Average write latency on Linux",
             "value": "0.3244",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average write latency on Asterinas",
             "value": "0.3280",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -39686,13 +39686,13 @@ window.BENCHMARK_DATA = {
             "name": "Average write latency on Linux",
             "value": "0.3771",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average write latency on Asterinas",
             "value": "0.3013",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -39721,13 +39721,13 @@ window.BENCHMARK_DATA = {
             "name": "Average write latency on Linux",
             "value": "0.3245",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average write latency on Asterinas",
             "value": "0.2996",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -39756,13 +39756,13 @@ window.BENCHMARK_DATA = {
             "name": "Average write latency on Linux",
             "value": "0.3509",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average write latency on Asterinas",
             "value": "0.2998",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -39791,13 +39791,13 @@ window.BENCHMARK_DATA = {
             "name": "Average write latency on Linux",
             "value": "0.3245",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average write latency on Asterinas",
             "value": "0.2932",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -39826,13 +39826,13 @@ window.BENCHMARK_DATA = {
             "name": "Average write latency on Linux",
             "value": "0.3237",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average write latency on Asterinas",
             "value": "0.2997",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -39861,13 +39861,13 @@ window.BENCHMARK_DATA = {
             "name": "Average write latency on Linux",
             "value": "0.3528",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average write latency on Asterinas",
             "value": "0.3062",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -39896,13 +39896,13 @@ window.BENCHMARK_DATA = {
             "name": "Average write latency on Linux",
             "value": "0.3880",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average write latency on Asterinas",
             "value": "0.3001",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -39931,13 +39931,13 @@ window.BENCHMARK_DATA = {
             "name": "Average write latency on Linux",
             "value": "0.3735",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average write latency on Asterinas",
             "value": "0.3066",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -39966,13 +39966,13 @@ window.BENCHMARK_DATA = {
             "name": "Average write latency on Linux",
             "value": "0.3256",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average write latency on Asterinas",
             "value": "0.2599",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -40001,13 +40001,13 @@ window.BENCHMARK_DATA = {
             "name": "Average write latency on Linux",
             "value": "0.3842",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average write latency on Asterinas",
             "value": "0.2629",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -40036,13 +40036,13 @@ window.BENCHMARK_DATA = {
             "name": "Average write latency on Linux",
             "value": "0.3246",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average write latency on Asterinas",
             "value": "0.2601",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -40071,13 +40071,13 @@ window.BENCHMARK_DATA = {
             "name": "Average write latency on Linux",
             "value": "0.1106",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average write latency on Asterinas",
             "value": "0.2528",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -40106,13 +40106,13 @@ window.BENCHMARK_DATA = {
             "name": "Average write latency on Linux",
             "value": "0.1103",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average write latency on Asterinas",
             "value": "0.2646",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -40141,13 +40141,13 @@ window.BENCHMARK_DATA = {
             "name": "Average write latency on Linux",
             "value": "0.1108",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average write latency on Asterinas",
             "value": "0.2648",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -40176,13 +40176,13 @@ window.BENCHMARK_DATA = {
             "name": "Average write latency on Linux",
             "value": "0.1102",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average write latency on Asterinas",
             "value": "0.2649",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -40211,13 +40211,13 @@ window.BENCHMARK_DATA = {
             "name": "Average write latency on Linux",
             "value": "0.1095",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average write latency on Asterinas",
             "value": "0.2644",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -40246,13 +40246,13 @@ window.BENCHMARK_DATA = {
             "name": "Average write latency on Linux",
             "value": "0.1085",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average write latency on Asterinas",
             "value": "0.2641",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -40281,13 +40281,13 @@ window.BENCHMARK_DATA = {
             "name": "Average write latency on Linux",
             "value": "0.1079",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average write latency on Asterinas",
             "value": "0.2659",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -40316,13 +40316,13 @@ window.BENCHMARK_DATA = {
             "name": "Average write latency on Linux",
             "value": "0.1079",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average write latency on Asterinas",
             "value": "0.2636",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -40351,13 +40351,13 @@ window.BENCHMARK_DATA = {
             "name": "Average write latency on Linux",
             "value": "0.1090",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average write latency on Asterinas",
             "value": "0.2649",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -40386,13 +40386,13 @@ window.BENCHMARK_DATA = {
             "name": "Average write latency on Linux",
             "value": "0.1091",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average write latency on Asterinas",
             "value": "0.2629",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -40421,13 +40421,13 @@ window.BENCHMARK_DATA = {
             "name": "Average write latency on Linux",
             "value": "0.1088",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average write latency on Asterinas",
             "value": "0.1904",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -40456,13 +40456,13 @@ window.BENCHMARK_DATA = {
             "name": "Average write latency on Linux",
             "value": "0.1078",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average write latency on Asterinas",
             "value": "0.1904",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -40491,13 +40491,13 @@ window.BENCHMARK_DATA = {
             "name": "Average write latency on Linux",
             "value": "0.1078",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average write latency on Asterinas",
             "value": "0.1905",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -40526,13 +40526,13 @@ window.BENCHMARK_DATA = {
             "name": "Average write latency on Linux",
             "value": "0.1093",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average write latency on Asterinas",
             "value": "0.1907",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -40561,13 +40561,13 @@ window.BENCHMARK_DATA = {
             "name": "Average write latency on Linux",
             "value": "0.1087",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average write latency on Asterinas",
             "value": "0.1805",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -40596,13 +40596,13 @@ window.BENCHMARK_DATA = {
             "name": "Average write latency on Linux",
             "value": "0.1099",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average write latency on Asterinas",
             "value": "0.1938",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -40631,13 +40631,13 @@ window.BENCHMARK_DATA = {
             "name": "Average write latency on Linux",
             "value": "0.1094",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average write latency on Asterinas",
             "value": "0.1937",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -40666,13 +40666,13 @@ window.BENCHMARK_DATA = {
             "name": "Average write latency on Linux",
             "value": "0.1132",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average write latency on Asterinas",
             "value": "0.1913",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -40701,13 +40701,13 @@ window.BENCHMARK_DATA = {
             "name": "Average write latency on Linux",
             "value": "0.1087",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average write latency on Asterinas",
             "value": "0.1908",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -40736,13 +40736,13 @@ window.BENCHMARK_DATA = {
             "name": "Average write latency on Linux",
             "value": "0.1086",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average write latency on Asterinas",
             "value": "0.1962",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -40771,13 +40771,13 @@ window.BENCHMARK_DATA = {
             "name": "Average write latency on Linux",
             "value": "0.1126",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average write latency on Asterinas",
             "value": "0.2099",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -40845,13 +40845,13 @@ window.BENCHMARK_DATA = {
             "name": "Average file read bandwidth on Linux",
             "value": "8509.33",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average file read bandwidth on Asterinas",
             "value": "7326.30",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -40880,13 +40880,13 @@ window.BENCHMARK_DATA = {
             "name": "Average file read bandwidth on Linux",
             "value": "8689.76",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average file read bandwidth on Asterinas",
             "value": "7192.42",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -40915,13 +40915,13 @@ window.BENCHMARK_DATA = {
             "name": "Average file read bandwidth on Linux",
             "value": "8447.21",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average file read bandwidth on Asterinas",
             "value": "7357.42",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -40950,13 +40950,13 @@ window.BENCHMARK_DATA = {
             "name": "Average file read bandwidth on Linux",
             "value": "8610.05",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average file read bandwidth on Asterinas",
             "value": "7342.13",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -40985,13 +40985,13 @@ window.BENCHMARK_DATA = {
             "name": "Average file read bandwidth on Linux",
             "value": "8597.23",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average file read bandwidth on Asterinas",
             "value": "7282.67",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -41020,13 +41020,13 @@ window.BENCHMARK_DATA = {
             "name": "Average file read bandwidth on Linux",
             "value": "8564.17",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average file read bandwidth on Asterinas",
             "value": "7354.60",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -41055,13 +41055,13 @@ window.BENCHMARK_DATA = {
             "name": "Average file read bandwidth on Linux",
             "value": "9101.82",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average file read bandwidth on Asterinas",
             "value": "7404.20",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -41090,13 +41090,13 @@ window.BENCHMARK_DATA = {
             "name": "Average file read bandwidth on Linux",
             "value": "8986.04",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average file read bandwidth on Asterinas",
             "value": "7388.91",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -41125,13 +41125,13 @@ window.BENCHMARK_DATA = {
             "name": "Average file read bandwidth on Linux",
             "value": "8831.71",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average file read bandwidth on Asterinas",
             "value": "7287.71",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -41160,13 +41160,13 @@ window.BENCHMARK_DATA = {
             "name": "Average file read bandwidth on Linux",
             "value": "8937.12",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average file read bandwidth on Asterinas",
             "value": "7341.52",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -41195,13 +41195,13 @@ window.BENCHMARK_DATA = {
             "name": "Average file read bandwidth on Linux",
             "value": "9146.01",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average file read bandwidth on Asterinas",
             "value": "7385.05",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -41230,13 +41230,13 @@ window.BENCHMARK_DATA = {
             "name": "Average file read bandwidth on Linux",
             "value": "8781.01",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average file read bandwidth on Asterinas",
             "value": "7351.37",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -41265,13 +41265,13 @@ window.BENCHMARK_DATA = {
             "name": "Average file read bandwidth on Linux",
             "value": "8914.57",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average file read bandwidth on Asterinas",
             "value": "7341.52",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -41300,13 +41300,13 @@ window.BENCHMARK_DATA = {
             "name": "Average file read bandwidth on Linux",
             "value": "8909.09",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average file read bandwidth on Asterinas",
             "value": "7395.63",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -41335,13 +41335,13 @@ window.BENCHMARK_DATA = {
             "name": "Average file read bandwidth on Linux",
             "value": "8992.06",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average file read bandwidth on Asterinas",
             "value": "7342.13",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -41370,13 +41370,13 @@ window.BENCHMARK_DATA = {
             "name": "Average file read bandwidth on Linux",
             "value": "9005.79",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average file read bandwidth on Asterinas",
             "value": "7327.20",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -41405,13 +41405,13 @@ window.BENCHMARK_DATA = {
             "name": "Average file read bandwidth on Linux",
             "value": "8863.64",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average file read bandwidth on Asterinas",
             "value": "7392.57",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -41440,13 +41440,13 @@ window.BENCHMARK_DATA = {
             "name": "Average file read bandwidth on Linux",
             "value": "9053.63",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average file read bandwidth on Asterinas",
             "value": "7382.10",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -41475,13 +41475,13 @@ window.BENCHMARK_DATA = {
             "name": "Average file read bandwidth on Linux",
             "value": "8818.22",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average file read bandwidth on Asterinas",
             "value": "7403.38",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -41510,13 +41510,13 @@ window.BENCHMARK_DATA = {
             "name": "Average file read bandwidth on Linux",
             "value": "8861.30",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average file read bandwidth on Asterinas",
             "value": "7351.58",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -41545,13 +41545,13 @@ window.BENCHMARK_DATA = {
             "name": "Average file read bandwidth on Linux",
             "value": "8989.80",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average file read bandwidth on Asterinas",
             "value": "7414.73",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -41580,13 +41580,13 @@ window.BENCHMARK_DATA = {
             "name": "Average file read bandwidth on Linux",
             "value": "9074.44",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average file read bandwidth on Asterinas",
             "value": "7333.70",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -41615,13 +41615,13 @@ window.BENCHMARK_DATA = {
             "name": "Average file read bandwidth on Linux",
             "value": "8970.27",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average file read bandwidth on Asterinas",
             "value": "10403.67",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -41650,13 +41650,13 @@ window.BENCHMARK_DATA = {
             "name": "Average file read bandwidth on Linux",
             "value": "8879.04",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average file read bandwidth on Asterinas",
             "value": "10048.87",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -41685,13 +41685,13 @@ window.BENCHMARK_DATA = {
             "name": "Average file read bandwidth on Linux",
             "value": "8992.81",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average file read bandwidth on Asterinas",
             "value": "10089.47",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -41720,13 +41720,13 @@ window.BENCHMARK_DATA = {
             "name": "Average file read bandwidth on Linux",
             "value": "9265.98",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average file read bandwidth on Asterinas",
             "value": "10184.02",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -41755,13 +41755,13 @@ window.BENCHMARK_DATA = {
             "name": "Average file read bandwidth on Linux",
             "value": "9282.00",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average file read bandwidth on Asterinas",
             "value": "10237.62",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -41790,13 +41790,13 @@ window.BENCHMARK_DATA = {
             "name": "Average file read bandwidth on Linux",
             "value": "9338.51",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average file read bandwidth on Asterinas",
             "value": "10190.59",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -41825,13 +41825,13 @@ window.BENCHMARK_DATA = {
             "name": "Average file read bandwidth on Linux",
             "value": "9284.09",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average file read bandwidth on Asterinas",
             "value": "10139.59",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -41860,13 +41860,13 @@ window.BENCHMARK_DATA = {
             "name": "Average file read bandwidth on Linux",
             "value": "9246.19",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average file read bandwidth on Asterinas",
             "value": "10332.59",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -41895,13 +41895,13 @@ window.BENCHMARK_DATA = {
             "name": "Average file read bandwidth on Linux",
             "value": "9243.65",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average file read bandwidth on Asterinas",
             "value": "10205.31",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -41930,13 +41930,13 @@ window.BENCHMARK_DATA = {
             "name": "Average file read bandwidth on Linux",
             "value": "9354.29",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average file read bandwidth on Asterinas",
             "value": "10117.80",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -41965,13 +41965,13 @@ window.BENCHMARK_DATA = {
             "name": "Average file read bandwidth on Linux",
             "value": "9062.34",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average file read bandwidth on Asterinas",
             "value": "10042.67",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -42000,13 +42000,13 @@ window.BENCHMARK_DATA = {
             "name": "Average file read bandwidth on Linux",
             "value": "9645.72",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average file read bandwidth on Asterinas",
             "value": "10184.41",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -42035,13 +42035,13 @@ window.BENCHMARK_DATA = {
             "name": "Average file read bandwidth on Linux",
             "value": "9020.16",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average file read bandwidth on Asterinas",
             "value": "10224.75",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -42070,13 +42070,13 @@ window.BENCHMARK_DATA = {
             "name": "Average file read bandwidth on Linux",
             "value": "9317.60",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average file read bandwidth on Asterinas",
             "value": "9990.71",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -42105,13 +42105,13 @@ window.BENCHMARK_DATA = {
             "name": "Average file read bandwidth on Linux",
             "value": "9315.50",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average file read bandwidth on Asterinas",
             "value": "9932.67",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -42140,13 +42140,13 @@ window.BENCHMARK_DATA = {
             "name": "Average file read bandwidth on Linux",
             "value": "9173.52",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average file read bandwidth on Asterinas",
             "value": "10103.52",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -42175,13 +42175,13 @@ window.BENCHMARK_DATA = {
             "name": "Average file read bandwidth on Linux",
             "value": "9089.34",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average file read bandwidth on Asterinas",
             "value": "8649.58",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -42210,13 +42210,13 @@ window.BENCHMARK_DATA = {
             "name": "Average file read bandwidth on Linux",
             "value": "9210.03",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average file read bandwidth on Asterinas",
             "value": "10202.02",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -42245,13 +42245,13 @@ window.BENCHMARK_DATA = {
             "name": "Average file read bandwidth on Linux",
             "value": "9086.57",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average file read bandwidth on Asterinas",
             "value": "9527.94",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -42280,13 +42280,13 @@ window.BENCHMARK_DATA = {
             "name": "Average file read bandwidth on Linux",
             "value": "9153.65",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average file read bandwidth on Asterinas",
             "value": "10035.16",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -42315,13 +42315,13 @@ window.BENCHMARK_DATA = {
             "name": "Average file read bandwidth on Linux",
             "value": "9261.35",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average file read bandwidth on Asterinas",
             "value": "10223.97",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -42350,13 +42350,13 @@ window.BENCHMARK_DATA = {
             "name": "Average file read bandwidth on Linux",
             "value": "9179.48",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average file read bandwidth on Asterinas",
             "value": "10180.35",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -42385,13 +42385,13 @@ window.BENCHMARK_DATA = {
             "name": "Average file read bandwidth on Linux",
             "value": "9189.85",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average file read bandwidth on Asterinas",
             "value": "10060.36",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -42420,13 +42420,13 @@ window.BENCHMARK_DATA = {
             "name": "Average file read bandwidth on Linux",
             "value": "9201.66",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average file read bandwidth on Asterinas",
             "value": "10138.82",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -42494,13 +42494,13 @@ window.BENCHMARK_DATA = {
             "name": "Average select file latency on Linux",
             "value": "1.3326",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average select file latency on Asterinas",
             "value": "25.9070",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -42529,13 +42529,13 @@ window.BENCHMARK_DATA = {
             "name": "Average select file latency on Linux",
             "value": "1.3711",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average select file latency on Asterinas",
             "value": "25.7762",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -42564,13 +42564,13 @@ window.BENCHMARK_DATA = {
             "name": "Average select file latency on Linux",
             "value": "1.3150",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average select file latency on Asterinas",
             "value": "25.7824",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -42599,13 +42599,13 @@ window.BENCHMARK_DATA = {
             "name": "Average select file latency on Linux",
             "value": "1.3440",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average select file latency on Asterinas",
             "value": "25.6898",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -42634,13 +42634,13 @@ window.BENCHMARK_DATA = {
             "name": "Average select file latency on Linux",
             "value": "1.3294",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average select file latency on Asterinas",
             "value": "26.5742",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -42669,13 +42669,13 @@ window.BENCHMARK_DATA = {
             "name": "Average select file latency on Linux",
             "value": "1.3572",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average select file latency on Asterinas",
             "value": "26.5366",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -42704,13 +42704,13 @@ window.BENCHMARK_DATA = {
             "name": "Average select file latency on Linux",
             "value": "1.3664",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average select file latency on Asterinas",
             "value": "25.7500",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -42739,13 +42739,13 @@ window.BENCHMARK_DATA = {
             "name": "Average select file latency on Linux",
             "value": "1.3597",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average select file latency on Asterinas",
             "value": "23.4430",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -42774,13 +42774,13 @@ window.BENCHMARK_DATA = {
             "name": "Average select file latency on Linux",
             "value": "1.3290",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average select file latency on Asterinas",
             "value": "23.7415",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -42809,13 +42809,13 @@ window.BENCHMARK_DATA = {
             "name": "Average select file latency on Linux",
             "value": "1.3233",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average select file latency on Asterinas",
             "value": "23.7161",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -42844,13 +42844,13 @@ window.BENCHMARK_DATA = {
             "name": "Average select file latency on Linux",
             "value": "1.3694",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average select file latency on Asterinas",
             "value": "23.6144",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -42879,13 +42879,13 @@ window.BENCHMARK_DATA = {
             "name": "Average select file latency on Linux",
             "value": "1.3270",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average select file latency on Asterinas",
             "value": "16.0612",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -42914,13 +42914,13 @@ window.BENCHMARK_DATA = {
             "name": "Average select file latency on Linux",
             "value": "1.3294",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average select file latency on Asterinas",
             "value": "15.9507",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -42949,13 +42949,13 @@ window.BENCHMARK_DATA = {
             "name": "Average select file latency on Linux",
             "value": "1.3281",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average select file latency on Asterinas",
             "value": "15.8732",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -42984,13 +42984,13 @@ window.BENCHMARK_DATA = {
             "name": "Average select file latency on Linux",
             "value": "1.3250",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average select file latency on Asterinas",
             "value": "15.8588",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -43019,13 +43019,13 @@ window.BENCHMARK_DATA = {
             "name": "Average select file latency on Linux",
             "value": "1.3454",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average select file latency on Asterinas",
             "value": "1.8074",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -43054,13 +43054,13 @@ window.BENCHMARK_DATA = {
             "name": "Average select file latency on Linux",
             "value": "1.3276",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average select file latency on Asterinas",
             "value": "1.8208",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -43089,13 +43089,13 @@ window.BENCHMARK_DATA = {
             "name": "Average select file latency on Linux",
             "value": "1.3395",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average select file latency on Asterinas",
             "value": "1.7912",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -43124,13 +43124,13 @@ window.BENCHMARK_DATA = {
             "name": "Average select file latency on Linux",
             "value": "1.3200",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average select file latency on Asterinas",
             "value": "1.8036",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -43159,13 +43159,13 @@ window.BENCHMARK_DATA = {
             "name": "Average select file latency on Linux",
             "value": "1.3331",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average select file latency on Asterinas",
             "value": "1.7870",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -43194,13 +43194,13 @@ window.BENCHMARK_DATA = {
             "name": "Average select file latency on Linux",
             "value": "1.3233",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average select file latency on Asterinas",
             "value": "1.8201",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -43229,13 +43229,13 @@ window.BENCHMARK_DATA = {
             "name": "Average select file latency on Linux",
             "value": "1.3281",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average select file latency on Asterinas",
             "value": "1.8098",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -43264,13 +43264,13 @@ window.BENCHMARK_DATA = {
             "name": "Average select file latency on Linux",
             "value": "1.3250",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average select file latency on Asterinas",
             "value": "1.7978",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -43299,13 +43299,13 @@ window.BENCHMARK_DATA = {
             "name": "Average select file latency on Linux",
             "value": "1.3269",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average select file latency on Asterinas",
             "value": "1.7802",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -43334,13 +43334,13 @@ window.BENCHMARK_DATA = {
             "name": "Average select file latency on Linux",
             "value": "1.3228",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average select file latency on Asterinas",
             "value": "1.7789",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -43369,13 +43369,13 @@ window.BENCHMARK_DATA = {
             "name": "Average select file latency on Linux",
             "value": "1.1429",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average select file latency on Asterinas",
             "value": "1.7683",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -43404,13 +43404,13 @@ window.BENCHMARK_DATA = {
             "name": "Average select file latency on Linux",
             "value": "1.1690",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average select file latency on Asterinas",
             "value": "1.7719",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -43439,13 +43439,13 @@ window.BENCHMARK_DATA = {
             "name": "Average select file latency on Linux",
             "value": "1.1561",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average select file latency on Asterinas",
             "value": "1.8053",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -43474,13 +43474,13 @@ window.BENCHMARK_DATA = {
             "name": "Average select file latency on Linux",
             "value": "1.1315",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average select file latency on Asterinas",
             "value": "1.7818",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -43509,13 +43509,13 @@ window.BENCHMARK_DATA = {
             "name": "Average select file latency on Linux",
             "value": "1.1447",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average select file latency on Asterinas",
             "value": "1.7758",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -43544,13 +43544,13 @@ window.BENCHMARK_DATA = {
             "name": "Average select file latency on Linux",
             "value": "1.1555",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average select file latency on Asterinas",
             "value": "1.7824",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -43579,13 +43579,13 @@ window.BENCHMARK_DATA = {
             "name": "Average select file latency on Linux",
             "value": "1.1272",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average select file latency on Asterinas",
             "value": "1.7851",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -43614,13 +43614,13 @@ window.BENCHMARK_DATA = {
             "name": "Average select file latency on Linux",
             "value": "1.1411",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average select file latency on Asterinas",
             "value": "1.7784",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -43649,13 +43649,13 @@ window.BENCHMARK_DATA = {
             "name": "Average select file latency on Linux",
             "value": "1.1337",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average select file latency on Asterinas",
             "value": "1.8062",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -43684,13 +43684,13 @@ window.BENCHMARK_DATA = {
             "name": "Average select file latency on Linux",
             "value": "1.1671",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average select file latency on Asterinas",
             "value": "1.7742",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -43719,13 +43719,13 @@ window.BENCHMARK_DATA = {
             "name": "Average select file latency on Linux",
             "value": "1.1564",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average select file latency on Asterinas",
             "value": "1.8474",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -43754,13 +43754,13 @@ window.BENCHMARK_DATA = {
             "name": "Average select file latency on Linux",
             "value": "1.1272",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average select file latency on Asterinas",
             "value": "1.8536",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -43789,13 +43789,13 @@ window.BENCHMARK_DATA = {
             "name": "Average select file latency on Linux",
             "value": "1.1293",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average select file latency on Asterinas",
             "value": "1.8368",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -43824,13 +43824,13 @@ window.BENCHMARK_DATA = {
             "name": "Average select file latency on Linux",
             "value": "1.1321",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average select file latency on Asterinas",
             "value": "1.8363",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -43859,13 +43859,13 @@ window.BENCHMARK_DATA = {
             "name": "Average select file latency on Linux",
             "value": "1.1350",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average select file latency on Asterinas",
             "value": "1.8697",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -43894,13 +43894,13 @@ window.BENCHMARK_DATA = {
             "name": "Average select file latency on Linux",
             "value": "1.1441",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average select file latency on Asterinas",
             "value": "1.8418",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -43929,13 +43929,13 @@ window.BENCHMARK_DATA = {
             "name": "Average select file latency on Linux",
             "value": "1.1256",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average select file latency on Asterinas",
             "value": "1.8540",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -43964,13 +43964,13 @@ window.BENCHMARK_DATA = {
             "name": "Average select file latency on Linux",
             "value": "1.1254",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average select file latency on Asterinas",
             "value": "1.8655",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -43999,13 +43999,13 @@ window.BENCHMARK_DATA = {
             "name": "Average select file latency on Linux",
             "value": "1.1523",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average select file latency on Asterinas",
             "value": "1.8220",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -44034,13 +44034,13 @@ window.BENCHMARK_DATA = {
             "name": "Average select file latency on Linux",
             "value": "1.1237",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average select file latency on Asterinas",
             "value": "1.8344",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -44069,13 +44069,13 @@ window.BENCHMARK_DATA = {
             "name": "Average select file latency on Linux",
             "value": "1.1461",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average select file latency on Asterinas",
             "value": "1.8667",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -44143,13 +44143,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Signal handler install latency on Linux",
             "value": "0.3304",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Signal handler install latency on Asterinas",
             "value": "0.3435",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -44178,13 +44178,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Signal handler install latency on Linux",
             "value": "0.3284",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Signal handler install latency on Asterinas",
             "value": "0.3270",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -44213,13 +44213,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Signal handler install latency on Linux",
             "value": "0.3847",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Signal handler install latency on Asterinas",
             "value": "0.2988",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -44248,13 +44248,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Signal handler install latency on Linux",
             "value": "0.3297",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Signal handler install latency on Asterinas",
             "value": "0.3056",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -44283,13 +44283,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Signal handler install latency on Linux",
             "value": "0.3349",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Signal handler install latency on Asterinas",
             "value": "0.3217",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -44318,13 +44318,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Signal handler install latency on Linux",
             "value": "0.3471",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Signal handler install latency on Asterinas",
             "value": "0.3245",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -44353,13 +44353,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Signal handler install latency on Linux",
             "value": "0.3346",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Signal handler install latency on Asterinas",
             "value": "0.3050",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -44388,13 +44388,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Signal handler install latency on Linux",
             "value": "0.3324",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Signal handler install latency on Asterinas",
             "value": "0.2643",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -44423,13 +44423,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Signal handler install latency on Linux",
             "value": "0.3285",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Signal handler install latency on Asterinas",
             "value": "0.3010",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -44458,13 +44458,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Signal handler install latency on Linux",
             "value": "0.3345",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Signal handler install latency on Asterinas",
             "value": "0.2891",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -44493,13 +44493,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Signal handler install latency on Linux",
             "value": "0.3380",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Signal handler install latency on Asterinas",
             "value": "0.2850",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -44528,13 +44528,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Signal handler install latency on Linux",
             "value": "0.3320",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Signal handler install latency on Asterinas",
             "value": "0.2311",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -44563,13 +44563,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Signal handler install latency on Linux",
             "value": "0.3748",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Signal handler install latency on Asterinas",
             "value": "0.2334",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -44598,13 +44598,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Signal handler install latency on Linux",
             "value": "0.3291",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Signal handler install latency on Asterinas",
             "value": "0.2430",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -44633,13 +44633,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Signal handler install latency on Linux",
             "value": "0.3292",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Signal handler install latency on Asterinas",
             "value": "0.2085",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -44668,13 +44668,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Signal handler install latency on Linux",
             "value": "0.3346",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Signal handler install latency on Asterinas",
             "value": "0.1964",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -44703,13 +44703,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Signal handler install latency on Linux",
             "value": "0.3325",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Signal handler install latency on Asterinas",
             "value": "0.2014",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -44738,13 +44738,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Signal handler install latency on Linux",
             "value": "0.3284",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Signal handler install latency on Asterinas",
             "value": "0.1966",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -44773,13 +44773,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Signal handler install latency on Linux",
             "value": "0.3294",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Signal handler install latency on Asterinas",
             "value": "0.2022",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -44808,13 +44808,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Signal handler install latency on Linux",
             "value": "0.3290",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Signal handler install latency on Asterinas",
             "value": "0.2257",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -44843,13 +44843,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Signal handler install latency on Linux",
             "value": "0.3291",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Signal handler install latency on Asterinas",
             "value": "0.2098",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -44878,13 +44878,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Signal handler install latency on Linux",
             "value": "0.3360",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Signal handler install latency on Asterinas",
             "value": "0.1950",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -44913,13 +44913,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Signal handler install latency on Linux",
             "value": "0.3320",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Signal handler install latency on Asterinas",
             "value": "0.2148",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -44948,13 +44948,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Signal handler install latency on Linux",
             "value": "0.3308",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Signal handler install latency on Asterinas",
             "value": "0.2241",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -44983,13 +44983,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Signal handler install latency on Linux",
             "value": "0.3334",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Signal handler install latency on Asterinas",
             "value": "0.2025",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -45018,13 +45018,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Signal handler install latency on Linux",
             "value": "0.1408",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Signal handler install latency on Asterinas",
             "value": "0.2045",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -45053,13 +45053,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Signal handler install latency on Linux",
             "value": "0.1398",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Signal handler install latency on Asterinas",
             "value": "0.2222",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -45088,13 +45088,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Signal handler install latency on Linux",
             "value": "0.1448",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Signal handler install latency on Asterinas",
             "value": "0.2061",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -45123,13 +45123,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Signal handler install latency on Linux",
             "value": "0.1414",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Signal handler install latency on Asterinas",
             "value": "0.2184",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -45158,13 +45158,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Signal handler install latency on Linux",
             "value": "0.1406",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Signal handler install latency on Asterinas",
             "value": "0.2046",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -45193,13 +45193,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Signal handler install latency on Linux",
             "value": "0.1411",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Signal handler install latency on Asterinas",
             "value": "0.2218",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -45228,13 +45228,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Signal handler install latency on Linux",
             "value": "0.1436",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Signal handler install latency on Asterinas",
             "value": "0.2025",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -45263,13 +45263,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Signal handler install latency on Linux",
             "value": "0.1412",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Signal handler install latency on Asterinas",
             "value": "0.2248",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -45298,13 +45298,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Signal handler install latency on Linux",
             "value": "0.1477",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Signal handler install latency on Asterinas",
             "value": "0.2239",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -45333,13 +45333,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Signal handler install latency on Linux",
             "value": "0.1422",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Signal handler install latency on Asterinas",
             "value": "0.2251",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -45368,13 +45368,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Signal handler install latency on Linux",
             "value": "0.1421",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Signal handler install latency on Asterinas",
             "value": "0.2030",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -45403,13 +45403,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Signal handler install latency on Linux",
             "value": "0.1428",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Signal handler install latency on Asterinas",
             "value": "0.1935",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -45438,13 +45438,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Signal handler install latency on Linux",
             "value": "0.1412",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Signal handler install latency on Asterinas",
             "value": "0.2023",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -45473,13 +45473,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Signal handler install latency on Linux",
             "value": "0.1416",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Signal handler install latency on Asterinas",
             "value": "0.1979",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -45508,13 +45508,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Signal handler install latency on Linux",
             "value": "0.1420",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Signal handler install latency on Asterinas",
             "value": "0.1947",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -45543,13 +45543,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Signal handler install latency on Linux",
             "value": "0.1411",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Signal handler install latency on Asterinas",
             "value": "0.1944",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -45578,13 +45578,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Signal handler install latency on Linux",
             "value": "0.1404",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Signal handler install latency on Asterinas",
             "value": "0.1952",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -45613,13 +45613,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Signal handler install latency on Linux",
             "value": "0.1399",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Signal handler install latency on Asterinas",
             "value": "0.1937",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -45648,13 +45648,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Signal handler install latency on Linux",
             "value": "0.1396",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Signal handler install latency on Asterinas",
             "value": "0.1943",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -45683,13 +45683,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Signal handler install latency on Linux",
             "value": "0.1404",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Signal handler install latency on Asterinas",
             "value": "0.1954",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -45718,13 +45718,13 @@ window.BENCHMARK_DATA = {
             "name": "Average Signal handler install latency on Linux",
             "value": "0.1402",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average Signal handler install latency on Asterinas",
             "value": "0.1996",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -45792,13 +45792,13 @@ window.BENCHMARK_DATA = {
             "name": "Average unix bandwidth on Linux",
             "value": "7626.43",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average unix bandwidth on Asterinas",
             "value": "433.80",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -45827,13 +45827,13 @@ window.BENCHMARK_DATA = {
             "name": "Average unix bandwidth on Linux",
             "value": "7620.32",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average unix bandwidth on Asterinas",
             "value": "429.14",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -45862,13 +45862,13 @@ window.BENCHMARK_DATA = {
             "name": "Average unix bandwidth on Linux",
             "value": "7594.18",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average unix bandwidth on Asterinas",
             "value": "442.48",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -45897,13 +45897,13 @@ window.BENCHMARK_DATA = {
             "name": "Average unix bandwidth on Linux",
             "value": "7379.58",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average unix bandwidth on Asterinas",
             "value": "437.07",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -45932,13 +45932,13 @@ window.BENCHMARK_DATA = {
             "name": "Average unix bandwidth on Linux",
             "value": "7580.09",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average unix bandwidth on Asterinas",
             "value": "437.35",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -45967,13 +45967,13 @@ window.BENCHMARK_DATA = {
             "name": "Average unix bandwidth on Linux",
             "value": "7604.06",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average unix bandwidth on Asterinas",
             "value": "436.22",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -46002,13 +46002,13 @@ window.BENCHMARK_DATA = {
             "name": "Average unix bandwidth on Linux",
             "value": "7651.00",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average unix bandwidth on Asterinas",
             "value": "436.08",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -46037,13 +46037,13 @@ window.BENCHMARK_DATA = {
             "name": "Average unix bandwidth on Linux",
             "value": "7643.03",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average unix bandwidth on Asterinas",
             "value": "451.49",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -46072,13 +46072,13 @@ window.BENCHMARK_DATA = {
             "name": "Average unix bandwidth on Linux",
             "value": "7646.20",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average unix bandwidth on Asterinas",
             "value": "448.60",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -46107,13 +46107,13 @@ window.BENCHMARK_DATA = {
             "name": "Average unix bandwidth on Linux",
             "value": "7651.84",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average unix bandwidth on Asterinas",
             "value": "443.58",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -46142,13 +46142,13 @@ window.BENCHMARK_DATA = {
             "name": "Average unix bandwidth on Linux",
             "value": "7637.18",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average unix bandwidth on Asterinas",
             "value": "443.22",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -46177,13 +46177,13 @@ window.BENCHMARK_DATA = {
             "name": "Average unix bandwidth on Linux",
             "value": "7583.97",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average unix bandwidth on Asterinas",
             "value": "446.51",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -46212,13 +46212,13 @@ window.BENCHMARK_DATA = {
             "name": "Average unix bandwidth on Linux",
             "value": "7642.41",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average unix bandwidth on Asterinas",
             "value": "4822.95",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -46247,13 +46247,13 @@ window.BENCHMARK_DATA = {
             "name": "Average unix bandwidth on Linux",
             "value": "7622.38",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average unix bandwidth on Asterinas",
             "value": "4823.60",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -46282,13 +46282,13 @@ window.BENCHMARK_DATA = {
             "name": "Average unix bandwidth on Linux",
             "value": "7612.29",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average unix bandwidth on Asterinas",
             "value": "5546.12",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -46317,13 +46317,13 @@ window.BENCHMARK_DATA = {
             "name": "Average unix bandwidth on Linux",
             "value": "7602.17",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average unix bandwidth on Asterinas",
             "value": "5626.48",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -46352,13 +46352,13 @@ window.BENCHMARK_DATA = {
             "name": "Average unix bandwidth on Linux",
             "value": "7641.98",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average unix bandwidth on Asterinas",
             "value": "5561.17",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -46387,13 +46387,13 @@ window.BENCHMARK_DATA = {
             "name": "Average unix bandwidth on Linux",
             "value": "7627.86",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average unix bandwidth on Asterinas",
             "value": "5550.48",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -46422,13 +46422,13 @@ window.BENCHMARK_DATA = {
             "name": "Average unix bandwidth on Linux",
             "value": "7606.70",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average unix bandwidth on Asterinas",
             "value": "5641.24",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -46457,13 +46457,13 @@ window.BENCHMARK_DATA = {
             "name": "Average unix bandwidth on Linux",
             "value": "7611.10",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average unix bandwidth on Asterinas",
             "value": "5533.32",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -46492,13 +46492,13 @@ window.BENCHMARK_DATA = {
             "name": "Average unix bandwidth on Linux",
             "value": "7642.87",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average unix bandwidth on Asterinas",
             "value": "5543.78",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -46527,13 +46527,13 @@ window.BENCHMARK_DATA = {
             "name": "Average unix bandwidth on Linux",
             "value": "7609.65",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average unix bandwidth on Asterinas",
             "value": "5527.96",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -46562,13 +46562,13 @@ window.BENCHMARK_DATA = {
             "name": "Average unix bandwidth on Linux",
             "value": "7593.45",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average unix bandwidth on Asterinas",
             "value": "5549.63",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -46597,13 +46597,13 @@ window.BENCHMARK_DATA = {
             "name": "Average unix bandwidth on Linux",
             "value": "7583.39",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average unix bandwidth on Asterinas",
             "value": "5575.47",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -46632,13 +46632,13 @@ window.BENCHMARK_DATA = {
             "name": "Average unix bandwidth on Linux",
             "value": "7624.14",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average unix bandwidth on Asterinas",
             "value": "5566.31",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -46667,13 +46667,13 @@ window.BENCHMARK_DATA = {
             "name": "Average unix bandwidth on Linux",
             "value": "7973.28",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average unix bandwidth on Asterinas",
             "value": "5612.88",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -46702,13 +46702,13 @@ window.BENCHMARK_DATA = {
             "name": "Average unix bandwidth on Linux",
             "value": "7545.22",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average unix bandwidth on Asterinas",
             "value": "5537.30",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -46737,13 +46737,13 @@ window.BENCHMARK_DATA = {
             "name": "Average unix bandwidth on Linux",
             "value": "7548.30",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average unix bandwidth on Asterinas",
             "value": "5464.49",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -46772,13 +46772,13 @@ window.BENCHMARK_DATA = {
             "name": "Average unix bandwidth on Linux",
             "value": "7543.48",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average unix bandwidth on Asterinas",
             "value": "5472.34",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -46807,13 +46807,13 @@ window.BENCHMARK_DATA = {
             "name": "Average unix bandwidth on Linux",
             "value": "7797.90",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average unix bandwidth on Asterinas",
             "value": "5473.93",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -46842,13 +46842,13 @@ window.BENCHMARK_DATA = {
             "name": "Average unix bandwidth on Linux",
             "value": "7590.32",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average unix bandwidth on Asterinas",
             "value": "5497.16",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -46877,13 +46877,13 @@ window.BENCHMARK_DATA = {
             "name": "Average unix bandwidth on Linux",
             "value": "7819.80",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average unix bandwidth on Asterinas",
             "value": "5481.92",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -46912,13 +46912,13 @@ window.BENCHMARK_DATA = {
             "name": "Average unix bandwidth on Linux",
             "value": "7558.81",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average unix bandwidth on Asterinas",
             "value": "5556.52",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -46947,13 +46947,13 @@ window.BENCHMARK_DATA = {
             "name": "Average unix bandwidth on Linux",
             "value": "7501.03",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average unix bandwidth on Asterinas",
             "value": "5490.08",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -46982,13 +46982,13 @@ window.BENCHMARK_DATA = {
             "name": "Average unix bandwidth on Linux",
             "value": "7496.24",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average unix bandwidth on Asterinas",
             "value": "5547.71",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -47017,13 +47017,13 @@ window.BENCHMARK_DATA = {
             "name": "Average unix bandwidth on Linux",
             "value": "7584.13",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average unix bandwidth on Asterinas",
             "value": "5557.57",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -47052,13 +47052,13 @@ window.BENCHMARK_DATA = {
             "name": "Average unix bandwidth on Linux",
             "value": "7650.58",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average unix bandwidth on Asterinas",
             "value": "5548.28",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -47087,13 +47087,13 @@ window.BENCHMARK_DATA = {
             "name": "Average unix bandwidth on Linux",
             "value": "7749.57",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average unix bandwidth on Asterinas",
             "value": "5548.10",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -47122,13 +47122,13 @@ window.BENCHMARK_DATA = {
             "name": "Average unix bandwidth on Linux",
             "value": "7779.11",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average unix bandwidth on Asterinas",
             "value": "5548.09",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -47157,13 +47157,13 @@ window.BENCHMARK_DATA = {
             "name": "Average unix bandwidth on Linux",
             "value": "7765.81",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average unix bandwidth on Asterinas",
             "value": "5542.72",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -47192,13 +47192,13 @@ window.BENCHMARK_DATA = {
             "name": "Average unix bandwidth on Linux",
             "value": "7771.38",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average unix bandwidth on Asterinas",
             "value": "5530.14",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -47227,13 +47227,13 @@ window.BENCHMARK_DATA = {
             "name": "Average unix bandwidth on Linux",
             "value": "7478.43",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average unix bandwidth on Asterinas",
             "value": "5552.75",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -47262,13 +47262,13 @@ window.BENCHMARK_DATA = {
             "name": "Average unix bandwidth on Linux",
             "value": "7532.90",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average unix bandwidth on Asterinas",
             "value": "5544.80",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -47297,13 +47297,13 @@ window.BENCHMARK_DATA = {
             "name": "Average unix bandwidth on Linux",
             "value": "7549.53",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average unix bandwidth on Asterinas",
             "value": "5557.97",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -47332,13 +47332,13 @@ window.BENCHMARK_DATA = {
             "name": "Average unix bandwidth on Linux",
             "value": "7472.22",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average unix bandwidth on Asterinas",
             "value": "5601.21",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -47406,13 +47406,13 @@ window.BENCHMARK_DATA = {
             "name": "Number of created/deleted files on Linux",
             "value": "1087",
             "unit": "number",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Number of created/deleted files on Asterinas",
             "value": "687",
             "unit": "number",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -47441,13 +47441,13 @@ window.BENCHMARK_DATA = {
             "name": "Number of created/deleted files on Linux",
             "value": "1140",
             "unit": "number",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Number of created/deleted files on Asterinas",
             "value": "658",
             "unit": "number",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -47476,13 +47476,13 @@ window.BENCHMARK_DATA = {
             "name": "Number of created/deleted files on Linux",
             "value": "1101",
             "unit": "number",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Number of created/deleted files on Asterinas",
             "value": "673",
             "unit": "number",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -47511,13 +47511,13 @@ window.BENCHMARK_DATA = {
             "name": "Number of created/deleted files on Linux",
             "value": "1021",
             "unit": "number",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Number of created/deleted files on Asterinas",
             "value": "668",
             "unit": "number",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -47546,13 +47546,13 @@ window.BENCHMARK_DATA = {
             "name": "Number of created/deleted files on Linux",
             "value": "983",
             "unit": "number",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Number of created/deleted files on Asterinas",
             "value": "683",
             "unit": "number",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -47581,13 +47581,13 @@ window.BENCHMARK_DATA = {
             "name": "Number of created/deleted files on Linux",
             "value": "1091",
             "unit": "number",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Number of created/deleted files on Asterinas",
             "value": "688",
             "unit": "number",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -47616,13 +47616,13 @@ window.BENCHMARK_DATA = {
             "name": "Number of created/deleted files on Linux",
             "value": "1072",
             "unit": "number",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Number of created/deleted files on Asterinas",
             "value": "593",
             "unit": "number",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -47651,13 +47651,13 @@ window.BENCHMARK_DATA = {
             "name": "Number of created/deleted files on Linux",
             "value": "1058",
             "unit": "number",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Number of created/deleted files on Asterinas",
             "value": "671",
             "unit": "number",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -47686,13 +47686,13 @@ window.BENCHMARK_DATA = {
             "name": "Number of created/deleted files on Linux",
             "value": "1186",
             "unit": "number",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Number of created/deleted files on Asterinas",
             "value": "648",
             "unit": "number",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -47721,13 +47721,13 @@ window.BENCHMARK_DATA = {
             "name": "Number of created/deleted files on Linux",
             "value": "949",
             "unit": "number",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Number of created/deleted files on Asterinas",
             "value": "714",
             "unit": "number",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -47756,13 +47756,13 @@ window.BENCHMARK_DATA = {
             "name": "Number of created/deleted files on Linux",
             "value": "1107",
             "unit": "number",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Number of created/deleted files on Asterinas",
             "value": "706",
             "unit": "number",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -47791,13 +47791,13 @@ window.BENCHMARK_DATA = {
             "name": "Number of created/deleted files on Linux",
             "value": "1568",
             "unit": "number",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Number of created/deleted files on Asterinas",
             "value": "649",
             "unit": "number",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -47826,13 +47826,13 @@ window.BENCHMARK_DATA = {
             "name": "Number of created/deleted files on Linux",
             "value": "1503",
             "unit": "number",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Number of created/deleted files on Asterinas",
             "value": "657",
             "unit": "number",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -47861,13 +47861,13 @@ window.BENCHMARK_DATA = {
             "name": "Number of created/deleted files on Linux",
             "value": "1367",
             "unit": "number",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Number of created/deleted files on Asterinas",
             "value": "688",
             "unit": "number",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -47896,13 +47896,13 @@ window.BENCHMARK_DATA = {
             "name": "Number of created/deleted files on Linux",
             "value": "1532",
             "unit": "number",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Number of created/deleted files on Asterinas",
             "value": "700",
             "unit": "number",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -47931,13 +47931,13 @@ window.BENCHMARK_DATA = {
             "name": "Number of created/deleted files on Linux",
             "value": "1381",
             "unit": "number",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Number of created/deleted files on Asterinas",
             "value": "639",
             "unit": "number",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -47966,13 +47966,13 @@ window.BENCHMARK_DATA = {
             "name": "Number of created/deleted files on Linux",
             "value": "1555",
             "unit": "number",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Number of created/deleted files on Asterinas",
             "value": "719",
             "unit": "number",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -48001,13 +48001,13 @@ window.BENCHMARK_DATA = {
             "name": "Number of created/deleted files on Linux",
             "value": "1555",
             "unit": "number",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Number of created/deleted files on Asterinas",
             "value": "680",
             "unit": "number",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -48036,13 +48036,13 @@ window.BENCHMARK_DATA = {
             "name": "Number of created/deleted files on Linux",
             "value": "1592",
             "unit": "number",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Number of created/deleted files on Asterinas",
             "value": "696",
             "unit": "number",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -48071,13 +48071,13 @@ window.BENCHMARK_DATA = {
             "name": "Number of created/deleted files on Linux",
             "value": "1587",
             "unit": "number",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Number of created/deleted files on Asterinas",
             "value": "637",
             "unit": "number",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -48106,13 +48106,13 @@ window.BENCHMARK_DATA = {
             "name": "Number of created/deleted files on Linux",
             "value": "1591",
             "unit": "number",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Number of created/deleted files on Asterinas",
             "value": "636",
             "unit": "number",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -48141,13 +48141,13 @@ window.BENCHMARK_DATA = {
             "name": "Number of created/deleted files on Linux",
             "value": "1466",
             "unit": "number",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Number of created/deleted files on Asterinas",
             "value": "702",
             "unit": "number",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -48176,13 +48176,13 @@ window.BENCHMARK_DATA = {
             "name": "Number of created/deleted files on Linux",
             "value": "1457",
             "unit": "number",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Number of created/deleted files on Asterinas",
             "value": "702",
             "unit": "number",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -48211,13 +48211,13 @@ window.BENCHMARK_DATA = {
             "name": "Number of created/deleted files on Linux",
             "value": "1285",
             "unit": "number",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Number of created/deleted files on Asterinas",
             "value": "711",
             "unit": "number",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -48246,13 +48246,13 @@ window.BENCHMARK_DATA = {
             "name": "Number of created/deleted files on Linux",
             "value": "1480",
             "unit": "number",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Number of created/deleted files on Asterinas",
             "value": "634",
             "unit": "number",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -48281,13 +48281,13 @@ window.BENCHMARK_DATA = {
             "name": "Number of created/deleted files on Linux",
             "value": "1346",
             "unit": "number",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Number of created/deleted files on Asterinas",
             "value": "710",
             "unit": "number",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -48316,13 +48316,13 @@ window.BENCHMARK_DATA = {
             "name": "Number of created/deleted files on Linux",
             "value": "1356",
             "unit": "number",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Number of created/deleted files on Asterinas",
             "value": "676",
             "unit": "number",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -48351,13 +48351,13 @@ window.BENCHMARK_DATA = {
             "name": "Number of created/deleted files on Linux",
             "value": "1445",
             "unit": "number",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Number of created/deleted files on Asterinas",
             "value": "703",
             "unit": "number",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -48386,13 +48386,13 @@ window.BENCHMARK_DATA = {
             "name": "Number of created/deleted files on Linux",
             "value": "1567",
             "unit": "number",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Number of created/deleted files on Asterinas",
             "value": "669",
             "unit": "number",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -48421,13 +48421,13 @@ window.BENCHMARK_DATA = {
             "name": "Number of created/deleted files on Linux",
             "value": "1370",
             "unit": "number",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Number of created/deleted files on Asterinas",
             "value": "681",
             "unit": "number",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -48456,13 +48456,13 @@ window.BENCHMARK_DATA = {
             "name": "Number of created/deleted files on Linux",
             "value": "1546",
             "unit": "number",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Number of created/deleted files on Asterinas",
             "value": "709",
             "unit": "number",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -48491,13 +48491,13 @@ window.BENCHMARK_DATA = {
             "name": "Number of created/deleted files on Linux",
             "value": "1562",
             "unit": "number",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Number of created/deleted files on Asterinas",
             "value": "722",
             "unit": "number",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -48565,13 +48565,13 @@ window.BENCHMARK_DATA = {
             "name": "Number of created/deleted files on Linux",
             "value": "2453",
             "unit": "number",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Number of created/deleted files on Asterinas",
             "value": "1024",
             "unit": "number",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -48600,13 +48600,13 @@ window.BENCHMARK_DATA = {
             "name": "Number of created/deleted files on Linux",
             "value": "2333",
             "unit": "number",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Number of created/deleted files on Asterinas",
             "value": "979",
             "unit": "number",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -48635,13 +48635,13 @@ window.BENCHMARK_DATA = {
             "name": "Number of created/deleted files on Linux",
             "value": "2430",
             "unit": "number",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Number of created/deleted files on Asterinas",
             "value": "987",
             "unit": "number",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -48670,13 +48670,13 @@ window.BENCHMARK_DATA = {
             "name": "Number of created/deleted files on Linux",
             "value": "2203",
             "unit": "number",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Number of created/deleted files on Asterinas",
             "value": "971",
             "unit": "number",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -48705,13 +48705,13 @@ window.BENCHMARK_DATA = {
             "name": "Number of created/deleted files on Linux",
             "value": "2487",
             "unit": "number",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Number of created/deleted files on Asterinas",
             "value": "1001",
             "unit": "number",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -48740,13 +48740,13 @@ window.BENCHMARK_DATA = {
             "name": "Number of created/deleted files on Linux",
             "value": "2540",
             "unit": "number",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Number of created/deleted files on Asterinas",
             "value": "1027",
             "unit": "number",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -48775,13 +48775,13 @@ window.BENCHMARK_DATA = {
             "name": "Number of created/deleted files on Linux",
             "value": "2528",
             "unit": "number",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Number of created/deleted files on Asterinas",
             "value": "987",
             "unit": "number",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -48810,13 +48810,13 @@ window.BENCHMARK_DATA = {
             "name": "Number of created/deleted files on Linux",
             "value": "2443",
             "unit": "number",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Number of created/deleted files on Asterinas",
             "value": "1020",
             "unit": "number",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -48845,13 +48845,13 @@ window.BENCHMARK_DATA = {
             "name": "Number of created/deleted files on Linux",
             "value": "2377",
             "unit": "number",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Number of created/deleted files on Asterinas",
             "value": "997",
             "unit": "number",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -48880,13 +48880,13 @@ window.BENCHMARK_DATA = {
             "name": "Number of created/deleted files on Linux",
             "value": "2367",
             "unit": "number",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Number of created/deleted files on Asterinas",
             "value": "1043",
             "unit": "number",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -48915,13 +48915,13 @@ window.BENCHMARK_DATA = {
             "name": "Number of created/deleted files on Linux",
             "value": "2479",
             "unit": "number",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Number of created/deleted files on Asterinas",
             "value": "1009",
             "unit": "number",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -48950,13 +48950,13 @@ window.BENCHMARK_DATA = {
             "name": "Number of created/deleted files on Linux",
             "value": "3720",
             "unit": "number",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Number of created/deleted files on Asterinas",
             "value": "1015",
             "unit": "number",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -48985,13 +48985,13 @@ window.BENCHMARK_DATA = {
             "name": "Number of created/deleted files on Linux",
             "value": "3795",
             "unit": "number",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Number of created/deleted files on Asterinas",
             "value": "1027",
             "unit": "number",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -49020,13 +49020,13 @@ window.BENCHMARK_DATA = {
             "name": "Number of created/deleted files on Linux",
             "value": "3765",
             "unit": "number",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Number of created/deleted files on Asterinas",
             "value": "998",
             "unit": "number",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -49055,13 +49055,13 @@ window.BENCHMARK_DATA = {
             "name": "Number of created/deleted files on Linux",
             "value": "3725",
             "unit": "number",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Number of created/deleted files on Asterinas",
             "value": "1021",
             "unit": "number",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -49090,13 +49090,13 @@ window.BENCHMARK_DATA = {
             "name": "Number of created/deleted files on Linux",
             "value": "3780",
             "unit": "number",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Number of created/deleted files on Asterinas",
             "value": "1024",
             "unit": "number",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -49125,13 +49125,13 @@ window.BENCHMARK_DATA = {
             "name": "Number of created/deleted files on Linux",
             "value": "4070",
             "unit": "number",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Number of created/deleted files on Asterinas",
             "value": "932",
             "unit": "number",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -49160,13 +49160,13 @@ window.BENCHMARK_DATA = {
             "name": "Number of created/deleted files on Linux",
             "value": "3827",
             "unit": "number",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Number of created/deleted files on Asterinas",
             "value": "914",
             "unit": "number",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -49195,13 +49195,13 @@ window.BENCHMARK_DATA = {
             "name": "Number of created/deleted files on Linux",
             "value": "3785",
             "unit": "number",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Number of created/deleted files on Asterinas",
             "value": "935",
             "unit": "number",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -49230,13 +49230,13 @@ window.BENCHMARK_DATA = {
             "name": "Number of created/deleted files on Linux",
             "value": "3653",
             "unit": "number",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Number of created/deleted files on Asterinas",
             "value": "993",
             "unit": "number",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -49265,13 +49265,13 @@ window.BENCHMARK_DATA = {
             "name": "Number of created/deleted files on Linux",
             "value": "3583",
             "unit": "number",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Number of created/deleted files on Asterinas",
             "value": "930",
             "unit": "number",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -49300,13 +49300,13 @@ window.BENCHMARK_DATA = {
             "name": "Number of created/deleted files on Linux",
             "value": "3863",
             "unit": "number",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Number of created/deleted files on Asterinas",
             "value": "929",
             "unit": "number",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -49335,13 +49335,13 @@ window.BENCHMARK_DATA = {
             "name": "Number of created/deleted files on Linux",
             "value": "3611",
             "unit": "number",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Number of created/deleted files on Asterinas",
             "value": "949",
             "unit": "number",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -49370,13 +49370,13 @@ window.BENCHMARK_DATA = {
             "name": "Number of created/deleted files on Linux",
             "value": "3738",
             "unit": "number",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Number of created/deleted files on Asterinas",
             "value": "930",
             "unit": "number",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -49405,13 +49405,13 @@ window.BENCHMARK_DATA = {
             "name": "Number of created/deleted files on Linux",
             "value": "3625",
             "unit": "number",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Number of created/deleted files on Asterinas",
             "value": "912",
             "unit": "number",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -49440,13 +49440,13 @@ window.BENCHMARK_DATA = {
             "name": "Number of created/deleted files on Linux",
             "value": "3371",
             "unit": "number",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Number of created/deleted files on Asterinas",
             "value": "947",
             "unit": "number",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -49475,13 +49475,13 @@ window.BENCHMARK_DATA = {
             "name": "Number of created/deleted files on Linux",
             "value": "3711",
             "unit": "number",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Number of created/deleted files on Asterinas",
             "value": "1006",
             "unit": "number",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -49510,13 +49510,13 @@ window.BENCHMARK_DATA = {
             "name": "Number of created/deleted files on Linux",
             "value": "3592",
             "unit": "number",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Number of created/deleted files on Asterinas",
             "value": "988",
             "unit": "number",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -49545,13 +49545,13 @@ window.BENCHMARK_DATA = {
             "name": "Number of created/deleted files on Linux",
             "value": "6300",
             "unit": "number",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Number of created/deleted files on Asterinas",
             "value": "1024",
             "unit": "number",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -49580,13 +49580,13 @@ window.BENCHMARK_DATA = {
             "name": "Number of created/deleted files on Linux",
             "value": "3529",
             "unit": "number",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Number of created/deleted files on Asterinas",
             "value": "981",
             "unit": "number",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -49615,13 +49615,13 @@ window.BENCHMARK_DATA = {
             "name": "Number of created/deleted files on Linux",
             "value": "3745",
             "unit": "number",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Number of created/deleted files on Asterinas",
             "value": "1016",
             "unit": "number",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -49650,13 +49650,13 @@ window.BENCHMARK_DATA = {
             "name": "Number of created/deleted files on Linux",
             "value": "3583",
             "unit": "number",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Number of created/deleted files on Asterinas",
             "value": "951",
             "unit": "number",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -49724,13 +49724,13 @@ window.BENCHMARK_DATA = {
             "name": "Average page fault latency on Linux",
             "value": "0.1327",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average page fault latency on Asterinas",
             "value": "1.4525",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -49759,13 +49759,13 @@ window.BENCHMARK_DATA = {
             "name": "Average page fault latency on Linux",
             "value": "0.1371",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average page fault latency on Asterinas",
             "value": "1.6260",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -49794,13 +49794,13 @@ window.BENCHMARK_DATA = {
             "name": "Average page fault latency on Linux",
             "value": "0.1376",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average page fault latency on Asterinas",
             "value": "1.4982",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -49829,13 +49829,13 @@ window.BENCHMARK_DATA = {
             "name": "Average page fault latency on Linux",
             "value": "0.1384",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average page fault latency on Asterinas",
             "value": "1.5279",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -49864,13 +49864,13 @@ window.BENCHMARK_DATA = {
             "name": "Average page fault latency on Linux",
             "value": "0.1335",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average page fault latency on Asterinas",
             "value": "1.5166",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -49899,13 +49899,13 @@ window.BENCHMARK_DATA = {
             "name": "Average page fault latency on Linux",
             "value": "0.1332",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average page fault latency on Asterinas",
             "value": "1.1747",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -49934,13 +49934,13 @@ window.BENCHMARK_DATA = {
             "name": "Average page fault latency on Linux",
             "value": "0.1336",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average page fault latency on Asterinas",
             "value": "1.2064",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -49969,13 +49969,13 @@ window.BENCHMARK_DATA = {
             "name": "Average page fault latency on Linux",
             "value": "0.1189",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average page fault latency on Asterinas",
             "value": "1.2275",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -50004,13 +50004,13 @@ window.BENCHMARK_DATA = {
             "name": "Average page fault latency on Linux",
             "value": "0.1214",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average page fault latency on Asterinas",
             "value": "1.1461",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -50039,13 +50039,13 @@ window.BENCHMARK_DATA = {
             "name": "Average page fault latency on Linux",
             "value": "0.1211",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average page fault latency on Asterinas",
             "value": "0.2741",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -50074,13 +50074,13 @@ window.BENCHMARK_DATA = {
             "name": "Average page fault latency on Linux",
             "value": "0.1195",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average page fault latency on Asterinas",
             "value": "0.2010",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -50109,13 +50109,13 @@ window.BENCHMARK_DATA = {
             "name": "Average page fault latency on Linux",
             "value": "0.1176",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average page fault latency on Asterinas",
             "value": "0.1941",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -50144,13 +50144,13 @@ window.BENCHMARK_DATA = {
             "name": "Average page fault latency on Linux",
             "value": "0.1175",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average page fault latency on Asterinas",
             "value": "0.1925",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -50179,13 +50179,13 @@ window.BENCHMARK_DATA = {
             "name": "Average page fault latency on Linux",
             "value": "0.1237",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average page fault latency on Asterinas",
             "value": "0.1947",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -50214,13 +50214,13 @@ window.BENCHMARK_DATA = {
             "name": "Average page fault latency on Linux",
             "value": "0.1211",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average page fault latency on Asterinas",
             "value": "0.2058",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -50249,13 +50249,13 @@ window.BENCHMARK_DATA = {
             "name": "Average page fault latency on Linux",
             "value": "0.1193",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average page fault latency on Asterinas",
             "value": "0.1936",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -50284,13 +50284,13 @@ window.BENCHMARK_DATA = {
             "name": "Average page fault latency on Linux",
             "value": "0.1182",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average page fault latency on Asterinas",
             "value": "0.1891",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -50319,13 +50319,13 @@ window.BENCHMARK_DATA = {
             "name": "Average page fault latency on Linux",
             "value": "0.1230",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average page fault latency on Asterinas",
             "value": "0.1822",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -50354,13 +50354,13 @@ window.BENCHMARK_DATA = {
             "name": "Average page fault latency on Linux",
             "value": "0.1177",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average page fault latency on Asterinas",
             "value": "0.1806",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -50389,13 +50389,13 @@ window.BENCHMARK_DATA = {
             "name": "Average page fault latency on Linux",
             "value": "0.1174",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average page fault latency on Asterinas",
             "value": "0.1824",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -50424,13 +50424,13 @@ window.BENCHMARK_DATA = {
             "name": "Average page fault latency on Linux",
             "value": "0.1190",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average page fault latency on Asterinas",
             "value": "0.1866",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -50459,13 +50459,13 @@ window.BENCHMARK_DATA = {
             "name": "Average page fault latency on Linux",
             "value": "0.1186",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average page fault latency on Asterinas",
             "value": "0.1793",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -50494,13 +50494,13 @@ window.BENCHMARK_DATA = {
             "name": "Average page fault latency on Linux",
             "value": "0.1220",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average page fault latency on Asterinas",
             "value": "0.1791",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -50529,13 +50529,13 @@ window.BENCHMARK_DATA = {
             "name": "Average page fault latency on Linux",
             "value": "0.1191",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average page fault latency on Asterinas",
             "value": "0.1828",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -50564,13 +50564,13 @@ window.BENCHMARK_DATA = {
             "name": "Average page fault latency on Linux",
             "value": "0.1185",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average page fault latency on Asterinas",
             "value": "0.1784",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -50599,13 +50599,13 @@ window.BENCHMARK_DATA = {
             "name": "Average page fault latency on Linux",
             "value": "0.1186",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average page fault latency on Asterinas",
             "value": "0.1856",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -50634,13 +50634,13 @@ window.BENCHMARK_DATA = {
             "name": "Average page fault latency on Linux",
             "value": "0.1449",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average page fault latency on Asterinas",
             "value": "0.1810",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -50669,13 +50669,13 @@ window.BENCHMARK_DATA = {
             "name": "Average page fault latency on Linux",
             "value": "0.1110",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average page fault latency on Asterinas",
             "value": "0.1743",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -50743,13 +50743,13 @@ window.BENCHMARK_DATA = {
             "name": "Average file locking latency on Linux",
             "value": "2.5620",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average file locking latency on Asterinas",
             "value": "0.8688",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -50778,13 +50778,13 @@ window.BENCHMARK_DATA = {
             "name": "Average file locking latency on Linux",
             "value": "2.8874",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average file locking latency on Asterinas",
             "value": "0.8695",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -50813,13 +50813,13 @@ window.BENCHMARK_DATA = {
             "name": "Average file locking latency on Linux",
             "value": "2.9072",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average file locking latency on Asterinas",
             "value": "0.8569",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -50848,13 +50848,13 @@ window.BENCHMARK_DATA = {
             "name": "Average file locking latency on Linux",
             "value": "2.8055",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average file locking latency on Asterinas",
             "value": "0.8603",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -50883,13 +50883,13 @@ window.BENCHMARK_DATA = {
             "name": "Average file locking latency on Linux",
             "value": "2.7798",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average file locking latency on Asterinas",
             "value": "0.8543",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -50918,13 +50918,13 @@ window.BENCHMARK_DATA = {
             "name": "Average file locking latency on Linux",
             "value": "2.9901",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average file locking latency on Asterinas",
             "value": "0.8424",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -50953,13 +50953,13 @@ window.BENCHMARK_DATA = {
             "name": "Average file locking latency on Linux",
             "value": "1.4414",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average file locking latency on Asterinas",
             "value": "0.8471",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -50988,13 +50988,13 @@ window.BENCHMARK_DATA = {
             "name": "Average file locking latency on Linux",
             "value": "1.6443",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average file locking latency on Asterinas",
             "value": "0.8742",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -51023,13 +51023,13 @@ window.BENCHMARK_DATA = {
             "name": "Average file locking latency on Linux",
             "value": "2.2342",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average file locking latency on Asterinas",
             "value": "0.8620",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -51058,13 +51058,13 @@ window.BENCHMARK_DATA = {
             "name": "Average file locking latency on Linux",
             "value": "2.1833",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average file locking latency on Asterinas",
             "value": "0.8748",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -51093,13 +51093,13 @@ window.BENCHMARK_DATA = {
             "name": "Average file locking latency on Linux",
             "value": "1.6239",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average file locking latency on Asterinas",
             "value": "0.8706",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -51128,13 +51128,13 @@ window.BENCHMARK_DATA = {
             "name": "Average file locking latency on Linux",
             "value": "1.6384",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average file locking latency on Asterinas",
             "value": "0.8702",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -51163,13 +51163,13 @@ window.BENCHMARK_DATA = {
             "name": "Average file locking latency on Linux",
             "value": "1.6054",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average file locking latency on Asterinas",
             "value": "3.1228",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -51198,13 +51198,13 @@ window.BENCHMARK_DATA = {
             "name": "Average file locking latency on Linux",
             "value": "1.6438",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average file locking latency on Asterinas",
             "value": "3.1635",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -51233,13 +51233,13 @@ window.BENCHMARK_DATA = {
             "name": "Average file locking latency on Linux",
             "value": "1.7951",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average file locking latency on Asterinas",
             "value": "3.1573",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -51268,13 +51268,13 @@ window.BENCHMARK_DATA = {
             "name": "Average file locking latency on Linux",
             "value": "1.6292",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average file locking latency on Asterinas",
             "value": "2.9781",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -51303,13 +51303,13 @@ window.BENCHMARK_DATA = {
             "name": "Average file locking latency on Linux",
             "value": "1.6269",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average file locking latency on Asterinas",
             "value": "2.9669",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -51338,13 +51338,13 @@ window.BENCHMARK_DATA = {
             "name": "Average file locking latency on Linux",
             "value": "1.6353",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average file locking latency on Asterinas",
             "value": "2.9588",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -51373,13 +51373,13 @@ window.BENCHMARK_DATA = {
             "name": "Average file locking latency on Linux",
             "value": "1.8976",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average file locking latency on Asterinas",
             "value": "2.9620",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -51408,13 +51408,13 @@ window.BENCHMARK_DATA = {
             "name": "Average file locking latency on Linux",
             "value": "1.7847",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average file locking latency on Asterinas",
             "value": "2.8675",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -51443,13 +51443,13 @@ window.BENCHMARK_DATA = {
             "name": "Average file locking latency on Linux",
             "value": "1.6472",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average file locking latency on Asterinas",
             "value": "2.9474",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -51478,13 +51478,13 @@ window.BENCHMARK_DATA = {
             "name": "Average file locking latency on Linux",
             "value": "1.6348",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average file locking latency on Asterinas",
             "value": "2.9190",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -51513,13 +51513,13 @@ window.BENCHMARK_DATA = {
             "name": "Average file locking latency on Linux",
             "value": "1.8745",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average file locking latency on Asterinas",
             "value": "2.9417",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -51548,13 +51548,13 @@ window.BENCHMARK_DATA = {
             "name": "Average file locking latency on Linux",
             "value": "1.6214",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average file locking latency on Asterinas",
             "value": "2.9435",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -51583,13 +51583,13 @@ window.BENCHMARK_DATA = {
             "name": "Average file locking latency on Linux",
             "value": "1.8700",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average file locking latency on Asterinas",
             "value": "2.9699",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -51618,13 +51618,13 @@ window.BENCHMARK_DATA = {
             "name": "Average file locking latency on Linux",
             "value": "1.6301",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average file locking latency on Asterinas",
             "value": "2.9625",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -51692,13 +51692,13 @@ window.BENCHMARK_DATA = {
             "name": "Average mmap bandwidth on Linux",
             "value": "25709.75",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average mmap bandwidth on Asterinas",
             "value": "25880.78",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -51727,13 +51727,13 @@ window.BENCHMARK_DATA = {
             "name": "Average mmap bandwidth on Linux",
             "value": "26237.46",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average mmap bandwidth on Asterinas",
             "value": "25776.40",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -51762,13 +51762,13 @@ window.BENCHMARK_DATA = {
             "name": "Average mmap bandwidth on Linux",
             "value": "24423.21",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average mmap bandwidth on Asterinas",
             "value": "25169.76",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -51797,13 +51797,13 @@ window.BENCHMARK_DATA = {
             "name": "Average mmap bandwidth on Linux",
             "value": "24813.78",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average mmap bandwidth on Asterinas",
             "value": "26366.32",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -51832,13 +51832,13 @@ window.BENCHMARK_DATA = {
             "name": "Average mmap bandwidth on Linux",
             "value": "22687.24",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average mmap bandwidth on Asterinas",
             "value": "25761.56",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -51867,13 +51867,13 @@ window.BENCHMARK_DATA = {
             "name": "Average mmap bandwidth on Linux",
             "value": "23160.95",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average mmap bandwidth on Asterinas",
             "value": "22482.03",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -51902,13 +51902,13 @@ window.BENCHMARK_DATA = {
             "name": "Average mmap bandwidth on Linux",
             "value": "28220.72",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average mmap bandwidth on Asterinas",
             "value": "26104.78",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -51937,13 +51937,13 @@ window.BENCHMARK_DATA = {
             "name": "Average mmap bandwidth on Linux",
             "value": "30907.94",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average mmap bandwidth on Asterinas",
             "value": "29168.26",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -51972,13 +51972,13 @@ window.BENCHMARK_DATA = {
             "name": "Average mmap bandwidth on Linux",
             "value": "28265.29",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average mmap bandwidth on Asterinas",
             "value": "26087.02",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -52007,13 +52007,13 @@ window.BENCHMARK_DATA = {
             "name": "Average mmap bandwidth on Linux",
             "value": "21047.16",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average mmap bandwidth on Asterinas",
             "value": "24681.45",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -52042,13 +52042,13 @@ window.BENCHMARK_DATA = {
             "name": "Average mmap bandwidth on Linux",
             "value": "26827.45",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average mmap bandwidth on Asterinas",
             "value": "28058.48",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -52077,13 +52077,13 @@ window.BENCHMARK_DATA = {
             "name": "Average mmap bandwidth on Linux",
             "value": "31144.62",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average mmap bandwidth on Asterinas",
             "value": "24715.54",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -52112,13 +52112,13 @@ window.BENCHMARK_DATA = {
             "name": "Average mmap bandwidth on Linux",
             "value": "23582.14",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average mmap bandwidth on Asterinas",
             "value": "23265.34",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -52147,13 +52147,13 @@ window.BENCHMARK_DATA = {
             "name": "Average mmap bandwidth on Linux",
             "value": "22137.18",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average mmap bandwidth on Asterinas",
             "value": "25281.17",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -52182,13 +52182,13 @@ window.BENCHMARK_DATA = {
             "name": "Average mmap bandwidth on Linux",
             "value": "25811.10",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average mmap bandwidth on Asterinas",
             "value": "24512.41",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -52217,13 +52217,13 @@ window.BENCHMARK_DATA = {
             "name": "Average mmap bandwidth on Linux",
             "value": "24624.85",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average mmap bandwidth on Asterinas",
             "value": "31036.59",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -52252,13 +52252,13 @@ window.BENCHMARK_DATA = {
             "name": "Average mmap bandwidth on Linux",
             "value": "24387.70",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average mmap bandwidth on Asterinas",
             "value": "25297.85",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -52287,13 +52287,13 @@ window.BENCHMARK_DATA = {
             "name": "Average mmap bandwidth on Linux",
             "value": "24469.96",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average mmap bandwidth on Asterinas",
             "value": "22793.19",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -52322,13 +52322,13 @@ window.BENCHMARK_DATA = {
             "name": "Average mmap bandwidth on Linux",
             "value": "24103.03",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average mmap bandwidth on Asterinas",
             "value": "30957.84",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -52357,13 +52357,13 @@ window.BENCHMARK_DATA = {
             "name": "Average mmap bandwidth on Linux",
             "value": "24940.58",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average mmap bandwidth on Asterinas",
             "value": "25494.87",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -52392,13 +52392,13 @@ window.BENCHMARK_DATA = {
             "name": "Average mmap bandwidth on Linux",
             "value": "21788.59",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average mmap bandwidth on Asterinas",
             "value": "24051.20",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -52427,13 +52427,13 @@ window.BENCHMARK_DATA = {
             "name": "Average mmap bandwidth on Linux",
             "value": "22015.54",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average mmap bandwidth on Asterinas",
             "value": "28746.57",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -52462,13 +52462,13 @@ window.BENCHMARK_DATA = {
             "name": "Average mmap bandwidth on Linux",
             "value": "23476.95",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average mmap bandwidth on Asterinas",
             "value": "22866.98",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -52497,13 +52497,13 @@ window.BENCHMARK_DATA = {
             "name": "Average mmap bandwidth on Linux",
             "value": "27136.62",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average mmap bandwidth on Asterinas",
             "value": "27296.67",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -52532,13 +52532,13 @@ window.BENCHMARK_DATA = {
             "name": "Average mmap bandwidth on Linux",
             "value": "21409.75",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average mmap bandwidth on Asterinas",
             "value": "24512.41",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -52567,13 +52567,13 @@ window.BENCHMARK_DATA = {
             "name": "Average mmap bandwidth on Linux",
             "value": "24523.61",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average mmap bandwidth on Asterinas",
             "value": "27221.93",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -52602,13 +52602,13 @@ window.BENCHMARK_DATA = {
             "name": "Average mmap bandwidth on Linux",
             "value": "26117.48",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average mmap bandwidth on Asterinas",
             "value": "16875.30",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -52676,13 +52676,13 @@ window.BENCHMARK_DATA = {
             "name": "Average mmap latency on Linux",
             "value": "1958",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average mmap latency on Asterinas",
             "value": "2216",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -52711,13 +52711,13 @@ window.BENCHMARK_DATA = {
             "name": "Average mmap latency on Linux",
             "value": "1824",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average mmap latency on Asterinas",
             "value": "2227",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -52746,13 +52746,13 @@ window.BENCHMARK_DATA = {
             "name": "Average mmap latency on Linux",
             "value": "1923",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average mmap latency on Asterinas",
             "value": "2240",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -52781,13 +52781,13 @@ window.BENCHMARK_DATA = {
             "name": "Average mmap latency on Linux",
             "value": "1957",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average mmap latency on Asterinas",
             "value": "2278",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -52816,13 +52816,13 @@ window.BENCHMARK_DATA = {
             "name": "Average mmap latency on Linux",
             "value": "1893",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average mmap latency on Asterinas",
             "value": "2407",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -52851,13 +52851,13 @@ window.BENCHMARK_DATA = {
             "name": "Average mmap latency on Linux",
             "value": "1857",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average mmap latency on Asterinas",
             "value": "2158",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -52886,13 +52886,13 @@ window.BENCHMARK_DATA = {
             "name": "Average mmap latency on Linux",
             "value": "1407",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average mmap latency on Asterinas",
             "value": "2214",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -52921,13 +52921,13 @@ window.BENCHMARK_DATA = {
             "name": "Average mmap latency on Linux",
             "value": "1403",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average mmap latency on Asterinas",
             "value": "2336",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -52956,13 +52956,13 @@ window.BENCHMARK_DATA = {
             "name": "Average mmap latency on Linux",
             "value": "1408",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average mmap latency on Asterinas",
             "value": "2171",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -52991,13 +52991,13 @@ window.BENCHMARK_DATA = {
             "name": "Average mmap latency on Linux",
             "value": "1394",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average mmap latency on Asterinas",
             "value": "2076",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -53026,13 +53026,13 @@ window.BENCHMARK_DATA = {
             "name": "Average mmap latency on Linux",
             "value": "1413",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average mmap latency on Asterinas",
             "value": "2094",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -53061,13 +53061,13 @@ window.BENCHMARK_DATA = {
             "name": "Average mmap latency on Linux",
             "value": "1393",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average mmap latency on Asterinas",
             "value": "2075",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -53096,13 +53096,13 @@ window.BENCHMARK_DATA = {
             "name": "Average mmap latency on Linux",
             "value": "1448",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average mmap latency on Asterinas",
             "value": "2064",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -53131,13 +53131,13 @@ window.BENCHMARK_DATA = {
             "name": "Average mmap latency on Linux",
             "value": "1388",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average mmap latency on Asterinas",
             "value": "2081",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -53166,13 +53166,13 @@ window.BENCHMARK_DATA = {
             "name": "Average mmap latency on Linux",
             "value": "1382",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average mmap latency on Asterinas",
             "value": "2054",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -53201,13 +53201,13 @@ window.BENCHMARK_DATA = {
             "name": "Average mmap latency on Linux",
             "value": "1391",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average mmap latency on Asterinas",
             "value": "2040",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -53236,13 +53236,13 @@ window.BENCHMARK_DATA = {
             "name": "Average mmap latency on Linux",
             "value": "1408",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average mmap latency on Asterinas",
             "value": "2021",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -53271,13 +53271,13 @@ window.BENCHMARK_DATA = {
             "name": "Average mmap latency on Linux",
             "value": "1414",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average mmap latency on Asterinas",
             "value": "1983",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -53306,13 +53306,13 @@ window.BENCHMARK_DATA = {
             "name": "Average mmap latency on Linux",
             "value": "1398",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average mmap latency on Asterinas",
             "value": "2063",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -53341,13 +53341,13 @@ window.BENCHMARK_DATA = {
             "name": "Average mmap latency on Linux",
             "value": "1392",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average mmap latency on Asterinas",
             "value": "2015",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -53376,13 +53376,13 @@ window.BENCHMARK_DATA = {
             "name": "Average mmap latency on Linux",
             "value": "1385",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average mmap latency on Asterinas",
             "value": "2051",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -53411,13 +53411,13 @@ window.BENCHMARK_DATA = {
             "name": "Average mmap latency on Linux",
             "value": "1378",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average mmap latency on Asterinas",
             "value": "1976",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -53446,13 +53446,13 @@ window.BENCHMARK_DATA = {
             "name": "Average mmap latency on Linux",
             "value": "1396",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average mmap latency on Asterinas",
             "value": "1985",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -53481,13 +53481,13 @@ window.BENCHMARK_DATA = {
             "name": "Average mmap latency on Linux",
             "value": "1454",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average mmap latency on Asterinas",
             "value": "2059",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -53516,13 +53516,13 @@ window.BENCHMARK_DATA = {
             "name": "Average mmap latency on Linux",
             "value": "1401",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average mmap latency on Asterinas",
             "value": "1985",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -53551,13 +53551,13 @@ window.BENCHMARK_DATA = {
             "name": "Average mmap latency on Linux",
             "value": "1384",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average mmap latency on Asterinas",
             "value": "2044",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -53586,13 +53586,13 @@ window.BENCHMARK_DATA = {
             "name": "Average mmap latency on Linux",
             "value": "27",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average mmap latency on Asterinas",
             "value": "34",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -53660,13 +53660,13 @@ window.BENCHMARK_DATA = {
             "name": "Average semaphore latency on Linux",
             "value": "0.7166",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average semaphore latency on Asterinas",
             "value": "1.1637",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -53695,13 +53695,13 @@ window.BENCHMARK_DATA = {
             "name": "Average semaphore latency on Linux",
             "value": "0.6670",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average semaphore latency on Asterinas",
             "value": "1.1829",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -53730,13 +53730,13 @@ window.BENCHMARK_DATA = {
             "name": "Average semaphore latency on Linux",
             "value": "0.7131",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average semaphore latency on Asterinas",
             "value": "1.1836",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -53765,13 +53765,13 @@ window.BENCHMARK_DATA = {
             "name": "Average semaphore latency on Linux",
             "value": "0.6893",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average semaphore latency on Asterinas",
             "value": "1.1586",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -53800,13 +53800,13 @@ window.BENCHMARK_DATA = {
             "name": "Average semaphore latency on Linux",
             "value": "0.6730",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average semaphore latency on Asterinas",
             "value": "1.1821",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -53835,13 +53835,13 @@ window.BENCHMARK_DATA = {
             "name": "Average semaphore latency on Linux",
             "value": "0.6640",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average semaphore latency on Asterinas",
             "value": "1.1811",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -53870,13 +53870,13 @@ window.BENCHMARK_DATA = {
             "name": "Average semaphore latency on Linux",
             "value": "0.4247",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average semaphore latency on Asterinas",
             "value": "0.9076",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -53905,13 +53905,13 @@ window.BENCHMARK_DATA = {
             "name": "Average semaphore latency on Linux",
             "value": "0.4844",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average semaphore latency on Asterinas",
             "value": "0.9551",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -53940,13 +53940,13 @@ window.BENCHMARK_DATA = {
             "name": "Average semaphore latency on Linux",
             "value": "0.4998",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average semaphore latency on Asterinas",
             "value": "1.0071",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -53975,13 +53975,13 @@ window.BENCHMARK_DATA = {
             "name": "Average semaphore latency on Linux",
             "value": "0.4791",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average semaphore latency on Asterinas",
             "value": "0.9409",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -54010,13 +54010,13 @@ window.BENCHMARK_DATA = {
             "name": "Average semaphore latency on Linux",
             "value": "0.5132",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average semaphore latency on Asterinas",
             "value": "1.0098",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -54045,13 +54045,13 @@ window.BENCHMARK_DATA = {
             "name": "Average semaphore latency on Linux",
             "value": "0.4847",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average semaphore latency on Asterinas",
             "value": "1.0038",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -54080,13 +54080,13 @@ window.BENCHMARK_DATA = {
             "name": "Average semaphore latency on Linux",
             "value": "0.4752",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average semaphore latency on Asterinas",
             "value": "0.8477",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -54115,13 +54115,13 @@ window.BENCHMARK_DATA = {
             "name": "Average semaphore latency on Linux",
             "value": "0.4778",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average semaphore latency on Asterinas",
             "value": "0.7907",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -54150,13 +54150,13 @@ window.BENCHMARK_DATA = {
             "name": "Average semaphore latency on Linux",
             "value": "0.4637",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average semaphore latency on Asterinas",
             "value": "0.8008",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -54185,13 +54185,13 @@ window.BENCHMARK_DATA = {
             "name": "Average semaphore latency on Linux",
             "value": "0.4599",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average semaphore latency on Asterinas",
             "value": "0.7666",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -54220,13 +54220,13 @@ window.BENCHMARK_DATA = {
             "name": "Average semaphore latency on Linux",
             "value": "0.4934",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average semaphore latency on Asterinas",
             "value": "0.7545",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -54255,13 +54255,13 @@ window.BENCHMARK_DATA = {
             "name": "Average semaphore latency on Linux",
             "value": "0.5065",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average semaphore latency on Asterinas",
             "value": "0.7685",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -54290,13 +54290,13 @@ window.BENCHMARK_DATA = {
             "name": "Average semaphore latency on Linux",
             "value": "0.4724",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average semaphore latency on Asterinas",
             "value": "0.7484",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -54325,13 +54325,13 @@ window.BENCHMARK_DATA = {
             "name": "Average semaphore latency on Linux",
             "value": "0.4952",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average semaphore latency on Asterinas",
             "value": "0.7612",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -54360,13 +54360,13 @@ window.BENCHMARK_DATA = {
             "name": "Average semaphore latency on Linux",
             "value": "0.4877",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average semaphore latency on Asterinas",
             "value": "0.7564",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -54395,13 +54395,13 @@ window.BENCHMARK_DATA = {
             "name": "Average semaphore latency on Linux",
             "value": "0.4483",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average semaphore latency on Asterinas",
             "value": "0.7515",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -54430,13 +54430,13 @@ window.BENCHMARK_DATA = {
             "name": "Average semaphore latency on Linux",
             "value": "0.4716",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average semaphore latency on Asterinas",
             "value": "0.7646",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -54465,13 +54465,13 @@ window.BENCHMARK_DATA = {
             "name": "Average semaphore latency on Linux",
             "value": "0.4628",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average semaphore latency on Asterinas",
             "value": "0.7631",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -54500,13 +54500,13 @@ window.BENCHMARK_DATA = {
             "name": "Average semaphore latency on Linux",
             "value": "0.4402",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average semaphore latency on Asterinas",
             "value": "0.7528",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -54535,13 +54535,13 @@ window.BENCHMARK_DATA = {
             "name": "Average semaphore latency on Linux",
             "value": "0.4854",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average semaphore latency on Asterinas",
             "value": "0.7650",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -54609,13 +54609,13 @@ window.BENCHMARK_DATA = {
             "name": "Average protection fault latency on Linux",
             "value": "0.6409",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average protection fault latency on Asterinas",
             "value": "0.6136",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -54644,13 +54644,13 @@ window.BENCHMARK_DATA = {
             "name": "Average protection fault latency on Linux",
             "value": "0.6444",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average protection fault latency on Asterinas",
             "value": "0.6242",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -54679,13 +54679,13 @@ window.BENCHMARK_DATA = {
             "name": "Average protection fault latency on Linux",
             "value": "0.6749",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average protection fault latency on Asterinas",
             "value": "0.6079",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -54714,13 +54714,13 @@ window.BENCHMARK_DATA = {
             "name": "Average protection fault latency on Linux",
             "value": "0.6617",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average protection fault latency on Asterinas",
             "value": "0.6104",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -54749,13 +54749,13 @@ window.BENCHMARK_DATA = {
             "name": "Average protection fault latency on Linux",
             "value": "0.6558",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average protection fault latency on Asterinas",
             "value": "0.6254",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -54784,13 +54784,13 @@ window.BENCHMARK_DATA = {
             "name": "Average protection fault latency on Linux",
             "value": "0.6362",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average protection fault latency on Asterinas",
             "value": "0.6455",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -54819,13 +54819,13 @@ window.BENCHMARK_DATA = {
             "name": "Average protection fault latency on Linux",
             "value": "0.4639",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average protection fault latency on Asterinas",
             "value": "0.6385",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -54854,13 +54854,13 @@ window.BENCHMARK_DATA = {
             "name": "Average protection fault latency on Linux",
             "value": "0.4727",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average protection fault latency on Asterinas",
             "value": "0.6086",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -54889,13 +54889,13 @@ window.BENCHMARK_DATA = {
             "name": "Average protection fault latency on Linux",
             "value": "0.4587",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average protection fault latency on Asterinas",
             "value": "0.6063",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -54924,13 +54924,13 @@ window.BENCHMARK_DATA = {
             "name": "Average protection fault latency on Linux",
             "value": "0.4504",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average protection fault latency on Asterinas",
             "value": "0.5731",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -54959,13 +54959,13 @@ window.BENCHMARK_DATA = {
             "name": "Average protection fault latency on Linux",
             "value": "0.4506",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average protection fault latency on Asterinas",
             "value": "0.5232",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -54994,13 +54994,13 @@ window.BENCHMARK_DATA = {
             "name": "Average protection fault latency on Linux",
             "value": "0.4655",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average protection fault latency on Asterinas",
             "value": "0.5196",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -55029,13 +55029,13 @@ window.BENCHMARK_DATA = {
             "name": "Average protection fault latency on Linux",
             "value": "0.4465",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average protection fault latency on Asterinas",
             "value": "0.5407",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -55064,13 +55064,13 @@ window.BENCHMARK_DATA = {
             "name": "Average protection fault latency on Linux",
             "value": "0.4800",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average protection fault latency on Asterinas",
             "value": "0.5648",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -55099,13 +55099,13 @@ window.BENCHMARK_DATA = {
             "name": "Average protection fault latency on Linux",
             "value": "0.4840",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average protection fault latency on Asterinas",
             "value": "0.5153",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -55134,13 +55134,13 @@ window.BENCHMARK_DATA = {
             "name": "Average protection fault latency on Linux",
             "value": "0.4770",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average protection fault latency on Asterinas",
             "value": "0.5059",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -55169,13 +55169,13 @@ window.BENCHMARK_DATA = {
             "name": "Average protection fault latency on Linux",
             "value": "0.4616",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average protection fault latency on Asterinas",
             "value": "0.5465",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -55204,13 +55204,13 @@ window.BENCHMARK_DATA = {
             "name": "Average protection fault latency on Linux",
             "value": "0.4581",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average protection fault latency on Asterinas",
             "value": "0.5046",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -55239,13 +55239,13 @@ window.BENCHMARK_DATA = {
             "name": "Average protection fault latency on Linux",
             "value": "0.4457",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average protection fault latency on Asterinas",
             "value": "0.5404",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -55274,13 +55274,13 @@ window.BENCHMARK_DATA = {
             "name": "Average protection fault latency on Linux",
             "value": "0.4507",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average protection fault latency on Asterinas",
             "value": "0.5520",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -55309,13 +55309,13 @@ window.BENCHMARK_DATA = {
             "name": "Average protection fault latency on Linux",
             "value": "0.4784",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average protection fault latency on Asterinas",
             "value": "0.5530",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -55344,13 +55344,13 @@ window.BENCHMARK_DATA = {
             "name": "Average protection fault latency on Linux",
             "value": "0.4630",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average protection fault latency on Asterinas",
             "value": "0.5262",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -55379,13 +55379,13 @@ window.BENCHMARK_DATA = {
             "name": "Average protection fault latency on Linux",
             "value": "0.4645",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average protection fault latency on Asterinas",
             "value": "0.5185",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -55414,13 +55414,13 @@ window.BENCHMARK_DATA = {
             "name": "Average protection fault latency on Linux",
             "value": "0.4779",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average protection fault latency on Asterinas",
             "value": "0.5243",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -55449,13 +55449,13 @@ window.BENCHMARK_DATA = {
             "name": "Average protection fault latency on Linux",
             "value": "0.4633",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average protection fault latency on Asterinas",
             "value": "0.5138",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -55484,13 +55484,13 @@ window.BENCHMARK_DATA = {
             "name": "Average protection fault latency on Linux",
             "value": "0.4621",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average protection fault latency on Asterinas",
             "value": "0.4997",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -55519,13 +55519,13 @@ window.BENCHMARK_DATA = {
             "name": "Average protection fault latency on Linux",
             "value": "0.4739",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average protection fault latency on Asterinas",
             "value": "0.4710",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -55593,13 +55593,13 @@ window.BENCHMARK_DATA = {
             "name": "Average file copy bandwidth on Linux",
             "value": "secs,",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average file copy bandwidth on Asterinas",
             "value": "secs,",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -55628,13 +55628,13 @@ window.BENCHMARK_DATA = {
             "name": "Average file copy bandwidth on Linux",
             "value": "1676.0892",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average file copy bandwidth on Asterinas",
             "value": "245.0363",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -55663,13 +55663,13 @@ window.BENCHMARK_DATA = {
             "name": "Average file copy bandwidth on Linux",
             "value": "1683.8726",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average file copy bandwidth on Asterinas",
             "value": "231.2000",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -55698,13 +55698,13 @@ window.BENCHMARK_DATA = {
             "name": "Average file copy bandwidth on Linux",
             "value": "1745.1947",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average file copy bandwidth on Asterinas",
             "value": "243.8894",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -55733,13 +55733,13 @@ window.BENCHMARK_DATA = {
             "name": "Average file copy bandwidth on Linux",
             "value": "1749.9428",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average file copy bandwidth on Asterinas",
             "value": "251.9183",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -55768,13 +55768,13 @@ window.BENCHMARK_DATA = {
             "name": "Average file copy bandwidth on Linux",
             "value": "1740.6795",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average file copy bandwidth on Asterinas",
             "value": "248.8788",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -55803,13 +55803,13 @@ window.BENCHMARK_DATA = {
             "name": "Average file copy bandwidth on Linux",
             "value": "1738.5871",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average file copy bandwidth on Asterinas",
             "value": "2764.3997",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -55838,13 +55838,13 @@ window.BENCHMARK_DATA = {
             "name": "Average file copy bandwidth on Linux",
             "value": "1744.1603",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average file copy bandwidth on Asterinas",
             "value": "2772.1228",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -55873,13 +55873,13 @@ window.BENCHMARK_DATA = {
             "name": "Average file copy bandwidth on Linux",
             "value": "1751.8048",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average file copy bandwidth on Asterinas",
             "value": "2799.4664",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -55908,13 +55908,13 @@ window.BENCHMARK_DATA = {
             "name": "Average file copy bandwidth on Linux",
             "value": "1738.9060",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average file copy bandwidth on Asterinas",
             "value": "2628.9441",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -55943,13 +55943,13 @@ window.BENCHMARK_DATA = {
             "name": "Average file copy bandwidth on Linux",
             "value": "1753.8151",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average file copy bandwidth on Asterinas",
             "value": "2768.7948",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -55978,13 +55978,13 @@ window.BENCHMARK_DATA = {
             "name": "Average file copy bandwidth on Linux",
             "value": "1745.5696",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average file copy bandwidth on Asterinas",
             "value": "2797.9824",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -56013,13 +56013,13 @@ window.BENCHMARK_DATA = {
             "name": "Average file copy bandwidth on Linux",
             "value": "1751.1158",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average file copy bandwidth on Asterinas",
             "value": "2772.9636",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -56048,13 +56048,13 @@ window.BENCHMARK_DATA = {
             "name": "Average file copy bandwidth on Linux",
             "value": "1736.0993",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average file copy bandwidth on Asterinas",
             "value": "2750.3075",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -56083,13 +56083,13 @@ window.BENCHMARK_DATA = {
             "name": "Average file copy bandwidth on Linux",
             "value": "1741.6684",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average file copy bandwidth on Asterinas",
             "value": "2794.9734",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -56118,13 +56118,13 @@ window.BENCHMARK_DATA = {
             "name": "Average file copy bandwidth on Linux",
             "value": "1765.8034",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average file copy bandwidth on Asterinas",
             "value": "2920.9740",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -56153,13 +56153,13 @@ window.BENCHMARK_DATA = {
             "name": "Average file copy bandwidth on Linux",
             "value": "1744.4753",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average file copy bandwidth on Asterinas",
             "value": "2629.8488",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -56188,13 +56188,13 @@ window.BENCHMARK_DATA = {
             "name": "Average file copy bandwidth on Linux",
             "value": "1730.5892",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average file copy bandwidth on Asterinas",
             "value": "2836.5808",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -56223,13 +56223,13 @@ window.BENCHMARK_DATA = {
             "name": "Average file copy bandwidth on Linux",
             "value": "1756.6733",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average file copy bandwidth on Asterinas",
             "value": "2778.9839",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -56258,13 +56258,13 @@ window.BENCHMARK_DATA = {
             "name": "Average file copy bandwidth on Linux",
             "value": "1724.1960",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average file copy bandwidth on Asterinas",
             "value": "2793.2351",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -56293,13 +56293,13 @@ window.BENCHMARK_DATA = {
             "name": "Average file copy bandwidth on Linux",
             "value": "1738.1268",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average file copy bandwidth on Asterinas",
             "value": "2660.3069",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -56328,13 +56328,13 @@ window.BENCHMARK_DATA = {
             "name": "Average file copy bandwidth on Linux",
             "value": "1744.8022",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average file copy bandwidth on Asterinas",
             "value": "2849.8750",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -56363,13 +56363,13 @@ window.BENCHMARK_DATA = {
             "name": "Average file copy bandwidth on Linux",
             "value": "1750.2359",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average file copy bandwidth on Asterinas",
             "value": "2670.9653",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -56398,13 +56398,13 @@ window.BENCHMARK_DATA = {
             "name": "Average file copy bandwidth on Linux",
             "value": "1751.3075",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average file copy bandwidth on Asterinas",
             "value": "2783.0776",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -56472,13 +56472,13 @@ window.BENCHMARK_DATA = {
             "name": "Average fifo latency on Linux",
             "value": "3.8192",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average fifo latency on Asterinas",
             "value": "3.5780",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -56507,13 +56507,13 @@ window.BENCHMARK_DATA = {
             "name": "Average fifo latency on Linux",
             "value": "3.7081",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average fifo latency on Asterinas",
             "value": "3.6718",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -56542,13 +56542,13 @@ window.BENCHMARK_DATA = {
             "name": "Average fifo latency on Linux",
             "value": "2.3188",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average fifo latency on Asterinas",
             "value": "3.6924",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -56577,13 +56577,13 @@ window.BENCHMARK_DATA = {
             "name": "Average fifo latency on Linux",
             "value": "2.6399",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average fifo latency on Asterinas",
             "value": "3.7309",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -56612,13 +56612,13 @@ window.BENCHMARK_DATA = {
             "name": "Average fifo latency on Linux",
             "value": "2.6002",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average fifo latency on Asterinas",
             "value": "3.7057",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -56647,13 +56647,13 @@ window.BENCHMARK_DATA = {
             "name": "Average fifo latency on Linux",
             "value": "2.6195",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average fifo latency on Asterinas",
             "value": "3.6908",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -56682,13 +56682,13 @@ window.BENCHMARK_DATA = {
             "name": "Average fifo latency on Linux",
             "value": "2.6355",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average fifo latency on Asterinas",
             "value": "3.7137",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -56717,13 +56717,13 @@ window.BENCHMARK_DATA = {
             "name": "Average fifo latency on Linux",
             "value": "2.6352",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average fifo latency on Asterinas",
             "value": "3.5257",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -56752,13 +56752,13 @@ window.BENCHMARK_DATA = {
             "name": "Average fifo latency on Linux",
             "value": "2.6383",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average fifo latency on Asterinas",
             "value": "3.6708",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -56787,13 +56787,13 @@ window.BENCHMARK_DATA = {
             "name": "Average fifo latency on Linux",
             "value": "2.6388",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average fifo latency on Asterinas",
             "value": "3.6549",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -56822,13 +56822,13 @@ window.BENCHMARK_DATA = {
             "name": "Average fifo latency on Linux",
             "value": "2.6373",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average fifo latency on Asterinas",
             "value": "3.6591",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -56857,13 +56857,13 @@ window.BENCHMARK_DATA = {
             "name": "Average fifo latency on Linux",
             "value": "2.6357",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average fifo latency on Asterinas",
             "value": "3.3601",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -56892,13 +56892,13 @@ window.BENCHMARK_DATA = {
             "name": "Average fifo latency on Linux",
             "value": "2.6233",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average fifo latency on Asterinas",
             "value": "3.4152",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -56966,13 +56966,13 @@ window.BENCHMARK_DATA = {
             "name": "Average unix connect latency on Linux",
             "value": "7.1854",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average unix connect latency on Asterinas",
             "value": "7.3919",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -57001,13 +57001,13 @@ window.BENCHMARK_DATA = {
             "name": "Average unix connect latency on Linux",
             "value": "8.9710",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average unix connect latency on Asterinas",
             "value": "7.5114",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -57036,13 +57036,13 @@ window.BENCHMARK_DATA = {
             "name": "Average unix connect latency on Linux",
             "value": "6.3230",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average unix connect latency on Asterinas",
             "value": "7.4192",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -57071,13 +57071,13 @@ window.BENCHMARK_DATA = {
             "name": "Average unix connect latency on Linux",
             "value": "7.2427",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average unix connect latency on Asterinas",
             "value": "7.4904",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -57106,13 +57106,13 @@ window.BENCHMARK_DATA = {
             "name": "Average unix connect latency on Linux",
             "value": "7.1468",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average unix connect latency on Asterinas",
             "value": "7.6359",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -57141,13 +57141,13 @@ window.BENCHMARK_DATA = {
             "name": "Average unix connect latency on Linux",
             "value": "7.0940",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average unix connect latency on Asterinas",
             "value": "15.7114",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -57176,13 +57176,13 @@ window.BENCHMARK_DATA = {
             "name": "Average unix connect latency on Linux",
             "value": "6.9962",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average unix connect latency on Asterinas",
             "value": "9.5752",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -57211,13 +57211,13 @@ window.BENCHMARK_DATA = {
             "name": "Average unix connect latency on Linux",
             "value": "7.2369",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average unix connect latency on Asterinas",
             "value": "10.0257",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -57246,13 +57246,13 @@ window.BENCHMARK_DATA = {
             "name": "Average unix connect latency on Linux",
             "value": "7.3545",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average unix connect latency on Asterinas",
             "value": "9.2920",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -57281,13 +57281,13 @@ window.BENCHMARK_DATA = {
             "name": "Average unix connect latency on Linux",
             "value": "7.1339",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average unix connect latency on Asterinas",
             "value": "9.1622",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -57316,13 +57316,13 @@ window.BENCHMARK_DATA = {
             "name": "Average unix connect latency on Linux",
             "value": "6.8803",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average unix connect latency on Asterinas",
             "value": "9.2454",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -57351,13 +57351,13 @@ window.BENCHMARK_DATA = {
             "name": "Average unix connect latency on Linux",
             "value": "7.2745",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average unix connect latency on Asterinas",
             "value": "9.2831",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -57386,13 +57386,13 @@ window.BENCHMARK_DATA = {
             "name": "Average unix connect latency on Linux",
             "value": "7.2891",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average unix connect latency on Asterinas",
             "value": "9.3087",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -57421,13 +57421,13 @@ window.BENCHMARK_DATA = {
             "name": "Average unix connect latency on Linux",
             "value": "7.2219",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average unix connect latency on Asterinas",
             "value": "9.0956",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -57456,13 +57456,13 @@ window.BENCHMARK_DATA = {
             "name": "Average unix connect latency on Linux",
             "value": "7.2270",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average unix connect latency on Asterinas",
             "value": "9.2920",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -57491,13 +57491,13 @@ window.BENCHMARK_DATA = {
             "name": "Average unix connect latency on Linux",
             "value": "7.1237",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average unix connect latency on Asterinas",
             "value": "9.3168",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -57526,13 +57526,13 @@ window.BENCHMARK_DATA = {
             "name": "Average unix connect latency on Linux",
             "value": "7.1927",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average unix connect latency on Asterinas",
             "value": "9.2966",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -57561,13 +57561,13 @@ window.BENCHMARK_DATA = {
             "name": "Average unix connect latency on Linux",
             "value": "7.3067",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average unix connect latency on Asterinas",
             "value": "9.3767",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -57596,13 +57596,13 @@ window.BENCHMARK_DATA = {
             "name": "Average unix connect latency on Linux",
             "value": "7.1483",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average unix connect latency on Asterinas",
             "value": "9.1329",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -57631,13 +57631,13 @@ window.BENCHMARK_DATA = {
             "name": "Average unix connect latency on Linux",
             "value": "7.2204",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average unix connect latency on Asterinas",
             "value": "9.3845",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -57666,13 +57666,13 @@ window.BENCHMARK_DATA = {
             "name": "Average unix connect latency on Linux",
             "value": "7.2409",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average unix connect latency on Asterinas",
             "value": "9.3413",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -57701,13 +57701,13 @@ window.BENCHMARK_DATA = {
             "name": "Average unix connect latency on Linux",
             "value": "7.1357",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average unix connect latency on Asterinas",
             "value": "9.0017",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -57736,13 +57736,13 @@ window.BENCHMARK_DATA = {
             "name": "Average unix connect latency on Linux",
             "value": "7.2008",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average unix connect latency on Asterinas",
             "value": "8.8511",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -57810,13 +57810,13 @@ window.BENCHMARK_DATA = {
             "name": "Average simple HTTP transaction bandwidth on Linux",
             "value": "4076.85",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average simple HTTP transaction bandwidth on Asterinas",
             "value": "18.44",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -57845,13 +57845,13 @@ window.BENCHMARK_DATA = {
             "name": "Average simple HTTP transaction bandwidth on Linux",
             "value": "4056.15",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average simple HTTP transaction bandwidth on Asterinas",
             "value": "17.91",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -57880,13 +57880,13 @@ window.BENCHMARK_DATA = {
             "name": "Average simple HTTP transaction bandwidth on Linux",
             "value": "4206.93",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average simple HTTP transaction bandwidth on Asterinas",
             "value": "18.25",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -57915,13 +57915,13 @@ window.BENCHMARK_DATA = {
             "name": "Average simple HTTP transaction bandwidth on Linux",
             "value": "4126.23",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average simple HTTP transaction bandwidth on Asterinas",
             "value": "18.56",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -57950,13 +57950,13 @@ window.BENCHMARK_DATA = {
             "name": "Average simple HTTP transaction bandwidth on Linux",
             "value": "4122.17",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average simple HTTP transaction bandwidth on Asterinas",
             "value": "18.43",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -57985,13 +57985,13 @@ window.BENCHMARK_DATA = {
             "name": "Average simple HTTP transaction bandwidth on Linux",
             "value": "4244.72",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average simple HTTP transaction bandwidth on Asterinas",
             "value": "18.75",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -58020,13 +58020,13 @@ window.BENCHMARK_DATA = {
             "name": "Average simple HTTP transaction bandwidth on Linux",
             "value": "4155.61",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average simple HTTP transaction bandwidth on Asterinas",
             "value": "18.16",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -58055,13 +58055,13 @@ window.BENCHMARK_DATA = {
             "name": "Average simple HTTP transaction bandwidth on Linux",
             "value": "4229.47",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average simple HTTP transaction bandwidth on Asterinas",
             "value": "18.25",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -58090,13 +58090,13 @@ window.BENCHMARK_DATA = {
             "name": "Average simple HTTP transaction bandwidth on Linux",
             "value": "4179.16",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average simple HTTP transaction bandwidth on Asterinas",
             "value": "18.01",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -58125,13 +58125,13 @@ window.BENCHMARK_DATA = {
             "name": "Average simple HTTP transaction bandwidth on Linux",
             "value": "4195.89",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average simple HTTP transaction bandwidth on Asterinas",
             "value": "18.45",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -58160,13 +58160,13 @@ window.BENCHMARK_DATA = {
             "name": "Average simple HTTP transaction bandwidth on Linux",
             "value": "4282.64",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average simple HTTP transaction bandwidth on Asterinas",
             "value": "18.26",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -58195,13 +58195,13 @@ window.BENCHMARK_DATA = {
             "name": "Average simple HTTP transaction bandwidth on Linux",
             "value": "4175.52",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average simple HTTP transaction bandwidth on Asterinas",
             "value": "18.76",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -58230,13 +58230,13 @@ window.BENCHMARK_DATA = {
             "name": "Average simple HTTP transaction bandwidth on Linux",
             "value": "4126.23",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average simple HTTP transaction bandwidth on Asterinas",
             "value": "18.65",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -58304,13 +58304,13 @@ window.BENCHMARK_DATA = {
             "name": "Average select TCP latency on Linux",
             "value": "2.8514",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average select TCP latency on Asterinas",
             "value": "1.6486",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -58339,13 +58339,13 @@ window.BENCHMARK_DATA = {
             "name": "Average select TCP latency on Linux",
             "value": "2.8350",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average select TCP latency on Asterinas",
             "value": "1.6348",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -58374,13 +58374,13 @@ window.BENCHMARK_DATA = {
             "name": "Average select TCP latency on Linux",
             "value": "2.8510",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average select TCP latency on Asterinas",
             "value": "1.6686",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -58409,13 +58409,13 @@ window.BENCHMARK_DATA = {
             "name": "Average select TCP latency on Linux",
             "value": "2.8597",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average select TCP latency on Asterinas",
             "value": "1.6501",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -58444,13 +58444,13 @@ window.BENCHMARK_DATA = {
             "name": "Average select TCP latency on Linux",
             "value": "2.8767",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average select TCP latency on Asterinas",
             "value": "1.6882",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -58479,13 +58479,13 @@ window.BENCHMARK_DATA = {
             "name": "Average select TCP latency on Linux",
             "value": "2.8181",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average select TCP latency on Asterinas",
             "value": "1.6960",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -58514,13 +58514,13 @@ window.BENCHMARK_DATA = {
             "name": "Average select TCP latency on Linux",
             "value": "2.8594",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average select TCP latency on Asterinas",
             "value": "1.6770",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -58549,13 +58549,13 @@ window.BENCHMARK_DATA = {
             "name": "Average select TCP latency on Linux",
             "value": "2.8531",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average select TCP latency on Asterinas",
             "value": "1.6811",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -58584,13 +58584,13 @@ window.BENCHMARK_DATA = {
             "name": "Average select TCP latency on Linux",
             "value": "2.8643",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average select TCP latency on Asterinas",
             "value": "1.6965",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -58619,13 +58619,13 @@ window.BENCHMARK_DATA = {
             "name": "Average select TCP latency on Linux",
             "value": "2.8526",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average select TCP latency on Asterinas",
             "value": "1.6641",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -58654,13 +58654,13 @@ window.BENCHMARK_DATA = {
             "name": "Average select TCP latency on Linux",
             "value": "2.8532",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average select TCP latency on Asterinas",
             "value": "1.6704",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -58689,13 +58689,13 @@ window.BENCHMARK_DATA = {
             "name": "Average select TCP latency on Linux",
             "value": "2.8544",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average select TCP latency on Asterinas",
             "value": "1.6610",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -58724,13 +58724,13 @@ window.BENCHMARK_DATA = {
             "name": "Average select TCP latency on Linux",
             "value": "2.8296",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average select TCP latency on Asterinas",
             "value": "1.6780",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -58759,13 +58759,13 @@ window.BENCHMARK_DATA = {
             "name": "Average select TCP latency on Linux",
             "value": "2.8433",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average select TCP latency on Asterinas",
             "value": "1.6771",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -58794,13 +58794,13 @@ window.BENCHMARK_DATA = {
             "name": "Average select TCP latency on Linux",
             "value": "2.8351",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average select TCP latency on Asterinas",
             "value": "1.6729",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -58868,13 +58868,13 @@ window.BENCHMARK_DATA = {
             "name": "Average TCP connection latency on Linux",
             "value": "15.4448",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average TCP connection latency on Asterinas",
             "value": "25.0922",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -58903,13 +58903,13 @@ window.BENCHMARK_DATA = {
             "name": "Average TCP connection latency on Linux",
             "value": "15.4379",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average TCP connection latency on Asterinas",
             "value": "24.2632",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -58938,13 +58938,13 @@ window.BENCHMARK_DATA = {
             "name": "Average TCP connection latency on Linux",
             "value": "15.3343",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average TCP connection latency on Asterinas",
             "value": "24.0000",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -58973,13 +58973,13 @@ window.BENCHMARK_DATA = {
             "name": "Average TCP connection latency on Linux",
             "value": "15.3887",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average TCP connection latency on Asterinas",
             "value": "23.9345",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -59008,13 +59008,13 @@ window.BENCHMARK_DATA = {
             "name": "Average TCP connection latency on Linux",
             "value": "15.6382",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average TCP connection latency on Asterinas",
             "value": "22.0843",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -59043,13 +59043,13 @@ window.BENCHMARK_DATA = {
             "name": "Average TCP connection latency on Linux",
             "value": "15.0904",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average TCP connection latency on Asterinas",
             "value": "22.1406",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -59078,13 +59078,13 @@ window.BENCHMARK_DATA = {
             "name": "Average TCP connection latency on Linux",
             "value": "15.5581",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average TCP connection latency on Asterinas",
             "value": "21.6417",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -59113,13 +59113,13 @@ window.BENCHMARK_DATA = {
             "name": "Average TCP connection latency on Linux",
             "value": "15.5759",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average TCP connection latency on Asterinas",
             "value": "21.3398",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -59148,13 +59148,13 @@ window.BENCHMARK_DATA = {
             "name": "Average TCP connection latency on Linux",
             "value": "15.5650",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average TCP connection latency on Asterinas",
             "value": "21.3876",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -59183,13 +59183,13 @@ window.BENCHMARK_DATA = {
             "name": "Average TCP connection latency on Linux",
             "value": "15.5537",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average TCP connection latency on Asterinas",
             "value": "21.7638",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -59218,13 +59218,13 @@ window.BENCHMARK_DATA = {
             "name": "Average TCP connection latency on Linux",
             "value": "15.3174",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average TCP connection latency on Asterinas",
             "value": "21.8526",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -59253,13 +59253,13 @@ window.BENCHMARK_DATA = {
             "name": "Average TCP connection latency on Linux",
             "value": "15.2921",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average TCP connection latency on Asterinas",
             "value": "21.9405",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -59288,13 +59288,13 @@ window.BENCHMARK_DATA = {
             "name": "Average TCP connection latency on Linux",
             "value": "15.4118",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average TCP connection latency on Asterinas",
             "value": "21.5837",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -59323,13 +59323,13 @@ window.BENCHMARK_DATA = {
             "name": "Average TCP connection latency on Linux",
             "value": "15.2017",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average TCP connection latency on Asterinas",
             "value": "22.3520",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -59358,13 +59358,13 @@ window.BENCHMARK_DATA = {
             "name": "Average TCP connection latency on Linux",
             "value": "15.5852",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average TCP connection latency on Asterinas",
             "value": "21.5625",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -59432,13 +59432,13 @@ window.BENCHMARK_DATA = {
             "name": "Average TCP bandwidth on Linux",
             "value": "4374.38",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average TCP bandwidth on Asterinas",
             "value": "341.95",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -59467,13 +59467,13 @@ window.BENCHMARK_DATA = {
             "name": "Average TCP bandwidth on Linux",
             "value": "4404.74",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average TCP bandwidth on Asterinas",
             "value": "338.20",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -59502,13 +59502,13 @@ window.BENCHMARK_DATA = {
             "name": "Average TCP bandwidth on Linux",
             "value": "4396.13",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average TCP bandwidth on Asterinas",
             "value": "344.94",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -59537,13 +59537,13 @@ window.BENCHMARK_DATA = {
             "name": "Average TCP bandwidth on Linux",
             "value": "4382.58",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average TCP bandwidth on Asterinas",
             "value": "346.45",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -59572,13 +59572,13 @@ window.BENCHMARK_DATA = {
             "name": "Average TCP bandwidth on Linux",
             "value": "4374.06",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average TCP bandwidth on Asterinas",
             "value": "383.56",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -59607,13 +59607,13 @@ window.BENCHMARK_DATA = {
             "name": "Average TCP bandwidth on Linux",
             "value": "4411.26",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average TCP bandwidth on Asterinas",
             "value": "387.95",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -59642,13 +59642,13 @@ window.BENCHMARK_DATA = {
             "name": "Average TCP bandwidth on Linux",
             "value": "4394.62",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average TCP bandwidth on Asterinas",
             "value": "402.89",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -59677,13 +59677,13 @@ window.BENCHMARK_DATA = {
             "name": "Average TCP bandwidth on Linux",
             "value": "4411.01",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average TCP bandwidth on Asterinas",
             "value": "416.21",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -59712,13 +59712,13 @@ window.BENCHMARK_DATA = {
             "name": "Average TCP bandwidth on Linux",
             "value": "4409.43",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average TCP bandwidth on Asterinas",
             "value": "404.34",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -59747,13 +59747,13 @@ window.BENCHMARK_DATA = {
             "name": "Average TCP bandwidth on Linux",
             "value": "4419.85",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average TCP bandwidth on Asterinas",
             "value": "395.86",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -59782,13 +59782,13 @@ window.BENCHMARK_DATA = {
             "name": "Average TCP bandwidth on Linux",
             "value": "4406.82",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average TCP bandwidth on Asterinas",
             "value": "398.86",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -59817,13 +59817,13 @@ window.BENCHMARK_DATA = {
             "name": "Average TCP bandwidth on Linux",
             "value": "4383.03",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average TCP bandwidth on Asterinas",
             "value": "399.20",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -59852,13 +59852,13 @@ window.BENCHMARK_DATA = {
             "name": "Average TCP bandwidth on Linux",
             "value": "4416.14",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average TCP bandwidth on Asterinas",
             "value": "394.37",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -59887,13 +59887,13 @@ window.BENCHMARK_DATA = {
             "name": "Average TCP bandwidth on Linux",
             "value": "4416.29",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average TCP bandwidth on Asterinas",
             "value": "413.16",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -59922,13 +59922,13 @@ window.BENCHMARK_DATA = {
             "name": "Average TCP bandwidth on Linux",
             "value": "4389.03",
             "unit": "MB/s",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average TCP bandwidth on Asterinas",
             "value": "401.57",
             "unit": "MB/s",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -59996,13 +59996,13 @@ window.BENCHMARK_DATA = {
             "name": "Average TCP latency on Linux",
             "value": "6.0342",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average TCP latency on Asterinas",
             "value": "18.5213",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -60031,13 +60031,13 @@ window.BENCHMARK_DATA = {
             "name": "Average TCP latency on Linux",
             "value": "5.8532",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average TCP latency on Asterinas",
             "value": "18.4939",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -60066,13 +60066,13 @@ window.BENCHMARK_DATA = {
             "name": "Average TCP latency on Linux",
             "value": "5.8806",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average TCP latency on Asterinas",
             "value": "18.2440",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -60101,13 +60101,13 @@ window.BENCHMARK_DATA = {
             "name": "Average TCP latency on Linux",
             "value": "6.0597",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average TCP latency on Asterinas",
             "value": "18.1836",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -60136,13 +60136,13 @@ window.BENCHMARK_DATA = {
             "name": "Average TCP latency on Linux",
             "value": "6.0637",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average TCP latency on Asterinas",
             "value": "16.5164",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -60171,13 +60171,13 @@ window.BENCHMARK_DATA = {
             "name": "Average TCP latency on Linux",
             "value": "6.0421",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average TCP latency on Asterinas",
             "value": "16.5766",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -60206,13 +60206,13 @@ window.BENCHMARK_DATA = {
             "name": "Average TCP latency on Linux",
             "value": "6.0401",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average TCP latency on Asterinas",
             "value": "15.7618",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -60241,13 +60241,13 @@ window.BENCHMARK_DATA = {
             "name": "Average TCP latency on Linux",
             "value": "5.8662",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average TCP latency on Asterinas",
             "value": "15.4859",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -60276,13 +60276,13 @@ window.BENCHMARK_DATA = {
             "name": "Average TCP latency on Linux",
             "value": "6.0159",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average TCP latency on Asterinas",
             "value": "15.7229",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -60311,13 +60311,13 @@ window.BENCHMARK_DATA = {
             "name": "Average TCP latency on Linux",
             "value": "6.0301",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average TCP latency on Asterinas",
             "value": "15.9713",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -60346,13 +60346,13 @@ window.BENCHMARK_DATA = {
             "name": "Average TCP latency on Linux",
             "value": "6.0160",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average TCP latency on Asterinas",
             "value": "15.9656",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -60381,13 +60381,13 @@ window.BENCHMARK_DATA = {
             "name": "Average TCP latency on Linux",
             "value": "6.0274",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average TCP latency on Asterinas",
             "value": "15.9830",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -60416,13 +60416,13 @@ window.BENCHMARK_DATA = {
             "name": "Average TCP latency on Linux",
             "value": "5.8465",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average TCP latency on Asterinas",
             "value": "16.0576",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -60451,13 +60451,13 @@ window.BENCHMARK_DATA = {
             "name": "Average TCP latency on Linux",
             "value": "6.0307",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average TCP latency on Asterinas",
             "value": "15.4832",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -60486,13 +60486,13 @@ window.BENCHMARK_DATA = {
             "name": "Average TCP latency on Linux",
             "value": "5.8877",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average TCP latency on Asterinas",
             "value": "15.8405",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       }
@@ -60523,13 +60523,13 @@ window.BENCHMARK_DATA = {
             "name": "Average UDP latency on Linux",
             "value": "4.7817",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average UDP latency on Asterinas",
             "value": "370.7532",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -60558,13 +60558,13 @@ window.BENCHMARK_DATA = {
             "name": "Average UDP latency on Linux",
             "value": "4.7578",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average UDP latency on Asterinas",
             "value": "368.1171",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -60593,13 +60593,13 @@ window.BENCHMARK_DATA = {
             "name": "Average UDP latency on Linux",
             "value": "4.7754",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average UDP latency on Asterinas",
             "value": "372.5514",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -60628,13 +60628,13 @@ window.BENCHMARK_DATA = {
             "name": "Average UDP latency on Linux",
             "value": "4.7713",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average UDP latency on Asterinas",
             "value": "367.8151",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -60663,13 +60663,13 @@ window.BENCHMARK_DATA = {
             "name": "Average UDP latency on Linux",
             "value": "4.7644",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average UDP latency on Asterinas",
             "value": "373.0737",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -60698,13 +60698,13 @@ window.BENCHMARK_DATA = {
             "name": "Average UDP latency on Linux",
             "value": "4.7691",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average UDP latency on Asterinas",
             "value": "372.4621",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -60733,13 +60733,13 @@ window.BENCHMARK_DATA = {
             "name": "Average UDP latency on Linux",
             "value": "4.5978",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average UDP latency on Asterinas",
             "value": "376.5664",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -60768,13 +60768,13 @@ window.BENCHMARK_DATA = {
             "name": "Average UDP latency on Linux",
             "value": "4.7670",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average UDP latency on Asterinas",
             "value": "369.8238",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -60803,13 +60803,13 @@ window.BENCHMARK_DATA = {
             "name": "Average UDP latency on Linux",
             "value": "4.6013",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average UDP latency on Asterinas",
             "value": "372.2590",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -60838,13 +60838,13 @@ window.BENCHMARK_DATA = {
             "name": "Average UDP latency on Linux",
             "value": "4.7626",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average UDP latency on Asterinas",
             "value": "371.2790",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -60873,13 +60873,13 @@ window.BENCHMARK_DATA = {
             "name": "Average UDP latency on Linux",
             "value": "4.7748",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average UDP latency on Asterinas",
             "value": "378.2492",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -60908,13 +60908,13 @@ window.BENCHMARK_DATA = {
             "name": "Average UDP latency on Linux",
             "value": "4.7622",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average UDP latency on Asterinas",
             "value": "369.4238",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -60943,13 +60943,13 @@ window.BENCHMARK_DATA = {
             "name": "Average UDP latency on Linux",
             "value": "4.7681",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average UDP latency on Asterinas",
             "value": "379.8510",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -60978,13 +60978,13 @@ window.BENCHMARK_DATA = {
             "name": "Average UDP latency on Linux",
             "value": "4.7501",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average UDP latency on Asterinas",
             "value": "371.5900",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
@@ -61013,13 +61013,13 @@ window.BENCHMARK_DATA = {
             "name": "Average UDP latency on Linux",
             "value": "4.7637",
             "unit": "µs",
-            "extra": "linux_avg"
+            "extra": "linux_result"
           },
           {
             "name": "Average UDP latency on Asterinas",
             "value": "372.9157",
             "unit": "µs",
-            "extra": "aster_avg"
+            "extra": "aster_result"
           }
         ]
       },
