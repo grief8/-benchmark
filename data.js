@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1726640800808,
+  "lastUpdate": 1726640807334,
   "repoUrl": "https://github.com/grief8/asterinas",
   "entries": {
     "sysbench/thread_lat": [
@@ -62613,6 +62613,43 @@ window.BENCHMARK_DATA = {
           {
             "name": "Average Bandwidth between Host Linux and Guest Asterinas",
             "value": "8.28",
+            "unit": "Mbits/sec",
+            "extra": "aster_result"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Fabing Li",
+            "username": "grief8",
+            "email": "lifabing.lfb@antgroup.com"
+          },
+          "committer": {
+            "name": "Fabing Li",
+            "username": "grief8",
+            "email": "lifabing.lfb@antgroup.com"
+          },
+          "id": "adfb4a081356bea739a1720f284c3e66d6a96d19",
+          "message": "test",
+          "timestamp": "2024-09-14T03:47:04Z",
+          "url": "https://github.com/grief8/asterinas/commit/adfb4a081356bea739a1720f284c3e66d6a96d19"
+        },
+        "date": 1726640777527,
+        "tool": "customSmallerIsBetter",
+        "title": "[Network] iperf3 sender performance",
+        "description": "iperf3 -s -B 10.0.2.15",
+        "display": true,
+        "benches": [
+          {
+            "name": "Average Bandwidth between Host Linux and Guest Linux",
+            "value": "4847",
+            "unit": "Mbits/sec",
+            "extra": "linux_result"
+          },
+          {
+            "name": "Average Bandwidth between Host Linux and Guest Asterinas",
+            "value": "8.60",
             "unit": "Mbits/sec",
             "extra": "aster_result"
           }
