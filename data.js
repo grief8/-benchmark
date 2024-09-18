@@ -62895,7 +62895,7 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/grief8/asterinas/commit/adfb4a081356bea739a1720f284c3e66d6a96d19"
         },
         "date": 1726286025826,
-        "tool": "customSmallerIsBetter",
+        "tool": "customBiggerIsBetter",
         "title": "[Network] iperf3 sender performance",
         "description": "iperf3 -s -B 10.0.2.15",
         "display": true,
@@ -62932,7 +62932,7 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/grief8/asterinas/commit/adfb4a081356bea739a1720f284c3e66d6a96d19"
         },
         "date": 1726640777527,
-        "tool": "customSmallerIsBetter",
+        "tool": "customBiggerIsBetter",
         "title": "[Network] iperf3 sender performance",
         "description": "iperf3 -s -B 10.0.2.15",
         "display": true,
