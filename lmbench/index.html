@@ -183,25 +183,12 @@
             }
             return pathSegments[pathSegments.length - 1];
           })();
-
-          // Prepare data points for charts
-          let dataSets;
-          if (filter) {
-            dataSets = Object.keys(data.entries)
-              .filter(name => name.startsWith(filter))
+    
+          return Object.keys(data.entries)
               .map(name => ({
                 name,
                 dataSet: collectBenchesPerTestCase(data.entries[name]),
               }));
-          } else {
-            dataSets = Object.keys(data.entries)
-              .map(name => ({
-                name,
-                dataSet: collectBenchesPerTestCase(data.entries[name]),
-              }));
-          }
-          
-          return dataSets;
         }
 
         // Get normalized data with display flag

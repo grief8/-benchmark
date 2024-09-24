@@ -93,8 +93,8 @@
           max-width: 90%;
           width: auto; /* Make width adaptive */
           min-width: 1000px; /* Set minimum width to 1000px */
-          height: 80vh; /* Make height adaptive */
-          min-height: 1000px;
+          height: 50vh; /* Make height adaptive */
+          min-height: 50px;
           max-height: 1500px; /* Make height adaptive */
           background-color: #ffffff; /* White background for better chart display */
           box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Slight shadow */
@@ -183,25 +183,12 @@
             }
             return pathSegments[pathSegments.length - 1];
           })();
-
-          // Prepare data points for charts
-          let dataSets;
-          if (filter) {
-            dataSets = Object.keys(data.entries)
-              .filter(name => name.startsWith(filter))
+    
+          return Object.keys(data.entries)
               .map(name => ({
                 name,
                 dataSet: collectBenchesPerTestCase(data.entries[name]),
               }));
-          } else {
-            dataSets = Object.keys(data.entries)
-              .map(name => ({
-                name,
-                dataSet: collectBenchesPerTestCase(data.entries[name]),
-              }));
-          }
-          
-          return dataSets;
         }
 
         // Get normalized data with display flag
