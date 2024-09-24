@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1727169761446,
+  "lastUpdate": 1727169767906,
   "repoUrl": "https://github.com/grief8/asterinas",
   "entries": {
     "process_getppid_lat": [
@@ -17217,6 +17217,43 @@ window.BENCHMARK_DATA = {
           {
             "name": "Average stat latency on Asterinas",
             "value": "0.5533",
+            "unit": "µs",
+            "extra": "aster_result"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Fabing Li",
+            "username": "grief8",
+            "email": "lifabing.lfb@antgroup.com"
+          },
+          "committer": {
+            "name": "Fabing Li",
+            "username": "grief8",
+            "email": "lifabing.lfb@antgroup.com"
+          },
+          "id": "ad26045cec71394fd089843e1d54c22f246083a3",
+          "message": "Update",
+          "timestamp": "2024-09-24T09:16:16Z",
+          "url": "https://github.com/grief8/asterinas/commit/ad26045cec71394fd089843e1d54c22f246083a3"
+        },
+        "date": 1727169712315,
+        "tool": "customSmallerIsBetter",
+        "title": "[VFS] The cost of stat",
+        "description": "lat_syscall stat",
+        "display": true,
+        "benches": [
+          {
+            "name": "Average stat latency on Linux",
+            "value": "0.3982",
+            "unit": "µs",
+            "extra": "linux_result"
+          },
+          {
+            "name": "Average stat latency on Asterinas",
+            "value": "0.4613",
             "unit": "µs",
             "extra": "aster_result"
           }
