@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1727168665683,
+  "lastUpdate": 1727168672503,
   "repoUrl": "https://github.com/grief8/asterinas",
   "entries": {
     "ext2_copy_files_bw": [
@@ -8194,6 +8194,43 @@ window.BENCHMARK_DATA = {
           {
             "name": "Average context switch latency on Asterinas",
             "value": "1.00",
+            "unit": "µs",
+            "extra": "aster_result"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Fabing Li",
+            "username": "grief8",
+            "email": "lifabing.lfb@antgroup.com"
+          },
+          "committer": {
+            "name": "Fabing Li",
+            "username": "grief8",
+            "email": "lifabing.lfb@antgroup.com"
+          },
+          "id": "bb8d2fe583df04a06eaf4c931270c55dd06f48ae",
+          "message": "iuu",
+          "timestamp": "2024-09-24T06:58:54Z",
+          "url": "https://github.com/grief8/asterinas/commit/bb8d2fe583df04a06eaf4c931270c55dd06f48ae"
+        },
+        "date": 1727168646669,
+        "tool": "customSmallerIsBetter",
+        "title": "[Process] The cost of context switching",
+        "description": "lat_ctx 2",
+        "display": true,
+        "benches": [
+          {
+            "name": "Average context switch latency on Linux",
+            "value": "1.11",
+            "unit": "µs",
+            "extra": "linux_result"
+          },
+          {
+            "name": "Average context switch latency on Asterinas",
+            "value": "0.96",
             "unit": "µs",
             "extra": "aster_result"
           }
