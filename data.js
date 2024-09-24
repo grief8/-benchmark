@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1727160821165,
+  "lastUpdate": 1727160828159,
   "repoUrl": "https://github.com/grief8/asterinas",
   "entries": {
     "sysbench/thread_lat": [
@@ -63181,6 +63181,45 @@ window.BENCHMARK_DATA = {
             "name": "Average context switch latency on Asterinas",
             "value": "1.00",
             "unit": "µs",
+            "extra": "aster_result"
+          }
+        ]
+      }
+    ],
+    "mem_write_bw": [
+      {
+        "commit": {
+          "author": {
+            "name": "Fabing Li",
+            "username": "grief8",
+            "email": "lifabing.lfb@antgroup.com"
+          },
+          "committer": {
+            "name": "Fabing Li",
+            "username": "grief8",
+            "email": "lifabing.lfb@antgroup.com"
+          },
+          "id": "52871246d45bbd86954f1d1dd5c65c98e1656064",
+          "message": "uP",
+          "timestamp": "2024-09-24T06:48:01Z",
+          "url": "https://github.com/grief8/asterinas/commit/52871246d45bbd86954f1d1dd5c65c98e1656064"
+        },
+        "date": 1727160803371,
+        "tool": "customBiggerIsBetter",
+        "title": "[Memory] The bandwidth of writing integers",
+        "description": "bw_mem fwr",
+        "display": true,
+        "benches": [
+          {
+            "name": "Average memory write bandwidth on Linux",
+            "value": "4752.88",
+            "unit": "MB/s",
+            "extra": "linux_result"
+          },
+          {
+            "name": "Average memory write bandwidth on Asterinas",
+            "value": "4564.84",
+            "unit": "MB/s",
             "extra": "aster_result"
           }
         ]
