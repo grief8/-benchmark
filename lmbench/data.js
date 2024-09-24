@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1727168685832,
+  "lastUpdate": 1727168692700,
   "repoUrl": "https://github.com/grief8/asterinas",
   "entries": {
     "ext2_copy_files_bw": [
@@ -24995,6 +24995,43 @@ window.BENCHMARK_DATA = {
           {
             "name": "Average Signal handler overhead on Asterinas",
             "value": "0.5672",
+            "unit": "µs",
+            "extra": "aster_result"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Fabing Li",
+            "username": "grief8",
+            "email": "lifabing.lfb@antgroup.com"
+          },
+          "committer": {
+            "name": "Fabing Li",
+            "username": "grief8",
+            "email": "lifabing.lfb@antgroup.com"
+          },
+          "id": "bb8d2fe583df04a06eaf4c931270c55dd06f48ae",
+          "message": "iuu",
+          "timestamp": "2024-09-24T06:58:54Z",
+          "url": "https://github.com/grief8/asterinas/commit/bb8d2fe583df04a06eaf4c931270c55dd06f48ae"
+        },
+        "date": 1727168660308,
+        "tool": "customSmallerIsBetter",
+        "title": "[Signals] The cost of catching a signal",
+        "description": "lat_sig catch",
+        "display": true,
+        "benches": [
+          {
+            "name": "Average Signal handler overhead on Linux",
+            "value": "1.5892",
+            "unit": "µs",
+            "extra": "linux_result"
+          },
+          {
+            "name": "Average Signal handler overhead on Asterinas",
+            "value": "0.5465",
             "unit": "µs",
             "extra": "aster_result"
           }
