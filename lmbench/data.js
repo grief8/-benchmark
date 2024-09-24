@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1727170466010,
+  "lastUpdate": 1727170472923,
   "repoUrl": "https://github.com/grief8/asterinas",
   "entries": {
     "process_getppid_lat": [
@@ -24460,6 +24460,43 @@ window.BENCHMARK_DATA = {
           {
             "name": "Number of created/deleted files on Asterinas",
             "value": "171",
+            "unit": "number",
+            "extra": "aster_result"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Fabing Li",
+            "username": "grief8",
+            "email": "lifabing.lfb@antgroup.com"
+          },
+          "committer": {
+            "name": "Fabing Li",
+            "username": "grief8",
+            "email": "lifabing.lfb@antgroup.com"
+          },
+          "id": "ad26045cec71394fd089843e1d54c22f246083a3",
+          "message": "Update",
+          "timestamp": "2024-09-24T09:16:16Z",
+          "url": "https://github.com/grief8/asterinas/commit/ad26045cec71394fd089843e1d54c22f246083a3"
+        },
+        "date": 1727170408238,
+        "tool": "customBiggerIsBetter",
+        "title": "[Ext2] The cost of creating/deleting small files (0KB)",
+        "description": "lat_fs -s 0k /ext2",
+        "display": true,
+        "benches": [
+          {
+            "name": "Number of created/deleted files on Linux",
+            "value": "1289",
+            "unit": "number",
+            "extra": "linux_result"
+          },
+          {
+            "name": "Number of created/deleted files on Asterinas",
+            "value": "165",
             "unit": "number",
             "extra": "aster_result"
           }
