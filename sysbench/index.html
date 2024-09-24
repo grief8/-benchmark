@@ -449,11 +449,6 @@
           renderOverview(overviewElem, labels, asterinasValues);
         
           for (const {name, dataSet} of dataSets) {
-            // const display = dataSet.values().next().value.length > 0 ? dataSet.values().next().value[0].display : true;
-            // if (!display) {
-            //   continue;
-            // }
-
             const setElem = document.createElement('div');
             setElem.className = 'benchmark-set';
             main.appendChild(setElem);
@@ -462,7 +457,7 @@
             nameElem.className = 'benchmark-title';
             nameElem.textContent = dataSet.values().next().value.length > 0 ? dataSet.values().next().value[dataSet.values().next().value.length-1].title : '';
             setElem.appendChild(nameElem);
-            console.log(dataSet);
+            
             const descriptionElem = document.createElement('div');
             descriptionElem.className = 'chart-description';
             descriptionElem.textContent = dataSet.values().next().value.length > 0 ? dataSet.values().next().value[dataSet.values().next().value.length-1].description : '';
