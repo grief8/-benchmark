@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1727162370836,
+  "lastUpdate": 1727163003703,
   "repoUrl": "https://github.com/grief8/asterinas",
   "entries": {
     "vfs_open_lat": [
@@ -814,6 +814,45 @@ window.BENCHMARK_DATA = {
             "name": "Average unix bandwidth on Asterinas",
             "value": "14909.96",
             "unit": "MB/s",
+            "extra": "aster_result"
+          }
+        ]
+      }
+    ],
+    "signal_prot_lat": [
+      {
+        "commit": {
+          "author": {
+            "name": "Fabing Li",
+            "username": "grief8",
+            "email": "lifabing.lfb@antgroup.com"
+          },
+          "committer": {
+            "name": "Fabing Li",
+            "username": "grief8",
+            "email": "lifabing.lfb@antgroup.com"
+          },
+          "id": "bb8d2fe583df04a06eaf4c931270c55dd06f48ae",
+          "message": "iuu",
+          "timestamp": "2024-09-24T06:58:54Z",
+          "url": "https://github.com/grief8/asterinas/commit/bb8d2fe583df04a06eaf4c931270c55dd06f48ae"
+        },
+        "date": 1727162997850,
+        "tool": "customSmallerIsBetter",
+        "title": "[Signals] The cost of catching a segfault",
+        "description": "lat_sig prot",
+        "display": true,
+        "benches": [
+          {
+            "name": "Average protection fault latency on Linux",
+            "value": "0.2519",
+            "unit": "µs",
+            "extra": "linux_result"
+          },
+          {
+            "name": "Average protection fault latency on Asterinas",
+            "value": "0.4227",
+            "unit": "µs",
             "extra": "aster_result"
           }
         ]
