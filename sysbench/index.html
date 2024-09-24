@@ -93,9 +93,6 @@
           max-width: 90%;
           width: auto; /* Make width adaptive */
           min-width: 1000px; /* Set minimum width to 1000px */
-          height: 50vh; /* Make height adaptive */
-          min-height: 50px;
-          max-height: 1500px; /* Make height adaptive */
           background-color: #ffffff; /* White background for better chart display */
           box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Slight shadow */
       }
@@ -110,7 +107,7 @@
           margin-top: 0px; /* Added margin to create space between the title and the description */
           margin-bottom: 20px; /* Added margin to create space between the description and the figure below it */
       }
-  </style>
+    </style>
     <title>Benchmarks</title>
   </head>
 
@@ -253,6 +250,18 @@
             return colors[index % colors.length];
           }
 
+          function setCanvasHeight(canvas, numberOfBars) {
+            const heightPerBar = 50; // 每个条形的高度
+            const padding = 10; // 顶部和底部填充
+            const maxHeight = 1200; // 最大高度限制
+
+            // 计算总高度
+            const totalHeight = (heightPerBar * numberOfBars) + padding;
+
+            // 如果总高度超过最大高度限制，则使用最大高度
+            canvas.style.height = `${Math.min(totalHeight, maxHeight)}px`;
+          }
+
           function renderGraph(parent, benchSets) {
             const canvas = document.createElement('canvas');
             canvas.className = 'benchmark-chart';
@@ -342,6 +351,7 @@
           function renderOverview(ctx, labels, asterinasValues) {
                     const canvas = document.createElement('canvas');
                     canvas.className = 'benchmark-chart-overview';
+                    setCanvasHeight(canvas, labels.length);
                     ctx.appendChild(canvas);
                     new Chart(canvas, {
                         type: 'bar', // Use bar type
@@ -380,6 +390,8 @@
                                     }
                                 }
                             },
+                            barPercentage: 0.6, // 条形宽度（范围 0 到 1）
+                            categoryPercentage: 0.8, // 条形间距（范围 0 到 1）
                             plugins: {
                                 annotation: {
                                     annotations: [
