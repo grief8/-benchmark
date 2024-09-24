@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1727160862417,
+  "lastUpdate": 1727160869448,
   "repoUrl": "https://github.com/grief8/asterinas",
   "entries": {
     "sysbench/thread_lat": [
@@ -63415,6 +63415,45 @@ window.BENCHMARK_DATA = {
             "name": "Number of created/deleted files on Asterinas",
             "value": "1357",
             "unit": "number",
+            "extra": "aster_result"
+          }
+        ]
+      }
+    ],
+    "pipe_lat": [
+      {
+        "commit": {
+          "author": {
+            "name": "Fabing Li",
+            "username": "grief8",
+            "email": "lifabing.lfb@antgroup.com"
+          },
+          "committer": {
+            "name": "Fabing Li",
+            "username": "grief8",
+            "email": "lifabing.lfb@antgroup.com"
+          },
+          "id": "52871246d45bbd86954f1d1dd5c65c98e1656064",
+          "message": "uP",
+          "timestamp": "2024-09-24T06:48:01Z",
+          "url": "https://github.com/grief8/asterinas/commit/52871246d45bbd86954f1d1dd5c65c98e1656064"
+        },
+        "date": 1727160835929,
+        "tool": "customSmallerIsBetter",
+        "title": "[Pipes] The cost of write+read (1B)",
+        "description": "lat_pipe",
+        "display": true,
+        "benches": [
+          {
+            "name": "Average pipe latency on Linux",
+            "value": "2.6958",
+            "unit": "µs",
+            "extra": "linux_result"
+          },
+          {
+            "name": "Average pipe latency on Asterinas",
+            "value": "1.9610",
+            "unit": "µs",
             "extra": "aster_result"
           }
         ]
