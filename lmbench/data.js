@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1727166091304,
+  "lastUpdate": 1727166498682,
   "repoUrl": "https://github.com/grief8/asterinas",
   "entries": {
     "vfs_open_lat": [
@@ -1009,6 +1009,45 @@ window.BENCHMARK_DATA = {
             "name": "Average mmap latency on Asterinas",
             "value": "23",
             "unit": "µs",
+            "extra": "aster_result"
+          }
+        ]
+      }
+    ],
+    "mem_copy_bw": [
+      {
+        "commit": {
+          "author": {
+            "name": "Fabing Li",
+            "username": "grief8",
+            "email": "lifabing.lfb@antgroup.com"
+          },
+          "committer": {
+            "name": "Fabing Li",
+            "username": "grief8",
+            "email": "lifabing.lfb@antgroup.com"
+          },
+          "id": "bb8d2fe583df04a06eaf4c931270c55dd06f48ae",
+          "message": "iuu",
+          "timestamp": "2024-09-24T06:58:54Z",
+          "url": "https://github.com/grief8/asterinas/commit/bb8d2fe583df04a06eaf4c931270c55dd06f48ae"
+        },
+        "date": 1727166492944,
+        "tool": "customBiggerIsBetter",
+        "title": "[Memory] The bandwidth of copying integers",
+        "description": "bw_mem fcp",
+        "display": true,
+        "benches": [
+          {
+            "name": "Average memory copy bandwidth on Linux",
+            "value": "8363.00",
+            "unit": "MB/s",
+            "extra": "linux_result"
+          },
+          {
+            "name": "Average memory copy bandwidth on Asterinas",
+            "value": "7379.16",
+            "unit": "MB/s",
             "extra": "aster_result"
           }
         ]
