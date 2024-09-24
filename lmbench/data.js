@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1727169712633,
+  "lastUpdate": 1727169719843,
   "repoUrl": "https://github.com/grief8/asterinas",
   "entries": {
     "process_getppid_lat": [
@@ -25946,6 +25946,43 @@ window.BENCHMARK_DATA = {
           {
             "name": "Average memory read bandwidth on Asterinas",
             "value": "15944.42",
+            "unit": "MB/s",
+            "extra": "aster_result"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Fabing Li",
+            "username": "grief8",
+            "email": "lifabing.lfb@antgroup.com"
+          },
+          "committer": {
+            "name": "Fabing Li",
+            "username": "grief8",
+            "email": "lifabing.lfb@antgroup.com"
+          },
+          "id": "ad26045cec71394fd089843e1d54c22f246083a3",
+          "message": "Update",
+          "timestamp": "2024-09-24T09:16:16Z",
+          "url": "https://github.com/grief8/asterinas/commit/ad26045cec71394fd089843e1d54c22f246083a3"
+        },
+        "date": 1727169713830,
+        "tool": "customBiggerIsBetter",
+        "title": "[Memory] The bandwidth of reading integers",
+        "description": "bw_mem frd",
+        "display": true,
+        "benches": [
+          {
+            "name": "Average memory read bandwidth on Linux",
+            "value": "15943.66",
+            "unit": "MB/s",
+            "extra": "linux_result"
+          },
+          {
+            "name": "Average memory read bandwidth on Asterinas",
+            "value": "14983.84",
             "unit": "MB/s",
             "extra": "aster_result"
           }
