@@ -1,8 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1727168775702,
+  "lastUpdate": 1727169712633,
   "repoUrl": "https://github.com/grief8/asterinas",
   "entries": {
-    "ext2_copy_files_bw": [
+    "process_getppid_lat": [
       {
         "commit": {
           "author": {
@@ -20,22 +20,135 @@ window.BENCHMARK_DATA = {
           "timestamp": "2024-09-24T06:48:01Z",
           "url": "https://github.com/grief8/asterinas/commit/52871246d45bbd86954f1d1dd5c65c98e1656064"
         },
-        "date": 1727160780083,
-        "tool": "customBiggerIsBetter",
-        "title": "[EXT2] The bandwidth of copying data between files",
-        "description": "lmdd",
+        "date": 1727160780009,
+        "tool": "customSmallerIsBetter",
+        "title": "[Process] The cost of getppid",
+        "description": "lat_syscall null",
         "display": true,
         "benches": [
           {
-            "name": "Average file copy bandwidth on Linux",
-            "value": "1834.1853",
-            "unit": "MB/s",
+            "name": "Average syscall latency on Linux",
+            "value": "0.0632",
+            "unit": "µs",
             "extra": "linux_result"
           },
           {
-            "name": "Average file copy bandwidth on Asterinas",
-            "value": "3154.4187",
-            "unit": "MB/s",
+            "name": "Average syscall latency on Asterinas",
+            "value": "0.0965",
+            "unit": "µs",
+            "extra": "aster_result"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Fabing Li",
+            "username": "grief8",
+            "email": "lifabing.lfb@antgroup.com"
+          },
+          "committer": {
+            "name": "Fabing Li",
+            "username": "grief8",
+            "email": "lifabing.lfb@antgroup.com"
+          },
+          "id": "ad26045cec71394fd089843e1d54c22f246083a3",
+          "message": "Update",
+          "timestamp": "2024-09-24T09:16:16Z",
+          "url": "https://github.com/grief8/asterinas/commit/ad26045cec71394fd089843e1d54c22f246083a3"
+        },
+        "date": 1727169706517,
+        "tool": "customSmallerIsBetter",
+        "title": "[Process] The cost of getppid",
+        "description": "lat_syscall null",
+        "display": true,
+        "benches": [
+          {
+            "name": "Average syscall latency on Linux",
+            "value": "0.0634",
+            "unit": "µs",
+            "extra": "linux_result"
+          },
+          {
+            "name": "Average syscall latency on Asterinas",
+            "value": "0.0956",
+            "unit": "µs",
+            "extra": "aster_result"
+          }
+        ]
+      }
+    ],
+    "process_ctx_lat": [
+      {
+        "commit": {
+          "author": {
+            "name": "Fabing Li",
+            "username": "grief8",
+            "email": "lifabing.lfb@antgroup.com"
+          },
+          "committer": {
+            "name": "Fabing Li",
+            "username": "grief8",
+            "email": "lifabing.lfb@antgroup.com"
+          },
+          "id": "52871246d45bbd86954f1d1dd5c65c98e1656064",
+          "message": "uP",
+          "timestamp": "2024-09-24T06:48:01Z",
+          "url": "https://github.com/grief8/asterinas/commit/52871246d45bbd86954f1d1dd5c65c98e1656064"
+        },
+        "date": 1727160796530,
+        "tool": "customSmallerIsBetter",
+        "title": "[Process] The cost of context switching",
+        "description": "lat_ctx 2",
+        "display": true,
+        "benches": [
+          {
+            "name": "Average context switch latency on Linux",
+            "value": "1.12",
+            "unit": "µs",
+            "extra": "linux_result"
+          },
+          {
+            "name": "Average context switch latency on Asterinas",
+            "value": "1.00",
+            "unit": "µs",
+            "extra": "aster_result"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Fabing Li",
+            "username": "grief8",
+            "email": "lifabing.lfb@antgroup.com"
+          },
+          "committer": {
+            "name": "Fabing Li",
+            "username": "grief8",
+            "email": "lifabing.lfb@antgroup.com"
+          },
+          "id": "bb8d2fe583df04a06eaf4c931270c55dd06f48ae",
+          "message": "iuu",
+          "timestamp": "2024-09-24T06:58:54Z",
+          "url": "https://github.com/grief8/asterinas/commit/bb8d2fe583df04a06eaf4c931270c55dd06f48ae"
+        },
+        "date": 1727168646669,
+        "tool": "customSmallerIsBetter",
+        "title": "[Process] The cost of context switching",
+        "description": "lat_ctx 2",
+        "display": true,
+        "benches": [
+          {
+            "name": "Average context switch latency on Linux",
+            "value": "1.11",
+            "unit": "µs",
+            "extra": "linux_result"
+          },
+          {
+            "name": "Average context switch latency on Asterinas",
+            "value": "0.96",
+            "unit": "µs",
             "extra": "aster_result"
           }
         ]
@@ -117,40 +230,37 @@ window.BENCHMARK_DATA = {
         ]
       }
     ],
-    "udp_loopback_lat": [
+    "process_exec_lat": [
       {
         "commit": {
           "author": {
-            "name": "Fabing Li",
-            "username": "grief8",
-            "email": "lifabing.lfb@antgroup.com"
+            "name": "Ruihan Li",
+            "username": "lrh2000",
+            "email": "lrh2000@pku.edu.cn"
           },
           "committer": {
-            "name": "Fabing Li",
-            "username": "grief8",
-            "email": "lifabing.lfb@antgroup.com"
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
           },
-          "id": "52871246d45bbd86954f1d1dd5c65c98e1656064",
-          "message": "uP",
-          "timestamp": "2024-09-24T06:48:01Z",
-          "url": "https://github.com/grief8/asterinas/commit/52871246d45bbd86954f1d1dd5c65c98e1656064"
+          "id": "94eba6d85eb9e62ddd904c1132d556b808cc3174",
+          "message": "Add unit tests about blocking behavior",
+          "timestamp": "2024-07-06T10:20:02Z",
+          "url": "https://github.com/asterinas/asterinas/commit/94eba6d85eb9e62ddd904c1132d556b808cc3174"
         },
-        "date": 1727160842990,
+        "date": 1721333183598,
         "tool": "customSmallerIsBetter",
-        "title": "[UDP sockets] The latency of write+read",
-        "description": "lat_udp",
-        "display": true,
         "benches": [
           {
-            "name": "Average UDP latency on Linux",
-            "value": "4.9569",
-            "unit": "µs",
+            "name": "Average exec latency on Linux",
+            "value": "68.1358",
+            "unit": "ms",
             "extra": "linux_result"
           },
           {
-            "name": "Average UDP latency on Asterinas",
-            "value": "3.0677",
-            "unit": "µs",
+            "name": "Average exec latency on Asterinas",
+            "value": "415.2143",
+            "unit": "ms",
             "extra": "aster_result"
           }
         ]
@@ -158,186 +268,33 @@ window.BENCHMARK_DATA = {
       {
         "commit": {
           "author": {
-            "name": "Fabing Li",
-            "username": "grief8",
-            "email": "lifabing.lfb@antgroup.com"
-          },
-          "committer": {
-            "name": "Fabing Li",
-            "username": "grief8",
-            "email": "lifabing.lfb@antgroup.com"
-          },
-          "id": "bb8d2fe583df04a06eaf4c931270c55dd06f48ae",
-          "message": "iuu",
-          "timestamp": "2024-09-24T06:58:54Z",
-          "url": "https://github.com/grief8/asterinas/commit/bb8d2fe583df04a06eaf4c931270c55dd06f48ae"
-        },
-        "date": 1727168694091,
-        "tool": "customSmallerIsBetter",
-        "title": "[UDP sockets] The latency of write+read",
-        "description": "lat_udp",
-        "display": true,
-        "benches": [
-          {
-            "name": "Average UDP latency on Linux",
-            "value": "4.9853",
-            "unit": "µs",
-            "extra": "linux_result"
-          },
-          {
-            "name": "Average UDP latency on Asterinas",
-            "value": "3.0951",
-            "unit": "µs",
-            "extra": "aster_result"
-          }
-        ]
-      }
-    ],
-    "ext2_create_delete_files_0k_ops": [
-      {
-        "commit": {
-          "author": {
-            "name": "Fabing Li",
-            "username": "grief8",
-            "email": "lifabing.lfb@antgroup.com"
-          },
-          "committer": {
-            "name": "Fabing Li",
-            "username": "grief8",
-            "email": "lifabing.lfb@antgroup.com"
-          },
-          "id": "bb8d2fe583df04a06eaf4c931270c55dd06f48ae",
-          "message": "iuu",
-          "timestamp": "2024-09-24T06:58:54Z",
-          "url": "https://github.com/grief8/asterinas/commit/bb8d2fe583df04a06eaf4c931270c55dd06f48ae"
-        },
-        "date": 1727168653453,
-        "tool": "customBiggerIsBetter",
-        "title": "[Ext2] The cost of creating/deleting small files (0KB)",
-        "description": "lat_fs -s 0k /ext2",
-        "display": true,
-        "benches": [
-          {
-            "name": "Number of created/deleted files on Linux",
-            "value": "1345",
-            "unit": "number",
-            "extra": "linux_result"
-          },
-          {
-            "name": "Number of created/deleted files on Asterinas",
-            "value": "171",
-            "unit": "number",
-            "extra": "aster_result"
-          }
-        ]
-      }
-    ],
-    "process_getppid_lat": [
-      {
-        "commit": {
-          "author": {
-            "name": "Fabing Li",
-            "username": "grief8",
-            "email": "lifabing.lfb@antgroup.com"
-          },
-          "committer": {
-            "name": "Fabing Li",
-            "username": "grief8",
-            "email": "lifabing.lfb@antgroup.com"
-          },
-          "id": "52871246d45bbd86954f1d1dd5c65c98e1656064",
-          "message": "uP",
-          "timestamp": "2024-09-24T06:48:01Z",
-          "url": "https://github.com/grief8/asterinas/commit/52871246d45bbd86954f1d1dd5c65c98e1656064"
-        },
-        "date": 1727160780009,
-        "tool": "customSmallerIsBetter",
-        "title": "[Process] The cost of getppid",
-        "description": "lat_syscall null",
-        "display": true,
-        "benches": [
-          {
-            "name": "Average syscall latency on Linux",
-            "value": "0.0632",
-            "unit": "µs",
-            "extra": "linux_result"
-          },
-          {
-            "name": "Average syscall latency on Asterinas",
-            "value": "0.0965",
-            "unit": "µs",
-            "extra": "aster_result"
-          }
-        ]
-      }
-    ],
-    "unix_bw": [
-      {
-        "commit": {
-          "author": {
-            "name": "Yuke Peng",
-            "username": "sdww0",
-            "email": "pykfirst@gmail.com"
+            "name": "Ruihan Li",
+            "username": "lrh2000",
+            "email": "lrh2000@pku.edu.cn"
           },
           "committer": {
             "name": "Tate, Hongliang Tian",
             "username": "tatetian",
             "email": "tatetian@gmail.com"
           },
-          "id": "6f8978193c7a73a51403a8751314ddebc1c1983f",
-          "message": "Add benchmarks to workflow",
-          "timestamp": "2024-08-02T13:40:56Z",
-          "url": "https://github.com/asterinas/asterinas/commit/6f8978193c7a73a51403a8751314ddebc1c1983f"
+          "id": "9f125cd671fc8a91dfffe2b13949980560123f7b",
+          "message": "Remove the nonsense mutex in `Poller`",
+          "timestamp": "2024-07-14T09:47:11Z",
+          "url": "https://github.com/asterinas/asterinas/commit/9f125cd671fc8a91dfffe2b13949980560123f7b"
         },
-        "date": 1722631298826,
-        "tool": "customBiggerIsBetter",
-        "description": "The bandwidth of UNIX domain socket communication on a single processor.",
+        "date": 1721419450137,
+        "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Average unix bandwidth on Linux",
-            "value": "7626.43",
-            "unit": "MB/s",
+            "name": "Average exec latency on Linux",
+            "value": "71.2821",
+            "unit": "ms",
             "extra": "linux_result"
           },
           {
-            "name": "Average unix bandwidth on Asterinas",
-            "value": "433.80",
-            "unit": "MB/s",
-            "extra": "aster_result"
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
-            "name": "Yuke Peng",
-            "username": "sdww0",
-            "email": "pykfirst@gmail.com"
-          },
-          "committer": {
-            "name": "Tate, Hongliang Tian",
-            "username": "tatetian",
-            "email": "tatetian@gmail.com"
-          },
-          "id": "6f8978193c7a73a51403a8751314ddebc1c1983f",
-          "message": "Add benchmarks to workflow",
-          "timestamp": "2024-08-02T13:40:56Z",
-          "url": "https://github.com/asterinas/asterinas/commit/6f8978193c7a73a51403a8751314ddebc1c1983f"
-        },
-        "date": 1722717716145,
-        "tool": "customBiggerIsBetter",
-        "description": "The bandwidth of UNIX domain socket communication on a single processor.",
-        "benches": [
-          {
-            "name": "Average unix bandwidth on Linux",
-            "value": "7620.32",
-            "unit": "MB/s",
-            "extra": "linux_result"
-          },
-          {
-            "name": "Average unix bandwidth on Asterinas",
-            "value": "429.14",
-            "unit": "MB/s",
+            "name": "Average exec latency on Asterinas",
+            "value": "409.8571",
+            "unit": "ms",
             "extra": "aster_result"
           }
         ]
@@ -354,25 +311,24 @@ window.BENCHMARK_DATA = {
             "username": "tatetian",
             "email": "tatetian@gmail.com"
           },
-          "id": "16690bc61b0bb8d90dbb1cec8a317ba34aa09f71",
-          "message": "Implement atomic signal masks and refactor `SigSet`",
-          "timestamp": "2024-08-02T08:26:56Z",
-          "url": "https://github.com/asterinas/asterinas/commit/16690bc61b0bb8d90dbb1cec8a317ba34aa09f71"
+          "id": "20524ae64a3472a5381e7e5aa960a124d050e57b",
+          "message": "Update the 100-line kernel and format it as well",
+          "timestamp": "2024-07-04T15:19:44Z",
+          "url": "https://github.com/asterinas/asterinas/commit/20524ae64a3472a5381e7e5aa960a124d050e57b"
         },
-        "date": 1722804086680,
-        "tool": "customBiggerIsBetter",
-        "description": "The bandwidth of UNIX domain socket communication on a single processor.",
+        "date": 1721505991625,
+        "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Average unix bandwidth on Linux",
-            "value": "7594.18",
-            "unit": "MB/s",
+            "name": "Average exec latency on Linux",
+            "value": "72.3117",
+            "unit": "ms",
             "extra": "linux_result"
           },
           {
-            "name": "Average unix bandwidth on Asterinas",
-            "value": "442.48",
-            "unit": "MB/s",
+            "name": "Average exec latency on Asterinas",
+            "value": "394.1429",
+            "unit": "ms",
             "extra": "aster_result"
           }
         ]
@@ -380,34 +336,101 @@ window.BENCHMARK_DATA = {
       {
         "commit": {
           "author": {
-            "name": "azongchang",
-            "username": "azongchang",
-            "email": "azongchang@qq.com"
+            "name": "YanWQ-monad",
+            "username": "YanWQ-monad",
+            "email": "YanWQmonad@gmail.com"
           },
           "committer": {
             "name": "Tate, Hongliang Tian",
             "username": "tatetian",
             "email": "tatetian@gmail.com"
           },
-          "id": "aa84b31634b9c710e04b337c5d1b8fa207f8dbde",
-          "message": "Add the description of encoding option to the OSDK document",
-          "timestamp": "2024-08-05T05:52:13Z",
-          "url": "https://github.com/asterinas/asterinas/commit/aa84b31634b9c710e04b337c5d1b8fa207f8dbde"
+          "id": "5aa28eae7e14594bbe68827114443b31002bf742",
+          "message": "Extract x86-specific code from `call_irq_callback_functions`",
+          "timestamp": "2024-07-19T08:45:22Z",
+          "url": "https://github.com/asterinas/asterinas/commit/5aa28eae7e14594bbe68827114443b31002bf742"
         },
-        "date": 1722890456362,
-        "tool": "customBiggerIsBetter",
-        "description": "The bandwidth of UNIX domain socket communication on a single processor.",
+        "date": 1721678696953,
+        "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Average unix bandwidth on Linux",
-            "value": "7379.58",
-            "unit": "MB/s",
+            "name": "Average exec latency on Linux",
+            "value": "71.6623",
+            "unit": "ms",
             "extra": "linux_result"
           },
           {
-            "name": "Average unix bandwidth on Asterinas",
-            "value": "437.07",
-            "unit": "MB/s",
+            "name": "Average exec latency on Asterinas",
+            "value": "390.6429",
+            "unit": "ms",
+            "extra": "aster_result"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "YanWQ-monad",
+            "username": "YanWQ-monad",
+            "email": "YanWQmonad@gmail.com"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "5aa28eae7e14594bbe68827114443b31002bf742",
+          "message": "Extract x86-specific code from `call_irq_callback_functions`",
+          "timestamp": "2024-07-19T08:45:22Z",
+          "url": "https://github.com/asterinas/asterinas/commit/5aa28eae7e14594bbe68827114443b31002bf742"
+        },
+        "date": 1721764953023,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Average exec latency on Linux",
+            "value": "73.2368",
+            "unit": "ms",
+            "extra": "linux_result"
+          },
+          {
+            "name": "Average exec latency on Asterinas",
+            "value": "384.1429",
+            "unit": "ms",
+            "extra": "aster_result"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "YanWQ-monad",
+            "username": "YanWQ-monad",
+            "email": "YanWQmonad@gmail.com"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "5aa28eae7e14594bbe68827114443b31002bf742",
+          "message": "Extract x86-specific code from `call_irq_callback_functions`",
+          "timestamp": "2024-07-19T08:45:22Z",
+          "url": "https://github.com/asterinas/asterinas/commit/5aa28eae7e14594bbe68827114443b31002bf742"
+        },
+        "date": 1721851336899,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Average exec latency on Linux",
+            "value": "72.4000",
+            "unit": "ms",
+            "extra": "linux_result"
+          },
+          {
+            "name": "Average exec latency on Asterinas",
+            "value": "398.7857",
+            "unit": "ms",
             "extra": "aster_result"
           }
         ]
@@ -424,25 +447,57 @@ window.BENCHMARK_DATA = {
             "username": "tatetian",
             "email": "tatetian@gmail.com"
           },
-          "id": "b1ea422efaf6b0becd7d6cd99d270ae01fcd12de",
-          "message": "Fix accesses to VirtIO queue DMA",
-          "timestamp": "2024-08-05T14:06:02Z",
-          "url": "https://github.com/asterinas/asterinas/commit/b1ea422efaf6b0becd7d6cd99d270ae01fcd12de"
+          "id": "e83e1fc01ba38ad2a405d7d710ec7258fb664f60",
+          "message": "Unpack states from `Arc` in UNIX sockets",
+          "timestamp": "2024-06-30T15:08:25Z",
+          "url": "https://github.com/asterinas/asterinas/commit/e83e1fc01ba38ad2a405d7d710ec7258fb664f60"
         },
-        "date": 1722976995989,
-        "tool": "customBiggerIsBetter",
-        "description": "The bandwidth of UNIX domain socket communication on a single processor.",
+        "date": 1721938014097,
+        "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Average unix bandwidth on Linux",
-            "value": "7580.09",
-            "unit": "MB/s",
+            "name": "Average exec latency on Linux",
+            "value": "72.0649",
+            "unit": "ms",
             "extra": "linux_result"
           },
           {
-            "name": "Average unix bandwidth on Asterinas",
-            "value": "437.35",
-            "unit": "MB/s",
+            "name": "Average exec latency on Asterinas",
+            "value": "199.7931",
+            "unit": "ms",
+            "extra": "aster_result"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "StanPlatinum",
+            "email": "yangzhi.lwj@antgroup.com"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "0b8335c9431008dd7d037721a21724328c4a3024",
+          "message": "Add /proc/filesystems support",
+          "timestamp": "2024-07-13T09:31:50Z",
+          "url": "https://github.com/grief8/asterinas/commit/0b8335c9431008dd7d037721a21724328c4a3024"
+        },
+        "date": 1721938675338,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Average exec latency on Linux",
+            "value": "71.0390",
+            "unit": "ms",
+            "extra": "linux_result"
+          },
+          {
+            "name": "Average exec latency on Asterinas",
+            "value": "370.4375",
+            "unit": "ms",
             "extra": "aster_result"
           }
         ]
@@ -459,25 +514,24 @@ window.BENCHMARK_DATA = {
             "username": "tatetian",
             "email": "tatetian@gmail.com"
           },
-          "id": "b1ea422efaf6b0becd7d6cd99d270ae01fcd12de",
-          "message": "Fix accesses to VirtIO queue DMA",
-          "timestamp": "2024-08-05T14:06:02Z",
-          "url": "https://github.com/asterinas/asterinas/commit/b1ea422efaf6b0becd7d6cd99d270ae01fcd12de"
+          "id": "e83e1fc01ba38ad2a405d7d710ec7258fb664f60",
+          "message": "Unpack states from `Arc` in UNIX sockets",
+          "timestamp": "2024-06-30T15:08:25Z",
+          "url": "https://github.com/asterinas/asterinas/commit/e83e1fc01ba38ad2a405d7d710ec7258fb664f60"
         },
-        "date": 1723063382155,
-        "tool": "customBiggerIsBetter",
-        "description": "The bandwidth of UNIX domain socket communication on a single processor.",
+        "date": 1722024364351,
+        "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Average unix bandwidth on Linux",
-            "value": "7604.06",
-            "unit": "MB/s",
+            "name": "Average exec latency on Linux",
+            "value": "71.4805",
+            "unit": "ms",
             "extra": "linux_result"
           },
           {
-            "name": "Average unix bandwidth on Asterinas",
-            "value": "436.22",
-            "unit": "MB/s",
+            "name": "Average exec latency on Asterinas",
+            "value": "216.9231",
+            "unit": "ms",
             "extra": "aster_result"
           }
         ]
@@ -485,34 +539,169 @@ window.BENCHMARK_DATA = {
       {
         "commit": {
           "author": {
-            "name": "Jianfeng Jiang",
-            "username": "StevenJiang1110",
-            "email": "jiangjianfeng.jjf@antgroup.com"
+            "name": "Ruihan Li",
+            "username": "lrh2000",
+            "email": "lrh2000@pku.edu.cn"
           },
           "committer": {
             "name": "Tate, Hongliang Tian",
             "username": "tatetian",
             "email": "tatetian@gmail.com"
           },
-          "id": "6414111cc57b42db2bae1a0c8b01b85c3830a3b3",
-          "message": "Support flag SA_RESETHAND",
-          "timestamp": "2024-08-07T09:17:46Z",
-          "url": "https://github.com/asterinas/asterinas/commit/6414111cc57b42db2bae1a0c8b01b85c3830a3b3"
+          "id": "e83e1fc01ba38ad2a405d7d710ec7258fb664f60",
+          "message": "Unpack states from `Arc` in UNIX sockets",
+          "timestamp": "2024-06-30T15:08:25Z",
+          "url": "https://github.com/asterinas/asterinas/commit/e83e1fc01ba38ad2a405d7d710ec7258fb664f60"
         },
-        "date": 1723104247684,
-        "tool": "customBiggerIsBetter",
-        "description": "The bandwidth of UNIX domain socket communication on a single processor.",
+        "date": 1722221481277,
+        "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Average unix bandwidth on Linux",
-            "value": "7651.00",
-            "unit": "MB/s",
+            "name": "Average exec latency on Linux",
+            "value": "70.0127",
+            "unit": "ms",
             "extra": "linux_result"
           },
           {
-            "name": "Average unix bandwidth on Asterinas",
-            "value": "436.08",
-            "unit": "MB/s",
+            "name": "Average exec latency on Asterinas",
+            "value": "214.8000",
+            "unit": "ms",
+            "extra": "aster_result"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Zhang Junyang",
+            "username": "junyang-zh",
+            "email": "junyang@stu.pku.edu.cn"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "bdabea09c2ecc9a5fed6fe0bb0663e865d755ff0",
+          "message": "Add SMP boot options",
+          "timestamp": "2024-07-07T16:13:02Z",
+          "url": "https://github.com/asterinas/asterinas/commit/bdabea09c2ecc9a5fed6fe0bb0663e865d755ff0"
+        },
+        "date": 1722322478477,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Average exec latency on Linux",
+            "value": "66.4756",
+            "unit": "ms",
+            "extra": "linux_result"
+          },
+          {
+            "name": "Average exec latency on Asterinas",
+            "value": "197.0741",
+            "unit": "ms",
+            "extra": "aster_result"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Shaowei Song",
+            "username": "lucassong-mh",
+            "email": "songshaowei.ssw@antgroup.com"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "20a856b07fa8210fdd2d46d3feb5087004c27afb",
+          "message": "Revise the naming of all sync/async io APIs",
+          "timestamp": "2024-07-30T09:31:02Z",
+          "url": "https://github.com/asterinas/asterinas/commit/20a856b07fa8210fdd2d46d3feb5087004c27afb"
+        },
+        "date": 1722369895701,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Average exec latency on Linux",
+            "value": "69.8608",
+            "unit": "ms",
+            "extra": "linux_result"
+          },
+          {
+            "name": "Average exec latency on Asterinas",
+            "value": "200.0370",
+            "unit": "ms",
+            "extra": "aster_result"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Shaowei Song",
+            "username": "lucassong-mh",
+            "email": "songshaowei.ssw@antgroup.com"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "20a856b07fa8210fdd2d46d3feb5087004c27afb",
+          "message": "Revise the naming of all sync/async io APIs",
+          "timestamp": "2024-07-30T09:31:02Z",
+          "url": "https://github.com/asterinas/asterinas/commit/20a856b07fa8210fdd2d46d3feb5087004c27afb"
+        },
+        "date": 1722456261603,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Average exec latency on Linux",
+            "value": "71.1923",
+            "unit": "ms",
+            "extra": "linux_result"
+          },
+          {
+            "name": "Average exec latency on Asterinas",
+            "value": "201.1481",
+            "unit": "ms",
+            "extra": "aster_result"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Shaowei Song",
+            "username": "lucassong-mh",
+            "email": "songshaowei.ssw@antgroup.com"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "20a856b07fa8210fdd2d46d3feb5087004c27afb",
+          "message": "Revise the naming of all sync/async io APIs",
+          "timestamp": "2024-07-30T09:31:02Z",
+          "url": "https://github.com/asterinas/asterinas/commit/20a856b07fa8210fdd2d46d3feb5087004c27afb"
+        },
+        "date": 1722542789818,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Average exec latency on Linux",
+            "value": "70.3462",
+            "unit": "ms",
+            "extra": "linux_result"
+          },
+          {
+            "name": "Average exec latency on Asterinas",
+            "value": "200.8065",
+            "unit": "ms",
             "extra": "aster_result"
           }
         ]
@@ -534,20 +723,20 @@ window.BENCHMARK_DATA = {
           "timestamp": "2024-08-02T03:14:14Z",
           "url": "https://github.com/asterinas/asterinas/commit/acb4833aae0476d7ed2d61871036aff3eaf77c5d"
         },
-        "date": 1723149640267,
-        "tool": "customBiggerIsBetter",
-        "description": "The bandwidth of UNIX domain socket communication on a single processor.",
+        "date": 1723147379883,
+        "tool": "customSmallerIsBetter",
+        "description": "The latency of creating and executing processes on a single processor.",
         "benches": [
           {
-            "name": "Average unix bandwidth on Linux",
-            "value": "7643.03",
-            "unit": "MB/s",
+            "name": "Average exec latency on Linux",
+            "value": "260.1905",
+            "unit": "µs",
             "extra": "linux_result"
           },
           {
-            "name": "Average unix bandwidth on Asterinas",
-            "value": "451.49",
-            "unit": "MB/s",
+            "name": "Average exec latency on Asterinas",
+            "value": "767.5000",
+            "unit": "µs",
             "extra": "aster_result"
           }
         ]
@@ -569,20 +758,20 @@ window.BENCHMARK_DATA = {
           "timestamp": "2024-08-09T08:11:43Z",
           "url": "https://github.com/asterinas/asterinas/commit/75da7fd30eca1e80ad57da15bfe5dff6963c03c1"
         },
-        "date": 1723236025272,
-        "tool": "customBiggerIsBetter",
-        "description": "The bandwidth of UNIX domain socket communication on a single processor.",
+        "date": 1723233852265,
+        "tool": "customSmallerIsBetter",
+        "description": "The latency of creating and executing processes on a single processor.",
         "benches": [
           {
-            "name": "Average unix bandwidth on Linux",
-            "value": "7646.20",
-            "unit": "MB/s",
+            "name": "Average exec latency on Linux",
+            "value": "258.9000",
+            "unit": "µs",
             "extra": "linux_result"
           },
           {
-            "name": "Average unix bandwidth on Asterinas",
-            "value": "448.60",
-            "unit": "MB/s",
+            "name": "Average exec latency on Asterinas",
+            "value": "655.4444",
+            "unit": "µs",
             "extra": "aster_result"
           }
         ]
@@ -604,20 +793,20 @@ window.BENCHMARK_DATA = {
           "timestamp": "2024-08-09T10:56:43Z",
           "url": "https://github.com/asterinas/asterinas/commit/a739b3828d106d4e09fe2ba7dd8eed12d18dd20a"
         },
-        "date": 1723322408837,
-        "tool": "customBiggerIsBetter",
-        "description": "The bandwidth of UNIX domain socket communication on a single processor.",
+        "date": 1723320389287,
+        "tool": "customSmallerIsBetter",
+        "description": "The latency of creating and executing processes on a single processor.",
         "benches": [
           {
-            "name": "Average unix bandwidth on Linux",
-            "value": "7651.84",
-            "unit": "MB/s",
+            "name": "Average exec latency on Linux",
+            "value": "255.6190",
+            "unit": "µs",
             "extra": "linux_result"
           },
           {
-            "name": "Average unix bandwidth on Asterinas",
-            "value": "443.58",
-            "unit": "MB/s",
+            "name": "Average exec latency on Asterinas",
+            "value": "662.2500",
+            "unit": "µs",
             "extra": "aster_result"
           }
         ]
@@ -639,20 +828,20 @@ window.BENCHMARK_DATA = {
           "timestamp": "2024-08-09T10:56:43Z",
           "url": "https://github.com/asterinas/asterinas/commit/a739b3828d106d4e09fe2ba7dd8eed12d18dd20a"
         },
-        "date": 1723408747652,
-        "tool": "customBiggerIsBetter",
-        "description": "The bandwidth of UNIX domain socket communication on a single processor.",
+        "date": 1723406768422,
+        "tool": "customSmallerIsBetter",
+        "description": "The latency of creating and executing processes on a single processor.",
         "benches": [
           {
-            "name": "Average unix bandwidth on Linux",
-            "value": "7637.18",
-            "unit": "MB/s",
+            "name": "Average exec latency on Linux",
+            "value": "259.7000",
+            "unit": "µs",
             "extra": "linux_result"
           },
           {
-            "name": "Average unix bandwidth on Asterinas",
-            "value": "443.22",
-            "unit": "MB/s",
+            "name": "Average exec latency on Asterinas",
+            "value": "648.5556",
+            "unit": "µs",
             "extra": "aster_result"
           }
         ]
@@ -674,20 +863,20 @@ window.BENCHMARK_DATA = {
           "timestamp": "2024-08-12T07:13:36Z",
           "url": "https://github.com/asterinas/asterinas/commit/f9bae1eee90c49d715569208009cc2c66768fe9a"
         },
-        "date": 1723495324269,
-        "tool": "customBiggerIsBetter",
-        "description": "The bandwidth of UNIX domain socket communication on a single processor.",
+        "date": 1723493105329,
+        "tool": "customSmallerIsBetter",
+        "description": "The latency of creating and executing processes on a single processor.",
         "benches": [
           {
-            "name": "Average unix bandwidth on Linux",
-            "value": "7583.97",
-            "unit": "MB/s",
+            "name": "Average exec latency on Linux",
+            "value": "254.7500",
+            "unit": "µs",
             "extra": "linux_result"
           },
           {
-            "name": "Average unix bandwidth on Asterinas",
-            "value": "446.51",
-            "unit": "MB/s",
+            "name": "Average exec latency on Asterinas",
+            "value": "647.9000",
+            "unit": "µs",
             "extra": "aster_result"
           }
         ]
@@ -709,20 +898,20 @@ window.BENCHMARK_DATA = {
           "timestamp": "2024-08-12T13:04:53Z",
           "url": "https://github.com/asterinas/asterinas/commit/be54a39592ff60fae6e729abaa3d4a26dd7f5624"
         },
-        "date": 1723581632174,
-        "tool": "customBiggerIsBetter",
-        "description": "The bandwidth of UNIX domain socket communication on a single processor.",
+        "date": 1723579589305,
+        "tool": "customSmallerIsBetter",
+        "description": "The latency of creating and executing processes on a single processor.",
         "benches": [
           {
-            "name": "Average unix bandwidth on Linux",
-            "value": "7642.41",
-            "unit": "MB/s",
+            "name": "Average exec latency on Linux",
+            "value": "260.3500",
+            "unit": "µs",
             "extra": "linux_result"
           },
           {
-            "name": "Average unix bandwidth on Asterinas",
-            "value": "4822.95",
-            "unit": "MB/s",
+            "name": "Average exec latency on Asterinas",
+            "value": "651.4444",
+            "unit": "µs",
             "extra": "aster_result"
           }
         ]
@@ -744,20 +933,20 @@ window.BENCHMARK_DATA = {
           "timestamp": "2024-08-12T08:11:45Z",
           "url": "https://github.com/asterinas/asterinas/commit/4844e7ca7ca6d78896a51a71487a6fdfe9ca6654"
         },
-        "date": 1723667942680,
-        "tool": "customBiggerIsBetter",
-        "description": "The bandwidth of UNIX domain socket communication on a single processor.",
+        "date": 1723665847002,
+        "tool": "customSmallerIsBetter",
+        "description": "The latency of creating and executing processes on a single processor.",
         "benches": [
           {
-            "name": "Average unix bandwidth on Linux",
-            "value": "7622.38",
-            "unit": "MB/s",
+            "name": "Average exec latency on Linux",
+            "value": "259.6000",
+            "unit": "µs",
             "extra": "linux_result"
           },
           {
-            "name": "Average unix bandwidth on Asterinas",
-            "value": "4823.60",
-            "unit": "MB/s",
+            "name": "Average exec latency on Asterinas",
+            "value": "627.1111",
+            "unit": "µs",
             "extra": "aster_result"
           }
         ]
@@ -779,20 +968,20 @@ window.BENCHMARK_DATA = {
           "timestamp": "2024-08-15T08:53:54Z",
           "url": "https://github.com/asterinas/asterinas/commit/99a22ff124972872838fa5dc7094fa9a5eea557e"
         },
-        "date": 1723754688403,
-        "tool": "customBiggerIsBetter",
-        "description": "The bandwidth of UNIX domain socket communication on a single processor.",
+        "date": 1723752386439,
+        "tool": "customSmallerIsBetter",
+        "description": "The latency of creating and executing processes on a single processor.",
         "benches": [
           {
-            "name": "Average unix bandwidth on Linux",
-            "value": "7612.29",
-            "unit": "MB/s",
+            "name": "Average exec latency on Linux",
+            "value": "258.8500",
+            "unit": "µs",
             "extra": "linux_result"
           },
           {
-            "name": "Average unix bandwidth on Asterinas",
-            "value": "5546.12",
-            "unit": "MB/s",
+            "name": "Average exec latency on Asterinas",
+            "value": "567.5000",
+            "unit": "µs",
             "extra": "aster_result"
           }
         ]
@@ -814,20 +1003,20 @@ window.BENCHMARK_DATA = {
           "timestamp": "2024-08-15T03:44:30Z",
           "url": "https://github.com/asterinas/asterinas/commit/0291b5dc6bb142b9c6165c1cb29b7658eefdaa63"
         },
-        "date": 1723780913490,
-        "tool": "customBiggerIsBetter",
-        "description": "The bandwidth of UNIX domain socket communication on a single processor.",
+        "date": 1723778558173,
+        "tool": "customSmallerIsBetter",
+        "description": "The latency of creating and executing processes on a single processor.",
         "benches": [
           {
-            "name": "Average unix bandwidth on Linux",
-            "value": "7602.17",
-            "unit": "MB/s",
+            "name": "Average exec latency on Linux",
+            "value": "258.6818",
+            "unit": "µs",
             "extra": "linux_result"
           },
           {
-            "name": "Average unix bandwidth on Asterinas",
-            "value": "5626.48",
-            "unit": "MB/s",
+            "name": "Average exec latency on Asterinas",
+            "value": "567.0000",
+            "unit": "µs",
             "extra": "aster_result"
           }
         ]
@@ -849,20 +1038,20 @@ window.BENCHMARK_DATA = {
           "timestamp": "2024-08-15T03:44:30Z",
           "url": "https://github.com/asterinas/asterinas/commit/0291b5dc6bb142b9c6165c1cb29b7658eefdaa63"
         },
-        "date": 1723784272641,
-        "tool": "customBiggerIsBetter",
-        "description": "The bandwidth of UNIX domain socket communication on a single processor.",
+        "date": 1723781858256,
+        "tool": "customSmallerIsBetter",
+        "description": "The latency of creating and executing processes on a single processor.",
         "benches": [
           {
-            "name": "Average unix bandwidth on Linux",
-            "value": "7641.98",
-            "unit": "MB/s",
+            "name": "Average exec latency on Linux",
+            "value": "257.4000",
+            "unit": "µs",
             "extra": "linux_result"
           },
           {
-            "name": "Average unix bandwidth on Asterinas",
-            "value": "5561.17",
-            "unit": "MB/s",
+            "name": "Average exec latency on Asterinas",
+            "value": "548.7000",
+            "unit": "µs",
             "extra": "aster_result"
           }
         ]
@@ -884,20 +1073,20 @@ window.BENCHMARK_DATA = {
           "timestamp": "2024-08-15T03:44:30Z",
           "url": "https://github.com/asterinas/asterinas/commit/0291b5dc6bb142b9c6165c1cb29b7658eefdaa63"
         },
-        "date": 1723841094884,
-        "tool": "customBiggerIsBetter",
-        "description": "The bandwidth of UNIX domain socket communication on a single processor.",
+        "date": 1723838799923,
+        "tool": "customSmallerIsBetter",
+        "description": "The latency of creating and executing processes on a single processor.",
         "benches": [
           {
-            "name": "Average unix bandwidth on Linux",
-            "value": "7627.86",
-            "unit": "MB/s",
+            "name": "Average exec latency on Linux",
+            "value": "259.5500",
+            "unit": "µs",
             "extra": "linux_result"
           },
           {
-            "name": "Average unix bandwidth on Asterinas",
-            "value": "5550.48",
-            "unit": "MB/s",
+            "name": "Average exec latency on Asterinas",
+            "value": "515.9091",
+            "unit": "µs",
             "extra": "aster_result"
           }
         ]
@@ -919,20 +1108,20 @@ window.BENCHMARK_DATA = {
           "timestamp": "2024-08-12T03:51:41Z",
           "url": "https://github.com/asterinas/asterinas/commit/ce2af1eb057077753a7a757edc1833e677a83918"
         },
-        "date": 1723927785193,
-        "tool": "customBiggerIsBetter",
-        "description": "The bandwidth of UNIX domain socket communication on a single processor.",
+        "date": 1723924981602,
+        "tool": "customSmallerIsBetter",
+        "description": "The latency of creating and executing processes on a single processor.",
         "benches": [
           {
-            "name": "Average unix bandwidth on Linux",
-            "value": "7606.70",
-            "unit": "MB/s",
+            "name": "Average exec latency on Linux",
+            "value": "252.0000",
+            "unit": "µs",
             "extra": "linux_result"
           },
           {
-            "name": "Average unix bandwidth on Asterinas",
-            "value": "5641.24",
-            "unit": "MB/s",
+            "name": "Average exec latency on Asterinas",
+            "value": "548.1000",
+            "unit": "µs",
             "extra": "aster_result"
           }
         ]
@@ -954,20 +1143,20 @@ window.BENCHMARK_DATA = {
           "timestamp": "2024-08-19T01:02:51Z",
           "url": "https://github.com/asterinas/asterinas/commit/bbe43d76cc25538f04261379407f4fa721a13431"
         },
-        "date": 1724101090247,
-        "tool": "customBiggerIsBetter",
-        "description": "The bandwidth of UNIX domain socket communication on a single processor.",
+        "date": 1724097873081,
+        "tool": "customSmallerIsBetter",
+        "description": "The latency of creating and executing processes on a single processor.",
         "benches": [
           {
-            "name": "Average unix bandwidth on Linux",
-            "value": "7611.10",
-            "unit": "MB/s",
+            "name": "Average exec latency on Linux",
+            "value": "254.6500",
+            "unit": "µs",
             "extra": "linux_result"
           },
           {
-            "name": "Average unix bandwidth on Asterinas",
-            "value": "5533.32",
-            "unit": "MB/s",
+            "name": "Average exec latency on Asterinas",
+            "value": "541.4167",
+            "unit": "µs",
             "extra": "aster_result"
           }
         ]
@@ -989,20 +1178,20 @@ window.BENCHMARK_DATA = {
           "timestamp": "2024-08-19T09:01:16Z",
           "url": "https://github.com/asterinas/asterinas/commit/fda0fa051265867c2399f4981fdccb9cc6df110d"
         },
-        "date": 1724187478316,
-        "tool": "customBiggerIsBetter",
-        "description": "The bandwidth of UNIX domain socket communication on a single processor.",
+        "date": 1724184158941,
+        "tool": "customSmallerIsBetter",
+        "description": "The latency of creating and executing processes on a single processor.",
         "benches": [
           {
-            "name": "Average unix bandwidth on Linux",
-            "value": "7642.87",
-            "unit": "MB/s",
+            "name": "Average exec latency on Linux",
+            "value": "261.2273",
+            "unit": "µs",
             "extra": "linux_result"
           },
           {
-            "name": "Average unix bandwidth on Asterinas",
-            "value": "5543.78",
-            "unit": "MB/s",
+            "name": "Average exec latency on Asterinas",
+            "value": "553.7000",
+            "unit": "µs",
             "extra": "aster_result"
           }
         ]
@@ -1024,20 +1213,20 @@ window.BENCHMARK_DATA = {
           "timestamp": "2024-08-20T02:05:25Z",
           "url": "https://github.com/asterinas/asterinas/commit/2102107be18729fba8f3546d5a3fe39c819d814a"
         },
-        "date": 1724273911641,
-        "tool": "customBiggerIsBetter",
-        "description": "The bandwidth of UNIX domain socket communication on a single processor.",
+        "date": 1724270691140,
+        "tool": "customSmallerIsBetter",
+        "description": "The latency of creating and executing processes on a single processor.",
         "benches": [
           {
-            "name": "Average unix bandwidth on Linux",
-            "value": "7609.65",
-            "unit": "MB/s",
+            "name": "Average exec latency on Linux",
+            "value": "255.6667",
+            "unit": "µs",
             "extra": "linux_result"
           },
           {
-            "name": "Average unix bandwidth on Asterinas",
-            "value": "5527.96",
-            "unit": "MB/s",
+            "name": "Average exec latency on Asterinas",
+            "value": "555.7000",
+            "unit": "µs",
             "extra": "aster_result"
           }
         ]
@@ -1059,20 +1248,20 @@ window.BENCHMARK_DATA = {
           "timestamp": "2024-08-22T06:34:41Z",
           "url": "https://github.com/asterinas/asterinas/commit/bb4751741a6cd6b919015f8f483512c90e73bf55"
         },
-        "date": 1724360999175,
-        "tool": "customBiggerIsBetter",
-        "description": "The bandwidth of UNIX domain socket communication on a single processor.",
+        "date": 1724356978842,
+        "tool": "customSmallerIsBetter",
+        "description": "The latency of creating and executing processes on a single processor.",
         "benches": [
           {
-            "name": "Average unix bandwidth on Linux",
-            "value": "7593.45",
-            "unit": "MB/s",
+            "name": "Average exec latency on Linux",
+            "value": "259.1500",
+            "unit": "µs",
             "extra": "linux_result"
           },
           {
-            "name": "Average unix bandwidth on Asterinas",
-            "value": "5549.63",
-            "unit": "MB/s",
+            "name": "Average exec latency on Asterinas",
+            "value": "450.5833",
+            "unit": "µs",
             "extra": "aster_result"
           }
         ]
@@ -1094,20 +1283,20 @@ window.BENCHMARK_DATA = {
           "timestamp": "2024-08-23T14:57:42Z",
           "url": "https://github.com/asterinas/asterinas/commit/e50b05d1ee71f52679e8ed8ea310cda6bfcd7e0c"
         },
-        "date": 1724447669149,
-        "tool": "customBiggerIsBetter",
-        "description": "The bandwidth of UNIX domain socket communication on a single processor.",
+        "date": 1724443743018,
+        "tool": "customSmallerIsBetter",
+        "description": "The latency of creating and executing processes on a single processor.",
         "benches": [
           {
-            "name": "Average unix bandwidth on Linux",
-            "value": "7583.39",
-            "unit": "MB/s",
+            "name": "Average exec latency on Linux",
+            "value": "256.6667",
+            "unit": "µs",
             "extra": "linux_result"
           },
           {
-            "name": "Average unix bandwidth on Asterinas",
-            "value": "5575.47",
-            "unit": "MB/s",
+            "name": "Average exec latency on Asterinas",
+            "value": "410.9231",
+            "unit": "µs",
             "extra": "aster_result"
           }
         ]
@@ -1129,20 +1318,20 @@ window.BENCHMARK_DATA = {
           "timestamp": "2024-08-24T09:27:15Z",
           "url": "https://github.com/asterinas/asterinas/commit/d22277a3e69040906cd198ea625614c5c69d66da"
         },
-        "date": 1724533980134,
-        "tool": "customBiggerIsBetter",
-        "description": "The bandwidth of UNIX domain socket communication on a single processor.",
+        "date": 1724530032872,
+        "tool": "customSmallerIsBetter",
+        "description": "The latency of creating and executing processes on a single processor.",
         "benches": [
           {
-            "name": "Average unix bandwidth on Linux",
-            "value": "7624.14",
-            "unit": "MB/s",
+            "name": "Average exec latency on Linux",
+            "value": "254.9524",
+            "unit": "µs",
             "extra": "linux_result"
           },
           {
-            "name": "Average unix bandwidth on Asterinas",
-            "value": "5566.31",
-            "unit": "MB/s",
+            "name": "Average exec latency on Asterinas",
+            "value": "403.0000",
+            "unit": "µs",
             "extra": "aster_result"
           }
         ]
@@ -1164,20 +1353,20 @@ window.BENCHMARK_DATA = {
           "timestamp": "2024-08-25T12:16:30Z",
           "url": "https://github.com/asterinas/asterinas/commit/4231645c02ec317d99f0150bc8ed3210489855a0"
         },
-        "date": 1724620506739,
-        "tool": "customBiggerIsBetter",
-        "description": "The bandwidth of UNIX domain socket communication on a single processor.",
+        "date": 1724616173865,
+        "tool": "customSmallerIsBetter",
+        "description": "The latency of creating and executing processes on a single processor.",
         "benches": [
           {
-            "name": "Average unix bandwidth on Linux",
-            "value": "7973.28",
-            "unit": "MB/s",
+            "name": "Average exec latency on Linux",
+            "value": "211.6667",
+            "unit": "µs",
             "extra": "linux_result"
           },
           {
-            "name": "Average unix bandwidth on Asterinas",
-            "value": "5612.88",
-            "unit": "MB/s",
+            "name": "Average exec latency on Asterinas",
+            "value": "399.7857",
+            "unit": "µs",
             "extra": "aster_result"
           }
         ]
@@ -1199,20 +1388,55 @@ window.BENCHMARK_DATA = {
           "timestamp": "2024-08-26T09:41:40Z",
           "url": "https://github.com/asterinas/asterinas/commit/9e59db2f42c2ef9f8e91e0d1ee03562190726d56"
         },
-        "date": 1724706852800,
-        "tool": "customBiggerIsBetter",
-        "description": "The bandwidth of UNIX domain socket communication on a single processor.",
+        "date": 1724702650188,
+        "tool": "customSmallerIsBetter",
+        "description": "The latency of creating and executing processes on a single processor.",
         "benches": [
           {
-            "name": "Average unix bandwidth on Linux",
-            "value": "7545.22",
-            "unit": "MB/s",
+            "name": "Average exec latency on Linux",
+            "value": "209.0833",
+            "unit": "µs",
             "extra": "linux_result"
           },
           {
-            "name": "Average unix bandwidth on Asterinas",
-            "value": "5537.30",
-            "unit": "MB/s",
+            "name": "Average exec latency on Asterinas",
+            "value": "412.1538",
+            "unit": "µs",
+            "extra": "aster_result"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Chen Chengjun",
+            "username": "cchanging",
+            "email": "chenchengjun.ccj@antgroup.com"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "ffc717f00bce62b1805af8043e335ad5fc1f175c",
+          "message": "Enable handling page fault around",
+          "timestamp": "2024-08-28T02:24:44Z",
+          "url": "https://github.com/asterinas/asterinas/commit/ffc717f00bce62b1805af8043e335ad5fc1f175c"
+        },
+        "date": 1724817765798,
+        "tool": "customSmallerIsBetter",
+        "description": "The latency of creating and executing processes on a single processor.",
+        "benches": [
+          {
+            "name": "Average exec latency on Linux",
+            "value": "220.9130",
+            "unit": "µs",
+            "extra": "linux_result"
+          },
+          {
+            "name": "Average exec latency on Asterinas",
+            "value": "332.5294",
+            "unit": "µs",
             "extra": "aster_result"
           }
         ]
@@ -1234,20 +1458,20 @@ window.BENCHMARK_DATA = {
           "timestamp": "2024-08-28T06:23:24Z",
           "url": "https://github.com/asterinas/asterinas/commit/e6f465b553f613d60828e0e503dc94ce4109ded1"
         },
-        "date": 1724879059269,
-        "tool": "customBiggerIsBetter",
-        "description": "The bandwidth of UNIX domain socket communication on a single processor.",
+        "date": 1724875478827,
+        "tool": "customSmallerIsBetter",
+        "description": "The latency of creating and executing processes on a single processor.",
         "benches": [
           {
-            "name": "Average unix bandwidth on Linux",
-            "value": "7548.30",
-            "unit": "MB/s",
+            "name": "Average exec latency on Linux",
+            "value": "220.4348",
+            "unit": "µs",
             "extra": "linux_result"
           },
           {
-            "name": "Average unix bandwidth on Asterinas",
-            "value": "5464.49",
-            "unit": "MB/s",
+            "name": "Average exec latency on Asterinas",
+            "value": "318.8235",
+            "unit": "µs",
             "extra": "aster_result"
           }
         ]
@@ -1269,20 +1493,20 @@ window.BENCHMARK_DATA = {
           "timestamp": "2024-08-29T03:52:33Z",
           "url": "https://github.com/asterinas/asterinas/commit/00d9b01d5c356fbc5f6b72b9a69a7571fdf0ab1f"
         },
-        "date": 1724911227813,
-        "tool": "customBiggerIsBetter",
-        "description": "The bandwidth of UNIX domain socket communication on a single processor.",
+        "date": 1724907232630,
+        "tool": "customSmallerIsBetter",
+        "description": "The latency of creating and executing processes on a single processor.",
         "benches": [
           {
-            "name": "Average unix bandwidth on Linux",
-            "value": "7543.48",
-            "unit": "MB/s",
+            "name": "Average exec latency on Linux",
+            "value": "218.3333",
+            "unit": "µs",
             "extra": "linux_result"
           },
           {
-            "name": "Average unix bandwidth on Asterinas",
-            "value": "5472.34",
-            "unit": "MB/s",
+            "name": "Average exec latency on Asterinas",
+            "value": "285.6667",
+            "unit": "µs",
             "extra": "aster_result"
           }
         ]
@@ -1304,20 +1528,20 @@ window.BENCHMARK_DATA = {
           "timestamp": "2024-08-29T03:52:33Z",
           "url": "https://github.com/asterinas/asterinas/commit/00d9b01d5c356fbc5f6b72b9a69a7571fdf0ab1f"
         },
-        "date": 1724917735482,
-        "tool": "customBiggerIsBetter",
-        "description": "The bandwidth of UNIX domain socket communication on a single processor.",
+        "date": 1724913525415,
+        "tool": "customSmallerIsBetter",
+        "description": "The latency of creating and executing processes on a single processor.",
         "benches": [
           {
-            "name": "Average unix bandwidth on Linux",
-            "value": "7797.90",
-            "unit": "MB/s",
+            "name": "Average exec latency on Linux",
+            "value": "219.0833",
+            "unit": "µs",
             "extra": "linux_result"
           },
           {
-            "name": "Average unix bandwidth on Asterinas",
-            "value": "5473.93",
-            "unit": "MB/s",
+            "name": "Average exec latency on Asterinas",
+            "value": "298.1176",
+            "unit": "µs",
             "extra": "aster_result"
           }
         ]
@@ -1339,20 +1563,20 @@ window.BENCHMARK_DATA = {
           "timestamp": "2024-08-29T12:46:20Z",
           "url": "https://github.com/asterinas/asterinas/commit/539984bbed414969b0c40cf181a10e9341ed2359"
         },
-        "date": 1724966440688,
-        "tool": "customBiggerIsBetter",
-        "description": "The bandwidth of UNIX domain socket communication on a single processor.",
+        "date": 1724961760648,
+        "tool": "customSmallerIsBetter",
+        "description": "The latency of creating and executing processes on a single processor.",
         "benches": [
           {
-            "name": "Average unix bandwidth on Linux",
-            "value": "7590.32",
-            "unit": "MB/s",
+            "name": "Average exec latency on Linux",
+            "value": "224.0455",
+            "unit": "µs",
             "extra": "linux_result"
           },
           {
-            "name": "Average unix bandwidth on Asterinas",
-            "value": "5497.16",
-            "unit": "MB/s",
+            "name": "Average exec latency on Asterinas",
+            "value": "288.9474",
+            "unit": "µs",
             "extra": "aster_result"
           }
         ]
@@ -1374,20 +1598,20 @@ window.BENCHMARK_DATA = {
           "timestamp": "2024-08-30T11:23:53Z",
           "url": "https://github.com/asterinas/asterinas/commit/db16caf28c46e4ed24099fcba13d40b7d673164c"
         },
-        "date": 1725052949948,
-        "tool": "customBiggerIsBetter",
-        "description": "The bandwidth of UNIX domain socket communication on a single processor.",
+        "date": 1725048595578,
+        "tool": "customSmallerIsBetter",
+        "description": "The latency of creating and executing processes on a single processor.",
         "benches": [
           {
-            "name": "Average unix bandwidth on Linux",
-            "value": "7819.80",
-            "unit": "MB/s",
+            "name": "Average exec latency on Linux",
+            "value": "219.5600",
+            "unit": "µs",
             "extra": "linux_result"
           },
           {
-            "name": "Average unix bandwidth on Asterinas",
-            "value": "5481.92",
-            "unit": "MB/s",
+            "name": "Average exec latency on Asterinas",
+            "value": "288.1667",
+            "unit": "µs",
             "extra": "aster_result"
           }
         ]
@@ -1409,20 +1633,20 @@ window.BENCHMARK_DATA = {
           "timestamp": "2024-08-30T17:51:32Z",
           "url": "https://github.com/asterinas/asterinas/commit/e6e771e9b5ae7d223a50aa4b38994500b0db6867"
         },
-        "date": 1725139240436,
-        "tool": "customBiggerIsBetter",
-        "description": "The bandwidth of UNIX domain socket communication on a single processor.",
+        "date": 1725134828253,
+        "tool": "customSmallerIsBetter",
+        "description": "The latency of creating and executing processes on a single processor.",
         "benches": [
           {
-            "name": "Average unix bandwidth on Linux",
-            "value": "7558.81",
-            "unit": "MB/s",
+            "name": "Average exec latency on Linux",
+            "value": "222.4783",
+            "unit": "µs",
             "extra": "linux_result"
           },
           {
-            "name": "Average unix bandwidth on Asterinas",
-            "value": "5556.52",
-            "unit": "MB/s",
+            "name": "Average exec latency on Asterinas",
+            "value": "288.4500",
+            "unit": "µs",
             "extra": "aster_result"
           }
         ]
@@ -1444,20 +1668,20 @@ window.BENCHMARK_DATA = {
           "timestamp": "2024-08-29T14:26:36Z",
           "url": "https://github.com/asterinas/asterinas/commit/745ac6d982638d3548f09ea2aa2103e37c135153"
         },
-        "date": 1725225630353,
-        "tool": "customBiggerIsBetter",
-        "description": "The bandwidth of UNIX domain socket communication on a single processor.",
+        "date": 1725221235522,
+        "tool": "customSmallerIsBetter",
+        "description": "The latency of creating and executing processes on a single processor.",
         "benches": [
           {
-            "name": "Average unix bandwidth on Linux",
-            "value": "7501.03",
-            "unit": "MB/s",
+            "name": "Average exec latency on Linux",
+            "value": "220.9130",
+            "unit": "µs",
             "extra": "linux_result"
           },
           {
-            "name": "Average unix bandwidth on Asterinas",
-            "value": "5490.08",
-            "unit": "MB/s",
+            "name": "Average exec latency on Asterinas",
+            "value": "288.3000",
+            "unit": "µs",
             "extra": "aster_result"
           }
         ]
@@ -1479,20 +1703,20 @@ window.BENCHMARK_DATA = {
           "timestamp": "2024-09-02T09:48:15Z",
           "url": "https://github.com/asterinas/asterinas/commit/963874471284ed014b76d268d933b6d13073c2cc"
         },
-        "date": 1725317067459,
-        "tool": "customBiggerIsBetter",
-        "description": "The bandwidth of UNIX domain socket communication on a single processor.",
+        "date": 1725307717517,
+        "tool": "customSmallerIsBetter",
+        "description": "The latency of creating and executing processes on a single processor.",
         "benches": [
           {
-            "name": "Average unix bandwidth on Linux",
-            "value": "7496.24",
-            "unit": "MB/s",
+            "name": "Average exec latency on Linux",
+            "value": "220.7391",
+            "unit": "µs",
             "extra": "linux_result"
           },
           {
-            "name": "Average unix bandwidth on Asterinas",
-            "value": "5547.71",
-            "unit": "MB/s",
+            "name": "Average exec latency on Asterinas",
+            "value": "280.3889",
+            "unit": "µs",
             "extra": "aster_result"
           }
         ]
@@ -1514,20 +1738,20 @@ window.BENCHMARK_DATA = {
           "timestamp": "2024-09-02T09:48:15Z",
           "url": "https://github.com/asterinas/asterinas/commit/963874471284ed014b76d268d933b6d13073c2cc"
         },
-        "date": 1725403445827,
-        "tool": "customBiggerIsBetter",
-        "description": "The bandwidth of UNIX domain socket communication on a single processor.",
+        "date": 1725393780171,
+        "tool": "customSmallerIsBetter",
+        "description": "The latency of creating and executing processes on a single processor.",
         "benches": [
           {
-            "name": "Average unix bandwidth on Linux",
-            "value": "7584.13",
-            "unit": "MB/s",
+            "name": "Average exec latency on Linux",
+            "value": "219.2609",
+            "unit": "µs",
             "extra": "linux_result"
           },
           {
-            "name": "Average unix bandwidth on Asterinas",
-            "value": "5557.57",
-            "unit": "MB/s",
+            "name": "Average exec latency on Asterinas",
+            "value": "288.7778",
+            "unit": "µs",
             "extra": "aster_result"
           }
         ]
@@ -1549,20 +1773,20 @@ window.BENCHMARK_DATA = {
           "timestamp": "2024-09-03T07:33:12Z",
           "url": "https://github.com/asterinas/asterinas/commit/458a6a5b3b01aebe78c124fe20be91a91f0139da"
         },
-        "date": 1725489741417,
-        "tool": "customBiggerIsBetter",
-        "description": "The bandwidth of UNIX domain socket communication on a single processor.",
+        "date": 1725480607222,
+        "tool": "customSmallerIsBetter",
+        "description": "The latency of creating and executing processes on a single processor.",
         "benches": [
           {
-            "name": "Average unix bandwidth on Linux",
-            "value": "7650.58",
-            "unit": "MB/s",
+            "name": "Average exec latency on Linux",
+            "value": "223.7727",
+            "unit": "µs",
             "extra": "linux_result"
           },
           {
-            "name": "Average unix bandwidth on Asterinas",
-            "value": "5548.28",
-            "unit": "MB/s",
+            "name": "Average exec latency on Asterinas",
+            "value": "281.7778",
+            "unit": "µs",
             "extra": "aster_result"
           }
         ]
@@ -1584,20 +1808,20 @@ window.BENCHMARK_DATA = {
           "timestamp": "2024-09-03T07:33:12Z",
           "url": "https://github.com/asterinas/asterinas/commit/458a6a5b3b01aebe78c124fe20be91a91f0139da"
         },
-        "date": 1725576317149,
-        "tool": "customBiggerIsBetter",
-        "description": "The bandwidth of UNIX domain socket communication on a single processor.",
+        "date": 1725566775539,
+        "tool": "customSmallerIsBetter",
+        "description": "The latency of creating and executing processes on a single processor.",
         "benches": [
           {
-            "name": "Average unix bandwidth on Linux",
-            "value": "7749.57",
-            "unit": "MB/s",
+            "name": "Average exec latency on Linux",
+            "value": "219.2174",
+            "unit": "µs",
             "extra": "linux_result"
           },
           {
-            "name": "Average unix bandwidth on Asterinas",
-            "value": "5548.10",
-            "unit": "MB/s",
+            "name": "Average exec latency on Asterinas",
+            "value": "283.9500",
+            "unit": "µs",
             "extra": "aster_result"
           }
         ]
@@ -1619,20 +1843,20 @@ window.BENCHMARK_DATA = {
           "timestamp": "2024-09-06T04:11:16Z",
           "url": "https://github.com/asterinas/asterinas/commit/64e43d34aab13eeddea8dd7485c712acc99116ca"
         },
-        "date": 1725662515870,
-        "tool": "customBiggerIsBetter",
-        "description": "The bandwidth of UNIX domain socket communication on a single processor.",
+        "date": 1725653009473,
+        "tool": "customSmallerIsBetter",
+        "description": "The latency of creating and executing processes on a single processor.",
         "benches": [
           {
-            "name": "Average unix bandwidth on Linux",
-            "value": "7779.11",
-            "unit": "MB/s",
+            "name": "Average exec latency on Linux",
+            "value": "220.3913",
+            "unit": "µs",
             "extra": "linux_result"
           },
           {
-            "name": "Average unix bandwidth on Asterinas",
-            "value": "5548.09",
-            "unit": "MB/s",
+            "name": "Average exec latency on Asterinas",
+            "value": "280.1667",
+            "unit": "µs",
             "extra": "aster_result"
           }
         ]
@@ -1654,20 +1878,20 @@ window.BENCHMARK_DATA = {
           "timestamp": "2024-09-06T12:05:01Z",
           "url": "https://github.com/asterinas/asterinas/commit/c68302f7007225fa47f22a1085a8c59dcdae2ad4"
         },
-        "date": 1725749032211,
-        "tool": "customBiggerIsBetter",
-        "description": "The bandwidth of UNIX domain socket communication on a single processor.",
+        "date": 1725739711723,
+        "tool": "customSmallerIsBetter",
+        "description": "The latency of creating and executing processes on a single processor.",
         "benches": [
           {
-            "name": "Average unix bandwidth on Linux",
-            "value": "7765.81",
-            "unit": "MB/s",
+            "name": "Average exec latency on Linux",
+            "value": "213.1304",
+            "unit": "µs",
             "extra": "linux_result"
           },
           {
-            "name": "Average unix bandwidth on Asterinas",
-            "value": "5542.72",
-            "unit": "MB/s",
+            "name": "Average exec latency on Asterinas",
+            "value": "280.6000",
+            "unit": "µs",
             "extra": "aster_result"
           }
         ]
@@ -1689,20 +1913,20 @@ window.BENCHMARK_DATA = {
           "timestamp": "2024-09-06T12:05:01Z",
           "url": "https://github.com/asterinas/asterinas/commit/c68302f7007225fa47f22a1085a8c59dcdae2ad4"
         },
-        "date": 1725835530662,
-        "tool": "customBiggerIsBetter",
-        "description": "The bandwidth of UNIX domain socket communication on a single processor.",
+        "date": 1725825779773,
+        "tool": "customSmallerIsBetter",
+        "description": "The latency of creating and executing processes on a single processor.",
         "benches": [
           {
-            "name": "Average unix bandwidth on Linux",
-            "value": "7771.38",
-            "unit": "MB/s",
+            "name": "Average exec latency on Linux",
+            "value": "219.1739",
+            "unit": "µs",
             "extra": "linux_result"
           },
           {
-            "name": "Average unix bandwidth on Asterinas",
-            "value": "5530.14",
-            "unit": "MB/s",
+            "name": "Average exec latency on Asterinas",
+            "value": "270.9524",
+            "unit": "µs",
             "extra": "aster_result"
           }
         ]
@@ -1724,20 +1948,20 @@ window.BENCHMARK_DATA = {
           "timestamp": "2024-09-06T12:05:01Z",
           "url": "https://github.com/asterinas/asterinas/commit/c68302f7007225fa47f22a1085a8c59dcdae2ad4"
         },
-        "date": 1725921570439,
-        "tool": "customBiggerIsBetter",
-        "description": "The bandwidth of UNIX domain socket communication on a single processor.",
+        "date": 1725912505637,
+        "tool": "customSmallerIsBetter",
+        "description": "The latency of creating and executing processes on a single processor.",
         "benches": [
           {
-            "name": "Average unix bandwidth on Linux",
-            "value": "7478.43",
-            "unit": "MB/s",
+            "name": "Average exec latency on Linux",
+            "value": "221.6957",
+            "unit": "µs",
             "extra": "linux_result"
           },
           {
-            "name": "Average unix bandwidth on Asterinas",
-            "value": "5552.75",
-            "unit": "MB/s",
+            "name": "Average exec latency on Asterinas",
+            "value": "279.7222",
+            "unit": "µs",
             "extra": "aster_result"
           }
         ]
@@ -1759,20 +1983,20 @@ window.BENCHMARK_DATA = {
           "timestamp": "2024-09-06T12:05:01Z",
           "url": "https://github.com/asterinas/asterinas/commit/c68302f7007225fa47f22a1085a8c59dcdae2ad4"
         },
-        "date": 1726008010196,
-        "tool": "customBiggerIsBetter",
-        "description": "The bandwidth of UNIX domain socket communication on a single processor.",
+        "date": 1725998765563,
+        "tool": "customSmallerIsBetter",
+        "description": "The latency of creating and executing processes on a single processor.",
         "benches": [
           {
-            "name": "Average unix bandwidth on Linux",
-            "value": "7532.90",
-            "unit": "MB/s",
+            "name": "Average exec latency on Linux",
+            "value": "218.1304",
+            "unit": "µs",
             "extra": "linux_result"
           },
           {
-            "name": "Average unix bandwidth on Asterinas",
-            "value": "5544.80",
-            "unit": "MB/s",
+            "name": "Average exec latency on Asterinas",
+            "value": "283.5000",
+            "unit": "µs",
             "extra": "aster_result"
           }
         ]
@@ -1794,20 +2018,20 @@ window.BENCHMARK_DATA = {
           "timestamp": "2024-09-02T13:23:46Z",
           "url": "https://github.com/asterinas/asterinas/commit/8bfbdf6642a9d04db3490792926d6a299d1e30be"
         },
-        "date": 1726089983381,
-        "tool": "customBiggerIsBetter",
-        "description": "The bandwidth of UNIX domain socket communication on a single processor.",
+        "date": 1726084947542,
+        "tool": "customSmallerIsBetter",
+        "description": "The latency of creating and executing processes on a single processor.",
         "benches": [
           {
-            "name": "Average unix bandwidth on Linux",
-            "value": "7549.53",
-            "unit": "MB/s",
+            "name": "Average exec latency on Linux",
+            "value": "218.0435",
+            "unit": "µs",
             "extra": "linux_result"
           },
           {
-            "name": "Average unix bandwidth on Asterinas",
-            "value": "5557.97",
-            "unit": "MB/s",
+            "name": "Average exec latency on Asterinas",
+            "value": "287.8000",
+            "unit": "µs",
             "extra": "aster_result"
           }
         ]
@@ -1829,20 +2053,20 @@ window.BENCHMARK_DATA = {
           "timestamp": "2024-09-12T12:15:04Z",
           "url": "https://github.com/asterinas/asterinas/commit/6fcad6ce143b8f65e8be76297eb95a9cb56da22e"
         },
-        "date": 1726176416275,
-        "tool": "customBiggerIsBetter",
-        "description": "The bandwidth of UNIX domain socket communication on a single processor.",
+        "date": 1726171489769,
+        "tool": "customSmallerIsBetter",
+        "description": "The latency of creating and executing processes on a single processor.",
         "benches": [
           {
-            "name": "Average unix bandwidth on Linux",
-            "value": "7472.22",
-            "unit": "MB/s",
+            "name": "Average exec latency on Linux",
+            "value": "221.7391",
+            "unit": "µs",
             "extra": "linux_result"
           },
           {
-            "name": "Average unix bandwidth on Asterinas",
-            "value": "5601.21",
-            "unit": "MB/s",
+            "name": "Average exec latency on Asterinas",
+            "value": "275.0000",
+            "unit": "µs",
             "extra": "aster_result"
           }
         ]
@@ -1864,22 +2088,22 @@ window.BENCHMARK_DATA = {
           "timestamp": "2024-09-13T05:02:35Z",
           "url": "https://github.com/asterinas/asterinas/commit/32ea24e945efde86117d2278a48145d71b9ec90c"
         },
-        "date": 1726261979356,
-        "tool": "customBiggerIsBetter",
-        "title": "[Unix sockets] The bandwidth",
-        "description": "bw_unix",
+        "date": 1726259593452,
+        "tool": "customSmallerIsBetter",
+        "title": "[Process] The cost of fork+exec+exit",
+        "description": "lat_proc exec",
         "display": true,
         "benches": [
           {
-            "name": "Average unix bandwidth on Linux",
-            "value": "7552.97",
-            "unit": "MB/s",
+            "name": "Average exec latency on Linux",
+            "value": "196.9286",
+            "unit": "µs",
             "extra": "linux_result"
           },
           {
-            "name": "Average unix bandwidth on Asterinas",
-            "value": "5653.46",
-            "unit": "MB/s",
+            "name": "Average exec latency on Asterinas",
+            "value": "340.8000",
+            "unit": "µs",
             "extra": "aster_result"
           }
         ]
@@ -1901,172 +2125,22 @@ window.BENCHMARK_DATA = {
           "timestamp": "2024-09-14T03:47:04Z",
           "url": "https://github.com/grief8/asterinas/commit/adfb4a081356bea739a1720f284c3e66d6a96d19"
         },
-        "date": 1726286032365,
-        "tool": "customBiggerIsBetter",
-        "title": "[Unix sockets] The bandwidth",
-        "description": "bw_unix",
+        "date": 1726640702039,
+        "tool": "customSmallerIsBetter",
+        "title": "[Process] The cost of fork+exec+exit",
+        "description": "lat_proc exec",
         "display": true,
         "benches": [
           {
-            "name": "Average unix bandwidth on Linux",
-            "value": "6885.04",
-            "unit": "MB/s",
+            "name": "Average exec latency on Linux",
+            "value": "468.1667",
+            "unit": "µs",
             "extra": "linux_result"
           },
           {
-            "name": "Average unix bandwidth on Asterinas",
-            "value": "7147.89",
-            "unit": "MB/s",
-            "extra": "aster_result"
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
-            "name": "Fabing Li",
-            "username": "grief8",
-            "email": "lifabing.lfb@antgroup.com"
-          },
-          "committer": {
-            "name": "Fabing Li",
-            "username": "grief8",
-            "email": "lifabing.lfb@antgroup.com"
-          },
-          "id": "adfb4a081356bea739a1720f284c3e66d6a96d19",
-          "message": "test",
-          "timestamp": "2024-09-14T03:47:04Z",
-          "url": "https://github.com/grief8/asterinas/commit/adfb4a081356bea739a1720f284c3e66d6a96d19"
-        },
-        "date": 1726640756936,
-        "tool": "customBiggerIsBetter",
-        "title": "[Unix sockets] The bandwidth",
-        "description": "bw_unix",
-        "display": true,
-        "benches": [
-          {
-            "name": "Average unix bandwidth on Linux",
-            "value": "6824.82",
-            "unit": "MB/s",
-            "extra": "linux_result"
-          },
-          {
-            "name": "Average unix bandwidth on Asterinas",
-            "value": "7104.29",
-            "unit": "MB/s",
-            "extra": "aster_result"
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
-            "name": "Fabing Li",
-            "username": "grief8",
-            "email": "lifabing.lfb@antgroup.com"
-          },
-          "committer": {
-            "name": "Fabing Li",
-            "username": "grief8",
-            "email": "lifabing.lfb@antgroup.com"
-          },
-          "id": "bb8d2fe583df04a06eaf4c931270c55dd06f48ae",
-          "message": "iuu",
-          "timestamp": "2024-09-24T06:58:54Z",
-          "url": "https://github.com/grief8/asterinas/commit/bb8d2fe583df04a06eaf4c931270c55dd06f48ae"
-        },
-        "date": 1727168692014,
-        "tool": "customBiggerIsBetter",
-        "title": "[Unix sockets] The bandwidth",
-        "description": "bw_unix",
-        "display": true,
-        "benches": [
-          {
-            "name": "Average unix bandwidth on Linux",
-            "value": "6800.35",
-            "unit": "MB/s",
-            "extra": "linux_result"
-          },
-          {
-            "name": "Average unix bandwidth on Asterinas",
-            "value": "14837.83",
-            "unit": "MB/s",
-            "extra": "aster_result"
-          }
-        ]
-      }
-    ],
-    "ext2_create_delete_files_10k_ops": [
-      {
-        "commit": {
-          "author": {
-            "name": "Fabing Li",
-            "username": "grief8",
-            "email": "lifabing.lfb@antgroup.com"
-          },
-          "committer": {
-            "name": "Fabing Li",
-            "username": "grief8",
-            "email": "lifabing.lfb@antgroup.com"
-          },
-          "id": "52871246d45bbd86954f1d1dd5c65c98e1656064",
-          "message": "uP",
-          "timestamp": "2024-09-24T06:48:01Z",
-          "url": "https://github.com/grief8/asterinas/commit/52871246d45bbd86954f1d1dd5c65c98e1656064"
-        },
-        "date": 1727160813149,
-        "tool": "customBiggerIsBetter",
-        "title": "[Ext2] The cost of creating/deleting small files (10KB)",
-        "description": "lat_fs -s 10K /ext2",
-        "display": true,
-        "benches": [
-          {
-            "name": "Number of created/deleted files on Linux",
-            "value": "506",
-            "unit": "number",
-            "extra": "linux_result"
-          },
-          {
-            "name": "Number of created/deleted files on Asterinas",
-            "value": "1357",
-            "unit": "number",
-            "extra": "aster_result"
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
-            "name": "Fabing Li",
-            "username": "grief8",
-            "email": "lifabing.lfb@antgroup.com"
-          },
-          "committer": {
-            "name": "Fabing Li",
-            "username": "grief8",
-            "email": "lifabing.lfb@antgroup.com"
-          },
-          "id": "bb8d2fe583df04a06eaf4c931270c55dd06f48ae",
-          "message": "iuu",
-          "timestamp": "2024-09-24T06:58:54Z",
-          "url": "https://github.com/grief8/asterinas/commit/bb8d2fe583df04a06eaf4c931270c55dd06f48ae"
-        },
-        "date": 1727168640396,
-        "tool": "customBiggerIsBetter",
-        "title": "[Ext2] The cost of creating/deleting small files (10KB)",
-        "description": "lat_fs -s 10K /ext2",
-        "display": true,
-        "benches": [
-          {
-            "name": "Number of created/deleted files on Linux",
-            "value": "498",
-            "unit": "number",
-            "extra": "linux_result"
-          },
-          {
-            "name": "Number of created/deleted files on Asterinas",
-            "value": "154",
-            "unit": "number",
+            "name": "Average exec latency on Asterinas",
+            "value": "642.7778",
+            "unit": "µs",
             "extra": "aster_result"
           }
         ]
@@ -4022,7 +4096,888 @@ window.BENCHMARK_DATA = {
         ]
       }
     ],
-    "unix_connect_lat": [
+    "signal_catch_lat": [
+      {
+        "commit": {
+          "author": {
+            "name": "Fabing Li",
+            "username": "grief8",
+            "email": "lifabing.lfb@antgroup.com"
+          },
+          "committer": {
+            "name": "Fabing Li",
+            "username": "grief8",
+            "email": "lifabing.lfb@antgroup.com"
+          },
+          "id": "52871246d45bbd86954f1d1dd5c65c98e1656064",
+          "message": "uP",
+          "timestamp": "2024-09-24T06:48:01Z",
+          "url": "https://github.com/grief8/asterinas/commit/52871246d45bbd86954f1d1dd5c65c98e1656064"
+        },
+        "date": 1727160887171,
+        "tool": "customSmallerIsBetter",
+        "title": "[Signals] The cost of catching a signal",
+        "description": "lat_sig catch",
+        "display": true,
+        "benches": [
+          {
+            "name": "Average Signal handler overhead on Linux",
+            "value": "1.0394",
+            "unit": "µs",
+            "extra": "linux_result"
+          },
+          {
+            "name": "Average Signal handler overhead on Asterinas",
+            "value": "0.5672",
+            "unit": "µs",
+            "extra": "aster_result"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Fabing Li",
+            "username": "grief8",
+            "email": "lifabing.lfb@antgroup.com"
+          },
+          "committer": {
+            "name": "Fabing Li",
+            "username": "grief8",
+            "email": "lifabing.lfb@antgroup.com"
+          },
+          "id": "bb8d2fe583df04a06eaf4c931270c55dd06f48ae",
+          "message": "iuu",
+          "timestamp": "2024-09-24T06:58:54Z",
+          "url": "https://github.com/grief8/asterinas/commit/bb8d2fe583df04a06eaf4c931270c55dd06f48ae"
+        },
+        "date": 1727168660308,
+        "tool": "customSmallerIsBetter",
+        "title": "[Signals] The cost of catching a signal",
+        "description": "lat_sig catch",
+        "display": true,
+        "benches": [
+          {
+            "name": "Average Signal handler overhead on Linux",
+            "value": "1.5892",
+            "unit": "µs",
+            "extra": "linux_result"
+          },
+          {
+            "name": "Average Signal handler overhead on Asterinas",
+            "value": "0.5465",
+            "unit": "µs",
+            "extra": "aster_result"
+          }
+        ]
+      }
+    ],
+    "signal_install_lat": [
+      {
+        "commit": {
+          "author": {
+            "name": "Yuke Peng",
+            "username": "sdww0",
+            "email": "pykfirst@gmail.com"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "6f8978193c7a73a51403a8751314ddebc1c1983f",
+          "message": "Add benchmarks to workflow",
+          "timestamp": "2024-08-02T13:40:56Z",
+          "url": "https://github.com/asterinas/asterinas/commit/6f8978193c7a73a51403a8751314ddebc1c1983f"
+        },
+        "date": 1722631022051,
+        "tool": "customSmallerIsBetter",
+        "description": "The latency of signal handling on a single processor.",
+        "benches": [
+          {
+            "name": "Average Signal handler install latency on Linux",
+            "value": "0.3304",
+            "unit": "µs",
+            "extra": "linux_result"
+          },
+          {
+            "name": "Average Signal handler install latency on Asterinas",
+            "value": "0.3435",
+            "unit": "µs",
+            "extra": "aster_result"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Yuke Peng",
+            "username": "sdww0",
+            "email": "pykfirst@gmail.com"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "6f8978193c7a73a51403a8751314ddebc1c1983f",
+          "message": "Add benchmarks to workflow",
+          "timestamp": "2024-08-02T13:40:56Z",
+          "url": "https://github.com/asterinas/asterinas/commit/6f8978193c7a73a51403a8751314ddebc1c1983f"
+        },
+        "date": 1722717443129,
+        "tool": "customSmallerIsBetter",
+        "description": "The latency of signal handling on a single processor.",
+        "benches": [
+          {
+            "name": "Average Signal handler install latency on Linux",
+            "value": "0.3284",
+            "unit": "µs",
+            "extra": "linux_result"
+          },
+          {
+            "name": "Average Signal handler install latency on Asterinas",
+            "value": "0.3270",
+            "unit": "µs",
+            "extra": "aster_result"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Zhang Junyang",
+            "username": "junyang-zh",
+            "email": "junyang@stu.pku.edu.cn"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "16690bc61b0bb8d90dbb1cec8a317ba34aa09f71",
+          "message": "Implement atomic signal masks and refactor `SigSet`",
+          "timestamp": "2024-08-02T08:26:56Z",
+          "url": "https://github.com/asterinas/asterinas/commit/16690bc61b0bb8d90dbb1cec8a317ba34aa09f71"
+        },
+        "date": 1722803810060,
+        "tool": "customSmallerIsBetter",
+        "description": "The latency of signal handling on a single processor.",
+        "benches": [
+          {
+            "name": "Average Signal handler install latency on Linux",
+            "value": "0.3847",
+            "unit": "µs",
+            "extra": "linux_result"
+          },
+          {
+            "name": "Average Signal handler install latency on Asterinas",
+            "value": "0.2988",
+            "unit": "µs",
+            "extra": "aster_result"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "azongchang",
+            "username": "azongchang",
+            "email": "azongchang@qq.com"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "aa84b31634b9c710e04b337c5d1b8fa207f8dbde",
+          "message": "Add the description of encoding option to the OSDK document",
+          "timestamp": "2024-08-05T05:52:13Z",
+          "url": "https://github.com/asterinas/asterinas/commit/aa84b31634b9c710e04b337c5d1b8fa207f8dbde"
+        },
+        "date": 1722890188023,
+        "tool": "customSmallerIsBetter",
+        "description": "The latency of signal handling on a single processor.",
+        "benches": [
+          {
+            "name": "Average Signal handler install latency on Linux",
+            "value": "0.3297",
+            "unit": "µs",
+            "extra": "linux_result"
+          },
+          {
+            "name": "Average Signal handler install latency on Asterinas",
+            "value": "0.3056",
+            "unit": "µs",
+            "extra": "aster_result"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ruihan Li",
+            "username": "lrh2000",
+            "email": "lrh2000@pku.edu.cn"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "b1ea422efaf6b0becd7d6cd99d270ae01fcd12de",
+          "message": "Fix accesses to VirtIO queue DMA",
+          "timestamp": "2024-08-05T14:06:02Z",
+          "url": "https://github.com/asterinas/asterinas/commit/b1ea422efaf6b0becd7d6cd99d270ae01fcd12de"
+        },
+        "date": 1722976704876,
+        "tool": "customSmallerIsBetter",
+        "description": "The latency of signal handling on a single processor.",
+        "benches": [
+          {
+            "name": "Average Signal handler install latency on Linux",
+            "value": "0.3349",
+            "unit": "µs",
+            "extra": "linux_result"
+          },
+          {
+            "name": "Average Signal handler install latency on Asterinas",
+            "value": "0.3217",
+            "unit": "µs",
+            "extra": "aster_result"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ruihan Li",
+            "username": "lrh2000",
+            "email": "lrh2000@pku.edu.cn"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "b1ea422efaf6b0becd7d6cd99d270ae01fcd12de",
+          "message": "Fix accesses to VirtIO queue DMA",
+          "timestamp": "2024-08-05T14:06:02Z",
+          "url": "https://github.com/asterinas/asterinas/commit/b1ea422efaf6b0becd7d6cd99d270ae01fcd12de"
+        },
+        "date": 1723063102546,
+        "tool": "customSmallerIsBetter",
+        "description": "The latency of signal handling on a single processor.",
+        "benches": [
+          {
+            "name": "Average Signal handler install latency on Linux",
+            "value": "0.3471",
+            "unit": "µs",
+            "extra": "linux_result"
+          },
+          {
+            "name": "Average Signal handler install latency on Asterinas",
+            "value": "0.3245",
+            "unit": "µs",
+            "extra": "aster_result"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Jianfeng Jiang",
+            "username": "StevenJiang1110",
+            "email": "jiangjianfeng.jjf@antgroup.com"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "6414111cc57b42db2bae1a0c8b01b85c3830a3b3",
+          "message": "Support flag SA_RESETHAND",
+          "timestamp": "2024-08-07T09:17:46Z",
+          "url": "https://github.com/asterinas/asterinas/commit/6414111cc57b42db2bae1a0c8b01b85c3830a3b3"
+        },
+        "date": 1723104076701,
+        "tool": "customSmallerIsBetter",
+        "description": "The latency of signal handling on a single processor.",
+        "benches": [
+          {
+            "name": "Average Signal handler install latency on Linux",
+            "value": "0.3346",
+            "unit": "µs",
+            "extra": "linux_result"
+          },
+          {
+            "name": "Average Signal handler install latency on Asterinas",
+            "value": "0.3050",
+            "unit": "µs",
+            "extra": "aster_result"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Chen Chengjun",
+            "username": "cchanging",
+            "email": "chenchengjun.ccj@antgroup.com"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "acb4833aae0476d7ed2d61871036aff3eaf77c5d",
+          "message": "Optimize trim_mappings",
+          "timestamp": "2024-08-02T03:14:14Z",
+          "url": "https://github.com/asterinas/asterinas/commit/acb4833aae0476d7ed2d61871036aff3eaf77c5d"
+        },
+        "date": 1723149332748,
+        "tool": "customSmallerIsBetter",
+        "description": "The latency of signal handling on a single processor.",
+        "benches": [
+          {
+            "name": "Average Signal handler install latency on Linux",
+            "value": "0.3324",
+            "unit": "µs",
+            "extra": "linux_result"
+          },
+          {
+            "name": "Average Signal handler install latency on Asterinas",
+            "value": "0.2643",
+            "unit": "µs",
+            "extra": "aster_result"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Chen Chengjun",
+            "username": "cchanging",
+            "email": "chenchengjun.ccj@antgroup.com"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "75da7fd30eca1e80ad57da15bfe5dff6963c03c1",
+          "message": "Replace old user space read/write with new APIs",
+          "timestamp": "2024-08-09T08:11:43Z",
+          "url": "https://github.com/asterinas/asterinas/commit/75da7fd30eca1e80ad57da15bfe5dff6963c03c1"
+        },
+        "date": 1723235742976,
+        "tool": "customSmallerIsBetter",
+        "description": "The latency of signal handling on a single processor.",
+        "benches": [
+          {
+            "name": "Average Signal handler install latency on Linux",
+            "value": "0.3285",
+            "unit": "µs",
+            "extra": "linux_result"
+          },
+          {
+            "name": "Average Signal handler install latency on Asterinas",
+            "value": "0.3010",
+            "unit": "µs",
+            "extra": "aster_result"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Hsy-Intel",
+            "username": "Hsy-Intel",
+            "email": "siyuan.hui@intel.com"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "a739b3828d106d4e09fe2ba7dd8eed12d18dd20a",
+          "message": "Use tdx-guest crate VE handler and support release mode for TDX",
+          "timestamp": "2024-08-09T10:56:43Z",
+          "url": "https://github.com/asterinas/asterinas/commit/a739b3828d106d4e09fe2ba7dd8eed12d18dd20a"
+        },
+        "date": 1723322138038,
+        "tool": "customSmallerIsBetter",
+        "description": "The latency of signal handling on a single processor.",
+        "benches": [
+          {
+            "name": "Average Signal handler install latency on Linux",
+            "value": "0.3345",
+            "unit": "µs",
+            "extra": "linux_result"
+          },
+          {
+            "name": "Average Signal handler install latency on Asterinas",
+            "value": "0.2891",
+            "unit": "µs",
+            "extra": "aster_result"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Hsy-Intel",
+            "username": "Hsy-Intel",
+            "email": "siyuan.hui@intel.com"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "a739b3828d106d4e09fe2ba7dd8eed12d18dd20a",
+          "message": "Use tdx-guest crate VE handler and support release mode for TDX",
+          "timestamp": "2024-08-09T10:56:43Z",
+          "url": "https://github.com/asterinas/asterinas/commit/a739b3828d106d4e09fe2ba7dd8eed12d18dd20a"
+        },
+        "date": 1723408434460,
+        "tool": "customSmallerIsBetter",
+        "description": "The latency of signal handling on a single processor.",
+        "benches": [
+          {
+            "name": "Average Signal handler install latency on Linux",
+            "value": "0.3380",
+            "unit": "µs",
+            "extra": "linux_result"
+          },
+          {
+            "name": "Average Signal handler install latency on Asterinas",
+            "value": "0.2850",
+            "unit": "µs",
+            "extra": "aster_result"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Fabing Li",
+            "username": "grief8",
+            "email": "lifabing.lfb@antgroup.com"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "f9bae1eee90c49d715569208009cc2c66768fe9a",
+          "message": "Fix lmbench-ctx extraction",
+          "timestamp": "2024-08-12T07:13:36Z",
+          "url": "https://github.com/asterinas/asterinas/commit/f9bae1eee90c49d715569208009cc2c66768fe9a"
+        },
+        "date": 1723495017545,
+        "tool": "customSmallerIsBetter",
+        "description": "The latency of signal handling on a single processor.",
+        "benches": [
+          {
+            "name": "Average Signal handler install latency on Linux",
+            "value": "0.3320",
+            "unit": "µs",
+            "extra": "linux_result"
+          },
+          {
+            "name": "Average Signal handler install latency on Asterinas",
+            "value": "0.2311",
+            "unit": "µs",
+            "extra": "aster_result"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Zhang Junyang",
+            "username": "junyang-zh",
+            "email": "junyang@stu.pku.edu.cn"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "be54a39592ff60fae6e729abaa3d4a26dd7f5624",
+          "message": "Remove the preempt guard from the IRQ guard",
+          "timestamp": "2024-08-12T13:04:53Z",
+          "url": "https://github.com/asterinas/asterinas/commit/be54a39592ff60fae6e729abaa3d4a26dd7f5624"
+        },
+        "date": 1723581231083,
+        "tool": "customSmallerIsBetter",
+        "description": "The latency of signal handling on a single processor.",
+        "benches": [
+          {
+            "name": "Average Signal handler install latency on Linux",
+            "value": "0.3748",
+            "unit": "µs",
+            "extra": "linux_result"
+          },
+          {
+            "name": "Average Signal handler install latency on Asterinas",
+            "value": "0.2334",
+            "unit": "µs",
+            "extra": "aster_result"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Zhang Junyang",
+            "username": "junyang-zh",
+            "email": "junyang@stu.pku.edu.cn"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "4844e7ca7ca6d78896a51a71487a6fdfe9ca6654",
+          "message": "Allow page table protectors to flush TLB entries precisely",
+          "timestamp": "2024-08-12T08:11:45Z",
+          "url": "https://github.com/asterinas/asterinas/commit/4844e7ca7ca6d78896a51a71487a6fdfe9ca6654"
+        },
+        "date": 1723667669595,
+        "tool": "customSmallerIsBetter",
+        "description": "The latency of signal handling on a single processor.",
+        "benches": [
+          {
+            "name": "Average Signal handler install latency on Linux",
+            "value": "0.3291",
+            "unit": "µs",
+            "extra": "linux_result"
+          },
+          {
+            "name": "Average Signal handler install latency on Asterinas",
+            "value": "0.2430",
+            "unit": "µs",
+            "extra": "aster_result"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Chen Chengjun",
+            "username": "cchanging",
+            "email": "chenchengjun.ccj@antgroup.com"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "99a22ff124972872838fa5dc7094fa9a5eea557e",
+          "message": "Improve efficiency of global TLB flushing",
+          "timestamp": "2024-08-15T08:53:54Z",
+          "url": "https://github.com/asterinas/asterinas/commit/99a22ff124972872838fa5dc7094fa9a5eea557e"
+        },
+        "date": 1723754401002,
+        "tool": "customSmallerIsBetter",
+        "description": "The latency of signal handling on a single processor.",
+        "benches": [
+          {
+            "name": "Average Signal handler install latency on Linux",
+            "value": "0.3292",
+            "unit": "µs",
+            "extra": "linux_result"
+          },
+          {
+            "name": "Average Signal handler install latency on Asterinas",
+            "value": "0.2085",
+            "unit": "µs",
+            "extra": "aster_result"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Jianfeng Jiang",
+            "username": "StevenJiang1110",
+            "email": "jiangjianfeng.jjf@antgroup.com"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "0291b5dc6bb142b9c6165c1cb29b7658eefdaa63",
+          "message": "Optimize the latency of lmbench-select-file",
+          "timestamp": "2024-08-15T03:44:30Z",
+          "url": "https://github.com/asterinas/asterinas/commit/0291b5dc6bb142b9c6165c1cb29b7658eefdaa63"
+        },
+        "date": 1723780624973,
+        "tool": "customSmallerIsBetter",
+        "description": "The latency of signal handling on a single processor.",
+        "benches": [
+          {
+            "name": "Average Signal handler install latency on Linux",
+            "value": "0.3346",
+            "unit": "µs",
+            "extra": "linux_result"
+          },
+          {
+            "name": "Average Signal handler install latency on Asterinas",
+            "value": "0.1964",
+            "unit": "µs",
+            "extra": "aster_result"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Jianfeng Jiang",
+            "username": "StevenJiang1110",
+            "email": "jiangjianfeng.jjf@antgroup.com"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "0291b5dc6bb142b9c6165c1cb29b7658eefdaa63",
+          "message": "Optimize the latency of lmbench-select-file",
+          "timestamp": "2024-08-15T03:44:30Z",
+          "url": "https://github.com/asterinas/asterinas/commit/0291b5dc6bb142b9c6165c1cb29b7658eefdaa63"
+        },
+        "date": 1723783990150,
+        "tool": "customSmallerIsBetter",
+        "description": "The latency of signal handling on a single processor.",
+        "benches": [
+          {
+            "name": "Average Signal handler install latency on Linux",
+            "value": "0.3325",
+            "unit": "µs",
+            "extra": "linux_result"
+          },
+          {
+            "name": "Average Signal handler install latency on Asterinas",
+            "value": "0.2014",
+            "unit": "µs",
+            "extra": "aster_result"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Jianfeng Jiang",
+            "username": "StevenJiang1110",
+            "email": "jiangjianfeng.jjf@antgroup.com"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "0291b5dc6bb142b9c6165c1cb29b7658eefdaa63",
+          "message": "Optimize the latency of lmbench-select-file",
+          "timestamp": "2024-08-15T03:44:30Z",
+          "url": "https://github.com/asterinas/asterinas/commit/0291b5dc6bb142b9c6165c1cb29b7658eefdaa63"
+        },
+        "date": 1723840801272,
+        "tool": "customSmallerIsBetter",
+        "description": "The latency of signal handling on a single processor.",
+        "benches": [
+          {
+            "name": "Average Signal handler install latency on Linux",
+            "value": "0.3284",
+            "unit": "µs",
+            "extra": "linux_result"
+          },
+          {
+            "name": "Average Signal handler install latency on Asterinas",
+            "value": "0.1966",
+            "unit": "µs",
+            "extra": "aster_result"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Fabing Li",
+            "username": "grief8",
+            "email": "lifabing.lfb@antgroup.com"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "ce2af1eb057077753a7a757edc1833e677a83918",
+          "message": "Add flock and sys_flock",
+          "timestamp": "2024-08-12T03:51:41Z",
+          "url": "https://github.com/asterinas/asterinas/commit/ce2af1eb057077753a7a757edc1833e677a83918"
+        },
+        "date": 1723927374420,
+        "tool": "customSmallerIsBetter",
+        "description": "The latency of signal handling on a single processor.",
+        "benches": [
+          {
+            "name": "Average Signal handler install latency on Linux",
+            "value": "0.3294",
+            "unit": "µs",
+            "extra": "linux_result"
+          },
+          {
+            "name": "Average Signal handler install latency on Asterinas",
+            "value": "0.2022",
+            "unit": "µs",
+            "extra": "aster_result"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Yuke Peng",
+            "username": "sdww0",
+            "email": "pykfirst@gmail.com"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "bbe43d76cc25538f04261379407f4fa721a13431",
+          "message": "Fix compile error due to `lock_irq_disabled`",
+          "timestamp": "2024-08-19T01:02:51Z",
+          "url": "https://github.com/asterinas/asterinas/commit/bbe43d76cc25538f04261379407f4fa721a13431"
+        },
+        "date": 1724100684571,
+        "tool": "customSmallerIsBetter",
+        "description": "The latency of signal handling on a single processor.",
+        "benches": [
+          {
+            "name": "Average Signal handler install latency on Linux",
+            "value": "0.3290",
+            "unit": "µs",
+            "extra": "linux_result"
+          },
+          {
+            "name": "Average Signal handler install latency on Asterinas",
+            "value": "0.2257",
+            "unit": "µs",
+            "extra": "aster_result"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Marsman1996",
+            "username": "Marsman1996",
+            "email": "lqliuyuwei@outlook.com"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "fda0fa051265867c2399f4981fdccb9cc6df110d",
+          "message": "Align `len` in `madvise`",
+          "timestamp": "2024-08-19T09:01:16Z",
+          "url": "https://github.com/asterinas/asterinas/commit/fda0fa051265867c2399f4981fdccb9cc6df110d"
+        },
+        "date": 1724187060170,
+        "tool": "customSmallerIsBetter",
+        "description": "The latency of signal handling on a single processor.",
+        "benches": [
+          {
+            "name": "Average Signal handler install latency on Linux",
+            "value": "0.3291",
+            "unit": "µs",
+            "extra": "linux_result"
+          },
+          {
+            "name": "Average Signal handler install latency on Asterinas",
+            "value": "0.2098",
+            "unit": "µs",
+            "extra": "aster_result"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Shaowei Song",
+            "username": "lucassong-mh",
+            "email": "songshaowei.ssw@antgroup.com"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "2102107be18729fba8f3546d5a3fe39c819d814a",
+          "message": "Refactor `VmReader`&`VmWriter` as given fallibility marker",
+          "timestamp": "2024-08-20T02:05:25Z",
+          "url": "https://github.com/asterinas/asterinas/commit/2102107be18729fba8f3546d5a3fe39c819d814a"
+        },
+        "date": 1724273487386,
+        "tool": "customSmallerIsBetter",
+        "description": "The latency of signal handling on a single processor.",
+        "benches": [
+          {
+            "name": "Average Signal handler install latency on Linux",
+            "value": "0.3360",
+            "unit": "µs",
+            "extra": "linux_result"
+          },
+          {
+            "name": "Average Signal handler install latency on Asterinas",
+            "value": "0.1950",
+            "unit": "µs",
+            "extra": "aster_result"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Yuke Peng",
+            "username": "sdww0",
+            "email": "pykfirst@gmail.com"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "bb4751741a6cd6b919015f8f483512c90e73bf55",
+          "message": "Bump smoltcp to newest git version",
+          "timestamp": "2024-08-22T06:34:41Z",
+          "url": "https://github.com/asterinas/asterinas/commit/bb4751741a6cd6b919015f8f483512c90e73bf55"
+        },
+        "date": 1724360669967,
+        "tool": "customSmallerIsBetter",
+        "description": "The latency of signal handling on a single processor.",
+        "benches": [
+          {
+            "name": "Average Signal handler install latency on Linux",
+            "value": "0.3320",
+            "unit": "µs",
+            "extra": "linux_result"
+          },
+          {
+            "name": "Average Signal handler install latency on Asterinas",
+            "value": "0.2148",
+            "unit": "µs",
+            "extra": "aster_result"
+          }
+        ]
+      },
       {
         "commit": {
           "author": {
@@ -4040,19 +4995,19 @@ window.BENCHMARK_DATA = {
           "timestamp": "2024-08-23T14:57:42Z",
           "url": "https://github.com/asterinas/asterinas/commit/e50b05d1ee71f52679e8ed8ea310cda6bfcd7e0c"
         },
-        "date": 1724447823524,
+        "date": 1724447218665,
         "tool": "customSmallerIsBetter",
-        "description": "The latency of UNIX domain socket connection on a single processor.",
+        "description": "The latency of signal handling on a single processor.",
         "benches": [
           {
-            "name": "Average unix connect latency on Linux",
-            "value": "7.1854",
+            "name": "Average Signal handler install latency on Linux",
+            "value": "0.3308",
             "unit": "µs",
             "extra": "linux_result"
           },
           {
-            "name": "Average unix connect latency on Asterinas",
-            "value": "7.3919",
+            "name": "Average Signal handler install latency on Asterinas",
+            "value": "0.2241",
             "unit": "µs",
             "extra": "aster_result"
           }
@@ -4075,19 +5030,19 @@ window.BENCHMARK_DATA = {
           "timestamp": "2024-08-24T09:27:15Z",
           "url": "https://github.com/asterinas/asterinas/commit/d22277a3e69040906cd198ea625614c5c69d66da"
         },
-        "date": 1724534131101,
+        "date": 1724533469829,
         "tool": "customSmallerIsBetter",
-        "description": "The latency of UNIX domain socket connection on a single processor.",
+        "description": "The latency of signal handling on a single processor.",
         "benches": [
           {
-            "name": "Average unix connect latency on Linux",
-            "value": "8.9710",
+            "name": "Average Signal handler install latency on Linux",
+            "value": "0.3334",
             "unit": "µs",
             "extra": "linux_result"
           },
           {
-            "name": "Average unix connect latency on Asterinas",
-            "value": "7.5114",
+            "name": "Average Signal handler install latency on Asterinas",
+            "value": "0.2025",
             "unit": "µs",
             "extra": "aster_result"
           }
@@ -4110,19 +5065,19 @@ window.BENCHMARK_DATA = {
           "timestamp": "2024-08-25T12:16:30Z",
           "url": "https://github.com/asterinas/asterinas/commit/4231645c02ec317d99f0150bc8ed3210489855a0"
         },
-        "date": 1724620323556,
+        "date": 1724619916060,
         "tool": "customSmallerIsBetter",
-        "description": "The latency of UNIX domain socket connection on a single processor.",
+        "description": "The latency of signal handling on a single processor.",
         "benches": [
           {
-            "name": "Average unix connect latency on Linux",
-            "value": "6.3230",
+            "name": "Average Signal handler install latency on Linux",
+            "value": "0.1408",
             "unit": "µs",
             "extra": "linux_result"
           },
           {
-            "name": "Average unix connect latency on Asterinas",
-            "value": "7.4192",
+            "name": "Average Signal handler install latency on Asterinas",
+            "value": "0.2045",
             "unit": "µs",
             "extra": "aster_result"
           }
@@ -4145,19 +5100,19 @@ window.BENCHMARK_DATA = {
           "timestamp": "2024-08-26T09:41:40Z",
           "url": "https://github.com/asterinas/asterinas/commit/9e59db2f42c2ef9f8e91e0d1ee03562190726d56"
         },
-        "date": 1724707003754,
+        "date": 1724706399685,
         "tool": "customSmallerIsBetter",
-        "description": "The latency of UNIX domain socket connection on a single processor.",
+        "description": "The latency of signal handling on a single processor.",
         "benches": [
           {
-            "name": "Average unix connect latency on Linux",
-            "value": "7.2427",
+            "name": "Average Signal handler install latency on Linux",
+            "value": "0.1398",
             "unit": "µs",
             "extra": "linux_result"
           },
           {
-            "name": "Average unix connect latency on Asterinas",
-            "value": "7.4904",
+            "name": "Average Signal handler install latency on Asterinas",
+            "value": "0.2222",
             "unit": "µs",
             "extra": "aster_result"
           }
@@ -4180,19 +5135,19 @@ window.BENCHMARK_DATA = {
           "timestamp": "2024-08-27T06:37:02Z",
           "url": "https://github.com/asterinas/asterinas/commit/a72c7dadf3b9bb680b3092af6b64084b98008cb7"
         },
-        "date": 1724838991355,
+        "date": 1724835009627,
         "tool": "customSmallerIsBetter",
-        "description": "The latency of UNIX domain socket connection on a single processor.",
+        "description": "The latency of signal handling on a single processor.",
         "benches": [
           {
-            "name": "Average unix connect latency on Linux",
-            "value": "7.1468",
+            "name": "Average Signal handler install latency on Linux",
+            "value": "0.1448",
             "unit": "µs",
             "extra": "linux_result"
           },
           {
-            "name": "Average unix connect latency on Asterinas",
-            "value": "7.6359",
+            "name": "Average Signal handler install latency on Asterinas",
+            "value": "0.2061",
             "unit": "µs",
             "extra": "aster_result"
           }
@@ -4215,19 +5170,19 @@ window.BENCHMARK_DATA = {
           "timestamp": "2024-08-28T06:23:24Z",
           "url": "https://github.com/asterinas/asterinas/commit/e6f465b553f613d60828e0e503dc94ce4109ded1"
         },
-        "date": 1724879195745,
+        "date": 1724878640455,
         "tool": "customSmallerIsBetter",
-        "description": "The latency of UNIX domain socket connection on a single processor.",
+        "description": "The latency of signal handling on a single processor.",
         "benches": [
           {
-            "name": "Average unix connect latency on Linux",
-            "value": "7.0940",
+            "name": "Average Signal handler install latency on Linux",
+            "value": "0.1414",
             "unit": "µs",
             "extra": "linux_result"
           },
           {
-            "name": "Average unix connect latency on Asterinas",
-            "value": "15.7114",
+            "name": "Average Signal handler install latency on Asterinas",
+            "value": "0.2184",
             "unit": "µs",
             "extra": "aster_result"
           }
@@ -4250,19 +5205,19 @@ window.BENCHMARK_DATA = {
           "timestamp": "2024-08-29T03:52:33Z",
           "url": "https://github.com/asterinas/asterinas/commit/00d9b01d5c356fbc5f6b72b9a69a7571fdf0ab1f"
         },
-        "date": 1724911415189,
+        "date": 1724910875376,
         "tool": "customSmallerIsBetter",
-        "description": "The latency of UNIX domain socket connection on a single processor.",
+        "description": "The latency of signal handling on a single processor.",
         "benches": [
           {
-            "name": "Average unix connect latency on Linux",
-            "value": "6.9962",
+            "name": "Average Signal handler install latency on Linux",
+            "value": "0.1406",
             "unit": "µs",
             "extra": "linux_result"
           },
           {
-            "name": "Average unix connect latency on Asterinas",
-            "value": "9.5752",
+            "name": "Average Signal handler install latency on Asterinas",
+            "value": "0.2046",
             "unit": "µs",
             "extra": "aster_result"
           }
@@ -4285,19 +5240,19 @@ window.BENCHMARK_DATA = {
           "timestamp": "2024-08-29T03:52:33Z",
           "url": "https://github.com/asterinas/asterinas/commit/00d9b01d5c356fbc5f6b72b9a69a7571fdf0ab1f"
         },
-        "date": 1724917861003,
+        "date": 1724917081910,
         "tool": "customSmallerIsBetter",
-        "description": "The latency of UNIX domain socket connection on a single processor.",
+        "description": "The latency of signal handling on a single processor.",
         "benches": [
           {
-            "name": "Average unix connect latency on Linux",
-            "value": "7.2369",
+            "name": "Average Signal handler install latency on Linux",
+            "value": "0.1411",
             "unit": "µs",
             "extra": "linux_result"
           },
           {
-            "name": "Average unix connect latency on Asterinas",
-            "value": "10.0257",
+            "name": "Average Signal handler install latency on Asterinas",
+            "value": "0.2218",
             "unit": "µs",
             "extra": "aster_result"
           }
@@ -4320,19 +5275,19 @@ window.BENCHMARK_DATA = {
           "timestamp": "2024-08-29T12:46:20Z",
           "url": "https://github.com/asterinas/asterinas/commit/539984bbed414969b0c40cf181a10e9341ed2359"
         },
-        "date": 1724966689446,
+        "date": 1724965403217,
         "tool": "customSmallerIsBetter",
-        "description": "The latency of UNIX domain socket connection on a single processor.",
+        "description": "The latency of signal handling on a single processor.",
         "benches": [
           {
-            "name": "Average unix connect latency on Linux",
-            "value": "7.3545",
+            "name": "Average Signal handler install latency on Linux",
+            "value": "0.1436",
             "unit": "µs",
             "extra": "linux_result"
           },
           {
-            "name": "Average unix connect latency on Asterinas",
-            "value": "9.2920",
+            "name": "Average Signal handler install latency on Asterinas",
+            "value": "0.2025",
             "unit": "µs",
             "extra": "aster_result"
           }
@@ -4355,19 +5310,19 @@ window.BENCHMARK_DATA = {
           "timestamp": "2024-08-30T11:23:53Z",
           "url": "https://github.com/asterinas/asterinas/commit/db16caf28c46e4ed24099fcba13d40b7d673164c"
         },
-        "date": 1725053072183,
+        "date": 1725051944491,
         "tool": "customSmallerIsBetter",
-        "description": "The latency of UNIX domain socket connection on a single processor.",
+        "description": "The latency of signal handling on a single processor.",
         "benches": [
           {
-            "name": "Average unix connect latency on Linux",
-            "value": "7.1339",
+            "name": "Average Signal handler install latency on Linux",
+            "value": "0.1412",
             "unit": "µs",
             "extra": "linux_result"
           },
           {
-            "name": "Average unix connect latency on Asterinas",
-            "value": "9.1622",
+            "name": "Average Signal handler install latency on Asterinas",
+            "value": "0.2248",
             "unit": "µs",
             "extra": "aster_result"
           }
@@ -4390,19 +5345,19 @@ window.BENCHMARK_DATA = {
           "timestamp": "2024-08-30T17:51:32Z",
           "url": "https://github.com/asterinas/asterinas/commit/e6e771e9b5ae7d223a50aa4b38994500b0db6867"
         },
-        "date": 1725139370490,
+        "date": 1725138210695,
         "tool": "customSmallerIsBetter",
-        "description": "The latency of UNIX domain socket connection on a single processor.",
+        "description": "The latency of signal handling on a single processor.",
         "benches": [
           {
-            "name": "Average unix connect latency on Linux",
-            "value": "6.8803",
+            "name": "Average Signal handler install latency on Linux",
+            "value": "0.1477",
             "unit": "µs",
             "extra": "linux_result"
           },
           {
-            "name": "Average unix connect latency on Asterinas",
-            "value": "9.2454",
+            "name": "Average Signal handler install latency on Asterinas",
+            "value": "0.2239",
             "unit": "µs",
             "extra": "aster_result"
           }
@@ -4425,19 +5380,19 @@ window.BENCHMARK_DATA = {
           "timestamp": "2024-08-29T14:26:36Z",
           "url": "https://github.com/asterinas/asterinas/commit/745ac6d982638d3548f09ea2aa2103e37c135153"
         },
-        "date": 1725225757498,
+        "date": 1725224724201,
         "tool": "customSmallerIsBetter",
-        "description": "The latency of UNIX domain socket connection on a single processor.",
+        "description": "The latency of signal handling on a single processor.",
         "benches": [
           {
-            "name": "Average unix connect latency on Linux",
-            "value": "7.2745",
+            "name": "Average Signal handler install latency on Linux",
+            "value": "0.1422",
             "unit": "µs",
             "extra": "linux_result"
           },
           {
-            "name": "Average unix connect latency on Asterinas",
-            "value": "9.2831",
+            "name": "Average Signal handler install latency on Asterinas",
+            "value": "0.2251",
             "unit": "µs",
             "extra": "aster_result"
           }
@@ -4460,19 +5415,19 @@ window.BENCHMARK_DATA = {
           "timestamp": "2024-09-02T09:48:15Z",
           "url": "https://github.com/asterinas/asterinas/commit/963874471284ed014b76d268d933b6d13073c2cc"
         },
-        "date": 1725317239325,
+        "date": 1725315722108,
         "tool": "customSmallerIsBetter",
-        "description": "The latency of UNIX domain socket connection on a single processor.",
+        "description": "The latency of signal handling on a single processor.",
         "benches": [
           {
-            "name": "Average unix connect latency on Linux",
-            "value": "7.2891",
+            "name": "Average Signal handler install latency on Linux",
+            "value": "0.1421",
             "unit": "µs",
             "extra": "linux_result"
           },
           {
-            "name": "Average unix connect latency on Asterinas",
-            "value": "9.3087",
+            "name": "Average Signal handler install latency on Asterinas",
+            "value": "0.2030",
             "unit": "µs",
             "extra": "aster_result"
           }
@@ -4495,19 +5450,19 @@ window.BENCHMARK_DATA = {
           "timestamp": "2024-09-02T09:48:15Z",
           "url": "https://github.com/asterinas/asterinas/commit/963874471284ed014b76d268d933b6d13073c2cc"
         },
-        "date": 1725403614578,
+        "date": 1725402116185,
         "tool": "customSmallerIsBetter",
-        "description": "The latency of UNIX domain socket connection on a single processor.",
+        "description": "The latency of signal handling on a single processor.",
         "benches": [
           {
-            "name": "Average unix connect latency on Linux",
-            "value": "7.2219",
+            "name": "Average Signal handler install latency on Linux",
+            "value": "0.1428",
             "unit": "µs",
             "extra": "linux_result"
           },
           {
-            "name": "Average unix connect latency on Asterinas",
-            "value": "9.0956",
+            "name": "Average Signal handler install latency on Asterinas",
+            "value": "0.1935",
             "unit": "µs",
             "extra": "aster_result"
           }
@@ -4530,19 +5485,19 @@ window.BENCHMARK_DATA = {
           "timestamp": "2024-09-03T07:33:12Z",
           "url": "https://github.com/asterinas/asterinas/commit/458a6a5b3b01aebe78c124fe20be91a91f0139da"
         },
-        "date": 1725489910212,
+        "date": 1725488424940,
         "tool": "customSmallerIsBetter",
-        "description": "The latency of UNIX domain socket connection on a single processor.",
+        "description": "The latency of signal handling on a single processor.",
         "benches": [
           {
-            "name": "Average unix connect latency on Linux",
-            "value": "7.2270",
+            "name": "Average Signal handler install latency on Linux",
+            "value": "0.1412",
             "unit": "µs",
             "extra": "linux_result"
           },
           {
-            "name": "Average unix connect latency on Asterinas",
-            "value": "9.2920",
+            "name": "Average Signal handler install latency on Asterinas",
+            "value": "0.2023",
             "unit": "µs",
             "extra": "aster_result"
           }
@@ -4565,19 +5520,19 @@ window.BENCHMARK_DATA = {
           "timestamp": "2024-09-03T07:33:12Z",
           "url": "https://github.com/asterinas/asterinas/commit/458a6a5b3b01aebe78c124fe20be91a91f0139da"
         },
-        "date": 1725576520805,
+        "date": 1725574925029,
         "tool": "customSmallerIsBetter",
-        "description": "The latency of UNIX domain socket connection on a single processor.",
+        "description": "The latency of signal handling on a single processor.",
         "benches": [
           {
-            "name": "Average unix connect latency on Linux",
-            "value": "7.1237",
+            "name": "Average Signal handler install latency on Linux",
+            "value": "0.1416",
             "unit": "µs",
             "extra": "linux_result"
           },
           {
-            "name": "Average unix connect latency on Asterinas",
-            "value": "9.3168",
+            "name": "Average Signal handler install latency on Asterinas",
+            "value": "0.1979",
             "unit": "µs",
             "extra": "aster_result"
           }
@@ -4600,19 +5555,19 @@ window.BENCHMARK_DATA = {
           "timestamp": "2024-09-06T04:11:16Z",
           "url": "https://github.com/asterinas/asterinas/commit/64e43d34aab13eeddea8dd7485c712acc99116ca"
         },
-        "date": 1725662673472,
+        "date": 1725661189658,
         "tool": "customSmallerIsBetter",
-        "description": "The latency of UNIX domain socket connection on a single processor.",
+        "description": "The latency of signal handling on a single processor.",
         "benches": [
           {
-            "name": "Average unix connect latency on Linux",
-            "value": "7.1927",
+            "name": "Average Signal handler install latency on Linux",
+            "value": "0.1420",
             "unit": "µs",
             "extra": "linux_result"
           },
           {
-            "name": "Average unix connect latency on Asterinas",
-            "value": "9.2966",
+            "name": "Average Signal handler install latency on Asterinas",
+            "value": "0.1947",
             "unit": "µs",
             "extra": "aster_result"
           }
@@ -4635,19 +5590,19 @@ window.BENCHMARK_DATA = {
           "timestamp": "2024-09-06T12:05:01Z",
           "url": "https://github.com/asterinas/asterinas/commit/c68302f7007225fa47f22a1085a8c59dcdae2ad4"
         },
-        "date": 1725749204662,
+        "date": 1725747718317,
         "tool": "customSmallerIsBetter",
-        "description": "The latency of UNIX domain socket connection on a single processor.",
+        "description": "The latency of signal handling on a single processor.",
         "benches": [
           {
-            "name": "Average unix connect latency on Linux",
-            "value": "7.3067",
+            "name": "Average Signal handler install latency on Linux",
+            "value": "0.1411",
             "unit": "µs",
             "extra": "linux_result"
           },
           {
-            "name": "Average unix connect latency on Asterinas",
-            "value": "9.3767",
+            "name": "Average Signal handler install latency on Asterinas",
+            "value": "0.1944",
             "unit": "µs",
             "extra": "aster_result"
           }
@@ -4670,19 +5625,19 @@ window.BENCHMARK_DATA = {
           "timestamp": "2024-09-06T12:05:01Z",
           "url": "https://github.com/asterinas/asterinas/commit/c68302f7007225fa47f22a1085a8c59dcdae2ad4"
         },
-        "date": 1725835706257,
+        "date": 1725834141463,
         "tool": "customSmallerIsBetter",
-        "description": "The latency of UNIX domain socket connection on a single processor.",
+        "description": "The latency of signal handling on a single processor.",
         "benches": [
           {
-            "name": "Average unix connect latency on Linux",
-            "value": "7.1483",
+            "name": "Average Signal handler install latency on Linux",
+            "value": "0.1404",
             "unit": "µs",
             "extra": "linux_result"
           },
           {
-            "name": "Average unix connect latency on Asterinas",
-            "value": "9.1329",
+            "name": "Average Signal handler install latency on Asterinas",
+            "value": "0.1952",
             "unit": "µs",
             "extra": "aster_result"
           }
@@ -4705,19 +5660,19 @@ window.BENCHMARK_DATA = {
           "timestamp": "2024-09-06T12:05:01Z",
           "url": "https://github.com/asterinas/asterinas/commit/c68302f7007225fa47f22a1085a8c59dcdae2ad4"
         },
-        "date": 1725921742899,
+        "date": 1725920270908,
         "tool": "customSmallerIsBetter",
-        "description": "The latency of UNIX domain socket connection on a single processor.",
+        "description": "The latency of signal handling on a single processor.",
         "benches": [
           {
-            "name": "Average unix connect latency on Linux",
-            "value": "7.2204",
+            "name": "Average Signal handler install latency on Linux",
+            "value": "0.1399",
             "unit": "µs",
             "extra": "linux_result"
           },
           {
-            "name": "Average unix connect latency on Asterinas",
-            "value": "9.3845",
+            "name": "Average Signal handler install latency on Asterinas",
+            "value": "0.1937",
             "unit": "µs",
             "extra": "aster_result"
           }
@@ -4740,19 +5695,19 @@ window.BENCHMARK_DATA = {
           "timestamp": "2024-09-06T12:05:01Z",
           "url": "https://github.com/asterinas/asterinas/commit/c68302f7007225fa47f22a1085a8c59dcdae2ad4"
         },
-        "date": 1726008342172,
+        "date": 1726006711472,
         "tool": "customSmallerIsBetter",
-        "description": "The latency of UNIX domain socket connection on a single processor.",
+        "description": "The latency of signal handling on a single processor.",
         "benches": [
           {
-            "name": "Average unix connect latency on Linux",
-            "value": "7.2409",
+            "name": "Average Signal handler install latency on Linux",
+            "value": "0.1396",
             "unit": "µs",
             "extra": "linux_result"
           },
           {
-            "name": "Average unix connect latency on Asterinas",
-            "value": "9.3413",
+            "name": "Average Signal handler install latency on Asterinas",
+            "value": "0.1943",
             "unit": "µs",
             "extra": "aster_result"
           }
@@ -4775,19 +5730,19 @@ window.BENCHMARK_DATA = {
           "timestamp": "2024-09-02T13:23:46Z",
           "url": "https://github.com/asterinas/asterinas/commit/8bfbdf6642a9d04db3490792926d6a299d1e30be"
         },
-        "date": 1726090127031,
+        "date": 1726088873529,
         "tool": "customSmallerIsBetter",
-        "description": "The latency of UNIX domain socket connection on a single processor.",
+        "description": "The latency of signal handling on a single processor.",
         "benches": [
           {
-            "name": "Average unix connect latency on Linux",
-            "value": "7.1357",
+            "name": "Average Signal handler install latency on Linux",
+            "value": "0.1404",
             "unit": "µs",
             "extra": "linux_result"
           },
           {
-            "name": "Average unix connect latency on Asterinas",
-            "value": "9.0017",
+            "name": "Average Signal handler install latency on Asterinas",
+            "value": "0.1954",
             "unit": "µs",
             "extra": "aster_result"
           }
@@ -4810,19 +5765,19 @@ window.BENCHMARK_DATA = {
           "timestamp": "2024-09-12T12:15:04Z",
           "url": "https://github.com/asterinas/asterinas/commit/6fcad6ce143b8f65e8be76297eb95a9cb56da22e"
         },
-        "date": 1726176561106,
+        "date": 1726175335488,
         "tool": "customSmallerIsBetter",
-        "description": "The latency of UNIX domain socket connection on a single processor.",
+        "description": "The latency of signal handling on a single processor.",
         "benches": [
           {
-            "name": "Average unix connect latency on Linux",
-            "value": "7.2008",
+            "name": "Average Signal handler install latency on Linux",
+            "value": "0.1402",
             "unit": "µs",
             "extra": "linux_result"
           },
           {
-            "name": "Average unix connect latency on Asterinas",
-            "value": "8.8511",
+            "name": "Average Signal handler install latency on Asterinas",
+            "value": "0.1996",
             "unit": "µs",
             "extra": "aster_result"
           }
@@ -4845,21 +5800,21 @@ window.BENCHMARK_DATA = {
           "timestamp": "2024-09-13T05:02:35Z",
           "url": "https://github.com/asterinas/asterinas/commit/32ea24e945efde86117d2278a48145d71b9ec90c"
         },
-        "date": 1726262114387,
+        "date": 1726260871911,
         "tool": "customSmallerIsBetter",
-        "title": "[Unix sockets] The latency of connect",
-        "description": "lat_connect",
+        "title": "[Signals] The cost of installing a signal handler",
+        "description": "lat_sig install",
         "display": true,
         "benches": [
           {
-            "name": "Average unix connect latency on Linux",
-            "value": "6.8452",
+            "name": "Average Signal handler install latency on Linux",
+            "value": "0.1501",
             "unit": "µs",
             "extra": "linux_result"
           },
           {
-            "name": "Average unix connect latency on Asterinas",
-            "value": "8.9233",
+            "name": "Average Signal handler install latency on Asterinas",
+            "value": "0.1980",
             "unit": "µs",
             "extra": "aster_result"
           }
@@ -4882,28 +5837,28 @@ window.BENCHMARK_DATA = {
           "timestamp": "2024-09-14T03:47:04Z",
           "url": "https://github.com/grief8/asterinas/commit/adfb4a081356bea739a1720f284c3e66d6a96d19"
         },
-        "date": 1726285978166,
+        "date": 1726285963928,
         "tool": "customSmallerIsBetter",
-        "title": "[Unix sockets] The latency of connect",
-        "description": "lat_connect",
+        "title": "[Signals] The cost of installing a signal handler",
+        "description": "lat_sig install",
         "display": true,
         "benches": [
           {
-            "name": "Average unix connect latency on Linux",
-            "value": "8.0523",
+            "name": "Average Signal handler install latency on Linux",
+            "value": "0.1299",
             "unit": "µs",
             "extra": "linux_result"
           },
           {
-            "name": "Average unix connect latency on Asterinas",
-            "value": "7.0706",
+            "name": "Average Signal handler install latency on Asterinas",
+            "value": "0.2346",
             "unit": "µs",
             "extra": "aster_result"
           }
         ]
       }
     ],
-    "fifo_lat": [
+    "signal_prot_lat": [
       {
         "commit": {
           "author": {
@@ -4921,1410 +5876,21 @@ window.BENCHMARK_DATA = {
           "timestamp": "2024-09-24T06:48:01Z",
           "url": "https://github.com/grief8/asterinas/commit/52871246d45bbd86954f1d1dd5c65c98e1656064"
         },
-        "date": 1727160825080,
+        "date": 1727160804917,
         "tool": "customSmallerIsBetter",
-        "title": "[FIFO] The cost of write+read (1B)",
-        "description": "lat_fifo",
+        "title": "[Signals] The cost of catching a segfault",
+        "description": "lat_sig prot",
         "display": true,
         "benches": [
           {
-            "name": "Average fifo latency on Linux",
-            "value": "2.6357",
+            "name": "Average protection fault latency on Linux",
+            "value": "0.2506",
             "unit": "µs",
             "extra": "linux_result"
           },
           {
-            "name": "Average fifo latency on Asterinas",
-            "value": "2.1314",
-            "unit": "µs",
-            "extra": "aster_result"
-          }
-        ]
-      }
-    ],
-    "ramfs_create_delete_files_0k_ops": [
-      {
-        "commit": {
-          "author": {
-            "name": "Fabing Li",
-            "username": "grief8",
-            "email": "lifabing.lfb@antgroup.com"
-          },
-          "committer": {
-            "name": "Fabing Li",
-            "username": "grief8",
-            "email": "lifabing.lfb@antgroup.com"
-          },
-          "id": "52871246d45bbd86954f1d1dd5c65c98e1656064",
-          "message": "uP",
-          "timestamp": "2024-09-24T06:48:01Z",
-          "url": "https://github.com/grief8/asterinas/commit/52871246d45bbd86954f1d1dd5c65c98e1656064"
-        },
-        "date": 1727160785956,
-        "tool": "customBiggerIsBetter",
-        "title": "[Ramfs] The cost of creating/deleting small files (0KB)",
-        "description": "lat_fs -s 0k",
-        "display": true,
-        "benches": [
-          {
-            "name": "Number of created/deleted files on Linux",
-            "value": "2852",
-            "unit": "number",
-            "extra": "linux_result"
-          },
-          {
-            "name": "Number of created/deleted files on Asterinas",
-            "value": "1579",
-            "unit": "number",
-            "extra": "aster_result"
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
-            "name": "Fabing Li",
-            "username": "grief8",
-            "email": "lifabing.lfb@antgroup.com"
-          },
-          "committer": {
-            "name": "Fabing Li",
-            "username": "grief8",
-            "email": "lifabing.lfb@antgroup.com"
-          },
-          "id": "bb8d2fe583df04a06eaf4c931270c55dd06f48ae",
-          "message": "iuu",
-          "timestamp": "2024-09-24T06:58:54Z",
-          "url": "https://github.com/grief8/asterinas/commit/bb8d2fe583df04a06eaf4c931270c55dd06f48ae"
-        },
-        "date": 1727168646957,
-        "tool": "customBiggerIsBetter",
-        "title": "[Ramfs] The cost of creating/deleting small files (0KB)",
-        "description": "lat_fs -s 0k",
-        "display": true,
-        "benches": [
-          {
-            "name": "Number of created/deleted files on Linux",
-            "value": "2949",
-            "unit": "number",
-            "extra": "linux_result"
-          },
-          {
-            "name": "Number of created/deleted files on Asterinas",
-            "value": "1565",
-            "unit": "number",
-            "extra": "aster_result"
-          }
-        ]
-      }
-    ],
-    "ramfs_create_delete_files_10k_ops": [
-      {
-        "commit": {
-          "author": {
-            "name": "Chen Chengjun",
-            "username": "cchanging",
-            "email": "chenchengjun.ccj@antgroup.com"
-          },
-          "committer": {
-            "name": "Tate, Hongliang Tian",
-            "username": "tatetian",
-            "email": "tatetian@gmail.com"
-          },
-          "id": "99a22ff124972872838fa5dc7094fa9a5eea557e",
-          "message": "Improve efficiency of global TLB flushing",
-          "timestamp": "2024-08-15T08:53:54Z",
-          "url": "https://github.com/asterinas/asterinas/commit/99a22ff124972872838fa5dc7094fa9a5eea557e"
-        },
-        "date": 1723752508604,
-        "tool": "customBiggerIsBetter",
-        "description": "The number of 10k-sized files created then deleted over a duration.",
-        "benches": [
-          {
-            "name": "Number of created/deleted files on Linux",
-            "value": "1087",
-            "unit": "number",
-            "extra": "linux_result"
-          },
-          {
-            "name": "Number of created/deleted files on Asterinas",
-            "value": "687",
-            "unit": "number",
-            "extra": "aster_result"
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
-            "name": "Jianfeng Jiang",
-            "username": "StevenJiang1110",
-            "email": "jiangjianfeng.jjf@antgroup.com"
-          },
-          "committer": {
-            "name": "Tate, Hongliang Tian",
-            "username": "tatetian",
-            "email": "tatetian@gmail.com"
-          },
-          "id": "0291b5dc6bb142b9c6165c1cb29b7658eefdaa63",
-          "message": "Optimize the latency of lmbench-select-file",
-          "timestamp": "2024-08-15T03:44:30Z",
-          "url": "https://github.com/asterinas/asterinas/commit/0291b5dc6bb142b9c6165c1cb29b7658eefdaa63"
-        },
-        "date": 1723779036563,
-        "tool": "customBiggerIsBetter",
-        "description": "The number of 10k-sized files created then deleted over a duration.",
-        "benches": [
-          {
-            "name": "Number of created/deleted files on Linux",
-            "value": "1140",
-            "unit": "number",
-            "extra": "linux_result"
-          },
-          {
-            "name": "Number of created/deleted files on Asterinas",
-            "value": "658",
-            "unit": "number",
-            "extra": "aster_result"
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
-            "name": "Jianfeng Jiang",
-            "username": "StevenJiang1110",
-            "email": "jiangjianfeng.jjf@antgroup.com"
-          },
-          "committer": {
-            "name": "Tate, Hongliang Tian",
-            "username": "tatetian",
-            "email": "tatetian@gmail.com"
-          },
-          "id": "0291b5dc6bb142b9c6165c1cb29b7658eefdaa63",
-          "message": "Optimize the latency of lmbench-select-file",
-          "timestamp": "2024-08-15T03:44:30Z",
-          "url": "https://github.com/asterinas/asterinas/commit/0291b5dc6bb142b9c6165c1cb29b7658eefdaa63"
-        },
-        "date": 1723782120279,
-        "tool": "customBiggerIsBetter",
-        "description": "The number of 10k-sized files created then deleted over a duration.",
-        "benches": [
-          {
-            "name": "Number of created/deleted files on Linux",
-            "value": "1101",
-            "unit": "number",
-            "extra": "linux_result"
-          },
-          {
-            "name": "Number of created/deleted files on Asterinas",
-            "value": "673",
-            "unit": "number",
-            "extra": "aster_result"
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
-            "name": "Jianfeng Jiang",
-            "username": "StevenJiang1110",
-            "email": "jiangjianfeng.jjf@antgroup.com"
-          },
-          "committer": {
-            "name": "Tate, Hongliang Tian",
-            "username": "tatetian",
-            "email": "tatetian@gmail.com"
-          },
-          "id": "0291b5dc6bb142b9c6165c1cb29b7658eefdaa63",
-          "message": "Optimize the latency of lmbench-select-file",
-          "timestamp": "2024-08-15T03:44:30Z",
-          "url": "https://github.com/asterinas/asterinas/commit/0291b5dc6bb142b9c6165c1cb29b7658eefdaa63"
-        },
-        "date": 1723839045824,
-        "tool": "customBiggerIsBetter",
-        "description": "The number of 10k-sized files created then deleted over a duration.",
-        "benches": [
-          {
-            "name": "Number of created/deleted files on Linux",
-            "value": "1021",
-            "unit": "number",
-            "extra": "linux_result"
-          },
-          {
-            "name": "Number of created/deleted files on Asterinas",
-            "value": "668",
-            "unit": "number",
-            "extra": "aster_result"
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
-            "name": "Fabing Li",
-            "username": "grief8",
-            "email": "lifabing.lfb@antgroup.com"
-          },
-          "committer": {
-            "name": "Tate, Hongliang Tian",
-            "username": "tatetian",
-            "email": "tatetian@gmail.com"
-          },
-          "id": "ce2af1eb057077753a7a757edc1833e677a83918",
-          "message": "Add flock and sys_flock",
-          "timestamp": "2024-08-12T03:51:41Z",
-          "url": "https://github.com/asterinas/asterinas/commit/ce2af1eb057077753a7a757edc1833e677a83918"
-        },
-        "date": 1723925468725,
-        "tool": "customBiggerIsBetter",
-        "description": "The number of 10k-sized files created then deleted over a duration.",
-        "benches": [
-          {
-            "name": "Number of created/deleted files on Linux",
-            "value": "983",
-            "unit": "number",
-            "extra": "linux_result"
-          },
-          {
-            "name": "Number of created/deleted files on Asterinas",
-            "value": "683",
-            "unit": "number",
-            "extra": "aster_result"
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
-            "name": "Yuke Peng",
-            "username": "sdww0",
-            "email": "pykfirst@gmail.com"
-          },
-          "committer": {
-            "name": "Tate, Hongliang Tian",
-            "username": "tatetian",
-            "email": "tatetian@gmail.com"
-          },
-          "id": "bbe43d76cc25538f04261379407f4fa721a13431",
-          "message": "Fix compile error due to `lock_irq_disabled`",
-          "timestamp": "2024-08-19T01:02:51Z",
-          "url": "https://github.com/asterinas/asterinas/commit/bbe43d76cc25538f04261379407f4fa721a13431"
-        },
-        "date": 1724098359588,
-        "tool": "customBiggerIsBetter",
-        "description": "The number of 10k-sized files created then deleted over a duration.",
-        "benches": [
-          {
-            "name": "Number of created/deleted files on Linux",
-            "value": "1091",
-            "unit": "number",
-            "extra": "linux_result"
-          },
-          {
-            "name": "Number of created/deleted files on Asterinas",
-            "value": "688",
-            "unit": "number",
-            "extra": "aster_result"
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
-            "name": "Marsman1996",
-            "username": "Marsman1996",
-            "email": "lqliuyuwei@outlook.com"
-          },
-          "committer": {
-            "name": "Tate, Hongliang Tian",
-            "username": "tatetian",
-            "email": "tatetian@gmail.com"
-          },
-          "id": "fda0fa051265867c2399f4981fdccb9cc6df110d",
-          "message": "Align `len` in `madvise`",
-          "timestamp": "2024-08-19T09:01:16Z",
-          "url": "https://github.com/asterinas/asterinas/commit/fda0fa051265867c2399f4981fdccb9cc6df110d"
-        },
-        "date": 1724184767088,
-        "tool": "customBiggerIsBetter",
-        "description": "The number of 10k-sized files created then deleted over a duration.",
-        "benches": [
-          {
-            "name": "Number of created/deleted files on Linux",
-            "value": "1072",
-            "unit": "number",
-            "extra": "linux_result"
-          },
-          {
-            "name": "Number of created/deleted files on Asterinas",
-            "value": "593",
-            "unit": "number",
-            "extra": "aster_result"
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
-            "name": "Shaowei Song",
-            "username": "lucassong-mh",
-            "email": "songshaowei.ssw@antgroup.com"
-          },
-          "committer": {
-            "name": "Tate, Hongliang Tian",
-            "username": "tatetian",
-            "email": "tatetian@gmail.com"
-          },
-          "id": "2102107be18729fba8f3546d5a3fe39c819d814a",
-          "message": "Refactor `VmReader`&`VmWriter` as given fallibility marker",
-          "timestamp": "2024-08-20T02:05:25Z",
-          "url": "https://github.com/asterinas/asterinas/commit/2102107be18729fba8f3546d5a3fe39c819d814a"
-        },
-        "date": 1724271178054,
-        "tool": "customBiggerIsBetter",
-        "description": "The number of 10k-sized files created then deleted over a duration.",
-        "benches": [
-          {
-            "name": "Number of created/deleted files on Linux",
-            "value": "1058",
-            "unit": "number",
-            "extra": "linux_result"
-          },
-          {
-            "name": "Number of created/deleted files on Asterinas",
-            "value": "671",
-            "unit": "number",
-            "extra": "aster_result"
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
-            "name": "Yuke Peng",
-            "username": "sdww0",
-            "email": "pykfirst@gmail.com"
-          },
-          "committer": {
-            "name": "Tate, Hongliang Tian",
-            "username": "tatetian",
-            "email": "tatetian@gmail.com"
-          },
-          "id": "bb4751741a6cd6b919015f8f483512c90e73bf55",
-          "message": "Bump smoltcp to newest git version",
-          "timestamp": "2024-08-22T06:34:41Z",
-          "url": "https://github.com/asterinas/asterinas/commit/bb4751741a6cd6b919015f8f483512c90e73bf55"
-        },
-        "date": 1724357703430,
-        "tool": "customBiggerIsBetter",
-        "description": "The number of 10k-sized files created then deleted over a duration.",
-        "benches": [
-          {
-            "name": "Number of created/deleted files on Linux",
-            "value": "1186",
-            "unit": "number",
-            "extra": "linux_result"
-          },
-          {
-            "name": "Number of created/deleted files on Asterinas",
-            "value": "648",
-            "unit": "number",
-            "extra": "aster_result"
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
-            "name": "Zhang Junyang",
-            "username": "junyang-zh",
-            "email": "junyang@stu.pku.edu.cn"
-          },
-          "committer": {
-            "name": "Tate, Hongliang Tian",
-            "username": "tatetian",
-            "email": "tatetian@gmail.com"
-          },
-          "id": "e50b05d1ee71f52679e8ed8ea310cda6bfcd7e0c",
-          "message": "Bump version to 0.8.0",
-          "timestamp": "2024-08-23T14:57:42Z",
-          "url": "https://github.com/asterinas/asterinas/commit/e50b05d1ee71f52679e8ed8ea310cda6bfcd7e0c"
-        },
-        "date": 1724444503608,
-        "tool": "customBiggerIsBetter",
-        "description": "The number of 10k-sized files created then deleted over a duration.",
-        "benches": [
-          {
-            "name": "Number of created/deleted files on Linux",
-            "value": "949",
-            "unit": "number",
-            "extra": "linux_result"
-          },
-          {
-            "name": "Number of created/deleted files on Asterinas",
-            "value": "714",
-            "unit": "number",
-            "extra": "aster_result"
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
-            "name": "Zhang Junyang",
-            "username": "junyang-zh",
-            "email": "junyang@stu.pku.edu.cn"
-          },
-          "committer": {
-            "name": "Tate, Hongliang Tian",
-            "username": "tatetian",
-            "email": "tatetian@gmail.com"
-          },
-          "id": "d22277a3e69040906cd198ea625614c5c69d66da",
-          "message": "Allow manually dispatching publishing workflows",
-          "timestamp": "2024-08-24T09:27:15Z",
-          "url": "https://github.com/asterinas/asterinas/commit/d22277a3e69040906cd198ea625614c5c69d66da"
-        },
-        "date": 1724530655178,
-        "tool": "customBiggerIsBetter",
-        "description": "The number of 10k-sized files created then deleted over a duration.",
-        "benches": [
-          {
-            "name": "Number of created/deleted files on Linux",
-            "value": "1107",
-            "unit": "number",
-            "extra": "linux_result"
-          },
-          {
-            "name": "Number of created/deleted files on Asterinas",
-            "value": "706",
-            "unit": "number",
-            "extra": "aster_result"
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
-            "name": "Zhang Junyang",
-            "username": "junyang-zh",
-            "email": "junyang@stu.pku.edu.cn"
-          },
-          "committer": {
-            "name": "Tate, Hongliang Tian",
-            "username": "tatetian",
-            "email": "tatetian@gmail.com"
-          },
-          "id": "4231645c02ec317d99f0150bc8ed3210489855a0",
-          "message": "Fix `is_tdx_enabled` in OSDK tests",
-          "timestamp": "2024-08-25T12:16:30Z",
-          "url": "https://github.com/asterinas/asterinas/commit/4231645c02ec317d99f0150bc8ed3210489855a0"
-        },
-        "date": 1724617083487,
-        "tool": "customBiggerIsBetter",
-        "description": "The number of 10k-sized files created then deleted over a duration.",
-        "benches": [
-          {
-            "name": "Number of created/deleted files on Linux",
-            "value": "1568",
-            "unit": "number",
-            "extra": "linux_result"
-          },
-          {
-            "name": "Number of created/deleted files on Asterinas",
-            "value": "649",
-            "unit": "number",
-            "extra": "aster_result"
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
-            "name": "Chen Chengjun",
-            "username": "cchanging",
-            "email": "chenchengjun.ccj@antgroup.com"
-          },
-          "committer": {
-            "name": "Tate, Hongliang Tian",
-            "username": "tatetian",
-            "email": "tatetian@gmail.com"
-          },
-          "id": "9e59db2f42c2ef9f8e91e0d1ee03562190726d56",
-          "message": "Make benchmark CI more fair",
-          "timestamp": "2024-08-26T09:41:40Z",
-          "url": "https://github.com/asterinas/asterinas/commit/9e59db2f42c2ef9f8e91e0d1ee03562190726d56"
-        },
-        "date": 1724703542579,
-        "tool": "customBiggerIsBetter",
-        "description": "The number of 10k-sized files created then deleted over a duration.",
-        "benches": [
-          {
-            "name": "Number of created/deleted files on Linux",
-            "value": "1503",
-            "unit": "number",
-            "extra": "linux_result"
-          },
-          {
-            "name": "Number of created/deleted files on Asterinas",
-            "value": "657",
-            "unit": "number",
-            "extra": "aster_result"
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
-            "name": "Chen Chengjun",
-            "username": "cchanging",
-            "email": "chenchengjun.ccj@antgroup.com"
-          },
-          "committer": {
-            "name": "Tate, Hongliang Tian",
-            "username": "tatetian",
-            "email": "tatetian@gmail.com"
-          },
-          "id": "468dae33f0be940285844526b792d1f92a457894",
-          "message": "Add an optimization strategy for TLB flushing",
-          "timestamp": "2024-08-28T03:11:59Z",
-          "url": "https://github.com/asterinas/asterinas/commit/468dae33f0be940285844526b792d1f92a457894"
-        },
-        "date": 1724821901156,
-        "tool": "customBiggerIsBetter",
-        "description": "The number of 10k-sized files created then deleted over a duration.",
-        "benches": [
-          {
-            "name": "Number of created/deleted files on Linux",
-            "value": "1367",
-            "unit": "number",
-            "extra": "linux_result"
-          },
-          {
-            "name": "Number of created/deleted files on Asterinas",
-            "value": "688",
-            "unit": "number",
-            "extra": "aster_result"
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
-            "name": "Shaowei Song",
-            "username": "lucassong-mh",
-            "email": "songshaowei.ssw@antgroup.com"
-          },
-          "committer": {
-            "name": "Tate, Hongliang Tian",
-            "username": "tatetian",
-            "email": "tatetian@gmail.com"
-          },
-          "id": "e6f465b553f613d60828e0e503dc94ce4109ded1",
-          "message": "Replace all the ring buffers with the new one",
-          "timestamp": "2024-08-28T06:23:24Z",
-          "url": "https://github.com/asterinas/asterinas/commit/e6f465b553f613d60828e0e503dc94ce4109ded1"
-        },
-        "date": 1724876157671,
-        "tool": "customBiggerIsBetter",
-        "description": "The number of 10k-sized files created then deleted over a duration.",
-        "benches": [
-          {
-            "name": "Number of created/deleted files on Linux",
-            "value": "1532",
-            "unit": "number",
-            "extra": "linux_result"
-          },
-          {
-            "name": "Number of created/deleted files on Asterinas",
-            "value": "700",
-            "unit": "number",
-            "extra": "aster_result"
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
-            "name": "Chen Chengjun",
-            "username": "cchanging",
-            "email": "chenchengjun.ccj@antgroup.com"
-          },
-          "committer": {
-            "name": "Tate, Hongliang Tian",
-            "username": "tatetian",
-            "email": "tatetian@gmail.com"
-          },
-          "id": "00d9b01d5c356fbc5f6b72b9a69a7571fdf0ab1f",
-          "message": "Add a fast path to page table fork",
-          "timestamp": "2024-08-29T03:52:33Z",
-          "url": "https://github.com/asterinas/asterinas/commit/00d9b01d5c356fbc5f6b72b9a69a7571fdf0ab1f"
-        },
-        "date": 1724907942773,
-        "tool": "customBiggerIsBetter",
-        "description": "The number of 10k-sized files created then deleted over a duration.",
-        "benches": [
-          {
-            "name": "Number of created/deleted files on Linux",
-            "value": "1381",
-            "unit": "number",
-            "extra": "linux_result"
-          },
-          {
-            "name": "Number of created/deleted files on Asterinas",
-            "value": "639",
-            "unit": "number",
-            "extra": "aster_result"
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
-            "name": "Chen Chengjun",
-            "username": "cchanging",
-            "email": "chenchengjun.ccj@antgroup.com"
-          },
-          "committer": {
-            "name": "Tate, Hongliang Tian",
-            "username": "tatetian",
-            "email": "tatetian@gmail.com"
-          },
-          "id": "00d9b01d5c356fbc5f6b72b9a69a7571fdf0ab1f",
-          "message": "Add a fast path to page table fork",
-          "timestamp": "2024-08-29T03:52:33Z",
-          "url": "https://github.com/asterinas/asterinas/commit/00d9b01d5c356fbc5f6b72b9a69a7571fdf0ab1f"
-        },
-        "date": 1724914411267,
-        "tool": "customBiggerIsBetter",
-        "description": "The number of 10k-sized files created then deleted over a duration.",
-        "benches": [
-          {
-            "name": "Number of created/deleted files on Linux",
-            "value": "1555",
-            "unit": "number",
-            "extra": "linux_result"
-          },
-          {
-            "name": "Number of created/deleted files on Asterinas",
-            "value": "719",
-            "unit": "number",
-            "extra": "aster_result"
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
-            "name": "Yuke Peng",
-            "username": "sdww0",
-            "email": "pykfirst@gmail.com"
-          },
-          "committer": {
-            "name": "Tate, Hongliang Tian",
-            "username": "tatetian",
-            "email": "tatetian@gmail.com"
-          },
-          "id": "539984bbed414969b0c40cf181a10e9341ed2359",
-          "message": "Replace read with read_raw",
-          "timestamp": "2024-08-29T12:46:20Z",
-          "url": "https://github.com/asterinas/asterinas/commit/539984bbed414969b0c40cf181a10e9341ed2359"
-        },
-        "date": 1724962586660,
-        "tool": "customBiggerIsBetter",
-        "description": "The number of 10k-sized files created then deleted over a duration.",
-        "benches": [
-          {
-            "name": "Number of created/deleted files on Linux",
-            "value": "1555",
-            "unit": "number",
-            "extra": "linux_result"
-          },
-          {
-            "name": "Number of created/deleted files on Asterinas",
-            "value": "680",
-            "unit": "number",
-            "extra": "aster_result"
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
-            "name": "Yuke Peng",
-            "username": "sdww0",
-            "email": "pykfirst@gmail.com"
-          },
-          "committer": {
-            "name": "Tate, Hongliang Tian",
-            "username": "tatetian",
-            "email": "tatetian@gmail.com"
-          },
-          "id": "db16caf28c46e4ed24099fcba13d40b7d673164c",
-          "message": "[Semaphore] Replace Mutex with SpinLock",
-          "timestamp": "2024-08-30T11:23:53Z",
-          "url": "https://github.com/asterinas/asterinas/commit/db16caf28c46e4ed24099fcba13d40b7d673164c"
-        },
-        "date": 1725049383432,
-        "tool": "customBiggerIsBetter",
-        "description": "The number of 10k-sized files created then deleted over a duration.",
-        "benches": [
-          {
-            "name": "Number of created/deleted files on Linux",
-            "value": "1592",
-            "unit": "number",
-            "extra": "linux_result"
-          },
-          {
-            "name": "Number of created/deleted files on Asterinas",
-            "value": "696",
-            "unit": "number",
-            "extra": "aster_result"
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
-            "name": "YanWQ-monad",
-            "username": "YanWQ-monad",
-            "email": "YanWQmonad@gmail.com"
-          },
-          "committer": {
-            "name": "Tate, Hongliang Tian",
-            "username": "tatetian",
-            "email": "tatetian@gmail.com"
-          },
-          "id": "e6e771e9b5ae7d223a50aa4b38994500b0db6867",
-          "message": "Better timestamp in logging",
-          "timestamp": "2024-08-30T17:51:32Z",
-          "url": "https://github.com/asterinas/asterinas/commit/e6e771e9b5ae7d223a50aa4b38994500b0db6867"
-        },
-        "date": 1725135364971,
-        "tool": "customBiggerIsBetter",
-        "description": "The number of 10k-sized files created then deleted over a duration.",
-        "benches": [
-          {
-            "name": "Number of created/deleted files on Linux",
-            "value": "1587",
-            "unit": "number",
-            "extra": "linux_result"
-          },
-          {
-            "name": "Number of created/deleted files on Asterinas",
-            "value": "637",
-            "unit": "number",
-            "extra": "aster_result"
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
-            "name": "Marsman1996",
-            "username": "Marsman1996",
-            "email": "lqliuyuwei@outlook.com"
-          },
-          "committer": {
-            "name": "Tate, Hongliang Tian",
-            "username": "tatetian",
-            "email": "tatetian@gmail.com"
-          },
-          "id": "745ac6d982638d3548f09ea2aa2103e37c135153",
-          "message": "Set overflow boundary to `isize::MAX` for memory related syscalls",
-          "timestamp": "2024-08-29T14:26:36Z",
-          "url": "https://github.com/asterinas/asterinas/commit/745ac6d982638d3548f09ea2aa2103e37c135153"
-        },
-        "date": 1725221807130,
-        "tool": "customBiggerIsBetter",
-        "description": "The number of 10k-sized files created then deleted over a duration.",
-        "benches": [
-          {
-            "name": "Number of created/deleted files on Linux",
-            "value": "1591",
-            "unit": "number",
-            "extra": "linux_result"
-          },
-          {
-            "name": "Number of created/deleted files on Asterinas",
-            "value": "636",
-            "unit": "number",
-            "extra": "aster_result"
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
-            "name": "Shaowei Song",
-            "username": "lucassong-mh",
-            "email": "songshaowei.ssw@antgroup.com"
-          },
-          "committer": {
-            "name": "Tate, Hongliang Tian",
-            "username": "tatetian",
-            "email": "tatetian@gmail.com"
-          },
-          "id": "963874471284ed014b76d268d933b6d13073c2cc",
-          "message": "Unseekable files need not to manipulate the `offset`",
-          "timestamp": "2024-09-02T09:48:15Z",
-          "url": "https://github.com/asterinas/asterinas/commit/963874471284ed014b76d268d933b6d13073c2cc"
-        },
-        "date": 1725311857294,
-        "tool": "customBiggerIsBetter",
-        "description": "The number of 10k-sized files created then deleted over a duration.",
-        "benches": [
-          {
-            "name": "Number of created/deleted files on Linux",
-            "value": "1466",
-            "unit": "number",
-            "extra": "linux_result"
-          },
-          {
-            "name": "Number of created/deleted files on Asterinas",
-            "value": "702",
-            "unit": "number",
-            "extra": "aster_result"
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
-            "name": "Shaowei Song",
-            "username": "lucassong-mh",
-            "email": "songshaowei.ssw@antgroup.com"
-          },
-          "committer": {
-            "name": "Tate, Hongliang Tian",
-            "username": "tatetian",
-            "email": "tatetian@gmail.com"
-          },
-          "id": "963874471284ed014b76d268d933b6d13073c2cc",
-          "message": "Unseekable files need not to manipulate the `offset`",
-          "timestamp": "2024-09-02T09:48:15Z",
-          "url": "https://github.com/asterinas/asterinas/commit/963874471284ed014b76d268d933b6d13073c2cc"
-        },
-        "date": 1725398250124,
-        "tool": "customBiggerIsBetter",
-        "description": "The number of 10k-sized files created then deleted over a duration.",
-        "benches": [
-          {
-            "name": "Number of created/deleted files on Linux",
-            "value": "1457",
-            "unit": "number",
-            "extra": "linux_result"
-          },
-          {
-            "name": "Number of created/deleted files on Asterinas",
-            "value": "702",
-            "unit": "number",
-            "extra": "aster_result"
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
-            "name": "Ruize Tang",
-            "username": "tangruize",
-            "email": "1466040111@qq.com"
-          },
-          "committer": {
-            "name": "Tate, Hongliang Tian",
-            "username": "tatetian",
-            "email": "tatetian@gmail.com"
-          },
-          "id": "458a6a5b3b01aebe78c124fe20be91a91f0139da",
-          "message": "Fix unexpected unlock of mutexes, add a testcase",
-          "timestamp": "2024-09-03T07:33:12Z",
-          "url": "https://github.com/asterinas/asterinas/commit/458a6a5b3b01aebe78c124fe20be91a91f0139da"
-        },
-        "date": 1725484717386,
-        "tool": "customBiggerIsBetter",
-        "description": "The number of 10k-sized files created then deleted over a duration.",
-        "benches": [
-          {
-            "name": "Number of created/deleted files on Linux",
-            "value": "1285",
-            "unit": "number",
-            "extra": "linux_result"
-          },
-          {
-            "name": "Number of created/deleted files on Asterinas",
-            "value": "711",
-            "unit": "number",
-            "extra": "aster_result"
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
-            "name": "Ruize Tang",
-            "username": "tangruize",
-            "email": "1466040111@qq.com"
-          },
-          "committer": {
-            "name": "Tate, Hongliang Tian",
-            "username": "tatetian",
-            "email": "tatetian@gmail.com"
-          },
-          "id": "458a6a5b3b01aebe78c124fe20be91a91f0139da",
-          "message": "Fix unexpected unlock of mutexes, add a testcase",
-          "timestamp": "2024-09-03T07:33:12Z",
-          "url": "https://github.com/asterinas/asterinas/commit/458a6a5b3b01aebe78c124fe20be91a91f0139da"
-        },
-        "date": 1725571084383,
-        "tool": "customBiggerIsBetter",
-        "description": "The number of 10k-sized files created then deleted over a duration.",
-        "benches": [
-          {
-            "name": "Number of created/deleted files on Linux",
-            "value": "1480",
-            "unit": "number",
-            "extra": "linux_result"
-          },
-          {
-            "name": "Number of created/deleted files on Asterinas",
-            "value": "634",
-            "unit": "number",
-            "extra": "aster_result"
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
-            "name": "Thomas Dickson",
-            "username": "Hoverth",
-            "email": "modscrat+github@gmail.com"
-          },
-          "committer": {
-            "name": "Tate, Hongliang Tian",
-            "username": "tatetian",
-            "email": "tatetian@gmail.com"
-          },
-          "id": "64e43d34aab13eeddea8dd7485c712acc99116ca",
-          "message": "doc: fix typo in README.md",
-          "timestamp": "2024-09-06T04:11:16Z",
-          "url": "https://github.com/asterinas/asterinas/commit/64e43d34aab13eeddea8dd7485c712acc99116ca"
-        },
-        "date": 1725657475853,
-        "tool": "customBiggerIsBetter",
-        "description": "The number of 10k-sized files created then deleted over a duration.",
-        "benches": [
-          {
-            "name": "Number of created/deleted files on Linux",
-            "value": "1346",
-            "unit": "number",
-            "extra": "linux_result"
-          },
-          {
-            "name": "Number of created/deleted files on Asterinas",
-            "value": "710",
-            "unit": "number",
-            "extra": "aster_result"
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
-            "name": "Zhang Junyang",
-            "username": "junyang-zh",
-            "email": "junyang@stu.pku.edu.cn"
-          },
-          "committer": {
-            "name": "Tate, Hongliang Tian",
-            "username": "tatetian",
-            "email": "tatetian@gmail.com"
-          },
-          "id": "c68302f7007225fa47f22a1085a8c59dcdae2ad4",
-          "message": "Don't hold any locks while waiting in `EpollFile`",
-          "timestamp": "2024-09-06T12:05:01Z",
-          "url": "https://github.com/asterinas/asterinas/commit/c68302f7007225fa47f22a1085a8c59dcdae2ad4"
-        },
-        "date": 1725744076672,
-        "tool": "customBiggerIsBetter",
-        "description": "The number of 10k-sized files created then deleted over a duration.",
-        "benches": [
-          {
-            "name": "Number of created/deleted files on Linux",
-            "value": "1356",
-            "unit": "number",
-            "extra": "linux_result"
-          },
-          {
-            "name": "Number of created/deleted files on Asterinas",
-            "value": "676",
-            "unit": "number",
-            "extra": "aster_result"
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
-            "name": "Zhang Junyang",
-            "username": "junyang-zh",
-            "email": "junyang@stu.pku.edu.cn"
-          },
-          "committer": {
-            "name": "Tate, Hongliang Tian",
-            "username": "tatetian",
-            "email": "tatetian@gmail.com"
-          },
-          "id": "c68302f7007225fa47f22a1085a8c59dcdae2ad4",
-          "message": "Don't hold any locks while waiting in `EpollFile`",
-          "timestamp": "2024-09-06T12:05:01Z",
-          "url": "https://github.com/asterinas/asterinas/commit/c68302f7007225fa47f22a1085a8c59dcdae2ad4"
-        },
-        "date": 1725830245584,
-        "tool": "customBiggerIsBetter",
-        "description": "The number of 10k-sized files created then deleted over a duration.",
-        "benches": [
-          {
-            "name": "Number of created/deleted files on Linux",
-            "value": "1445",
-            "unit": "number",
-            "extra": "linux_result"
-          },
-          {
-            "name": "Number of created/deleted files on Asterinas",
-            "value": "703",
-            "unit": "number",
-            "extra": "aster_result"
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
-            "name": "Zhang Junyang",
-            "username": "junyang-zh",
-            "email": "junyang@stu.pku.edu.cn"
-          },
-          "committer": {
-            "name": "Tate, Hongliang Tian",
-            "username": "tatetian",
-            "email": "tatetian@gmail.com"
-          },
-          "id": "c68302f7007225fa47f22a1085a8c59dcdae2ad4",
-          "message": "Don't hold any locks while waiting in `EpollFile`",
-          "timestamp": "2024-09-06T12:05:01Z",
-          "url": "https://github.com/asterinas/asterinas/commit/c68302f7007225fa47f22a1085a8c59dcdae2ad4"
-        },
-        "date": 1725916640179,
-        "tool": "customBiggerIsBetter",
-        "description": "The number of 10k-sized files created then deleted over a duration.",
-        "benches": [
-          {
-            "name": "Number of created/deleted files on Linux",
-            "value": "1567",
-            "unit": "number",
-            "extra": "linux_result"
-          },
-          {
-            "name": "Number of created/deleted files on Asterinas",
-            "value": "669",
-            "unit": "number",
-            "extra": "aster_result"
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
-            "name": "Zhang Junyang",
-            "username": "junyang-zh",
-            "email": "junyang@stu.pku.edu.cn"
-          },
-          "committer": {
-            "name": "Tate, Hongliang Tian",
-            "username": "tatetian",
-            "email": "tatetian@gmail.com"
-          },
-          "id": "c68302f7007225fa47f22a1085a8c59dcdae2ad4",
-          "message": "Don't hold any locks while waiting in `EpollFile`",
-          "timestamp": "2024-09-06T12:05:01Z",
-          "url": "https://github.com/asterinas/asterinas/commit/c68302f7007225fa47f22a1085a8c59dcdae2ad4"
-        },
-        "date": 1726003049881,
-        "tool": "customBiggerIsBetter",
-        "description": "The number of 10k-sized files created then deleted over a duration.",
-        "benches": [
-          {
-            "name": "Number of created/deleted files on Linux",
-            "value": "1370",
-            "unit": "number",
-            "extra": "linux_result"
-          },
-          {
-            "name": "Number of created/deleted files on Asterinas",
-            "value": "681",
-            "unit": "number",
-            "extra": "aster_result"
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
-            "name": "Shaowei Song",
-            "username": "lucassong-mh",
-            "email": "songshaowei.ssw@antgroup.com"
-          },
-          "committer": {
-            "name": "Tate, Hongliang Tian",
-            "username": "tatetian",
-            "email": "tatetian@gmail.com"
-          },
-          "id": "8bfbdf6642a9d04db3490792926d6a299d1e30be",
-          "message": "Optimize the lock usage in `RamInode`'s read/write",
-          "timestamp": "2024-09-02T13:23:46Z",
-          "url": "https://github.com/asterinas/asterinas/commit/8bfbdf6642a9d04db3490792926d6a299d1e30be"
-        },
-        "date": 1726085824955,
-        "tool": "customBiggerIsBetter",
-        "description": "The number of 10k-sized files created then deleted over a duration.",
-        "benches": [
-          {
-            "name": "Number of created/deleted files on Linux",
-            "value": "1546",
-            "unit": "number",
-            "extra": "linux_result"
-          },
-          {
-            "name": "Number of created/deleted files on Asterinas",
-            "value": "709",
-            "unit": "number",
-            "extra": "aster_result"
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
-            "name": "Marsman1996",
-            "username": "Marsman1996",
-            "email": "lqliuyuwei@outlook.com"
-          },
-          "committer": {
-            "name": "Tate, Hongliang Tian",
-            "username": "tatetian",
-            "email": "tatetian@gmail.com"
-          },
-          "id": "6fcad6ce143b8f65e8be76297eb95a9cb56da22e",
-          "message": "Fix integer overflow in handle_page_faults_around",
-          "timestamp": "2024-09-12T12:15:04Z",
-          "url": "https://github.com/asterinas/asterinas/commit/6fcad6ce143b8f65e8be76297eb95a9cb56da22e"
-        },
-        "date": 1726172239759,
-        "tool": "customBiggerIsBetter",
-        "description": "The number of 10k-sized files created then deleted over a duration.",
-        "benches": [
-          {
-            "name": "Number of created/deleted files on Linux",
-            "value": "1562",
-            "unit": "number",
-            "extra": "linux_result"
-          },
-          {
-            "name": "Number of created/deleted files on Asterinas",
-            "value": "722",
-            "unit": "number",
-            "extra": "aster_result"
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
-            "name": "Yuke Peng",
-            "username": "sdww0",
-            "email": "pykfirst@gmail.com"
-          },
-          "committer": {
-            "name": "Tate, Hongliang Tian",
-            "username": "tatetian",
-            "email": "tatetian@gmail.com"
-          },
-          "id": "32ea24e945efde86117d2278a48145d71b9ec90c",
-          "message": "Bump version to 0.8.2",
-          "timestamp": "2024-09-13T05:02:35Z",
-          "url": "https://github.com/asterinas/asterinas/commit/32ea24e945efde86117d2278a48145d71b9ec90c"
-        },
-        "date": 1726260461492,
-        "tool": "customBiggerIsBetter",
-        "title": "[Ramfs] The cost of creating/deleting small files (10KB)",
-        "description": "lat_fs -s 10K",
-        "display": true,
-        "benches": [
-          {
-            "name": "Number of created/deleted files on Linux",
-            "value": "1626",
-            "unit": "number",
-            "extra": "linux_result"
-          },
-          {
-            "name": "Number of created/deleted files on Asterinas",
-            "value": "616",
-            "unit": "number",
-            "extra": "aster_result"
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
-            "name": "Fabing Li",
-            "username": "grief8",
-            "email": "lifabing.lfb@antgroup.com"
-          },
-          "committer": {
-            "name": "Fabing Li",
-            "username": "grief8",
-            "email": "lifabing.lfb@antgroup.com"
-          },
-          "id": "adfb4a081356bea739a1720f284c3e66d6a96d19",
-          "message": "test",
-          "timestamp": "2024-09-14T03:47:04Z",
-          "url": "https://github.com/grief8/asterinas/commit/adfb4a081356bea739a1720f284c3e66d6a96d19"
-        },
-        "date": 1726640795482,
-        "tool": "customBiggerIsBetter",
-        "title": "[Ramfs] The cost of creating/deleting small files (10KB)",
-        "description": "lat_fs -s 10K",
-        "display": true,
-        "benches": [
-          {
-            "name": "Number of created/deleted files on Linux",
-            "value": "3.127574]",
-            "unit": "number",
-            "extra": "linux_result"
-          },
-          {
-            "name": "Number of created/deleted files on Asterinas",
-            "value": "672",
-            "unit": "number",
-            "extra": "aster_result"
-          }
-        ]
-      }
-    ],
-    "mem_copy_bw": [
-      {
-        "commit": {
-          "author": {
-            "name": "Fabing Li",
-            "username": "grief8",
-            "email": "lifabing.lfb@antgroup.com"
-          },
-          "committer": {
-            "name": "Fabing Li",
-            "username": "grief8",
-            "email": "lifabing.lfb@antgroup.com"
-          },
-          "id": "52871246d45bbd86954f1d1dd5c65c98e1656064",
-          "message": "uP",
-          "timestamp": "2024-09-24T06:48:01Z",
-          "url": "https://github.com/grief8/asterinas/commit/52871246d45bbd86954f1d1dd5c65c98e1656064"
-        },
-        "date": 1727160799086,
-        "tool": "customBiggerIsBetter",
-        "title": "[Memory] The bandwidth of copying integers",
-        "description": "bw_mem fcp",
-        "display": true,
-        "benches": [
-          {
-            "name": "Average memory copy bandwidth on Linux",
-            "value": "10261.29",
-            "unit": "MB/s",
-            "extra": "linux_result"
-          },
-          {
-            "name": "Average memory copy bandwidth on Asterinas",
-            "value": "7343.33",
-            "unit": "MB/s",
-            "extra": "aster_result"
-          }
-        ]
-      }
-    ],
-    "mem_mmap_bw": [
-      {
-        "commit": {
-          "author": {
-            "name": "Fabing Li",
-            "username": "grief8",
-            "email": "lifabing.lfb@antgroup.com"
-          },
-          "committer": {
-            "name": "Fabing Li",
-            "username": "grief8",
-            "email": "lifabing.lfb@antgroup.com"
-          },
-          "id": "52871246d45bbd86954f1d1dd5c65c98e1656064",
-          "message": "uP",
-          "timestamp": "2024-09-24T06:48:01Z",
-          "url": "https://github.com/grief8/asterinas/commit/52871246d45bbd86954f1d1dd5c65c98e1656064"
-        },
-        "date": 1727160789879,
-        "tool": "customBiggerIsBetter",
-        "title": "[Memory] The bandwidth of mmap",
-        "description": "bw_mmap",
-        "display": true,
-        "benches": [
-          {
-            "name": "Average mmap bandwidth on Linux",
-            "value": "18783.53",
-            "unit": "MB/s",
-            "extra": "linux_result"
-          },
-          {
-            "name": "Average mmap bandwidth on Asterinas",
-            "value": "18270.86",
-            "unit": "MB/s",
-            "extra": "aster_result"
-          }
-        ]
-      }
-    ],
-    "mem_mmap_lat": [
-      {
-        "commit": {
-          "author": {
-            "name": "Fabing Li",
-            "username": "grief8",
-            "email": "lifabing.lfb@antgroup.com"
-          },
-          "committer": {
-            "name": "Fabing Li",
-            "username": "grief8",
-            "email": "lifabing.lfb@antgroup.com"
-          },
-          "id": "52871246d45bbd86954f1d1dd5c65c98e1656064",
-          "message": "uP",
-          "timestamp": "2024-09-24T06:48:01Z",
-          "url": "https://github.com/grief8/asterinas/commit/52871246d45bbd86954f1d1dd5c65c98e1656064"
-        },
-        "date": 1727160864286,
-        "tool": "customSmallerIsBetter",
-        "title": "[Memory] The cost of mmap+unmap",
-        "description": "lat_mmap",
-        "display": true,
-        "benches": [
-          {
-            "name": "Average mmap latency on Linux",
-            "value": "20",
-            "unit": "µs",
-            "extra": "linux_result"
-          },
-          {
-            "name": "Average mmap latency on Asterinas",
-            "value": "23",
+            "name": "Average protection fault latency on Asterinas",
+            "value": "0.4054",
             "unit": "µs",
             "extra": "aster_result"
           }
@@ -6347,28 +5913,28 @@ window.BENCHMARK_DATA = {
           "timestamp": "2024-09-24T06:58:54Z",
           "url": "https://github.com/grief8/asterinas/commit/bb8d2fe583df04a06eaf4c931270c55dd06f48ae"
         },
-        "date": 1727168683310,
+        "date": 1727168646871,
         "tool": "customSmallerIsBetter",
-        "title": "[Memory] The cost of mmap+unmap",
-        "description": "lat_mmap",
+        "title": "[Signals] The cost of catching a segfault",
+        "description": "lat_sig prot",
         "display": true,
         "benches": [
           {
-            "name": "Average mmap latency on Linux",
-            "value": "20",
+            "name": "Average protection fault latency on Linux",
+            "value": "0.2650",
             "unit": "µs",
             "extra": "linux_result"
           },
           {
-            "name": "Average mmap latency on Asterinas",
-            "value": "23",
+            "name": "Average protection fault latency on Asterinas",
+            "value": "0.4193",
             "unit": "µs",
             "extra": "aster_result"
           }
         ]
       }
     ],
-    "mem_pagefault_lat": [
+    "pipe_lat": [
       {
         "commit": {
           "author": {
@@ -6386,137 +5952,22 @@ window.BENCHMARK_DATA = {
           "timestamp": "2024-09-24T06:48:01Z",
           "url": "https://github.com/grief8/asterinas/commit/52871246d45bbd86954f1d1dd5c65c98e1656064"
         },
-        "date": 1727160872699,
+        "date": 1727160835929,
         "tool": "customSmallerIsBetter",
-        "title": "[Memory] The cost of page fault handling",
-        "description": "lat_pagefault",
+        "title": "[Pipes] The cost of write+read (1B)",
+        "description": "lat_pipe",
         "display": true,
         "benches": [
           {
-            "name": "Average page fault latency on Linux",
-            "value": "0.1233",
+            "name": "Average pipe latency on Linux",
+            "value": "2.6958",
             "unit": "µs",
             "extra": "linux_result"
           },
           {
-            "name": "Average page fault latency on Asterinas",
-            "value": "0.0980",
+            "name": "Average pipe latency on Asterinas",
+            "value": "1.9610",
             "unit": "µs",
-            "extra": "aster_result"
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
-            "name": "Fabing Li",
-            "username": "grief8",
-            "email": "lifabing.lfb@antgroup.com"
-          },
-          "committer": {
-            "name": "Fabing Li",
-            "username": "grief8",
-            "email": "lifabing.lfb@antgroup.com"
-          },
-          "id": "bb8d2fe583df04a06eaf4c931270c55dd06f48ae",
-          "message": "iuu",
-          "timestamp": "2024-09-24T06:58:54Z",
-          "url": "https://github.com/grief8/asterinas/commit/bb8d2fe583df04a06eaf4c931270c55dd06f48ae"
-        },
-        "date": 1727168657917,
-        "tool": "customSmallerIsBetter",
-        "title": "[Memory] The cost of page fault handling",
-        "description": "lat_pagefault",
-        "display": true,
-        "benches": [
-          {
-            "name": "Average page fault latency on Linux",
-            "value": "0.1231",
-            "unit": "µs",
-            "extra": "linux_result"
-          },
-          {
-            "name": "Average page fault latency on Asterinas",
-            "value": "0.0983",
-            "unit": "µs",
-            "extra": "aster_result"
-          }
-        ]
-      }
-    ],
-    "mem_read_bw": [
-      {
-        "commit": {
-          "author": {
-            "name": "Fabing Li",
-            "username": "grief8",
-            "email": "lifabing.lfb@antgroup.com"
-          },
-          "committer": {
-            "name": "Fabing Li",
-            "username": "grief8",
-            "email": "lifabing.lfb@antgroup.com"
-          },
-          "id": "52871246d45bbd86954f1d1dd5c65c98e1656064",
-          "message": "uP",
-          "timestamp": "2024-09-24T06:48:01Z",
-          "url": "https://github.com/grief8/asterinas/commit/52871246d45bbd86954f1d1dd5c65c98e1656064"
-        },
-        "date": 1727160948056,
-        "tool": "customBiggerIsBetter",
-        "title": "[Memory] The bandwidth of reading integers",
-        "description": "bw_mem frd",
-        "display": true,
-        "benches": [
-          {
-            "name": "Average memory read bandwidth on Linux",
-            "value": "16510.99",
-            "unit": "MB/s",
-            "extra": "linux_result"
-          },
-          {
-            "name": "Average memory read bandwidth on Asterinas",
-            "value": "15944.42",
-            "unit": "MB/s",
-            "extra": "aster_result"
-          }
-        ]
-      }
-    ],
-    "mem_write_bw": [
-      {
-        "commit": {
-          "author": {
-            "name": "Fabing Li",
-            "username": "grief8",
-            "email": "lifabing.lfb@antgroup.com"
-          },
-          "committer": {
-            "name": "Fabing Li",
-            "username": "grief8",
-            "email": "lifabing.lfb@antgroup.com"
-          },
-          "id": "52871246d45bbd86954f1d1dd5c65c98e1656064",
-          "message": "uP",
-          "timestamp": "2024-09-24T06:48:01Z",
-          "url": "https://github.com/grief8/asterinas/commit/52871246d45bbd86954f1d1dd5c65c98e1656064"
-        },
-        "date": 1727160803371,
-        "tool": "customBiggerIsBetter",
-        "title": "[Memory] The bandwidth of writing integers",
-        "description": "bw_mem fwr",
-        "display": true,
-        "benches": [
-          {
-            "name": "Average memory write bandwidth on Linux",
-            "value": "4752.88",
-            "unit": "MB/s",
-            "extra": "linux_result"
-          },
-          {
-            "name": "Average memory write bandwidth on Asterinas",
-            "value": "4564.84",
-            "unit": "MB/s",
             "extra": "aster_result"
           }
         ]
@@ -8383,7 +7834,7 @@ window.BENCHMARK_DATA = {
         ]
       }
     ],
-    "pipe_lat": [
+    "fifo_lat": [
       {
         "commit": {
           "author": {
@@ -8401,104 +7852,28 @@ window.BENCHMARK_DATA = {
           "timestamp": "2024-09-24T06:48:01Z",
           "url": "https://github.com/grief8/asterinas/commit/52871246d45bbd86954f1d1dd5c65c98e1656064"
         },
-        "date": 1727160835929,
+        "date": 1727160825080,
         "tool": "customSmallerIsBetter",
-        "title": "[Pipes] The cost of write+read (1B)",
-        "description": "lat_pipe",
+        "title": "[FIFO] The cost of write+read (1B)",
+        "description": "lat_fifo",
         "display": true,
         "benches": [
           {
-            "name": "Average pipe latency on Linux",
-            "value": "2.6958",
+            "name": "Average fifo latency on Linux",
+            "value": "2.6357",
             "unit": "µs",
             "extra": "linux_result"
           },
           {
-            "name": "Average pipe latency on Asterinas",
-            "value": "1.9610",
+            "name": "Average fifo latency on Asterinas",
+            "value": "2.1314",
             "unit": "µs",
             "extra": "aster_result"
           }
         ]
       }
     ],
-    "process_ctx_lat": [
-      {
-        "commit": {
-          "author": {
-            "name": "Fabing Li",
-            "username": "grief8",
-            "email": "lifabing.lfb@antgroup.com"
-          },
-          "committer": {
-            "name": "Fabing Li",
-            "username": "grief8",
-            "email": "lifabing.lfb@antgroup.com"
-          },
-          "id": "52871246d45bbd86954f1d1dd5c65c98e1656064",
-          "message": "uP",
-          "timestamp": "2024-09-24T06:48:01Z",
-          "url": "https://github.com/grief8/asterinas/commit/52871246d45bbd86954f1d1dd5c65c98e1656064"
-        },
-        "date": 1727160796530,
-        "tool": "customSmallerIsBetter",
-        "title": "[Process] The cost of context switching",
-        "description": "lat_ctx 2",
-        "display": true,
-        "benches": [
-          {
-            "name": "Average context switch latency on Linux",
-            "value": "1.12",
-            "unit": "µs",
-            "extra": "linux_result"
-          },
-          {
-            "name": "Average context switch latency on Asterinas",
-            "value": "1.00",
-            "unit": "µs",
-            "extra": "aster_result"
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
-            "name": "Fabing Li",
-            "username": "grief8",
-            "email": "lifabing.lfb@antgroup.com"
-          },
-          "committer": {
-            "name": "Fabing Li",
-            "username": "grief8",
-            "email": "lifabing.lfb@antgroup.com"
-          },
-          "id": "bb8d2fe583df04a06eaf4c931270c55dd06f48ae",
-          "message": "iuu",
-          "timestamp": "2024-09-24T06:58:54Z",
-          "url": "https://github.com/grief8/asterinas/commit/bb8d2fe583df04a06eaf4c931270c55dd06f48ae"
-        },
-        "date": 1727168646669,
-        "tool": "customSmallerIsBetter",
-        "title": "[Process] The cost of context switching",
-        "description": "lat_ctx 2",
-        "display": true,
-        "benches": [
-          {
-            "name": "Average context switch latency on Linux",
-            "value": "1.11",
-            "unit": "µs",
-            "extra": "linux_result"
-          },
-          {
-            "name": "Average context switch latency on Asterinas",
-            "value": "0.96",
-            "unit": "µs",
-            "extra": "aster_result"
-          }
-        ]
-      }
-    ],
-    "process_exec_lat": [
+    "unix_lat": [
       {
         "commit": {
           "author": {
@@ -8516,18 +7891,18 @@ window.BENCHMARK_DATA = {
           "timestamp": "2024-07-06T10:20:02Z",
           "url": "https://github.com/asterinas/asterinas/commit/94eba6d85eb9e62ddd904c1132d556b808cc3174"
         },
-        "date": 1721333183598,
+        "date": 1721337901434,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Average exec latency on Linux",
-            "value": "68.1358",
+            "name": "Average unix latency on Linux",
+            "value": "4.5580",
             "unit": "ms",
             "extra": "linux_result"
           },
           {
-            "name": "Average exec latency on Asterinas",
-            "value": "415.2143",
+            "name": "Average unix latency on Asterinas",
+            "value": "7.2898",
             "unit": "ms",
             "extra": "aster_result"
           }
@@ -8550,18 +7925,18 @@ window.BENCHMARK_DATA = {
           "timestamp": "2024-07-14T09:47:11Z",
           "url": "https://github.com/asterinas/asterinas/commit/9f125cd671fc8a91dfffe2b13949980560123f7b"
         },
-        "date": 1721419450137,
+        "date": 1721424239825,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Average exec latency on Linux",
-            "value": "71.2821",
+            "name": "Average unix latency on Linux",
+            "value": "4.6047",
             "unit": "ms",
             "extra": "linux_result"
           },
           {
-            "name": "Average exec latency on Asterinas",
-            "value": "409.8571",
+            "name": "Average unix latency on Asterinas",
+            "value": "7.2029",
             "unit": "ms",
             "extra": "aster_result"
           }
@@ -8584,18 +7959,52 @@ window.BENCHMARK_DATA = {
           "timestamp": "2024-07-04T15:19:44Z",
           "url": "https://github.com/asterinas/asterinas/commit/20524ae64a3472a5381e7e5aa960a124d050e57b"
         },
-        "date": 1721505991625,
+        "date": 1721510685999,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Average exec latency on Linux",
-            "value": "72.3117",
+            "name": "Average unix latency on Linux",
+            "value": "4.5749",
             "unit": "ms",
             "extra": "linux_result"
           },
           {
-            "name": "Average exec latency on Asterinas",
-            "value": "394.1429",
+            "name": "Average unix latency on Asterinas",
+            "value": "7.1370",
+            "unit": "ms",
+            "extra": "aster_result"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "hongwen.chw",
+            "username": "CherishCai",
+            "email": "785427346@qq.com"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "4dacff5be4fa547cd26748e6af03f79cb039f700",
+          "message": "Fix a typo when assign 'dst.rbx' at `copy_gp_regs`",
+          "timestamp": "2024-07-21T09:02:54Z",
+          "url": "https://github.com/asterinas/asterinas/commit/4dacff5be4fa547cd26748e6af03f79cb039f700"
+        },
+        "date": 1721593637659,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Average unix latency on Linux",
+            "value": "4.5765",
+            "unit": "ms",
+            "extra": "linux_result"
+          },
+          {
+            "name": "Average unix latency on Asterinas",
+            "value": "7.1421",
             "unit": "ms",
             "extra": "aster_result"
           }
@@ -8618,18 +8027,18 @@ window.BENCHMARK_DATA = {
           "timestamp": "2024-07-19T08:45:22Z",
           "url": "https://github.com/asterinas/asterinas/commit/5aa28eae7e14594bbe68827114443b31002bf742"
         },
-        "date": 1721678696953,
+        "date": 1721680359420,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Average exec latency on Linux",
-            "value": "71.6623",
+            "name": "Average unix latency on Linux",
+            "value": "4.5644",
             "unit": "ms",
             "extra": "linux_result"
           },
           {
-            "name": "Average exec latency on Asterinas",
-            "value": "390.6429",
+            "name": "Average unix latency on Asterinas",
+            "value": "7.1421",
             "unit": "ms",
             "extra": "aster_result"
           }
@@ -8652,18 +8061,18 @@ window.BENCHMARK_DATA = {
           "timestamp": "2024-07-19T08:45:22Z",
           "url": "https://github.com/asterinas/asterinas/commit/5aa28eae7e14594bbe68827114443b31002bf742"
         },
-        "date": 1721764953023,
+        "date": 1721766373808,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Average exec latency on Linux",
-            "value": "73.2368",
+            "name": "Average unix latency on Linux",
+            "value": "4.5740",
             "unit": "ms",
             "extra": "linux_result"
           },
           {
-            "name": "Average exec latency on Asterinas",
-            "value": "384.1429",
+            "name": "Average unix latency on Asterinas",
+            "value": "7.1459",
             "unit": "ms",
             "extra": "aster_result"
           }
@@ -8686,18 +8095,18 @@ window.BENCHMARK_DATA = {
           "timestamp": "2024-07-19T08:45:22Z",
           "url": "https://github.com/asterinas/asterinas/commit/5aa28eae7e14594bbe68827114443b31002bf742"
         },
-        "date": 1721851336899,
+        "date": 1721852733029,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Average exec latency on Linux",
-            "value": "72.4000",
+            "name": "Average unix latency on Linux",
+            "value": "4.5796",
             "unit": "ms",
             "extra": "linux_result"
           },
           {
-            "name": "Average exec latency on Asterinas",
-            "value": "398.7857",
+            "name": "Average unix latency on Asterinas",
+            "value": "7.1512",
             "unit": "ms",
             "extra": "aster_result"
           }
@@ -8720,18 +8129,18 @@ window.BENCHMARK_DATA = {
           "timestamp": "2024-06-30T15:08:25Z",
           "url": "https://github.com/asterinas/asterinas/commit/e83e1fc01ba38ad2a405d7d710ec7258fb664f60"
         },
-        "date": 1721938014097,
+        "date": 1721939255059,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Average exec latency on Linux",
-            "value": "72.0649",
+            "name": "Average unix latency on Linux",
+            "value": "4.6050",
             "unit": "ms",
             "extra": "linux_result"
           },
           {
-            "name": "Average exec latency on Asterinas",
-            "value": "199.7931",
+            "name": "Average unix latency on Asterinas",
+            "value": "5.8757",
             "unit": "ms",
             "extra": "aster_result"
           }
@@ -8753,18 +8162,18 @@ window.BENCHMARK_DATA = {
           "timestamp": "2024-07-13T09:31:50Z",
           "url": "https://github.com/grief8/asterinas/commit/0b8335c9431008dd7d037721a21724328c4a3024"
         },
-        "date": 1721938675338,
+        "date": 1721940032763,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Average exec latency on Linux",
-            "value": "71.0390",
+            "name": "Average unix latency on Linux",
+            "value": "4.5930",
             "unit": "ms",
             "extra": "linux_result"
           },
           {
-            "name": "Average exec latency on Asterinas",
-            "value": "370.4375",
+            "name": "Average unix latency on Asterinas",
+            "value": "5.5359",
             "unit": "ms",
             "extra": "aster_result"
           }
@@ -8787,18 +8196,18 @@ window.BENCHMARK_DATA = {
           "timestamp": "2024-06-30T15:08:25Z",
           "url": "https://github.com/asterinas/asterinas/commit/e83e1fc01ba38ad2a405d7d710ec7258fb664f60"
         },
-        "date": 1722024364351,
+        "date": 1722025498217,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Average exec latency on Linux",
-            "value": "71.4805",
+            "name": "Average unix latency on Linux",
+            "value": "4.5781",
             "unit": "ms",
             "extra": "linux_result"
           },
           {
-            "name": "Average exec latency on Asterinas",
-            "value": "216.9231",
+            "name": "Average unix latency on Asterinas",
+            "value": "5.9410",
             "unit": "ms",
             "extra": "aster_result"
           }
@@ -8807,33 +8216,171 @@ window.BENCHMARK_DATA = {
       {
         "commit": {
           "author": {
-            "name": "Ruihan Li",
-            "username": "lrh2000",
-            "email": "lrh2000@pku.edu.cn"
+            "name": "Shaowei Song",
+            "username": "lucassong-mh",
+            "email": "songshaowei.ssw@antgroup.com"
           },
           "committer": {
             "name": "Tate, Hongliang Tian",
             "username": "tatetian",
             "email": "tatetian@gmail.com"
           },
-          "id": "e83e1fc01ba38ad2a405d7d710ec7258fb664f60",
-          "message": "Unpack states from `Arc` in UNIX sockets",
-          "timestamp": "2024-06-30T15:08:25Z",
-          "url": "https://github.com/asterinas/asterinas/commit/e83e1fc01ba38ad2a405d7d710ec7258fb664f60"
+          "id": "20a856b07fa8210fdd2d46d3feb5087004c27afb",
+          "message": "Revise the naming of all sync/async io APIs",
+          "timestamp": "2024-07-30T09:31:02Z",
+          "url": "https://github.com/asterinas/asterinas/commit/20a856b07fa8210fdd2d46d3feb5087004c27afb"
         },
-        "date": 1722221481277,
+        "date": 1722371793799,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Average exec latency on Linux",
-            "value": "70.0127",
+            "name": "Average unix latency on Linux",
+            "value": "4.5768",
             "unit": "ms",
             "extra": "linux_result"
           },
           {
-            "name": "Average exec latency on Asterinas",
-            "value": "214.8000",
+            "name": "Average unix latency on Asterinas",
+            "value": "5.9837",
             "unit": "ms",
+            "extra": "aster_result"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Shaowei Song",
+            "username": "lucassong-mh",
+            "email": "songshaowei.ssw@antgroup.com"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "20a856b07fa8210fdd2d46d3feb5087004c27afb",
+          "message": "Revise the naming of all sync/async io APIs",
+          "timestamp": "2024-07-30T09:31:02Z",
+          "url": "https://github.com/asterinas/asterinas/commit/20a856b07fa8210fdd2d46d3feb5087004c27afb"
+        },
+        "date": 1722457972941,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Average unix latency on Linux",
+            "value": "4.7873",
+            "unit": "ms",
+            "extra": "linux_result"
+          },
+          {
+            "name": "Average unix latency on Asterinas",
+            "value": "5.9101",
+            "unit": "ms",
+            "extra": "aster_result"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Shaowei Song",
+            "username": "lucassong-mh",
+            "email": "songshaowei.ssw@antgroup.com"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "20a856b07fa8210fdd2d46d3feb5087004c27afb",
+          "message": "Revise the naming of all sync/async io APIs",
+          "timestamp": "2024-07-30T09:31:02Z",
+          "url": "https://github.com/asterinas/asterinas/commit/20a856b07fa8210fdd2d46d3feb5087004c27afb"
+        },
+        "date": 1722544361898,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Average unix latency on Linux",
+            "value": "4.6030",
+            "unit": "ms",
+            "extra": "linux_result"
+          },
+          {
+            "name": "Average unix latency on Asterinas",
+            "value": "6.0145",
+            "unit": "ms",
+            "extra": "aster_result"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Yuke Peng",
+            "username": "sdww0",
+            "email": "pykfirst@gmail.com"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "6f8978193c7a73a51403a8751314ddebc1c1983f",
+          "message": "Add benchmarks to workflow",
+          "timestamp": "2024-08-02T13:40:56Z",
+          "url": "https://github.com/asterinas/asterinas/commit/6f8978193c7a73a51403a8751314ddebc1c1983f"
+        },
+        "date": 1722631431506,
+        "tool": "customSmallerIsBetter",
+        "description": "The latency of UNIX domain socket communication on a single processor.",
+        "benches": [
+          {
+            "name": "Average unix latency on Linux",
+            "value": "4.6338",
+            "unit": "µs",
+            "extra": "linux_result"
+          },
+          {
+            "name": "Average unix latency on Asterinas",
+            "value": "5.9880",
+            "unit": "µs",
+            "extra": "aster_result"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Yuke Peng",
+            "username": "sdww0",
+            "email": "pykfirst@gmail.com"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "6f8978193c7a73a51403a8751314ddebc1c1983f",
+          "message": "Add benchmarks to workflow",
+          "timestamp": "2024-08-02T13:40:56Z",
+          "url": "https://github.com/asterinas/asterinas/commit/6f8978193c7a73a51403a8751314ddebc1c1983f"
+        },
+        "date": 1722717832192,
+        "tool": "customSmallerIsBetter",
+        "description": "The latency of UNIX domain socket communication on a single processor.",
+        "benches": [
+          {
+            "name": "Average unix latency on Linux",
+            "value": "4.6684",
+            "unit": "µs",
+            "extra": "linux_result"
+          },
+          {
+            "name": "Average unix latency on Asterinas",
+            "value": "5.8879",
+            "unit": "µs",
             "extra": "aster_result"
           }
         ]
@@ -8850,24 +8397,25 @@ window.BENCHMARK_DATA = {
             "username": "tatetian",
             "email": "tatetian@gmail.com"
           },
-          "id": "bdabea09c2ecc9a5fed6fe0bb0663e865d755ff0",
-          "message": "Add SMP boot options",
-          "timestamp": "2024-07-07T16:13:02Z",
-          "url": "https://github.com/asterinas/asterinas/commit/bdabea09c2ecc9a5fed6fe0bb0663e865d755ff0"
+          "id": "16690bc61b0bb8d90dbb1cec8a317ba34aa09f71",
+          "message": "Implement atomic signal masks and refactor `SigSet`",
+          "timestamp": "2024-08-02T08:26:56Z",
+          "url": "https://github.com/asterinas/asterinas/commit/16690bc61b0bb8d90dbb1cec8a317ba34aa09f71"
         },
-        "date": 1722322478477,
+        "date": 1722804235256,
         "tool": "customSmallerIsBetter",
+        "description": "The latency of UNIX domain socket communication on a single processor.",
         "benches": [
           {
-            "name": "Average exec latency on Linux",
-            "value": "66.4756",
-            "unit": "ms",
+            "name": "Average unix latency on Linux",
+            "value": "4.7654",
+            "unit": "µs",
             "extra": "linux_result"
           },
           {
-            "name": "Average exec latency on Asterinas",
-            "value": "197.0741",
-            "unit": "ms",
+            "name": "Average unix latency on Asterinas",
+            "value": "5.7206",
+            "unit": "µs",
             "extra": "aster_result"
           }
         ]
@@ -8875,33 +8423,34 @@ window.BENCHMARK_DATA = {
       {
         "commit": {
           "author": {
-            "name": "Shaowei Song",
-            "username": "lucassong-mh",
-            "email": "songshaowei.ssw@antgroup.com"
+            "name": "azongchang",
+            "username": "azongchang",
+            "email": "azongchang@qq.com"
           },
           "committer": {
             "name": "Tate, Hongliang Tian",
             "username": "tatetian",
             "email": "tatetian@gmail.com"
           },
-          "id": "20a856b07fa8210fdd2d46d3feb5087004c27afb",
-          "message": "Revise the naming of all sync/async io APIs",
-          "timestamp": "2024-07-30T09:31:02Z",
-          "url": "https://github.com/asterinas/asterinas/commit/20a856b07fa8210fdd2d46d3feb5087004c27afb"
+          "id": "aa84b31634b9c710e04b337c5d1b8fa207f8dbde",
+          "message": "Add the description of encoding option to the OSDK document",
+          "timestamp": "2024-08-05T05:52:13Z",
+          "url": "https://github.com/asterinas/asterinas/commit/aa84b31634b9c710e04b337c5d1b8fa207f8dbde"
         },
-        "date": 1722369895701,
+        "date": 1722890570767,
         "tool": "customSmallerIsBetter",
+        "description": "The latency of UNIX domain socket communication on a single processor.",
         "benches": [
           {
-            "name": "Average exec latency on Linux",
-            "value": "69.8608",
-            "unit": "ms",
+            "name": "Average unix latency on Linux",
+            "value": "4.5503",
+            "unit": "µs",
             "extra": "linux_result"
           },
           {
-            "name": "Average exec latency on Asterinas",
-            "value": "200.0370",
-            "unit": "ms",
+            "name": "Average unix latency on Asterinas",
+            "value": "5.6917",
+            "unit": "µs",
             "extra": "aster_result"
           }
         ]
@@ -8909,33 +8458,34 @@ window.BENCHMARK_DATA = {
       {
         "commit": {
           "author": {
-            "name": "Shaowei Song",
-            "username": "lucassong-mh",
-            "email": "songshaowei.ssw@antgroup.com"
+            "name": "Ruihan Li",
+            "username": "lrh2000",
+            "email": "lrh2000@pku.edu.cn"
           },
           "committer": {
             "name": "Tate, Hongliang Tian",
             "username": "tatetian",
             "email": "tatetian@gmail.com"
           },
-          "id": "20a856b07fa8210fdd2d46d3feb5087004c27afb",
-          "message": "Revise the naming of all sync/async io APIs",
-          "timestamp": "2024-07-30T09:31:02Z",
-          "url": "https://github.com/asterinas/asterinas/commit/20a856b07fa8210fdd2d46d3feb5087004c27afb"
+          "id": "b1ea422efaf6b0becd7d6cd99d270ae01fcd12de",
+          "message": "Fix accesses to VirtIO queue DMA",
+          "timestamp": "2024-08-05T14:06:02Z",
+          "url": "https://github.com/asterinas/asterinas/commit/b1ea422efaf6b0becd7d6cd99d270ae01fcd12de"
         },
-        "date": 1722456261603,
+        "date": 1722977108090,
         "tool": "customSmallerIsBetter",
+        "description": "The latency of UNIX domain socket communication on a single processor.",
         "benches": [
           {
-            "name": "Average exec latency on Linux",
-            "value": "71.1923",
-            "unit": "ms",
+            "name": "Average unix latency on Linux",
+            "value": "4.6058",
+            "unit": "µs",
             "extra": "linux_result"
           },
           {
-            "name": "Average exec latency on Asterinas",
-            "value": "201.1481",
-            "unit": "ms",
+            "name": "Average unix latency on Asterinas",
+            "value": "5.7666",
+            "unit": "µs",
             "extra": "aster_result"
           }
         ]
@@ -8943,33 +8493,69 @@ window.BENCHMARK_DATA = {
       {
         "commit": {
           "author": {
-            "name": "Shaowei Song",
-            "username": "lucassong-mh",
-            "email": "songshaowei.ssw@antgroup.com"
+            "name": "Ruihan Li",
+            "username": "lrh2000",
+            "email": "lrh2000@pku.edu.cn"
           },
           "committer": {
             "name": "Tate, Hongliang Tian",
             "username": "tatetian",
             "email": "tatetian@gmail.com"
           },
-          "id": "20a856b07fa8210fdd2d46d3feb5087004c27afb",
-          "message": "Revise the naming of all sync/async io APIs",
-          "timestamp": "2024-07-30T09:31:02Z",
-          "url": "https://github.com/asterinas/asterinas/commit/20a856b07fa8210fdd2d46d3feb5087004c27afb"
+          "id": "b1ea422efaf6b0becd7d6cd99d270ae01fcd12de",
+          "message": "Fix accesses to VirtIO queue DMA",
+          "timestamp": "2024-08-05T14:06:02Z",
+          "url": "https://github.com/asterinas/asterinas/commit/b1ea422efaf6b0becd7d6cd99d270ae01fcd12de"
         },
-        "date": 1722542789818,
+        "date": 1723063503706,
         "tool": "customSmallerIsBetter",
+        "description": "The latency of UNIX domain socket communication on a single processor.",
         "benches": [
           {
-            "name": "Average exec latency on Linux",
-            "value": "70.3462",
-            "unit": "ms",
+            "name": "Average unix latency on Linux",
+            "value": "4.5731",
+            "unit": "µs",
             "extra": "linux_result"
           },
           {
-            "name": "Average exec latency on Asterinas",
-            "value": "200.8065",
-            "unit": "ms",
+            "name": "Average unix latency on Asterinas",
+            "value": "5.7523",
+            "unit": "µs",
+            "extra": "aster_result"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Jianfeng Jiang",
+            "username": "StevenJiang1110",
+            "email": "jiangjianfeng.jjf@antgroup.com"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "6414111cc57b42db2bae1a0c8b01b85c3830a3b3",
+          "message": "Support flag SA_RESETHAND",
+          "timestamp": "2024-08-07T09:17:46Z",
+          "url": "https://github.com/asterinas/asterinas/commit/6414111cc57b42db2bae1a0c8b01b85c3830a3b3"
+        },
+        "date": 1723104371404,
+        "tool": "customSmallerIsBetter",
+        "description": "The latency of UNIX domain socket communication on a single processor.",
+        "benches": [
+          {
+            "name": "Average unix latency on Linux",
+            "value": "4.5985",
+            "unit": "µs",
+            "extra": "linux_result"
+          },
+          {
+            "name": "Average unix latency on Asterinas",
+            "value": "5.7175",
+            "unit": "µs",
             "extra": "aster_result"
           }
         ]
@@ -8991,19 +8577,19 @@ window.BENCHMARK_DATA = {
           "timestamp": "2024-08-02T03:14:14Z",
           "url": "https://github.com/asterinas/asterinas/commit/acb4833aae0476d7ed2d61871036aff3eaf77c5d"
         },
-        "date": 1723147379883,
+        "date": 1723149755737,
         "tool": "customSmallerIsBetter",
-        "description": "The latency of creating and executing processes on a single processor.",
+        "description": "The latency of UNIX domain socket communication on a single processor.",
         "benches": [
           {
-            "name": "Average exec latency on Linux",
-            "value": "260.1905",
+            "name": "Average unix latency on Linux",
+            "value": "4.5860",
             "unit": "µs",
             "extra": "linux_result"
           },
           {
-            "name": "Average exec latency on Asterinas",
-            "value": "767.5000",
+            "name": "Average unix latency on Asterinas",
+            "value": "5.6047",
             "unit": "µs",
             "extra": "aster_result"
           }
@@ -9026,19 +8612,19 @@ window.BENCHMARK_DATA = {
           "timestamp": "2024-08-09T08:11:43Z",
           "url": "https://github.com/asterinas/asterinas/commit/75da7fd30eca1e80ad57da15bfe5dff6963c03c1"
         },
-        "date": 1723233852265,
+        "date": 1723236136260,
         "tool": "customSmallerIsBetter",
-        "description": "The latency of creating and executing processes on a single processor.",
+        "description": "The latency of UNIX domain socket communication on a single processor.",
         "benches": [
           {
-            "name": "Average exec latency on Linux",
-            "value": "258.9000",
+            "name": "Average unix latency on Linux",
+            "value": "4.5718",
             "unit": "µs",
             "extra": "linux_result"
           },
           {
-            "name": "Average exec latency on Asterinas",
-            "value": "655.4444",
+            "name": "Average unix latency on Asterinas",
+            "value": "5.6133",
             "unit": "µs",
             "extra": "aster_result"
           }
@@ -9061,19 +8647,19 @@ window.BENCHMARK_DATA = {
           "timestamp": "2024-08-09T10:56:43Z",
           "url": "https://github.com/asterinas/asterinas/commit/a739b3828d106d4e09fe2ba7dd8eed12d18dd20a"
         },
-        "date": 1723320389287,
+        "date": 1723322524489,
         "tool": "customSmallerIsBetter",
-        "description": "The latency of creating and executing processes on a single processor.",
+        "description": "The latency of UNIX domain socket communication on a single processor.",
         "benches": [
           {
-            "name": "Average exec latency on Linux",
-            "value": "255.6190",
+            "name": "Average unix latency on Linux",
+            "value": "4.5669",
             "unit": "µs",
             "extra": "linux_result"
           },
           {
-            "name": "Average exec latency on Asterinas",
-            "value": "662.2500",
+            "name": "Average unix latency on Asterinas",
+            "value": "5.6095",
             "unit": "µs",
             "extra": "aster_result"
           }
@@ -9096,19 +8682,19 @@ window.BENCHMARK_DATA = {
           "timestamp": "2024-08-09T10:56:43Z",
           "url": "https://github.com/asterinas/asterinas/commit/a739b3828d106d4e09fe2ba7dd8eed12d18dd20a"
         },
-        "date": 1723406768422,
+        "date": 1723409111424,
         "tool": "customSmallerIsBetter",
-        "description": "The latency of creating and executing processes on a single processor.",
+        "description": "The latency of UNIX domain socket communication on a single processor.",
         "benches": [
           {
-            "name": "Average exec latency on Linux",
-            "value": "259.7000",
+            "name": "Average unix latency on Linux",
+            "value": "4.5951",
             "unit": "µs",
             "extra": "linux_result"
           },
           {
-            "name": "Average exec latency on Asterinas",
-            "value": "648.5556",
+            "name": "Average unix latency on Asterinas",
+            "value": "5.4891",
             "unit": "µs",
             "extra": "aster_result"
           }
@@ -9131,19 +8717,19 @@ window.BENCHMARK_DATA = {
           "timestamp": "2024-08-12T07:13:36Z",
           "url": "https://github.com/asterinas/asterinas/commit/f9bae1eee90c49d715569208009cc2c66768fe9a"
         },
-        "date": 1723493105329,
+        "date": 1723495438419,
         "tool": "customSmallerIsBetter",
-        "description": "The latency of creating and executing processes on a single processor.",
+        "description": "The latency of UNIX domain socket communication on a single processor.",
         "benches": [
           {
-            "name": "Average exec latency on Linux",
-            "value": "254.7500",
+            "name": "Average unix latency on Linux",
+            "value": "4.5546",
             "unit": "µs",
             "extra": "linux_result"
           },
           {
-            "name": "Average exec latency on Asterinas",
-            "value": "647.9000",
+            "name": "Average unix latency on Asterinas",
+            "value": "5.3599",
             "unit": "µs",
             "extra": "aster_result"
           }
@@ -9166,19 +8752,19 @@ window.BENCHMARK_DATA = {
           "timestamp": "2024-08-12T13:04:53Z",
           "url": "https://github.com/asterinas/asterinas/commit/be54a39592ff60fae6e729abaa3d4a26dd7f5624"
         },
-        "date": 1723579589305,
+        "date": 1723581744663,
         "tool": "customSmallerIsBetter",
-        "description": "The latency of creating and executing processes on a single processor.",
+        "description": "The latency of UNIX domain socket communication on a single processor.",
         "benches": [
           {
-            "name": "Average exec latency on Linux",
-            "value": "260.3500",
+            "name": "Average unix latency on Linux",
+            "value": "4.7565",
             "unit": "µs",
             "extra": "linux_result"
           },
           {
-            "name": "Average exec latency on Asterinas",
-            "value": "651.4444",
+            "name": "Average unix latency on Asterinas",
+            "value": "5.3167",
             "unit": "µs",
             "extra": "aster_result"
           }
@@ -9201,19 +8787,19 @@ window.BENCHMARK_DATA = {
           "timestamp": "2024-08-12T08:11:45Z",
           "url": "https://github.com/asterinas/asterinas/commit/4844e7ca7ca6d78896a51a71487a6fdfe9ca6654"
         },
-        "date": 1723665847002,
+        "date": 1723668060411,
         "tool": "customSmallerIsBetter",
-        "description": "The latency of creating and executing processes on a single processor.",
+        "description": "The latency of UNIX domain socket communication on a single processor.",
         "benches": [
           {
-            "name": "Average exec latency on Linux",
-            "value": "259.6000",
+            "name": "Average unix latency on Linux",
+            "value": "4.5524",
             "unit": "µs",
             "extra": "linux_result"
           },
           {
-            "name": "Average exec latency on Asterinas",
-            "value": "627.1111",
+            "name": "Average unix latency on Asterinas",
+            "value": "5.3390",
             "unit": "µs",
             "extra": "aster_result"
           }
@@ -9236,19 +8822,19 @@ window.BENCHMARK_DATA = {
           "timestamp": "2024-08-15T08:53:54Z",
           "url": "https://github.com/asterinas/asterinas/commit/99a22ff124972872838fa5dc7094fa9a5eea557e"
         },
-        "date": 1723752386439,
+        "date": 1723754801089,
         "tool": "customSmallerIsBetter",
-        "description": "The latency of creating and executing processes on a single processor.",
+        "description": "The latency of UNIX domain socket communication on a single processor.",
         "benches": [
           {
-            "name": "Average exec latency on Linux",
-            "value": "258.8500",
+            "name": "Average unix latency on Linux",
+            "value": "4.5712",
             "unit": "µs",
             "extra": "linux_result"
           },
           {
-            "name": "Average exec latency on Asterinas",
-            "value": "567.5000",
+            "name": "Average unix latency on Asterinas",
+            "value": "3.6696",
             "unit": "µs",
             "extra": "aster_result"
           }
@@ -9271,19 +8857,19 @@ window.BENCHMARK_DATA = {
           "timestamp": "2024-08-15T03:44:30Z",
           "url": "https://github.com/asterinas/asterinas/commit/0291b5dc6bb142b9c6165c1cb29b7658eefdaa63"
         },
-        "date": 1723778558173,
+        "date": 1723781021238,
         "tool": "customSmallerIsBetter",
-        "description": "The latency of creating and executing processes on a single processor.",
+        "description": "The latency of UNIX domain socket communication on a single processor.",
         "benches": [
           {
-            "name": "Average exec latency on Linux",
-            "value": "258.6818",
+            "name": "Average unix latency on Linux",
+            "value": "4.6774",
             "unit": "µs",
             "extra": "linux_result"
           },
           {
-            "name": "Average exec latency on Asterinas",
-            "value": "567.0000",
+            "name": "Average unix latency on Asterinas",
+            "value": "3.5435",
             "unit": "µs",
             "extra": "aster_result"
           }
@@ -9306,19 +8892,19 @@ window.BENCHMARK_DATA = {
           "timestamp": "2024-08-15T03:44:30Z",
           "url": "https://github.com/asterinas/asterinas/commit/0291b5dc6bb142b9c6165c1cb29b7658eefdaa63"
         },
-        "date": 1723781858256,
+        "date": 1723784384502,
         "tool": "customSmallerIsBetter",
-        "description": "The latency of creating and executing processes on a single processor.",
+        "description": "The latency of UNIX domain socket communication on a single processor.",
         "benches": [
           {
-            "name": "Average exec latency on Linux",
-            "value": "257.4000",
+            "name": "Average unix latency on Linux",
+            "value": "4.6439",
             "unit": "µs",
             "extra": "linux_result"
           },
           {
-            "name": "Average exec latency on Asterinas",
-            "value": "548.7000",
+            "name": "Average unix latency on Asterinas",
+            "value": "3.6632",
             "unit": "µs",
             "extra": "aster_result"
           }
@@ -9341,19 +8927,19 @@ window.BENCHMARK_DATA = {
           "timestamp": "2024-08-15T03:44:30Z",
           "url": "https://github.com/asterinas/asterinas/commit/0291b5dc6bb142b9c6165c1cb29b7658eefdaa63"
         },
-        "date": 1723838799923,
+        "date": 1723841216906,
         "tool": "customSmallerIsBetter",
-        "description": "The latency of creating and executing processes on a single processor.",
+        "description": "The latency of UNIX domain socket communication on a single processor.",
         "benches": [
           {
-            "name": "Average exec latency on Linux",
-            "value": "259.5500",
+            "name": "Average unix latency on Linux",
+            "value": "4.6946",
             "unit": "µs",
             "extra": "linux_result"
           },
           {
-            "name": "Average exec latency on Asterinas",
-            "value": "515.9091",
+            "name": "Average unix latency on Asterinas",
+            "value": "3.6843",
             "unit": "µs",
             "extra": "aster_result"
           }
@@ -9376,19 +8962,19 @@ window.BENCHMARK_DATA = {
           "timestamp": "2024-08-12T03:51:41Z",
           "url": "https://github.com/asterinas/asterinas/commit/ce2af1eb057077753a7a757edc1833e677a83918"
         },
-        "date": 1723924981602,
+        "date": 1723927616597,
         "tool": "customSmallerIsBetter",
-        "description": "The latency of creating and executing processes on a single processor.",
+        "description": "The latency of UNIX domain socket communication on a single processor.",
         "benches": [
           {
-            "name": "Average exec latency on Linux",
-            "value": "252.0000",
+            "name": "Average unix latency on Linux",
+            "value": "4.5467",
             "unit": "µs",
             "extra": "linux_result"
           },
           {
-            "name": "Average exec latency on Asterinas",
-            "value": "548.1000",
+            "name": "Average unix latency on Asterinas",
+            "value": "3.6798",
             "unit": "µs",
             "extra": "aster_result"
           }
@@ -9411,19 +8997,19 @@ window.BENCHMARK_DATA = {
           "timestamp": "2024-08-19T01:02:51Z",
           "url": "https://github.com/asterinas/asterinas/commit/bbe43d76cc25538f04261379407f4fa721a13431"
         },
-        "date": 1724097873081,
+        "date": 1724101211938,
         "tool": "customSmallerIsBetter",
-        "description": "The latency of creating and executing processes on a single processor.",
+        "description": "The latency of UNIX domain socket communication on a single processor.",
         "benches": [
           {
-            "name": "Average exec latency on Linux",
-            "value": "254.6500",
+            "name": "Average unix latency on Linux",
+            "value": "4.5915",
             "unit": "µs",
             "extra": "linux_result"
           },
           {
-            "name": "Average exec latency on Asterinas",
-            "value": "541.4167",
+            "name": "Average unix latency on Asterinas",
+            "value": "3.5604",
             "unit": "µs",
             "extra": "aster_result"
           }
@@ -9446,19 +9032,19 @@ window.BENCHMARK_DATA = {
           "timestamp": "2024-08-19T09:01:16Z",
           "url": "https://github.com/asterinas/asterinas/commit/fda0fa051265867c2399f4981fdccb9cc6df110d"
         },
-        "date": 1724184158941,
+        "date": 1724187591434,
         "tool": "customSmallerIsBetter",
-        "description": "The latency of creating and executing processes on a single processor.",
+        "description": "The latency of UNIX domain socket communication on a single processor.",
         "benches": [
           {
-            "name": "Average exec latency on Linux",
-            "value": "261.2273",
+            "name": "Average unix latency on Linux",
+            "value": "4.5691",
             "unit": "µs",
             "extra": "linux_result"
           },
           {
-            "name": "Average exec latency on Asterinas",
-            "value": "553.7000",
+            "name": "Average unix latency on Asterinas",
+            "value": "3.6965",
             "unit": "µs",
             "extra": "aster_result"
           }
@@ -9481,19 +9067,19 @@ window.BENCHMARK_DATA = {
           "timestamp": "2024-08-20T02:05:25Z",
           "url": "https://github.com/asterinas/asterinas/commit/2102107be18729fba8f3546d5a3fe39c819d814a"
         },
-        "date": 1724270691140,
+        "date": 1724274035115,
         "tool": "customSmallerIsBetter",
-        "description": "The latency of creating and executing processes on a single processor.",
+        "description": "The latency of UNIX domain socket communication on a single processor.",
         "benches": [
           {
-            "name": "Average exec latency on Linux",
-            "value": "255.6667",
+            "name": "Average unix latency on Linux",
+            "value": "4.5874",
             "unit": "µs",
             "extra": "linux_result"
           },
           {
-            "name": "Average exec latency on Asterinas",
-            "value": "555.7000",
+            "name": "Average unix latency on Asterinas",
+            "value": "3.6824",
             "unit": "µs",
             "extra": "aster_result"
           }
@@ -9516,19 +9102,19 @@ window.BENCHMARK_DATA = {
           "timestamp": "2024-08-22T06:34:41Z",
           "url": "https://github.com/asterinas/asterinas/commit/bb4751741a6cd6b919015f8f483512c90e73bf55"
         },
-        "date": 1724356978842,
+        "date": 1724361286406,
         "tool": "customSmallerIsBetter",
-        "description": "The latency of creating and executing processes on a single processor.",
+        "description": "The latency of UNIX domain socket communication on a single processor.",
         "benches": [
           {
-            "name": "Average exec latency on Linux",
-            "value": "259.1500",
+            "name": "Average unix latency on Linux",
+            "value": "4.5706",
             "unit": "µs",
             "extra": "linux_result"
           },
           {
-            "name": "Average exec latency on Asterinas",
-            "value": "450.5833",
+            "name": "Average unix latency on Asterinas",
+            "value": "3.6014",
             "unit": "µs",
             "extra": "aster_result"
           }
@@ -9551,19 +9137,19 @@ window.BENCHMARK_DATA = {
           "timestamp": "2024-08-23T14:57:42Z",
           "url": "https://github.com/asterinas/asterinas/commit/e50b05d1ee71f52679e8ed8ea310cda6bfcd7e0c"
         },
-        "date": 1724443743018,
+        "date": 1724447973925,
         "tool": "customSmallerIsBetter",
-        "description": "The latency of creating and executing processes on a single processor.",
+        "description": "The latency of UNIX domain socket communication on a single processor.",
         "benches": [
           {
-            "name": "Average exec latency on Linux",
-            "value": "256.6667",
+            "name": "Average unix latency on Linux",
+            "value": "4.5740",
             "unit": "µs",
             "extra": "linux_result"
           },
           {
-            "name": "Average exec latency on Asterinas",
-            "value": "410.9231",
+            "name": "Average unix latency on Asterinas",
+            "value": "3.6581",
             "unit": "µs",
             "extra": "aster_result"
           }
@@ -9586,19 +9172,19 @@ window.BENCHMARK_DATA = {
           "timestamp": "2024-08-24T09:27:15Z",
           "url": "https://github.com/asterinas/asterinas/commit/d22277a3e69040906cd198ea625614c5c69d66da"
         },
-        "date": 1724530032872,
+        "date": 1724534278415,
         "tool": "customSmallerIsBetter",
-        "description": "The latency of creating and executing processes on a single processor.",
+        "description": "The latency of UNIX domain socket communication on a single processor.",
         "benches": [
           {
-            "name": "Average exec latency on Linux",
-            "value": "254.9524",
+            "name": "Average unix latency on Linux",
+            "value": "4.5849",
             "unit": "µs",
             "extra": "linux_result"
           },
           {
-            "name": "Average exec latency on Asterinas",
-            "value": "403.0000",
+            "name": "Average unix latency on Asterinas",
+            "value": "3.6375",
             "unit": "µs",
             "extra": "aster_result"
           }
@@ -9621,19 +9207,19 @@ window.BENCHMARK_DATA = {
           "timestamp": "2024-08-25T12:16:30Z",
           "url": "https://github.com/asterinas/asterinas/commit/4231645c02ec317d99f0150bc8ed3210489855a0"
         },
-        "date": 1724616173865,
+        "date": 1724620652615,
         "tool": "customSmallerIsBetter",
-        "description": "The latency of creating and executing processes on a single processor.",
+        "description": "The latency of UNIX domain socket communication on a single processor.",
         "benches": [
           {
-            "name": "Average exec latency on Linux",
-            "value": "211.6667",
+            "name": "Average unix latency on Linux",
+            "value": "3.1074",
             "unit": "µs",
             "extra": "linux_result"
           },
           {
-            "name": "Average exec latency on Asterinas",
-            "value": "399.7857",
+            "name": "Average unix latency on Asterinas",
+            "value": "3.6519",
             "unit": "µs",
             "extra": "aster_result"
           }
@@ -9656,19 +9242,19 @@ window.BENCHMARK_DATA = {
           "timestamp": "2024-08-26T09:41:40Z",
           "url": "https://github.com/asterinas/asterinas/commit/9e59db2f42c2ef9f8e91e0d1ee03562190726d56"
         },
-        "date": 1724702650188,
+        "date": 1724707161481,
         "tool": "customSmallerIsBetter",
-        "description": "The latency of creating and executing processes on a single processor.",
+        "description": "The latency of UNIX domain socket communication on a single processor.",
         "benches": [
           {
-            "name": "Average exec latency on Linux",
-            "value": "209.0833",
+            "name": "Average unix latency on Linux",
+            "value": "3.4895",
             "unit": "µs",
             "extra": "linux_result"
           },
           {
-            "name": "Average exec latency on Asterinas",
-            "value": "412.1538",
+            "name": "Average unix latency on Asterinas",
+            "value": "3.6192",
             "unit": "µs",
             "extra": "aster_result"
           }
@@ -9677,33 +9263,33 @@ window.BENCHMARK_DATA = {
       {
         "commit": {
           "author": {
-            "name": "Chen Chengjun",
-            "username": "cchanging",
-            "email": "chenchengjun.ccj@antgroup.com"
+            "name": "Jianfeng Jiang",
+            "username": "StevenJiang1110",
+            "email": "jiangjianfeng.jjf@antgroup.com"
           },
           "committer": {
             "name": "Tate, Hongliang Tian",
             "username": "tatetian",
             "email": "tatetian@gmail.com"
           },
-          "id": "ffc717f00bce62b1805af8043e335ad5fc1f175c",
-          "message": "Enable handling page fault around",
-          "timestamp": "2024-08-28T02:24:44Z",
-          "url": "https://github.com/asterinas/asterinas/commit/ffc717f00bce62b1805af8043e335ad5fc1f175c"
+          "id": "a72c7dadf3b9bb680b3092af6b64084b98008cb7",
+          "message": "Optimize the latency of lmbench-signal-prot",
+          "timestamp": "2024-08-27T06:37:02Z",
+          "url": "https://github.com/asterinas/asterinas/commit/a72c7dadf3b9bb680b3092af6b64084b98008cb7"
         },
-        "date": 1724817765798,
+        "date": 1724839133549,
         "tool": "customSmallerIsBetter",
-        "description": "The latency of creating and executing processes on a single processor.",
+        "description": "The latency of UNIX domain socket communication on a single processor.",
         "benches": [
           {
-            "name": "Average exec latency on Linux",
-            "value": "220.9130",
+            "name": "Average unix latency on Linux",
+            "value": "3.5000",
             "unit": "µs",
             "extra": "linux_result"
           },
           {
-            "name": "Average exec latency on Asterinas",
-            "value": "332.5294",
+            "name": "Average unix latency on Asterinas",
+            "value": "3.7678",
             "unit": "µs",
             "extra": "aster_result"
           }
@@ -9726,19 +9312,19 @@ window.BENCHMARK_DATA = {
           "timestamp": "2024-08-28T06:23:24Z",
           "url": "https://github.com/asterinas/asterinas/commit/e6f465b553f613d60828e0e503dc94ce4109ded1"
         },
-        "date": 1724875478827,
+        "date": 1724879314230,
         "tool": "customSmallerIsBetter",
-        "description": "The latency of creating and executing processes on a single processor.",
+        "description": "The latency of UNIX domain socket communication on a single processor.",
         "benches": [
           {
-            "name": "Average exec latency on Linux",
-            "value": "220.4348",
+            "name": "Average unix latency on Linux",
+            "value": "3.5041",
             "unit": "µs",
             "extra": "linux_result"
           },
           {
-            "name": "Average exec latency on Asterinas",
-            "value": "318.8235",
+            "name": "Average unix latency on Asterinas",
+            "value": "3.7205",
             "unit": "µs",
             "extra": "aster_result"
           }
@@ -9761,19 +9347,19 @@ window.BENCHMARK_DATA = {
           "timestamp": "2024-08-29T03:52:33Z",
           "url": "https://github.com/asterinas/asterinas/commit/00d9b01d5c356fbc5f6b72b9a69a7571fdf0ab1f"
         },
-        "date": 1724907232630,
+        "date": 1724911547835,
         "tool": "customSmallerIsBetter",
-        "description": "The latency of creating and executing processes on a single processor.",
+        "description": "The latency of UNIX domain socket communication on a single processor.",
         "benches": [
           {
-            "name": "Average exec latency on Linux",
-            "value": "218.3333",
+            "name": "Average unix latency on Linux",
+            "value": "3.4830",
             "unit": "µs",
             "extra": "linux_result"
           },
           {
-            "name": "Average exec latency on Asterinas",
-            "value": "285.6667",
+            "name": "Average unix latency on Asterinas",
+            "value": "3.6640",
             "unit": "µs",
             "extra": "aster_result"
           }
@@ -9796,19 +9382,19 @@ window.BENCHMARK_DATA = {
           "timestamp": "2024-08-29T03:52:33Z",
           "url": "https://github.com/asterinas/asterinas/commit/00d9b01d5c356fbc5f6b72b9a69a7571fdf0ab1f"
         },
-        "date": 1724913525415,
+        "date": 1724917979396,
         "tool": "customSmallerIsBetter",
-        "description": "The latency of creating and executing processes on a single processor.",
+        "description": "The latency of UNIX domain socket communication on a single processor.",
         "benches": [
           {
-            "name": "Average exec latency on Linux",
-            "value": "219.0833",
+            "name": "Average unix latency on Linux",
+            "value": "3.4894",
             "unit": "µs",
             "extra": "linux_result"
           },
           {
-            "name": "Average exec latency on Asterinas",
-            "value": "298.1176",
+            "name": "Average unix latency on Asterinas",
+            "value": "3.7493",
             "unit": "µs",
             "extra": "aster_result"
           }
@@ -9831,19 +9417,19 @@ window.BENCHMARK_DATA = {
           "timestamp": "2024-08-29T12:46:20Z",
           "url": "https://github.com/asterinas/asterinas/commit/539984bbed414969b0c40cf181a10e9341ed2359"
         },
-        "date": 1724961760648,
+        "date": 1724966558348,
         "tool": "customSmallerIsBetter",
-        "description": "The latency of creating and executing processes on a single processor.",
+        "description": "The latency of UNIX domain socket communication on a single processor.",
         "benches": [
           {
-            "name": "Average exec latency on Linux",
-            "value": "224.0455",
+            "name": "Average unix latency on Linux",
+            "value": "3.4924",
             "unit": "µs",
             "extra": "linux_result"
           },
           {
-            "name": "Average exec latency on Asterinas",
-            "value": "288.9474",
+            "name": "Average unix latency on Asterinas",
+            "value": "3.7748",
             "unit": "µs",
             "extra": "aster_result"
           }
@@ -9866,19 +9452,19 @@ window.BENCHMARK_DATA = {
           "timestamp": "2024-08-30T11:23:53Z",
           "url": "https://github.com/asterinas/asterinas/commit/db16caf28c46e4ed24099fcba13d40b7d673164c"
         },
-        "date": 1725048595578,
+        "date": 1725053188223,
         "tool": "customSmallerIsBetter",
-        "description": "The latency of creating and executing processes on a single processor.",
+        "description": "The latency of UNIX domain socket communication on a single processor.",
         "benches": [
           {
-            "name": "Average exec latency on Linux",
-            "value": "219.5600",
+            "name": "Average unix latency on Linux",
+            "value": "3.3329",
             "unit": "µs",
             "extra": "linux_result"
           },
           {
-            "name": "Average exec latency on Asterinas",
-            "value": "288.1667",
+            "name": "Average unix latency on Asterinas",
+            "value": "3.7710",
             "unit": "µs",
             "extra": "aster_result"
           }
@@ -9901,19 +9487,19 @@ window.BENCHMARK_DATA = {
           "timestamp": "2024-08-30T17:51:32Z",
           "url": "https://github.com/asterinas/asterinas/commit/e6e771e9b5ae7d223a50aa4b38994500b0db6867"
         },
-        "date": 1725134828253,
+        "date": 1725139487976,
         "tool": "customSmallerIsBetter",
-        "description": "The latency of creating and executing processes on a single processor.",
+        "description": "The latency of UNIX domain socket communication on a single processor.",
         "benches": [
           {
-            "name": "Average exec latency on Linux",
-            "value": "222.4783",
+            "name": "Average unix latency on Linux",
+            "value": "3.4638",
             "unit": "µs",
             "extra": "linux_result"
           },
           {
-            "name": "Average exec latency on Asterinas",
-            "value": "288.4500",
+            "name": "Average unix latency on Asterinas",
+            "value": "3.7620",
             "unit": "µs",
             "extra": "aster_result"
           }
@@ -9936,19 +9522,19 @@ window.BENCHMARK_DATA = {
           "timestamp": "2024-08-29T14:26:36Z",
           "url": "https://github.com/asterinas/asterinas/commit/745ac6d982638d3548f09ea2aa2103e37c135153"
         },
-        "date": 1725221235522,
+        "date": 1725225874054,
         "tool": "customSmallerIsBetter",
-        "description": "The latency of creating and executing processes on a single processor.",
+        "description": "The latency of UNIX domain socket communication on a single processor.",
         "benches": [
           {
-            "name": "Average exec latency on Linux",
-            "value": "220.9130",
+            "name": "Average unix latency on Linux",
+            "value": "3.5006",
             "unit": "µs",
             "extra": "linux_result"
           },
           {
-            "name": "Average exec latency on Asterinas",
-            "value": "288.3000",
+            "name": "Average unix latency on Asterinas",
+            "value": "3.6288",
             "unit": "µs",
             "extra": "aster_result"
           }
@@ -9971,19 +9557,19 @@ window.BENCHMARK_DATA = {
           "timestamp": "2024-09-02T09:48:15Z",
           "url": "https://github.com/asterinas/asterinas/commit/963874471284ed014b76d268d933b6d13073c2cc"
         },
-        "date": 1725307717517,
+        "date": 1725319675793,
         "tool": "customSmallerIsBetter",
-        "description": "The latency of creating and executing processes on a single processor.",
+        "description": "The latency of UNIX domain socket communication on a single processor.",
         "benches": [
           {
-            "name": "Average exec latency on Linux",
-            "value": "220.7391",
+            "name": "Average unix latency on Linux",
+            "value": "3.3082",
             "unit": "µs",
             "extra": "linux_result"
           },
           {
-            "name": "Average exec latency on Asterinas",
-            "value": "280.3889",
+            "name": "Average unix latency on Asterinas",
+            "value": "3.6549",
             "unit": "µs",
             "extra": "aster_result"
           }
@@ -10006,19 +9592,19 @@ window.BENCHMARK_DATA = {
           "timestamp": "2024-09-02T09:48:15Z",
           "url": "https://github.com/asterinas/asterinas/commit/963874471284ed014b76d268d933b6d13073c2cc"
         },
-        "date": 1725393780171,
+        "date": 1725403783166,
         "tool": "customSmallerIsBetter",
-        "description": "The latency of creating and executing processes on a single processor.",
+        "description": "The latency of UNIX domain socket communication on a single processor.",
         "benches": [
           {
-            "name": "Average exec latency on Linux",
-            "value": "219.2609",
+            "name": "Average unix latency on Linux",
+            "value": "3.4994",
             "unit": "µs",
             "extra": "linux_result"
           },
           {
-            "name": "Average exec latency on Asterinas",
-            "value": "288.7778",
+            "name": "Average unix latency on Asterinas",
+            "value": "3.6599",
             "unit": "µs",
             "extra": "aster_result"
           }
@@ -10041,19 +9627,19 @@ window.BENCHMARK_DATA = {
           "timestamp": "2024-09-03T07:33:12Z",
           "url": "https://github.com/asterinas/asterinas/commit/458a6a5b3b01aebe78c124fe20be91a91f0139da"
         },
-        "date": 1725480607222,
+        "date": 1725490070894,
         "tool": "customSmallerIsBetter",
-        "description": "The latency of creating and executing processes on a single processor.",
+        "description": "The latency of UNIX domain socket communication on a single processor.",
         "benches": [
           {
-            "name": "Average exec latency on Linux",
-            "value": "223.7727",
+            "name": "Average unix latency on Linux",
+            "value": "3.4913",
             "unit": "µs",
             "extra": "linux_result"
           },
           {
-            "name": "Average exec latency on Asterinas",
-            "value": "281.7778",
+            "name": "Average unix latency on Asterinas",
+            "value": "3.6303",
             "unit": "µs",
             "extra": "aster_result"
           }
@@ -10076,54 +9662,19 @@ window.BENCHMARK_DATA = {
           "timestamp": "2024-09-03T07:33:12Z",
           "url": "https://github.com/asterinas/asterinas/commit/458a6a5b3b01aebe78c124fe20be91a91f0139da"
         },
-        "date": 1725566775539,
+        "date": 1725576687802,
         "tool": "customSmallerIsBetter",
-        "description": "The latency of creating and executing processes on a single processor.",
+        "description": "The latency of UNIX domain socket communication on a single processor.",
         "benches": [
           {
-            "name": "Average exec latency on Linux",
-            "value": "219.2174",
+            "name": "Average unix latency on Linux",
+            "value": "3.4668",
             "unit": "µs",
             "extra": "linux_result"
           },
           {
-            "name": "Average exec latency on Asterinas",
-            "value": "283.9500",
-            "unit": "µs",
-            "extra": "aster_result"
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
-            "name": "Thomas Dickson",
-            "username": "Hoverth",
-            "email": "modscrat+github@gmail.com"
-          },
-          "committer": {
-            "name": "Tate, Hongliang Tian",
-            "username": "tatetian",
-            "email": "tatetian@gmail.com"
-          },
-          "id": "64e43d34aab13eeddea8dd7485c712acc99116ca",
-          "message": "doc: fix typo in README.md",
-          "timestamp": "2024-09-06T04:11:16Z",
-          "url": "https://github.com/asterinas/asterinas/commit/64e43d34aab13eeddea8dd7485c712acc99116ca"
-        },
-        "date": 1725653009473,
-        "tool": "customSmallerIsBetter",
-        "description": "The latency of creating and executing processes on a single processor.",
-        "benches": [
-          {
-            "name": "Average exec latency on Linux",
-            "value": "220.3913",
-            "unit": "µs",
-            "extra": "linux_result"
-          },
-          {
-            "name": "Average exec latency on Asterinas",
-            "value": "280.1667",
+            "name": "Average unix latency on Asterinas",
+            "value": "3.6436",
             "unit": "µs",
             "extra": "aster_result"
           }
@@ -10146,19 +9697,19 @@ window.BENCHMARK_DATA = {
           "timestamp": "2024-09-06T12:05:01Z",
           "url": "https://github.com/asterinas/asterinas/commit/c68302f7007225fa47f22a1085a8c59dcdae2ad4"
         },
-        "date": 1725739711723,
+        "date": 1725662914808,
         "tool": "customSmallerIsBetter",
-        "description": "The latency of creating and executing processes on a single processor.",
+        "description": "The latency of UNIX domain socket communication on a single processor.",
         "benches": [
           {
-            "name": "Average exec latency on Linux",
-            "value": "213.1304",
+            "name": "Average unix latency on Linux",
+            "value": "3.3087",
             "unit": "µs",
             "extra": "linux_result"
           },
           {
-            "name": "Average exec latency on Asterinas",
-            "value": "280.6000",
+            "name": "Average unix latency on Asterinas",
+            "value": "3.6191",
             "unit": "µs",
             "extra": "aster_result"
           }
@@ -10181,19 +9732,19 @@ window.BENCHMARK_DATA = {
           "timestamp": "2024-09-06T12:05:01Z",
           "url": "https://github.com/asterinas/asterinas/commit/c68302f7007225fa47f22a1085a8c59dcdae2ad4"
         },
-        "date": 1725825779773,
+        "date": 1725749379705,
         "tool": "customSmallerIsBetter",
-        "description": "The latency of creating and executing processes on a single processor.",
+        "description": "The latency of UNIX domain socket communication on a single processor.",
         "benches": [
           {
-            "name": "Average exec latency on Linux",
-            "value": "219.1739",
+            "name": "Average unix latency on Linux",
+            "value": "3.3306",
             "unit": "µs",
             "extra": "linux_result"
           },
           {
-            "name": "Average exec latency on Asterinas",
-            "value": "270.9524",
+            "name": "Average unix latency on Asterinas",
+            "value": "3.6133",
             "unit": "µs",
             "extra": "aster_result"
           }
@@ -10216,19 +9767,19 @@ window.BENCHMARK_DATA = {
           "timestamp": "2024-09-06T12:05:01Z",
           "url": "https://github.com/asterinas/asterinas/commit/c68302f7007225fa47f22a1085a8c59dcdae2ad4"
         },
-        "date": 1725912505637,
+        "date": 1725835881251,
         "tool": "customSmallerIsBetter",
-        "description": "The latency of creating and executing processes on a single processor.",
+        "description": "The latency of UNIX domain socket communication on a single processor.",
         "benches": [
           {
-            "name": "Average exec latency on Linux",
-            "value": "221.6957",
+            "name": "Average unix latency on Linux",
+            "value": "3.4867",
             "unit": "µs",
             "extra": "linux_result"
           },
           {
-            "name": "Average exec latency on Asterinas",
-            "value": "279.7222",
+            "name": "Average unix latency on Asterinas",
+            "value": "3.6479",
             "unit": "µs",
             "extra": "aster_result"
           }
@@ -10251,19 +9802,54 @@ window.BENCHMARK_DATA = {
           "timestamp": "2024-09-06T12:05:01Z",
           "url": "https://github.com/asterinas/asterinas/commit/c68302f7007225fa47f22a1085a8c59dcdae2ad4"
         },
-        "date": 1725998765563,
+        "date": 1725921906117,
         "tool": "customSmallerIsBetter",
-        "description": "The latency of creating and executing processes on a single processor.",
+        "description": "The latency of UNIX domain socket communication on a single processor.",
         "benches": [
           {
-            "name": "Average exec latency on Linux",
-            "value": "218.1304",
+            "name": "Average unix latency on Linux",
+            "value": "3.4994",
             "unit": "µs",
             "extra": "linux_result"
           },
           {
-            "name": "Average exec latency on Asterinas",
-            "value": "283.5000",
+            "name": "Average unix latency on Asterinas",
+            "value": "3.6225",
+            "unit": "µs",
+            "extra": "aster_result"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Zhang Junyang",
+            "username": "junyang-zh",
+            "email": "junyang@stu.pku.edu.cn"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "c68302f7007225fa47f22a1085a8c59dcdae2ad4",
+          "message": "Don't hold any locks while waiting in `EpollFile`",
+          "timestamp": "2024-09-06T12:05:01Z",
+          "url": "https://github.com/asterinas/asterinas/commit/c68302f7007225fa47f22a1085a8c59dcdae2ad4"
+        },
+        "date": 1726008180230,
+        "tool": "customSmallerIsBetter",
+        "description": "The latency of UNIX domain socket communication on a single processor.",
+        "benches": [
+          {
+            "name": "Average unix latency on Linux",
+            "value": "3.2886",
+            "unit": "µs",
+            "extra": "linux_result"
+          },
+          {
+            "name": "Average unix latency on Asterinas",
+            "value": "3.6602",
             "unit": "µs",
             "extra": "aster_result"
           }
@@ -10286,19 +9872,19 @@ window.BENCHMARK_DATA = {
           "timestamp": "2024-09-02T13:23:46Z",
           "url": "https://github.com/asterinas/asterinas/commit/8bfbdf6642a9d04db3490792926d6a299d1e30be"
         },
-        "date": 1726084947542,
+        "date": 1726090268537,
         "tool": "customSmallerIsBetter",
-        "description": "The latency of creating and executing processes on a single processor.",
+        "description": "The latency of UNIX domain socket communication on a single processor.",
         "benches": [
           {
-            "name": "Average exec latency on Linux",
-            "value": "218.0435",
+            "name": "Average unix latency on Linux",
+            "value": "3.3096",
             "unit": "µs",
             "extra": "linux_result"
           },
           {
-            "name": "Average exec latency on Asterinas",
-            "value": "287.8000",
+            "name": "Average unix latency on Asterinas",
+            "value": "3.6052",
             "unit": "µs",
             "extra": "aster_result"
           }
@@ -10321,19 +9907,19 @@ window.BENCHMARK_DATA = {
           "timestamp": "2024-09-12T12:15:04Z",
           "url": "https://github.com/asterinas/asterinas/commit/6fcad6ce143b8f65e8be76297eb95a9cb56da22e"
         },
-        "date": 1726171489769,
+        "date": 1726176700457,
         "tool": "customSmallerIsBetter",
-        "description": "The latency of creating and executing processes on a single processor.",
+        "description": "The latency of UNIX domain socket communication on a single processor.",
         "benches": [
           {
-            "name": "Average exec latency on Linux",
-            "value": "221.7391",
+            "name": "Average unix latency on Linux",
+            "value": "3.4930",
             "unit": "µs",
             "extra": "linux_result"
           },
           {
-            "name": "Average exec latency on Asterinas",
-            "value": "275.0000",
+            "name": "Average unix latency on Asterinas",
+            "value": "3.4947",
             "unit": "µs",
             "extra": "aster_result"
           }
@@ -10356,21 +9942,21 @@ window.BENCHMARK_DATA = {
           "timestamp": "2024-09-13T05:02:35Z",
           "url": "https://github.com/asterinas/asterinas/commit/32ea24e945efde86117d2278a48145d71b9ec90c"
         },
-        "date": 1726259593452,
+        "date": 1726262242268,
         "tool": "customSmallerIsBetter",
-        "title": "[Process] The cost of fork+exec+exit",
-        "description": "lat_proc exec",
+        "title": "[Unix sockets] The latency of write+read",
+        "description": "lat_unix",
         "display": true,
         "benches": [
           {
-            "name": "Average exec latency on Linux",
-            "value": "196.9286",
+            "name": "Average unix latency on Linux",
+            "value": "3.4666",
             "unit": "µs",
             "extra": "linux_result"
           },
           {
-            "name": "Average exec latency on Asterinas",
-            "value": "340.8000",
+            "name": "Average unix latency on Asterinas",
+            "value": "3.3650",
             "unit": "µs",
             "extra": "aster_result"
           }
@@ -10393,28 +9979,1115 @@ window.BENCHMARK_DATA = {
           "timestamp": "2024-09-14T03:47:04Z",
           "url": "https://github.com/grief8/asterinas/commit/adfb4a081356bea739a1720f284c3e66d6a96d19"
         },
-        "date": 1726640702039,
+        "date": 1726287169443,
         "tool": "customSmallerIsBetter",
-        "title": "[Process] The cost of fork+exec+exit",
-        "description": "lat_proc exec",
+        "title": "[Unix sockets] The latency of write+read",
+        "description": "lat_unix",
         "display": true,
         "benches": [
           {
-            "name": "Average exec latency on Linux",
-            "value": "468.1667",
+            "name": "Average unix latency on Linux",
+            "value": "3.5285",
             "unit": "µs",
             "extra": "linux_result"
           },
           {
-            "name": "Average exec latency on Asterinas",
-            "value": "642.7778",
+            "name": "Average unix latency on Asterinas",
+            "value": "2.7388",
+            "unit": "µs",
+            "extra": "aster_result"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Fabing Li",
+            "username": "grief8",
+            "email": "lifabing.lfb@antgroup.com"
+          },
+          "committer": {
+            "name": "Fabing Li",
+            "username": "grief8",
+            "email": "lifabing.lfb@antgroup.com"
+          },
+          "id": "bb8d2fe583df04a06eaf4c931270c55dd06f48ae",
+          "message": "iuu",
+          "timestamp": "2024-09-24T06:58:54Z",
+          "url": "https://github.com/grief8/asterinas/commit/bb8d2fe583df04a06eaf4c931270c55dd06f48ae"
+        },
+        "date": 1727168667603,
+        "tool": "customSmallerIsBetter",
+        "title": "[Unix sockets] The latency of write+read",
+        "description": "lat_unix",
+        "display": true,
+        "benches": [
+          {
+            "name": "Average unix latency on Linux",
+            "value": "3.6490",
+            "unit": "µs",
+            "extra": "linux_result"
+          },
+          {
+            "name": "Average unix latency on Asterinas",
+            "value": "2.1620",
             "unit": "µs",
             "extra": "aster_result"
           }
         ]
       }
     ],
-    "tcp_loopback_bw": [
+    "unix_bw": [
+      {
+        "commit": {
+          "author": {
+            "name": "Yuke Peng",
+            "username": "sdww0",
+            "email": "pykfirst@gmail.com"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "6f8978193c7a73a51403a8751314ddebc1c1983f",
+          "message": "Add benchmarks to workflow",
+          "timestamp": "2024-08-02T13:40:56Z",
+          "url": "https://github.com/asterinas/asterinas/commit/6f8978193c7a73a51403a8751314ddebc1c1983f"
+        },
+        "date": 1722631298826,
+        "tool": "customBiggerIsBetter",
+        "description": "The bandwidth of UNIX domain socket communication on a single processor.",
+        "benches": [
+          {
+            "name": "Average unix bandwidth on Linux",
+            "value": "7626.43",
+            "unit": "MB/s",
+            "extra": "linux_result"
+          },
+          {
+            "name": "Average unix bandwidth on Asterinas",
+            "value": "433.80",
+            "unit": "MB/s",
+            "extra": "aster_result"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Yuke Peng",
+            "username": "sdww0",
+            "email": "pykfirst@gmail.com"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "6f8978193c7a73a51403a8751314ddebc1c1983f",
+          "message": "Add benchmarks to workflow",
+          "timestamp": "2024-08-02T13:40:56Z",
+          "url": "https://github.com/asterinas/asterinas/commit/6f8978193c7a73a51403a8751314ddebc1c1983f"
+        },
+        "date": 1722717716145,
+        "tool": "customBiggerIsBetter",
+        "description": "The bandwidth of UNIX domain socket communication on a single processor.",
+        "benches": [
+          {
+            "name": "Average unix bandwidth on Linux",
+            "value": "7620.32",
+            "unit": "MB/s",
+            "extra": "linux_result"
+          },
+          {
+            "name": "Average unix bandwidth on Asterinas",
+            "value": "429.14",
+            "unit": "MB/s",
+            "extra": "aster_result"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Zhang Junyang",
+            "username": "junyang-zh",
+            "email": "junyang@stu.pku.edu.cn"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "16690bc61b0bb8d90dbb1cec8a317ba34aa09f71",
+          "message": "Implement atomic signal masks and refactor `SigSet`",
+          "timestamp": "2024-08-02T08:26:56Z",
+          "url": "https://github.com/asterinas/asterinas/commit/16690bc61b0bb8d90dbb1cec8a317ba34aa09f71"
+        },
+        "date": 1722804086680,
+        "tool": "customBiggerIsBetter",
+        "description": "The bandwidth of UNIX domain socket communication on a single processor.",
+        "benches": [
+          {
+            "name": "Average unix bandwidth on Linux",
+            "value": "7594.18",
+            "unit": "MB/s",
+            "extra": "linux_result"
+          },
+          {
+            "name": "Average unix bandwidth on Asterinas",
+            "value": "442.48",
+            "unit": "MB/s",
+            "extra": "aster_result"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "azongchang",
+            "username": "azongchang",
+            "email": "azongchang@qq.com"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "aa84b31634b9c710e04b337c5d1b8fa207f8dbde",
+          "message": "Add the description of encoding option to the OSDK document",
+          "timestamp": "2024-08-05T05:52:13Z",
+          "url": "https://github.com/asterinas/asterinas/commit/aa84b31634b9c710e04b337c5d1b8fa207f8dbde"
+        },
+        "date": 1722890456362,
+        "tool": "customBiggerIsBetter",
+        "description": "The bandwidth of UNIX domain socket communication on a single processor.",
+        "benches": [
+          {
+            "name": "Average unix bandwidth on Linux",
+            "value": "7379.58",
+            "unit": "MB/s",
+            "extra": "linux_result"
+          },
+          {
+            "name": "Average unix bandwidth on Asterinas",
+            "value": "437.07",
+            "unit": "MB/s",
+            "extra": "aster_result"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ruihan Li",
+            "username": "lrh2000",
+            "email": "lrh2000@pku.edu.cn"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "b1ea422efaf6b0becd7d6cd99d270ae01fcd12de",
+          "message": "Fix accesses to VirtIO queue DMA",
+          "timestamp": "2024-08-05T14:06:02Z",
+          "url": "https://github.com/asterinas/asterinas/commit/b1ea422efaf6b0becd7d6cd99d270ae01fcd12de"
+        },
+        "date": 1722976995989,
+        "tool": "customBiggerIsBetter",
+        "description": "The bandwidth of UNIX domain socket communication on a single processor.",
+        "benches": [
+          {
+            "name": "Average unix bandwidth on Linux",
+            "value": "7580.09",
+            "unit": "MB/s",
+            "extra": "linux_result"
+          },
+          {
+            "name": "Average unix bandwidth on Asterinas",
+            "value": "437.35",
+            "unit": "MB/s",
+            "extra": "aster_result"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ruihan Li",
+            "username": "lrh2000",
+            "email": "lrh2000@pku.edu.cn"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "b1ea422efaf6b0becd7d6cd99d270ae01fcd12de",
+          "message": "Fix accesses to VirtIO queue DMA",
+          "timestamp": "2024-08-05T14:06:02Z",
+          "url": "https://github.com/asterinas/asterinas/commit/b1ea422efaf6b0becd7d6cd99d270ae01fcd12de"
+        },
+        "date": 1723063382155,
+        "tool": "customBiggerIsBetter",
+        "description": "The bandwidth of UNIX domain socket communication on a single processor.",
+        "benches": [
+          {
+            "name": "Average unix bandwidth on Linux",
+            "value": "7604.06",
+            "unit": "MB/s",
+            "extra": "linux_result"
+          },
+          {
+            "name": "Average unix bandwidth on Asterinas",
+            "value": "436.22",
+            "unit": "MB/s",
+            "extra": "aster_result"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Jianfeng Jiang",
+            "username": "StevenJiang1110",
+            "email": "jiangjianfeng.jjf@antgroup.com"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "6414111cc57b42db2bae1a0c8b01b85c3830a3b3",
+          "message": "Support flag SA_RESETHAND",
+          "timestamp": "2024-08-07T09:17:46Z",
+          "url": "https://github.com/asterinas/asterinas/commit/6414111cc57b42db2bae1a0c8b01b85c3830a3b3"
+        },
+        "date": 1723104247684,
+        "tool": "customBiggerIsBetter",
+        "description": "The bandwidth of UNIX domain socket communication on a single processor.",
+        "benches": [
+          {
+            "name": "Average unix bandwidth on Linux",
+            "value": "7651.00",
+            "unit": "MB/s",
+            "extra": "linux_result"
+          },
+          {
+            "name": "Average unix bandwidth on Asterinas",
+            "value": "436.08",
+            "unit": "MB/s",
+            "extra": "aster_result"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Chen Chengjun",
+            "username": "cchanging",
+            "email": "chenchengjun.ccj@antgroup.com"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "acb4833aae0476d7ed2d61871036aff3eaf77c5d",
+          "message": "Optimize trim_mappings",
+          "timestamp": "2024-08-02T03:14:14Z",
+          "url": "https://github.com/asterinas/asterinas/commit/acb4833aae0476d7ed2d61871036aff3eaf77c5d"
+        },
+        "date": 1723149640267,
+        "tool": "customBiggerIsBetter",
+        "description": "The bandwidth of UNIX domain socket communication on a single processor.",
+        "benches": [
+          {
+            "name": "Average unix bandwidth on Linux",
+            "value": "7643.03",
+            "unit": "MB/s",
+            "extra": "linux_result"
+          },
+          {
+            "name": "Average unix bandwidth on Asterinas",
+            "value": "451.49",
+            "unit": "MB/s",
+            "extra": "aster_result"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Chen Chengjun",
+            "username": "cchanging",
+            "email": "chenchengjun.ccj@antgroup.com"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "75da7fd30eca1e80ad57da15bfe5dff6963c03c1",
+          "message": "Replace old user space read/write with new APIs",
+          "timestamp": "2024-08-09T08:11:43Z",
+          "url": "https://github.com/asterinas/asterinas/commit/75da7fd30eca1e80ad57da15bfe5dff6963c03c1"
+        },
+        "date": 1723236025272,
+        "tool": "customBiggerIsBetter",
+        "description": "The bandwidth of UNIX domain socket communication on a single processor.",
+        "benches": [
+          {
+            "name": "Average unix bandwidth on Linux",
+            "value": "7646.20",
+            "unit": "MB/s",
+            "extra": "linux_result"
+          },
+          {
+            "name": "Average unix bandwidth on Asterinas",
+            "value": "448.60",
+            "unit": "MB/s",
+            "extra": "aster_result"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Hsy-Intel",
+            "username": "Hsy-Intel",
+            "email": "siyuan.hui@intel.com"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "a739b3828d106d4e09fe2ba7dd8eed12d18dd20a",
+          "message": "Use tdx-guest crate VE handler and support release mode for TDX",
+          "timestamp": "2024-08-09T10:56:43Z",
+          "url": "https://github.com/asterinas/asterinas/commit/a739b3828d106d4e09fe2ba7dd8eed12d18dd20a"
+        },
+        "date": 1723322408837,
+        "tool": "customBiggerIsBetter",
+        "description": "The bandwidth of UNIX domain socket communication on a single processor.",
+        "benches": [
+          {
+            "name": "Average unix bandwidth on Linux",
+            "value": "7651.84",
+            "unit": "MB/s",
+            "extra": "linux_result"
+          },
+          {
+            "name": "Average unix bandwidth on Asterinas",
+            "value": "443.58",
+            "unit": "MB/s",
+            "extra": "aster_result"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Hsy-Intel",
+            "username": "Hsy-Intel",
+            "email": "siyuan.hui@intel.com"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "a739b3828d106d4e09fe2ba7dd8eed12d18dd20a",
+          "message": "Use tdx-guest crate VE handler and support release mode for TDX",
+          "timestamp": "2024-08-09T10:56:43Z",
+          "url": "https://github.com/asterinas/asterinas/commit/a739b3828d106d4e09fe2ba7dd8eed12d18dd20a"
+        },
+        "date": 1723408747652,
+        "tool": "customBiggerIsBetter",
+        "description": "The bandwidth of UNIX domain socket communication on a single processor.",
+        "benches": [
+          {
+            "name": "Average unix bandwidth on Linux",
+            "value": "7637.18",
+            "unit": "MB/s",
+            "extra": "linux_result"
+          },
+          {
+            "name": "Average unix bandwidth on Asterinas",
+            "value": "443.22",
+            "unit": "MB/s",
+            "extra": "aster_result"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Fabing Li",
+            "username": "grief8",
+            "email": "lifabing.lfb@antgroup.com"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "f9bae1eee90c49d715569208009cc2c66768fe9a",
+          "message": "Fix lmbench-ctx extraction",
+          "timestamp": "2024-08-12T07:13:36Z",
+          "url": "https://github.com/asterinas/asterinas/commit/f9bae1eee90c49d715569208009cc2c66768fe9a"
+        },
+        "date": 1723495324269,
+        "tool": "customBiggerIsBetter",
+        "description": "The bandwidth of UNIX domain socket communication on a single processor.",
+        "benches": [
+          {
+            "name": "Average unix bandwidth on Linux",
+            "value": "7583.97",
+            "unit": "MB/s",
+            "extra": "linux_result"
+          },
+          {
+            "name": "Average unix bandwidth on Asterinas",
+            "value": "446.51",
+            "unit": "MB/s",
+            "extra": "aster_result"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Zhang Junyang",
+            "username": "junyang-zh",
+            "email": "junyang@stu.pku.edu.cn"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "be54a39592ff60fae6e729abaa3d4a26dd7f5624",
+          "message": "Remove the preempt guard from the IRQ guard",
+          "timestamp": "2024-08-12T13:04:53Z",
+          "url": "https://github.com/asterinas/asterinas/commit/be54a39592ff60fae6e729abaa3d4a26dd7f5624"
+        },
+        "date": 1723581632174,
+        "tool": "customBiggerIsBetter",
+        "description": "The bandwidth of UNIX domain socket communication on a single processor.",
+        "benches": [
+          {
+            "name": "Average unix bandwidth on Linux",
+            "value": "7642.41",
+            "unit": "MB/s",
+            "extra": "linux_result"
+          },
+          {
+            "name": "Average unix bandwidth on Asterinas",
+            "value": "4822.95",
+            "unit": "MB/s",
+            "extra": "aster_result"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Zhang Junyang",
+            "username": "junyang-zh",
+            "email": "junyang@stu.pku.edu.cn"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "4844e7ca7ca6d78896a51a71487a6fdfe9ca6654",
+          "message": "Allow page table protectors to flush TLB entries precisely",
+          "timestamp": "2024-08-12T08:11:45Z",
+          "url": "https://github.com/asterinas/asterinas/commit/4844e7ca7ca6d78896a51a71487a6fdfe9ca6654"
+        },
+        "date": 1723667942680,
+        "tool": "customBiggerIsBetter",
+        "description": "The bandwidth of UNIX domain socket communication on a single processor.",
+        "benches": [
+          {
+            "name": "Average unix bandwidth on Linux",
+            "value": "7622.38",
+            "unit": "MB/s",
+            "extra": "linux_result"
+          },
+          {
+            "name": "Average unix bandwidth on Asterinas",
+            "value": "4823.60",
+            "unit": "MB/s",
+            "extra": "aster_result"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Chen Chengjun",
+            "username": "cchanging",
+            "email": "chenchengjun.ccj@antgroup.com"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "99a22ff124972872838fa5dc7094fa9a5eea557e",
+          "message": "Improve efficiency of global TLB flushing",
+          "timestamp": "2024-08-15T08:53:54Z",
+          "url": "https://github.com/asterinas/asterinas/commit/99a22ff124972872838fa5dc7094fa9a5eea557e"
+        },
+        "date": 1723754688403,
+        "tool": "customBiggerIsBetter",
+        "description": "The bandwidth of UNIX domain socket communication on a single processor.",
+        "benches": [
+          {
+            "name": "Average unix bandwidth on Linux",
+            "value": "7612.29",
+            "unit": "MB/s",
+            "extra": "linux_result"
+          },
+          {
+            "name": "Average unix bandwidth on Asterinas",
+            "value": "5546.12",
+            "unit": "MB/s",
+            "extra": "aster_result"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Jianfeng Jiang",
+            "username": "StevenJiang1110",
+            "email": "jiangjianfeng.jjf@antgroup.com"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "0291b5dc6bb142b9c6165c1cb29b7658eefdaa63",
+          "message": "Optimize the latency of lmbench-select-file",
+          "timestamp": "2024-08-15T03:44:30Z",
+          "url": "https://github.com/asterinas/asterinas/commit/0291b5dc6bb142b9c6165c1cb29b7658eefdaa63"
+        },
+        "date": 1723780913490,
+        "tool": "customBiggerIsBetter",
+        "description": "The bandwidth of UNIX domain socket communication on a single processor.",
+        "benches": [
+          {
+            "name": "Average unix bandwidth on Linux",
+            "value": "7602.17",
+            "unit": "MB/s",
+            "extra": "linux_result"
+          },
+          {
+            "name": "Average unix bandwidth on Asterinas",
+            "value": "5626.48",
+            "unit": "MB/s",
+            "extra": "aster_result"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Jianfeng Jiang",
+            "username": "StevenJiang1110",
+            "email": "jiangjianfeng.jjf@antgroup.com"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "0291b5dc6bb142b9c6165c1cb29b7658eefdaa63",
+          "message": "Optimize the latency of lmbench-select-file",
+          "timestamp": "2024-08-15T03:44:30Z",
+          "url": "https://github.com/asterinas/asterinas/commit/0291b5dc6bb142b9c6165c1cb29b7658eefdaa63"
+        },
+        "date": 1723784272641,
+        "tool": "customBiggerIsBetter",
+        "description": "The bandwidth of UNIX domain socket communication on a single processor.",
+        "benches": [
+          {
+            "name": "Average unix bandwidth on Linux",
+            "value": "7641.98",
+            "unit": "MB/s",
+            "extra": "linux_result"
+          },
+          {
+            "name": "Average unix bandwidth on Asterinas",
+            "value": "5561.17",
+            "unit": "MB/s",
+            "extra": "aster_result"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Jianfeng Jiang",
+            "username": "StevenJiang1110",
+            "email": "jiangjianfeng.jjf@antgroup.com"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "0291b5dc6bb142b9c6165c1cb29b7658eefdaa63",
+          "message": "Optimize the latency of lmbench-select-file",
+          "timestamp": "2024-08-15T03:44:30Z",
+          "url": "https://github.com/asterinas/asterinas/commit/0291b5dc6bb142b9c6165c1cb29b7658eefdaa63"
+        },
+        "date": 1723841094884,
+        "tool": "customBiggerIsBetter",
+        "description": "The bandwidth of UNIX domain socket communication on a single processor.",
+        "benches": [
+          {
+            "name": "Average unix bandwidth on Linux",
+            "value": "7627.86",
+            "unit": "MB/s",
+            "extra": "linux_result"
+          },
+          {
+            "name": "Average unix bandwidth on Asterinas",
+            "value": "5550.48",
+            "unit": "MB/s",
+            "extra": "aster_result"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Fabing Li",
+            "username": "grief8",
+            "email": "lifabing.lfb@antgroup.com"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "ce2af1eb057077753a7a757edc1833e677a83918",
+          "message": "Add flock and sys_flock",
+          "timestamp": "2024-08-12T03:51:41Z",
+          "url": "https://github.com/asterinas/asterinas/commit/ce2af1eb057077753a7a757edc1833e677a83918"
+        },
+        "date": 1723927785193,
+        "tool": "customBiggerIsBetter",
+        "description": "The bandwidth of UNIX domain socket communication on a single processor.",
+        "benches": [
+          {
+            "name": "Average unix bandwidth on Linux",
+            "value": "7606.70",
+            "unit": "MB/s",
+            "extra": "linux_result"
+          },
+          {
+            "name": "Average unix bandwidth on Asterinas",
+            "value": "5641.24",
+            "unit": "MB/s",
+            "extra": "aster_result"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Yuke Peng",
+            "username": "sdww0",
+            "email": "pykfirst@gmail.com"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "bbe43d76cc25538f04261379407f4fa721a13431",
+          "message": "Fix compile error due to `lock_irq_disabled`",
+          "timestamp": "2024-08-19T01:02:51Z",
+          "url": "https://github.com/asterinas/asterinas/commit/bbe43d76cc25538f04261379407f4fa721a13431"
+        },
+        "date": 1724101090247,
+        "tool": "customBiggerIsBetter",
+        "description": "The bandwidth of UNIX domain socket communication on a single processor.",
+        "benches": [
+          {
+            "name": "Average unix bandwidth on Linux",
+            "value": "7611.10",
+            "unit": "MB/s",
+            "extra": "linux_result"
+          },
+          {
+            "name": "Average unix bandwidth on Asterinas",
+            "value": "5533.32",
+            "unit": "MB/s",
+            "extra": "aster_result"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Marsman1996",
+            "username": "Marsman1996",
+            "email": "lqliuyuwei@outlook.com"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "fda0fa051265867c2399f4981fdccb9cc6df110d",
+          "message": "Align `len` in `madvise`",
+          "timestamp": "2024-08-19T09:01:16Z",
+          "url": "https://github.com/asterinas/asterinas/commit/fda0fa051265867c2399f4981fdccb9cc6df110d"
+        },
+        "date": 1724187478316,
+        "tool": "customBiggerIsBetter",
+        "description": "The bandwidth of UNIX domain socket communication on a single processor.",
+        "benches": [
+          {
+            "name": "Average unix bandwidth on Linux",
+            "value": "7642.87",
+            "unit": "MB/s",
+            "extra": "linux_result"
+          },
+          {
+            "name": "Average unix bandwidth on Asterinas",
+            "value": "5543.78",
+            "unit": "MB/s",
+            "extra": "aster_result"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Shaowei Song",
+            "username": "lucassong-mh",
+            "email": "songshaowei.ssw@antgroup.com"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "2102107be18729fba8f3546d5a3fe39c819d814a",
+          "message": "Refactor `VmReader`&`VmWriter` as given fallibility marker",
+          "timestamp": "2024-08-20T02:05:25Z",
+          "url": "https://github.com/asterinas/asterinas/commit/2102107be18729fba8f3546d5a3fe39c819d814a"
+        },
+        "date": 1724273911641,
+        "tool": "customBiggerIsBetter",
+        "description": "The bandwidth of UNIX domain socket communication on a single processor.",
+        "benches": [
+          {
+            "name": "Average unix bandwidth on Linux",
+            "value": "7609.65",
+            "unit": "MB/s",
+            "extra": "linux_result"
+          },
+          {
+            "name": "Average unix bandwidth on Asterinas",
+            "value": "5527.96",
+            "unit": "MB/s",
+            "extra": "aster_result"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Yuke Peng",
+            "username": "sdww0",
+            "email": "pykfirst@gmail.com"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "bb4751741a6cd6b919015f8f483512c90e73bf55",
+          "message": "Bump smoltcp to newest git version",
+          "timestamp": "2024-08-22T06:34:41Z",
+          "url": "https://github.com/asterinas/asterinas/commit/bb4751741a6cd6b919015f8f483512c90e73bf55"
+        },
+        "date": 1724360999175,
+        "tool": "customBiggerIsBetter",
+        "description": "The bandwidth of UNIX domain socket communication on a single processor.",
+        "benches": [
+          {
+            "name": "Average unix bandwidth on Linux",
+            "value": "7593.45",
+            "unit": "MB/s",
+            "extra": "linux_result"
+          },
+          {
+            "name": "Average unix bandwidth on Asterinas",
+            "value": "5549.63",
+            "unit": "MB/s",
+            "extra": "aster_result"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Zhang Junyang",
+            "username": "junyang-zh",
+            "email": "junyang@stu.pku.edu.cn"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "e50b05d1ee71f52679e8ed8ea310cda6bfcd7e0c",
+          "message": "Bump version to 0.8.0",
+          "timestamp": "2024-08-23T14:57:42Z",
+          "url": "https://github.com/asterinas/asterinas/commit/e50b05d1ee71f52679e8ed8ea310cda6bfcd7e0c"
+        },
+        "date": 1724447669149,
+        "tool": "customBiggerIsBetter",
+        "description": "The bandwidth of UNIX domain socket communication on a single processor.",
+        "benches": [
+          {
+            "name": "Average unix bandwidth on Linux",
+            "value": "7583.39",
+            "unit": "MB/s",
+            "extra": "linux_result"
+          },
+          {
+            "name": "Average unix bandwidth on Asterinas",
+            "value": "5575.47",
+            "unit": "MB/s",
+            "extra": "aster_result"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Zhang Junyang",
+            "username": "junyang-zh",
+            "email": "junyang@stu.pku.edu.cn"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "d22277a3e69040906cd198ea625614c5c69d66da",
+          "message": "Allow manually dispatching publishing workflows",
+          "timestamp": "2024-08-24T09:27:15Z",
+          "url": "https://github.com/asterinas/asterinas/commit/d22277a3e69040906cd198ea625614c5c69d66da"
+        },
+        "date": 1724533980134,
+        "tool": "customBiggerIsBetter",
+        "description": "The bandwidth of UNIX domain socket communication on a single processor.",
+        "benches": [
+          {
+            "name": "Average unix bandwidth on Linux",
+            "value": "7624.14",
+            "unit": "MB/s",
+            "extra": "linux_result"
+          },
+          {
+            "name": "Average unix bandwidth on Asterinas",
+            "value": "5566.31",
+            "unit": "MB/s",
+            "extra": "aster_result"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Zhang Junyang",
+            "username": "junyang-zh",
+            "email": "junyang@stu.pku.edu.cn"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "4231645c02ec317d99f0150bc8ed3210489855a0",
+          "message": "Fix `is_tdx_enabled` in OSDK tests",
+          "timestamp": "2024-08-25T12:16:30Z",
+          "url": "https://github.com/asterinas/asterinas/commit/4231645c02ec317d99f0150bc8ed3210489855a0"
+        },
+        "date": 1724620506739,
+        "tool": "customBiggerIsBetter",
+        "description": "The bandwidth of UNIX domain socket communication on a single processor.",
+        "benches": [
+          {
+            "name": "Average unix bandwidth on Linux",
+            "value": "7973.28",
+            "unit": "MB/s",
+            "extra": "linux_result"
+          },
+          {
+            "name": "Average unix bandwidth on Asterinas",
+            "value": "5612.88",
+            "unit": "MB/s",
+            "extra": "aster_result"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Chen Chengjun",
+            "username": "cchanging",
+            "email": "chenchengjun.ccj@antgroup.com"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "9e59db2f42c2ef9f8e91e0d1ee03562190726d56",
+          "message": "Make benchmark CI more fair",
+          "timestamp": "2024-08-26T09:41:40Z",
+          "url": "https://github.com/asterinas/asterinas/commit/9e59db2f42c2ef9f8e91e0d1ee03562190726d56"
+        },
+        "date": 1724706852800,
+        "tool": "customBiggerIsBetter",
+        "description": "The bandwidth of UNIX domain socket communication on a single processor.",
+        "benches": [
+          {
+            "name": "Average unix bandwidth on Linux",
+            "value": "7545.22",
+            "unit": "MB/s",
+            "extra": "linux_result"
+          },
+          {
+            "name": "Average unix bandwidth on Asterinas",
+            "value": "5537.30",
+            "unit": "MB/s",
+            "extra": "aster_result"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Shaowei Song",
+            "username": "lucassong-mh",
+            "email": "songshaowei.ssw@antgroup.com"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "e6f465b553f613d60828e0e503dc94ce4109ded1",
+          "message": "Replace all the ring buffers with the new one",
+          "timestamp": "2024-08-28T06:23:24Z",
+          "url": "https://github.com/asterinas/asterinas/commit/e6f465b553f613d60828e0e503dc94ce4109ded1"
+        },
+        "date": 1724879059269,
+        "tool": "customBiggerIsBetter",
+        "description": "The bandwidth of UNIX domain socket communication on a single processor.",
+        "benches": [
+          {
+            "name": "Average unix bandwidth on Linux",
+            "value": "7548.30",
+            "unit": "MB/s",
+            "extra": "linux_result"
+          },
+          {
+            "name": "Average unix bandwidth on Asterinas",
+            "value": "5464.49",
+            "unit": "MB/s",
+            "extra": "aster_result"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Chen Chengjun",
+            "username": "cchanging",
+            "email": "chenchengjun.ccj@antgroup.com"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "00d9b01d5c356fbc5f6b72b9a69a7571fdf0ab1f",
+          "message": "Add a fast path to page table fork",
+          "timestamp": "2024-08-29T03:52:33Z",
+          "url": "https://github.com/asterinas/asterinas/commit/00d9b01d5c356fbc5f6b72b9a69a7571fdf0ab1f"
+        },
+        "date": 1724911227813,
+        "tool": "customBiggerIsBetter",
+        "description": "The bandwidth of UNIX domain socket communication on a single processor.",
+        "benches": [
+          {
+            "name": "Average unix bandwidth on Linux",
+            "value": "7543.48",
+            "unit": "MB/s",
+            "extra": "linux_result"
+          },
+          {
+            "name": "Average unix bandwidth on Asterinas",
+            "value": "5472.34",
+            "unit": "MB/s",
+            "extra": "aster_result"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Chen Chengjun",
+            "username": "cchanging",
+            "email": "chenchengjun.ccj@antgroup.com"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "00d9b01d5c356fbc5f6b72b9a69a7571fdf0ab1f",
+          "message": "Add a fast path to page table fork",
+          "timestamp": "2024-08-29T03:52:33Z",
+          "url": "https://github.com/asterinas/asterinas/commit/00d9b01d5c356fbc5f6b72b9a69a7571fdf0ab1f"
+        },
+        "date": 1724917735482,
+        "tool": "customBiggerIsBetter",
+        "description": "The bandwidth of UNIX domain socket communication on a single processor.",
+        "benches": [
+          {
+            "name": "Average unix bandwidth on Linux",
+            "value": "7797.90",
+            "unit": "MB/s",
+            "extra": "linux_result"
+          },
+          {
+            "name": "Average unix bandwidth on Asterinas",
+            "value": "5473.93",
+            "unit": "MB/s",
+            "extra": "aster_result"
+          }
+        ]
+      },
       {
         "commit": {
           "author": {
@@ -10432,19 +11105,19 @@ window.BENCHMARK_DATA = {
           "timestamp": "2024-08-29T12:46:20Z",
           "url": "https://github.com/asterinas/asterinas/commit/539984bbed414969b0c40cf181a10e9341ed2359"
         },
-        "date": 1724965943222,
+        "date": 1724966440688,
         "tool": "customBiggerIsBetter",
-        "description": "The bandwidth of TCP with 4096 message size in localhost.",
+        "description": "The bandwidth of UNIX domain socket communication on a single processor.",
         "benches": [
           {
-            "name": "Average TCP bandwidth on Linux",
-            "value": "4374.38",
+            "name": "Average unix bandwidth on Linux",
+            "value": "7590.32",
             "unit": "MB/s",
             "extra": "linux_result"
           },
           {
-            "name": "Average TCP bandwidth on Asterinas",
-            "value": "341.95",
+            "name": "Average unix bandwidth on Asterinas",
+            "value": "5497.16",
             "unit": "MB/s",
             "extra": "aster_result"
           }
@@ -10467,19 +11140,19 @@ window.BENCHMARK_DATA = {
           "timestamp": "2024-08-30T11:23:53Z",
           "url": "https://github.com/asterinas/asterinas/commit/db16caf28c46e4ed24099fcba13d40b7d673164c"
         },
-        "date": 1725052337889,
+        "date": 1725052949948,
         "tool": "customBiggerIsBetter",
-        "description": "The bandwidth of TCP with 4096 message size in localhost.",
+        "description": "The bandwidth of UNIX domain socket communication on a single processor.",
         "benches": [
           {
-            "name": "Average TCP bandwidth on Linux",
-            "value": "4404.74",
+            "name": "Average unix bandwidth on Linux",
+            "value": "7819.80",
             "unit": "MB/s",
             "extra": "linux_result"
           },
           {
-            "name": "Average TCP bandwidth on Asterinas",
-            "value": "338.20",
+            "name": "Average unix bandwidth on Asterinas",
+            "value": "5481.92",
             "unit": "MB/s",
             "extra": "aster_result"
           }
@@ -10502,19 +11175,19 @@ window.BENCHMARK_DATA = {
           "timestamp": "2024-08-30T17:51:32Z",
           "url": "https://github.com/asterinas/asterinas/commit/e6e771e9b5ae7d223a50aa4b38994500b0db6867"
         },
-        "date": 1725138620296,
+        "date": 1725139240436,
         "tool": "customBiggerIsBetter",
-        "description": "The bandwidth of TCP with 4096 message size in localhost.",
+        "description": "The bandwidth of UNIX domain socket communication on a single processor.",
         "benches": [
           {
-            "name": "Average TCP bandwidth on Linux",
-            "value": "4396.13",
+            "name": "Average unix bandwidth on Linux",
+            "value": "7558.81",
             "unit": "MB/s",
             "extra": "linux_result"
           },
           {
-            "name": "Average TCP bandwidth on Asterinas",
-            "value": "344.94",
+            "name": "Average unix bandwidth on Asterinas",
+            "value": "5556.52",
             "unit": "MB/s",
             "extra": "aster_result"
           }
@@ -10537,19 +11210,19 @@ window.BENCHMARK_DATA = {
           "timestamp": "2024-08-29T14:26:36Z",
           "url": "https://github.com/asterinas/asterinas/commit/745ac6d982638d3548f09ea2aa2103e37c135153"
         },
-        "date": 1725224992861,
+        "date": 1725225630353,
         "tool": "customBiggerIsBetter",
-        "description": "The bandwidth of TCP with 4096 message size in localhost.",
+        "description": "The bandwidth of UNIX domain socket communication on a single processor.",
         "benches": [
           {
-            "name": "Average TCP bandwidth on Linux",
-            "value": "4382.58",
+            "name": "Average unix bandwidth on Linux",
+            "value": "7501.03",
             "unit": "MB/s",
             "extra": "linux_result"
           },
           {
-            "name": "Average TCP bandwidth on Asterinas",
-            "value": "346.45",
+            "name": "Average unix bandwidth on Asterinas",
+            "value": "5490.08",
             "unit": "MB/s",
             "extra": "aster_result"
           }
@@ -10572,19 +11245,19 @@ window.BENCHMARK_DATA = {
           "timestamp": "2024-09-02T09:48:15Z",
           "url": "https://github.com/asterinas/asterinas/commit/963874471284ed014b76d268d933b6d13073c2cc"
         },
-        "date": 1725316231396,
+        "date": 1725317067459,
         "tool": "customBiggerIsBetter",
-        "description": "The bandwidth of TCP with 4096 message size in localhost.",
+        "description": "The bandwidth of UNIX domain socket communication on a single processor.",
         "benches": [
           {
-            "name": "Average TCP bandwidth on Linux",
-            "value": "4374.06",
+            "name": "Average unix bandwidth on Linux",
+            "value": "7496.24",
             "unit": "MB/s",
             "extra": "linux_result"
           },
           {
-            "name": "Average TCP bandwidth on Asterinas",
-            "value": "383.56",
+            "name": "Average unix bandwidth on Asterinas",
+            "value": "5547.71",
             "unit": "MB/s",
             "extra": "aster_result"
           }
@@ -10607,19 +11280,19 @@ window.BENCHMARK_DATA = {
           "timestamp": "2024-09-02T09:48:15Z",
           "url": "https://github.com/asterinas/asterinas/commit/963874471284ed014b76d268d933b6d13073c2cc"
         },
-        "date": 1725402636874,
+        "date": 1725403445827,
         "tool": "customBiggerIsBetter",
-        "description": "The bandwidth of TCP with 4096 message size in localhost.",
+        "description": "The bandwidth of UNIX domain socket communication on a single processor.",
         "benches": [
           {
-            "name": "Average TCP bandwidth on Linux",
-            "value": "4411.26",
+            "name": "Average unix bandwidth on Linux",
+            "value": "7584.13",
             "unit": "MB/s",
             "extra": "linux_result"
           },
           {
-            "name": "Average TCP bandwidth on Asterinas",
-            "value": "387.95",
+            "name": "Average unix bandwidth on Asterinas",
+            "value": "5557.57",
             "unit": "MB/s",
             "extra": "aster_result"
           }
@@ -10642,19 +11315,19 @@ window.BENCHMARK_DATA = {
           "timestamp": "2024-09-03T07:33:12Z",
           "url": "https://github.com/asterinas/asterinas/commit/458a6a5b3b01aebe78c124fe20be91a91f0139da"
         },
-        "date": 1725488940253,
+        "date": 1725489741417,
         "tool": "customBiggerIsBetter",
-        "description": "The bandwidth of TCP with 4096 message size in localhost.",
+        "description": "The bandwidth of UNIX domain socket communication on a single processor.",
         "benches": [
           {
-            "name": "Average TCP bandwidth on Linux",
-            "value": "4394.62",
+            "name": "Average unix bandwidth on Linux",
+            "value": "7650.58",
             "unit": "MB/s",
             "extra": "linux_result"
           },
           {
-            "name": "Average TCP bandwidth on Asterinas",
-            "value": "402.89",
+            "name": "Average unix bandwidth on Asterinas",
+            "value": "5548.28",
             "unit": "MB/s",
             "extra": "aster_result"
           }
@@ -10677,19 +11350,19 @@ window.BENCHMARK_DATA = {
           "timestamp": "2024-09-03T07:33:12Z",
           "url": "https://github.com/asterinas/asterinas/commit/458a6a5b3b01aebe78c124fe20be91a91f0139da"
         },
-        "date": 1725575446560,
+        "date": 1725576317149,
         "tool": "customBiggerIsBetter",
-        "description": "The bandwidth of TCP with 4096 message size in localhost.",
+        "description": "The bandwidth of UNIX domain socket communication on a single processor.",
         "benches": [
           {
-            "name": "Average TCP bandwidth on Linux",
-            "value": "4411.01",
+            "name": "Average unix bandwidth on Linux",
+            "value": "7749.57",
             "unit": "MB/s",
             "extra": "linux_result"
           },
           {
-            "name": "Average TCP bandwidth on Asterinas",
-            "value": "416.21",
+            "name": "Average unix bandwidth on Asterinas",
+            "value": "5548.10",
             "unit": "MB/s",
             "extra": "aster_result"
           }
@@ -10712,19 +11385,19 @@ window.BENCHMARK_DATA = {
           "timestamp": "2024-09-06T04:11:16Z",
           "url": "https://github.com/asterinas/asterinas/commit/64e43d34aab13eeddea8dd7485c712acc99116ca"
         },
-        "date": 1725661722746,
+        "date": 1725662515870,
         "tool": "customBiggerIsBetter",
-        "description": "The bandwidth of TCP with 4096 message size in localhost.",
+        "description": "The bandwidth of UNIX domain socket communication on a single processor.",
         "benches": [
           {
-            "name": "Average TCP bandwidth on Linux",
-            "value": "4409.43",
+            "name": "Average unix bandwidth on Linux",
+            "value": "7779.11",
             "unit": "MB/s",
             "extra": "linux_result"
           },
           {
-            "name": "Average TCP bandwidth on Asterinas",
-            "value": "404.34",
+            "name": "Average unix bandwidth on Asterinas",
+            "value": "5548.09",
             "unit": "MB/s",
             "extra": "aster_result"
           }
@@ -10747,19 +11420,19 @@ window.BENCHMARK_DATA = {
           "timestamp": "2024-09-06T12:05:01Z",
           "url": "https://github.com/asterinas/asterinas/commit/c68302f7007225fa47f22a1085a8c59dcdae2ad4"
         },
-        "date": 1725748227679,
+        "date": 1725749032211,
         "tool": "customBiggerIsBetter",
-        "description": "The bandwidth of TCP with 4096 message size in localhost.",
+        "description": "The bandwidth of UNIX domain socket communication on a single processor.",
         "benches": [
           {
-            "name": "Average TCP bandwidth on Linux",
-            "value": "4419.85",
+            "name": "Average unix bandwidth on Linux",
+            "value": "7765.81",
             "unit": "MB/s",
             "extra": "linux_result"
           },
           {
-            "name": "Average TCP bandwidth on Asterinas",
-            "value": "395.86",
+            "name": "Average unix bandwidth on Asterinas",
+            "value": "5542.72",
             "unit": "MB/s",
             "extra": "aster_result"
           }
@@ -10782,19 +11455,19 @@ window.BENCHMARK_DATA = {
           "timestamp": "2024-09-06T12:05:01Z",
           "url": "https://github.com/asterinas/asterinas/commit/c68302f7007225fa47f22a1085a8c59dcdae2ad4"
         },
-        "date": 1725834697103,
+        "date": 1725835530662,
         "tool": "customBiggerIsBetter",
-        "description": "The bandwidth of TCP with 4096 message size in localhost.",
+        "description": "The bandwidth of UNIX domain socket communication on a single processor.",
         "benches": [
           {
-            "name": "Average TCP bandwidth on Linux",
-            "value": "4406.82",
+            "name": "Average unix bandwidth on Linux",
+            "value": "7771.38",
             "unit": "MB/s",
             "extra": "linux_result"
           },
           {
-            "name": "Average TCP bandwidth on Asterinas",
-            "value": "398.86",
+            "name": "Average unix bandwidth on Asterinas",
+            "value": "5530.14",
             "unit": "MB/s",
             "extra": "aster_result"
           }
@@ -10817,19 +11490,19 @@ window.BENCHMARK_DATA = {
           "timestamp": "2024-09-06T12:05:01Z",
           "url": "https://github.com/asterinas/asterinas/commit/c68302f7007225fa47f22a1085a8c59dcdae2ad4"
         },
-        "date": 1725920786826,
+        "date": 1725921570439,
         "tool": "customBiggerIsBetter",
-        "description": "The bandwidth of TCP with 4096 message size in localhost.",
+        "description": "The bandwidth of UNIX domain socket communication on a single processor.",
         "benches": [
           {
-            "name": "Average TCP bandwidth on Linux",
-            "value": "4383.03",
+            "name": "Average unix bandwidth on Linux",
+            "value": "7478.43",
             "unit": "MB/s",
             "extra": "linux_result"
           },
           {
-            "name": "Average TCP bandwidth on Asterinas",
-            "value": "399.20",
+            "name": "Average unix bandwidth on Asterinas",
+            "value": "5552.75",
             "unit": "MB/s",
             "extra": "aster_result"
           }
@@ -10852,19 +11525,19 @@ window.BENCHMARK_DATA = {
           "timestamp": "2024-09-06T12:05:01Z",
           "url": "https://github.com/asterinas/asterinas/commit/c68302f7007225fa47f22a1085a8c59dcdae2ad4"
         },
-        "date": 1726007213304,
+        "date": 1726008010196,
         "tool": "customBiggerIsBetter",
-        "description": "The bandwidth of TCP with 4096 message size in localhost.",
+        "description": "The bandwidth of UNIX domain socket communication on a single processor.",
         "benches": [
           {
-            "name": "Average TCP bandwidth on Linux",
-            "value": "4416.14",
+            "name": "Average unix bandwidth on Linux",
+            "value": "7532.90",
             "unit": "MB/s",
             "extra": "linux_result"
           },
           {
-            "name": "Average TCP bandwidth on Asterinas",
-            "value": "394.37",
+            "name": "Average unix bandwidth on Asterinas",
+            "value": "5544.80",
             "unit": "MB/s",
             "extra": "aster_result"
           }
@@ -10887,19 +11560,19 @@ window.BENCHMARK_DATA = {
           "timestamp": "2024-09-02T13:23:46Z",
           "url": "https://github.com/asterinas/asterinas/commit/8bfbdf6642a9d04db3490792926d6a299d1e30be"
         },
-        "date": 1726089300682,
+        "date": 1726089983381,
         "tool": "customBiggerIsBetter",
-        "description": "The bandwidth of TCP with 4096 message size in localhost.",
+        "description": "The bandwidth of UNIX domain socket communication on a single processor.",
         "benches": [
           {
-            "name": "Average TCP bandwidth on Linux",
-            "value": "4416.29",
+            "name": "Average unix bandwidth on Linux",
+            "value": "7549.53",
             "unit": "MB/s",
             "extra": "linux_result"
           },
           {
-            "name": "Average TCP bandwidth on Asterinas",
-            "value": "413.16",
+            "name": "Average unix bandwidth on Asterinas",
+            "value": "5557.97",
             "unit": "MB/s",
             "extra": "aster_result"
           }
@@ -10922,19 +11595,19 @@ window.BENCHMARK_DATA = {
           "timestamp": "2024-09-12T12:15:04Z",
           "url": "https://github.com/asterinas/asterinas/commit/6fcad6ce143b8f65e8be76297eb95a9cb56da22e"
         },
-        "date": 1726175760637,
+        "date": 1726176416275,
         "tool": "customBiggerIsBetter",
-        "description": "The bandwidth of TCP with 4096 message size in localhost.",
+        "description": "The bandwidth of UNIX domain socket communication on a single processor.",
         "benches": [
           {
-            "name": "Average TCP bandwidth on Linux",
-            "value": "4389.03",
+            "name": "Average unix bandwidth on Linux",
+            "value": "7472.22",
             "unit": "MB/s",
             "extra": "linux_result"
           },
           {
-            "name": "Average TCP bandwidth on Asterinas",
-            "value": "401.57",
+            "name": "Average unix bandwidth on Asterinas",
+            "value": "5601.21",
             "unit": "MB/s",
             "extra": "aster_result"
           }
@@ -10957,21 +11630,95 @@ window.BENCHMARK_DATA = {
           "timestamp": "2024-09-13T05:02:35Z",
           "url": "https://github.com/asterinas/asterinas/commit/32ea24e945efde86117d2278a48145d71b9ec90c"
         },
-        "date": 1726261030303,
+        "date": 1726261979356,
         "tool": "customBiggerIsBetter",
-        "title": "[TCP sockets] The bandwidth (localhost)",
-        "description": "bw_tcp -l",
+        "title": "[Unix sockets] The bandwidth",
+        "description": "bw_unix",
         "display": true,
         "benches": [
           {
-            "name": "Average TCP bandwidth on Linux",
-            "value": "4407.75",
+            "name": "Average unix bandwidth on Linux",
+            "value": "7552.97",
             "unit": "MB/s",
             "extra": "linux_result"
           },
           {
-            "name": "Average TCP bandwidth on Asterinas",
-            "value": "418.37",
+            "name": "Average unix bandwidth on Asterinas",
+            "value": "5653.46",
+            "unit": "MB/s",
+            "extra": "aster_result"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Fabing Li",
+            "username": "grief8",
+            "email": "lifabing.lfb@antgroup.com"
+          },
+          "committer": {
+            "name": "Fabing Li",
+            "username": "grief8",
+            "email": "lifabing.lfb@antgroup.com"
+          },
+          "id": "adfb4a081356bea739a1720f284c3e66d6a96d19",
+          "message": "test",
+          "timestamp": "2024-09-14T03:47:04Z",
+          "url": "https://github.com/grief8/asterinas/commit/adfb4a081356bea739a1720f284c3e66d6a96d19"
+        },
+        "date": 1726286032365,
+        "tool": "customBiggerIsBetter",
+        "title": "[Unix sockets] The bandwidth",
+        "description": "bw_unix",
+        "display": true,
+        "benches": [
+          {
+            "name": "Average unix bandwidth on Linux",
+            "value": "6885.04",
+            "unit": "MB/s",
+            "extra": "linux_result"
+          },
+          {
+            "name": "Average unix bandwidth on Asterinas",
+            "value": "7147.89",
+            "unit": "MB/s",
+            "extra": "aster_result"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Fabing Li",
+            "username": "grief8",
+            "email": "lifabing.lfb@antgroup.com"
+          },
+          "committer": {
+            "name": "Fabing Li",
+            "username": "grief8",
+            "email": "lifabing.lfb@antgroup.com"
+          },
+          "id": "adfb4a081356bea739a1720f284c3e66d6a96d19",
+          "message": "test",
+          "timestamp": "2024-09-14T03:47:04Z",
+          "url": "https://github.com/grief8/asterinas/commit/adfb4a081356bea739a1720f284c3e66d6a96d19"
+        },
+        "date": 1726640756936,
+        "tool": "customBiggerIsBetter",
+        "title": "[Unix sockets] The bandwidth",
+        "description": "bw_unix",
+        "display": true,
+        "benches": [
+          {
+            "name": "Average unix bandwidth on Linux",
+            "value": "6824.82",
+            "unit": "MB/s",
+            "extra": "linux_result"
+          },
+          {
+            "name": "Average unix bandwidth on Asterinas",
+            "value": "7104.29",
             "unit": "MB/s",
             "extra": "aster_result"
           }
@@ -10994,28 +11741,308 @@ window.BENCHMARK_DATA = {
           "timestamp": "2024-09-24T06:58:54Z",
           "url": "https://github.com/grief8/asterinas/commit/bb8d2fe583df04a06eaf4c931270c55dd06f48ae"
         },
-        "date": 1727168674796,
+        "date": 1727168692014,
         "tool": "customBiggerIsBetter",
-        "title": "[TCP sockets] The bandwidth (localhost)",
-        "description": "bw_tcp -l",
+        "title": "[Unix sockets] The bandwidth",
+        "description": "bw_unix",
         "display": true,
         "benches": [
           {
-            "name": "Average TCP bandwidth on Linux",
-            "value": "4001.61",
+            "name": "Average unix bandwidth on Linux",
+            "value": "6800.35",
             "unit": "MB/s",
             "extra": "linux_result"
           },
           {
-            "name": "Average TCP bandwidth on Asterinas",
-            "value": "470.78",
+            "name": "Average unix bandwidth on Asterinas",
+            "value": "14837.83",
             "unit": "MB/s",
             "extra": "aster_result"
           }
         ]
       }
     ],
-    "tcp_loopback_connect_lat": [
+    "unix_connect_lat": [
+      {
+        "commit": {
+          "author": {
+            "name": "Zhang Junyang",
+            "username": "junyang-zh",
+            "email": "junyang@stu.pku.edu.cn"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "e50b05d1ee71f52679e8ed8ea310cda6bfcd7e0c",
+          "message": "Bump version to 0.8.0",
+          "timestamp": "2024-08-23T14:57:42Z",
+          "url": "https://github.com/asterinas/asterinas/commit/e50b05d1ee71f52679e8ed8ea310cda6bfcd7e0c"
+        },
+        "date": 1724447823524,
+        "tool": "customSmallerIsBetter",
+        "description": "The latency of UNIX domain socket connection on a single processor.",
+        "benches": [
+          {
+            "name": "Average unix connect latency on Linux",
+            "value": "7.1854",
+            "unit": "µs",
+            "extra": "linux_result"
+          },
+          {
+            "name": "Average unix connect latency on Asterinas",
+            "value": "7.3919",
+            "unit": "µs",
+            "extra": "aster_result"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Zhang Junyang",
+            "username": "junyang-zh",
+            "email": "junyang@stu.pku.edu.cn"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "d22277a3e69040906cd198ea625614c5c69d66da",
+          "message": "Allow manually dispatching publishing workflows",
+          "timestamp": "2024-08-24T09:27:15Z",
+          "url": "https://github.com/asterinas/asterinas/commit/d22277a3e69040906cd198ea625614c5c69d66da"
+        },
+        "date": 1724534131101,
+        "tool": "customSmallerIsBetter",
+        "description": "The latency of UNIX domain socket connection on a single processor.",
+        "benches": [
+          {
+            "name": "Average unix connect latency on Linux",
+            "value": "8.9710",
+            "unit": "µs",
+            "extra": "linux_result"
+          },
+          {
+            "name": "Average unix connect latency on Asterinas",
+            "value": "7.5114",
+            "unit": "µs",
+            "extra": "aster_result"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Zhang Junyang",
+            "username": "junyang-zh",
+            "email": "junyang@stu.pku.edu.cn"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "4231645c02ec317d99f0150bc8ed3210489855a0",
+          "message": "Fix `is_tdx_enabled` in OSDK tests",
+          "timestamp": "2024-08-25T12:16:30Z",
+          "url": "https://github.com/asterinas/asterinas/commit/4231645c02ec317d99f0150bc8ed3210489855a0"
+        },
+        "date": 1724620323556,
+        "tool": "customSmallerIsBetter",
+        "description": "The latency of UNIX domain socket connection on a single processor.",
+        "benches": [
+          {
+            "name": "Average unix connect latency on Linux",
+            "value": "6.3230",
+            "unit": "µs",
+            "extra": "linux_result"
+          },
+          {
+            "name": "Average unix connect latency on Asterinas",
+            "value": "7.4192",
+            "unit": "µs",
+            "extra": "aster_result"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Chen Chengjun",
+            "username": "cchanging",
+            "email": "chenchengjun.ccj@antgroup.com"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "9e59db2f42c2ef9f8e91e0d1ee03562190726d56",
+          "message": "Make benchmark CI more fair",
+          "timestamp": "2024-08-26T09:41:40Z",
+          "url": "https://github.com/asterinas/asterinas/commit/9e59db2f42c2ef9f8e91e0d1ee03562190726d56"
+        },
+        "date": 1724707003754,
+        "tool": "customSmallerIsBetter",
+        "description": "The latency of UNIX domain socket connection on a single processor.",
+        "benches": [
+          {
+            "name": "Average unix connect latency on Linux",
+            "value": "7.2427",
+            "unit": "µs",
+            "extra": "linux_result"
+          },
+          {
+            "name": "Average unix connect latency on Asterinas",
+            "value": "7.4904",
+            "unit": "µs",
+            "extra": "aster_result"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Jianfeng Jiang",
+            "username": "StevenJiang1110",
+            "email": "jiangjianfeng.jjf@antgroup.com"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "a72c7dadf3b9bb680b3092af6b64084b98008cb7",
+          "message": "Optimize the latency of lmbench-signal-prot",
+          "timestamp": "2024-08-27T06:37:02Z",
+          "url": "https://github.com/asterinas/asterinas/commit/a72c7dadf3b9bb680b3092af6b64084b98008cb7"
+        },
+        "date": 1724838991355,
+        "tool": "customSmallerIsBetter",
+        "description": "The latency of UNIX domain socket connection on a single processor.",
+        "benches": [
+          {
+            "name": "Average unix connect latency on Linux",
+            "value": "7.1468",
+            "unit": "µs",
+            "extra": "linux_result"
+          },
+          {
+            "name": "Average unix connect latency on Asterinas",
+            "value": "7.6359",
+            "unit": "µs",
+            "extra": "aster_result"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Shaowei Song",
+            "username": "lucassong-mh",
+            "email": "songshaowei.ssw@antgroup.com"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "e6f465b553f613d60828e0e503dc94ce4109ded1",
+          "message": "Replace all the ring buffers with the new one",
+          "timestamp": "2024-08-28T06:23:24Z",
+          "url": "https://github.com/asterinas/asterinas/commit/e6f465b553f613d60828e0e503dc94ce4109ded1"
+        },
+        "date": 1724879195745,
+        "tool": "customSmallerIsBetter",
+        "description": "The latency of UNIX domain socket connection on a single processor.",
+        "benches": [
+          {
+            "name": "Average unix connect latency on Linux",
+            "value": "7.0940",
+            "unit": "µs",
+            "extra": "linux_result"
+          },
+          {
+            "name": "Average unix connect latency on Asterinas",
+            "value": "15.7114",
+            "unit": "µs",
+            "extra": "aster_result"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Chen Chengjun",
+            "username": "cchanging",
+            "email": "chenchengjun.ccj@antgroup.com"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "00d9b01d5c356fbc5f6b72b9a69a7571fdf0ab1f",
+          "message": "Add a fast path to page table fork",
+          "timestamp": "2024-08-29T03:52:33Z",
+          "url": "https://github.com/asterinas/asterinas/commit/00d9b01d5c356fbc5f6b72b9a69a7571fdf0ab1f"
+        },
+        "date": 1724911415189,
+        "tool": "customSmallerIsBetter",
+        "description": "The latency of UNIX domain socket connection on a single processor.",
+        "benches": [
+          {
+            "name": "Average unix connect latency on Linux",
+            "value": "6.9962",
+            "unit": "µs",
+            "extra": "linux_result"
+          },
+          {
+            "name": "Average unix connect latency on Asterinas",
+            "value": "9.5752",
+            "unit": "µs",
+            "extra": "aster_result"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Chen Chengjun",
+            "username": "cchanging",
+            "email": "chenchengjun.ccj@antgroup.com"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "00d9b01d5c356fbc5f6b72b9a69a7571fdf0ab1f",
+          "message": "Add a fast path to page table fork",
+          "timestamp": "2024-08-29T03:52:33Z",
+          "url": "https://github.com/asterinas/asterinas/commit/00d9b01d5c356fbc5f6b72b9a69a7571fdf0ab1f"
+        },
+        "date": 1724917861003,
+        "tool": "customSmallerIsBetter",
+        "description": "The latency of UNIX domain socket connection on a single processor.",
+        "benches": [
+          {
+            "name": "Average unix connect latency on Linux",
+            "value": "7.2369",
+            "unit": "µs",
+            "extra": "linux_result"
+          },
+          {
+            "name": "Average unix connect latency on Asterinas",
+            "value": "10.0257",
+            "unit": "µs",
+            "extra": "aster_result"
+          }
+        ]
+      },
       {
         "commit": {
           "author": {
@@ -11033,19 +12060,19 @@ window.BENCHMARK_DATA = {
           "timestamp": "2024-08-29T12:46:20Z",
           "url": "https://github.com/asterinas/asterinas/commit/539984bbed414969b0c40cf181a10e9341ed2359"
         },
-        "date": 1724965803997,
+        "date": 1724966689446,
         "tool": "customSmallerIsBetter",
-        "description": "The latency of TCP connection on localhost.",
+        "description": "The latency of UNIX domain socket connection on a single processor.",
         "benches": [
           {
-            "name": "Average TCP connection latency on Linux",
-            "value": "15.4448",
+            "name": "Average unix connect latency on Linux",
+            "value": "7.3545",
             "unit": "µs",
             "extra": "linux_result"
           },
           {
-            "name": "Average TCP connection latency on Asterinas",
-            "value": "25.0922",
+            "name": "Average unix connect latency on Asterinas",
+            "value": "9.2920",
             "unit": "µs",
             "extra": "aster_result"
           }
@@ -11068,19 +12095,19 @@ window.BENCHMARK_DATA = {
           "timestamp": "2024-08-30T11:23:53Z",
           "url": "https://github.com/asterinas/asterinas/commit/db16caf28c46e4ed24099fcba13d40b7d673164c"
         },
-        "date": 1725052462645,
+        "date": 1725053072183,
         "tool": "customSmallerIsBetter",
-        "description": "The latency of TCP connection on localhost.",
+        "description": "The latency of UNIX domain socket connection on a single processor.",
         "benches": [
           {
-            "name": "Average TCP connection latency on Linux",
-            "value": "15.4379",
+            "name": "Average unix connect latency on Linux",
+            "value": "7.1339",
             "unit": "µs",
             "extra": "linux_result"
           },
           {
-            "name": "Average TCP connection latency on Asterinas",
-            "value": "24.2632",
+            "name": "Average unix connect latency on Asterinas",
+            "value": "9.1622",
             "unit": "µs",
             "extra": "aster_result"
           }
@@ -11103,19 +12130,19 @@ window.BENCHMARK_DATA = {
           "timestamp": "2024-08-30T17:51:32Z",
           "url": "https://github.com/asterinas/asterinas/commit/e6e771e9b5ae7d223a50aa4b38994500b0db6867"
         },
-        "date": 1725138738405,
+        "date": 1725139370490,
         "tool": "customSmallerIsBetter",
-        "description": "The latency of TCP connection on localhost.",
+        "description": "The latency of UNIX domain socket connection on a single processor.",
         "benches": [
           {
-            "name": "Average TCP connection latency on Linux",
-            "value": "15.3343",
+            "name": "Average unix connect latency on Linux",
+            "value": "6.8803",
             "unit": "µs",
             "extra": "linux_result"
           },
           {
-            "name": "Average TCP connection latency on Asterinas",
-            "value": "24.0000",
+            "name": "Average unix connect latency on Asterinas",
+            "value": "9.2454",
             "unit": "µs",
             "extra": "aster_result"
           }
@@ -11138,19 +12165,19 @@ window.BENCHMARK_DATA = {
           "timestamp": "2024-08-29T14:26:36Z",
           "url": "https://github.com/asterinas/asterinas/commit/745ac6d982638d3548f09ea2aa2103e37c135153"
         },
-        "date": 1725225130371,
+        "date": 1725225757498,
         "tool": "customSmallerIsBetter",
-        "description": "The latency of TCP connection on localhost.",
+        "description": "The latency of UNIX domain socket connection on a single processor.",
         "benches": [
           {
-            "name": "Average TCP connection latency on Linux",
-            "value": "15.3887",
+            "name": "Average unix connect latency on Linux",
+            "value": "7.2745",
             "unit": "µs",
             "extra": "linux_result"
           },
           {
-            "name": "Average TCP connection latency on Asterinas",
-            "value": "23.9345",
+            "name": "Average unix connect latency on Asterinas",
+            "value": "9.2831",
             "unit": "µs",
             "extra": "aster_result"
           }
@@ -11173,19 +12200,19 @@ window.BENCHMARK_DATA = {
           "timestamp": "2024-09-02T09:48:15Z",
           "url": "https://github.com/asterinas/asterinas/commit/963874471284ed014b76d268d933b6d13073c2cc"
         },
-        "date": 1725316649481,
+        "date": 1725317239325,
         "tool": "customSmallerIsBetter",
-        "description": "The latency of TCP connection on localhost.",
+        "description": "The latency of UNIX domain socket connection on a single processor.",
         "benches": [
           {
-            "name": "Average TCP connection latency on Linux",
-            "value": "15.6382",
+            "name": "Average unix connect latency on Linux",
+            "value": "7.2891",
             "unit": "µs",
             "extra": "linux_result"
           },
           {
-            "name": "Average TCP connection latency on Asterinas",
-            "value": "22.0843",
+            "name": "Average unix connect latency on Asterinas",
+            "value": "9.3087",
             "unit": "µs",
             "extra": "aster_result"
           }
@@ -11208,19 +12235,19 @@ window.BENCHMARK_DATA = {
           "timestamp": "2024-09-02T09:48:15Z",
           "url": "https://github.com/asterinas/asterinas/commit/963874471284ed014b76d268d933b6d13073c2cc"
         },
-        "date": 1725402826437,
+        "date": 1725403614578,
         "tool": "customSmallerIsBetter",
-        "description": "The latency of TCP connection on localhost.",
+        "description": "The latency of UNIX domain socket connection on a single processor.",
         "benches": [
           {
-            "name": "Average TCP connection latency on Linux",
-            "value": "15.0904",
+            "name": "Average unix connect latency on Linux",
+            "value": "7.2219",
             "unit": "µs",
             "extra": "linux_result"
           },
           {
-            "name": "Average TCP connection latency on Asterinas",
-            "value": "22.1406",
+            "name": "Average unix connect latency on Asterinas",
+            "value": "9.0956",
             "unit": "µs",
             "extra": "aster_result"
           }
@@ -11243,19 +12270,19 @@ window.BENCHMARK_DATA = {
           "timestamp": "2024-09-03T07:33:12Z",
           "url": "https://github.com/asterinas/asterinas/commit/458a6a5b3b01aebe78c124fe20be91a91f0139da"
         },
-        "date": 1725489120895,
+        "date": 1725489910212,
         "tool": "customSmallerIsBetter",
-        "description": "The latency of TCP connection on localhost.",
+        "description": "The latency of UNIX domain socket connection on a single processor.",
         "benches": [
           {
-            "name": "Average TCP connection latency on Linux",
-            "value": "15.5581",
+            "name": "Average unix connect latency on Linux",
+            "value": "7.2270",
             "unit": "µs",
             "extra": "linux_result"
           },
           {
-            "name": "Average TCP connection latency on Asterinas",
-            "value": "21.6417",
+            "name": "Average unix connect latency on Asterinas",
+            "value": "9.2920",
             "unit": "µs",
             "extra": "aster_result"
           }
@@ -11278,19 +12305,19 @@ window.BENCHMARK_DATA = {
           "timestamp": "2024-09-03T07:33:12Z",
           "url": "https://github.com/asterinas/asterinas/commit/458a6a5b3b01aebe78c124fe20be91a91f0139da"
         },
-        "date": 1725575612873,
+        "date": 1725576520805,
         "tool": "customSmallerIsBetter",
-        "description": "The latency of TCP connection on localhost.",
+        "description": "The latency of UNIX domain socket connection on a single processor.",
         "benches": [
           {
-            "name": "Average TCP connection latency on Linux",
-            "value": "15.5759",
+            "name": "Average unix connect latency on Linux",
+            "value": "7.1237",
             "unit": "µs",
             "extra": "linux_result"
           },
           {
-            "name": "Average TCP connection latency on Asterinas",
-            "value": "21.3398",
+            "name": "Average unix connect latency on Asterinas",
+            "value": "9.3168",
             "unit": "µs",
             "extra": "aster_result"
           }
@@ -11313,19 +12340,19 @@ window.BENCHMARK_DATA = {
           "timestamp": "2024-09-06T04:11:16Z",
           "url": "https://github.com/asterinas/asterinas/commit/64e43d34aab13eeddea8dd7485c712acc99116ca"
         },
-        "date": 1725662117016,
+        "date": 1725662673472,
         "tool": "customSmallerIsBetter",
-        "description": "The latency of TCP connection on localhost.",
+        "description": "The latency of UNIX domain socket connection on a single processor.",
         "benches": [
           {
-            "name": "Average TCP connection latency on Linux",
-            "value": "15.5650",
+            "name": "Average unix connect latency on Linux",
+            "value": "7.1927",
             "unit": "µs",
             "extra": "linux_result"
           },
           {
-            "name": "Average TCP connection latency on Asterinas",
-            "value": "21.3876",
+            "name": "Average unix connect latency on Asterinas",
+            "value": "9.2966",
             "unit": "µs",
             "extra": "aster_result"
           }
@@ -11348,19 +12375,19 @@ window.BENCHMARK_DATA = {
           "timestamp": "2024-09-06T12:05:01Z",
           "url": "https://github.com/asterinas/asterinas/commit/c68302f7007225fa47f22a1085a8c59dcdae2ad4"
         },
-        "date": 1725748404493,
+        "date": 1725749204662,
         "tool": "customSmallerIsBetter",
-        "description": "The latency of TCP connection on localhost.",
+        "description": "The latency of UNIX domain socket connection on a single processor.",
         "benches": [
           {
-            "name": "Average TCP connection latency on Linux",
-            "value": "15.5537",
+            "name": "Average unix connect latency on Linux",
+            "value": "7.3067",
             "unit": "µs",
             "extra": "linux_result"
           },
           {
-            "name": "Average TCP connection latency on Asterinas",
-            "value": "21.7638",
+            "name": "Average unix connect latency on Asterinas",
+            "value": "9.3767",
             "unit": "µs",
             "extra": "aster_result"
           }
@@ -11383,19 +12410,19 @@ window.BENCHMARK_DATA = {
           "timestamp": "2024-09-06T12:05:01Z",
           "url": "https://github.com/asterinas/asterinas/commit/c68302f7007225fa47f22a1085a8c59dcdae2ad4"
         },
-        "date": 1725834872360,
+        "date": 1725835706257,
         "tool": "customSmallerIsBetter",
-        "description": "The latency of TCP connection on localhost.",
+        "description": "The latency of UNIX domain socket connection on a single processor.",
         "benches": [
           {
-            "name": "Average TCP connection latency on Linux",
-            "value": "15.3174",
+            "name": "Average unix connect latency on Linux",
+            "value": "7.1483",
             "unit": "µs",
             "extra": "linux_result"
           },
           {
-            "name": "Average TCP connection latency on Asterinas",
-            "value": "21.8526",
+            "name": "Average unix connect latency on Asterinas",
+            "value": "9.1329",
             "unit": "µs",
             "extra": "aster_result"
           }
@@ -11418,19 +12445,19 @@ window.BENCHMARK_DATA = {
           "timestamp": "2024-09-06T12:05:01Z",
           "url": "https://github.com/asterinas/asterinas/commit/c68302f7007225fa47f22a1085a8c59dcdae2ad4"
         },
-        "date": 1725920951926,
+        "date": 1725921742899,
         "tool": "customSmallerIsBetter",
-        "description": "The latency of TCP connection on localhost.",
+        "description": "The latency of UNIX domain socket connection on a single processor.",
         "benches": [
           {
-            "name": "Average TCP connection latency on Linux",
-            "value": "15.2921",
+            "name": "Average unix connect latency on Linux",
+            "value": "7.2204",
             "unit": "µs",
             "extra": "linux_result"
           },
           {
-            "name": "Average TCP connection latency on Asterinas",
-            "value": "21.9405",
+            "name": "Average unix connect latency on Asterinas",
+            "value": "9.3845",
             "unit": "µs",
             "extra": "aster_result"
           }
@@ -11453,19 +12480,19 @@ window.BENCHMARK_DATA = {
           "timestamp": "2024-09-06T12:05:01Z",
           "url": "https://github.com/asterinas/asterinas/commit/c68302f7007225fa47f22a1085a8c59dcdae2ad4"
         },
-        "date": 1726007385981,
+        "date": 1726008342172,
         "tool": "customSmallerIsBetter",
-        "description": "The latency of TCP connection on localhost.",
+        "description": "The latency of UNIX domain socket connection on a single processor.",
         "benches": [
           {
-            "name": "Average TCP connection latency on Linux",
-            "value": "15.4118",
+            "name": "Average unix connect latency on Linux",
+            "value": "7.2409",
             "unit": "µs",
             "extra": "linux_result"
           },
           {
-            "name": "Average TCP connection latency on Asterinas",
-            "value": "21.5837",
+            "name": "Average unix connect latency on Asterinas",
+            "value": "9.3413",
             "unit": "µs",
             "extra": "aster_result"
           }
@@ -11488,19 +12515,19 @@ window.BENCHMARK_DATA = {
           "timestamp": "2024-09-02T13:23:46Z",
           "url": "https://github.com/asterinas/asterinas/commit/8bfbdf6642a9d04db3490792926d6a299d1e30be"
         },
-        "date": 1726089626578,
+        "date": 1726090127031,
         "tool": "customSmallerIsBetter",
-        "description": "The latency of TCP connection on localhost.",
+        "description": "The latency of UNIX domain socket connection on a single processor.",
         "benches": [
           {
-            "name": "Average TCP connection latency on Linux",
-            "value": "15.2017",
+            "name": "Average unix connect latency on Linux",
+            "value": "7.1357",
             "unit": "µs",
             "extra": "linux_result"
           },
           {
-            "name": "Average TCP connection latency on Asterinas",
-            "value": "22.3520",
+            "name": "Average unix connect latency on Asterinas",
+            "value": "9.0017",
             "unit": "µs",
             "extra": "aster_result"
           }
@@ -11523,19 +12550,19 @@ window.BENCHMARK_DATA = {
           "timestamp": "2024-09-12T12:15:04Z",
           "url": "https://github.com/asterinas/asterinas/commit/6fcad6ce143b8f65e8be76297eb95a9cb56da22e"
         },
-        "date": 1726175900772,
+        "date": 1726176561106,
         "tool": "customSmallerIsBetter",
-        "description": "The latency of TCP connection on localhost.",
+        "description": "The latency of UNIX domain socket connection on a single processor.",
         "benches": [
           {
-            "name": "Average TCP connection latency on Linux",
-            "value": "15.5852",
+            "name": "Average unix connect latency on Linux",
+            "value": "7.2008",
             "unit": "µs",
             "extra": "linux_result"
           },
           {
-            "name": "Average TCP connection latency on Asterinas",
-            "value": "21.5625",
+            "name": "Average unix connect latency on Asterinas",
+            "value": "8.8511",
             "unit": "µs",
             "extra": "aster_result"
           }
@@ -11558,21 +12585,21 @@ window.BENCHMARK_DATA = {
           "timestamp": "2024-09-13T05:02:35Z",
           "url": "https://github.com/asterinas/asterinas/commit/32ea24e945efde86117d2278a48145d71b9ec90c"
         },
-        "date": 1726261156964,
+        "date": 1726262114387,
         "tool": "customSmallerIsBetter",
-        "title": "[TCP sockets] The latency of connect",
+        "title": "[Unix sockets] The latency of connect",
         "description": "lat_connect",
         "display": true,
         "benches": [
           {
-            "name": "Average TCP connection latency on Linux",
-            "value": "15.4729",
+            "name": "Average unix connect latency on Linux",
+            "value": "6.8452",
             "unit": "µs",
             "extra": "linux_result"
           },
           {
-            "name": "Average TCP connection latency on Asterinas",
-            "value": "21.7391",
+            "name": "Average unix connect latency on Asterinas",
+            "value": "8.9233",
             "unit": "µs",
             "extra": "aster_result"
           }
@@ -11595,743 +12622,21 @@ window.BENCHMARK_DATA = {
           "timestamp": "2024-09-14T03:47:04Z",
           "url": "https://github.com/grief8/asterinas/commit/adfb4a081356bea739a1720f284c3e66d6a96d19"
         },
-        "date": 1726640727555,
+        "date": 1726285978166,
         "tool": "customSmallerIsBetter",
-        "title": "[TCP sockets] The latency of connect",
+        "title": "[Unix sockets] The latency of connect",
         "description": "lat_connect",
         "display": true,
         "benches": [
           {
-            "name": "Average TCP connection latency on Linux",
-            "value": "18.4732",
+            "name": "Average unix connect latency on Linux",
+            "value": "8.0523",
             "unit": "µs",
             "extra": "linux_result"
           },
           {
-            "name": "Average TCP connection latency on Asterinas",
-            "value": "22.1526",
-            "unit": "µs",
-            "extra": "aster_result"
-          }
-        ]
-      }
-    ],
-    "tcp_loopback_lat": [
-      {
-        "commit": {
-          "author": {
-            "name": "Fabing Li",
-            "username": "grief8",
-            "email": "lifabing.lfb@antgroup.com"
-          },
-          "committer": {
-            "name": "Fabing Li",
-            "username": "grief8",
-            "email": "lifabing.lfb@antgroup.com"
-          },
-          "id": "52871246d45bbd86954f1d1dd5c65c98e1656064",
-          "message": "uP",
-          "timestamp": "2024-09-24T06:48:01Z",
-          "url": "https://github.com/grief8/asterinas/commit/52871246d45bbd86954f1d1dd5c65c98e1656064"
-        },
-        "date": 1727160884530,
-        "tool": "customSmallerIsBetter",
-        "title": "[TCP sockets] The latency of write+read",
-        "description": "lat_tcp",
-        "display": true,
-        "benches": [
-          {
-            "name": "Average TCP latency on Linux",
-            "value": "6.3043",
-            "unit": "µs",
-            "extra": "linux_result"
-          },
-          {
-            "name": "Average TCP latency on Asterinas",
-            "value": "12.8265",
-            "unit": "µs",
-            "extra": "aster_result"
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
-            "name": "Fabing Li",
-            "username": "grief8",
-            "email": "lifabing.lfb@antgroup.com"
-          },
-          "committer": {
-            "name": "Fabing Li",
-            "username": "grief8",
-            "email": "lifabing.lfb@antgroup.com"
-          },
-          "id": "bb8d2fe583df04a06eaf4c931270c55dd06f48ae",
-          "message": "iuu",
-          "timestamp": "2024-09-24T06:58:54Z",
-          "url": "https://github.com/grief8/asterinas/commit/bb8d2fe583df04a06eaf4c931270c55dd06f48ae"
-        },
-        "date": 1727168712730,
-        "tool": "customSmallerIsBetter",
-        "title": "[TCP sockets] The latency of write+read",
-        "description": "lat_tcp",
-        "display": true,
-        "benches": [
-          {
-            "name": "Average TCP latency on Linux",
-            "value": "6.3539",
-            "unit": "µs",
-            "extra": "linux_result"
-          },
-          {
-            "name": "Average TCP latency on Asterinas",
-            "value": "12.8034",
-            "unit": "µs",
-            "extra": "aster_result"
-          }
-        ]
-      }
-    ],
-    "tcp_loopback_select_lat": [
-      {
-        "commit": {
-          "author": {
-            "name": "Fabing Li",
-            "username": "grief8",
-            "email": "lifabing.lfb@antgroup.com"
-          },
-          "committer": {
-            "name": "Fabing Li",
-            "username": "grief8",
-            "email": "lifabing.lfb@antgroup.com"
-          },
-          "id": "52871246d45bbd86954f1d1dd5c65c98e1656064",
-          "message": "uP",
-          "timestamp": "2024-09-24T06:48:01Z",
-          "url": "https://github.com/grief8/asterinas/commit/52871246d45bbd86954f1d1dd5c65c98e1656064"
-        },
-        "date": 1727160793557,
-        "tool": "customSmallerIsBetter",
-        "title": "[Network] The cost of select (TCP fds)",
-        "description": "lat_select",
-        "display": true,
-        "benches": [
-          {
-            "name": "Average select TCP latency on Linux",
-            "value": "3.9538",
-            "unit": "µs",
-            "extra": "linux_result"
-          },
-          {
-            "name": "Average select TCP latency on Asterinas",
-            "value": "1.9224",
-            "unit": "µs",
-            "extra": "aster_result"
-          }
-        ]
-      }
-    ],
-    "tcp_loopback_http_bw": [
-      {
-        "commit": {
-          "author": {
-            "name": "Yuke Peng",
-            "username": "sdww0",
-            "email": "pykfirst@gmail.com"
-          },
-          "committer": {
-            "name": "Tate, Hongliang Tian",
-            "username": "tatetian",
-            "email": "tatetian@gmail.com"
-          },
-          "id": "539984bbed414969b0c40cf181a10e9341ed2359",
-          "message": "Replace read with read_raw",
-          "timestamp": "2024-08-29T12:46:20Z",
-          "url": "https://github.com/asterinas/asterinas/commit/539984bbed414969b0c40cf181a10e9341ed2359"
-        },
-        "date": 1724963096458,
-        "tool": "customBiggerIsBetter",
-        "description": "The bandwidth of simple HTTP transaction with 64MB file.",
-        "benches": [
-          {
-            "name": "Average simple HTTP transaction bandwidth on Linux",
-            "value": "4076.85",
-            "unit": "MB/s",
-            "extra": "linux_result"
-          },
-          {
-            "name": "Average simple HTTP transaction bandwidth on Asterinas",
-            "value": "18.44",
-            "unit": "MB/s",
-            "extra": "aster_result"
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
-            "name": "Yuke Peng",
-            "username": "sdww0",
-            "email": "pykfirst@gmail.com"
-          },
-          "committer": {
-            "name": "Tate, Hongliang Tian",
-            "username": "tatetian",
-            "email": "tatetian@gmail.com"
-          },
-          "id": "db16caf28c46e4ed24099fcba13d40b7d673164c",
-          "message": "[Semaphore] Replace Mutex with SpinLock",
-          "timestamp": "2024-08-30T11:23:53Z",
-          "url": "https://github.com/asterinas/asterinas/commit/db16caf28c46e4ed24099fcba13d40b7d673164c"
-        },
-        "date": 1725049870196,
-        "tool": "customBiggerIsBetter",
-        "description": "The bandwidth of simple HTTP transaction with 64MB file.",
-        "benches": [
-          {
-            "name": "Average simple HTTP transaction bandwidth on Linux",
-            "value": "4056.15",
-            "unit": "MB/s",
-            "extra": "linux_result"
-          },
-          {
-            "name": "Average simple HTTP transaction bandwidth on Asterinas",
-            "value": "17.91",
-            "unit": "MB/s",
-            "extra": "aster_result"
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
-            "name": "YanWQ-monad",
-            "username": "YanWQ-monad",
-            "email": "YanWQmonad@gmail.com"
-          },
-          "committer": {
-            "name": "Tate, Hongliang Tian",
-            "username": "tatetian",
-            "email": "tatetian@gmail.com"
-          },
-          "id": "e6e771e9b5ae7d223a50aa4b38994500b0db6867",
-          "message": "Better timestamp in logging",
-          "timestamp": "2024-08-30T17:51:32Z",
-          "url": "https://github.com/asterinas/asterinas/commit/e6e771e9b5ae7d223a50aa4b38994500b0db6867"
-        },
-        "date": 1725135901963,
-        "tool": "customBiggerIsBetter",
-        "description": "The bandwidth of simple HTTP transaction with 64MB file.",
-        "benches": [
-          {
-            "name": "Average simple HTTP transaction bandwidth on Linux",
-            "value": "4206.93",
-            "unit": "MB/s",
-            "extra": "linux_result"
-          },
-          {
-            "name": "Average simple HTTP transaction bandwidth on Asterinas",
-            "value": "18.25",
-            "unit": "MB/s",
-            "extra": "aster_result"
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
-            "name": "Marsman1996",
-            "username": "Marsman1996",
-            "email": "lqliuyuwei@outlook.com"
-          },
-          "committer": {
-            "name": "Tate, Hongliang Tian",
-            "username": "tatetian",
-            "email": "tatetian@gmail.com"
-          },
-          "id": "745ac6d982638d3548f09ea2aa2103e37c135153",
-          "message": "Set overflow boundary to `isize::MAX` for memory related syscalls",
-          "timestamp": "2024-08-29T14:26:36Z",
-          "url": "https://github.com/asterinas/asterinas/commit/745ac6d982638d3548f09ea2aa2103e37c135153"
-        },
-        "date": 1725222310712,
-        "tool": "customBiggerIsBetter",
-        "description": "The bandwidth of simple HTTP transaction with 64MB file.",
-        "benches": [
-          {
-            "name": "Average simple HTTP transaction bandwidth on Linux",
-            "value": "4126.23",
-            "unit": "MB/s",
-            "extra": "linux_result"
-          },
-          {
-            "name": "Average simple HTTP transaction bandwidth on Asterinas",
-            "value": "18.56",
-            "unit": "MB/s",
-            "extra": "aster_result"
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
-            "name": "Shaowei Song",
-            "username": "lucassong-mh",
-            "email": "songshaowei.ssw@antgroup.com"
-          },
-          "committer": {
-            "name": "Tate, Hongliang Tian",
-            "username": "tatetian",
-            "email": "tatetian@gmail.com"
-          },
-          "id": "963874471284ed014b76d268d933b6d13073c2cc",
-          "message": "Unseekable files need not to manipulate the `offset`",
-          "timestamp": "2024-09-02T09:48:15Z",
-          "url": "https://github.com/asterinas/asterinas/commit/963874471284ed014b76d268d933b6d13073c2cc"
-        },
-        "date": 1725399035650,
-        "tool": "customBiggerIsBetter",
-        "description": "The bandwidth of simple HTTP transaction with 64MB file.",
-        "benches": [
-          {
-            "name": "Average simple HTTP transaction bandwidth on Linux",
-            "value": "4122.17",
-            "unit": "MB/s",
-            "extra": "linux_result"
-          },
-          {
-            "name": "Average simple HTTP transaction bandwidth on Asterinas",
-            "value": "18.43",
-            "unit": "MB/s",
-            "extra": "aster_result"
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
-            "name": "Ruize Tang",
-            "username": "tangruize",
-            "email": "1466040111@qq.com"
-          },
-          "committer": {
-            "name": "Tate, Hongliang Tian",
-            "username": "tatetian",
-            "email": "tatetian@gmail.com"
-          },
-          "id": "458a6a5b3b01aebe78c124fe20be91a91f0139da",
-          "message": "Fix unexpected unlock of mutexes, add a testcase",
-          "timestamp": "2024-09-03T07:33:12Z",
-          "url": "https://github.com/asterinas/asterinas/commit/458a6a5b3b01aebe78c124fe20be91a91f0139da"
-        },
-        "date": 1725485215233,
-        "tool": "customBiggerIsBetter",
-        "description": "The bandwidth of simple HTTP transaction with 64MB file.",
-        "benches": [
-          {
-            "name": "Average simple HTTP transaction bandwidth on Linux",
-            "value": "4244.72",
-            "unit": "MB/s",
-            "extra": "linux_result"
-          },
-          {
-            "name": "Average simple HTTP transaction bandwidth on Asterinas",
-            "value": "18.75",
-            "unit": "MB/s",
-            "extra": "aster_result"
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
-            "name": "Ruize Tang",
-            "username": "tangruize",
-            "email": "1466040111@qq.com"
-          },
-          "committer": {
-            "name": "Tate, Hongliang Tian",
-            "username": "tatetian",
-            "email": "tatetian@gmail.com"
-          },
-          "id": "458a6a5b3b01aebe78c124fe20be91a91f0139da",
-          "message": "Fix unexpected unlock of mutexes, add a testcase",
-          "timestamp": "2024-09-03T07:33:12Z",
-          "url": "https://github.com/asterinas/asterinas/commit/458a6a5b3b01aebe78c124fe20be91a91f0139da"
-        },
-        "date": 1725571814983,
-        "tool": "customBiggerIsBetter",
-        "description": "The bandwidth of simple HTTP transaction with 64MB file.",
-        "benches": [
-          {
-            "name": "Average simple HTTP transaction bandwidth on Linux",
-            "value": "4155.61",
-            "unit": "MB/s",
-            "extra": "linux_result"
-          },
-          {
-            "name": "Average simple HTTP transaction bandwidth on Asterinas",
-            "value": "18.16",
-            "unit": "MB/s",
-            "extra": "aster_result"
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
-            "name": "Thomas Dickson",
-            "username": "Hoverth",
-            "email": "modscrat+github@gmail.com"
-          },
-          "committer": {
-            "name": "Tate, Hongliang Tian",
-            "username": "tatetian",
-            "email": "tatetian@gmail.com"
-          },
-          "id": "64e43d34aab13eeddea8dd7485c712acc99116ca",
-          "message": "doc: fix typo in README.md",
-          "timestamp": "2024-09-06T04:11:16Z",
-          "url": "https://github.com/asterinas/asterinas/commit/64e43d34aab13eeddea8dd7485c712acc99116ca"
-        },
-        "date": 1725658172488,
-        "tool": "customBiggerIsBetter",
-        "description": "The bandwidth of simple HTTP transaction with 64MB file.",
-        "benches": [
-          {
-            "name": "Average simple HTTP transaction bandwidth on Linux",
-            "value": "4229.47",
-            "unit": "MB/s",
-            "extra": "linux_result"
-          },
-          {
-            "name": "Average simple HTTP transaction bandwidth on Asterinas",
-            "value": "18.25",
-            "unit": "MB/s",
-            "extra": "aster_result"
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
-            "name": "Zhang Junyang",
-            "username": "junyang-zh",
-            "email": "junyang@stu.pku.edu.cn"
-          },
-          "committer": {
-            "name": "Tate, Hongliang Tian",
-            "username": "tatetian",
-            "email": "tatetian@gmail.com"
-          },
-          "id": "c68302f7007225fa47f22a1085a8c59dcdae2ad4",
-          "message": "Don't hold any locks while waiting in `EpollFile`",
-          "timestamp": "2024-09-06T12:05:01Z",
-          "url": "https://github.com/asterinas/asterinas/commit/c68302f7007225fa47f22a1085a8c59dcdae2ad4"
-        },
-        "date": 1725744415706,
-        "tool": "customBiggerIsBetter",
-        "description": "The bandwidth of simple HTTP transaction with 64MB file.",
-        "benches": [
-          {
-            "name": "Average simple HTTP transaction bandwidth on Linux",
-            "value": "4179.16",
-            "unit": "MB/s",
-            "extra": "linux_result"
-          },
-          {
-            "name": "Average simple HTTP transaction bandwidth on Asterinas",
-            "value": "18.01",
-            "unit": "MB/s",
-            "extra": "aster_result"
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
-            "name": "Zhang Junyang",
-            "username": "junyang-zh",
-            "email": "junyang@stu.pku.edu.cn"
-          },
-          "committer": {
-            "name": "Tate, Hongliang Tian",
-            "username": "tatetian",
-            "email": "tatetian@gmail.com"
-          },
-          "id": "c68302f7007225fa47f22a1085a8c59dcdae2ad4",
-          "message": "Don't hold any locks while waiting in `EpollFile`",
-          "timestamp": "2024-09-06T12:05:01Z",
-          "url": "https://github.com/asterinas/asterinas/commit/c68302f7007225fa47f22a1085a8c59dcdae2ad4"
-        },
-        "date": 1725917295650,
-        "tool": "customBiggerIsBetter",
-        "description": "The bandwidth of simple HTTP transaction with 64MB file.",
-        "benches": [
-          {
-            "name": "Average simple HTTP transaction bandwidth on Linux",
-            "value": "4195.89",
-            "unit": "MB/s",
-            "extra": "linux_result"
-          },
-          {
-            "name": "Average simple HTTP transaction bandwidth on Asterinas",
-            "value": "18.45",
-            "unit": "MB/s",
-            "extra": "aster_result"
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
-            "name": "Zhang Junyang",
-            "username": "junyang-zh",
-            "email": "junyang@stu.pku.edu.cn"
-          },
-          "committer": {
-            "name": "Tate, Hongliang Tian",
-            "username": "tatetian",
-            "email": "tatetian@gmail.com"
-          },
-          "id": "c68302f7007225fa47f22a1085a8c59dcdae2ad4",
-          "message": "Don't hold any locks while waiting in `EpollFile`",
-          "timestamp": "2024-09-06T12:05:01Z",
-          "url": "https://github.com/asterinas/asterinas/commit/c68302f7007225fa47f22a1085a8c59dcdae2ad4"
-        },
-        "date": 1726003717508,
-        "tool": "customBiggerIsBetter",
-        "description": "The bandwidth of simple HTTP transaction with 64MB file.",
-        "benches": [
-          {
-            "name": "Average simple HTTP transaction bandwidth on Linux",
-            "value": "4282.64",
-            "unit": "MB/s",
-            "extra": "linux_result"
-          },
-          {
-            "name": "Average simple HTTP transaction bandwidth on Asterinas",
-            "value": "18.26",
-            "unit": "MB/s",
-            "extra": "aster_result"
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
-            "name": "Shaowei Song",
-            "username": "lucassong-mh",
-            "email": "songshaowei.ssw@antgroup.com"
-          },
-          "committer": {
-            "name": "Tate, Hongliang Tian",
-            "username": "tatetian",
-            "email": "tatetian@gmail.com"
-          },
-          "id": "8bfbdf6642a9d04db3490792926d6a299d1e30be",
-          "message": "Optimize the lock usage in `RamInode`'s read/write",
-          "timestamp": "2024-09-02T13:23:46Z",
-          "url": "https://github.com/asterinas/asterinas/commit/8bfbdf6642a9d04db3490792926d6a299d1e30be"
-        },
-        "date": 1726086379811,
-        "tool": "customBiggerIsBetter",
-        "description": "The bandwidth of simple HTTP transaction with 64MB file.",
-        "benches": [
-          {
-            "name": "Average simple HTTP transaction bandwidth on Linux",
-            "value": "4175.52",
-            "unit": "MB/s",
-            "extra": "linux_result"
-          },
-          {
-            "name": "Average simple HTTP transaction bandwidth on Asterinas",
-            "value": "18.76",
-            "unit": "MB/s",
-            "extra": "aster_result"
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
-            "name": "Marsman1996",
-            "username": "Marsman1996",
-            "email": "lqliuyuwei@outlook.com"
-          },
-          "committer": {
-            "name": "Tate, Hongliang Tian",
-            "username": "tatetian",
-            "email": "tatetian@gmail.com"
-          },
-          "id": "6fcad6ce143b8f65e8be76297eb95a9cb56da22e",
-          "message": "Fix integer overflow in handle_page_faults_around",
-          "timestamp": "2024-09-12T12:15:04Z",
-          "url": "https://github.com/asterinas/asterinas/commit/6fcad6ce143b8f65e8be76297eb95a9cb56da22e"
-        },
-        "date": 1726172945892,
-        "tool": "customBiggerIsBetter",
-        "description": "The bandwidth of simple HTTP transaction with 64MB file.",
-        "benches": [
-          {
-            "name": "Average simple HTTP transaction bandwidth on Linux",
-            "value": "4126.23",
-            "unit": "MB/s",
-            "extra": "linux_result"
-          },
-          {
-            "name": "Average simple HTTP transaction bandwidth on Asterinas",
-            "value": "18.65",
-            "unit": "MB/s",
-            "extra": "aster_result"
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
-            "name": "Yuke Peng",
-            "username": "sdww0",
-            "email": "pykfirst@gmail.com"
-          },
-          "committer": {
-            "name": "Tate, Hongliang Tian",
-            "username": "tatetian",
-            "email": "tatetian@gmail.com"
-          },
-          "id": "32ea24e945efde86117d2278a48145d71b9ec90c",
-          "message": "Bump version to 0.8.2",
-          "timestamp": "2024-09-13T05:02:35Z",
-          "url": "https://github.com/asterinas/asterinas/commit/32ea24e945efde86117d2278a48145d71b9ec90c"
-        },
-        "date": 1726261300170,
-        "tool": "customBiggerIsBetter",
-        "title": "[HTTP] The bandwidth",
-        "description": "bw_http",
-        "display": true,
-        "benches": [
-          {
-            "name": "Average simple HTTP transaction bandwidth on Linux",
-            "value": "3629.87",
-            "unit": "MB/s",
-            "extra": "linux_result"
-          },
-          {
-            "name": "Average simple HTTP transaction bandwidth on Asterinas",
-            "value": "18.22",
-            "unit": "MB/s",
-            "extra": "aster_result"
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
-            "name": "Fabing Li",
-            "username": "grief8",
-            "email": "lifabing.lfb@antgroup.com"
-          },
-          "committer": {
-            "name": "Fabing Li",
-            "username": "grief8",
-            "email": "lifabing.lfb@antgroup.com"
-          },
-          "id": "adfb4a081356bea739a1720f284c3e66d6a96d19",
-          "message": "test",
-          "timestamp": "2024-09-14T03:47:04Z",
-          "url": "https://github.com/grief8/asterinas/commit/adfb4a081356bea739a1720f284c3e66d6a96d19"
-        },
-        "date": 1726640721357,
-        "tool": "customBiggerIsBetter",
-        "title": "[HTTP] The bandwidth",
-        "description": "bw_http",
-        "display": true,
-        "benches": [
-          {
-            "name": "Average simple HTTP transaction bandwidth on Linux",
-            "value": "4094.51",
-            "unit": "MB/s",
-            "extra": "linux_result"
-          },
-          {
-            "name": "Average simple HTTP transaction bandwidth on Asterinas",
-            "value": "23.37",
-            "unit": "MB/s",
-            "extra": "aster_result"
-          }
-        ]
-      }
-    ],
-    "vfs_fcntl_lat": [
-      {
-        "commit": {
-          "author": {
-            "name": "Fabing Li",
-            "username": "grief8",
-            "email": "lifabing.lfb@antgroup.com"
-          },
-          "committer": {
-            "name": "Fabing Li",
-            "username": "grief8",
-            "email": "lifabing.lfb@antgroup.com"
-          },
-          "id": "52871246d45bbd86954f1d1dd5c65c98e1656064",
-          "message": "uP",
-          "timestamp": "2024-09-24T06:48:01Z",
-          "url": "https://github.com/grief8/asterinas/commit/52871246d45bbd86954f1d1dd5c65c98e1656064"
-        },
-        "date": 1727160799258,
-        "tool": "customSmallerIsBetter",
-        "title": "[VFS] The cost of record locking/unlocking via fcntl",
-        "description": "lat_fcntl",
-        "display": true,
-        "benches": [
-          {
-            "name": "Average file locking latency on Linux",
-            "value": "2.2142",
-            "unit": "µs",
-            "extra": "linux_result"
-          },
-          {
-            "name": "Average file locking latency on Asterinas",
-            "value": "1.9013",
-            "unit": "µs",
-            "extra": "aster_result"
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
-            "name": "Fabing Li",
-            "username": "grief8",
-            "email": "lifabing.lfb@antgroup.com"
-          },
-          "committer": {
-            "name": "Fabing Li",
-            "username": "grief8",
-            "email": "lifabing.lfb@antgroup.com"
-          },
-          "id": "bb8d2fe583df04a06eaf4c931270c55dd06f48ae",
-          "message": "iuu",
-          "timestamp": "2024-09-24T06:58:54Z",
-          "url": "https://github.com/grief8/asterinas/commit/bb8d2fe583df04a06eaf4c931270c55dd06f48ae"
-        },
-        "date": 1727168668165,
-        "tool": "customSmallerIsBetter",
-        "title": "[VFS] The cost of record locking/unlocking via fcntl",
-        "description": "lat_fcntl",
-        "display": true,
-        "benches": [
-          {
-            "name": "Average file locking latency on Linux",
-            "value": "2.2379",
-            "unit": "µs",
-            "extra": "linux_result"
-          },
-          {
-            "name": "Average file locking latency on Asterinas",
-            "value": "1.8794",
+            "name": "Average unix connect latency on Asterinas",
+            "value": "7.0706",
             "unit": "µs",
             "extra": "aster_result"
           }
@@ -14640,3556 +14945,6 @@ window.BENCHMARK_DATA = {
           {
             "name": "Average open latency on Asterinas",
             "value": "0.7926",
-            "unit": "µs",
-            "extra": "aster_result"
-          }
-        ]
-      }
-    ],
-    "vfs_read_lat": [
-      {
-        "commit": {
-          "author": {
-            "name": "Shaowei Song",
-            "username": "lucassong-mh",
-            "email": "songshaowei.ssw@antgroup.com"
-          },
-          "committer": {
-            "name": "Tate, Hongliang Tian",
-            "username": "tatetian",
-            "email": "tatetian@gmail.com"
-          },
-          "id": "20a856b07fa8210fdd2d46d3feb5087004c27afb",
-          "message": "Revise the naming of all sync/async io APIs",
-          "timestamp": "2024-07-30T09:31:02Z",
-          "url": "https://github.com/asterinas/asterinas/commit/20a856b07fa8210fdd2d46d3feb5087004c27afb"
-        },
-        "date": 1722371022140,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Average read latency on Linux",
-            "value": "0.3452",
-            "unit": "ms",
-            "extra": "linux_result"
-          },
-          {
-            "name": "Average read latency on Asterinas",
-            "value": "0.4317",
-            "unit": "ms",
-            "extra": "aster_result"
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
-            "name": "Shaowei Song",
-            "username": "lucassong-mh",
-            "email": "songshaowei.ssw@antgroup.com"
-          },
-          "committer": {
-            "name": "Tate, Hongliang Tian",
-            "username": "tatetian",
-            "email": "tatetian@gmail.com"
-          },
-          "id": "20a856b07fa8210fdd2d46d3feb5087004c27afb",
-          "message": "Revise the naming of all sync/async io APIs",
-          "timestamp": "2024-07-30T09:31:02Z",
-          "url": "https://github.com/asterinas/asterinas/commit/20a856b07fa8210fdd2d46d3feb5087004c27afb"
-        },
-        "date": 1722457493309,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Average read latency on Linux",
-            "value": "0.3472",
-            "unit": "ms",
-            "extra": "linux_result"
-          },
-          {
-            "name": "Average read latency on Asterinas",
-            "value": "0.4338",
-            "unit": "ms",
-            "extra": "aster_result"
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
-            "name": "Shaowei Song",
-            "username": "lucassong-mh",
-            "email": "songshaowei.ssw@antgroup.com"
-          },
-          "committer": {
-            "name": "Tate, Hongliang Tian",
-            "username": "tatetian",
-            "email": "tatetian@gmail.com"
-          },
-          "id": "20a856b07fa8210fdd2d46d3feb5087004c27afb",
-          "message": "Revise the naming of all sync/async io APIs",
-          "timestamp": "2024-07-30T09:31:02Z",
-          "url": "https://github.com/asterinas/asterinas/commit/20a856b07fa8210fdd2d46d3feb5087004c27afb"
-        },
-        "date": 1722543896881,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Average read latency on Linux",
-            "value": "0.3556",
-            "unit": "ms",
-            "extra": "linux_result"
-          },
-          {
-            "name": "Average read latency on Asterinas",
-            "value": "0.4242",
-            "unit": "ms",
-            "extra": "aster_result"
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
-            "name": "Yuke Peng",
-            "username": "sdww0",
-            "email": "pykfirst@gmail.com"
-          },
-          "committer": {
-            "name": "Tate, Hongliang Tian",
-            "username": "tatetian",
-            "email": "tatetian@gmail.com"
-          },
-          "id": "6f8978193c7a73a51403a8751314ddebc1c1983f",
-          "message": "Add benchmarks to workflow",
-          "timestamp": "2024-08-02T13:40:56Z",
-          "url": "https://github.com/asterinas/asterinas/commit/6f8978193c7a73a51403a8751314ddebc1c1983f"
-        },
-        "date": 1722630336787,
-        "tool": "customSmallerIsBetter",
-        "description": "The latency of the read system call on a single processor.",
-        "benches": [
-          {
-            "name": "Average read latency on Linux",
-            "value": "0.3473",
-            "unit": "µs",
-            "extra": "linux_result"
-          },
-          {
-            "name": "Average read latency on Asterinas",
-            "value": "0.4321",
-            "unit": "µs",
-            "extra": "aster_result"
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
-            "name": "Yuke Peng",
-            "username": "sdww0",
-            "email": "pykfirst@gmail.com"
-          },
-          "committer": {
-            "name": "Tate, Hongliang Tian",
-            "username": "tatetian",
-            "email": "tatetian@gmail.com"
-          },
-          "id": "6f8978193c7a73a51403a8751314ddebc1c1983f",
-          "message": "Add benchmarks to workflow",
-          "timestamp": "2024-08-02T13:40:56Z",
-          "url": "https://github.com/asterinas/asterinas/commit/6f8978193c7a73a51403a8751314ddebc1c1983f"
-        },
-        "date": 1722716913919,
-        "tool": "customSmallerIsBetter",
-        "description": "The latency of the read system call on a single processor.",
-        "benches": [
-          {
-            "name": "Average read latency on Linux",
-            "value": "0.3514",
-            "unit": "µs",
-            "extra": "linux_result"
-          },
-          {
-            "name": "Average read latency on Asterinas",
-            "value": "0.4313",
-            "unit": "µs",
-            "extra": "aster_result"
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
-            "name": "Zhang Junyang",
-            "username": "junyang-zh",
-            "email": "junyang@stu.pku.edu.cn"
-          },
-          "committer": {
-            "name": "Tate, Hongliang Tian",
-            "username": "tatetian",
-            "email": "tatetian@gmail.com"
-          },
-          "id": "16690bc61b0bb8d90dbb1cec8a317ba34aa09f71",
-          "message": "Implement atomic signal masks and refactor `SigSet`",
-          "timestamp": "2024-08-02T08:26:56Z",
-          "url": "https://github.com/asterinas/asterinas/commit/16690bc61b0bb8d90dbb1cec8a317ba34aa09f71"
-        },
-        "date": 1722803266891,
-        "tool": "customSmallerIsBetter",
-        "description": "The latency of the read system call on a single processor.",
-        "benches": [
-          {
-            "name": "Average read latency on Linux",
-            "value": "0.3543",
-            "unit": "µs",
-            "extra": "linux_result"
-          },
-          {
-            "name": "Average read latency on Asterinas",
-            "value": "0.4059",
-            "unit": "µs",
-            "extra": "aster_result"
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
-            "name": "azongchang",
-            "username": "azongchang",
-            "email": "azongchang@qq.com"
-          },
-          "committer": {
-            "name": "Tate, Hongliang Tian",
-            "username": "tatetian",
-            "email": "tatetian@gmail.com"
-          },
-          "id": "aa84b31634b9c710e04b337c5d1b8fa207f8dbde",
-          "message": "Add the description of encoding option to the OSDK document",
-          "timestamp": "2024-08-05T05:52:13Z",
-          "url": "https://github.com/asterinas/asterinas/commit/aa84b31634b9c710e04b337c5d1b8fa207f8dbde"
-        },
-        "date": 1722889646500,
-        "tool": "customSmallerIsBetter",
-        "description": "The latency of the read system call on a single processor.",
-        "benches": [
-          {
-            "name": "Average read latency on Linux",
-            "value": "0.3453",
-            "unit": "µs",
-            "extra": "linux_result"
-          },
-          {
-            "name": "Average read latency on Asterinas",
-            "value": "0.4042",
-            "unit": "µs",
-            "extra": "aster_result"
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
-            "name": "Ruihan Li",
-            "username": "lrh2000",
-            "email": "lrh2000@pku.edu.cn"
-          },
-          "committer": {
-            "name": "Tate, Hongliang Tian",
-            "username": "tatetian",
-            "email": "tatetian@gmail.com"
-          },
-          "id": "b1ea422efaf6b0becd7d6cd99d270ae01fcd12de",
-          "message": "Fix accesses to VirtIO queue DMA",
-          "timestamp": "2024-08-05T14:06:02Z",
-          "url": "https://github.com/asterinas/asterinas/commit/b1ea422efaf6b0becd7d6cd99d270ae01fcd12de"
-        },
-        "date": 1722976175256,
-        "tool": "customSmallerIsBetter",
-        "description": "The latency of the read system call on a single processor.",
-        "benches": [
-          {
-            "name": "Average read latency on Linux",
-            "value": "0.3468",
-            "unit": "µs",
-            "extra": "linux_result"
-          },
-          {
-            "name": "Average read latency on Asterinas",
-            "value": "0.3994",
-            "unit": "µs",
-            "extra": "aster_result"
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
-            "name": "Ruihan Li",
-            "username": "lrh2000",
-            "email": "lrh2000@pku.edu.cn"
-          },
-          "committer": {
-            "name": "Tate, Hongliang Tian",
-            "username": "tatetian",
-            "email": "tatetian@gmail.com"
-          },
-          "id": "b1ea422efaf6b0becd7d6cd99d270ae01fcd12de",
-          "message": "Fix accesses to VirtIO queue DMA",
-          "timestamp": "2024-08-05T14:06:02Z",
-          "url": "https://github.com/asterinas/asterinas/commit/b1ea422efaf6b0becd7d6cd99d270ae01fcd12de"
-        },
-        "date": 1723062541245,
-        "tool": "customSmallerIsBetter",
-        "description": "The latency of the read system call on a single processor.",
-        "benches": [
-          {
-            "name": "Average read latency on Linux",
-            "value": "0.3477",
-            "unit": "µs",
-            "extra": "linux_result"
-          },
-          {
-            "name": "Average read latency on Asterinas",
-            "value": "0.3993",
-            "unit": "µs",
-            "extra": "aster_result"
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
-            "name": "Jianfeng Jiang",
-            "username": "StevenJiang1110",
-            "email": "jiangjianfeng.jjf@antgroup.com"
-          },
-          "committer": {
-            "name": "Tate, Hongliang Tian",
-            "username": "tatetian",
-            "email": "tatetian@gmail.com"
-          },
-          "id": "6414111cc57b42db2bae1a0c8b01b85c3830a3b3",
-          "message": "Support flag SA_RESETHAND",
-          "timestamp": "2024-08-07T09:17:46Z",
-          "url": "https://github.com/asterinas/asterinas/commit/6414111cc57b42db2bae1a0c8b01b85c3830a3b3"
-        },
-        "date": 1723103425490,
-        "tool": "customSmallerIsBetter",
-        "description": "The latency of the read system call on a single processor.",
-        "benches": [
-          {
-            "name": "Average read latency on Linux",
-            "value": "0.3531",
-            "unit": "µs",
-            "extra": "linux_result"
-          },
-          {
-            "name": "Average read latency on Asterinas",
-            "value": "0.4074",
-            "unit": "µs",
-            "extra": "aster_result"
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
-            "name": "Chen Chengjun",
-            "username": "cchanging",
-            "email": "chenchengjun.ccj@antgroup.com"
-          },
-          "committer": {
-            "name": "Tate, Hongliang Tian",
-            "username": "tatetian",
-            "email": "tatetian@gmail.com"
-          },
-          "id": "acb4833aae0476d7ed2d61871036aff3eaf77c5d",
-          "message": "Optimize trim_mappings",
-          "timestamp": "2024-08-02T03:14:14Z",
-          "url": "https://github.com/asterinas/asterinas/commit/acb4833aae0476d7ed2d61871036aff3eaf77c5d"
-        },
-        "date": 1723148875533,
-        "tool": "customSmallerIsBetter",
-        "description": "The latency of the read system call on a single processor.",
-        "benches": [
-          {
-            "name": "Average read latency on Linux",
-            "value": "0.3702",
-            "unit": "µs",
-            "extra": "linux_result"
-          },
-          {
-            "name": "Average read latency on Asterinas",
-            "value": "0.3925",
-            "unit": "µs",
-            "extra": "aster_result"
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
-            "name": "Chen Chengjun",
-            "username": "cchanging",
-            "email": "chenchengjun.ccj@antgroup.com"
-          },
-          "committer": {
-            "name": "Tate, Hongliang Tian",
-            "username": "tatetian",
-            "email": "tatetian@gmail.com"
-          },
-          "id": "75da7fd30eca1e80ad57da15bfe5dff6963c03c1",
-          "message": "Replace old user space read/write with new APIs",
-          "timestamp": "2024-08-09T08:11:43Z",
-          "url": "https://github.com/asterinas/asterinas/commit/75da7fd30eca1e80ad57da15bfe5dff6963c03c1"
-        },
-        "date": 1723235263412,
-        "tool": "customSmallerIsBetter",
-        "description": "The latency of the read system call on a single processor.",
-        "benches": [
-          {
-            "name": "Average read latency on Linux",
-            "value": "0.3715",
-            "unit": "µs",
-            "extra": "linux_result"
-          },
-          {
-            "name": "Average read latency on Asterinas",
-            "value": "0.3995",
-            "unit": "µs",
-            "extra": "aster_result"
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
-            "name": "Hsy-Intel",
-            "username": "Hsy-Intel",
-            "email": "siyuan.hui@intel.com"
-          },
-          "committer": {
-            "name": "Tate, Hongliang Tian",
-            "username": "tatetian",
-            "email": "tatetian@gmail.com"
-          },
-          "id": "a739b3828d106d4e09fe2ba7dd8eed12d18dd20a",
-          "message": "Use tdx-guest crate VE handler and support release mode for TDX",
-          "timestamp": "2024-08-09T10:56:43Z",
-          "url": "https://github.com/asterinas/asterinas/commit/a739b3828d106d4e09fe2ba7dd8eed12d18dd20a"
-        },
-        "date": 1723321640072,
-        "tool": "customSmallerIsBetter",
-        "description": "The latency of the read system call on a single processor.",
-        "benches": [
-          {
-            "name": "Average read latency on Linux",
-            "value": "0.3457",
-            "unit": "µs",
-            "extra": "linux_result"
-          },
-          {
-            "name": "Average read latency on Asterinas",
-            "value": "0.4001",
-            "unit": "µs",
-            "extra": "aster_result"
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
-            "name": "Hsy-Intel",
-            "username": "Hsy-Intel",
-            "email": "siyuan.hui@intel.com"
-          },
-          "committer": {
-            "name": "Tate, Hongliang Tian",
-            "username": "tatetian",
-            "email": "tatetian@gmail.com"
-          },
-          "id": "a739b3828d106d4e09fe2ba7dd8eed12d18dd20a",
-          "message": "Use tdx-guest crate VE handler and support release mode for TDX",
-          "timestamp": "2024-08-09T10:56:43Z",
-          "url": "https://github.com/asterinas/asterinas/commit/a739b3828d106d4e09fe2ba7dd8eed12d18dd20a"
-        },
-        "date": 1723408173748,
-        "tool": "customSmallerIsBetter",
-        "description": "The latency of the read system call on a single processor.",
-        "benches": [
-          {
-            "name": "Average read latency on Linux",
-            "value": "0.3452",
-            "unit": "µs",
-            "extra": "linux_result"
-          },
-          {
-            "name": "Average read latency on Asterinas",
-            "value": "0.3985",
-            "unit": "µs",
-            "extra": "aster_result"
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
-            "name": "Fabing Li",
-            "username": "grief8",
-            "email": "lifabing.lfb@antgroup.com"
-          },
-          "committer": {
-            "name": "Tate, Hongliang Tian",
-            "username": "tatetian",
-            "email": "tatetian@gmail.com"
-          },
-          "id": "f9bae1eee90c49d715569208009cc2c66768fe9a",
-          "message": "Fix lmbench-ctx extraction",
-          "timestamp": "2024-08-12T07:13:36Z",
-          "url": "https://github.com/asterinas/asterinas/commit/f9bae1eee90c49d715569208009cc2c66768fe9a"
-        },
-        "date": 1723494527165,
-        "tool": "customSmallerIsBetter",
-        "description": "The latency of the read system call on a single processor.",
-        "benches": [
-          {
-            "name": "Average read latency on Linux",
-            "value": "0.3492",
-            "unit": "µs",
-            "extra": "linux_result"
-          },
-          {
-            "name": "Average read latency on Asterinas",
-            "value": "0.3465",
-            "unit": "µs",
-            "extra": "aster_result"
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
-            "name": "Zhang Junyang",
-            "username": "junyang-zh",
-            "email": "junyang@stu.pku.edu.cn"
-          },
-          "committer": {
-            "name": "Tate, Hongliang Tian",
-            "username": "tatetian",
-            "email": "tatetian@gmail.com"
-          },
-          "id": "be54a39592ff60fae6e729abaa3d4a26dd7f5624",
-          "message": "Remove the preempt guard from the IRQ guard",
-          "timestamp": "2024-08-12T13:04:53Z",
-          "url": "https://github.com/asterinas/asterinas/commit/be54a39592ff60fae6e729abaa3d4a26dd7f5624"
-        },
-        "date": 1723580988410,
-        "tool": "customSmallerIsBetter",
-        "description": "The latency of the read system call on a single processor.",
-        "benches": [
-          {
-            "name": "Average read latency on Linux",
-            "value": "0.3440",
-            "unit": "µs",
-            "extra": "linux_result"
-          },
-          {
-            "name": "Average read latency on Asterinas",
-            "value": "0.3387",
-            "unit": "µs",
-            "extra": "aster_result"
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
-            "name": "Zhang Junyang",
-            "username": "junyang-zh",
-            "email": "junyang@stu.pku.edu.cn"
-          },
-          "committer": {
-            "name": "Tate, Hongliang Tian",
-            "username": "tatetian",
-            "email": "tatetian@gmail.com"
-          },
-          "id": "4844e7ca7ca6d78896a51a71487a6fdfe9ca6654",
-          "message": "Allow page table protectors to flush TLB entries precisely",
-          "timestamp": "2024-08-12T08:11:45Z",
-          "url": "https://github.com/asterinas/asterinas/commit/4844e7ca7ca6d78896a51a71487a6fdfe9ca6654"
-        },
-        "date": 1723667200263,
-        "tool": "customSmallerIsBetter",
-        "description": "The latency of the read system call on a single processor.",
-        "benches": [
-          {
-            "name": "Average read latency on Linux",
-            "value": "0.3965",
-            "unit": "µs",
-            "extra": "linux_result"
-          },
-          {
-            "name": "Average read latency on Asterinas",
-            "value": "0.3373",
-            "unit": "µs",
-            "extra": "aster_result"
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
-            "name": "Chen Chengjun",
-            "username": "cchanging",
-            "email": "chenchengjun.ccj@antgroup.com"
-          },
-          "committer": {
-            "name": "Tate, Hongliang Tian",
-            "username": "tatetian",
-            "email": "tatetian@gmail.com"
-          },
-          "id": "99a22ff124972872838fa5dc7094fa9a5eea557e",
-          "message": "Improve efficiency of global TLB flushing",
-          "timestamp": "2024-08-15T08:53:54Z",
-          "url": "https://github.com/asterinas/asterinas/commit/99a22ff124972872838fa5dc7094fa9a5eea557e"
-        },
-        "date": 1723753925901,
-        "tool": "customSmallerIsBetter",
-        "description": "The latency of the read system call on a single processor.",
-        "benches": [
-          {
-            "name": "Average read latency on Linux",
-            "value": "0.3445",
-            "unit": "µs",
-            "extra": "linux_result"
-          },
-          {
-            "name": "Average read latency on Asterinas",
-            "value": "0.3083",
-            "unit": "µs",
-            "extra": "aster_result"
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
-            "name": "Jianfeng Jiang",
-            "username": "StevenJiang1110",
-            "email": "jiangjianfeng.jjf@antgroup.com"
-          },
-          "committer": {
-            "name": "Tate, Hongliang Tian",
-            "username": "tatetian",
-            "email": "tatetian@gmail.com"
-          },
-          "id": "0291b5dc6bb142b9c6165c1cb29b7658eefdaa63",
-          "message": "Optimize the latency of lmbench-select-file",
-          "timestamp": "2024-08-15T03:44:30Z",
-          "url": "https://github.com/asterinas/asterinas/commit/0291b5dc6bb142b9c6165c1cb29b7658eefdaa63"
-        },
-        "date": 1723780167503,
-        "tool": "customSmallerIsBetter",
-        "description": "The latency of the read system call on a single processor.",
-        "benches": [
-          {
-            "name": "Average read latency on Linux",
-            "value": "0.3723",
-            "unit": "µs",
-            "extra": "linux_result"
-          },
-          {
-            "name": "Average read latency on Asterinas",
-            "value": "0.3102",
-            "unit": "µs",
-            "extra": "aster_result"
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
-            "name": "Jianfeng Jiang",
-            "username": "StevenJiang1110",
-            "email": "jiangjianfeng.jjf@antgroup.com"
-          },
-          "committer": {
-            "name": "Tate, Hongliang Tian",
-            "username": "tatetian",
-            "email": "tatetian@gmail.com"
-          },
-          "id": "0291b5dc6bb142b9c6165c1cb29b7658eefdaa63",
-          "message": "Optimize the latency of lmbench-select-file",
-          "timestamp": "2024-08-15T03:44:30Z",
-          "url": "https://github.com/asterinas/asterinas/commit/0291b5dc6bb142b9c6165c1cb29b7658eefdaa63"
-        },
-        "date": 1723783502984,
-        "tool": "customSmallerIsBetter",
-        "description": "The latency of the read system call on a single processor.",
-        "benches": [
-          {
-            "name": "Average read latency on Linux",
-            "value": "0.3599",
-            "unit": "µs",
-            "extra": "linux_result"
-          },
-          {
-            "name": "Average read latency on Asterinas",
-            "value": "0.3141",
-            "unit": "µs",
-            "extra": "aster_result"
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
-            "name": "Jianfeng Jiang",
-            "username": "StevenJiang1110",
-            "email": "jiangjianfeng.jjf@antgroup.com"
-          },
-          "committer": {
-            "name": "Tate, Hongliang Tian",
-            "username": "tatetian",
-            "email": "tatetian@gmail.com"
-          },
-          "id": "0291b5dc6bb142b9c6165c1cb29b7658eefdaa63",
-          "message": "Optimize the latency of lmbench-select-file",
-          "timestamp": "2024-08-15T03:44:30Z",
-          "url": "https://github.com/asterinas/asterinas/commit/0291b5dc6bb142b9c6165c1cb29b7658eefdaa63"
-        },
-        "date": 1723840318067,
-        "tool": "customSmallerIsBetter",
-        "description": "The latency of the read system call on a single processor.",
-        "benches": [
-          {
-            "name": "Average read latency on Linux",
-            "value": "0.3840",
-            "unit": "µs",
-            "extra": "linux_result"
-          },
-          {
-            "name": "Average read latency on Asterinas",
-            "value": "0.3042",
-            "unit": "µs",
-            "extra": "aster_result"
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
-            "name": "Fabing Li",
-            "username": "grief8",
-            "email": "lifabing.lfb@antgroup.com"
-          },
-          "committer": {
-            "name": "Tate, Hongliang Tian",
-            "username": "tatetian",
-            "email": "tatetian@gmail.com"
-          },
-          "id": "ce2af1eb057077753a7a757edc1833e677a83918",
-          "message": "Add flock and sys_flock",
-          "timestamp": "2024-08-12T03:51:41Z",
-          "url": "https://github.com/asterinas/asterinas/commit/ce2af1eb057077753a7a757edc1833e677a83918"
-        },
-        "date": 1723926706537,
-        "tool": "customSmallerIsBetter",
-        "description": "The latency of the read system call on a single processor.",
-        "benches": [
-          {
-            "name": "Average read latency on Linux",
-            "value": "0.3507",
-            "unit": "µs",
-            "extra": "linux_result"
-          },
-          {
-            "name": "Average read latency on Asterinas",
-            "value": "0.3160",
-            "unit": "µs",
-            "extra": "aster_result"
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
-            "name": "Yuke Peng",
-            "username": "sdww0",
-            "email": "pykfirst@gmail.com"
-          },
-          "committer": {
-            "name": "Tate, Hongliang Tian",
-            "username": "tatetian",
-            "email": "tatetian@gmail.com"
-          },
-          "id": "bbe43d76cc25538f04261379407f4fa721a13431",
-          "message": "Fix compile error due to `lock_irq_disabled`",
-          "timestamp": "2024-08-19T01:02:51Z",
-          "url": "https://github.com/asterinas/asterinas/commit/bbe43d76cc25538f04261379407f4fa721a13431"
-        },
-        "date": 1724100034366,
-        "tool": "customSmallerIsBetter",
-        "description": "The latency of the read system call on a single processor.",
-        "benches": [
-          {
-            "name": "Average read latency on Linux",
-            "value": "0.3500",
-            "unit": "µs",
-            "extra": "linux_result"
-          },
-          {
-            "name": "Average read latency on Asterinas",
-            "value": "0.3103",
-            "unit": "µs",
-            "extra": "aster_result"
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
-            "name": "Marsman1996",
-            "username": "Marsman1996",
-            "email": "lqliuyuwei@outlook.com"
-          },
-          "committer": {
-            "name": "Tate, Hongliang Tian",
-            "username": "tatetian",
-            "email": "tatetian@gmail.com"
-          },
-          "id": "fda0fa051265867c2399f4981fdccb9cc6df110d",
-          "message": "Align `len` in `madvise`",
-          "timestamp": "2024-08-19T09:01:16Z",
-          "url": "https://github.com/asterinas/asterinas/commit/fda0fa051265867c2399f4981fdccb9cc6df110d"
-        },
-        "date": 1724186571058,
-        "tool": "customSmallerIsBetter",
-        "description": "The latency of the read system call on a single processor.",
-        "benches": [
-          {
-            "name": "Average read latency on Linux",
-            "value": "0.3434",
-            "unit": "µs",
-            "extra": "linux_result"
-          },
-          {
-            "name": "Average read latency on Asterinas",
-            "value": "0.3141",
-            "unit": "µs",
-            "extra": "aster_result"
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
-            "name": "Shaowei Song",
-            "username": "lucassong-mh",
-            "email": "songshaowei.ssw@antgroup.com"
-          },
-          "committer": {
-            "name": "Tate, Hongliang Tian",
-            "username": "tatetian",
-            "email": "tatetian@gmail.com"
-          },
-          "id": "2102107be18729fba8f3546d5a3fe39c819d814a",
-          "message": "Refactor `VmReader`&`VmWriter` as given fallibility marker",
-          "timestamp": "2024-08-20T02:05:25Z",
-          "url": "https://github.com/asterinas/asterinas/commit/2102107be18729fba8f3546d5a3fe39c819d814a"
-        },
-        "date": 1724272863377,
-        "tool": "customSmallerIsBetter",
-        "description": "The latency of the read system call on a single processor.",
-        "benches": [
-          {
-            "name": "Average read latency on Linux",
-            "value": "0.3603",
-            "unit": "µs",
-            "extra": "linux_result"
-          },
-          {
-            "name": "Average read latency on Asterinas",
-            "value": "0.3132",
-            "unit": "µs",
-            "extra": "aster_result"
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
-            "name": "Yuke Peng",
-            "username": "sdww0",
-            "email": "pykfirst@gmail.com"
-          },
-          "committer": {
-            "name": "Tate, Hongliang Tian",
-            "username": "tatetian",
-            "email": "tatetian@gmail.com"
-          },
-          "id": "bb4751741a6cd6b919015f8f483512c90e73bf55",
-          "message": "Bump smoltcp to newest git version",
-          "timestamp": "2024-08-22T06:34:41Z",
-          "url": "https://github.com/asterinas/asterinas/commit/bb4751741a6cd6b919015f8f483512c90e73bf55"
-        },
-        "date": 1724359773843,
-        "tool": "customSmallerIsBetter",
-        "description": "The latency of the read system call on a single processor.",
-        "benches": [
-          {
-            "name": "Average read latency on Linux",
-            "value": "0.3457",
-            "unit": "µs",
-            "extra": "linux_result"
-          },
-          {
-            "name": "Average read latency on Asterinas",
-            "value": "0.2639",
-            "unit": "µs",
-            "extra": "aster_result"
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
-            "name": "Zhang Junyang",
-            "username": "junyang-zh",
-            "email": "junyang@stu.pku.edu.cn"
-          },
-          "committer": {
-            "name": "Tate, Hongliang Tian",
-            "username": "tatetian",
-            "email": "tatetian@gmail.com"
-          },
-          "id": "e50b05d1ee71f52679e8ed8ea310cda6bfcd7e0c",
-          "message": "Bump version to 0.8.0",
-          "timestamp": "2024-08-23T14:57:42Z",
-          "url": "https://github.com/asterinas/asterinas/commit/e50b05d1ee71f52679e8ed8ea310cda6bfcd7e0c"
-        },
-        "date": 1724446476603,
-        "tool": "customSmallerIsBetter",
-        "description": "The latency of the read system call on a single processor.",
-        "benches": [
-          {
-            "name": "Average read latency on Linux",
-            "value": "0.3469",
-            "unit": "µs",
-            "extra": "linux_result"
-          },
-          {
-            "name": "Average read latency on Asterinas",
-            "value": "0.2652",
-            "unit": "µs",
-            "extra": "aster_result"
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
-            "name": "Zhang Junyang",
-            "username": "junyang-zh",
-            "email": "junyang@stu.pku.edu.cn"
-          },
-          "committer": {
-            "name": "Tate, Hongliang Tian",
-            "username": "tatetian",
-            "email": "tatetian@gmail.com"
-          },
-          "id": "d22277a3e69040906cd198ea625614c5c69d66da",
-          "message": "Allow manually dispatching publishing workflows",
-          "timestamp": "2024-08-24T09:27:15Z",
-          "url": "https://github.com/asterinas/asterinas/commit/d22277a3e69040906cd198ea625614c5c69d66da"
-        },
-        "date": 1724532721053,
-        "tool": "customSmallerIsBetter",
-        "description": "The latency of the read system call on a single processor.",
-        "benches": [
-          {
-            "name": "Average read latency on Linux",
-            "value": "0.3498",
-            "unit": "µs",
-            "extra": "linux_result"
-          },
-          {
-            "name": "Average read latency on Asterinas",
-            "value": "0.2617",
-            "unit": "µs",
-            "extra": "aster_result"
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
-            "name": "Zhang Junyang",
-            "username": "junyang-zh",
-            "email": "junyang@stu.pku.edu.cn"
-          },
-          "committer": {
-            "name": "Tate, Hongliang Tian",
-            "username": "tatetian",
-            "email": "tatetian@gmail.com"
-          },
-          "id": "4231645c02ec317d99f0150bc8ed3210489855a0",
-          "message": "Fix `is_tdx_enabled` in OSDK tests",
-          "timestamp": "2024-08-25T12:16:30Z",
-          "url": "https://github.com/asterinas/asterinas/commit/4231645c02ec317d99f0150bc8ed3210489855a0"
-        },
-        "date": 1724619154639,
-        "tool": "customSmallerIsBetter",
-        "description": "The latency of the read system call on a single processor.",
-        "benches": [
-          {
-            "name": "Average read latency on Linux",
-            "value": "0.1278",
-            "unit": "µs",
-            "extra": "linux_result"
-          },
-          {
-            "name": "Average read latency on Asterinas",
-            "value": "0.2654",
-            "unit": "µs",
-            "extra": "aster_result"
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
-            "name": "Chen Chengjun",
-            "username": "cchanging",
-            "email": "chenchengjun.ccj@antgroup.com"
-          },
-          "committer": {
-            "name": "Tate, Hongliang Tian",
-            "username": "tatetian",
-            "email": "tatetian@gmail.com"
-          },
-          "id": "9e59db2f42c2ef9f8e91e0d1ee03562190726d56",
-          "message": "Make benchmark CI more fair",
-          "timestamp": "2024-08-26T09:41:40Z",
-          "url": "https://github.com/asterinas/asterinas/commit/9e59db2f42c2ef9f8e91e0d1ee03562190726d56"
-        },
-        "date": 1724705688174,
-        "tool": "customSmallerIsBetter",
-        "description": "The latency of the read system call on a single processor.",
-        "benches": [
-          {
-            "name": "Average read latency on Linux",
-            "value": "0.1282",
-            "unit": "µs",
-            "extra": "linux_result"
-          },
-          {
-            "name": "Average read latency on Asterinas",
-            "value": "0.2691",
-            "unit": "µs",
-            "extra": "aster_result"
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
-            "name": "Jianfeng Jiang",
-            "username": "StevenJiang1110",
-            "email": "jiangjianfeng.jjf@antgroup.com"
-          },
-          "committer": {
-            "name": "Tate, Hongliang Tian",
-            "username": "tatetian",
-            "email": "tatetian@gmail.com"
-          },
-          "id": "a72c7dadf3b9bb680b3092af6b64084b98008cb7",
-          "message": "Optimize the latency of lmbench-signal-prot",
-          "timestamp": "2024-08-27T06:37:02Z",
-          "url": "https://github.com/asterinas/asterinas/commit/a72c7dadf3b9bb680b3092af6b64084b98008cb7"
-        },
-        "date": 1724830777689,
-        "tool": "customSmallerIsBetter",
-        "description": "The latency of the read system call on a single processor.",
-        "benches": [
-          {
-            "name": "Average read latency on Linux",
-            "value": "0.1276",
-            "unit": "µs",
-            "extra": "linux_result"
-          },
-          {
-            "name": "Average read latency on Asterinas",
-            "value": "0.2676",
-            "unit": "µs",
-            "extra": "aster_result"
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
-            "name": "Shaowei Song",
-            "username": "lucassong-mh",
-            "email": "songshaowei.ssw@antgroup.com"
-          },
-          "committer": {
-            "name": "Tate, Hongliang Tian",
-            "username": "tatetian",
-            "email": "tatetian@gmail.com"
-          },
-          "id": "e6f465b553f613d60828e0e503dc94ce4109ded1",
-          "message": "Replace all the ring buffers with the new one",
-          "timestamp": "2024-08-28T06:23:24Z",
-          "url": "https://github.com/asterinas/asterinas/commit/e6f465b553f613d60828e0e503dc94ce4109ded1"
-        },
-        "date": 1724878005275,
-        "tool": "customSmallerIsBetter",
-        "description": "The latency of the read system call on a single processor.",
-        "benches": [
-          {
-            "name": "Average read latency on Linux",
-            "value": "0.1275",
-            "unit": "µs",
-            "extra": "linux_result"
-          },
-          {
-            "name": "Average read latency on Asterinas",
-            "value": "0.2594",
-            "unit": "µs",
-            "extra": "aster_result"
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
-            "name": "Chen Chengjun",
-            "username": "cchanging",
-            "email": "chenchengjun.ccj@antgroup.com"
-          },
-          "committer": {
-            "name": "Tate, Hongliang Tian",
-            "username": "tatetian",
-            "email": "tatetian@gmail.com"
-          },
-          "id": "00d9b01d5c356fbc5f6b72b9a69a7571fdf0ab1f",
-          "message": "Add a fast path to page table fork",
-          "timestamp": "2024-08-29T03:52:33Z",
-          "url": "https://github.com/asterinas/asterinas/commit/00d9b01d5c356fbc5f6b72b9a69a7571fdf0ab1f"
-        },
-        "date": 1724910010611,
-        "tool": "customSmallerIsBetter",
-        "description": "The latency of the read system call on a single processor.",
-        "benches": [
-          {
-            "name": "Average read latency on Linux",
-            "value": "0.1287",
-            "unit": "µs",
-            "extra": "linux_result"
-          },
-          {
-            "name": "Average read latency on Asterinas",
-            "value": "0.2689",
-            "unit": "µs",
-            "extra": "aster_result"
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
-            "name": "Chen Chengjun",
-            "username": "cchanging",
-            "email": "chenchengjun.ccj@antgroup.com"
-          },
-          "committer": {
-            "name": "Tate, Hongliang Tian",
-            "username": "tatetian",
-            "email": "tatetian@gmail.com"
-          },
-          "id": "00d9b01d5c356fbc5f6b72b9a69a7571fdf0ab1f",
-          "message": "Add a fast path to page table fork",
-          "timestamp": "2024-08-29T03:52:33Z",
-          "url": "https://github.com/asterinas/asterinas/commit/00d9b01d5c356fbc5f6b72b9a69a7571fdf0ab1f"
-        },
-        "date": 1724916506415,
-        "tool": "customSmallerIsBetter",
-        "description": "The latency of the read system call on a single processor.",
-        "benches": [
-          {
-            "name": "Average read latency on Linux",
-            "value": "0.1284",
-            "unit": "µs",
-            "extra": "linux_result"
-          },
-          {
-            "name": "Average read latency on Asterinas",
-            "value": "0.2692",
-            "unit": "µs",
-            "extra": "aster_result"
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
-            "name": "Yuke Peng",
-            "username": "sdww0",
-            "email": "pykfirst@gmail.com"
-          },
-          "committer": {
-            "name": "Tate, Hongliang Tian",
-            "username": "tatetian",
-            "email": "tatetian@gmail.com"
-          },
-          "id": "539984bbed414969b0c40cf181a10e9341ed2359",
-          "message": "Replace read with read_raw",
-          "timestamp": "2024-08-29T12:46:20Z",
-          "url": "https://github.com/asterinas/asterinas/commit/539984bbed414969b0c40cf181a10e9341ed2359"
-        },
-        "date": 1724964620129,
-        "tool": "customSmallerIsBetter",
-        "description": "The latency of the read system call on a single processor.",
-        "benches": [
-          {
-            "name": "Average read latency on Linux",
-            "value": "0.1270",
-            "unit": "µs",
-            "extra": "linux_result"
-          },
-          {
-            "name": "Average read latency on Asterinas",
-            "value": "0.2663",
-            "unit": "µs",
-            "extra": "aster_result"
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
-            "name": "Yuke Peng",
-            "username": "sdww0",
-            "email": "pykfirst@gmail.com"
-          },
-          "committer": {
-            "name": "Tate, Hongliang Tian",
-            "username": "tatetian",
-            "email": "tatetian@gmail.com"
-          },
-          "id": "db16caf28c46e4ed24099fcba13d40b7d673164c",
-          "message": "[Semaphore] Replace Mutex with SpinLock",
-          "timestamp": "2024-08-30T11:23:53Z",
-          "url": "https://github.com/asterinas/asterinas/commit/db16caf28c46e4ed24099fcba13d40b7d673164c"
-        },
-        "date": 1725051188468,
-        "tool": "customSmallerIsBetter",
-        "description": "The latency of the read system call on a single processor.",
-        "benches": [
-          {
-            "name": "Average read latency on Linux",
-            "value": "0.1280",
-            "unit": "µs",
-            "extra": "linux_result"
-          },
-          {
-            "name": "Average read latency on Asterinas",
-            "value": "0.2654",
-            "unit": "µs",
-            "extra": "aster_result"
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
-            "name": "YanWQ-monad",
-            "username": "YanWQ-monad",
-            "email": "YanWQmonad@gmail.com"
-          },
-          "committer": {
-            "name": "Tate, Hongliang Tian",
-            "username": "tatetian",
-            "email": "tatetian@gmail.com"
-          },
-          "id": "e6e771e9b5ae7d223a50aa4b38994500b0db6867",
-          "message": "Better timestamp in logging",
-          "timestamp": "2024-08-30T17:51:32Z",
-          "url": "https://github.com/asterinas/asterinas/commit/e6e771e9b5ae7d223a50aa4b38994500b0db6867"
-        },
-        "date": 1725137436629,
-        "tool": "customSmallerIsBetter",
-        "description": "The latency of the read system call on a single processor.",
-        "benches": [
-          {
-            "name": "Average read latency on Linux",
-            "value": "0.1267",
-            "unit": "µs",
-            "extra": "linux_result"
-          },
-          {
-            "name": "Average read latency on Asterinas",
-            "value": "0.2674",
-            "unit": "µs",
-            "extra": "aster_result"
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
-            "name": "Marsman1996",
-            "username": "Marsman1996",
-            "email": "lqliuyuwei@outlook.com"
-          },
-          "committer": {
-            "name": "Tate, Hongliang Tian",
-            "username": "tatetian",
-            "email": "tatetian@gmail.com"
-          },
-          "id": "745ac6d982638d3548f09ea2aa2103e37c135153",
-          "message": "Set overflow boundary to `isize::MAX` for memory related syscalls",
-          "timestamp": "2024-08-29T14:26:36Z",
-          "url": "https://github.com/asterinas/asterinas/commit/745ac6d982638d3548f09ea2aa2103e37c135153"
-        },
-        "date": 1725223835460,
-        "tool": "customSmallerIsBetter",
-        "description": "The latency of the read system call on a single processor.",
-        "benches": [
-          {
-            "name": "Average read latency on Linux",
-            "value": "0.1291",
-            "unit": "µs",
-            "extra": "linux_result"
-          },
-          {
-            "name": "Average read latency on Asterinas",
-            "value": "0.2670",
-            "unit": "µs",
-            "extra": "aster_result"
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
-            "name": "Shaowei Song",
-            "username": "lucassong-mh",
-            "email": "songshaowei.ssw@antgroup.com"
-          },
-          "committer": {
-            "name": "Tate, Hongliang Tian",
-            "username": "tatetian",
-            "email": "tatetian@gmail.com"
-          },
-          "id": "963874471284ed014b76d268d933b6d13073c2cc",
-          "message": "Unseekable files need not to manipulate the `offset`",
-          "timestamp": "2024-09-02T09:48:15Z",
-          "url": "https://github.com/asterinas/asterinas/commit/963874471284ed014b76d268d933b6d13073c2cc"
-        },
-        "date": 1725314671952,
-        "tool": "customSmallerIsBetter",
-        "description": "The latency of the read system call on a single processor.",
-        "benches": [
-          {
-            "name": "Average read latency on Linux",
-            "value": "0.1291",
-            "unit": "µs",
-            "extra": "linux_result"
-          },
-          {
-            "name": "Average read latency on Asterinas",
-            "value": "0.1851",
-            "unit": "µs",
-            "extra": "aster_result"
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
-            "name": "Shaowei Song",
-            "username": "lucassong-mh",
-            "email": "songshaowei.ssw@antgroup.com"
-          },
-          "committer": {
-            "name": "Tate, Hongliang Tian",
-            "username": "tatetian",
-            "email": "tatetian@gmail.com"
-          },
-          "id": "963874471284ed014b76d268d933b6d13073c2cc",
-          "message": "Unseekable files need not to manipulate the `offset`",
-          "timestamp": "2024-09-02T09:48:15Z",
-          "url": "https://github.com/asterinas/asterinas/commit/963874471284ed014b76d268d933b6d13073c2cc"
-        },
-        "date": 1725401036949,
-        "tool": "customSmallerIsBetter",
-        "description": "The latency of the read system call on a single processor.",
-        "benches": [
-          {
-            "name": "Average read latency on Linux",
-            "value": "0.1279",
-            "unit": "µs",
-            "extra": "linux_result"
-          },
-          {
-            "name": "Average read latency on Asterinas",
-            "value": "0.1848",
-            "unit": "µs",
-            "extra": "aster_result"
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
-            "name": "Ruize Tang",
-            "username": "tangruize",
-            "email": "1466040111@qq.com"
-          },
-          "committer": {
-            "name": "Tate, Hongliang Tian",
-            "username": "tatetian",
-            "email": "tatetian@gmail.com"
-          },
-          "id": "458a6a5b3b01aebe78c124fe20be91a91f0139da",
-          "message": "Fix unexpected unlock of mutexes, add a testcase",
-          "timestamp": "2024-09-03T07:33:12Z",
-          "url": "https://github.com/asterinas/asterinas/commit/458a6a5b3b01aebe78c124fe20be91a91f0139da"
-        },
-        "date": 1725487377325,
-        "tool": "customSmallerIsBetter",
-        "description": "The latency of the read system call on a single processor.",
-        "benches": [
-          {
-            "name": "Average read latency on Linux",
-            "value": "0.1291",
-            "unit": "µs",
-            "extra": "linux_result"
-          },
-          {
-            "name": "Average read latency on Asterinas",
-            "value": "0.1845",
-            "unit": "µs",
-            "extra": "aster_result"
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
-            "name": "Ruize Tang",
-            "username": "tangruize",
-            "email": "1466040111@qq.com"
-          },
-          "committer": {
-            "name": "Tate, Hongliang Tian",
-            "username": "tatetian",
-            "email": "tatetian@gmail.com"
-          },
-          "id": "458a6a5b3b01aebe78c124fe20be91a91f0139da",
-          "message": "Fix unexpected unlock of mutexes, add a testcase",
-          "timestamp": "2024-09-03T07:33:12Z",
-          "url": "https://github.com/asterinas/asterinas/commit/458a6a5b3b01aebe78c124fe20be91a91f0139da"
-        },
-        "date": 1725573795379,
-        "tool": "customSmallerIsBetter",
-        "description": "The latency of the read system call on a single processor.",
-        "benches": [
-          {
-            "name": "Average read latency on Linux",
-            "value": "0.1285",
-            "unit": "µs",
-            "extra": "linux_result"
-          },
-          {
-            "name": "Average read latency on Asterinas",
-            "value": "0.1841",
-            "unit": "µs",
-            "extra": "aster_result"
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
-            "name": "Thomas Dickson",
-            "username": "Hoverth",
-            "email": "modscrat+github@gmail.com"
-          },
-          "committer": {
-            "name": "Tate, Hongliang Tian",
-            "username": "tatetian",
-            "email": "tatetian@gmail.com"
-          },
-          "id": "64e43d34aab13eeddea8dd7485c712acc99116ca",
-          "message": "doc: fix typo in README.md",
-          "timestamp": "2024-09-06T04:11:16Z",
-          "url": "https://github.com/asterinas/asterinas/commit/64e43d34aab13eeddea8dd7485c712acc99116ca"
-        },
-        "date": 1725660102380,
-        "tool": "customSmallerIsBetter",
-        "description": "The latency of the read system call on a single processor.",
-        "benches": [
-          {
-            "name": "Average read latency on Linux",
-            "value": "0.1282",
-            "unit": "µs",
-            "extra": "linux_result"
-          },
-          {
-            "name": "Average read latency on Asterinas",
-            "value": "0.1852",
-            "unit": "µs",
-            "extra": "aster_result"
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
-            "name": "Zhang Junyang",
-            "username": "junyang-zh",
-            "email": "junyang@stu.pku.edu.cn"
-          },
-          "committer": {
-            "name": "Tate, Hongliang Tian",
-            "username": "tatetian",
-            "email": "tatetian@gmail.com"
-          },
-          "id": "c68302f7007225fa47f22a1085a8c59dcdae2ad4",
-          "message": "Don't hold any locks while waiting in `EpollFile`",
-          "timestamp": "2024-09-06T12:05:01Z",
-          "url": "https://github.com/asterinas/asterinas/commit/c68302f7007225fa47f22a1085a8c59dcdae2ad4"
-        },
-        "date": 1725746839936,
-        "tool": "customSmallerIsBetter",
-        "description": "The latency of the read system call on a single processor.",
-        "benches": [
-          {
-            "name": "Average read latency on Linux",
-            "value": "0.1299",
-            "unit": "µs",
-            "extra": "linux_result"
-          },
-          {
-            "name": "Average read latency on Asterinas",
-            "value": "0.1848",
-            "unit": "µs",
-            "extra": "aster_result"
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
-            "name": "Zhang Junyang",
-            "username": "junyang-zh",
-            "email": "junyang@stu.pku.edu.cn"
-          },
-          "committer": {
-            "name": "Tate, Hongliang Tian",
-            "username": "tatetian",
-            "email": "tatetian@gmail.com"
-          },
-          "id": "c68302f7007225fa47f22a1085a8c59dcdae2ad4",
-          "message": "Don't hold any locks while waiting in `EpollFile`",
-          "timestamp": "2024-09-06T12:05:01Z",
-          "url": "https://github.com/asterinas/asterinas/commit/c68302f7007225fa47f22a1085a8c59dcdae2ad4"
-        },
-        "date": 1725833086100,
-        "tool": "customSmallerIsBetter",
-        "description": "The latency of the read system call on a single processor.",
-        "benches": [
-          {
-            "name": "Average read latency on Linux",
-            "value": "0.1295",
-            "unit": "µs",
-            "extra": "linux_result"
-          },
-          {
-            "name": "Average read latency on Asterinas",
-            "value": "0.1844",
-            "unit": "µs",
-            "extra": "aster_result"
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
-            "name": "Zhang Junyang",
-            "username": "junyang-zh",
-            "email": "junyang@stu.pku.edu.cn"
-          },
-          "committer": {
-            "name": "Tate, Hongliang Tian",
-            "username": "tatetian",
-            "email": "tatetian@gmail.com"
-          },
-          "id": "c68302f7007225fa47f22a1085a8c59dcdae2ad4",
-          "message": "Don't hold any locks while waiting in `EpollFile`",
-          "timestamp": "2024-09-06T12:05:01Z",
-          "url": "https://github.com/asterinas/asterinas/commit/c68302f7007225fa47f22a1085a8c59dcdae2ad4"
-        },
-        "date": 1725919231514,
-        "tool": "customSmallerIsBetter",
-        "description": "The latency of the read system call on a single processor.",
-        "benches": [
-          {
-            "name": "Average read latency on Linux",
-            "value": "0.1298",
-            "unit": "µs",
-            "extra": "linux_result"
-          },
-          {
-            "name": "Average read latency on Asterinas",
-            "value": "0.1846",
-            "unit": "µs",
-            "extra": "aster_result"
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
-            "name": "Zhang Junyang",
-            "username": "junyang-zh",
-            "email": "junyang@stu.pku.edu.cn"
-          },
-          "committer": {
-            "name": "Tate, Hongliang Tian",
-            "username": "tatetian",
-            "email": "tatetian@gmail.com"
-          },
-          "id": "c68302f7007225fa47f22a1085a8c59dcdae2ad4",
-          "message": "Don't hold any locks while waiting in `EpollFile`",
-          "timestamp": "2024-09-06T12:05:01Z",
-          "url": "https://github.com/asterinas/asterinas/commit/c68302f7007225fa47f22a1085a8c59dcdae2ad4"
-        },
-        "date": 1726005670269,
-        "tool": "customSmallerIsBetter",
-        "description": "The latency of the read system call on a single processor.",
-        "benches": [
-          {
-            "name": "Average read latency on Linux",
-            "value": "0.1306",
-            "unit": "µs",
-            "extra": "linux_result"
-          },
-          {
-            "name": "Average read latency on Asterinas",
-            "value": "0.1760",
-            "unit": "µs",
-            "extra": "aster_result"
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
-            "name": "Shaowei Song",
-            "username": "lucassong-mh",
-            "email": "songshaowei.ssw@antgroup.com"
-          },
-          "committer": {
-            "name": "Tate, Hongliang Tian",
-            "username": "tatetian",
-            "email": "tatetian@gmail.com"
-          },
-          "id": "8bfbdf6642a9d04db3490792926d6a299d1e30be",
-          "message": "Optimize the lock usage in `RamInode`'s read/write",
-          "timestamp": "2024-09-02T13:23:46Z",
-          "url": "https://github.com/asterinas/asterinas/commit/8bfbdf6642a9d04db3490792926d6a299d1e30be"
-        },
-        "date": 1726088000589,
-        "tool": "customSmallerIsBetter",
-        "description": "The latency of the read system call on a single processor.",
-        "benches": [
-          {
-            "name": "Average read latency on Linux",
-            "value": "0.1275",
-            "unit": "µs",
-            "extra": "linux_result"
-          },
-          {
-            "name": "Average read latency on Asterinas",
-            "value": "0.2028",
-            "unit": "µs",
-            "extra": "aster_result"
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
-            "name": "Marsman1996",
-            "username": "Marsman1996",
-            "email": "lqliuyuwei@outlook.com"
-          },
-          "committer": {
-            "name": "Tate, Hongliang Tian",
-            "username": "tatetian",
-            "email": "tatetian@gmail.com"
-          },
-          "id": "6fcad6ce143b8f65e8be76297eb95a9cb56da22e",
-          "message": "Fix integer overflow in handle_page_faults_around",
-          "timestamp": "2024-09-12T12:15:04Z",
-          "url": "https://github.com/asterinas/asterinas/commit/6fcad6ce143b8f65e8be76297eb95a9cb56da22e"
-        },
-        "date": 1726174446015,
-        "tool": "customSmallerIsBetter",
-        "description": "The latency of the read system call on a single processor.",
-        "benches": [
-          {
-            "name": "Average read latency on Linux",
-            "value": "0.1275",
-            "unit": "µs",
-            "extra": "linux_result"
-          },
-          {
-            "name": "Average read latency on Asterinas",
-            "value": "0.2033",
-            "unit": "µs",
-            "extra": "aster_result"
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
-            "name": "Yuke Peng",
-            "username": "sdww0",
-            "email": "pykfirst@gmail.com"
-          },
-          "committer": {
-            "name": "Tate, Hongliang Tian",
-            "username": "tatetian",
-            "email": "tatetian@gmail.com"
-          },
-          "id": "32ea24e945efde86117d2278a48145d71b9ec90c",
-          "message": "Bump version to 0.8.2",
-          "timestamp": "2024-09-13T05:02:35Z",
-          "url": "https://github.com/asterinas/asterinas/commit/32ea24e945efde86117d2278a48145d71b9ec90c"
-        },
-        "date": 1726262802357,
-        "tool": "customSmallerIsBetter",
-        "title": "[VFS] The cost of read (/dev/zero)",
-        "description": "lat_syscall read",
-        "display": true,
-        "benches": [
-          {
-            "name": "Average read latency on Linux",
-            "value": "0.1278",
-            "unit": "µs",
-            "extra": "linux_result"
-          },
-          {
-            "name": "Average read latency on Asterinas",
-            "value": "0.1375",
-            "unit": "µs",
-            "extra": "aster_result"
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
-            "name": "Fabing Li",
-            "username": "grief8",
-            "email": "lifabing.lfb@antgroup.com"
-          },
-          "committer": {
-            "name": "Fabing Li",
-            "username": "grief8",
-            "email": "lifabing.lfb@antgroup.com"
-          },
-          "id": "adfb4a081356bea739a1720f284c3e66d6a96d19",
-          "message": "test",
-          "timestamp": "2024-09-14T03:47:04Z",
-          "url": "https://github.com/grief8/asterinas/commit/adfb4a081356bea739a1720f284c3e66d6a96d19"
-        },
-        "date": 1726641871121,
-        "tool": "customSmallerIsBetter",
-        "title": "[VFS] The cost of read (/dev/zero)",
-        "description": "lat_syscall read",
-        "display": true,
-        "benches": [
-          {
-            "name": "Average read latency on Linux",
-            "value": "0.1079",
-            "unit": "µs",
-            "extra": "linux_result"
-          },
-          {
-            "name": "Average read latency on Asterinas",
-            "value": "0.1848",
-            "unit": "µs",
-            "extra": "aster_result"
-          }
-        ]
-      }
-    ],
-    "vfs_read_pagecache_bw": [
-      {
-        "commit": {
-          "author": {
-            "name": "Yuke Peng",
-            "username": "sdww0",
-            "email": "pykfirst@gmail.com"
-          },
-          "committer": {
-            "name": "Tate, Hongliang Tian",
-            "username": "tatetian",
-            "email": "tatetian@gmail.com"
-          },
-          "id": "6f8978193c7a73a51403a8751314ddebc1c1983f",
-          "message": "Add benchmarks to workflow",
-          "timestamp": "2024-08-02T13:40:56Z",
-          "url": "https://github.com/asterinas/asterinas/commit/6f8978193c7a73a51403a8751314ddebc1c1983f"
-        },
-        "date": 1722629147641,
-        "tool": "customBiggerIsBetter",
-        "description": "The bandwidth of reading a file on a single processor.",
-        "benches": [
-          {
-            "name": "Average file read bandwidth on Linux",
-            "value": "8509.33",
-            "unit": "MB/s",
-            "extra": "linux_result"
-          },
-          {
-            "name": "Average file read bandwidth on Asterinas",
-            "value": "7326.30",
-            "unit": "MB/s",
-            "extra": "aster_result"
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
-            "name": "Yuke Peng",
-            "username": "sdww0",
-            "email": "pykfirst@gmail.com"
-          },
-          "committer": {
-            "name": "Tate, Hongliang Tian",
-            "username": "tatetian",
-            "email": "tatetian@gmail.com"
-          },
-          "id": "6f8978193c7a73a51403a8751314ddebc1c1983f",
-          "message": "Add benchmarks to workflow",
-          "timestamp": "2024-08-02T13:40:56Z",
-          "url": "https://github.com/asterinas/asterinas/commit/6f8978193c7a73a51403a8751314ddebc1c1983f"
-        },
-        "date": 1722715661542,
-        "tool": "customBiggerIsBetter",
-        "description": "The bandwidth of reading a file on a single processor.",
-        "benches": [
-          {
-            "name": "Average file read bandwidth on Linux",
-            "value": "8689.76",
-            "unit": "MB/s",
-            "extra": "linux_result"
-          },
-          {
-            "name": "Average file read bandwidth on Asterinas",
-            "value": "7192.42",
-            "unit": "MB/s",
-            "extra": "aster_result"
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
-            "name": "Zhang Junyang",
-            "username": "junyang-zh",
-            "email": "junyang@stu.pku.edu.cn"
-          },
-          "committer": {
-            "name": "Tate, Hongliang Tian",
-            "username": "tatetian",
-            "email": "tatetian@gmail.com"
-          },
-          "id": "16690bc61b0bb8d90dbb1cec8a317ba34aa09f71",
-          "message": "Implement atomic signal masks and refactor `SigSet`",
-          "timestamp": "2024-08-02T08:26:56Z",
-          "url": "https://github.com/asterinas/asterinas/commit/16690bc61b0bb8d90dbb1cec8a317ba34aa09f71"
-        },
-        "date": 1722802008337,
-        "tool": "customBiggerIsBetter",
-        "description": "The bandwidth of reading a file on a single processor.",
-        "benches": [
-          {
-            "name": "Average file read bandwidth on Linux",
-            "value": "8447.21",
-            "unit": "MB/s",
-            "extra": "linux_result"
-          },
-          {
-            "name": "Average file read bandwidth on Asterinas",
-            "value": "7357.42",
-            "unit": "MB/s",
-            "extra": "aster_result"
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
-            "name": "azongchang",
-            "username": "azongchang",
-            "email": "azongchang@qq.com"
-          },
-          "committer": {
-            "name": "Tate, Hongliang Tian",
-            "username": "tatetian",
-            "email": "tatetian@gmail.com"
-          },
-          "id": "aa84b31634b9c710e04b337c5d1b8fa207f8dbde",
-          "message": "Add the description of encoding option to the OSDK document",
-          "timestamp": "2024-08-05T05:52:13Z",
-          "url": "https://github.com/asterinas/asterinas/commit/aa84b31634b9c710e04b337c5d1b8fa207f8dbde"
-        },
-        "date": 1722888252685,
-        "tool": "customBiggerIsBetter",
-        "description": "The bandwidth of reading a file on a single processor.",
-        "benches": [
-          {
-            "name": "Average file read bandwidth on Linux",
-            "value": "8610.05",
-            "unit": "MB/s",
-            "extra": "linux_result"
-          },
-          {
-            "name": "Average file read bandwidth on Asterinas",
-            "value": "7342.13",
-            "unit": "MB/s",
-            "extra": "aster_result"
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
-            "name": "Ruihan Li",
-            "username": "lrh2000",
-            "email": "lrh2000@pku.edu.cn"
-          },
-          "committer": {
-            "name": "Tate, Hongliang Tian",
-            "username": "tatetian",
-            "email": "tatetian@gmail.com"
-          },
-          "id": "b1ea422efaf6b0becd7d6cd99d270ae01fcd12de",
-          "message": "Fix accesses to VirtIO queue DMA",
-          "timestamp": "2024-08-05T14:06:02Z",
-          "url": "https://github.com/asterinas/asterinas/commit/b1ea422efaf6b0becd7d6cd99d270ae01fcd12de"
-        },
-        "date": 1722974864208,
-        "tool": "customBiggerIsBetter",
-        "description": "The bandwidth of reading a file on a single processor.",
-        "benches": [
-          {
-            "name": "Average file read bandwidth on Linux",
-            "value": "8597.23",
-            "unit": "MB/s",
-            "extra": "linux_result"
-          },
-          {
-            "name": "Average file read bandwidth on Asterinas",
-            "value": "7282.67",
-            "unit": "MB/s",
-            "extra": "aster_result"
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
-            "name": "Ruihan Li",
-            "username": "lrh2000",
-            "email": "lrh2000@pku.edu.cn"
-          },
-          "committer": {
-            "name": "Tate, Hongliang Tian",
-            "username": "tatetian",
-            "email": "tatetian@gmail.com"
-          },
-          "id": "b1ea422efaf6b0becd7d6cd99d270ae01fcd12de",
-          "message": "Fix accesses to VirtIO queue DMA",
-          "timestamp": "2024-08-05T14:06:02Z",
-          "url": "https://github.com/asterinas/asterinas/commit/b1ea422efaf6b0becd7d6cd99d270ae01fcd12de"
-        },
-        "date": 1723061274088,
-        "tool": "customBiggerIsBetter",
-        "description": "The bandwidth of reading a file on a single processor.",
-        "benches": [
-          {
-            "name": "Average file read bandwidth on Linux",
-            "value": "8564.17",
-            "unit": "MB/s",
-            "extra": "linux_result"
-          },
-          {
-            "name": "Average file read bandwidth on Asterinas",
-            "value": "7354.60",
-            "unit": "MB/s",
-            "extra": "aster_result"
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
-            "name": "Jianfeng Jiang",
-            "username": "StevenJiang1110",
-            "email": "jiangjianfeng.jjf@antgroup.com"
-          },
-          "committer": {
-            "name": "Tate, Hongliang Tian",
-            "username": "tatetian",
-            "email": "tatetian@gmail.com"
-          },
-          "id": "6414111cc57b42db2bae1a0c8b01b85c3830a3b3",
-          "message": "Support flag SA_RESETHAND",
-          "timestamp": "2024-08-07T09:17:46Z",
-          "url": "https://github.com/asterinas/asterinas/commit/6414111cc57b42db2bae1a0c8b01b85c3830a3b3"
-        },
-        "date": 1723101982803,
-        "tool": "customBiggerIsBetter",
-        "description": "The bandwidth of reading a file on a single processor.",
-        "benches": [
-          {
-            "name": "Average file read bandwidth on Linux",
-            "value": "9101.82",
-            "unit": "MB/s",
-            "extra": "linux_result"
-          },
-          {
-            "name": "Average file read bandwidth on Asterinas",
-            "value": "7404.20",
-            "unit": "MB/s",
-            "extra": "aster_result"
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
-            "name": "Chen Chengjun",
-            "username": "cchanging",
-            "email": "chenchengjun.ccj@antgroup.com"
-          },
-          "committer": {
-            "name": "Tate, Hongliang Tian",
-            "username": "tatetian",
-            "email": "tatetian@gmail.com"
-          },
-          "id": "acb4833aae0476d7ed2d61871036aff3eaf77c5d",
-          "message": "Optimize trim_mappings",
-          "timestamp": "2024-08-02T03:14:14Z",
-          "url": "https://github.com/asterinas/asterinas/commit/acb4833aae0476d7ed2d61871036aff3eaf77c5d"
-        },
-        "date": 1723147495408,
-        "tool": "customBiggerIsBetter",
-        "description": "The bandwidth of reading a file on a single processor.",
-        "benches": [
-          {
-            "name": "Average file read bandwidth on Linux",
-            "value": "8986.04",
-            "unit": "MB/s",
-            "extra": "linux_result"
-          },
-          {
-            "name": "Average file read bandwidth on Asterinas",
-            "value": "7388.91",
-            "unit": "MB/s",
-            "extra": "aster_result"
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
-            "name": "Chen Chengjun",
-            "username": "cchanging",
-            "email": "chenchengjun.ccj@antgroup.com"
-          },
-          "committer": {
-            "name": "Tate, Hongliang Tian",
-            "username": "tatetian",
-            "email": "tatetian@gmail.com"
-          },
-          "id": "75da7fd30eca1e80ad57da15bfe5dff6963c03c1",
-          "message": "Replace old user space read/write with new APIs",
-          "timestamp": "2024-08-09T08:11:43Z",
-          "url": "https://github.com/asterinas/asterinas/commit/75da7fd30eca1e80ad57da15bfe5dff6963c03c1"
-        },
-        "date": 1723233979990,
-        "tool": "customBiggerIsBetter",
-        "description": "The bandwidth of reading a file on a single processor.",
-        "benches": [
-          {
-            "name": "Average file read bandwidth on Linux",
-            "value": "8831.71",
-            "unit": "MB/s",
-            "extra": "linux_result"
-          },
-          {
-            "name": "Average file read bandwidth on Asterinas",
-            "value": "7287.71",
-            "unit": "MB/s",
-            "extra": "aster_result"
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
-            "name": "Hsy-Intel",
-            "username": "Hsy-Intel",
-            "email": "siyuan.hui@intel.com"
-          },
-          "committer": {
-            "name": "Tate, Hongliang Tian",
-            "username": "tatetian",
-            "email": "tatetian@gmail.com"
-          },
-          "id": "a739b3828d106d4e09fe2ba7dd8eed12d18dd20a",
-          "message": "Use tdx-guest crate VE handler and support release mode for TDX",
-          "timestamp": "2024-08-09T10:56:43Z",
-          "url": "https://github.com/asterinas/asterinas/commit/a739b3828d106d4e09fe2ba7dd8eed12d18dd20a"
-        },
-        "date": 1723320268490,
-        "tool": "customBiggerIsBetter",
-        "description": "The bandwidth of reading a file on a single processor.",
-        "benches": [
-          {
-            "name": "Average file read bandwidth on Linux",
-            "value": "8937.12",
-            "unit": "MB/s",
-            "extra": "linux_result"
-          },
-          {
-            "name": "Average file read bandwidth on Asterinas",
-            "value": "7341.52",
-            "unit": "MB/s",
-            "extra": "aster_result"
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
-            "name": "Hsy-Intel",
-            "username": "Hsy-Intel",
-            "email": "siyuan.hui@intel.com"
-          },
-          "committer": {
-            "name": "Tate, Hongliang Tian",
-            "username": "tatetian",
-            "email": "tatetian@gmail.com"
-          },
-          "id": "a739b3828d106d4e09fe2ba7dd8eed12d18dd20a",
-          "message": "Use tdx-guest crate VE handler and support release mode for TDX",
-          "timestamp": "2024-08-09T10:56:43Z",
-          "url": "https://github.com/asterinas/asterinas/commit/a739b3828d106d4e09fe2ba7dd8eed12d18dd20a"
-        },
-        "date": 1723406536412,
-        "tool": "customBiggerIsBetter",
-        "description": "The bandwidth of reading a file on a single processor.",
-        "benches": [
-          {
-            "name": "Average file read bandwidth on Linux",
-            "value": "9146.01",
-            "unit": "MB/s",
-            "extra": "linux_result"
-          },
-          {
-            "name": "Average file read bandwidth on Asterinas",
-            "value": "7385.05",
-            "unit": "MB/s",
-            "extra": "aster_result"
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
-            "name": "Fabing Li",
-            "username": "grief8",
-            "email": "lifabing.lfb@antgroup.com"
-          },
-          "committer": {
-            "name": "Tate, Hongliang Tian",
-            "username": "tatetian",
-            "email": "tatetian@gmail.com"
-          },
-          "id": "f9bae1eee90c49d715569208009cc2c66768fe9a",
-          "message": "Fix lmbench-ctx extraction",
-          "timestamp": "2024-08-12T07:13:36Z",
-          "url": "https://github.com/asterinas/asterinas/commit/f9bae1eee90c49d715569208009cc2c66768fe9a"
-        },
-        "date": 1723492979484,
-        "tool": "customBiggerIsBetter",
-        "description": "The bandwidth of reading a file on a single processor.",
-        "benches": [
-          {
-            "name": "Average file read bandwidth on Linux",
-            "value": "8781.01",
-            "unit": "MB/s",
-            "extra": "linux_result"
-          },
-          {
-            "name": "Average file read bandwidth on Asterinas",
-            "value": "7351.37",
-            "unit": "MB/s",
-            "extra": "aster_result"
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
-            "name": "Zhang Junyang",
-            "username": "junyang-zh",
-            "email": "junyang@stu.pku.edu.cn"
-          },
-          "committer": {
-            "name": "Tate, Hongliang Tian",
-            "username": "tatetian",
-            "email": "tatetian@gmail.com"
-          },
-          "id": "be54a39592ff60fae6e729abaa3d4a26dd7f5624",
-          "message": "Remove the preempt guard from the IRQ guard",
-          "timestamp": "2024-08-12T13:04:53Z",
-          "url": "https://github.com/asterinas/asterinas/commit/be54a39592ff60fae6e729abaa3d4a26dd7f5624"
-        },
-        "date": 1723579352665,
-        "tool": "customBiggerIsBetter",
-        "description": "The bandwidth of reading a file on a single processor.",
-        "benches": [
-          {
-            "name": "Average file read bandwidth on Linux",
-            "value": "8914.57",
-            "unit": "MB/s",
-            "extra": "linux_result"
-          },
-          {
-            "name": "Average file read bandwidth on Asterinas",
-            "value": "7341.52",
-            "unit": "MB/s",
-            "extra": "aster_result"
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
-            "name": "Zhang Junyang",
-            "username": "junyang-zh",
-            "email": "junyang@stu.pku.edu.cn"
-          },
-          "committer": {
-            "name": "Tate, Hongliang Tian",
-            "username": "tatetian",
-            "email": "tatetian@gmail.com"
-          },
-          "id": "4844e7ca7ca6d78896a51a71487a6fdfe9ca6654",
-          "message": "Allow page table protectors to flush TLB entries precisely",
-          "timestamp": "2024-08-12T08:11:45Z",
-          "url": "https://github.com/asterinas/asterinas/commit/4844e7ca7ca6d78896a51a71487a6fdfe9ca6654"
-        },
-        "date": 1723665737613,
-        "tool": "customBiggerIsBetter",
-        "description": "The bandwidth of reading a file on a single processor.",
-        "benches": [
-          {
-            "name": "Average file read bandwidth on Linux",
-            "value": "8909.09",
-            "unit": "MB/s",
-            "extra": "linux_result"
-          },
-          {
-            "name": "Average file read bandwidth on Asterinas",
-            "value": "7395.63",
-            "unit": "MB/s",
-            "extra": "aster_result"
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
-            "name": "Chen Chengjun",
-            "username": "cchanging",
-            "email": "chenchengjun.ccj@antgroup.com"
-          },
-          "committer": {
-            "name": "Tate, Hongliang Tian",
-            "username": "tatetian",
-            "email": "tatetian@gmail.com"
-          },
-          "id": "99a22ff124972872838fa5dc7094fa9a5eea557e",
-          "message": "Improve efficiency of global TLB flushing",
-          "timestamp": "2024-08-15T08:53:54Z",
-          "url": "https://github.com/asterinas/asterinas/commit/99a22ff124972872838fa5dc7094fa9a5eea557e"
-        },
-        "date": 1723752150299,
-        "tool": "customBiggerIsBetter",
-        "description": "The bandwidth of reading a file on a single processor.",
-        "benches": [
-          {
-            "name": "Average file read bandwidth on Linux",
-            "value": "8992.06",
-            "unit": "MB/s",
-            "extra": "linux_result"
-          },
-          {
-            "name": "Average file read bandwidth on Asterinas",
-            "value": "7342.13",
-            "unit": "MB/s",
-            "extra": "aster_result"
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
-            "name": "Jianfeng Jiang",
-            "username": "StevenJiang1110",
-            "email": "jiangjianfeng.jjf@antgroup.com"
-          },
-          "committer": {
-            "name": "Tate, Hongliang Tian",
-            "username": "tatetian",
-            "email": "tatetian@gmail.com"
-          },
-          "id": "0291b5dc6bb142b9c6165c1cb29b7658eefdaa63",
-          "message": "Optimize the latency of lmbench-select-file",
-          "timestamp": "2024-08-15T03:44:30Z",
-          "url": "https://github.com/asterinas/asterinas/commit/0291b5dc6bb142b9c6165c1cb29b7658eefdaa63"
-        },
-        "date": 1723778675370,
-        "tool": "customBiggerIsBetter",
-        "description": "The bandwidth of reading a file on a single processor.",
-        "benches": [
-          {
-            "name": "Average file read bandwidth on Linux",
-            "value": "9005.79",
-            "unit": "MB/s",
-            "extra": "linux_result"
-          },
-          {
-            "name": "Average file read bandwidth on Asterinas",
-            "value": "7327.20",
-            "unit": "MB/s",
-            "extra": "aster_result"
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
-            "name": "Jianfeng Jiang",
-            "username": "StevenJiang1110",
-            "email": "jiangjianfeng.jjf@antgroup.com"
-          },
-          "committer": {
-            "name": "Tate, Hongliang Tian",
-            "username": "tatetian",
-            "email": "tatetian@gmail.com"
-          },
-          "id": "0291b5dc6bb142b9c6165c1cb29b7658eefdaa63",
-          "message": "Optimize the latency of lmbench-select-file",
-          "timestamp": "2024-08-15T03:44:30Z",
-          "url": "https://github.com/asterinas/asterinas/commit/0291b5dc6bb142b9c6165c1cb29b7658eefdaa63"
-        },
-        "date": 1723782001926,
-        "tool": "customBiggerIsBetter",
-        "description": "The bandwidth of reading a file on a single processor.",
-        "benches": [
-          {
-            "name": "Average file read bandwidth on Linux",
-            "value": "8863.64",
-            "unit": "MB/s",
-            "extra": "linux_result"
-          },
-          {
-            "name": "Average file read bandwidth on Asterinas",
-            "value": "7392.57",
-            "unit": "MB/s",
-            "extra": "aster_result"
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
-            "name": "Jianfeng Jiang",
-            "username": "StevenJiang1110",
-            "email": "jiangjianfeng.jjf@antgroup.com"
-          },
-          "committer": {
-            "name": "Tate, Hongliang Tian",
-            "username": "tatetian",
-            "email": "tatetian@gmail.com"
-          },
-          "id": "0291b5dc6bb142b9c6165c1cb29b7658eefdaa63",
-          "message": "Optimize the latency of lmbench-select-file",
-          "timestamp": "2024-08-15T03:44:30Z",
-          "url": "https://github.com/asterinas/asterinas/commit/0291b5dc6bb142b9c6165c1cb29b7658eefdaa63"
-        },
-        "date": 1723838566199,
-        "tool": "customBiggerIsBetter",
-        "description": "The bandwidth of reading a file on a single processor.",
-        "benches": [
-          {
-            "name": "Average file read bandwidth on Linux",
-            "value": "9053.63",
-            "unit": "MB/s",
-            "extra": "linux_result"
-          },
-          {
-            "name": "Average file read bandwidth on Asterinas",
-            "value": "7382.10",
-            "unit": "MB/s",
-            "extra": "aster_result"
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
-            "name": "Fabing Li",
-            "username": "grief8",
-            "email": "lifabing.lfb@antgroup.com"
-          },
-          "committer": {
-            "name": "Tate, Hongliang Tian",
-            "username": "tatetian",
-            "email": "tatetian@gmail.com"
-          },
-          "id": "ce2af1eb057077753a7a757edc1833e677a83918",
-          "message": "Add flock and sys_flock",
-          "timestamp": "2024-08-12T03:51:41Z",
-          "url": "https://github.com/asterinas/asterinas/commit/ce2af1eb057077753a7a757edc1833e677a83918"
-        },
-        "date": 1723925227205,
-        "tool": "customBiggerIsBetter",
-        "description": "The bandwidth of reading a file on a single processor.",
-        "benches": [
-          {
-            "name": "Average file read bandwidth on Linux",
-            "value": "8818.22",
-            "unit": "MB/s",
-            "extra": "linux_result"
-          },
-          {
-            "name": "Average file read bandwidth on Asterinas",
-            "value": "7403.38",
-            "unit": "MB/s",
-            "extra": "aster_result"
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
-            "name": "Yuke Peng",
-            "username": "sdww0",
-            "email": "pykfirst@gmail.com"
-          },
-          "committer": {
-            "name": "Tate, Hongliang Tian",
-            "username": "tatetian",
-            "email": "tatetian@gmail.com"
-          },
-          "id": "bbe43d76cc25538f04261379407f4fa721a13431",
-          "message": "Fix compile error due to `lock_irq_disabled`",
-          "timestamp": "2024-08-19T01:02:51Z",
-          "url": "https://github.com/asterinas/asterinas/commit/bbe43d76cc25538f04261379407f4fa721a13431"
-        },
-        "date": 1724098116410,
-        "tool": "customBiggerIsBetter",
-        "description": "The bandwidth of reading a file on a single processor.",
-        "benches": [
-          {
-            "name": "Average file read bandwidth on Linux",
-            "value": "8861.30",
-            "unit": "MB/s",
-            "extra": "linux_result"
-          },
-          {
-            "name": "Average file read bandwidth on Asterinas",
-            "value": "7351.58",
-            "unit": "MB/s",
-            "extra": "aster_result"
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
-            "name": "Marsman1996",
-            "username": "Marsman1996",
-            "email": "lqliuyuwei@outlook.com"
-          },
-          "committer": {
-            "name": "Tate, Hongliang Tian",
-            "username": "tatetian",
-            "email": "tatetian@gmail.com"
-          },
-          "id": "fda0fa051265867c2399f4981fdccb9cc6df110d",
-          "message": "Align `len` in `madvise`",
-          "timestamp": "2024-08-19T09:01:16Z",
-          "url": "https://github.com/asterinas/asterinas/commit/fda0fa051265867c2399f4981fdccb9cc6df110d"
-        },
-        "date": 1724184528164,
-        "tool": "customBiggerIsBetter",
-        "description": "The bandwidth of reading a file on a single processor.",
-        "benches": [
-          {
-            "name": "Average file read bandwidth on Linux",
-            "value": "8989.80",
-            "unit": "MB/s",
-            "extra": "linux_result"
-          },
-          {
-            "name": "Average file read bandwidth on Asterinas",
-            "value": "7414.73",
-            "unit": "MB/s",
-            "extra": "aster_result"
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
-            "name": "Shaowei Song",
-            "username": "lucassong-mh",
-            "email": "songshaowei.ssw@antgroup.com"
-          },
-          "committer": {
-            "name": "Tate, Hongliang Tian",
-            "username": "tatetian",
-            "email": "tatetian@gmail.com"
-          },
-          "id": "2102107be18729fba8f3546d5a3fe39c819d814a",
-          "message": "Refactor `VmReader`&`VmWriter` as given fallibility marker",
-          "timestamp": "2024-08-20T02:05:25Z",
-          "url": "https://github.com/asterinas/asterinas/commit/2102107be18729fba8f3546d5a3fe39c819d814a"
-        },
-        "date": 1724271046764,
-        "tool": "customBiggerIsBetter",
-        "description": "The bandwidth of reading a file on a single processor.",
-        "benches": [
-          {
-            "name": "Average file read bandwidth on Linux",
-            "value": "9074.44",
-            "unit": "MB/s",
-            "extra": "linux_result"
-          },
-          {
-            "name": "Average file read bandwidth on Asterinas",
-            "value": "7333.70",
-            "unit": "MB/s",
-            "extra": "aster_result"
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
-            "name": "Yuke Peng",
-            "username": "sdww0",
-            "email": "pykfirst@gmail.com"
-          },
-          "committer": {
-            "name": "Tate, Hongliang Tian",
-            "username": "tatetian",
-            "email": "tatetian@gmail.com"
-          },
-          "id": "bb4751741a6cd6b919015f8f483512c90e73bf55",
-          "message": "Bump smoltcp to newest git version",
-          "timestamp": "2024-08-22T06:34:41Z",
-          "url": "https://github.com/asterinas/asterinas/commit/bb4751741a6cd6b919015f8f483512c90e73bf55"
-        },
-        "date": 1724357403533,
-        "tool": "customBiggerIsBetter",
-        "description": "The bandwidth of reading a file on a single processor.",
-        "benches": [
-          {
-            "name": "Average file read bandwidth on Linux",
-            "value": "8970.27",
-            "unit": "MB/s",
-            "extra": "linux_result"
-          },
-          {
-            "name": "Average file read bandwidth on Asterinas",
-            "value": "10403.67",
-            "unit": "MB/s",
-            "extra": "aster_result"
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
-            "name": "Zhang Junyang",
-            "username": "junyang-zh",
-            "email": "junyang@stu.pku.edu.cn"
-          },
-          "committer": {
-            "name": "Tate, Hongliang Tian",
-            "username": "tatetian",
-            "email": "tatetian@gmail.com"
-          },
-          "id": "e50b05d1ee71f52679e8ed8ea310cda6bfcd7e0c",
-          "message": "Bump version to 0.8.0",
-          "timestamp": "2024-08-23T14:57:42Z",
-          "url": "https://github.com/asterinas/asterinas/commit/e50b05d1ee71f52679e8ed8ea310cda6bfcd7e0c"
-        },
-        "date": 1724444073137,
-        "tool": "customBiggerIsBetter",
-        "description": "The bandwidth of reading a file on a single processor.",
-        "benches": [
-          {
-            "name": "Average file read bandwidth on Linux",
-            "value": "8879.04",
-            "unit": "MB/s",
-            "extra": "linux_result"
-          },
-          {
-            "name": "Average file read bandwidth on Asterinas",
-            "value": "10048.87",
-            "unit": "MB/s",
-            "extra": "aster_result"
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
-            "name": "Zhang Junyang",
-            "username": "junyang-zh",
-            "email": "junyang@stu.pku.edu.cn"
-          },
-          "committer": {
-            "name": "Tate, Hongliang Tian",
-            "username": "tatetian",
-            "email": "tatetian@gmail.com"
-          },
-          "id": "d22277a3e69040906cd198ea625614c5c69d66da",
-          "message": "Allow manually dispatching publishing workflows",
-          "timestamp": "2024-08-24T09:27:15Z",
-          "url": "https://github.com/asterinas/asterinas/commit/d22277a3e69040906cd198ea625614c5c69d66da"
-        },
-        "date": 1724530388756,
-        "tool": "customBiggerIsBetter",
-        "description": "The bandwidth of reading a file on a single processor.",
-        "benches": [
-          {
-            "name": "Average file read bandwidth on Linux",
-            "value": "8992.81",
-            "unit": "MB/s",
-            "extra": "linux_result"
-          },
-          {
-            "name": "Average file read bandwidth on Asterinas",
-            "value": "10089.47",
-            "unit": "MB/s",
-            "extra": "aster_result"
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
-            "name": "Zhang Junyang",
-            "username": "junyang-zh",
-            "email": "junyang@stu.pku.edu.cn"
-          },
-          "committer": {
-            "name": "Tate, Hongliang Tian",
-            "username": "tatetian",
-            "email": "tatetian@gmail.com"
-          },
-          "id": "4231645c02ec317d99f0150bc8ed3210489855a0",
-          "message": "Fix `is_tdx_enabled` in OSDK tests",
-          "timestamp": "2024-08-25T12:16:30Z",
-          "url": "https://github.com/asterinas/asterinas/commit/4231645c02ec317d99f0150bc8ed3210489855a0"
-        },
-        "date": 1724616790650,
-        "tool": "customBiggerIsBetter",
-        "description": "The bandwidth of reading a file on a single processor.",
-        "benches": [
-          {
-            "name": "Average file read bandwidth on Linux",
-            "value": "9265.98",
-            "unit": "MB/s",
-            "extra": "linux_result"
-          },
-          {
-            "name": "Average file read bandwidth on Asterinas",
-            "value": "10184.02",
-            "unit": "MB/s",
-            "extra": "aster_result"
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
-            "name": "Chen Chengjun",
-            "username": "cchanging",
-            "email": "chenchengjun.ccj@antgroup.com"
-          },
-          "committer": {
-            "name": "Tate, Hongliang Tian",
-            "username": "tatetian",
-            "email": "tatetian@gmail.com"
-          },
-          "id": "9e59db2f42c2ef9f8e91e0d1ee03562190726d56",
-          "message": "Make benchmark CI more fair",
-          "timestamp": "2024-08-26T09:41:40Z",
-          "url": "https://github.com/asterinas/asterinas/commit/9e59db2f42c2ef9f8e91e0d1ee03562190726d56"
-        },
-        "date": 1724703082632,
-        "tool": "customBiggerIsBetter",
-        "description": "The bandwidth of reading a file on a single processor.",
-        "benches": [
-          {
-            "name": "Average file read bandwidth on Linux",
-            "value": "9282.00",
-            "unit": "MB/s",
-            "extra": "linux_result"
-          },
-          {
-            "name": "Average file read bandwidth on Asterinas",
-            "value": "10237.62",
-            "unit": "MB/s",
-            "extra": "aster_result"
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
-            "name": "Chen Chengjun",
-            "username": "cchanging",
-            "email": "chenchengjun.ccj@antgroup.com"
-          },
-          "committer": {
-            "name": "Tate, Hongliang Tian",
-            "username": "tatetian",
-            "email": "tatetian@gmail.com"
-          },
-          "id": "ffc717f00bce62b1805af8043e335ad5fc1f175c",
-          "message": "Enable handling page fault around",
-          "timestamp": "2024-08-28T02:24:44Z",
-          "url": "https://github.com/asterinas/asterinas/commit/ffc717f00bce62b1805af8043e335ad5fc1f175c"
-        },
-        "date": 1724818020490,
-        "tool": "customBiggerIsBetter",
-        "description": "The bandwidth of reading a file on a single processor.",
-        "benches": [
-          {
-            "name": "Average file read bandwidth on Linux",
-            "value": "9338.51",
-            "unit": "MB/s",
-            "extra": "linux_result"
-          },
-          {
-            "name": "Average file read bandwidth on Asterinas",
-            "value": "10190.59",
-            "unit": "MB/s",
-            "extra": "aster_result"
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
-            "name": "Shaowei Song",
-            "username": "lucassong-mh",
-            "email": "songshaowei.ssw@antgroup.com"
-          },
-          "committer": {
-            "name": "Tate, Hongliang Tian",
-            "username": "tatetian",
-            "email": "tatetian@gmail.com"
-          },
-          "id": "e6f465b553f613d60828e0e503dc94ce4109ded1",
-          "message": "Replace all the ring buffers with the new one",
-          "timestamp": "2024-08-28T06:23:24Z",
-          "url": "https://github.com/asterinas/asterinas/commit/e6f465b553f613d60828e0e503dc94ce4109ded1"
-        },
-        "date": 1724875889743,
-        "tool": "customBiggerIsBetter",
-        "description": "The bandwidth of reading a file on a single processor.",
-        "benches": [
-          {
-            "name": "Average file read bandwidth on Linux",
-            "value": "9284.09",
-            "unit": "MB/s",
-            "extra": "linux_result"
-          },
-          {
-            "name": "Average file read bandwidth on Asterinas",
-            "value": "10139.59",
-            "unit": "MB/s",
-            "extra": "aster_result"
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
-            "name": "Chen Chengjun",
-            "username": "cchanging",
-            "email": "chenchengjun.ccj@antgroup.com"
-          },
-          "committer": {
-            "name": "Tate, Hongliang Tian",
-            "username": "tatetian",
-            "email": "tatetian@gmail.com"
-          },
-          "id": "00d9b01d5c356fbc5f6b72b9a69a7571fdf0ab1f",
-          "message": "Add a fast path to page table fork",
-          "timestamp": "2024-08-29T03:52:33Z",
-          "url": "https://github.com/asterinas/asterinas/commit/00d9b01d5c356fbc5f6b72b9a69a7571fdf0ab1f"
-        },
-        "date": 1724907587431,
-        "tool": "customBiggerIsBetter",
-        "description": "The bandwidth of reading a file on a single processor.",
-        "benches": [
-          {
-            "name": "Average file read bandwidth on Linux",
-            "value": "9246.19",
-            "unit": "MB/s",
-            "extra": "linux_result"
-          },
-          {
-            "name": "Average file read bandwidth on Asterinas",
-            "value": "10332.59",
-            "unit": "MB/s",
-            "extra": "aster_result"
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
-            "name": "Chen Chengjun",
-            "username": "cchanging",
-            "email": "chenchengjun.ccj@antgroup.com"
-          },
-          "committer": {
-            "name": "Tate, Hongliang Tian",
-            "username": "tatetian",
-            "email": "tatetian@gmail.com"
-          },
-          "id": "00d9b01d5c356fbc5f6b72b9a69a7571fdf0ab1f",
-          "message": "Add a fast path to page table fork",
-          "timestamp": "2024-08-29T03:52:33Z",
-          "url": "https://github.com/asterinas/asterinas/commit/00d9b01d5c356fbc5f6b72b9a69a7571fdf0ab1f"
-        },
-        "date": 1724914130712,
-        "tool": "customBiggerIsBetter",
-        "description": "The bandwidth of reading a file on a single processor.",
-        "benches": [
-          {
-            "name": "Average file read bandwidth on Linux",
-            "value": "9243.65",
-            "unit": "MB/s",
-            "extra": "linux_result"
-          },
-          {
-            "name": "Average file read bandwidth on Asterinas",
-            "value": "10205.31",
-            "unit": "MB/s",
-            "extra": "aster_result"
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
-            "name": "Yuke Peng",
-            "username": "sdww0",
-            "email": "pykfirst@gmail.com"
-          },
-          "committer": {
-            "name": "Tate, Hongliang Tian",
-            "username": "tatetian",
-            "email": "tatetian@gmail.com"
-          },
-          "id": "539984bbed414969b0c40cf181a10e9341ed2359",
-          "message": "Replace read with read_raw",
-          "timestamp": "2024-08-29T12:46:20Z",
-          "url": "https://github.com/asterinas/asterinas/commit/539984bbed414969b0c40cf181a10e9341ed2359"
-        },
-        "date": 1724962321766,
-        "tool": "customBiggerIsBetter",
-        "description": "The bandwidth of reading a file on a single processor.",
-        "benches": [
-          {
-            "name": "Average file read bandwidth on Linux",
-            "value": "9354.29",
-            "unit": "MB/s",
-            "extra": "linux_result"
-          },
-          {
-            "name": "Average file read bandwidth on Asterinas",
-            "value": "10117.80",
-            "unit": "MB/s",
-            "extra": "aster_result"
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
-            "name": "Yuke Peng",
-            "username": "sdww0",
-            "email": "pykfirst@gmail.com"
-          },
-          "committer": {
-            "name": "Tate, Hongliang Tian",
-            "username": "tatetian",
-            "email": "tatetian@gmail.com"
-          },
-          "id": "db16caf28c46e4ed24099fcba13d40b7d673164c",
-          "message": "[Semaphore] Replace Mutex with SpinLock",
-          "timestamp": "2024-08-30T11:23:53Z",
-          "url": "https://github.com/asterinas/asterinas/commit/db16caf28c46e4ed24099fcba13d40b7d673164c"
-        },
-        "date": 1725049143160,
-        "tool": "customBiggerIsBetter",
-        "description": "The bandwidth of reading a file on a single processor.",
-        "benches": [
-          {
-            "name": "Average file read bandwidth on Linux",
-            "value": "9062.34",
-            "unit": "MB/s",
-            "extra": "linux_result"
-          },
-          {
-            "name": "Average file read bandwidth on Asterinas",
-            "value": "10042.67",
-            "unit": "MB/s",
-            "extra": "aster_result"
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
-            "name": "YanWQ-monad",
-            "username": "YanWQ-monad",
-            "email": "YanWQmonad@gmail.com"
-          },
-          "committer": {
-            "name": "Tate, Hongliang Tian",
-            "username": "tatetian",
-            "email": "tatetian@gmail.com"
-          },
-          "id": "e6e771e9b5ae7d223a50aa4b38994500b0db6867",
-          "message": "Better timestamp in logging",
-          "timestamp": "2024-08-30T17:51:32Z",
-          "url": "https://github.com/asterinas/asterinas/commit/e6e771e9b5ae7d223a50aa4b38994500b0db6867"
-        },
-        "date": 1725135126297,
-        "tool": "customBiggerIsBetter",
-        "description": "The bandwidth of reading a file on a single processor.",
-        "benches": [
-          {
-            "name": "Average file read bandwidth on Linux",
-            "value": "9645.72",
-            "unit": "MB/s",
-            "extra": "linux_result"
-          },
-          {
-            "name": "Average file read bandwidth on Asterinas",
-            "value": "10184.41",
-            "unit": "MB/s",
-            "extra": "aster_result"
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
-            "name": "Marsman1996",
-            "username": "Marsman1996",
-            "email": "lqliuyuwei@outlook.com"
-          },
-          "committer": {
-            "name": "Tate, Hongliang Tian",
-            "username": "tatetian",
-            "email": "tatetian@gmail.com"
-          },
-          "id": "745ac6d982638d3548f09ea2aa2103e37c135153",
-          "message": "Set overflow boundary to `isize::MAX` for memory related syscalls",
-          "timestamp": "2024-08-29T14:26:36Z",
-          "url": "https://github.com/asterinas/asterinas/commit/745ac6d982638d3548f09ea2aa2103e37c135153"
-        },
-        "date": 1725221368431,
-        "tool": "customBiggerIsBetter",
-        "description": "The bandwidth of reading a file on a single processor.",
-        "benches": [
-          {
-            "name": "Average file read bandwidth on Linux",
-            "value": "9020.16",
-            "unit": "MB/s",
-            "extra": "linux_result"
-          },
-          {
-            "name": "Average file read bandwidth on Asterinas",
-            "value": "10224.75",
-            "unit": "MB/s",
-            "extra": "aster_result"
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
-            "name": "Shaowei Song",
-            "username": "lucassong-mh",
-            "email": "songshaowei.ssw@antgroup.com"
-          },
-          "committer": {
-            "name": "Tate, Hongliang Tian",
-            "username": "tatetian",
-            "email": "tatetian@gmail.com"
-          },
-          "id": "963874471284ed014b76d268d933b6d13073c2cc",
-          "message": "Unseekable files need not to manipulate the `offset`",
-          "timestamp": "2024-09-02T09:48:15Z",
-          "url": "https://github.com/asterinas/asterinas/commit/963874471284ed014b76d268d933b6d13073c2cc"
-        },
-        "date": 1725308076903,
-        "tool": "customBiggerIsBetter",
-        "description": "The bandwidth of reading a file on a single processor.",
-        "benches": [
-          {
-            "name": "Average file read bandwidth on Linux",
-            "value": "9317.60",
-            "unit": "MB/s",
-            "extra": "linux_result"
-          },
-          {
-            "name": "Average file read bandwidth on Asterinas",
-            "value": "9990.71",
-            "unit": "MB/s",
-            "extra": "aster_result"
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
-            "name": "Shaowei Song",
-            "username": "lucassong-mh",
-            "email": "songshaowei.ssw@antgroup.com"
-          },
-          "committer": {
-            "name": "Tate, Hongliang Tian",
-            "username": "tatetian",
-            "email": "tatetian@gmail.com"
-          },
-          "id": "963874471284ed014b76d268d933b6d13073c2cc",
-          "message": "Unseekable files need not to manipulate the `offset`",
-          "timestamp": "2024-09-02T09:48:15Z",
-          "url": "https://github.com/asterinas/asterinas/commit/963874471284ed014b76d268d933b6d13073c2cc"
-        },
-        "date": 1725397920466,
-        "tool": "customBiggerIsBetter",
-        "description": "The bandwidth of reading a file on a single processor.",
-        "benches": [
-          {
-            "name": "Average file read bandwidth on Linux",
-            "value": "9315.50",
-            "unit": "MB/s",
-            "extra": "linux_result"
-          },
-          {
-            "name": "Average file read bandwidth on Asterinas",
-            "value": "9932.67",
-            "unit": "MB/s",
-            "extra": "aster_result"
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
-            "name": "Ruize Tang",
-            "username": "tangruize",
-            "email": "1466040111@qq.com"
-          },
-          "committer": {
-            "name": "Tate, Hongliang Tian",
-            "username": "tatetian",
-            "email": "tatetian@gmail.com"
-          },
-          "id": "458a6a5b3b01aebe78c124fe20be91a91f0139da",
-          "message": "Fix unexpected unlock of mutexes, add a testcase",
-          "timestamp": "2024-09-03T07:33:12Z",
-          "url": "https://github.com/asterinas/asterinas/commit/458a6a5b3b01aebe78c124fe20be91a91f0139da"
-        },
-        "date": 1725484388559,
-        "tool": "customBiggerIsBetter",
-        "description": "The bandwidth of reading a file on a single processor.",
-        "benches": [
-          {
-            "name": "Average file read bandwidth on Linux",
-            "value": "9173.52",
-            "unit": "MB/s",
-            "extra": "linux_result"
-          },
-          {
-            "name": "Average file read bandwidth on Asterinas",
-            "value": "10103.52",
-            "unit": "MB/s",
-            "extra": "aster_result"
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
-            "name": "Ruize Tang",
-            "username": "tangruize",
-            "email": "1466040111@qq.com"
-          },
-          "committer": {
-            "name": "Tate, Hongliang Tian",
-            "username": "tatetian",
-            "email": "tatetian@gmail.com"
-          },
-          "id": "458a6a5b3b01aebe78c124fe20be91a91f0139da",
-          "message": "Fix unexpected unlock of mutexes, add a testcase",
-          "timestamp": "2024-09-03T07:33:12Z",
-          "url": "https://github.com/asterinas/asterinas/commit/458a6a5b3b01aebe78c124fe20be91a91f0139da"
-        },
-        "date": 1725570748348,
-        "tool": "customBiggerIsBetter",
-        "description": "The bandwidth of reading a file on a single processor.",
-        "benches": [
-          {
-            "name": "Average file read bandwidth on Linux",
-            "value": "9089.34",
-            "unit": "MB/s",
-            "extra": "linux_result"
-          },
-          {
-            "name": "Average file read bandwidth on Asterinas",
-            "value": "8649.58",
-            "unit": "MB/s",
-            "extra": "aster_result"
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
-            "name": "Thomas Dickson",
-            "username": "Hoverth",
-            "email": "modscrat+github@gmail.com"
-          },
-          "committer": {
-            "name": "Tate, Hongliang Tian",
-            "username": "tatetian",
-            "email": "tatetian@gmail.com"
-          },
-          "id": "64e43d34aab13eeddea8dd7485c712acc99116ca",
-          "message": "doc: fix typo in README.md",
-          "timestamp": "2024-09-06T04:11:16Z",
-          "url": "https://github.com/asterinas/asterinas/commit/64e43d34aab13eeddea8dd7485c712acc99116ca"
-        },
-        "date": 1725653520849,
-        "tool": "customBiggerIsBetter",
-        "description": "The bandwidth of reading a file on a single processor.",
-        "benches": [
-          {
-            "name": "Average file read bandwidth on Linux",
-            "value": "9210.03",
-            "unit": "MB/s",
-            "extra": "linux_result"
-          },
-          {
-            "name": "Average file read bandwidth on Asterinas",
-            "value": "10202.02",
-            "unit": "MB/s",
-            "extra": "aster_result"
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
-            "name": "Zhang Junyang",
-            "username": "junyang-zh",
-            "email": "junyang@stu.pku.edu.cn"
-          },
-          "committer": {
-            "name": "Tate, Hongliang Tian",
-            "username": "tatetian",
-            "email": "tatetian@gmail.com"
-          },
-          "id": "c68302f7007225fa47f22a1085a8c59dcdae2ad4",
-          "message": "Don't hold any locks while waiting in `EpollFile`",
-          "timestamp": "2024-09-06T12:05:01Z",
-          "url": "https://github.com/asterinas/asterinas/commit/c68302f7007225fa47f22a1085a8c59dcdae2ad4"
-        },
-        "date": 1725740099024,
-        "tool": "customBiggerIsBetter",
-        "description": "The bandwidth of reading a file on a single processor.",
-        "benches": [
-          {
-            "name": "Average file read bandwidth on Linux",
-            "value": "9086.57",
-            "unit": "MB/s",
-            "extra": "linux_result"
-          },
-          {
-            "name": "Average file read bandwidth on Asterinas",
-            "value": "9527.94",
-            "unit": "MB/s",
-            "extra": "aster_result"
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
-            "name": "Zhang Junyang",
-            "username": "junyang-zh",
-            "email": "junyang@stu.pku.edu.cn"
-          },
-          "committer": {
-            "name": "Tate, Hongliang Tian",
-            "username": "tatetian",
-            "email": "tatetian@gmail.com"
-          },
-          "id": "c68302f7007225fa47f22a1085a8c59dcdae2ad4",
-          "message": "Don't hold any locks while waiting in `EpollFile`",
-          "timestamp": "2024-09-06T12:05:01Z",
-          "url": "https://github.com/asterinas/asterinas/commit/c68302f7007225fa47f22a1085a8c59dcdae2ad4"
-        },
-        "date": 1725829908325,
-        "tool": "customBiggerIsBetter",
-        "description": "The bandwidth of reading a file on a single processor.",
-        "benches": [
-          {
-            "name": "Average file read bandwidth on Linux",
-            "value": "9153.65",
-            "unit": "MB/s",
-            "extra": "linux_result"
-          },
-          {
-            "name": "Average file read bandwidth on Asterinas",
-            "value": "10035.16",
-            "unit": "MB/s",
-            "extra": "aster_result"
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
-            "name": "Zhang Junyang",
-            "username": "junyang-zh",
-            "email": "junyang@stu.pku.edu.cn"
-          },
-          "committer": {
-            "name": "Tate, Hongliang Tian",
-            "username": "tatetian",
-            "email": "tatetian@gmail.com"
-          },
-          "id": "c68302f7007225fa47f22a1085a8c59dcdae2ad4",
-          "message": "Don't hold any locks while waiting in `EpollFile`",
-          "timestamp": "2024-09-06T12:05:01Z",
-          "url": "https://github.com/asterinas/asterinas/commit/c68302f7007225fa47f22a1085a8c59dcdae2ad4"
-        },
-        "date": 1725912858689,
-        "tool": "customBiggerIsBetter",
-        "description": "The bandwidth of reading a file on a single processor.",
-        "benches": [
-          {
-            "name": "Average file read bandwidth on Linux",
-            "value": "9261.35",
-            "unit": "MB/s",
-            "extra": "linux_result"
-          },
-          {
-            "name": "Average file read bandwidth on Asterinas",
-            "value": "10223.97",
-            "unit": "MB/s",
-            "extra": "aster_result"
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
-            "name": "Zhang Junyang",
-            "username": "junyang-zh",
-            "email": "junyang@stu.pku.edu.cn"
-          },
-          "committer": {
-            "name": "Tate, Hongliang Tian",
-            "username": "tatetian",
-            "email": "tatetian@gmail.com"
-          },
-          "id": "c68302f7007225fa47f22a1085a8c59dcdae2ad4",
-          "message": "Don't hold any locks while waiting in `EpollFile`",
-          "timestamp": "2024-09-06T12:05:01Z",
-          "url": "https://github.com/asterinas/asterinas/commit/c68302f7007225fa47f22a1085a8c59dcdae2ad4"
-        },
-        "date": 1726002719919,
-        "tool": "customBiggerIsBetter",
-        "description": "The bandwidth of reading a file on a single processor.",
-        "benches": [
-          {
-            "name": "Average file read bandwidth on Linux",
-            "value": "9179.48",
-            "unit": "MB/s",
-            "extra": "linux_result"
-          },
-          {
-            "name": "Average file read bandwidth on Asterinas",
-            "value": "10180.35",
-            "unit": "MB/s",
-            "extra": "aster_result"
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
-            "name": "Shaowei Song",
-            "username": "lucassong-mh",
-            "email": "songshaowei.ssw@antgroup.com"
-          },
-          "committer": {
-            "name": "Tate, Hongliang Tian",
-            "username": "tatetian",
-            "email": "tatetian@gmail.com"
-          },
-          "id": "8bfbdf6642a9d04db3490792926d6a299d1e30be",
-          "message": "Optimize the lock usage in `RamInode`'s read/write",
-          "timestamp": "2024-09-02T13:23:46Z",
-          "url": "https://github.com/asterinas/asterinas/commit/8bfbdf6642a9d04db3490792926d6a299d1e30be"
-        },
-        "date": 1726085544218,
-        "tool": "customBiggerIsBetter",
-        "description": "The bandwidth of reading a file on a single processor.",
-        "benches": [
-          {
-            "name": "Average file read bandwidth on Linux",
-            "value": "9189.85",
-            "unit": "MB/s",
-            "extra": "linux_result"
-          },
-          {
-            "name": "Average file read bandwidth on Asterinas",
-            "value": "10060.36",
-            "unit": "MB/s",
-            "extra": "aster_result"
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
-            "name": "Marsman1996",
-            "username": "Marsman1996",
-            "email": "lqliuyuwei@outlook.com"
-          },
-          "committer": {
-            "name": "Tate, Hongliang Tian",
-            "username": "tatetian",
-            "email": "tatetian@gmail.com"
-          },
-          "id": "6fcad6ce143b8f65e8be76297eb95a9cb56da22e",
-          "message": "Fix integer overflow in handle_page_faults_around",
-          "timestamp": "2024-09-12T12:15:04Z",
-          "url": "https://github.com/asterinas/asterinas/commit/6fcad6ce143b8f65e8be76297eb95a9cb56da22e"
-        },
-        "date": 1726171774991,
-        "tool": "customBiggerIsBetter",
-        "description": "The bandwidth of reading a file on a single processor.",
-        "benches": [
-          {
-            "name": "Average file read bandwidth on Linux",
-            "value": "9201.66",
-            "unit": "MB/s",
-            "extra": "linux_result"
-          },
-          {
-            "name": "Average file read bandwidth on Asterinas",
-            "value": "10138.82",
-            "unit": "MB/s",
-            "extra": "aster_result"
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
-            "name": "Yuke Peng",
-            "username": "sdww0",
-            "email": "pykfirst@gmail.com"
-          },
-          "committer": {
-            "name": "Tate, Hongliang Tian",
-            "username": "tatetian",
-            "email": "tatetian@gmail.com"
-          },
-          "id": "32ea24e945efde86117d2278a48145d71b9ec90c",
-          "message": "Bump version to 0.8.2",
-          "timestamp": "2024-09-13T05:02:35Z",
-          "url": "https://github.com/asterinas/asterinas/commit/32ea24e945efde86117d2278a48145d71b9ec90c"
-        },
-        "date": 1726262949679,
-        "tool": "customBiggerIsBetter",
-        "title": "[VFS] The bandwidth of file reads via page cache",
-        "description": "bw_file_rd",
-        "display": true,
-        "benches": [
-          {
-            "name": "Average file read bandwidth on Linux",
-            "value": "9392.75",
-            "unit": "MB/s",
-            "extra": "linux_result"
-          },
-          {
-            "name": "Average file read bandwidth on Asterinas",
-            "value": "10286.66",
-            "unit": "MB/s",
-            "extra": "aster_result"
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
-            "name": "Fabing Li",
-            "username": "grief8",
-            "email": "lifabing.lfb@antgroup.com"
-          },
-          "committer": {
-            "name": "Fabing Li",
-            "username": "grief8",
-            "email": "lifabing.lfb@antgroup.com"
-          },
-          "id": "adfb4a081356bea739a1720f284c3e66d6a96d19",
-          "message": "test",
-          "timestamp": "2024-09-14T03:47:04Z",
-          "url": "https://github.com/grief8/asterinas/commit/adfb4a081356bea739a1720f284c3e66d6a96d19"
-        },
-        "date": 1726285975548,
-        "tool": "customBiggerIsBetter",
-        "title": "[VFS] The bandwidth of file reads via page cache",
-        "description": "bw_file_rd",
-        "display": true,
-        "benches": [
-          {
-            "name": "Average file read bandwidth on Linux",
-            "value": "11793.66",
-            "unit": "MB/s",
-            "extra": "linux_result"
-          },
-          {
-            "name": "Average file read bandwidth on Asterinas",
-            "value": "12050.70",
-            "unit": "MB/s",
-            "extra": "aster_result"
-          }
-        ]
-      }
-    ],
-    "vfs_select_lat": [
-      {
-        "commit": {
-          "author": {
-            "name": "Fabing Li",
-            "username": "grief8",
-            "email": "lifabing.lfb@antgroup.com"
-          },
-          "committer": {
-            "name": "Fabing Li",
-            "username": "grief8",
-            "email": "lifabing.lfb@antgroup.com"
-          },
-          "id": "52871246d45bbd86954f1d1dd5c65c98e1656064",
-          "message": "uP",
-          "timestamp": "2024-09-24T06:48:01Z",
-          "url": "https://github.com/grief8/asterinas/commit/52871246d45bbd86954f1d1dd5c65c98e1656064"
-        },
-        "date": 1727160801801,
-        "tool": "customSmallerIsBetter",
-        "title": "[Network] The cost of select (file fds)",
-        "description": "lat_select",
-        "display": true,
-        "benches": [
-          {
-            "name": "Average select file latency on Linux",
-            "value": "1.4737",
-            "unit": "µs",
-            "extra": "linux_result"
-          },
-          {
-            "name": "Average select file latency on Asterinas",
-            "value": "2.1649",
-            "unit": "µs",
-            "extra": "aster_result"
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
-            "name": "Fabing Li",
-            "username": "grief8",
-            "email": "lifabing.lfb@antgroup.com"
-          },
-          "committer": {
-            "name": "Fabing Li",
-            "username": "grief8",
-            "email": "lifabing.lfb@antgroup.com"
-          },
-          "id": "bb8d2fe583df04a06eaf4c931270c55dd06f48ae",
-          "message": "iuu",
-          "timestamp": "2024-09-24T06:58:54Z",
-          "url": "https://github.com/grief8/asterinas/commit/bb8d2fe583df04a06eaf4c931270c55dd06f48ae"
-        },
-        "date": 1727168638907,
-        "tool": "customSmallerIsBetter",
-        "title": "[Network] The cost of select (file fds)",
-        "description": "lat_select",
-        "display": true,
-        "benches": [
-          {
-            "name": "Average select file latency on Linux",
-            "value": "1.4804",
-            "unit": "µs",
-            "extra": "linux_result"
-          },
-          {
-            "name": "Average select file latency on Asterinas",
-            "value": "2.1669",
             "unit": "µs",
             "extra": "aster_result"
           }
@@ -22182,341 +18937,36 @@ window.BENCHMARK_DATA = {
         ]
       }
     ],
-    "unix_lat": [
+    "vfs_read_lat": [
       {
         "commit": {
           "author": {
-            "name": "Ruihan Li",
-            "username": "lrh2000",
-            "email": "lrh2000@pku.edu.cn"
+            "name": "Shaowei Song",
+            "username": "lucassong-mh",
+            "email": "songshaowei.ssw@antgroup.com"
           },
           "committer": {
             "name": "Tate, Hongliang Tian",
             "username": "tatetian",
             "email": "tatetian@gmail.com"
           },
-          "id": "94eba6d85eb9e62ddd904c1132d556b808cc3174",
-          "message": "Add unit tests about blocking behavior",
-          "timestamp": "2024-07-06T10:20:02Z",
-          "url": "https://github.com/asterinas/asterinas/commit/94eba6d85eb9e62ddd904c1132d556b808cc3174"
+          "id": "20a856b07fa8210fdd2d46d3feb5087004c27afb",
+          "message": "Revise the naming of all sync/async io APIs",
+          "timestamp": "2024-07-30T09:31:02Z",
+          "url": "https://github.com/asterinas/asterinas/commit/20a856b07fa8210fdd2d46d3feb5087004c27afb"
         },
-        "date": 1721337901434,
+        "date": 1722371022140,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Average unix latency on Linux",
-            "value": "4.5580",
+            "name": "Average read latency on Linux",
+            "value": "0.3452",
             "unit": "ms",
             "extra": "linux_result"
           },
           {
-            "name": "Average unix latency on Asterinas",
-            "value": "7.2898",
-            "unit": "ms",
-            "extra": "aster_result"
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
-            "name": "Ruihan Li",
-            "username": "lrh2000",
-            "email": "lrh2000@pku.edu.cn"
-          },
-          "committer": {
-            "name": "Tate, Hongliang Tian",
-            "username": "tatetian",
-            "email": "tatetian@gmail.com"
-          },
-          "id": "9f125cd671fc8a91dfffe2b13949980560123f7b",
-          "message": "Remove the nonsense mutex in `Poller`",
-          "timestamp": "2024-07-14T09:47:11Z",
-          "url": "https://github.com/asterinas/asterinas/commit/9f125cd671fc8a91dfffe2b13949980560123f7b"
-        },
-        "date": 1721424239825,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Average unix latency on Linux",
-            "value": "4.6047",
-            "unit": "ms",
-            "extra": "linux_result"
-          },
-          {
-            "name": "Average unix latency on Asterinas",
-            "value": "7.2029",
-            "unit": "ms",
-            "extra": "aster_result"
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
-            "name": "Zhang Junyang",
-            "username": "junyang-zh",
-            "email": "junyang@stu.pku.edu.cn"
-          },
-          "committer": {
-            "name": "Tate, Hongliang Tian",
-            "username": "tatetian",
-            "email": "tatetian@gmail.com"
-          },
-          "id": "20524ae64a3472a5381e7e5aa960a124d050e57b",
-          "message": "Update the 100-line kernel and format it as well",
-          "timestamp": "2024-07-04T15:19:44Z",
-          "url": "https://github.com/asterinas/asterinas/commit/20524ae64a3472a5381e7e5aa960a124d050e57b"
-        },
-        "date": 1721510685999,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Average unix latency on Linux",
-            "value": "4.5749",
-            "unit": "ms",
-            "extra": "linux_result"
-          },
-          {
-            "name": "Average unix latency on Asterinas",
-            "value": "7.1370",
-            "unit": "ms",
-            "extra": "aster_result"
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
-            "name": "hongwen.chw",
-            "username": "CherishCai",
-            "email": "785427346@qq.com"
-          },
-          "committer": {
-            "name": "Tate, Hongliang Tian",
-            "username": "tatetian",
-            "email": "tatetian@gmail.com"
-          },
-          "id": "4dacff5be4fa547cd26748e6af03f79cb039f700",
-          "message": "Fix a typo when assign 'dst.rbx' at `copy_gp_regs`",
-          "timestamp": "2024-07-21T09:02:54Z",
-          "url": "https://github.com/asterinas/asterinas/commit/4dacff5be4fa547cd26748e6af03f79cb039f700"
-        },
-        "date": 1721593637659,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Average unix latency on Linux",
-            "value": "4.5765",
-            "unit": "ms",
-            "extra": "linux_result"
-          },
-          {
-            "name": "Average unix latency on Asterinas",
-            "value": "7.1421",
-            "unit": "ms",
-            "extra": "aster_result"
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
-            "name": "YanWQ-monad",
-            "username": "YanWQ-monad",
-            "email": "YanWQmonad@gmail.com"
-          },
-          "committer": {
-            "name": "Tate, Hongliang Tian",
-            "username": "tatetian",
-            "email": "tatetian@gmail.com"
-          },
-          "id": "5aa28eae7e14594bbe68827114443b31002bf742",
-          "message": "Extract x86-specific code from `call_irq_callback_functions`",
-          "timestamp": "2024-07-19T08:45:22Z",
-          "url": "https://github.com/asterinas/asterinas/commit/5aa28eae7e14594bbe68827114443b31002bf742"
-        },
-        "date": 1721680359420,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Average unix latency on Linux",
-            "value": "4.5644",
-            "unit": "ms",
-            "extra": "linux_result"
-          },
-          {
-            "name": "Average unix latency on Asterinas",
-            "value": "7.1421",
-            "unit": "ms",
-            "extra": "aster_result"
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
-            "name": "YanWQ-monad",
-            "username": "YanWQ-monad",
-            "email": "YanWQmonad@gmail.com"
-          },
-          "committer": {
-            "name": "Tate, Hongliang Tian",
-            "username": "tatetian",
-            "email": "tatetian@gmail.com"
-          },
-          "id": "5aa28eae7e14594bbe68827114443b31002bf742",
-          "message": "Extract x86-specific code from `call_irq_callback_functions`",
-          "timestamp": "2024-07-19T08:45:22Z",
-          "url": "https://github.com/asterinas/asterinas/commit/5aa28eae7e14594bbe68827114443b31002bf742"
-        },
-        "date": 1721766373808,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Average unix latency on Linux",
-            "value": "4.5740",
-            "unit": "ms",
-            "extra": "linux_result"
-          },
-          {
-            "name": "Average unix latency on Asterinas",
-            "value": "7.1459",
-            "unit": "ms",
-            "extra": "aster_result"
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
-            "name": "YanWQ-monad",
-            "username": "YanWQ-monad",
-            "email": "YanWQmonad@gmail.com"
-          },
-          "committer": {
-            "name": "Tate, Hongliang Tian",
-            "username": "tatetian",
-            "email": "tatetian@gmail.com"
-          },
-          "id": "5aa28eae7e14594bbe68827114443b31002bf742",
-          "message": "Extract x86-specific code from `call_irq_callback_functions`",
-          "timestamp": "2024-07-19T08:45:22Z",
-          "url": "https://github.com/asterinas/asterinas/commit/5aa28eae7e14594bbe68827114443b31002bf742"
-        },
-        "date": 1721852733029,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Average unix latency on Linux",
-            "value": "4.5796",
-            "unit": "ms",
-            "extra": "linux_result"
-          },
-          {
-            "name": "Average unix latency on Asterinas",
-            "value": "7.1512",
-            "unit": "ms",
-            "extra": "aster_result"
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
-            "name": "Ruihan Li",
-            "username": "lrh2000",
-            "email": "lrh2000@pku.edu.cn"
-          },
-          "committer": {
-            "name": "Tate, Hongliang Tian",
-            "username": "tatetian",
-            "email": "tatetian@gmail.com"
-          },
-          "id": "e83e1fc01ba38ad2a405d7d710ec7258fb664f60",
-          "message": "Unpack states from `Arc` in UNIX sockets",
-          "timestamp": "2024-06-30T15:08:25Z",
-          "url": "https://github.com/asterinas/asterinas/commit/e83e1fc01ba38ad2a405d7d710ec7258fb664f60"
-        },
-        "date": 1721939255059,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Average unix latency on Linux",
-            "value": "4.6050",
-            "unit": "ms",
-            "extra": "linux_result"
-          },
-          {
-            "name": "Average unix latency on Asterinas",
-            "value": "5.8757",
-            "unit": "ms",
-            "extra": "aster_result"
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
-            "name": "StanPlatinum",
-            "email": "yangzhi.lwj@antgroup.com"
-          },
-          "committer": {
-            "name": "Tate, Hongliang Tian",
-            "username": "tatetian",
-            "email": "tatetian@gmail.com"
-          },
-          "id": "0b8335c9431008dd7d037721a21724328c4a3024",
-          "message": "Add /proc/filesystems support",
-          "timestamp": "2024-07-13T09:31:50Z",
-          "url": "https://github.com/grief8/asterinas/commit/0b8335c9431008dd7d037721a21724328c4a3024"
-        },
-        "date": 1721940032763,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Average unix latency on Linux",
-            "value": "4.5930",
-            "unit": "ms",
-            "extra": "linux_result"
-          },
-          {
-            "name": "Average unix latency on Asterinas",
-            "value": "5.5359",
-            "unit": "ms",
-            "extra": "aster_result"
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
-            "name": "Ruihan Li",
-            "username": "lrh2000",
-            "email": "lrh2000@pku.edu.cn"
-          },
-          "committer": {
-            "name": "Tate, Hongliang Tian",
-            "username": "tatetian",
-            "email": "tatetian@gmail.com"
-          },
-          "id": "e83e1fc01ba38ad2a405d7d710ec7258fb664f60",
-          "message": "Unpack states from `Arc` in UNIX sockets",
-          "timestamp": "2024-06-30T15:08:25Z",
-          "url": "https://github.com/asterinas/asterinas/commit/e83e1fc01ba38ad2a405d7d710ec7258fb664f60"
-        },
-        "date": 1722025498217,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Average unix latency on Linux",
-            "value": "4.5781",
-            "unit": "ms",
-            "extra": "linux_result"
-          },
-          {
-            "name": "Average unix latency on Asterinas",
-            "value": "5.9410",
+            "name": "Average read latency on Asterinas",
+            "value": "0.4317",
             "unit": "ms",
             "extra": "aster_result"
           }
@@ -22539,18 +18989,18 @@ window.BENCHMARK_DATA = {
           "timestamp": "2024-07-30T09:31:02Z",
           "url": "https://github.com/asterinas/asterinas/commit/20a856b07fa8210fdd2d46d3feb5087004c27afb"
         },
-        "date": 1722371793799,
+        "date": 1722457493309,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Average unix latency on Linux",
-            "value": "4.5768",
+            "name": "Average read latency on Linux",
+            "value": "0.3472",
             "unit": "ms",
             "extra": "linux_result"
           },
           {
-            "name": "Average unix latency on Asterinas",
-            "value": "5.9837",
+            "name": "Average read latency on Asterinas",
+            "value": "0.4338",
             "unit": "ms",
             "extra": "aster_result"
           }
@@ -22573,52 +19023,18 @@ window.BENCHMARK_DATA = {
           "timestamp": "2024-07-30T09:31:02Z",
           "url": "https://github.com/asterinas/asterinas/commit/20a856b07fa8210fdd2d46d3feb5087004c27afb"
         },
-        "date": 1722457972941,
+        "date": 1722543896881,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Average unix latency on Linux",
-            "value": "4.7873",
+            "name": "Average read latency on Linux",
+            "value": "0.3556",
             "unit": "ms",
             "extra": "linux_result"
           },
           {
-            "name": "Average unix latency on Asterinas",
-            "value": "5.9101",
-            "unit": "ms",
-            "extra": "aster_result"
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
-            "name": "Shaowei Song",
-            "username": "lucassong-mh",
-            "email": "songshaowei.ssw@antgroup.com"
-          },
-          "committer": {
-            "name": "Tate, Hongliang Tian",
-            "username": "tatetian",
-            "email": "tatetian@gmail.com"
-          },
-          "id": "20a856b07fa8210fdd2d46d3feb5087004c27afb",
-          "message": "Revise the naming of all sync/async io APIs",
-          "timestamp": "2024-07-30T09:31:02Z",
-          "url": "https://github.com/asterinas/asterinas/commit/20a856b07fa8210fdd2d46d3feb5087004c27afb"
-        },
-        "date": 1722544361898,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Average unix latency on Linux",
-            "value": "4.6030",
-            "unit": "ms",
-            "extra": "linux_result"
-          },
-          {
-            "name": "Average unix latency on Asterinas",
-            "value": "6.0145",
+            "name": "Average read latency on Asterinas",
+            "value": "0.4242",
             "unit": "ms",
             "extra": "aster_result"
           }
@@ -22641,19 +19057,19 @@ window.BENCHMARK_DATA = {
           "timestamp": "2024-08-02T13:40:56Z",
           "url": "https://github.com/asterinas/asterinas/commit/6f8978193c7a73a51403a8751314ddebc1c1983f"
         },
-        "date": 1722631431506,
+        "date": 1722630336787,
         "tool": "customSmallerIsBetter",
-        "description": "The latency of UNIX domain socket communication on a single processor.",
+        "description": "The latency of the read system call on a single processor.",
         "benches": [
           {
-            "name": "Average unix latency on Linux",
-            "value": "4.6338",
+            "name": "Average read latency on Linux",
+            "value": "0.3473",
             "unit": "µs",
             "extra": "linux_result"
           },
           {
-            "name": "Average unix latency on Asterinas",
-            "value": "5.9880",
+            "name": "Average read latency on Asterinas",
+            "value": "0.4321",
             "unit": "µs",
             "extra": "aster_result"
           }
@@ -22676,19 +19092,19 @@ window.BENCHMARK_DATA = {
           "timestamp": "2024-08-02T13:40:56Z",
           "url": "https://github.com/asterinas/asterinas/commit/6f8978193c7a73a51403a8751314ddebc1c1983f"
         },
-        "date": 1722717832192,
+        "date": 1722716913919,
         "tool": "customSmallerIsBetter",
-        "description": "The latency of UNIX domain socket communication on a single processor.",
+        "description": "The latency of the read system call on a single processor.",
         "benches": [
           {
-            "name": "Average unix latency on Linux",
-            "value": "4.6684",
+            "name": "Average read latency on Linux",
+            "value": "0.3514",
             "unit": "µs",
             "extra": "linux_result"
           },
           {
-            "name": "Average unix latency on Asterinas",
-            "value": "5.8879",
+            "name": "Average read latency on Asterinas",
+            "value": "0.4313",
             "unit": "µs",
             "extra": "aster_result"
           }
@@ -22711,19 +19127,19 @@ window.BENCHMARK_DATA = {
           "timestamp": "2024-08-02T08:26:56Z",
           "url": "https://github.com/asterinas/asterinas/commit/16690bc61b0bb8d90dbb1cec8a317ba34aa09f71"
         },
-        "date": 1722804235256,
+        "date": 1722803266891,
         "tool": "customSmallerIsBetter",
-        "description": "The latency of UNIX domain socket communication on a single processor.",
+        "description": "The latency of the read system call on a single processor.",
         "benches": [
           {
-            "name": "Average unix latency on Linux",
-            "value": "4.7654",
+            "name": "Average read latency on Linux",
+            "value": "0.3543",
             "unit": "µs",
             "extra": "linux_result"
           },
           {
-            "name": "Average unix latency on Asterinas",
-            "value": "5.7206",
+            "name": "Average read latency on Asterinas",
+            "value": "0.4059",
             "unit": "µs",
             "extra": "aster_result"
           }
@@ -22746,19 +19162,19 @@ window.BENCHMARK_DATA = {
           "timestamp": "2024-08-05T05:52:13Z",
           "url": "https://github.com/asterinas/asterinas/commit/aa84b31634b9c710e04b337c5d1b8fa207f8dbde"
         },
-        "date": 1722890570767,
+        "date": 1722889646500,
         "tool": "customSmallerIsBetter",
-        "description": "The latency of UNIX domain socket communication on a single processor.",
+        "description": "The latency of the read system call on a single processor.",
         "benches": [
           {
-            "name": "Average unix latency on Linux",
-            "value": "4.5503",
+            "name": "Average read latency on Linux",
+            "value": "0.3453",
             "unit": "µs",
             "extra": "linux_result"
           },
           {
-            "name": "Average unix latency on Asterinas",
-            "value": "5.6917",
+            "name": "Average read latency on Asterinas",
+            "value": "0.4042",
             "unit": "µs",
             "extra": "aster_result"
           }
@@ -22781,19 +19197,19 @@ window.BENCHMARK_DATA = {
           "timestamp": "2024-08-05T14:06:02Z",
           "url": "https://github.com/asterinas/asterinas/commit/b1ea422efaf6b0becd7d6cd99d270ae01fcd12de"
         },
-        "date": 1722977108090,
+        "date": 1722976175256,
         "tool": "customSmallerIsBetter",
-        "description": "The latency of UNIX domain socket communication on a single processor.",
+        "description": "The latency of the read system call on a single processor.",
         "benches": [
           {
-            "name": "Average unix latency on Linux",
-            "value": "4.6058",
+            "name": "Average read latency on Linux",
+            "value": "0.3468",
             "unit": "µs",
             "extra": "linux_result"
           },
           {
-            "name": "Average unix latency on Asterinas",
-            "value": "5.7666",
+            "name": "Average read latency on Asterinas",
+            "value": "0.3994",
             "unit": "µs",
             "extra": "aster_result"
           }
@@ -22816,19 +19232,19 @@ window.BENCHMARK_DATA = {
           "timestamp": "2024-08-05T14:06:02Z",
           "url": "https://github.com/asterinas/asterinas/commit/b1ea422efaf6b0becd7d6cd99d270ae01fcd12de"
         },
-        "date": 1723063503706,
+        "date": 1723062541245,
         "tool": "customSmallerIsBetter",
-        "description": "The latency of UNIX domain socket communication on a single processor.",
+        "description": "The latency of the read system call on a single processor.",
         "benches": [
           {
-            "name": "Average unix latency on Linux",
-            "value": "4.5731",
+            "name": "Average read latency on Linux",
+            "value": "0.3477",
             "unit": "µs",
             "extra": "linux_result"
           },
           {
-            "name": "Average unix latency on Asterinas",
-            "value": "5.7523",
+            "name": "Average read latency on Asterinas",
+            "value": "0.3993",
             "unit": "µs",
             "extra": "aster_result"
           }
@@ -22851,19 +19267,19 @@ window.BENCHMARK_DATA = {
           "timestamp": "2024-08-07T09:17:46Z",
           "url": "https://github.com/asterinas/asterinas/commit/6414111cc57b42db2bae1a0c8b01b85c3830a3b3"
         },
-        "date": 1723104371404,
+        "date": 1723103425490,
         "tool": "customSmallerIsBetter",
-        "description": "The latency of UNIX domain socket communication on a single processor.",
+        "description": "The latency of the read system call on a single processor.",
         "benches": [
           {
-            "name": "Average unix latency on Linux",
-            "value": "4.5985",
+            "name": "Average read latency on Linux",
+            "value": "0.3531",
             "unit": "µs",
             "extra": "linux_result"
           },
           {
-            "name": "Average unix latency on Asterinas",
-            "value": "5.7175",
+            "name": "Average read latency on Asterinas",
+            "value": "0.4074",
             "unit": "µs",
             "extra": "aster_result"
           }
@@ -22886,19 +19302,19 @@ window.BENCHMARK_DATA = {
           "timestamp": "2024-08-02T03:14:14Z",
           "url": "https://github.com/asterinas/asterinas/commit/acb4833aae0476d7ed2d61871036aff3eaf77c5d"
         },
-        "date": 1723149755737,
+        "date": 1723148875533,
         "tool": "customSmallerIsBetter",
-        "description": "The latency of UNIX domain socket communication on a single processor.",
+        "description": "The latency of the read system call on a single processor.",
         "benches": [
           {
-            "name": "Average unix latency on Linux",
-            "value": "4.5860",
+            "name": "Average read latency on Linux",
+            "value": "0.3702",
             "unit": "µs",
             "extra": "linux_result"
           },
           {
-            "name": "Average unix latency on Asterinas",
-            "value": "5.6047",
+            "name": "Average read latency on Asterinas",
+            "value": "0.3925",
             "unit": "µs",
             "extra": "aster_result"
           }
@@ -22921,19 +19337,19 @@ window.BENCHMARK_DATA = {
           "timestamp": "2024-08-09T08:11:43Z",
           "url": "https://github.com/asterinas/asterinas/commit/75da7fd30eca1e80ad57da15bfe5dff6963c03c1"
         },
-        "date": 1723236136260,
+        "date": 1723235263412,
         "tool": "customSmallerIsBetter",
-        "description": "The latency of UNIX domain socket communication on a single processor.",
+        "description": "The latency of the read system call on a single processor.",
         "benches": [
           {
-            "name": "Average unix latency on Linux",
-            "value": "4.5718",
+            "name": "Average read latency on Linux",
+            "value": "0.3715",
             "unit": "µs",
             "extra": "linux_result"
           },
           {
-            "name": "Average unix latency on Asterinas",
-            "value": "5.6133",
+            "name": "Average read latency on Asterinas",
+            "value": "0.3995",
             "unit": "µs",
             "extra": "aster_result"
           }
@@ -22956,19 +19372,19 @@ window.BENCHMARK_DATA = {
           "timestamp": "2024-08-09T10:56:43Z",
           "url": "https://github.com/asterinas/asterinas/commit/a739b3828d106d4e09fe2ba7dd8eed12d18dd20a"
         },
-        "date": 1723322524489,
+        "date": 1723321640072,
         "tool": "customSmallerIsBetter",
-        "description": "The latency of UNIX domain socket communication on a single processor.",
+        "description": "The latency of the read system call on a single processor.",
         "benches": [
           {
-            "name": "Average unix latency on Linux",
-            "value": "4.5669",
+            "name": "Average read latency on Linux",
+            "value": "0.3457",
             "unit": "µs",
             "extra": "linux_result"
           },
           {
-            "name": "Average unix latency on Asterinas",
-            "value": "5.6095",
+            "name": "Average read latency on Asterinas",
+            "value": "0.4001",
             "unit": "µs",
             "extra": "aster_result"
           }
@@ -22991,19 +19407,19 @@ window.BENCHMARK_DATA = {
           "timestamp": "2024-08-09T10:56:43Z",
           "url": "https://github.com/asterinas/asterinas/commit/a739b3828d106d4e09fe2ba7dd8eed12d18dd20a"
         },
-        "date": 1723409111424,
+        "date": 1723408173748,
         "tool": "customSmallerIsBetter",
-        "description": "The latency of UNIX domain socket communication on a single processor.",
+        "description": "The latency of the read system call on a single processor.",
         "benches": [
           {
-            "name": "Average unix latency on Linux",
-            "value": "4.5951",
+            "name": "Average read latency on Linux",
+            "value": "0.3452",
             "unit": "µs",
             "extra": "linux_result"
           },
           {
-            "name": "Average unix latency on Asterinas",
-            "value": "5.4891",
+            "name": "Average read latency on Asterinas",
+            "value": "0.3985",
             "unit": "µs",
             "extra": "aster_result"
           }
@@ -23026,19 +19442,19 @@ window.BENCHMARK_DATA = {
           "timestamp": "2024-08-12T07:13:36Z",
           "url": "https://github.com/asterinas/asterinas/commit/f9bae1eee90c49d715569208009cc2c66768fe9a"
         },
-        "date": 1723495438419,
+        "date": 1723494527165,
         "tool": "customSmallerIsBetter",
-        "description": "The latency of UNIX domain socket communication on a single processor.",
+        "description": "The latency of the read system call on a single processor.",
         "benches": [
           {
-            "name": "Average unix latency on Linux",
-            "value": "4.5546",
+            "name": "Average read latency on Linux",
+            "value": "0.3492",
             "unit": "µs",
             "extra": "linux_result"
           },
           {
-            "name": "Average unix latency on Asterinas",
-            "value": "5.3599",
+            "name": "Average read latency on Asterinas",
+            "value": "0.3465",
             "unit": "µs",
             "extra": "aster_result"
           }
@@ -23061,19 +19477,19 @@ window.BENCHMARK_DATA = {
           "timestamp": "2024-08-12T13:04:53Z",
           "url": "https://github.com/asterinas/asterinas/commit/be54a39592ff60fae6e729abaa3d4a26dd7f5624"
         },
-        "date": 1723581744663,
+        "date": 1723580988410,
         "tool": "customSmallerIsBetter",
-        "description": "The latency of UNIX domain socket communication on a single processor.",
+        "description": "The latency of the read system call on a single processor.",
         "benches": [
           {
-            "name": "Average unix latency on Linux",
-            "value": "4.7565",
+            "name": "Average read latency on Linux",
+            "value": "0.3440",
             "unit": "µs",
             "extra": "linux_result"
           },
           {
-            "name": "Average unix latency on Asterinas",
-            "value": "5.3167",
+            "name": "Average read latency on Asterinas",
+            "value": "0.3387",
             "unit": "µs",
             "extra": "aster_result"
           }
@@ -23096,19 +19512,19 @@ window.BENCHMARK_DATA = {
           "timestamp": "2024-08-12T08:11:45Z",
           "url": "https://github.com/asterinas/asterinas/commit/4844e7ca7ca6d78896a51a71487a6fdfe9ca6654"
         },
-        "date": 1723668060411,
+        "date": 1723667200263,
         "tool": "customSmallerIsBetter",
-        "description": "The latency of UNIX domain socket communication on a single processor.",
+        "description": "The latency of the read system call on a single processor.",
         "benches": [
           {
-            "name": "Average unix latency on Linux",
-            "value": "4.5524",
+            "name": "Average read latency on Linux",
+            "value": "0.3965",
             "unit": "µs",
             "extra": "linux_result"
           },
           {
-            "name": "Average unix latency on Asterinas",
-            "value": "5.3390",
+            "name": "Average read latency on Asterinas",
+            "value": "0.3373",
             "unit": "µs",
             "extra": "aster_result"
           }
@@ -23131,19 +19547,19 @@ window.BENCHMARK_DATA = {
           "timestamp": "2024-08-15T08:53:54Z",
           "url": "https://github.com/asterinas/asterinas/commit/99a22ff124972872838fa5dc7094fa9a5eea557e"
         },
-        "date": 1723754801089,
+        "date": 1723753925901,
         "tool": "customSmallerIsBetter",
-        "description": "The latency of UNIX domain socket communication on a single processor.",
+        "description": "The latency of the read system call on a single processor.",
         "benches": [
           {
-            "name": "Average unix latency on Linux",
-            "value": "4.5712",
+            "name": "Average read latency on Linux",
+            "value": "0.3445",
             "unit": "µs",
             "extra": "linux_result"
           },
           {
-            "name": "Average unix latency on Asterinas",
-            "value": "3.6696",
+            "name": "Average read latency on Asterinas",
+            "value": "0.3083",
             "unit": "µs",
             "extra": "aster_result"
           }
@@ -23166,19 +19582,19 @@ window.BENCHMARK_DATA = {
           "timestamp": "2024-08-15T03:44:30Z",
           "url": "https://github.com/asterinas/asterinas/commit/0291b5dc6bb142b9c6165c1cb29b7658eefdaa63"
         },
-        "date": 1723781021238,
+        "date": 1723780167503,
         "tool": "customSmallerIsBetter",
-        "description": "The latency of UNIX domain socket communication on a single processor.",
+        "description": "The latency of the read system call on a single processor.",
         "benches": [
           {
-            "name": "Average unix latency on Linux",
-            "value": "4.6774",
+            "name": "Average read latency on Linux",
+            "value": "0.3723",
             "unit": "µs",
             "extra": "linux_result"
           },
           {
-            "name": "Average unix latency on Asterinas",
-            "value": "3.5435",
+            "name": "Average read latency on Asterinas",
+            "value": "0.3102",
             "unit": "µs",
             "extra": "aster_result"
           }
@@ -23201,19 +19617,19 @@ window.BENCHMARK_DATA = {
           "timestamp": "2024-08-15T03:44:30Z",
           "url": "https://github.com/asterinas/asterinas/commit/0291b5dc6bb142b9c6165c1cb29b7658eefdaa63"
         },
-        "date": 1723784384502,
+        "date": 1723783502984,
         "tool": "customSmallerIsBetter",
-        "description": "The latency of UNIX domain socket communication on a single processor.",
+        "description": "The latency of the read system call on a single processor.",
         "benches": [
           {
-            "name": "Average unix latency on Linux",
-            "value": "4.6439",
+            "name": "Average read latency on Linux",
+            "value": "0.3599",
             "unit": "µs",
             "extra": "linux_result"
           },
           {
-            "name": "Average unix latency on Asterinas",
-            "value": "3.6632",
+            "name": "Average read latency on Asterinas",
+            "value": "0.3141",
             "unit": "µs",
             "extra": "aster_result"
           }
@@ -23236,19 +19652,19 @@ window.BENCHMARK_DATA = {
           "timestamp": "2024-08-15T03:44:30Z",
           "url": "https://github.com/asterinas/asterinas/commit/0291b5dc6bb142b9c6165c1cb29b7658eefdaa63"
         },
-        "date": 1723841216906,
+        "date": 1723840318067,
         "tool": "customSmallerIsBetter",
-        "description": "The latency of UNIX domain socket communication on a single processor.",
+        "description": "The latency of the read system call on a single processor.",
         "benches": [
           {
-            "name": "Average unix latency on Linux",
-            "value": "4.6946",
+            "name": "Average read latency on Linux",
+            "value": "0.3840",
             "unit": "µs",
             "extra": "linux_result"
           },
           {
-            "name": "Average unix latency on Asterinas",
-            "value": "3.6843",
+            "name": "Average read latency on Asterinas",
+            "value": "0.3042",
             "unit": "µs",
             "extra": "aster_result"
           }
@@ -23271,19 +19687,19 @@ window.BENCHMARK_DATA = {
           "timestamp": "2024-08-12T03:51:41Z",
           "url": "https://github.com/asterinas/asterinas/commit/ce2af1eb057077753a7a757edc1833e677a83918"
         },
-        "date": 1723927616597,
+        "date": 1723926706537,
         "tool": "customSmallerIsBetter",
-        "description": "The latency of UNIX domain socket communication on a single processor.",
+        "description": "The latency of the read system call on a single processor.",
         "benches": [
           {
-            "name": "Average unix latency on Linux",
-            "value": "4.5467",
+            "name": "Average read latency on Linux",
+            "value": "0.3507",
             "unit": "µs",
             "extra": "linux_result"
           },
           {
-            "name": "Average unix latency on Asterinas",
-            "value": "3.6798",
+            "name": "Average read latency on Asterinas",
+            "value": "0.3160",
             "unit": "µs",
             "extra": "aster_result"
           }
@@ -23306,19 +19722,19 @@ window.BENCHMARK_DATA = {
           "timestamp": "2024-08-19T01:02:51Z",
           "url": "https://github.com/asterinas/asterinas/commit/bbe43d76cc25538f04261379407f4fa721a13431"
         },
-        "date": 1724101211938,
+        "date": 1724100034366,
         "tool": "customSmallerIsBetter",
-        "description": "The latency of UNIX domain socket communication on a single processor.",
+        "description": "The latency of the read system call on a single processor.",
         "benches": [
           {
-            "name": "Average unix latency on Linux",
-            "value": "4.5915",
+            "name": "Average read latency on Linux",
+            "value": "0.3500",
             "unit": "µs",
             "extra": "linux_result"
           },
           {
-            "name": "Average unix latency on Asterinas",
-            "value": "3.5604",
+            "name": "Average read latency on Asterinas",
+            "value": "0.3103",
             "unit": "µs",
             "extra": "aster_result"
           }
@@ -23341,19 +19757,19 @@ window.BENCHMARK_DATA = {
           "timestamp": "2024-08-19T09:01:16Z",
           "url": "https://github.com/asterinas/asterinas/commit/fda0fa051265867c2399f4981fdccb9cc6df110d"
         },
-        "date": 1724187591434,
+        "date": 1724186571058,
         "tool": "customSmallerIsBetter",
-        "description": "The latency of UNIX domain socket communication on a single processor.",
+        "description": "The latency of the read system call on a single processor.",
         "benches": [
           {
-            "name": "Average unix latency on Linux",
-            "value": "4.5691",
+            "name": "Average read latency on Linux",
+            "value": "0.3434",
             "unit": "µs",
             "extra": "linux_result"
           },
           {
-            "name": "Average unix latency on Asterinas",
-            "value": "3.6965",
+            "name": "Average read latency on Asterinas",
+            "value": "0.3141",
             "unit": "µs",
             "extra": "aster_result"
           }
@@ -23376,19 +19792,19 @@ window.BENCHMARK_DATA = {
           "timestamp": "2024-08-20T02:05:25Z",
           "url": "https://github.com/asterinas/asterinas/commit/2102107be18729fba8f3546d5a3fe39c819d814a"
         },
-        "date": 1724274035115,
+        "date": 1724272863377,
         "tool": "customSmallerIsBetter",
-        "description": "The latency of UNIX domain socket communication on a single processor.",
+        "description": "The latency of the read system call on a single processor.",
         "benches": [
           {
-            "name": "Average unix latency on Linux",
-            "value": "4.5874",
+            "name": "Average read latency on Linux",
+            "value": "0.3603",
             "unit": "µs",
             "extra": "linux_result"
           },
           {
-            "name": "Average unix latency on Asterinas",
-            "value": "3.6824",
+            "name": "Average read latency on Asterinas",
+            "value": "0.3132",
             "unit": "µs",
             "extra": "aster_result"
           }
@@ -23411,19 +19827,19 @@ window.BENCHMARK_DATA = {
           "timestamp": "2024-08-22T06:34:41Z",
           "url": "https://github.com/asterinas/asterinas/commit/bb4751741a6cd6b919015f8f483512c90e73bf55"
         },
-        "date": 1724361286406,
+        "date": 1724359773843,
         "tool": "customSmallerIsBetter",
-        "description": "The latency of UNIX domain socket communication on a single processor.",
+        "description": "The latency of the read system call on a single processor.",
         "benches": [
           {
-            "name": "Average unix latency on Linux",
-            "value": "4.5706",
+            "name": "Average read latency on Linux",
+            "value": "0.3457",
             "unit": "µs",
             "extra": "linux_result"
           },
           {
-            "name": "Average unix latency on Asterinas",
-            "value": "3.6014",
+            "name": "Average read latency on Asterinas",
+            "value": "0.2639",
             "unit": "µs",
             "extra": "aster_result"
           }
@@ -23446,19 +19862,19 @@ window.BENCHMARK_DATA = {
           "timestamp": "2024-08-23T14:57:42Z",
           "url": "https://github.com/asterinas/asterinas/commit/e50b05d1ee71f52679e8ed8ea310cda6bfcd7e0c"
         },
-        "date": 1724447973925,
+        "date": 1724446476603,
         "tool": "customSmallerIsBetter",
-        "description": "The latency of UNIX domain socket communication on a single processor.",
+        "description": "The latency of the read system call on a single processor.",
         "benches": [
           {
-            "name": "Average unix latency on Linux",
-            "value": "4.5740",
+            "name": "Average read latency on Linux",
+            "value": "0.3469",
             "unit": "µs",
             "extra": "linux_result"
           },
           {
-            "name": "Average unix latency on Asterinas",
-            "value": "3.6581",
+            "name": "Average read latency on Asterinas",
+            "value": "0.2652",
             "unit": "µs",
             "extra": "aster_result"
           }
@@ -23481,19 +19897,19 @@ window.BENCHMARK_DATA = {
           "timestamp": "2024-08-24T09:27:15Z",
           "url": "https://github.com/asterinas/asterinas/commit/d22277a3e69040906cd198ea625614c5c69d66da"
         },
-        "date": 1724534278415,
+        "date": 1724532721053,
         "tool": "customSmallerIsBetter",
-        "description": "The latency of UNIX domain socket communication on a single processor.",
+        "description": "The latency of the read system call on a single processor.",
         "benches": [
           {
-            "name": "Average unix latency on Linux",
-            "value": "4.5849",
+            "name": "Average read latency on Linux",
+            "value": "0.3498",
             "unit": "µs",
             "extra": "linux_result"
           },
           {
-            "name": "Average unix latency on Asterinas",
-            "value": "3.6375",
+            "name": "Average read latency on Asterinas",
+            "value": "0.2617",
             "unit": "µs",
             "extra": "aster_result"
           }
@@ -23516,19 +19932,19 @@ window.BENCHMARK_DATA = {
           "timestamp": "2024-08-25T12:16:30Z",
           "url": "https://github.com/asterinas/asterinas/commit/4231645c02ec317d99f0150bc8ed3210489855a0"
         },
-        "date": 1724620652615,
+        "date": 1724619154639,
         "tool": "customSmallerIsBetter",
-        "description": "The latency of UNIX domain socket communication on a single processor.",
+        "description": "The latency of the read system call on a single processor.",
         "benches": [
           {
-            "name": "Average unix latency on Linux",
-            "value": "3.1074",
+            "name": "Average read latency on Linux",
+            "value": "0.1278",
             "unit": "µs",
             "extra": "linux_result"
           },
           {
-            "name": "Average unix latency on Asterinas",
-            "value": "3.6519",
+            "name": "Average read latency on Asterinas",
+            "value": "0.2654",
             "unit": "µs",
             "extra": "aster_result"
           }
@@ -23551,19 +19967,19 @@ window.BENCHMARK_DATA = {
           "timestamp": "2024-08-26T09:41:40Z",
           "url": "https://github.com/asterinas/asterinas/commit/9e59db2f42c2ef9f8e91e0d1ee03562190726d56"
         },
-        "date": 1724707161481,
+        "date": 1724705688174,
         "tool": "customSmallerIsBetter",
-        "description": "The latency of UNIX domain socket communication on a single processor.",
+        "description": "The latency of the read system call on a single processor.",
         "benches": [
           {
-            "name": "Average unix latency on Linux",
-            "value": "3.4895",
+            "name": "Average read latency on Linux",
+            "value": "0.1282",
             "unit": "µs",
             "extra": "linux_result"
           },
           {
-            "name": "Average unix latency on Asterinas",
-            "value": "3.6192",
+            "name": "Average read latency on Asterinas",
+            "value": "0.2691",
             "unit": "µs",
             "extra": "aster_result"
           }
@@ -23586,19 +20002,19 @@ window.BENCHMARK_DATA = {
           "timestamp": "2024-08-27T06:37:02Z",
           "url": "https://github.com/asterinas/asterinas/commit/a72c7dadf3b9bb680b3092af6b64084b98008cb7"
         },
-        "date": 1724839133549,
+        "date": 1724830777689,
         "tool": "customSmallerIsBetter",
-        "description": "The latency of UNIX domain socket communication on a single processor.",
+        "description": "The latency of the read system call on a single processor.",
         "benches": [
           {
-            "name": "Average unix latency on Linux",
-            "value": "3.5000",
+            "name": "Average read latency on Linux",
+            "value": "0.1276",
             "unit": "µs",
             "extra": "linux_result"
           },
           {
-            "name": "Average unix latency on Asterinas",
-            "value": "3.7678",
+            "name": "Average read latency on Asterinas",
+            "value": "0.2676",
             "unit": "µs",
             "extra": "aster_result"
           }
@@ -23621,19 +20037,19 @@ window.BENCHMARK_DATA = {
           "timestamp": "2024-08-28T06:23:24Z",
           "url": "https://github.com/asterinas/asterinas/commit/e6f465b553f613d60828e0e503dc94ce4109ded1"
         },
-        "date": 1724879314230,
+        "date": 1724878005275,
         "tool": "customSmallerIsBetter",
-        "description": "The latency of UNIX domain socket communication on a single processor.",
+        "description": "The latency of the read system call on a single processor.",
         "benches": [
           {
-            "name": "Average unix latency on Linux",
-            "value": "3.5041",
+            "name": "Average read latency on Linux",
+            "value": "0.1275",
             "unit": "µs",
             "extra": "linux_result"
           },
           {
-            "name": "Average unix latency on Asterinas",
-            "value": "3.7205",
+            "name": "Average read latency on Asterinas",
+            "value": "0.2594",
             "unit": "µs",
             "extra": "aster_result"
           }
@@ -23656,19 +20072,19 @@ window.BENCHMARK_DATA = {
           "timestamp": "2024-08-29T03:52:33Z",
           "url": "https://github.com/asterinas/asterinas/commit/00d9b01d5c356fbc5f6b72b9a69a7571fdf0ab1f"
         },
-        "date": 1724911547835,
+        "date": 1724910010611,
         "tool": "customSmallerIsBetter",
-        "description": "The latency of UNIX domain socket communication on a single processor.",
+        "description": "The latency of the read system call on a single processor.",
         "benches": [
           {
-            "name": "Average unix latency on Linux",
-            "value": "3.4830",
+            "name": "Average read latency on Linux",
+            "value": "0.1287",
             "unit": "µs",
             "extra": "linux_result"
           },
           {
-            "name": "Average unix latency on Asterinas",
-            "value": "3.6640",
+            "name": "Average read latency on Asterinas",
+            "value": "0.2689",
             "unit": "µs",
             "extra": "aster_result"
           }
@@ -23691,19 +20107,19 @@ window.BENCHMARK_DATA = {
           "timestamp": "2024-08-29T03:52:33Z",
           "url": "https://github.com/asterinas/asterinas/commit/00d9b01d5c356fbc5f6b72b9a69a7571fdf0ab1f"
         },
-        "date": 1724917979396,
+        "date": 1724916506415,
         "tool": "customSmallerIsBetter",
-        "description": "The latency of UNIX domain socket communication on a single processor.",
+        "description": "The latency of the read system call on a single processor.",
         "benches": [
           {
-            "name": "Average unix latency on Linux",
-            "value": "3.4894",
+            "name": "Average read latency on Linux",
+            "value": "0.1284",
             "unit": "µs",
             "extra": "linux_result"
           },
           {
-            "name": "Average unix latency on Asterinas",
-            "value": "3.7493",
+            "name": "Average read latency on Asterinas",
+            "value": "0.2692",
             "unit": "µs",
             "extra": "aster_result"
           }
@@ -23726,19 +20142,19 @@ window.BENCHMARK_DATA = {
           "timestamp": "2024-08-29T12:46:20Z",
           "url": "https://github.com/asterinas/asterinas/commit/539984bbed414969b0c40cf181a10e9341ed2359"
         },
-        "date": 1724966558348,
+        "date": 1724964620129,
         "tool": "customSmallerIsBetter",
-        "description": "The latency of UNIX domain socket communication on a single processor.",
+        "description": "The latency of the read system call on a single processor.",
         "benches": [
           {
-            "name": "Average unix latency on Linux",
-            "value": "3.4924",
+            "name": "Average read latency on Linux",
+            "value": "0.1270",
             "unit": "µs",
             "extra": "linux_result"
           },
           {
-            "name": "Average unix latency on Asterinas",
-            "value": "3.7748",
+            "name": "Average read latency on Asterinas",
+            "value": "0.2663",
             "unit": "µs",
             "extra": "aster_result"
           }
@@ -23761,19 +20177,19 @@ window.BENCHMARK_DATA = {
           "timestamp": "2024-08-30T11:23:53Z",
           "url": "https://github.com/asterinas/asterinas/commit/db16caf28c46e4ed24099fcba13d40b7d673164c"
         },
-        "date": 1725053188223,
+        "date": 1725051188468,
         "tool": "customSmallerIsBetter",
-        "description": "The latency of UNIX domain socket communication on a single processor.",
+        "description": "The latency of the read system call on a single processor.",
         "benches": [
           {
-            "name": "Average unix latency on Linux",
-            "value": "3.3329",
+            "name": "Average read latency on Linux",
+            "value": "0.1280",
             "unit": "µs",
             "extra": "linux_result"
           },
           {
-            "name": "Average unix latency on Asterinas",
-            "value": "3.7710",
+            "name": "Average read latency on Asterinas",
+            "value": "0.2654",
             "unit": "µs",
             "extra": "aster_result"
           }
@@ -23796,19 +20212,19 @@ window.BENCHMARK_DATA = {
           "timestamp": "2024-08-30T17:51:32Z",
           "url": "https://github.com/asterinas/asterinas/commit/e6e771e9b5ae7d223a50aa4b38994500b0db6867"
         },
-        "date": 1725139487976,
+        "date": 1725137436629,
         "tool": "customSmallerIsBetter",
-        "description": "The latency of UNIX domain socket communication on a single processor.",
+        "description": "The latency of the read system call on a single processor.",
         "benches": [
           {
-            "name": "Average unix latency on Linux",
-            "value": "3.4638",
+            "name": "Average read latency on Linux",
+            "value": "0.1267",
             "unit": "µs",
             "extra": "linux_result"
           },
           {
-            "name": "Average unix latency on Asterinas",
-            "value": "3.7620",
+            "name": "Average read latency on Asterinas",
+            "value": "0.2674",
             "unit": "µs",
             "extra": "aster_result"
           }
@@ -23831,19 +20247,19 @@ window.BENCHMARK_DATA = {
           "timestamp": "2024-08-29T14:26:36Z",
           "url": "https://github.com/asterinas/asterinas/commit/745ac6d982638d3548f09ea2aa2103e37c135153"
         },
-        "date": 1725225874054,
+        "date": 1725223835460,
         "tool": "customSmallerIsBetter",
-        "description": "The latency of UNIX domain socket communication on a single processor.",
+        "description": "The latency of the read system call on a single processor.",
         "benches": [
           {
-            "name": "Average unix latency on Linux",
-            "value": "3.5006",
+            "name": "Average read latency on Linux",
+            "value": "0.1291",
             "unit": "µs",
             "extra": "linux_result"
           },
           {
-            "name": "Average unix latency on Asterinas",
-            "value": "3.6288",
+            "name": "Average read latency on Asterinas",
+            "value": "0.2670",
             "unit": "µs",
             "extra": "aster_result"
           }
@@ -23866,19 +20282,19 @@ window.BENCHMARK_DATA = {
           "timestamp": "2024-09-02T09:48:15Z",
           "url": "https://github.com/asterinas/asterinas/commit/963874471284ed014b76d268d933b6d13073c2cc"
         },
-        "date": 1725319675793,
+        "date": 1725314671952,
         "tool": "customSmallerIsBetter",
-        "description": "The latency of UNIX domain socket communication on a single processor.",
+        "description": "The latency of the read system call on a single processor.",
         "benches": [
           {
-            "name": "Average unix latency on Linux",
-            "value": "3.3082",
+            "name": "Average read latency on Linux",
+            "value": "0.1291",
             "unit": "µs",
             "extra": "linux_result"
           },
           {
-            "name": "Average unix latency on Asterinas",
-            "value": "3.6549",
+            "name": "Average read latency on Asterinas",
+            "value": "0.1851",
             "unit": "µs",
             "extra": "aster_result"
           }
@@ -23901,19 +20317,19 @@ window.BENCHMARK_DATA = {
           "timestamp": "2024-09-02T09:48:15Z",
           "url": "https://github.com/asterinas/asterinas/commit/963874471284ed014b76d268d933b6d13073c2cc"
         },
-        "date": 1725403783166,
+        "date": 1725401036949,
         "tool": "customSmallerIsBetter",
-        "description": "The latency of UNIX domain socket communication on a single processor.",
+        "description": "The latency of the read system call on a single processor.",
         "benches": [
           {
-            "name": "Average unix latency on Linux",
-            "value": "3.4994",
+            "name": "Average read latency on Linux",
+            "value": "0.1279",
             "unit": "µs",
             "extra": "linux_result"
           },
           {
-            "name": "Average unix latency on Asterinas",
-            "value": "3.6599",
+            "name": "Average read latency on Asterinas",
+            "value": "0.1848",
             "unit": "µs",
             "extra": "aster_result"
           }
@@ -23936,19 +20352,19 @@ window.BENCHMARK_DATA = {
           "timestamp": "2024-09-03T07:33:12Z",
           "url": "https://github.com/asterinas/asterinas/commit/458a6a5b3b01aebe78c124fe20be91a91f0139da"
         },
-        "date": 1725490070894,
+        "date": 1725487377325,
         "tool": "customSmallerIsBetter",
-        "description": "The latency of UNIX domain socket communication on a single processor.",
+        "description": "The latency of the read system call on a single processor.",
         "benches": [
           {
-            "name": "Average unix latency on Linux",
-            "value": "3.4913",
+            "name": "Average read latency on Linux",
+            "value": "0.1291",
             "unit": "µs",
             "extra": "linux_result"
           },
           {
-            "name": "Average unix latency on Asterinas",
-            "value": "3.6303",
+            "name": "Average read latency on Asterinas",
+            "value": "0.1845",
             "unit": "µs",
             "extra": "aster_result"
           }
@@ -23971,19 +20387,54 @@ window.BENCHMARK_DATA = {
           "timestamp": "2024-09-03T07:33:12Z",
           "url": "https://github.com/asterinas/asterinas/commit/458a6a5b3b01aebe78c124fe20be91a91f0139da"
         },
-        "date": 1725576687802,
+        "date": 1725573795379,
         "tool": "customSmallerIsBetter",
-        "description": "The latency of UNIX domain socket communication on a single processor.",
+        "description": "The latency of the read system call on a single processor.",
         "benches": [
           {
-            "name": "Average unix latency on Linux",
-            "value": "3.4668",
+            "name": "Average read latency on Linux",
+            "value": "0.1285",
             "unit": "µs",
             "extra": "linux_result"
           },
           {
-            "name": "Average unix latency on Asterinas",
-            "value": "3.6436",
+            "name": "Average read latency on Asterinas",
+            "value": "0.1841",
+            "unit": "µs",
+            "extra": "aster_result"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Thomas Dickson",
+            "username": "Hoverth",
+            "email": "modscrat+github@gmail.com"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "64e43d34aab13eeddea8dd7485c712acc99116ca",
+          "message": "doc: fix typo in README.md",
+          "timestamp": "2024-09-06T04:11:16Z",
+          "url": "https://github.com/asterinas/asterinas/commit/64e43d34aab13eeddea8dd7485c712acc99116ca"
+        },
+        "date": 1725660102380,
+        "tool": "customSmallerIsBetter",
+        "description": "The latency of the read system call on a single processor.",
+        "benches": [
+          {
+            "name": "Average read latency on Linux",
+            "value": "0.1282",
+            "unit": "µs",
+            "extra": "linux_result"
+          },
+          {
+            "name": "Average read latency on Asterinas",
+            "value": "0.1852",
             "unit": "µs",
             "extra": "aster_result"
           }
@@ -24006,19 +20457,19 @@ window.BENCHMARK_DATA = {
           "timestamp": "2024-09-06T12:05:01Z",
           "url": "https://github.com/asterinas/asterinas/commit/c68302f7007225fa47f22a1085a8c59dcdae2ad4"
         },
-        "date": 1725662914808,
+        "date": 1725746839936,
         "tool": "customSmallerIsBetter",
-        "description": "The latency of UNIX domain socket communication on a single processor.",
+        "description": "The latency of the read system call on a single processor.",
         "benches": [
           {
-            "name": "Average unix latency on Linux",
-            "value": "3.3087",
+            "name": "Average read latency on Linux",
+            "value": "0.1299",
             "unit": "µs",
             "extra": "linux_result"
           },
           {
-            "name": "Average unix latency on Asterinas",
-            "value": "3.6191",
+            "name": "Average read latency on Asterinas",
+            "value": "0.1848",
             "unit": "µs",
             "extra": "aster_result"
           }
@@ -24041,19 +20492,19 @@ window.BENCHMARK_DATA = {
           "timestamp": "2024-09-06T12:05:01Z",
           "url": "https://github.com/asterinas/asterinas/commit/c68302f7007225fa47f22a1085a8c59dcdae2ad4"
         },
-        "date": 1725749379705,
+        "date": 1725833086100,
         "tool": "customSmallerIsBetter",
-        "description": "The latency of UNIX domain socket communication on a single processor.",
+        "description": "The latency of the read system call on a single processor.",
         "benches": [
           {
-            "name": "Average unix latency on Linux",
-            "value": "3.3306",
+            "name": "Average read latency on Linux",
+            "value": "0.1295",
             "unit": "µs",
             "extra": "linux_result"
           },
           {
-            "name": "Average unix latency on Asterinas",
-            "value": "3.6133",
+            "name": "Average read latency on Asterinas",
+            "value": "0.1844",
             "unit": "µs",
             "extra": "aster_result"
           }
@@ -24076,19 +20527,19 @@ window.BENCHMARK_DATA = {
           "timestamp": "2024-09-06T12:05:01Z",
           "url": "https://github.com/asterinas/asterinas/commit/c68302f7007225fa47f22a1085a8c59dcdae2ad4"
         },
-        "date": 1725835881251,
+        "date": 1725919231514,
         "tool": "customSmallerIsBetter",
-        "description": "The latency of UNIX domain socket communication on a single processor.",
+        "description": "The latency of the read system call on a single processor.",
         "benches": [
           {
-            "name": "Average unix latency on Linux",
-            "value": "3.4867",
+            "name": "Average read latency on Linux",
+            "value": "0.1298",
             "unit": "µs",
             "extra": "linux_result"
           },
           {
-            "name": "Average unix latency on Asterinas",
-            "value": "3.6479",
+            "name": "Average read latency on Asterinas",
+            "value": "0.1846",
             "unit": "µs",
             "extra": "aster_result"
           }
@@ -24111,54 +20562,19 @@ window.BENCHMARK_DATA = {
           "timestamp": "2024-09-06T12:05:01Z",
           "url": "https://github.com/asterinas/asterinas/commit/c68302f7007225fa47f22a1085a8c59dcdae2ad4"
         },
-        "date": 1725921906117,
+        "date": 1726005670269,
         "tool": "customSmallerIsBetter",
-        "description": "The latency of UNIX domain socket communication on a single processor.",
+        "description": "The latency of the read system call on a single processor.",
         "benches": [
           {
-            "name": "Average unix latency on Linux",
-            "value": "3.4994",
+            "name": "Average read latency on Linux",
+            "value": "0.1306",
             "unit": "µs",
             "extra": "linux_result"
           },
           {
-            "name": "Average unix latency on Asterinas",
-            "value": "3.6225",
-            "unit": "µs",
-            "extra": "aster_result"
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
-            "name": "Zhang Junyang",
-            "username": "junyang-zh",
-            "email": "junyang@stu.pku.edu.cn"
-          },
-          "committer": {
-            "name": "Tate, Hongliang Tian",
-            "username": "tatetian",
-            "email": "tatetian@gmail.com"
-          },
-          "id": "c68302f7007225fa47f22a1085a8c59dcdae2ad4",
-          "message": "Don't hold any locks while waiting in `EpollFile`",
-          "timestamp": "2024-09-06T12:05:01Z",
-          "url": "https://github.com/asterinas/asterinas/commit/c68302f7007225fa47f22a1085a8c59dcdae2ad4"
-        },
-        "date": 1726008180230,
-        "tool": "customSmallerIsBetter",
-        "description": "The latency of UNIX domain socket communication on a single processor.",
-        "benches": [
-          {
-            "name": "Average unix latency on Linux",
-            "value": "3.2886",
-            "unit": "µs",
-            "extra": "linux_result"
-          },
-          {
-            "name": "Average unix latency on Asterinas",
-            "value": "3.6602",
+            "name": "Average read latency on Asterinas",
+            "value": "0.1760",
             "unit": "µs",
             "extra": "aster_result"
           }
@@ -24181,19 +20597,19 @@ window.BENCHMARK_DATA = {
           "timestamp": "2024-09-02T13:23:46Z",
           "url": "https://github.com/asterinas/asterinas/commit/8bfbdf6642a9d04db3490792926d6a299d1e30be"
         },
-        "date": 1726090268537,
+        "date": 1726088000589,
         "tool": "customSmallerIsBetter",
-        "description": "The latency of UNIX domain socket communication on a single processor.",
+        "description": "The latency of the read system call on a single processor.",
         "benches": [
           {
-            "name": "Average unix latency on Linux",
-            "value": "3.3096",
+            "name": "Average read latency on Linux",
+            "value": "0.1275",
             "unit": "µs",
             "extra": "linux_result"
           },
           {
-            "name": "Average unix latency on Asterinas",
-            "value": "3.6052",
+            "name": "Average read latency on Asterinas",
+            "value": "0.2028",
             "unit": "µs",
             "extra": "aster_result"
           }
@@ -24216,19 +20632,19 @@ window.BENCHMARK_DATA = {
           "timestamp": "2024-09-12T12:15:04Z",
           "url": "https://github.com/asterinas/asterinas/commit/6fcad6ce143b8f65e8be76297eb95a9cb56da22e"
         },
-        "date": 1726176700457,
+        "date": 1726174446015,
         "tool": "customSmallerIsBetter",
-        "description": "The latency of UNIX domain socket communication on a single processor.",
+        "description": "The latency of the read system call on a single processor.",
         "benches": [
           {
-            "name": "Average unix latency on Linux",
-            "value": "3.4930",
+            "name": "Average read latency on Linux",
+            "value": "0.1275",
             "unit": "µs",
             "extra": "linux_result"
           },
           {
-            "name": "Average unix latency on Asterinas",
-            "value": "3.4947",
+            "name": "Average read latency on Asterinas",
+            "value": "0.2033",
             "unit": "µs",
             "extra": "aster_result"
           }
@@ -24251,21 +20667,21 @@ window.BENCHMARK_DATA = {
           "timestamp": "2024-09-13T05:02:35Z",
           "url": "https://github.com/asterinas/asterinas/commit/32ea24e945efde86117d2278a48145d71b9ec90c"
         },
-        "date": 1726262242268,
+        "date": 1726262802357,
         "tool": "customSmallerIsBetter",
-        "title": "[Unix sockets] The latency of write+read",
-        "description": "lat_unix",
+        "title": "[VFS] The cost of read (/dev/zero)",
+        "description": "lat_syscall read",
         "display": true,
         "benches": [
           {
-            "name": "Average unix latency on Linux",
-            "value": "3.4666",
+            "name": "Average read latency on Linux",
+            "value": "0.1278",
             "unit": "µs",
             "extra": "linux_result"
           },
           {
-            "name": "Average unix latency on Asterinas",
-            "value": "3.3650",
+            "name": "Average read latency on Asterinas",
+            "value": "0.1375",
             "unit": "µs",
             "extra": "aster_result"
           }
@@ -24288,21 +20704,60 @@ window.BENCHMARK_DATA = {
           "timestamp": "2024-09-14T03:47:04Z",
           "url": "https://github.com/grief8/asterinas/commit/adfb4a081356bea739a1720f284c3e66d6a96d19"
         },
-        "date": 1726287169443,
+        "date": 1726641871121,
         "tool": "customSmallerIsBetter",
-        "title": "[Unix sockets] The latency of write+read",
-        "description": "lat_unix",
+        "title": "[VFS] The cost of read (/dev/zero)",
+        "description": "lat_syscall read",
         "display": true,
         "benches": [
           {
-            "name": "Average unix latency on Linux",
-            "value": "3.5285",
+            "name": "Average read latency on Linux",
+            "value": "0.1079",
             "unit": "µs",
             "extra": "linux_result"
           },
           {
-            "name": "Average unix latency on Asterinas",
-            "value": "2.7388",
+            "name": "Average read latency on Asterinas",
+            "value": "0.1848",
+            "unit": "µs",
+            "extra": "aster_result"
+          }
+        ]
+      }
+    ],
+    "vfs_select_lat": [
+      {
+        "commit": {
+          "author": {
+            "name": "Fabing Li",
+            "username": "grief8",
+            "email": "lifabing.lfb@antgroup.com"
+          },
+          "committer": {
+            "name": "Fabing Li",
+            "username": "grief8",
+            "email": "lifabing.lfb@antgroup.com"
+          },
+          "id": "52871246d45bbd86954f1d1dd5c65c98e1656064",
+          "message": "uP",
+          "timestamp": "2024-09-24T06:48:01Z",
+          "url": "https://github.com/grief8/asterinas/commit/52871246d45bbd86954f1d1dd5c65c98e1656064"
+        },
+        "date": 1727160801801,
+        "tool": "customSmallerIsBetter",
+        "title": "[Network] The cost of select (file fds)",
+        "description": "lat_select",
+        "display": true,
+        "benches": [
+          {
+            "name": "Average select file latency on Linux",
+            "value": "1.4737",
+            "unit": "µs",
+            "extra": "linux_result"
+          },
+          {
+            "name": "Average select file latency on Asterinas",
+            "value": "2.1649",
             "unit": "µs",
             "extra": "aster_result"
           }
@@ -24325,21 +20780,5441 @@ window.BENCHMARK_DATA = {
           "timestamp": "2024-09-24T06:58:54Z",
           "url": "https://github.com/grief8/asterinas/commit/bb8d2fe583df04a06eaf4c931270c55dd06f48ae"
         },
-        "date": 1727168667603,
+        "date": 1727168638907,
         "tool": "customSmallerIsBetter",
-        "title": "[Unix sockets] The latency of write+read",
-        "description": "lat_unix",
+        "title": "[Network] The cost of select (file fds)",
+        "description": "lat_select",
         "display": true,
         "benches": [
           {
-            "name": "Average unix latency on Linux",
-            "value": "3.6490",
+            "name": "Average select file latency on Linux",
+            "value": "1.4804",
             "unit": "µs",
             "extra": "linux_result"
           },
           {
-            "name": "Average unix latency on Asterinas",
-            "value": "2.1620",
+            "name": "Average select file latency on Asterinas",
+            "value": "2.1669",
+            "unit": "µs",
+            "extra": "aster_result"
+          }
+        ]
+      }
+    ],
+    "vfs_fcntl_lat": [
+      {
+        "commit": {
+          "author": {
+            "name": "Fabing Li",
+            "username": "grief8",
+            "email": "lifabing.lfb@antgroup.com"
+          },
+          "committer": {
+            "name": "Fabing Li",
+            "username": "grief8",
+            "email": "lifabing.lfb@antgroup.com"
+          },
+          "id": "52871246d45bbd86954f1d1dd5c65c98e1656064",
+          "message": "uP",
+          "timestamp": "2024-09-24T06:48:01Z",
+          "url": "https://github.com/grief8/asterinas/commit/52871246d45bbd86954f1d1dd5c65c98e1656064"
+        },
+        "date": 1727160799258,
+        "tool": "customSmallerIsBetter",
+        "title": "[VFS] The cost of record locking/unlocking via fcntl",
+        "description": "lat_fcntl",
+        "display": true,
+        "benches": [
+          {
+            "name": "Average file locking latency on Linux",
+            "value": "2.2142",
+            "unit": "µs",
+            "extra": "linux_result"
+          },
+          {
+            "name": "Average file locking latency on Asterinas",
+            "value": "1.9013",
+            "unit": "µs",
+            "extra": "aster_result"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Fabing Li",
+            "username": "grief8",
+            "email": "lifabing.lfb@antgroup.com"
+          },
+          "committer": {
+            "name": "Fabing Li",
+            "username": "grief8",
+            "email": "lifabing.lfb@antgroup.com"
+          },
+          "id": "bb8d2fe583df04a06eaf4c931270c55dd06f48ae",
+          "message": "iuu",
+          "timestamp": "2024-09-24T06:58:54Z",
+          "url": "https://github.com/grief8/asterinas/commit/bb8d2fe583df04a06eaf4c931270c55dd06f48ae"
+        },
+        "date": 1727168668165,
+        "tool": "customSmallerIsBetter",
+        "title": "[VFS] The cost of record locking/unlocking via fcntl",
+        "description": "lat_fcntl",
+        "display": true,
+        "benches": [
+          {
+            "name": "Average file locking latency on Linux",
+            "value": "2.2379",
+            "unit": "µs",
+            "extra": "linux_result"
+          },
+          {
+            "name": "Average file locking latency on Asterinas",
+            "value": "1.8794",
+            "unit": "µs",
+            "extra": "aster_result"
+          }
+        ]
+      }
+    ],
+    "vfs_read_pagecache_bw": [
+      {
+        "commit": {
+          "author": {
+            "name": "Yuke Peng",
+            "username": "sdww0",
+            "email": "pykfirst@gmail.com"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "6f8978193c7a73a51403a8751314ddebc1c1983f",
+          "message": "Add benchmarks to workflow",
+          "timestamp": "2024-08-02T13:40:56Z",
+          "url": "https://github.com/asterinas/asterinas/commit/6f8978193c7a73a51403a8751314ddebc1c1983f"
+        },
+        "date": 1722629147641,
+        "tool": "customBiggerIsBetter",
+        "description": "The bandwidth of reading a file on a single processor.",
+        "benches": [
+          {
+            "name": "Average file read bandwidth on Linux",
+            "value": "8509.33",
+            "unit": "MB/s",
+            "extra": "linux_result"
+          },
+          {
+            "name": "Average file read bandwidth on Asterinas",
+            "value": "7326.30",
+            "unit": "MB/s",
+            "extra": "aster_result"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Yuke Peng",
+            "username": "sdww0",
+            "email": "pykfirst@gmail.com"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "6f8978193c7a73a51403a8751314ddebc1c1983f",
+          "message": "Add benchmarks to workflow",
+          "timestamp": "2024-08-02T13:40:56Z",
+          "url": "https://github.com/asterinas/asterinas/commit/6f8978193c7a73a51403a8751314ddebc1c1983f"
+        },
+        "date": 1722715661542,
+        "tool": "customBiggerIsBetter",
+        "description": "The bandwidth of reading a file on a single processor.",
+        "benches": [
+          {
+            "name": "Average file read bandwidth on Linux",
+            "value": "8689.76",
+            "unit": "MB/s",
+            "extra": "linux_result"
+          },
+          {
+            "name": "Average file read bandwidth on Asterinas",
+            "value": "7192.42",
+            "unit": "MB/s",
+            "extra": "aster_result"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Zhang Junyang",
+            "username": "junyang-zh",
+            "email": "junyang@stu.pku.edu.cn"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "16690bc61b0bb8d90dbb1cec8a317ba34aa09f71",
+          "message": "Implement atomic signal masks and refactor `SigSet`",
+          "timestamp": "2024-08-02T08:26:56Z",
+          "url": "https://github.com/asterinas/asterinas/commit/16690bc61b0bb8d90dbb1cec8a317ba34aa09f71"
+        },
+        "date": 1722802008337,
+        "tool": "customBiggerIsBetter",
+        "description": "The bandwidth of reading a file on a single processor.",
+        "benches": [
+          {
+            "name": "Average file read bandwidth on Linux",
+            "value": "8447.21",
+            "unit": "MB/s",
+            "extra": "linux_result"
+          },
+          {
+            "name": "Average file read bandwidth on Asterinas",
+            "value": "7357.42",
+            "unit": "MB/s",
+            "extra": "aster_result"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "azongchang",
+            "username": "azongchang",
+            "email": "azongchang@qq.com"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "aa84b31634b9c710e04b337c5d1b8fa207f8dbde",
+          "message": "Add the description of encoding option to the OSDK document",
+          "timestamp": "2024-08-05T05:52:13Z",
+          "url": "https://github.com/asterinas/asterinas/commit/aa84b31634b9c710e04b337c5d1b8fa207f8dbde"
+        },
+        "date": 1722888252685,
+        "tool": "customBiggerIsBetter",
+        "description": "The bandwidth of reading a file on a single processor.",
+        "benches": [
+          {
+            "name": "Average file read bandwidth on Linux",
+            "value": "8610.05",
+            "unit": "MB/s",
+            "extra": "linux_result"
+          },
+          {
+            "name": "Average file read bandwidth on Asterinas",
+            "value": "7342.13",
+            "unit": "MB/s",
+            "extra": "aster_result"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ruihan Li",
+            "username": "lrh2000",
+            "email": "lrh2000@pku.edu.cn"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "b1ea422efaf6b0becd7d6cd99d270ae01fcd12de",
+          "message": "Fix accesses to VirtIO queue DMA",
+          "timestamp": "2024-08-05T14:06:02Z",
+          "url": "https://github.com/asterinas/asterinas/commit/b1ea422efaf6b0becd7d6cd99d270ae01fcd12de"
+        },
+        "date": 1722974864208,
+        "tool": "customBiggerIsBetter",
+        "description": "The bandwidth of reading a file on a single processor.",
+        "benches": [
+          {
+            "name": "Average file read bandwidth on Linux",
+            "value": "8597.23",
+            "unit": "MB/s",
+            "extra": "linux_result"
+          },
+          {
+            "name": "Average file read bandwidth on Asterinas",
+            "value": "7282.67",
+            "unit": "MB/s",
+            "extra": "aster_result"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ruihan Li",
+            "username": "lrh2000",
+            "email": "lrh2000@pku.edu.cn"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "b1ea422efaf6b0becd7d6cd99d270ae01fcd12de",
+          "message": "Fix accesses to VirtIO queue DMA",
+          "timestamp": "2024-08-05T14:06:02Z",
+          "url": "https://github.com/asterinas/asterinas/commit/b1ea422efaf6b0becd7d6cd99d270ae01fcd12de"
+        },
+        "date": 1723061274088,
+        "tool": "customBiggerIsBetter",
+        "description": "The bandwidth of reading a file on a single processor.",
+        "benches": [
+          {
+            "name": "Average file read bandwidth on Linux",
+            "value": "8564.17",
+            "unit": "MB/s",
+            "extra": "linux_result"
+          },
+          {
+            "name": "Average file read bandwidth on Asterinas",
+            "value": "7354.60",
+            "unit": "MB/s",
+            "extra": "aster_result"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Jianfeng Jiang",
+            "username": "StevenJiang1110",
+            "email": "jiangjianfeng.jjf@antgroup.com"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "6414111cc57b42db2bae1a0c8b01b85c3830a3b3",
+          "message": "Support flag SA_RESETHAND",
+          "timestamp": "2024-08-07T09:17:46Z",
+          "url": "https://github.com/asterinas/asterinas/commit/6414111cc57b42db2bae1a0c8b01b85c3830a3b3"
+        },
+        "date": 1723101982803,
+        "tool": "customBiggerIsBetter",
+        "description": "The bandwidth of reading a file on a single processor.",
+        "benches": [
+          {
+            "name": "Average file read bandwidth on Linux",
+            "value": "9101.82",
+            "unit": "MB/s",
+            "extra": "linux_result"
+          },
+          {
+            "name": "Average file read bandwidth on Asterinas",
+            "value": "7404.20",
+            "unit": "MB/s",
+            "extra": "aster_result"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Chen Chengjun",
+            "username": "cchanging",
+            "email": "chenchengjun.ccj@antgroup.com"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "acb4833aae0476d7ed2d61871036aff3eaf77c5d",
+          "message": "Optimize trim_mappings",
+          "timestamp": "2024-08-02T03:14:14Z",
+          "url": "https://github.com/asterinas/asterinas/commit/acb4833aae0476d7ed2d61871036aff3eaf77c5d"
+        },
+        "date": 1723147495408,
+        "tool": "customBiggerIsBetter",
+        "description": "The bandwidth of reading a file on a single processor.",
+        "benches": [
+          {
+            "name": "Average file read bandwidth on Linux",
+            "value": "8986.04",
+            "unit": "MB/s",
+            "extra": "linux_result"
+          },
+          {
+            "name": "Average file read bandwidth on Asterinas",
+            "value": "7388.91",
+            "unit": "MB/s",
+            "extra": "aster_result"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Chen Chengjun",
+            "username": "cchanging",
+            "email": "chenchengjun.ccj@antgroup.com"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "75da7fd30eca1e80ad57da15bfe5dff6963c03c1",
+          "message": "Replace old user space read/write with new APIs",
+          "timestamp": "2024-08-09T08:11:43Z",
+          "url": "https://github.com/asterinas/asterinas/commit/75da7fd30eca1e80ad57da15bfe5dff6963c03c1"
+        },
+        "date": 1723233979990,
+        "tool": "customBiggerIsBetter",
+        "description": "The bandwidth of reading a file on a single processor.",
+        "benches": [
+          {
+            "name": "Average file read bandwidth on Linux",
+            "value": "8831.71",
+            "unit": "MB/s",
+            "extra": "linux_result"
+          },
+          {
+            "name": "Average file read bandwidth on Asterinas",
+            "value": "7287.71",
+            "unit": "MB/s",
+            "extra": "aster_result"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Hsy-Intel",
+            "username": "Hsy-Intel",
+            "email": "siyuan.hui@intel.com"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "a739b3828d106d4e09fe2ba7dd8eed12d18dd20a",
+          "message": "Use tdx-guest crate VE handler and support release mode for TDX",
+          "timestamp": "2024-08-09T10:56:43Z",
+          "url": "https://github.com/asterinas/asterinas/commit/a739b3828d106d4e09fe2ba7dd8eed12d18dd20a"
+        },
+        "date": 1723320268490,
+        "tool": "customBiggerIsBetter",
+        "description": "The bandwidth of reading a file on a single processor.",
+        "benches": [
+          {
+            "name": "Average file read bandwidth on Linux",
+            "value": "8937.12",
+            "unit": "MB/s",
+            "extra": "linux_result"
+          },
+          {
+            "name": "Average file read bandwidth on Asterinas",
+            "value": "7341.52",
+            "unit": "MB/s",
+            "extra": "aster_result"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Hsy-Intel",
+            "username": "Hsy-Intel",
+            "email": "siyuan.hui@intel.com"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "a739b3828d106d4e09fe2ba7dd8eed12d18dd20a",
+          "message": "Use tdx-guest crate VE handler and support release mode for TDX",
+          "timestamp": "2024-08-09T10:56:43Z",
+          "url": "https://github.com/asterinas/asterinas/commit/a739b3828d106d4e09fe2ba7dd8eed12d18dd20a"
+        },
+        "date": 1723406536412,
+        "tool": "customBiggerIsBetter",
+        "description": "The bandwidth of reading a file on a single processor.",
+        "benches": [
+          {
+            "name": "Average file read bandwidth on Linux",
+            "value": "9146.01",
+            "unit": "MB/s",
+            "extra": "linux_result"
+          },
+          {
+            "name": "Average file read bandwidth on Asterinas",
+            "value": "7385.05",
+            "unit": "MB/s",
+            "extra": "aster_result"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Fabing Li",
+            "username": "grief8",
+            "email": "lifabing.lfb@antgroup.com"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "f9bae1eee90c49d715569208009cc2c66768fe9a",
+          "message": "Fix lmbench-ctx extraction",
+          "timestamp": "2024-08-12T07:13:36Z",
+          "url": "https://github.com/asterinas/asterinas/commit/f9bae1eee90c49d715569208009cc2c66768fe9a"
+        },
+        "date": 1723492979484,
+        "tool": "customBiggerIsBetter",
+        "description": "The bandwidth of reading a file on a single processor.",
+        "benches": [
+          {
+            "name": "Average file read bandwidth on Linux",
+            "value": "8781.01",
+            "unit": "MB/s",
+            "extra": "linux_result"
+          },
+          {
+            "name": "Average file read bandwidth on Asterinas",
+            "value": "7351.37",
+            "unit": "MB/s",
+            "extra": "aster_result"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Zhang Junyang",
+            "username": "junyang-zh",
+            "email": "junyang@stu.pku.edu.cn"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "be54a39592ff60fae6e729abaa3d4a26dd7f5624",
+          "message": "Remove the preempt guard from the IRQ guard",
+          "timestamp": "2024-08-12T13:04:53Z",
+          "url": "https://github.com/asterinas/asterinas/commit/be54a39592ff60fae6e729abaa3d4a26dd7f5624"
+        },
+        "date": 1723579352665,
+        "tool": "customBiggerIsBetter",
+        "description": "The bandwidth of reading a file on a single processor.",
+        "benches": [
+          {
+            "name": "Average file read bandwidth on Linux",
+            "value": "8914.57",
+            "unit": "MB/s",
+            "extra": "linux_result"
+          },
+          {
+            "name": "Average file read bandwidth on Asterinas",
+            "value": "7341.52",
+            "unit": "MB/s",
+            "extra": "aster_result"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Zhang Junyang",
+            "username": "junyang-zh",
+            "email": "junyang@stu.pku.edu.cn"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "4844e7ca7ca6d78896a51a71487a6fdfe9ca6654",
+          "message": "Allow page table protectors to flush TLB entries precisely",
+          "timestamp": "2024-08-12T08:11:45Z",
+          "url": "https://github.com/asterinas/asterinas/commit/4844e7ca7ca6d78896a51a71487a6fdfe9ca6654"
+        },
+        "date": 1723665737613,
+        "tool": "customBiggerIsBetter",
+        "description": "The bandwidth of reading a file on a single processor.",
+        "benches": [
+          {
+            "name": "Average file read bandwidth on Linux",
+            "value": "8909.09",
+            "unit": "MB/s",
+            "extra": "linux_result"
+          },
+          {
+            "name": "Average file read bandwidth on Asterinas",
+            "value": "7395.63",
+            "unit": "MB/s",
+            "extra": "aster_result"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Chen Chengjun",
+            "username": "cchanging",
+            "email": "chenchengjun.ccj@antgroup.com"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "99a22ff124972872838fa5dc7094fa9a5eea557e",
+          "message": "Improve efficiency of global TLB flushing",
+          "timestamp": "2024-08-15T08:53:54Z",
+          "url": "https://github.com/asterinas/asterinas/commit/99a22ff124972872838fa5dc7094fa9a5eea557e"
+        },
+        "date": 1723752150299,
+        "tool": "customBiggerIsBetter",
+        "description": "The bandwidth of reading a file on a single processor.",
+        "benches": [
+          {
+            "name": "Average file read bandwidth on Linux",
+            "value": "8992.06",
+            "unit": "MB/s",
+            "extra": "linux_result"
+          },
+          {
+            "name": "Average file read bandwidth on Asterinas",
+            "value": "7342.13",
+            "unit": "MB/s",
+            "extra": "aster_result"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Jianfeng Jiang",
+            "username": "StevenJiang1110",
+            "email": "jiangjianfeng.jjf@antgroup.com"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "0291b5dc6bb142b9c6165c1cb29b7658eefdaa63",
+          "message": "Optimize the latency of lmbench-select-file",
+          "timestamp": "2024-08-15T03:44:30Z",
+          "url": "https://github.com/asterinas/asterinas/commit/0291b5dc6bb142b9c6165c1cb29b7658eefdaa63"
+        },
+        "date": 1723778675370,
+        "tool": "customBiggerIsBetter",
+        "description": "The bandwidth of reading a file on a single processor.",
+        "benches": [
+          {
+            "name": "Average file read bandwidth on Linux",
+            "value": "9005.79",
+            "unit": "MB/s",
+            "extra": "linux_result"
+          },
+          {
+            "name": "Average file read bandwidth on Asterinas",
+            "value": "7327.20",
+            "unit": "MB/s",
+            "extra": "aster_result"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Jianfeng Jiang",
+            "username": "StevenJiang1110",
+            "email": "jiangjianfeng.jjf@antgroup.com"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "0291b5dc6bb142b9c6165c1cb29b7658eefdaa63",
+          "message": "Optimize the latency of lmbench-select-file",
+          "timestamp": "2024-08-15T03:44:30Z",
+          "url": "https://github.com/asterinas/asterinas/commit/0291b5dc6bb142b9c6165c1cb29b7658eefdaa63"
+        },
+        "date": 1723782001926,
+        "tool": "customBiggerIsBetter",
+        "description": "The bandwidth of reading a file on a single processor.",
+        "benches": [
+          {
+            "name": "Average file read bandwidth on Linux",
+            "value": "8863.64",
+            "unit": "MB/s",
+            "extra": "linux_result"
+          },
+          {
+            "name": "Average file read bandwidth on Asterinas",
+            "value": "7392.57",
+            "unit": "MB/s",
+            "extra": "aster_result"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Jianfeng Jiang",
+            "username": "StevenJiang1110",
+            "email": "jiangjianfeng.jjf@antgroup.com"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "0291b5dc6bb142b9c6165c1cb29b7658eefdaa63",
+          "message": "Optimize the latency of lmbench-select-file",
+          "timestamp": "2024-08-15T03:44:30Z",
+          "url": "https://github.com/asterinas/asterinas/commit/0291b5dc6bb142b9c6165c1cb29b7658eefdaa63"
+        },
+        "date": 1723838566199,
+        "tool": "customBiggerIsBetter",
+        "description": "The bandwidth of reading a file on a single processor.",
+        "benches": [
+          {
+            "name": "Average file read bandwidth on Linux",
+            "value": "9053.63",
+            "unit": "MB/s",
+            "extra": "linux_result"
+          },
+          {
+            "name": "Average file read bandwidth on Asterinas",
+            "value": "7382.10",
+            "unit": "MB/s",
+            "extra": "aster_result"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Fabing Li",
+            "username": "grief8",
+            "email": "lifabing.lfb@antgroup.com"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "ce2af1eb057077753a7a757edc1833e677a83918",
+          "message": "Add flock and sys_flock",
+          "timestamp": "2024-08-12T03:51:41Z",
+          "url": "https://github.com/asterinas/asterinas/commit/ce2af1eb057077753a7a757edc1833e677a83918"
+        },
+        "date": 1723925227205,
+        "tool": "customBiggerIsBetter",
+        "description": "The bandwidth of reading a file on a single processor.",
+        "benches": [
+          {
+            "name": "Average file read bandwidth on Linux",
+            "value": "8818.22",
+            "unit": "MB/s",
+            "extra": "linux_result"
+          },
+          {
+            "name": "Average file read bandwidth on Asterinas",
+            "value": "7403.38",
+            "unit": "MB/s",
+            "extra": "aster_result"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Yuke Peng",
+            "username": "sdww0",
+            "email": "pykfirst@gmail.com"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "bbe43d76cc25538f04261379407f4fa721a13431",
+          "message": "Fix compile error due to `lock_irq_disabled`",
+          "timestamp": "2024-08-19T01:02:51Z",
+          "url": "https://github.com/asterinas/asterinas/commit/bbe43d76cc25538f04261379407f4fa721a13431"
+        },
+        "date": 1724098116410,
+        "tool": "customBiggerIsBetter",
+        "description": "The bandwidth of reading a file on a single processor.",
+        "benches": [
+          {
+            "name": "Average file read bandwidth on Linux",
+            "value": "8861.30",
+            "unit": "MB/s",
+            "extra": "linux_result"
+          },
+          {
+            "name": "Average file read bandwidth on Asterinas",
+            "value": "7351.58",
+            "unit": "MB/s",
+            "extra": "aster_result"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Marsman1996",
+            "username": "Marsman1996",
+            "email": "lqliuyuwei@outlook.com"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "fda0fa051265867c2399f4981fdccb9cc6df110d",
+          "message": "Align `len` in `madvise`",
+          "timestamp": "2024-08-19T09:01:16Z",
+          "url": "https://github.com/asterinas/asterinas/commit/fda0fa051265867c2399f4981fdccb9cc6df110d"
+        },
+        "date": 1724184528164,
+        "tool": "customBiggerIsBetter",
+        "description": "The bandwidth of reading a file on a single processor.",
+        "benches": [
+          {
+            "name": "Average file read bandwidth on Linux",
+            "value": "8989.80",
+            "unit": "MB/s",
+            "extra": "linux_result"
+          },
+          {
+            "name": "Average file read bandwidth on Asterinas",
+            "value": "7414.73",
+            "unit": "MB/s",
+            "extra": "aster_result"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Shaowei Song",
+            "username": "lucassong-mh",
+            "email": "songshaowei.ssw@antgroup.com"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "2102107be18729fba8f3546d5a3fe39c819d814a",
+          "message": "Refactor `VmReader`&`VmWriter` as given fallibility marker",
+          "timestamp": "2024-08-20T02:05:25Z",
+          "url": "https://github.com/asterinas/asterinas/commit/2102107be18729fba8f3546d5a3fe39c819d814a"
+        },
+        "date": 1724271046764,
+        "tool": "customBiggerIsBetter",
+        "description": "The bandwidth of reading a file on a single processor.",
+        "benches": [
+          {
+            "name": "Average file read bandwidth on Linux",
+            "value": "9074.44",
+            "unit": "MB/s",
+            "extra": "linux_result"
+          },
+          {
+            "name": "Average file read bandwidth on Asterinas",
+            "value": "7333.70",
+            "unit": "MB/s",
+            "extra": "aster_result"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Yuke Peng",
+            "username": "sdww0",
+            "email": "pykfirst@gmail.com"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "bb4751741a6cd6b919015f8f483512c90e73bf55",
+          "message": "Bump smoltcp to newest git version",
+          "timestamp": "2024-08-22T06:34:41Z",
+          "url": "https://github.com/asterinas/asterinas/commit/bb4751741a6cd6b919015f8f483512c90e73bf55"
+        },
+        "date": 1724357403533,
+        "tool": "customBiggerIsBetter",
+        "description": "The bandwidth of reading a file on a single processor.",
+        "benches": [
+          {
+            "name": "Average file read bandwidth on Linux",
+            "value": "8970.27",
+            "unit": "MB/s",
+            "extra": "linux_result"
+          },
+          {
+            "name": "Average file read bandwidth on Asterinas",
+            "value": "10403.67",
+            "unit": "MB/s",
+            "extra": "aster_result"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Zhang Junyang",
+            "username": "junyang-zh",
+            "email": "junyang@stu.pku.edu.cn"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "e50b05d1ee71f52679e8ed8ea310cda6bfcd7e0c",
+          "message": "Bump version to 0.8.0",
+          "timestamp": "2024-08-23T14:57:42Z",
+          "url": "https://github.com/asterinas/asterinas/commit/e50b05d1ee71f52679e8ed8ea310cda6bfcd7e0c"
+        },
+        "date": 1724444073137,
+        "tool": "customBiggerIsBetter",
+        "description": "The bandwidth of reading a file on a single processor.",
+        "benches": [
+          {
+            "name": "Average file read bandwidth on Linux",
+            "value": "8879.04",
+            "unit": "MB/s",
+            "extra": "linux_result"
+          },
+          {
+            "name": "Average file read bandwidth on Asterinas",
+            "value": "10048.87",
+            "unit": "MB/s",
+            "extra": "aster_result"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Zhang Junyang",
+            "username": "junyang-zh",
+            "email": "junyang@stu.pku.edu.cn"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "d22277a3e69040906cd198ea625614c5c69d66da",
+          "message": "Allow manually dispatching publishing workflows",
+          "timestamp": "2024-08-24T09:27:15Z",
+          "url": "https://github.com/asterinas/asterinas/commit/d22277a3e69040906cd198ea625614c5c69d66da"
+        },
+        "date": 1724530388756,
+        "tool": "customBiggerIsBetter",
+        "description": "The bandwidth of reading a file on a single processor.",
+        "benches": [
+          {
+            "name": "Average file read bandwidth on Linux",
+            "value": "8992.81",
+            "unit": "MB/s",
+            "extra": "linux_result"
+          },
+          {
+            "name": "Average file read bandwidth on Asterinas",
+            "value": "10089.47",
+            "unit": "MB/s",
+            "extra": "aster_result"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Zhang Junyang",
+            "username": "junyang-zh",
+            "email": "junyang@stu.pku.edu.cn"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "4231645c02ec317d99f0150bc8ed3210489855a0",
+          "message": "Fix `is_tdx_enabled` in OSDK tests",
+          "timestamp": "2024-08-25T12:16:30Z",
+          "url": "https://github.com/asterinas/asterinas/commit/4231645c02ec317d99f0150bc8ed3210489855a0"
+        },
+        "date": 1724616790650,
+        "tool": "customBiggerIsBetter",
+        "description": "The bandwidth of reading a file on a single processor.",
+        "benches": [
+          {
+            "name": "Average file read bandwidth on Linux",
+            "value": "9265.98",
+            "unit": "MB/s",
+            "extra": "linux_result"
+          },
+          {
+            "name": "Average file read bandwidth on Asterinas",
+            "value": "10184.02",
+            "unit": "MB/s",
+            "extra": "aster_result"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Chen Chengjun",
+            "username": "cchanging",
+            "email": "chenchengjun.ccj@antgroup.com"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "9e59db2f42c2ef9f8e91e0d1ee03562190726d56",
+          "message": "Make benchmark CI more fair",
+          "timestamp": "2024-08-26T09:41:40Z",
+          "url": "https://github.com/asterinas/asterinas/commit/9e59db2f42c2ef9f8e91e0d1ee03562190726d56"
+        },
+        "date": 1724703082632,
+        "tool": "customBiggerIsBetter",
+        "description": "The bandwidth of reading a file on a single processor.",
+        "benches": [
+          {
+            "name": "Average file read bandwidth on Linux",
+            "value": "9282.00",
+            "unit": "MB/s",
+            "extra": "linux_result"
+          },
+          {
+            "name": "Average file read bandwidth on Asterinas",
+            "value": "10237.62",
+            "unit": "MB/s",
+            "extra": "aster_result"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Chen Chengjun",
+            "username": "cchanging",
+            "email": "chenchengjun.ccj@antgroup.com"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "ffc717f00bce62b1805af8043e335ad5fc1f175c",
+          "message": "Enable handling page fault around",
+          "timestamp": "2024-08-28T02:24:44Z",
+          "url": "https://github.com/asterinas/asterinas/commit/ffc717f00bce62b1805af8043e335ad5fc1f175c"
+        },
+        "date": 1724818020490,
+        "tool": "customBiggerIsBetter",
+        "description": "The bandwidth of reading a file on a single processor.",
+        "benches": [
+          {
+            "name": "Average file read bandwidth on Linux",
+            "value": "9338.51",
+            "unit": "MB/s",
+            "extra": "linux_result"
+          },
+          {
+            "name": "Average file read bandwidth on Asterinas",
+            "value": "10190.59",
+            "unit": "MB/s",
+            "extra": "aster_result"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Shaowei Song",
+            "username": "lucassong-mh",
+            "email": "songshaowei.ssw@antgroup.com"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "e6f465b553f613d60828e0e503dc94ce4109ded1",
+          "message": "Replace all the ring buffers with the new one",
+          "timestamp": "2024-08-28T06:23:24Z",
+          "url": "https://github.com/asterinas/asterinas/commit/e6f465b553f613d60828e0e503dc94ce4109ded1"
+        },
+        "date": 1724875889743,
+        "tool": "customBiggerIsBetter",
+        "description": "The bandwidth of reading a file on a single processor.",
+        "benches": [
+          {
+            "name": "Average file read bandwidth on Linux",
+            "value": "9284.09",
+            "unit": "MB/s",
+            "extra": "linux_result"
+          },
+          {
+            "name": "Average file read bandwidth on Asterinas",
+            "value": "10139.59",
+            "unit": "MB/s",
+            "extra": "aster_result"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Chen Chengjun",
+            "username": "cchanging",
+            "email": "chenchengjun.ccj@antgroup.com"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "00d9b01d5c356fbc5f6b72b9a69a7571fdf0ab1f",
+          "message": "Add a fast path to page table fork",
+          "timestamp": "2024-08-29T03:52:33Z",
+          "url": "https://github.com/asterinas/asterinas/commit/00d9b01d5c356fbc5f6b72b9a69a7571fdf0ab1f"
+        },
+        "date": 1724907587431,
+        "tool": "customBiggerIsBetter",
+        "description": "The bandwidth of reading a file on a single processor.",
+        "benches": [
+          {
+            "name": "Average file read bandwidth on Linux",
+            "value": "9246.19",
+            "unit": "MB/s",
+            "extra": "linux_result"
+          },
+          {
+            "name": "Average file read bandwidth on Asterinas",
+            "value": "10332.59",
+            "unit": "MB/s",
+            "extra": "aster_result"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Chen Chengjun",
+            "username": "cchanging",
+            "email": "chenchengjun.ccj@antgroup.com"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "00d9b01d5c356fbc5f6b72b9a69a7571fdf0ab1f",
+          "message": "Add a fast path to page table fork",
+          "timestamp": "2024-08-29T03:52:33Z",
+          "url": "https://github.com/asterinas/asterinas/commit/00d9b01d5c356fbc5f6b72b9a69a7571fdf0ab1f"
+        },
+        "date": 1724914130712,
+        "tool": "customBiggerIsBetter",
+        "description": "The bandwidth of reading a file on a single processor.",
+        "benches": [
+          {
+            "name": "Average file read bandwidth on Linux",
+            "value": "9243.65",
+            "unit": "MB/s",
+            "extra": "linux_result"
+          },
+          {
+            "name": "Average file read bandwidth on Asterinas",
+            "value": "10205.31",
+            "unit": "MB/s",
+            "extra": "aster_result"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Yuke Peng",
+            "username": "sdww0",
+            "email": "pykfirst@gmail.com"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "539984bbed414969b0c40cf181a10e9341ed2359",
+          "message": "Replace read with read_raw",
+          "timestamp": "2024-08-29T12:46:20Z",
+          "url": "https://github.com/asterinas/asterinas/commit/539984bbed414969b0c40cf181a10e9341ed2359"
+        },
+        "date": 1724962321766,
+        "tool": "customBiggerIsBetter",
+        "description": "The bandwidth of reading a file on a single processor.",
+        "benches": [
+          {
+            "name": "Average file read bandwidth on Linux",
+            "value": "9354.29",
+            "unit": "MB/s",
+            "extra": "linux_result"
+          },
+          {
+            "name": "Average file read bandwidth on Asterinas",
+            "value": "10117.80",
+            "unit": "MB/s",
+            "extra": "aster_result"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Yuke Peng",
+            "username": "sdww0",
+            "email": "pykfirst@gmail.com"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "db16caf28c46e4ed24099fcba13d40b7d673164c",
+          "message": "[Semaphore] Replace Mutex with SpinLock",
+          "timestamp": "2024-08-30T11:23:53Z",
+          "url": "https://github.com/asterinas/asterinas/commit/db16caf28c46e4ed24099fcba13d40b7d673164c"
+        },
+        "date": 1725049143160,
+        "tool": "customBiggerIsBetter",
+        "description": "The bandwidth of reading a file on a single processor.",
+        "benches": [
+          {
+            "name": "Average file read bandwidth on Linux",
+            "value": "9062.34",
+            "unit": "MB/s",
+            "extra": "linux_result"
+          },
+          {
+            "name": "Average file read bandwidth on Asterinas",
+            "value": "10042.67",
+            "unit": "MB/s",
+            "extra": "aster_result"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "YanWQ-monad",
+            "username": "YanWQ-monad",
+            "email": "YanWQmonad@gmail.com"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "e6e771e9b5ae7d223a50aa4b38994500b0db6867",
+          "message": "Better timestamp in logging",
+          "timestamp": "2024-08-30T17:51:32Z",
+          "url": "https://github.com/asterinas/asterinas/commit/e6e771e9b5ae7d223a50aa4b38994500b0db6867"
+        },
+        "date": 1725135126297,
+        "tool": "customBiggerIsBetter",
+        "description": "The bandwidth of reading a file on a single processor.",
+        "benches": [
+          {
+            "name": "Average file read bandwidth on Linux",
+            "value": "9645.72",
+            "unit": "MB/s",
+            "extra": "linux_result"
+          },
+          {
+            "name": "Average file read bandwidth on Asterinas",
+            "value": "10184.41",
+            "unit": "MB/s",
+            "extra": "aster_result"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Marsman1996",
+            "username": "Marsman1996",
+            "email": "lqliuyuwei@outlook.com"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "745ac6d982638d3548f09ea2aa2103e37c135153",
+          "message": "Set overflow boundary to `isize::MAX` for memory related syscalls",
+          "timestamp": "2024-08-29T14:26:36Z",
+          "url": "https://github.com/asterinas/asterinas/commit/745ac6d982638d3548f09ea2aa2103e37c135153"
+        },
+        "date": 1725221368431,
+        "tool": "customBiggerIsBetter",
+        "description": "The bandwidth of reading a file on a single processor.",
+        "benches": [
+          {
+            "name": "Average file read bandwidth on Linux",
+            "value": "9020.16",
+            "unit": "MB/s",
+            "extra": "linux_result"
+          },
+          {
+            "name": "Average file read bandwidth on Asterinas",
+            "value": "10224.75",
+            "unit": "MB/s",
+            "extra": "aster_result"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Shaowei Song",
+            "username": "lucassong-mh",
+            "email": "songshaowei.ssw@antgroup.com"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "963874471284ed014b76d268d933b6d13073c2cc",
+          "message": "Unseekable files need not to manipulate the `offset`",
+          "timestamp": "2024-09-02T09:48:15Z",
+          "url": "https://github.com/asterinas/asterinas/commit/963874471284ed014b76d268d933b6d13073c2cc"
+        },
+        "date": 1725308076903,
+        "tool": "customBiggerIsBetter",
+        "description": "The bandwidth of reading a file on a single processor.",
+        "benches": [
+          {
+            "name": "Average file read bandwidth on Linux",
+            "value": "9317.60",
+            "unit": "MB/s",
+            "extra": "linux_result"
+          },
+          {
+            "name": "Average file read bandwidth on Asterinas",
+            "value": "9990.71",
+            "unit": "MB/s",
+            "extra": "aster_result"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Shaowei Song",
+            "username": "lucassong-mh",
+            "email": "songshaowei.ssw@antgroup.com"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "963874471284ed014b76d268d933b6d13073c2cc",
+          "message": "Unseekable files need not to manipulate the `offset`",
+          "timestamp": "2024-09-02T09:48:15Z",
+          "url": "https://github.com/asterinas/asterinas/commit/963874471284ed014b76d268d933b6d13073c2cc"
+        },
+        "date": 1725397920466,
+        "tool": "customBiggerIsBetter",
+        "description": "The bandwidth of reading a file on a single processor.",
+        "benches": [
+          {
+            "name": "Average file read bandwidth on Linux",
+            "value": "9315.50",
+            "unit": "MB/s",
+            "extra": "linux_result"
+          },
+          {
+            "name": "Average file read bandwidth on Asterinas",
+            "value": "9932.67",
+            "unit": "MB/s",
+            "extra": "aster_result"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ruize Tang",
+            "username": "tangruize",
+            "email": "1466040111@qq.com"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "458a6a5b3b01aebe78c124fe20be91a91f0139da",
+          "message": "Fix unexpected unlock of mutexes, add a testcase",
+          "timestamp": "2024-09-03T07:33:12Z",
+          "url": "https://github.com/asterinas/asterinas/commit/458a6a5b3b01aebe78c124fe20be91a91f0139da"
+        },
+        "date": 1725484388559,
+        "tool": "customBiggerIsBetter",
+        "description": "The bandwidth of reading a file on a single processor.",
+        "benches": [
+          {
+            "name": "Average file read bandwidth on Linux",
+            "value": "9173.52",
+            "unit": "MB/s",
+            "extra": "linux_result"
+          },
+          {
+            "name": "Average file read bandwidth on Asterinas",
+            "value": "10103.52",
+            "unit": "MB/s",
+            "extra": "aster_result"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ruize Tang",
+            "username": "tangruize",
+            "email": "1466040111@qq.com"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "458a6a5b3b01aebe78c124fe20be91a91f0139da",
+          "message": "Fix unexpected unlock of mutexes, add a testcase",
+          "timestamp": "2024-09-03T07:33:12Z",
+          "url": "https://github.com/asterinas/asterinas/commit/458a6a5b3b01aebe78c124fe20be91a91f0139da"
+        },
+        "date": 1725570748348,
+        "tool": "customBiggerIsBetter",
+        "description": "The bandwidth of reading a file on a single processor.",
+        "benches": [
+          {
+            "name": "Average file read bandwidth on Linux",
+            "value": "9089.34",
+            "unit": "MB/s",
+            "extra": "linux_result"
+          },
+          {
+            "name": "Average file read bandwidth on Asterinas",
+            "value": "8649.58",
+            "unit": "MB/s",
+            "extra": "aster_result"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Thomas Dickson",
+            "username": "Hoverth",
+            "email": "modscrat+github@gmail.com"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "64e43d34aab13eeddea8dd7485c712acc99116ca",
+          "message": "doc: fix typo in README.md",
+          "timestamp": "2024-09-06T04:11:16Z",
+          "url": "https://github.com/asterinas/asterinas/commit/64e43d34aab13eeddea8dd7485c712acc99116ca"
+        },
+        "date": 1725653520849,
+        "tool": "customBiggerIsBetter",
+        "description": "The bandwidth of reading a file on a single processor.",
+        "benches": [
+          {
+            "name": "Average file read bandwidth on Linux",
+            "value": "9210.03",
+            "unit": "MB/s",
+            "extra": "linux_result"
+          },
+          {
+            "name": "Average file read bandwidth on Asterinas",
+            "value": "10202.02",
+            "unit": "MB/s",
+            "extra": "aster_result"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Zhang Junyang",
+            "username": "junyang-zh",
+            "email": "junyang@stu.pku.edu.cn"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "c68302f7007225fa47f22a1085a8c59dcdae2ad4",
+          "message": "Don't hold any locks while waiting in `EpollFile`",
+          "timestamp": "2024-09-06T12:05:01Z",
+          "url": "https://github.com/asterinas/asterinas/commit/c68302f7007225fa47f22a1085a8c59dcdae2ad4"
+        },
+        "date": 1725740099024,
+        "tool": "customBiggerIsBetter",
+        "description": "The bandwidth of reading a file on a single processor.",
+        "benches": [
+          {
+            "name": "Average file read bandwidth on Linux",
+            "value": "9086.57",
+            "unit": "MB/s",
+            "extra": "linux_result"
+          },
+          {
+            "name": "Average file read bandwidth on Asterinas",
+            "value": "9527.94",
+            "unit": "MB/s",
+            "extra": "aster_result"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Zhang Junyang",
+            "username": "junyang-zh",
+            "email": "junyang@stu.pku.edu.cn"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "c68302f7007225fa47f22a1085a8c59dcdae2ad4",
+          "message": "Don't hold any locks while waiting in `EpollFile`",
+          "timestamp": "2024-09-06T12:05:01Z",
+          "url": "https://github.com/asterinas/asterinas/commit/c68302f7007225fa47f22a1085a8c59dcdae2ad4"
+        },
+        "date": 1725829908325,
+        "tool": "customBiggerIsBetter",
+        "description": "The bandwidth of reading a file on a single processor.",
+        "benches": [
+          {
+            "name": "Average file read bandwidth on Linux",
+            "value": "9153.65",
+            "unit": "MB/s",
+            "extra": "linux_result"
+          },
+          {
+            "name": "Average file read bandwidth on Asterinas",
+            "value": "10035.16",
+            "unit": "MB/s",
+            "extra": "aster_result"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Zhang Junyang",
+            "username": "junyang-zh",
+            "email": "junyang@stu.pku.edu.cn"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "c68302f7007225fa47f22a1085a8c59dcdae2ad4",
+          "message": "Don't hold any locks while waiting in `EpollFile`",
+          "timestamp": "2024-09-06T12:05:01Z",
+          "url": "https://github.com/asterinas/asterinas/commit/c68302f7007225fa47f22a1085a8c59dcdae2ad4"
+        },
+        "date": 1725912858689,
+        "tool": "customBiggerIsBetter",
+        "description": "The bandwidth of reading a file on a single processor.",
+        "benches": [
+          {
+            "name": "Average file read bandwidth on Linux",
+            "value": "9261.35",
+            "unit": "MB/s",
+            "extra": "linux_result"
+          },
+          {
+            "name": "Average file read bandwidth on Asterinas",
+            "value": "10223.97",
+            "unit": "MB/s",
+            "extra": "aster_result"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Zhang Junyang",
+            "username": "junyang-zh",
+            "email": "junyang@stu.pku.edu.cn"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "c68302f7007225fa47f22a1085a8c59dcdae2ad4",
+          "message": "Don't hold any locks while waiting in `EpollFile`",
+          "timestamp": "2024-09-06T12:05:01Z",
+          "url": "https://github.com/asterinas/asterinas/commit/c68302f7007225fa47f22a1085a8c59dcdae2ad4"
+        },
+        "date": 1726002719919,
+        "tool": "customBiggerIsBetter",
+        "description": "The bandwidth of reading a file on a single processor.",
+        "benches": [
+          {
+            "name": "Average file read bandwidth on Linux",
+            "value": "9179.48",
+            "unit": "MB/s",
+            "extra": "linux_result"
+          },
+          {
+            "name": "Average file read bandwidth on Asterinas",
+            "value": "10180.35",
+            "unit": "MB/s",
+            "extra": "aster_result"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Shaowei Song",
+            "username": "lucassong-mh",
+            "email": "songshaowei.ssw@antgroup.com"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "8bfbdf6642a9d04db3490792926d6a299d1e30be",
+          "message": "Optimize the lock usage in `RamInode`'s read/write",
+          "timestamp": "2024-09-02T13:23:46Z",
+          "url": "https://github.com/asterinas/asterinas/commit/8bfbdf6642a9d04db3490792926d6a299d1e30be"
+        },
+        "date": 1726085544218,
+        "tool": "customBiggerIsBetter",
+        "description": "The bandwidth of reading a file on a single processor.",
+        "benches": [
+          {
+            "name": "Average file read bandwidth on Linux",
+            "value": "9189.85",
+            "unit": "MB/s",
+            "extra": "linux_result"
+          },
+          {
+            "name": "Average file read bandwidth on Asterinas",
+            "value": "10060.36",
+            "unit": "MB/s",
+            "extra": "aster_result"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Marsman1996",
+            "username": "Marsman1996",
+            "email": "lqliuyuwei@outlook.com"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "6fcad6ce143b8f65e8be76297eb95a9cb56da22e",
+          "message": "Fix integer overflow in handle_page_faults_around",
+          "timestamp": "2024-09-12T12:15:04Z",
+          "url": "https://github.com/asterinas/asterinas/commit/6fcad6ce143b8f65e8be76297eb95a9cb56da22e"
+        },
+        "date": 1726171774991,
+        "tool": "customBiggerIsBetter",
+        "description": "The bandwidth of reading a file on a single processor.",
+        "benches": [
+          {
+            "name": "Average file read bandwidth on Linux",
+            "value": "9201.66",
+            "unit": "MB/s",
+            "extra": "linux_result"
+          },
+          {
+            "name": "Average file read bandwidth on Asterinas",
+            "value": "10138.82",
+            "unit": "MB/s",
+            "extra": "aster_result"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Yuke Peng",
+            "username": "sdww0",
+            "email": "pykfirst@gmail.com"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "32ea24e945efde86117d2278a48145d71b9ec90c",
+          "message": "Bump version to 0.8.2",
+          "timestamp": "2024-09-13T05:02:35Z",
+          "url": "https://github.com/asterinas/asterinas/commit/32ea24e945efde86117d2278a48145d71b9ec90c"
+        },
+        "date": 1726262949679,
+        "tool": "customBiggerIsBetter",
+        "title": "[VFS] The bandwidth of file reads via page cache",
+        "description": "bw_file_rd",
+        "display": true,
+        "benches": [
+          {
+            "name": "Average file read bandwidth on Linux",
+            "value": "9392.75",
+            "unit": "MB/s",
+            "extra": "linux_result"
+          },
+          {
+            "name": "Average file read bandwidth on Asterinas",
+            "value": "10286.66",
+            "unit": "MB/s",
+            "extra": "aster_result"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Fabing Li",
+            "username": "grief8",
+            "email": "lifabing.lfb@antgroup.com"
+          },
+          "committer": {
+            "name": "Fabing Li",
+            "username": "grief8",
+            "email": "lifabing.lfb@antgroup.com"
+          },
+          "id": "adfb4a081356bea739a1720f284c3e66d6a96d19",
+          "message": "test",
+          "timestamp": "2024-09-14T03:47:04Z",
+          "url": "https://github.com/grief8/asterinas/commit/adfb4a081356bea739a1720f284c3e66d6a96d19"
+        },
+        "date": 1726285975548,
+        "tool": "customBiggerIsBetter",
+        "title": "[VFS] The bandwidth of file reads via page cache",
+        "description": "bw_file_rd",
+        "display": true,
+        "benches": [
+          {
+            "name": "Average file read bandwidth on Linux",
+            "value": "11793.66",
+            "unit": "MB/s",
+            "extra": "linux_result"
+          },
+          {
+            "name": "Average file read bandwidth on Asterinas",
+            "value": "12050.70",
+            "unit": "MB/s",
+            "extra": "aster_result"
+          }
+        ]
+      }
+    ],
+    "ramfs_create_delete_files_0k_ops": [
+      {
+        "commit": {
+          "author": {
+            "name": "Fabing Li",
+            "username": "grief8",
+            "email": "lifabing.lfb@antgroup.com"
+          },
+          "committer": {
+            "name": "Fabing Li",
+            "username": "grief8",
+            "email": "lifabing.lfb@antgroup.com"
+          },
+          "id": "52871246d45bbd86954f1d1dd5c65c98e1656064",
+          "message": "uP",
+          "timestamp": "2024-09-24T06:48:01Z",
+          "url": "https://github.com/grief8/asterinas/commit/52871246d45bbd86954f1d1dd5c65c98e1656064"
+        },
+        "date": 1727160785956,
+        "tool": "customBiggerIsBetter",
+        "title": "[Ramfs] The cost of creating/deleting small files (0KB)",
+        "description": "lat_fs -s 0k",
+        "display": true,
+        "benches": [
+          {
+            "name": "Number of created/deleted files on Linux",
+            "value": "2852",
+            "unit": "number",
+            "extra": "linux_result"
+          },
+          {
+            "name": "Number of created/deleted files on Asterinas",
+            "value": "1579",
+            "unit": "number",
+            "extra": "aster_result"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Fabing Li",
+            "username": "grief8",
+            "email": "lifabing.lfb@antgroup.com"
+          },
+          "committer": {
+            "name": "Fabing Li",
+            "username": "grief8",
+            "email": "lifabing.lfb@antgroup.com"
+          },
+          "id": "bb8d2fe583df04a06eaf4c931270c55dd06f48ae",
+          "message": "iuu",
+          "timestamp": "2024-09-24T06:58:54Z",
+          "url": "https://github.com/grief8/asterinas/commit/bb8d2fe583df04a06eaf4c931270c55dd06f48ae"
+        },
+        "date": 1727168646957,
+        "tool": "customBiggerIsBetter",
+        "title": "[Ramfs] The cost of creating/deleting small files (0KB)",
+        "description": "lat_fs -s 0k",
+        "display": true,
+        "benches": [
+          {
+            "name": "Number of created/deleted files on Linux",
+            "value": "2949",
+            "unit": "number",
+            "extra": "linux_result"
+          },
+          {
+            "name": "Number of created/deleted files on Asterinas",
+            "value": "1565",
+            "unit": "number",
+            "extra": "aster_result"
+          }
+        ]
+      }
+    ],
+    "ramfs_create_delete_files_10k_ops": [
+      {
+        "commit": {
+          "author": {
+            "name": "Chen Chengjun",
+            "username": "cchanging",
+            "email": "chenchengjun.ccj@antgroup.com"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "99a22ff124972872838fa5dc7094fa9a5eea557e",
+          "message": "Improve efficiency of global TLB flushing",
+          "timestamp": "2024-08-15T08:53:54Z",
+          "url": "https://github.com/asterinas/asterinas/commit/99a22ff124972872838fa5dc7094fa9a5eea557e"
+        },
+        "date": 1723752508604,
+        "tool": "customBiggerIsBetter",
+        "description": "The number of 10k-sized files created then deleted over a duration.",
+        "benches": [
+          {
+            "name": "Number of created/deleted files on Linux",
+            "value": "1087",
+            "unit": "number",
+            "extra": "linux_result"
+          },
+          {
+            "name": "Number of created/deleted files on Asterinas",
+            "value": "687",
+            "unit": "number",
+            "extra": "aster_result"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Jianfeng Jiang",
+            "username": "StevenJiang1110",
+            "email": "jiangjianfeng.jjf@antgroup.com"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "0291b5dc6bb142b9c6165c1cb29b7658eefdaa63",
+          "message": "Optimize the latency of lmbench-select-file",
+          "timestamp": "2024-08-15T03:44:30Z",
+          "url": "https://github.com/asterinas/asterinas/commit/0291b5dc6bb142b9c6165c1cb29b7658eefdaa63"
+        },
+        "date": 1723779036563,
+        "tool": "customBiggerIsBetter",
+        "description": "The number of 10k-sized files created then deleted over a duration.",
+        "benches": [
+          {
+            "name": "Number of created/deleted files on Linux",
+            "value": "1140",
+            "unit": "number",
+            "extra": "linux_result"
+          },
+          {
+            "name": "Number of created/deleted files on Asterinas",
+            "value": "658",
+            "unit": "number",
+            "extra": "aster_result"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Jianfeng Jiang",
+            "username": "StevenJiang1110",
+            "email": "jiangjianfeng.jjf@antgroup.com"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "0291b5dc6bb142b9c6165c1cb29b7658eefdaa63",
+          "message": "Optimize the latency of lmbench-select-file",
+          "timestamp": "2024-08-15T03:44:30Z",
+          "url": "https://github.com/asterinas/asterinas/commit/0291b5dc6bb142b9c6165c1cb29b7658eefdaa63"
+        },
+        "date": 1723782120279,
+        "tool": "customBiggerIsBetter",
+        "description": "The number of 10k-sized files created then deleted over a duration.",
+        "benches": [
+          {
+            "name": "Number of created/deleted files on Linux",
+            "value": "1101",
+            "unit": "number",
+            "extra": "linux_result"
+          },
+          {
+            "name": "Number of created/deleted files on Asterinas",
+            "value": "673",
+            "unit": "number",
+            "extra": "aster_result"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Jianfeng Jiang",
+            "username": "StevenJiang1110",
+            "email": "jiangjianfeng.jjf@antgroup.com"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "0291b5dc6bb142b9c6165c1cb29b7658eefdaa63",
+          "message": "Optimize the latency of lmbench-select-file",
+          "timestamp": "2024-08-15T03:44:30Z",
+          "url": "https://github.com/asterinas/asterinas/commit/0291b5dc6bb142b9c6165c1cb29b7658eefdaa63"
+        },
+        "date": 1723839045824,
+        "tool": "customBiggerIsBetter",
+        "description": "The number of 10k-sized files created then deleted over a duration.",
+        "benches": [
+          {
+            "name": "Number of created/deleted files on Linux",
+            "value": "1021",
+            "unit": "number",
+            "extra": "linux_result"
+          },
+          {
+            "name": "Number of created/deleted files on Asterinas",
+            "value": "668",
+            "unit": "number",
+            "extra": "aster_result"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Fabing Li",
+            "username": "grief8",
+            "email": "lifabing.lfb@antgroup.com"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "ce2af1eb057077753a7a757edc1833e677a83918",
+          "message": "Add flock and sys_flock",
+          "timestamp": "2024-08-12T03:51:41Z",
+          "url": "https://github.com/asterinas/asterinas/commit/ce2af1eb057077753a7a757edc1833e677a83918"
+        },
+        "date": 1723925468725,
+        "tool": "customBiggerIsBetter",
+        "description": "The number of 10k-sized files created then deleted over a duration.",
+        "benches": [
+          {
+            "name": "Number of created/deleted files on Linux",
+            "value": "983",
+            "unit": "number",
+            "extra": "linux_result"
+          },
+          {
+            "name": "Number of created/deleted files on Asterinas",
+            "value": "683",
+            "unit": "number",
+            "extra": "aster_result"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Yuke Peng",
+            "username": "sdww0",
+            "email": "pykfirst@gmail.com"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "bbe43d76cc25538f04261379407f4fa721a13431",
+          "message": "Fix compile error due to `lock_irq_disabled`",
+          "timestamp": "2024-08-19T01:02:51Z",
+          "url": "https://github.com/asterinas/asterinas/commit/bbe43d76cc25538f04261379407f4fa721a13431"
+        },
+        "date": 1724098359588,
+        "tool": "customBiggerIsBetter",
+        "description": "The number of 10k-sized files created then deleted over a duration.",
+        "benches": [
+          {
+            "name": "Number of created/deleted files on Linux",
+            "value": "1091",
+            "unit": "number",
+            "extra": "linux_result"
+          },
+          {
+            "name": "Number of created/deleted files on Asterinas",
+            "value": "688",
+            "unit": "number",
+            "extra": "aster_result"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Marsman1996",
+            "username": "Marsman1996",
+            "email": "lqliuyuwei@outlook.com"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "fda0fa051265867c2399f4981fdccb9cc6df110d",
+          "message": "Align `len` in `madvise`",
+          "timestamp": "2024-08-19T09:01:16Z",
+          "url": "https://github.com/asterinas/asterinas/commit/fda0fa051265867c2399f4981fdccb9cc6df110d"
+        },
+        "date": 1724184767088,
+        "tool": "customBiggerIsBetter",
+        "description": "The number of 10k-sized files created then deleted over a duration.",
+        "benches": [
+          {
+            "name": "Number of created/deleted files on Linux",
+            "value": "1072",
+            "unit": "number",
+            "extra": "linux_result"
+          },
+          {
+            "name": "Number of created/deleted files on Asterinas",
+            "value": "593",
+            "unit": "number",
+            "extra": "aster_result"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Shaowei Song",
+            "username": "lucassong-mh",
+            "email": "songshaowei.ssw@antgroup.com"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "2102107be18729fba8f3546d5a3fe39c819d814a",
+          "message": "Refactor `VmReader`&`VmWriter` as given fallibility marker",
+          "timestamp": "2024-08-20T02:05:25Z",
+          "url": "https://github.com/asterinas/asterinas/commit/2102107be18729fba8f3546d5a3fe39c819d814a"
+        },
+        "date": 1724271178054,
+        "tool": "customBiggerIsBetter",
+        "description": "The number of 10k-sized files created then deleted over a duration.",
+        "benches": [
+          {
+            "name": "Number of created/deleted files on Linux",
+            "value": "1058",
+            "unit": "number",
+            "extra": "linux_result"
+          },
+          {
+            "name": "Number of created/deleted files on Asterinas",
+            "value": "671",
+            "unit": "number",
+            "extra": "aster_result"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Yuke Peng",
+            "username": "sdww0",
+            "email": "pykfirst@gmail.com"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "bb4751741a6cd6b919015f8f483512c90e73bf55",
+          "message": "Bump smoltcp to newest git version",
+          "timestamp": "2024-08-22T06:34:41Z",
+          "url": "https://github.com/asterinas/asterinas/commit/bb4751741a6cd6b919015f8f483512c90e73bf55"
+        },
+        "date": 1724357703430,
+        "tool": "customBiggerIsBetter",
+        "description": "The number of 10k-sized files created then deleted over a duration.",
+        "benches": [
+          {
+            "name": "Number of created/deleted files on Linux",
+            "value": "1186",
+            "unit": "number",
+            "extra": "linux_result"
+          },
+          {
+            "name": "Number of created/deleted files on Asterinas",
+            "value": "648",
+            "unit": "number",
+            "extra": "aster_result"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Zhang Junyang",
+            "username": "junyang-zh",
+            "email": "junyang@stu.pku.edu.cn"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "e50b05d1ee71f52679e8ed8ea310cda6bfcd7e0c",
+          "message": "Bump version to 0.8.0",
+          "timestamp": "2024-08-23T14:57:42Z",
+          "url": "https://github.com/asterinas/asterinas/commit/e50b05d1ee71f52679e8ed8ea310cda6bfcd7e0c"
+        },
+        "date": 1724444503608,
+        "tool": "customBiggerIsBetter",
+        "description": "The number of 10k-sized files created then deleted over a duration.",
+        "benches": [
+          {
+            "name": "Number of created/deleted files on Linux",
+            "value": "949",
+            "unit": "number",
+            "extra": "linux_result"
+          },
+          {
+            "name": "Number of created/deleted files on Asterinas",
+            "value": "714",
+            "unit": "number",
+            "extra": "aster_result"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Zhang Junyang",
+            "username": "junyang-zh",
+            "email": "junyang@stu.pku.edu.cn"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "d22277a3e69040906cd198ea625614c5c69d66da",
+          "message": "Allow manually dispatching publishing workflows",
+          "timestamp": "2024-08-24T09:27:15Z",
+          "url": "https://github.com/asterinas/asterinas/commit/d22277a3e69040906cd198ea625614c5c69d66da"
+        },
+        "date": 1724530655178,
+        "tool": "customBiggerIsBetter",
+        "description": "The number of 10k-sized files created then deleted over a duration.",
+        "benches": [
+          {
+            "name": "Number of created/deleted files on Linux",
+            "value": "1107",
+            "unit": "number",
+            "extra": "linux_result"
+          },
+          {
+            "name": "Number of created/deleted files on Asterinas",
+            "value": "706",
+            "unit": "number",
+            "extra": "aster_result"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Zhang Junyang",
+            "username": "junyang-zh",
+            "email": "junyang@stu.pku.edu.cn"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "4231645c02ec317d99f0150bc8ed3210489855a0",
+          "message": "Fix `is_tdx_enabled` in OSDK tests",
+          "timestamp": "2024-08-25T12:16:30Z",
+          "url": "https://github.com/asterinas/asterinas/commit/4231645c02ec317d99f0150bc8ed3210489855a0"
+        },
+        "date": 1724617083487,
+        "tool": "customBiggerIsBetter",
+        "description": "The number of 10k-sized files created then deleted over a duration.",
+        "benches": [
+          {
+            "name": "Number of created/deleted files on Linux",
+            "value": "1568",
+            "unit": "number",
+            "extra": "linux_result"
+          },
+          {
+            "name": "Number of created/deleted files on Asterinas",
+            "value": "649",
+            "unit": "number",
+            "extra": "aster_result"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Chen Chengjun",
+            "username": "cchanging",
+            "email": "chenchengjun.ccj@antgroup.com"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "9e59db2f42c2ef9f8e91e0d1ee03562190726d56",
+          "message": "Make benchmark CI more fair",
+          "timestamp": "2024-08-26T09:41:40Z",
+          "url": "https://github.com/asterinas/asterinas/commit/9e59db2f42c2ef9f8e91e0d1ee03562190726d56"
+        },
+        "date": 1724703542579,
+        "tool": "customBiggerIsBetter",
+        "description": "The number of 10k-sized files created then deleted over a duration.",
+        "benches": [
+          {
+            "name": "Number of created/deleted files on Linux",
+            "value": "1503",
+            "unit": "number",
+            "extra": "linux_result"
+          },
+          {
+            "name": "Number of created/deleted files on Asterinas",
+            "value": "657",
+            "unit": "number",
+            "extra": "aster_result"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Chen Chengjun",
+            "username": "cchanging",
+            "email": "chenchengjun.ccj@antgroup.com"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "468dae33f0be940285844526b792d1f92a457894",
+          "message": "Add an optimization strategy for TLB flushing",
+          "timestamp": "2024-08-28T03:11:59Z",
+          "url": "https://github.com/asterinas/asterinas/commit/468dae33f0be940285844526b792d1f92a457894"
+        },
+        "date": 1724821901156,
+        "tool": "customBiggerIsBetter",
+        "description": "The number of 10k-sized files created then deleted over a duration.",
+        "benches": [
+          {
+            "name": "Number of created/deleted files on Linux",
+            "value": "1367",
+            "unit": "number",
+            "extra": "linux_result"
+          },
+          {
+            "name": "Number of created/deleted files on Asterinas",
+            "value": "688",
+            "unit": "number",
+            "extra": "aster_result"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Shaowei Song",
+            "username": "lucassong-mh",
+            "email": "songshaowei.ssw@antgroup.com"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "e6f465b553f613d60828e0e503dc94ce4109ded1",
+          "message": "Replace all the ring buffers with the new one",
+          "timestamp": "2024-08-28T06:23:24Z",
+          "url": "https://github.com/asterinas/asterinas/commit/e6f465b553f613d60828e0e503dc94ce4109ded1"
+        },
+        "date": 1724876157671,
+        "tool": "customBiggerIsBetter",
+        "description": "The number of 10k-sized files created then deleted over a duration.",
+        "benches": [
+          {
+            "name": "Number of created/deleted files on Linux",
+            "value": "1532",
+            "unit": "number",
+            "extra": "linux_result"
+          },
+          {
+            "name": "Number of created/deleted files on Asterinas",
+            "value": "700",
+            "unit": "number",
+            "extra": "aster_result"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Chen Chengjun",
+            "username": "cchanging",
+            "email": "chenchengjun.ccj@antgroup.com"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "00d9b01d5c356fbc5f6b72b9a69a7571fdf0ab1f",
+          "message": "Add a fast path to page table fork",
+          "timestamp": "2024-08-29T03:52:33Z",
+          "url": "https://github.com/asterinas/asterinas/commit/00d9b01d5c356fbc5f6b72b9a69a7571fdf0ab1f"
+        },
+        "date": 1724907942773,
+        "tool": "customBiggerIsBetter",
+        "description": "The number of 10k-sized files created then deleted over a duration.",
+        "benches": [
+          {
+            "name": "Number of created/deleted files on Linux",
+            "value": "1381",
+            "unit": "number",
+            "extra": "linux_result"
+          },
+          {
+            "name": "Number of created/deleted files on Asterinas",
+            "value": "639",
+            "unit": "number",
+            "extra": "aster_result"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Chen Chengjun",
+            "username": "cchanging",
+            "email": "chenchengjun.ccj@antgroup.com"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "00d9b01d5c356fbc5f6b72b9a69a7571fdf0ab1f",
+          "message": "Add a fast path to page table fork",
+          "timestamp": "2024-08-29T03:52:33Z",
+          "url": "https://github.com/asterinas/asterinas/commit/00d9b01d5c356fbc5f6b72b9a69a7571fdf0ab1f"
+        },
+        "date": 1724914411267,
+        "tool": "customBiggerIsBetter",
+        "description": "The number of 10k-sized files created then deleted over a duration.",
+        "benches": [
+          {
+            "name": "Number of created/deleted files on Linux",
+            "value": "1555",
+            "unit": "number",
+            "extra": "linux_result"
+          },
+          {
+            "name": "Number of created/deleted files on Asterinas",
+            "value": "719",
+            "unit": "number",
+            "extra": "aster_result"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Yuke Peng",
+            "username": "sdww0",
+            "email": "pykfirst@gmail.com"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "539984bbed414969b0c40cf181a10e9341ed2359",
+          "message": "Replace read with read_raw",
+          "timestamp": "2024-08-29T12:46:20Z",
+          "url": "https://github.com/asterinas/asterinas/commit/539984bbed414969b0c40cf181a10e9341ed2359"
+        },
+        "date": 1724962586660,
+        "tool": "customBiggerIsBetter",
+        "description": "The number of 10k-sized files created then deleted over a duration.",
+        "benches": [
+          {
+            "name": "Number of created/deleted files on Linux",
+            "value": "1555",
+            "unit": "number",
+            "extra": "linux_result"
+          },
+          {
+            "name": "Number of created/deleted files on Asterinas",
+            "value": "680",
+            "unit": "number",
+            "extra": "aster_result"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Yuke Peng",
+            "username": "sdww0",
+            "email": "pykfirst@gmail.com"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "db16caf28c46e4ed24099fcba13d40b7d673164c",
+          "message": "[Semaphore] Replace Mutex with SpinLock",
+          "timestamp": "2024-08-30T11:23:53Z",
+          "url": "https://github.com/asterinas/asterinas/commit/db16caf28c46e4ed24099fcba13d40b7d673164c"
+        },
+        "date": 1725049383432,
+        "tool": "customBiggerIsBetter",
+        "description": "The number of 10k-sized files created then deleted over a duration.",
+        "benches": [
+          {
+            "name": "Number of created/deleted files on Linux",
+            "value": "1592",
+            "unit": "number",
+            "extra": "linux_result"
+          },
+          {
+            "name": "Number of created/deleted files on Asterinas",
+            "value": "696",
+            "unit": "number",
+            "extra": "aster_result"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "YanWQ-monad",
+            "username": "YanWQ-monad",
+            "email": "YanWQmonad@gmail.com"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "e6e771e9b5ae7d223a50aa4b38994500b0db6867",
+          "message": "Better timestamp in logging",
+          "timestamp": "2024-08-30T17:51:32Z",
+          "url": "https://github.com/asterinas/asterinas/commit/e6e771e9b5ae7d223a50aa4b38994500b0db6867"
+        },
+        "date": 1725135364971,
+        "tool": "customBiggerIsBetter",
+        "description": "The number of 10k-sized files created then deleted over a duration.",
+        "benches": [
+          {
+            "name": "Number of created/deleted files on Linux",
+            "value": "1587",
+            "unit": "number",
+            "extra": "linux_result"
+          },
+          {
+            "name": "Number of created/deleted files on Asterinas",
+            "value": "637",
+            "unit": "number",
+            "extra": "aster_result"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Marsman1996",
+            "username": "Marsman1996",
+            "email": "lqliuyuwei@outlook.com"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "745ac6d982638d3548f09ea2aa2103e37c135153",
+          "message": "Set overflow boundary to `isize::MAX` for memory related syscalls",
+          "timestamp": "2024-08-29T14:26:36Z",
+          "url": "https://github.com/asterinas/asterinas/commit/745ac6d982638d3548f09ea2aa2103e37c135153"
+        },
+        "date": 1725221807130,
+        "tool": "customBiggerIsBetter",
+        "description": "The number of 10k-sized files created then deleted over a duration.",
+        "benches": [
+          {
+            "name": "Number of created/deleted files on Linux",
+            "value": "1591",
+            "unit": "number",
+            "extra": "linux_result"
+          },
+          {
+            "name": "Number of created/deleted files on Asterinas",
+            "value": "636",
+            "unit": "number",
+            "extra": "aster_result"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Shaowei Song",
+            "username": "lucassong-mh",
+            "email": "songshaowei.ssw@antgroup.com"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "963874471284ed014b76d268d933b6d13073c2cc",
+          "message": "Unseekable files need not to manipulate the `offset`",
+          "timestamp": "2024-09-02T09:48:15Z",
+          "url": "https://github.com/asterinas/asterinas/commit/963874471284ed014b76d268d933b6d13073c2cc"
+        },
+        "date": 1725311857294,
+        "tool": "customBiggerIsBetter",
+        "description": "The number of 10k-sized files created then deleted over a duration.",
+        "benches": [
+          {
+            "name": "Number of created/deleted files on Linux",
+            "value": "1466",
+            "unit": "number",
+            "extra": "linux_result"
+          },
+          {
+            "name": "Number of created/deleted files on Asterinas",
+            "value": "702",
+            "unit": "number",
+            "extra": "aster_result"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Shaowei Song",
+            "username": "lucassong-mh",
+            "email": "songshaowei.ssw@antgroup.com"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "963874471284ed014b76d268d933b6d13073c2cc",
+          "message": "Unseekable files need not to manipulate the `offset`",
+          "timestamp": "2024-09-02T09:48:15Z",
+          "url": "https://github.com/asterinas/asterinas/commit/963874471284ed014b76d268d933b6d13073c2cc"
+        },
+        "date": 1725398250124,
+        "tool": "customBiggerIsBetter",
+        "description": "The number of 10k-sized files created then deleted over a duration.",
+        "benches": [
+          {
+            "name": "Number of created/deleted files on Linux",
+            "value": "1457",
+            "unit": "number",
+            "extra": "linux_result"
+          },
+          {
+            "name": "Number of created/deleted files on Asterinas",
+            "value": "702",
+            "unit": "number",
+            "extra": "aster_result"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ruize Tang",
+            "username": "tangruize",
+            "email": "1466040111@qq.com"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "458a6a5b3b01aebe78c124fe20be91a91f0139da",
+          "message": "Fix unexpected unlock of mutexes, add a testcase",
+          "timestamp": "2024-09-03T07:33:12Z",
+          "url": "https://github.com/asterinas/asterinas/commit/458a6a5b3b01aebe78c124fe20be91a91f0139da"
+        },
+        "date": 1725484717386,
+        "tool": "customBiggerIsBetter",
+        "description": "The number of 10k-sized files created then deleted over a duration.",
+        "benches": [
+          {
+            "name": "Number of created/deleted files on Linux",
+            "value": "1285",
+            "unit": "number",
+            "extra": "linux_result"
+          },
+          {
+            "name": "Number of created/deleted files on Asterinas",
+            "value": "711",
+            "unit": "number",
+            "extra": "aster_result"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ruize Tang",
+            "username": "tangruize",
+            "email": "1466040111@qq.com"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "458a6a5b3b01aebe78c124fe20be91a91f0139da",
+          "message": "Fix unexpected unlock of mutexes, add a testcase",
+          "timestamp": "2024-09-03T07:33:12Z",
+          "url": "https://github.com/asterinas/asterinas/commit/458a6a5b3b01aebe78c124fe20be91a91f0139da"
+        },
+        "date": 1725571084383,
+        "tool": "customBiggerIsBetter",
+        "description": "The number of 10k-sized files created then deleted over a duration.",
+        "benches": [
+          {
+            "name": "Number of created/deleted files on Linux",
+            "value": "1480",
+            "unit": "number",
+            "extra": "linux_result"
+          },
+          {
+            "name": "Number of created/deleted files on Asterinas",
+            "value": "634",
+            "unit": "number",
+            "extra": "aster_result"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Thomas Dickson",
+            "username": "Hoverth",
+            "email": "modscrat+github@gmail.com"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "64e43d34aab13eeddea8dd7485c712acc99116ca",
+          "message": "doc: fix typo in README.md",
+          "timestamp": "2024-09-06T04:11:16Z",
+          "url": "https://github.com/asterinas/asterinas/commit/64e43d34aab13eeddea8dd7485c712acc99116ca"
+        },
+        "date": 1725657475853,
+        "tool": "customBiggerIsBetter",
+        "description": "The number of 10k-sized files created then deleted over a duration.",
+        "benches": [
+          {
+            "name": "Number of created/deleted files on Linux",
+            "value": "1346",
+            "unit": "number",
+            "extra": "linux_result"
+          },
+          {
+            "name": "Number of created/deleted files on Asterinas",
+            "value": "710",
+            "unit": "number",
+            "extra": "aster_result"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Zhang Junyang",
+            "username": "junyang-zh",
+            "email": "junyang@stu.pku.edu.cn"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "c68302f7007225fa47f22a1085a8c59dcdae2ad4",
+          "message": "Don't hold any locks while waiting in `EpollFile`",
+          "timestamp": "2024-09-06T12:05:01Z",
+          "url": "https://github.com/asterinas/asterinas/commit/c68302f7007225fa47f22a1085a8c59dcdae2ad4"
+        },
+        "date": 1725744076672,
+        "tool": "customBiggerIsBetter",
+        "description": "The number of 10k-sized files created then deleted over a duration.",
+        "benches": [
+          {
+            "name": "Number of created/deleted files on Linux",
+            "value": "1356",
+            "unit": "number",
+            "extra": "linux_result"
+          },
+          {
+            "name": "Number of created/deleted files on Asterinas",
+            "value": "676",
+            "unit": "number",
+            "extra": "aster_result"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Zhang Junyang",
+            "username": "junyang-zh",
+            "email": "junyang@stu.pku.edu.cn"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "c68302f7007225fa47f22a1085a8c59dcdae2ad4",
+          "message": "Don't hold any locks while waiting in `EpollFile`",
+          "timestamp": "2024-09-06T12:05:01Z",
+          "url": "https://github.com/asterinas/asterinas/commit/c68302f7007225fa47f22a1085a8c59dcdae2ad4"
+        },
+        "date": 1725830245584,
+        "tool": "customBiggerIsBetter",
+        "description": "The number of 10k-sized files created then deleted over a duration.",
+        "benches": [
+          {
+            "name": "Number of created/deleted files on Linux",
+            "value": "1445",
+            "unit": "number",
+            "extra": "linux_result"
+          },
+          {
+            "name": "Number of created/deleted files on Asterinas",
+            "value": "703",
+            "unit": "number",
+            "extra": "aster_result"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Zhang Junyang",
+            "username": "junyang-zh",
+            "email": "junyang@stu.pku.edu.cn"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "c68302f7007225fa47f22a1085a8c59dcdae2ad4",
+          "message": "Don't hold any locks while waiting in `EpollFile`",
+          "timestamp": "2024-09-06T12:05:01Z",
+          "url": "https://github.com/asterinas/asterinas/commit/c68302f7007225fa47f22a1085a8c59dcdae2ad4"
+        },
+        "date": 1725916640179,
+        "tool": "customBiggerIsBetter",
+        "description": "The number of 10k-sized files created then deleted over a duration.",
+        "benches": [
+          {
+            "name": "Number of created/deleted files on Linux",
+            "value": "1567",
+            "unit": "number",
+            "extra": "linux_result"
+          },
+          {
+            "name": "Number of created/deleted files on Asterinas",
+            "value": "669",
+            "unit": "number",
+            "extra": "aster_result"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Zhang Junyang",
+            "username": "junyang-zh",
+            "email": "junyang@stu.pku.edu.cn"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "c68302f7007225fa47f22a1085a8c59dcdae2ad4",
+          "message": "Don't hold any locks while waiting in `EpollFile`",
+          "timestamp": "2024-09-06T12:05:01Z",
+          "url": "https://github.com/asterinas/asterinas/commit/c68302f7007225fa47f22a1085a8c59dcdae2ad4"
+        },
+        "date": 1726003049881,
+        "tool": "customBiggerIsBetter",
+        "description": "The number of 10k-sized files created then deleted over a duration.",
+        "benches": [
+          {
+            "name": "Number of created/deleted files on Linux",
+            "value": "1370",
+            "unit": "number",
+            "extra": "linux_result"
+          },
+          {
+            "name": "Number of created/deleted files on Asterinas",
+            "value": "681",
+            "unit": "number",
+            "extra": "aster_result"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Shaowei Song",
+            "username": "lucassong-mh",
+            "email": "songshaowei.ssw@antgroup.com"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "8bfbdf6642a9d04db3490792926d6a299d1e30be",
+          "message": "Optimize the lock usage in `RamInode`'s read/write",
+          "timestamp": "2024-09-02T13:23:46Z",
+          "url": "https://github.com/asterinas/asterinas/commit/8bfbdf6642a9d04db3490792926d6a299d1e30be"
+        },
+        "date": 1726085824955,
+        "tool": "customBiggerIsBetter",
+        "description": "The number of 10k-sized files created then deleted over a duration.",
+        "benches": [
+          {
+            "name": "Number of created/deleted files on Linux",
+            "value": "1546",
+            "unit": "number",
+            "extra": "linux_result"
+          },
+          {
+            "name": "Number of created/deleted files on Asterinas",
+            "value": "709",
+            "unit": "number",
+            "extra": "aster_result"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Marsman1996",
+            "username": "Marsman1996",
+            "email": "lqliuyuwei@outlook.com"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "6fcad6ce143b8f65e8be76297eb95a9cb56da22e",
+          "message": "Fix integer overflow in handle_page_faults_around",
+          "timestamp": "2024-09-12T12:15:04Z",
+          "url": "https://github.com/asterinas/asterinas/commit/6fcad6ce143b8f65e8be76297eb95a9cb56da22e"
+        },
+        "date": 1726172239759,
+        "tool": "customBiggerIsBetter",
+        "description": "The number of 10k-sized files created then deleted over a duration.",
+        "benches": [
+          {
+            "name": "Number of created/deleted files on Linux",
+            "value": "1562",
+            "unit": "number",
+            "extra": "linux_result"
+          },
+          {
+            "name": "Number of created/deleted files on Asterinas",
+            "value": "722",
+            "unit": "number",
+            "extra": "aster_result"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Yuke Peng",
+            "username": "sdww0",
+            "email": "pykfirst@gmail.com"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "32ea24e945efde86117d2278a48145d71b9ec90c",
+          "message": "Bump version to 0.8.2",
+          "timestamp": "2024-09-13T05:02:35Z",
+          "url": "https://github.com/asterinas/asterinas/commit/32ea24e945efde86117d2278a48145d71b9ec90c"
+        },
+        "date": 1726260461492,
+        "tool": "customBiggerIsBetter",
+        "title": "[Ramfs] The cost of creating/deleting small files (10KB)",
+        "description": "lat_fs -s 10K",
+        "display": true,
+        "benches": [
+          {
+            "name": "Number of created/deleted files on Linux",
+            "value": "1626",
+            "unit": "number",
+            "extra": "linux_result"
+          },
+          {
+            "name": "Number of created/deleted files on Asterinas",
+            "value": "616",
+            "unit": "number",
+            "extra": "aster_result"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Fabing Li",
+            "username": "grief8",
+            "email": "lifabing.lfb@antgroup.com"
+          },
+          "committer": {
+            "name": "Fabing Li",
+            "username": "grief8",
+            "email": "lifabing.lfb@antgroup.com"
+          },
+          "id": "adfb4a081356bea739a1720f284c3e66d6a96d19",
+          "message": "test",
+          "timestamp": "2024-09-14T03:47:04Z",
+          "url": "https://github.com/grief8/asterinas/commit/adfb4a081356bea739a1720f284c3e66d6a96d19"
+        },
+        "date": 1726640795482,
+        "tool": "customBiggerIsBetter",
+        "title": "[Ramfs] The cost of creating/deleting small files (10KB)",
+        "description": "lat_fs -s 10K",
+        "display": true,
+        "benches": [
+          {
+            "name": "Number of created/deleted files on Linux",
+            "value": "3.127574]",
+            "unit": "number",
+            "extra": "linux_result"
+          },
+          {
+            "name": "Number of created/deleted files on Asterinas",
+            "value": "672",
+            "unit": "number",
+            "extra": "aster_result"
+          }
+        ]
+      }
+    ],
+    "ext2_create_delete_files_0k_ops": [
+      {
+        "commit": {
+          "author": {
+            "name": "Fabing Li",
+            "username": "grief8",
+            "email": "lifabing.lfb@antgroup.com"
+          },
+          "committer": {
+            "name": "Fabing Li",
+            "username": "grief8",
+            "email": "lifabing.lfb@antgroup.com"
+          },
+          "id": "bb8d2fe583df04a06eaf4c931270c55dd06f48ae",
+          "message": "iuu",
+          "timestamp": "2024-09-24T06:58:54Z",
+          "url": "https://github.com/grief8/asterinas/commit/bb8d2fe583df04a06eaf4c931270c55dd06f48ae"
+        },
+        "date": 1727168653453,
+        "tool": "customBiggerIsBetter",
+        "title": "[Ext2] The cost of creating/deleting small files (0KB)",
+        "description": "lat_fs -s 0k /ext2",
+        "display": true,
+        "benches": [
+          {
+            "name": "Number of created/deleted files on Linux",
+            "value": "1345",
+            "unit": "number",
+            "extra": "linux_result"
+          },
+          {
+            "name": "Number of created/deleted files on Asterinas",
+            "value": "171",
+            "unit": "number",
+            "extra": "aster_result"
+          }
+        ]
+      }
+    ],
+    "ext2_create_delete_files_10k_ops": [
+      {
+        "commit": {
+          "author": {
+            "name": "Fabing Li",
+            "username": "grief8",
+            "email": "lifabing.lfb@antgroup.com"
+          },
+          "committer": {
+            "name": "Fabing Li",
+            "username": "grief8",
+            "email": "lifabing.lfb@antgroup.com"
+          },
+          "id": "52871246d45bbd86954f1d1dd5c65c98e1656064",
+          "message": "uP",
+          "timestamp": "2024-09-24T06:48:01Z",
+          "url": "https://github.com/grief8/asterinas/commit/52871246d45bbd86954f1d1dd5c65c98e1656064"
+        },
+        "date": 1727160813149,
+        "tool": "customBiggerIsBetter",
+        "title": "[Ext2] The cost of creating/deleting small files (10KB)",
+        "description": "lat_fs -s 10K /ext2",
+        "display": true,
+        "benches": [
+          {
+            "name": "Number of created/deleted files on Linux",
+            "value": "506",
+            "unit": "number",
+            "extra": "linux_result"
+          },
+          {
+            "name": "Number of created/deleted files on Asterinas",
+            "value": "1357",
+            "unit": "number",
+            "extra": "aster_result"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Fabing Li",
+            "username": "grief8",
+            "email": "lifabing.lfb@antgroup.com"
+          },
+          "committer": {
+            "name": "Fabing Li",
+            "username": "grief8",
+            "email": "lifabing.lfb@antgroup.com"
+          },
+          "id": "bb8d2fe583df04a06eaf4c931270c55dd06f48ae",
+          "message": "iuu",
+          "timestamp": "2024-09-24T06:58:54Z",
+          "url": "https://github.com/grief8/asterinas/commit/bb8d2fe583df04a06eaf4c931270c55dd06f48ae"
+        },
+        "date": 1727168640396,
+        "tool": "customBiggerIsBetter",
+        "title": "[Ext2] The cost of creating/deleting small files (10KB)",
+        "description": "lat_fs -s 10K /ext2",
+        "display": true,
+        "benches": [
+          {
+            "name": "Number of created/deleted files on Linux",
+            "value": "498",
+            "unit": "number",
+            "extra": "linux_result"
+          },
+          {
+            "name": "Number of created/deleted files on Asterinas",
+            "value": "154",
+            "unit": "number",
+            "extra": "aster_result"
+          }
+        ]
+      }
+    ],
+    "ext2_copy_files_bw": [
+      {
+        "commit": {
+          "author": {
+            "name": "Fabing Li",
+            "username": "grief8",
+            "email": "lifabing.lfb@antgroup.com"
+          },
+          "committer": {
+            "name": "Fabing Li",
+            "username": "grief8",
+            "email": "lifabing.lfb@antgroup.com"
+          },
+          "id": "52871246d45bbd86954f1d1dd5c65c98e1656064",
+          "message": "uP",
+          "timestamp": "2024-09-24T06:48:01Z",
+          "url": "https://github.com/grief8/asterinas/commit/52871246d45bbd86954f1d1dd5c65c98e1656064"
+        },
+        "date": 1727160780083,
+        "tool": "customBiggerIsBetter",
+        "title": "[EXT2] The bandwidth of copying data between files",
+        "description": "lmdd",
+        "display": true,
+        "benches": [
+          {
+            "name": "Average file copy bandwidth on Linux",
+            "value": "1834.1853",
+            "unit": "MB/s",
+            "extra": "linux_result"
+          },
+          {
+            "name": "Average file copy bandwidth on Asterinas",
+            "value": "3154.4187",
+            "unit": "MB/s",
+            "extra": "aster_result"
+          }
+        ]
+      }
+    ],
+    "tcp_loopback_bw": [
+      {
+        "commit": {
+          "author": {
+            "name": "Yuke Peng",
+            "username": "sdww0",
+            "email": "pykfirst@gmail.com"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "539984bbed414969b0c40cf181a10e9341ed2359",
+          "message": "Replace read with read_raw",
+          "timestamp": "2024-08-29T12:46:20Z",
+          "url": "https://github.com/asterinas/asterinas/commit/539984bbed414969b0c40cf181a10e9341ed2359"
+        },
+        "date": 1724965943222,
+        "tool": "customBiggerIsBetter",
+        "description": "The bandwidth of TCP with 4096 message size in localhost.",
+        "benches": [
+          {
+            "name": "Average TCP bandwidth on Linux",
+            "value": "4374.38",
+            "unit": "MB/s",
+            "extra": "linux_result"
+          },
+          {
+            "name": "Average TCP bandwidth on Asterinas",
+            "value": "341.95",
+            "unit": "MB/s",
+            "extra": "aster_result"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Yuke Peng",
+            "username": "sdww0",
+            "email": "pykfirst@gmail.com"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "db16caf28c46e4ed24099fcba13d40b7d673164c",
+          "message": "[Semaphore] Replace Mutex with SpinLock",
+          "timestamp": "2024-08-30T11:23:53Z",
+          "url": "https://github.com/asterinas/asterinas/commit/db16caf28c46e4ed24099fcba13d40b7d673164c"
+        },
+        "date": 1725052337889,
+        "tool": "customBiggerIsBetter",
+        "description": "The bandwidth of TCP with 4096 message size in localhost.",
+        "benches": [
+          {
+            "name": "Average TCP bandwidth on Linux",
+            "value": "4404.74",
+            "unit": "MB/s",
+            "extra": "linux_result"
+          },
+          {
+            "name": "Average TCP bandwidth on Asterinas",
+            "value": "338.20",
+            "unit": "MB/s",
+            "extra": "aster_result"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "YanWQ-monad",
+            "username": "YanWQ-monad",
+            "email": "YanWQmonad@gmail.com"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "e6e771e9b5ae7d223a50aa4b38994500b0db6867",
+          "message": "Better timestamp in logging",
+          "timestamp": "2024-08-30T17:51:32Z",
+          "url": "https://github.com/asterinas/asterinas/commit/e6e771e9b5ae7d223a50aa4b38994500b0db6867"
+        },
+        "date": 1725138620296,
+        "tool": "customBiggerIsBetter",
+        "description": "The bandwidth of TCP with 4096 message size in localhost.",
+        "benches": [
+          {
+            "name": "Average TCP bandwidth on Linux",
+            "value": "4396.13",
+            "unit": "MB/s",
+            "extra": "linux_result"
+          },
+          {
+            "name": "Average TCP bandwidth on Asterinas",
+            "value": "344.94",
+            "unit": "MB/s",
+            "extra": "aster_result"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Marsman1996",
+            "username": "Marsman1996",
+            "email": "lqliuyuwei@outlook.com"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "745ac6d982638d3548f09ea2aa2103e37c135153",
+          "message": "Set overflow boundary to `isize::MAX` for memory related syscalls",
+          "timestamp": "2024-08-29T14:26:36Z",
+          "url": "https://github.com/asterinas/asterinas/commit/745ac6d982638d3548f09ea2aa2103e37c135153"
+        },
+        "date": 1725224992861,
+        "tool": "customBiggerIsBetter",
+        "description": "The bandwidth of TCP with 4096 message size in localhost.",
+        "benches": [
+          {
+            "name": "Average TCP bandwidth on Linux",
+            "value": "4382.58",
+            "unit": "MB/s",
+            "extra": "linux_result"
+          },
+          {
+            "name": "Average TCP bandwidth on Asterinas",
+            "value": "346.45",
+            "unit": "MB/s",
+            "extra": "aster_result"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Shaowei Song",
+            "username": "lucassong-mh",
+            "email": "songshaowei.ssw@antgroup.com"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "963874471284ed014b76d268d933b6d13073c2cc",
+          "message": "Unseekable files need not to manipulate the `offset`",
+          "timestamp": "2024-09-02T09:48:15Z",
+          "url": "https://github.com/asterinas/asterinas/commit/963874471284ed014b76d268d933b6d13073c2cc"
+        },
+        "date": 1725316231396,
+        "tool": "customBiggerIsBetter",
+        "description": "The bandwidth of TCP with 4096 message size in localhost.",
+        "benches": [
+          {
+            "name": "Average TCP bandwidth on Linux",
+            "value": "4374.06",
+            "unit": "MB/s",
+            "extra": "linux_result"
+          },
+          {
+            "name": "Average TCP bandwidth on Asterinas",
+            "value": "383.56",
+            "unit": "MB/s",
+            "extra": "aster_result"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Shaowei Song",
+            "username": "lucassong-mh",
+            "email": "songshaowei.ssw@antgroup.com"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "963874471284ed014b76d268d933b6d13073c2cc",
+          "message": "Unseekable files need not to manipulate the `offset`",
+          "timestamp": "2024-09-02T09:48:15Z",
+          "url": "https://github.com/asterinas/asterinas/commit/963874471284ed014b76d268d933b6d13073c2cc"
+        },
+        "date": 1725402636874,
+        "tool": "customBiggerIsBetter",
+        "description": "The bandwidth of TCP with 4096 message size in localhost.",
+        "benches": [
+          {
+            "name": "Average TCP bandwidth on Linux",
+            "value": "4411.26",
+            "unit": "MB/s",
+            "extra": "linux_result"
+          },
+          {
+            "name": "Average TCP bandwidth on Asterinas",
+            "value": "387.95",
+            "unit": "MB/s",
+            "extra": "aster_result"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ruize Tang",
+            "username": "tangruize",
+            "email": "1466040111@qq.com"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "458a6a5b3b01aebe78c124fe20be91a91f0139da",
+          "message": "Fix unexpected unlock of mutexes, add a testcase",
+          "timestamp": "2024-09-03T07:33:12Z",
+          "url": "https://github.com/asterinas/asterinas/commit/458a6a5b3b01aebe78c124fe20be91a91f0139da"
+        },
+        "date": 1725488940253,
+        "tool": "customBiggerIsBetter",
+        "description": "The bandwidth of TCP with 4096 message size in localhost.",
+        "benches": [
+          {
+            "name": "Average TCP bandwidth on Linux",
+            "value": "4394.62",
+            "unit": "MB/s",
+            "extra": "linux_result"
+          },
+          {
+            "name": "Average TCP bandwidth on Asterinas",
+            "value": "402.89",
+            "unit": "MB/s",
+            "extra": "aster_result"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ruize Tang",
+            "username": "tangruize",
+            "email": "1466040111@qq.com"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "458a6a5b3b01aebe78c124fe20be91a91f0139da",
+          "message": "Fix unexpected unlock of mutexes, add a testcase",
+          "timestamp": "2024-09-03T07:33:12Z",
+          "url": "https://github.com/asterinas/asterinas/commit/458a6a5b3b01aebe78c124fe20be91a91f0139da"
+        },
+        "date": 1725575446560,
+        "tool": "customBiggerIsBetter",
+        "description": "The bandwidth of TCP with 4096 message size in localhost.",
+        "benches": [
+          {
+            "name": "Average TCP bandwidth on Linux",
+            "value": "4411.01",
+            "unit": "MB/s",
+            "extra": "linux_result"
+          },
+          {
+            "name": "Average TCP bandwidth on Asterinas",
+            "value": "416.21",
+            "unit": "MB/s",
+            "extra": "aster_result"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Thomas Dickson",
+            "username": "Hoverth",
+            "email": "modscrat+github@gmail.com"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "64e43d34aab13eeddea8dd7485c712acc99116ca",
+          "message": "doc: fix typo in README.md",
+          "timestamp": "2024-09-06T04:11:16Z",
+          "url": "https://github.com/asterinas/asterinas/commit/64e43d34aab13eeddea8dd7485c712acc99116ca"
+        },
+        "date": 1725661722746,
+        "tool": "customBiggerIsBetter",
+        "description": "The bandwidth of TCP with 4096 message size in localhost.",
+        "benches": [
+          {
+            "name": "Average TCP bandwidth on Linux",
+            "value": "4409.43",
+            "unit": "MB/s",
+            "extra": "linux_result"
+          },
+          {
+            "name": "Average TCP bandwidth on Asterinas",
+            "value": "404.34",
+            "unit": "MB/s",
+            "extra": "aster_result"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Zhang Junyang",
+            "username": "junyang-zh",
+            "email": "junyang@stu.pku.edu.cn"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "c68302f7007225fa47f22a1085a8c59dcdae2ad4",
+          "message": "Don't hold any locks while waiting in `EpollFile`",
+          "timestamp": "2024-09-06T12:05:01Z",
+          "url": "https://github.com/asterinas/asterinas/commit/c68302f7007225fa47f22a1085a8c59dcdae2ad4"
+        },
+        "date": 1725748227679,
+        "tool": "customBiggerIsBetter",
+        "description": "The bandwidth of TCP with 4096 message size in localhost.",
+        "benches": [
+          {
+            "name": "Average TCP bandwidth on Linux",
+            "value": "4419.85",
+            "unit": "MB/s",
+            "extra": "linux_result"
+          },
+          {
+            "name": "Average TCP bandwidth on Asterinas",
+            "value": "395.86",
+            "unit": "MB/s",
+            "extra": "aster_result"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Zhang Junyang",
+            "username": "junyang-zh",
+            "email": "junyang@stu.pku.edu.cn"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "c68302f7007225fa47f22a1085a8c59dcdae2ad4",
+          "message": "Don't hold any locks while waiting in `EpollFile`",
+          "timestamp": "2024-09-06T12:05:01Z",
+          "url": "https://github.com/asterinas/asterinas/commit/c68302f7007225fa47f22a1085a8c59dcdae2ad4"
+        },
+        "date": 1725834697103,
+        "tool": "customBiggerIsBetter",
+        "description": "The bandwidth of TCP with 4096 message size in localhost.",
+        "benches": [
+          {
+            "name": "Average TCP bandwidth on Linux",
+            "value": "4406.82",
+            "unit": "MB/s",
+            "extra": "linux_result"
+          },
+          {
+            "name": "Average TCP bandwidth on Asterinas",
+            "value": "398.86",
+            "unit": "MB/s",
+            "extra": "aster_result"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Zhang Junyang",
+            "username": "junyang-zh",
+            "email": "junyang@stu.pku.edu.cn"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "c68302f7007225fa47f22a1085a8c59dcdae2ad4",
+          "message": "Don't hold any locks while waiting in `EpollFile`",
+          "timestamp": "2024-09-06T12:05:01Z",
+          "url": "https://github.com/asterinas/asterinas/commit/c68302f7007225fa47f22a1085a8c59dcdae2ad4"
+        },
+        "date": 1725920786826,
+        "tool": "customBiggerIsBetter",
+        "description": "The bandwidth of TCP with 4096 message size in localhost.",
+        "benches": [
+          {
+            "name": "Average TCP bandwidth on Linux",
+            "value": "4383.03",
+            "unit": "MB/s",
+            "extra": "linux_result"
+          },
+          {
+            "name": "Average TCP bandwidth on Asterinas",
+            "value": "399.20",
+            "unit": "MB/s",
+            "extra": "aster_result"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Zhang Junyang",
+            "username": "junyang-zh",
+            "email": "junyang@stu.pku.edu.cn"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "c68302f7007225fa47f22a1085a8c59dcdae2ad4",
+          "message": "Don't hold any locks while waiting in `EpollFile`",
+          "timestamp": "2024-09-06T12:05:01Z",
+          "url": "https://github.com/asterinas/asterinas/commit/c68302f7007225fa47f22a1085a8c59dcdae2ad4"
+        },
+        "date": 1726007213304,
+        "tool": "customBiggerIsBetter",
+        "description": "The bandwidth of TCP with 4096 message size in localhost.",
+        "benches": [
+          {
+            "name": "Average TCP bandwidth on Linux",
+            "value": "4416.14",
+            "unit": "MB/s",
+            "extra": "linux_result"
+          },
+          {
+            "name": "Average TCP bandwidth on Asterinas",
+            "value": "394.37",
+            "unit": "MB/s",
+            "extra": "aster_result"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Shaowei Song",
+            "username": "lucassong-mh",
+            "email": "songshaowei.ssw@antgroup.com"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "8bfbdf6642a9d04db3490792926d6a299d1e30be",
+          "message": "Optimize the lock usage in `RamInode`'s read/write",
+          "timestamp": "2024-09-02T13:23:46Z",
+          "url": "https://github.com/asterinas/asterinas/commit/8bfbdf6642a9d04db3490792926d6a299d1e30be"
+        },
+        "date": 1726089300682,
+        "tool": "customBiggerIsBetter",
+        "description": "The bandwidth of TCP with 4096 message size in localhost.",
+        "benches": [
+          {
+            "name": "Average TCP bandwidth on Linux",
+            "value": "4416.29",
+            "unit": "MB/s",
+            "extra": "linux_result"
+          },
+          {
+            "name": "Average TCP bandwidth on Asterinas",
+            "value": "413.16",
+            "unit": "MB/s",
+            "extra": "aster_result"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Marsman1996",
+            "username": "Marsman1996",
+            "email": "lqliuyuwei@outlook.com"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "6fcad6ce143b8f65e8be76297eb95a9cb56da22e",
+          "message": "Fix integer overflow in handle_page_faults_around",
+          "timestamp": "2024-09-12T12:15:04Z",
+          "url": "https://github.com/asterinas/asterinas/commit/6fcad6ce143b8f65e8be76297eb95a9cb56da22e"
+        },
+        "date": 1726175760637,
+        "tool": "customBiggerIsBetter",
+        "description": "The bandwidth of TCP with 4096 message size in localhost.",
+        "benches": [
+          {
+            "name": "Average TCP bandwidth on Linux",
+            "value": "4389.03",
+            "unit": "MB/s",
+            "extra": "linux_result"
+          },
+          {
+            "name": "Average TCP bandwidth on Asterinas",
+            "value": "401.57",
+            "unit": "MB/s",
+            "extra": "aster_result"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Yuke Peng",
+            "username": "sdww0",
+            "email": "pykfirst@gmail.com"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "32ea24e945efde86117d2278a48145d71b9ec90c",
+          "message": "Bump version to 0.8.2",
+          "timestamp": "2024-09-13T05:02:35Z",
+          "url": "https://github.com/asterinas/asterinas/commit/32ea24e945efde86117d2278a48145d71b9ec90c"
+        },
+        "date": 1726261030303,
+        "tool": "customBiggerIsBetter",
+        "title": "[TCP sockets] The bandwidth (localhost)",
+        "description": "bw_tcp -l",
+        "display": true,
+        "benches": [
+          {
+            "name": "Average TCP bandwidth on Linux",
+            "value": "4407.75",
+            "unit": "MB/s",
+            "extra": "linux_result"
+          },
+          {
+            "name": "Average TCP bandwidth on Asterinas",
+            "value": "418.37",
+            "unit": "MB/s",
+            "extra": "aster_result"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Fabing Li",
+            "username": "grief8",
+            "email": "lifabing.lfb@antgroup.com"
+          },
+          "committer": {
+            "name": "Fabing Li",
+            "username": "grief8",
+            "email": "lifabing.lfb@antgroup.com"
+          },
+          "id": "bb8d2fe583df04a06eaf4c931270c55dd06f48ae",
+          "message": "iuu",
+          "timestamp": "2024-09-24T06:58:54Z",
+          "url": "https://github.com/grief8/asterinas/commit/bb8d2fe583df04a06eaf4c931270c55dd06f48ae"
+        },
+        "date": 1727168674796,
+        "tool": "customBiggerIsBetter",
+        "title": "[TCP sockets] The bandwidth (localhost)",
+        "description": "bw_tcp -l",
+        "display": true,
+        "benches": [
+          {
+            "name": "Average TCP bandwidth on Linux",
+            "value": "4001.61",
+            "unit": "MB/s",
+            "extra": "linux_result"
+          },
+          {
+            "name": "Average TCP bandwidth on Asterinas",
+            "value": "470.78",
+            "unit": "MB/s",
+            "extra": "aster_result"
+          }
+        ]
+      }
+    ],
+    "tcp_loopback_lat": [
+      {
+        "commit": {
+          "author": {
+            "name": "Fabing Li",
+            "username": "grief8",
+            "email": "lifabing.lfb@antgroup.com"
+          },
+          "committer": {
+            "name": "Fabing Li",
+            "username": "grief8",
+            "email": "lifabing.lfb@antgroup.com"
+          },
+          "id": "52871246d45bbd86954f1d1dd5c65c98e1656064",
+          "message": "uP",
+          "timestamp": "2024-09-24T06:48:01Z",
+          "url": "https://github.com/grief8/asterinas/commit/52871246d45bbd86954f1d1dd5c65c98e1656064"
+        },
+        "date": 1727160884530,
+        "tool": "customSmallerIsBetter",
+        "title": "[TCP sockets] The latency of write+read",
+        "description": "lat_tcp",
+        "display": true,
+        "benches": [
+          {
+            "name": "Average TCP latency on Linux",
+            "value": "6.3043",
+            "unit": "µs",
+            "extra": "linux_result"
+          },
+          {
+            "name": "Average TCP latency on Asterinas",
+            "value": "12.8265",
+            "unit": "µs",
+            "extra": "aster_result"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Fabing Li",
+            "username": "grief8",
+            "email": "lifabing.lfb@antgroup.com"
+          },
+          "committer": {
+            "name": "Fabing Li",
+            "username": "grief8",
+            "email": "lifabing.lfb@antgroup.com"
+          },
+          "id": "bb8d2fe583df04a06eaf4c931270c55dd06f48ae",
+          "message": "iuu",
+          "timestamp": "2024-09-24T06:58:54Z",
+          "url": "https://github.com/grief8/asterinas/commit/bb8d2fe583df04a06eaf4c931270c55dd06f48ae"
+        },
+        "date": 1727168712730,
+        "tool": "customSmallerIsBetter",
+        "title": "[TCP sockets] The latency of write+read",
+        "description": "lat_tcp",
+        "display": true,
+        "benches": [
+          {
+            "name": "Average TCP latency on Linux",
+            "value": "6.3539",
+            "unit": "µs",
+            "extra": "linux_result"
+          },
+          {
+            "name": "Average TCP latency on Asterinas",
+            "value": "12.8034",
+            "unit": "µs",
+            "extra": "aster_result"
+          }
+        ]
+      }
+    ],
+    "tcp_loopback_connect_lat": [
+      {
+        "commit": {
+          "author": {
+            "name": "Yuke Peng",
+            "username": "sdww0",
+            "email": "pykfirst@gmail.com"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "539984bbed414969b0c40cf181a10e9341ed2359",
+          "message": "Replace read with read_raw",
+          "timestamp": "2024-08-29T12:46:20Z",
+          "url": "https://github.com/asterinas/asterinas/commit/539984bbed414969b0c40cf181a10e9341ed2359"
+        },
+        "date": 1724965803997,
+        "tool": "customSmallerIsBetter",
+        "description": "The latency of TCP connection on localhost.",
+        "benches": [
+          {
+            "name": "Average TCP connection latency on Linux",
+            "value": "15.4448",
+            "unit": "µs",
+            "extra": "linux_result"
+          },
+          {
+            "name": "Average TCP connection latency on Asterinas",
+            "value": "25.0922",
+            "unit": "µs",
+            "extra": "aster_result"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Yuke Peng",
+            "username": "sdww0",
+            "email": "pykfirst@gmail.com"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "db16caf28c46e4ed24099fcba13d40b7d673164c",
+          "message": "[Semaphore] Replace Mutex with SpinLock",
+          "timestamp": "2024-08-30T11:23:53Z",
+          "url": "https://github.com/asterinas/asterinas/commit/db16caf28c46e4ed24099fcba13d40b7d673164c"
+        },
+        "date": 1725052462645,
+        "tool": "customSmallerIsBetter",
+        "description": "The latency of TCP connection on localhost.",
+        "benches": [
+          {
+            "name": "Average TCP connection latency on Linux",
+            "value": "15.4379",
+            "unit": "µs",
+            "extra": "linux_result"
+          },
+          {
+            "name": "Average TCP connection latency on Asterinas",
+            "value": "24.2632",
+            "unit": "µs",
+            "extra": "aster_result"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "YanWQ-monad",
+            "username": "YanWQ-monad",
+            "email": "YanWQmonad@gmail.com"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "e6e771e9b5ae7d223a50aa4b38994500b0db6867",
+          "message": "Better timestamp in logging",
+          "timestamp": "2024-08-30T17:51:32Z",
+          "url": "https://github.com/asterinas/asterinas/commit/e6e771e9b5ae7d223a50aa4b38994500b0db6867"
+        },
+        "date": 1725138738405,
+        "tool": "customSmallerIsBetter",
+        "description": "The latency of TCP connection on localhost.",
+        "benches": [
+          {
+            "name": "Average TCP connection latency on Linux",
+            "value": "15.3343",
+            "unit": "µs",
+            "extra": "linux_result"
+          },
+          {
+            "name": "Average TCP connection latency on Asterinas",
+            "value": "24.0000",
+            "unit": "µs",
+            "extra": "aster_result"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Marsman1996",
+            "username": "Marsman1996",
+            "email": "lqliuyuwei@outlook.com"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "745ac6d982638d3548f09ea2aa2103e37c135153",
+          "message": "Set overflow boundary to `isize::MAX` for memory related syscalls",
+          "timestamp": "2024-08-29T14:26:36Z",
+          "url": "https://github.com/asterinas/asterinas/commit/745ac6d982638d3548f09ea2aa2103e37c135153"
+        },
+        "date": 1725225130371,
+        "tool": "customSmallerIsBetter",
+        "description": "The latency of TCP connection on localhost.",
+        "benches": [
+          {
+            "name": "Average TCP connection latency on Linux",
+            "value": "15.3887",
+            "unit": "µs",
+            "extra": "linux_result"
+          },
+          {
+            "name": "Average TCP connection latency on Asterinas",
+            "value": "23.9345",
+            "unit": "µs",
+            "extra": "aster_result"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Shaowei Song",
+            "username": "lucassong-mh",
+            "email": "songshaowei.ssw@antgroup.com"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "963874471284ed014b76d268d933b6d13073c2cc",
+          "message": "Unseekable files need not to manipulate the `offset`",
+          "timestamp": "2024-09-02T09:48:15Z",
+          "url": "https://github.com/asterinas/asterinas/commit/963874471284ed014b76d268d933b6d13073c2cc"
+        },
+        "date": 1725316649481,
+        "tool": "customSmallerIsBetter",
+        "description": "The latency of TCP connection on localhost.",
+        "benches": [
+          {
+            "name": "Average TCP connection latency on Linux",
+            "value": "15.6382",
+            "unit": "µs",
+            "extra": "linux_result"
+          },
+          {
+            "name": "Average TCP connection latency on Asterinas",
+            "value": "22.0843",
+            "unit": "µs",
+            "extra": "aster_result"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Shaowei Song",
+            "username": "lucassong-mh",
+            "email": "songshaowei.ssw@antgroup.com"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "963874471284ed014b76d268d933b6d13073c2cc",
+          "message": "Unseekable files need not to manipulate the `offset`",
+          "timestamp": "2024-09-02T09:48:15Z",
+          "url": "https://github.com/asterinas/asterinas/commit/963874471284ed014b76d268d933b6d13073c2cc"
+        },
+        "date": 1725402826437,
+        "tool": "customSmallerIsBetter",
+        "description": "The latency of TCP connection on localhost.",
+        "benches": [
+          {
+            "name": "Average TCP connection latency on Linux",
+            "value": "15.0904",
+            "unit": "µs",
+            "extra": "linux_result"
+          },
+          {
+            "name": "Average TCP connection latency on Asterinas",
+            "value": "22.1406",
+            "unit": "µs",
+            "extra": "aster_result"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ruize Tang",
+            "username": "tangruize",
+            "email": "1466040111@qq.com"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "458a6a5b3b01aebe78c124fe20be91a91f0139da",
+          "message": "Fix unexpected unlock of mutexes, add a testcase",
+          "timestamp": "2024-09-03T07:33:12Z",
+          "url": "https://github.com/asterinas/asterinas/commit/458a6a5b3b01aebe78c124fe20be91a91f0139da"
+        },
+        "date": 1725489120895,
+        "tool": "customSmallerIsBetter",
+        "description": "The latency of TCP connection on localhost.",
+        "benches": [
+          {
+            "name": "Average TCP connection latency on Linux",
+            "value": "15.5581",
+            "unit": "µs",
+            "extra": "linux_result"
+          },
+          {
+            "name": "Average TCP connection latency on Asterinas",
+            "value": "21.6417",
+            "unit": "µs",
+            "extra": "aster_result"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ruize Tang",
+            "username": "tangruize",
+            "email": "1466040111@qq.com"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "458a6a5b3b01aebe78c124fe20be91a91f0139da",
+          "message": "Fix unexpected unlock of mutexes, add a testcase",
+          "timestamp": "2024-09-03T07:33:12Z",
+          "url": "https://github.com/asterinas/asterinas/commit/458a6a5b3b01aebe78c124fe20be91a91f0139da"
+        },
+        "date": 1725575612873,
+        "tool": "customSmallerIsBetter",
+        "description": "The latency of TCP connection on localhost.",
+        "benches": [
+          {
+            "name": "Average TCP connection latency on Linux",
+            "value": "15.5759",
+            "unit": "µs",
+            "extra": "linux_result"
+          },
+          {
+            "name": "Average TCP connection latency on Asterinas",
+            "value": "21.3398",
+            "unit": "µs",
+            "extra": "aster_result"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Thomas Dickson",
+            "username": "Hoverth",
+            "email": "modscrat+github@gmail.com"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "64e43d34aab13eeddea8dd7485c712acc99116ca",
+          "message": "doc: fix typo in README.md",
+          "timestamp": "2024-09-06T04:11:16Z",
+          "url": "https://github.com/asterinas/asterinas/commit/64e43d34aab13eeddea8dd7485c712acc99116ca"
+        },
+        "date": 1725662117016,
+        "tool": "customSmallerIsBetter",
+        "description": "The latency of TCP connection on localhost.",
+        "benches": [
+          {
+            "name": "Average TCP connection latency on Linux",
+            "value": "15.5650",
+            "unit": "µs",
+            "extra": "linux_result"
+          },
+          {
+            "name": "Average TCP connection latency on Asterinas",
+            "value": "21.3876",
+            "unit": "µs",
+            "extra": "aster_result"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Zhang Junyang",
+            "username": "junyang-zh",
+            "email": "junyang@stu.pku.edu.cn"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "c68302f7007225fa47f22a1085a8c59dcdae2ad4",
+          "message": "Don't hold any locks while waiting in `EpollFile`",
+          "timestamp": "2024-09-06T12:05:01Z",
+          "url": "https://github.com/asterinas/asterinas/commit/c68302f7007225fa47f22a1085a8c59dcdae2ad4"
+        },
+        "date": 1725748404493,
+        "tool": "customSmallerIsBetter",
+        "description": "The latency of TCP connection on localhost.",
+        "benches": [
+          {
+            "name": "Average TCP connection latency on Linux",
+            "value": "15.5537",
+            "unit": "µs",
+            "extra": "linux_result"
+          },
+          {
+            "name": "Average TCP connection latency on Asterinas",
+            "value": "21.7638",
+            "unit": "µs",
+            "extra": "aster_result"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Zhang Junyang",
+            "username": "junyang-zh",
+            "email": "junyang@stu.pku.edu.cn"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "c68302f7007225fa47f22a1085a8c59dcdae2ad4",
+          "message": "Don't hold any locks while waiting in `EpollFile`",
+          "timestamp": "2024-09-06T12:05:01Z",
+          "url": "https://github.com/asterinas/asterinas/commit/c68302f7007225fa47f22a1085a8c59dcdae2ad4"
+        },
+        "date": 1725834872360,
+        "tool": "customSmallerIsBetter",
+        "description": "The latency of TCP connection on localhost.",
+        "benches": [
+          {
+            "name": "Average TCP connection latency on Linux",
+            "value": "15.3174",
+            "unit": "µs",
+            "extra": "linux_result"
+          },
+          {
+            "name": "Average TCP connection latency on Asterinas",
+            "value": "21.8526",
+            "unit": "µs",
+            "extra": "aster_result"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Zhang Junyang",
+            "username": "junyang-zh",
+            "email": "junyang@stu.pku.edu.cn"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "c68302f7007225fa47f22a1085a8c59dcdae2ad4",
+          "message": "Don't hold any locks while waiting in `EpollFile`",
+          "timestamp": "2024-09-06T12:05:01Z",
+          "url": "https://github.com/asterinas/asterinas/commit/c68302f7007225fa47f22a1085a8c59dcdae2ad4"
+        },
+        "date": 1725920951926,
+        "tool": "customSmallerIsBetter",
+        "description": "The latency of TCP connection on localhost.",
+        "benches": [
+          {
+            "name": "Average TCP connection latency on Linux",
+            "value": "15.2921",
+            "unit": "µs",
+            "extra": "linux_result"
+          },
+          {
+            "name": "Average TCP connection latency on Asterinas",
+            "value": "21.9405",
+            "unit": "µs",
+            "extra": "aster_result"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Zhang Junyang",
+            "username": "junyang-zh",
+            "email": "junyang@stu.pku.edu.cn"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "c68302f7007225fa47f22a1085a8c59dcdae2ad4",
+          "message": "Don't hold any locks while waiting in `EpollFile`",
+          "timestamp": "2024-09-06T12:05:01Z",
+          "url": "https://github.com/asterinas/asterinas/commit/c68302f7007225fa47f22a1085a8c59dcdae2ad4"
+        },
+        "date": 1726007385981,
+        "tool": "customSmallerIsBetter",
+        "description": "The latency of TCP connection on localhost.",
+        "benches": [
+          {
+            "name": "Average TCP connection latency on Linux",
+            "value": "15.4118",
+            "unit": "µs",
+            "extra": "linux_result"
+          },
+          {
+            "name": "Average TCP connection latency on Asterinas",
+            "value": "21.5837",
+            "unit": "µs",
+            "extra": "aster_result"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Shaowei Song",
+            "username": "lucassong-mh",
+            "email": "songshaowei.ssw@antgroup.com"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "8bfbdf6642a9d04db3490792926d6a299d1e30be",
+          "message": "Optimize the lock usage in `RamInode`'s read/write",
+          "timestamp": "2024-09-02T13:23:46Z",
+          "url": "https://github.com/asterinas/asterinas/commit/8bfbdf6642a9d04db3490792926d6a299d1e30be"
+        },
+        "date": 1726089626578,
+        "tool": "customSmallerIsBetter",
+        "description": "The latency of TCP connection on localhost.",
+        "benches": [
+          {
+            "name": "Average TCP connection latency on Linux",
+            "value": "15.2017",
+            "unit": "µs",
+            "extra": "linux_result"
+          },
+          {
+            "name": "Average TCP connection latency on Asterinas",
+            "value": "22.3520",
+            "unit": "µs",
+            "extra": "aster_result"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Marsman1996",
+            "username": "Marsman1996",
+            "email": "lqliuyuwei@outlook.com"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "6fcad6ce143b8f65e8be76297eb95a9cb56da22e",
+          "message": "Fix integer overflow in handle_page_faults_around",
+          "timestamp": "2024-09-12T12:15:04Z",
+          "url": "https://github.com/asterinas/asterinas/commit/6fcad6ce143b8f65e8be76297eb95a9cb56da22e"
+        },
+        "date": 1726175900772,
+        "tool": "customSmallerIsBetter",
+        "description": "The latency of TCP connection on localhost.",
+        "benches": [
+          {
+            "name": "Average TCP connection latency on Linux",
+            "value": "15.5852",
+            "unit": "µs",
+            "extra": "linux_result"
+          },
+          {
+            "name": "Average TCP connection latency on Asterinas",
+            "value": "21.5625",
+            "unit": "µs",
+            "extra": "aster_result"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Yuke Peng",
+            "username": "sdww0",
+            "email": "pykfirst@gmail.com"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "32ea24e945efde86117d2278a48145d71b9ec90c",
+          "message": "Bump version to 0.8.2",
+          "timestamp": "2024-09-13T05:02:35Z",
+          "url": "https://github.com/asterinas/asterinas/commit/32ea24e945efde86117d2278a48145d71b9ec90c"
+        },
+        "date": 1726261156964,
+        "tool": "customSmallerIsBetter",
+        "title": "[TCP sockets] The latency of connect",
+        "description": "lat_connect",
+        "display": true,
+        "benches": [
+          {
+            "name": "Average TCP connection latency on Linux",
+            "value": "15.4729",
+            "unit": "µs",
+            "extra": "linux_result"
+          },
+          {
+            "name": "Average TCP connection latency on Asterinas",
+            "value": "21.7391",
+            "unit": "µs",
+            "extra": "aster_result"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Fabing Li",
+            "username": "grief8",
+            "email": "lifabing.lfb@antgroup.com"
+          },
+          "committer": {
+            "name": "Fabing Li",
+            "username": "grief8",
+            "email": "lifabing.lfb@antgroup.com"
+          },
+          "id": "adfb4a081356bea739a1720f284c3e66d6a96d19",
+          "message": "test",
+          "timestamp": "2024-09-14T03:47:04Z",
+          "url": "https://github.com/grief8/asterinas/commit/adfb4a081356bea739a1720f284c3e66d6a96d19"
+        },
+        "date": 1726640727555,
+        "tool": "customSmallerIsBetter",
+        "title": "[TCP sockets] The latency of connect",
+        "description": "lat_connect",
+        "display": true,
+        "benches": [
+          {
+            "name": "Average TCP connection latency on Linux",
+            "value": "18.4732",
+            "unit": "µs",
+            "extra": "linux_result"
+          },
+          {
+            "name": "Average TCP connection latency on Asterinas",
+            "value": "22.1526",
+            "unit": "µs",
+            "extra": "aster_result"
+          }
+        ]
+      }
+    ],
+    "tcp_loopback_select_lat": [
+      {
+        "commit": {
+          "author": {
+            "name": "Fabing Li",
+            "username": "grief8",
+            "email": "lifabing.lfb@antgroup.com"
+          },
+          "committer": {
+            "name": "Fabing Li",
+            "username": "grief8",
+            "email": "lifabing.lfb@antgroup.com"
+          },
+          "id": "52871246d45bbd86954f1d1dd5c65c98e1656064",
+          "message": "uP",
+          "timestamp": "2024-09-24T06:48:01Z",
+          "url": "https://github.com/grief8/asterinas/commit/52871246d45bbd86954f1d1dd5c65c98e1656064"
+        },
+        "date": 1727160793557,
+        "tool": "customSmallerIsBetter",
+        "title": "[Network] The cost of select (TCP fds)",
+        "description": "lat_select",
+        "display": true,
+        "benches": [
+          {
+            "name": "Average select TCP latency on Linux",
+            "value": "3.9538",
+            "unit": "µs",
+            "extra": "linux_result"
+          },
+          {
+            "name": "Average select TCP latency on Asterinas",
+            "value": "1.9224",
+            "unit": "µs",
+            "extra": "aster_result"
+          }
+        ]
+      }
+    ],
+    "tcp_loopback_http_bw": [
+      {
+        "commit": {
+          "author": {
+            "name": "Yuke Peng",
+            "username": "sdww0",
+            "email": "pykfirst@gmail.com"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "539984bbed414969b0c40cf181a10e9341ed2359",
+          "message": "Replace read with read_raw",
+          "timestamp": "2024-08-29T12:46:20Z",
+          "url": "https://github.com/asterinas/asterinas/commit/539984bbed414969b0c40cf181a10e9341ed2359"
+        },
+        "date": 1724963096458,
+        "tool": "customBiggerIsBetter",
+        "description": "The bandwidth of simple HTTP transaction with 64MB file.",
+        "benches": [
+          {
+            "name": "Average simple HTTP transaction bandwidth on Linux",
+            "value": "4076.85",
+            "unit": "MB/s",
+            "extra": "linux_result"
+          },
+          {
+            "name": "Average simple HTTP transaction bandwidth on Asterinas",
+            "value": "18.44",
+            "unit": "MB/s",
+            "extra": "aster_result"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Yuke Peng",
+            "username": "sdww0",
+            "email": "pykfirst@gmail.com"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "db16caf28c46e4ed24099fcba13d40b7d673164c",
+          "message": "[Semaphore] Replace Mutex with SpinLock",
+          "timestamp": "2024-08-30T11:23:53Z",
+          "url": "https://github.com/asterinas/asterinas/commit/db16caf28c46e4ed24099fcba13d40b7d673164c"
+        },
+        "date": 1725049870196,
+        "tool": "customBiggerIsBetter",
+        "description": "The bandwidth of simple HTTP transaction with 64MB file.",
+        "benches": [
+          {
+            "name": "Average simple HTTP transaction bandwidth on Linux",
+            "value": "4056.15",
+            "unit": "MB/s",
+            "extra": "linux_result"
+          },
+          {
+            "name": "Average simple HTTP transaction bandwidth on Asterinas",
+            "value": "17.91",
+            "unit": "MB/s",
+            "extra": "aster_result"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "YanWQ-monad",
+            "username": "YanWQ-monad",
+            "email": "YanWQmonad@gmail.com"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "e6e771e9b5ae7d223a50aa4b38994500b0db6867",
+          "message": "Better timestamp in logging",
+          "timestamp": "2024-08-30T17:51:32Z",
+          "url": "https://github.com/asterinas/asterinas/commit/e6e771e9b5ae7d223a50aa4b38994500b0db6867"
+        },
+        "date": 1725135901963,
+        "tool": "customBiggerIsBetter",
+        "description": "The bandwidth of simple HTTP transaction with 64MB file.",
+        "benches": [
+          {
+            "name": "Average simple HTTP transaction bandwidth on Linux",
+            "value": "4206.93",
+            "unit": "MB/s",
+            "extra": "linux_result"
+          },
+          {
+            "name": "Average simple HTTP transaction bandwidth on Asterinas",
+            "value": "18.25",
+            "unit": "MB/s",
+            "extra": "aster_result"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Marsman1996",
+            "username": "Marsman1996",
+            "email": "lqliuyuwei@outlook.com"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "745ac6d982638d3548f09ea2aa2103e37c135153",
+          "message": "Set overflow boundary to `isize::MAX` for memory related syscalls",
+          "timestamp": "2024-08-29T14:26:36Z",
+          "url": "https://github.com/asterinas/asterinas/commit/745ac6d982638d3548f09ea2aa2103e37c135153"
+        },
+        "date": 1725222310712,
+        "tool": "customBiggerIsBetter",
+        "description": "The bandwidth of simple HTTP transaction with 64MB file.",
+        "benches": [
+          {
+            "name": "Average simple HTTP transaction bandwidth on Linux",
+            "value": "4126.23",
+            "unit": "MB/s",
+            "extra": "linux_result"
+          },
+          {
+            "name": "Average simple HTTP transaction bandwidth on Asterinas",
+            "value": "18.56",
+            "unit": "MB/s",
+            "extra": "aster_result"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Shaowei Song",
+            "username": "lucassong-mh",
+            "email": "songshaowei.ssw@antgroup.com"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "963874471284ed014b76d268d933b6d13073c2cc",
+          "message": "Unseekable files need not to manipulate the `offset`",
+          "timestamp": "2024-09-02T09:48:15Z",
+          "url": "https://github.com/asterinas/asterinas/commit/963874471284ed014b76d268d933b6d13073c2cc"
+        },
+        "date": 1725399035650,
+        "tool": "customBiggerIsBetter",
+        "description": "The bandwidth of simple HTTP transaction with 64MB file.",
+        "benches": [
+          {
+            "name": "Average simple HTTP transaction bandwidth on Linux",
+            "value": "4122.17",
+            "unit": "MB/s",
+            "extra": "linux_result"
+          },
+          {
+            "name": "Average simple HTTP transaction bandwidth on Asterinas",
+            "value": "18.43",
+            "unit": "MB/s",
+            "extra": "aster_result"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ruize Tang",
+            "username": "tangruize",
+            "email": "1466040111@qq.com"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "458a6a5b3b01aebe78c124fe20be91a91f0139da",
+          "message": "Fix unexpected unlock of mutexes, add a testcase",
+          "timestamp": "2024-09-03T07:33:12Z",
+          "url": "https://github.com/asterinas/asterinas/commit/458a6a5b3b01aebe78c124fe20be91a91f0139da"
+        },
+        "date": 1725485215233,
+        "tool": "customBiggerIsBetter",
+        "description": "The bandwidth of simple HTTP transaction with 64MB file.",
+        "benches": [
+          {
+            "name": "Average simple HTTP transaction bandwidth on Linux",
+            "value": "4244.72",
+            "unit": "MB/s",
+            "extra": "linux_result"
+          },
+          {
+            "name": "Average simple HTTP transaction bandwidth on Asterinas",
+            "value": "18.75",
+            "unit": "MB/s",
+            "extra": "aster_result"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ruize Tang",
+            "username": "tangruize",
+            "email": "1466040111@qq.com"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "458a6a5b3b01aebe78c124fe20be91a91f0139da",
+          "message": "Fix unexpected unlock of mutexes, add a testcase",
+          "timestamp": "2024-09-03T07:33:12Z",
+          "url": "https://github.com/asterinas/asterinas/commit/458a6a5b3b01aebe78c124fe20be91a91f0139da"
+        },
+        "date": 1725571814983,
+        "tool": "customBiggerIsBetter",
+        "description": "The bandwidth of simple HTTP transaction with 64MB file.",
+        "benches": [
+          {
+            "name": "Average simple HTTP transaction bandwidth on Linux",
+            "value": "4155.61",
+            "unit": "MB/s",
+            "extra": "linux_result"
+          },
+          {
+            "name": "Average simple HTTP transaction bandwidth on Asterinas",
+            "value": "18.16",
+            "unit": "MB/s",
+            "extra": "aster_result"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Thomas Dickson",
+            "username": "Hoverth",
+            "email": "modscrat+github@gmail.com"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "64e43d34aab13eeddea8dd7485c712acc99116ca",
+          "message": "doc: fix typo in README.md",
+          "timestamp": "2024-09-06T04:11:16Z",
+          "url": "https://github.com/asterinas/asterinas/commit/64e43d34aab13eeddea8dd7485c712acc99116ca"
+        },
+        "date": 1725658172488,
+        "tool": "customBiggerIsBetter",
+        "description": "The bandwidth of simple HTTP transaction with 64MB file.",
+        "benches": [
+          {
+            "name": "Average simple HTTP transaction bandwidth on Linux",
+            "value": "4229.47",
+            "unit": "MB/s",
+            "extra": "linux_result"
+          },
+          {
+            "name": "Average simple HTTP transaction bandwidth on Asterinas",
+            "value": "18.25",
+            "unit": "MB/s",
+            "extra": "aster_result"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Zhang Junyang",
+            "username": "junyang-zh",
+            "email": "junyang@stu.pku.edu.cn"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "c68302f7007225fa47f22a1085a8c59dcdae2ad4",
+          "message": "Don't hold any locks while waiting in `EpollFile`",
+          "timestamp": "2024-09-06T12:05:01Z",
+          "url": "https://github.com/asterinas/asterinas/commit/c68302f7007225fa47f22a1085a8c59dcdae2ad4"
+        },
+        "date": 1725744415706,
+        "tool": "customBiggerIsBetter",
+        "description": "The bandwidth of simple HTTP transaction with 64MB file.",
+        "benches": [
+          {
+            "name": "Average simple HTTP transaction bandwidth on Linux",
+            "value": "4179.16",
+            "unit": "MB/s",
+            "extra": "linux_result"
+          },
+          {
+            "name": "Average simple HTTP transaction bandwidth on Asterinas",
+            "value": "18.01",
+            "unit": "MB/s",
+            "extra": "aster_result"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Zhang Junyang",
+            "username": "junyang-zh",
+            "email": "junyang@stu.pku.edu.cn"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "c68302f7007225fa47f22a1085a8c59dcdae2ad4",
+          "message": "Don't hold any locks while waiting in `EpollFile`",
+          "timestamp": "2024-09-06T12:05:01Z",
+          "url": "https://github.com/asterinas/asterinas/commit/c68302f7007225fa47f22a1085a8c59dcdae2ad4"
+        },
+        "date": 1725917295650,
+        "tool": "customBiggerIsBetter",
+        "description": "The bandwidth of simple HTTP transaction with 64MB file.",
+        "benches": [
+          {
+            "name": "Average simple HTTP transaction bandwidth on Linux",
+            "value": "4195.89",
+            "unit": "MB/s",
+            "extra": "linux_result"
+          },
+          {
+            "name": "Average simple HTTP transaction bandwidth on Asterinas",
+            "value": "18.45",
+            "unit": "MB/s",
+            "extra": "aster_result"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Zhang Junyang",
+            "username": "junyang-zh",
+            "email": "junyang@stu.pku.edu.cn"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "c68302f7007225fa47f22a1085a8c59dcdae2ad4",
+          "message": "Don't hold any locks while waiting in `EpollFile`",
+          "timestamp": "2024-09-06T12:05:01Z",
+          "url": "https://github.com/asterinas/asterinas/commit/c68302f7007225fa47f22a1085a8c59dcdae2ad4"
+        },
+        "date": 1726003717508,
+        "tool": "customBiggerIsBetter",
+        "description": "The bandwidth of simple HTTP transaction with 64MB file.",
+        "benches": [
+          {
+            "name": "Average simple HTTP transaction bandwidth on Linux",
+            "value": "4282.64",
+            "unit": "MB/s",
+            "extra": "linux_result"
+          },
+          {
+            "name": "Average simple HTTP transaction bandwidth on Asterinas",
+            "value": "18.26",
+            "unit": "MB/s",
+            "extra": "aster_result"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Shaowei Song",
+            "username": "lucassong-mh",
+            "email": "songshaowei.ssw@antgroup.com"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "8bfbdf6642a9d04db3490792926d6a299d1e30be",
+          "message": "Optimize the lock usage in `RamInode`'s read/write",
+          "timestamp": "2024-09-02T13:23:46Z",
+          "url": "https://github.com/asterinas/asterinas/commit/8bfbdf6642a9d04db3490792926d6a299d1e30be"
+        },
+        "date": 1726086379811,
+        "tool": "customBiggerIsBetter",
+        "description": "The bandwidth of simple HTTP transaction with 64MB file.",
+        "benches": [
+          {
+            "name": "Average simple HTTP transaction bandwidth on Linux",
+            "value": "4175.52",
+            "unit": "MB/s",
+            "extra": "linux_result"
+          },
+          {
+            "name": "Average simple HTTP transaction bandwidth on Asterinas",
+            "value": "18.76",
+            "unit": "MB/s",
+            "extra": "aster_result"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Marsman1996",
+            "username": "Marsman1996",
+            "email": "lqliuyuwei@outlook.com"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "6fcad6ce143b8f65e8be76297eb95a9cb56da22e",
+          "message": "Fix integer overflow in handle_page_faults_around",
+          "timestamp": "2024-09-12T12:15:04Z",
+          "url": "https://github.com/asterinas/asterinas/commit/6fcad6ce143b8f65e8be76297eb95a9cb56da22e"
+        },
+        "date": 1726172945892,
+        "tool": "customBiggerIsBetter",
+        "description": "The bandwidth of simple HTTP transaction with 64MB file.",
+        "benches": [
+          {
+            "name": "Average simple HTTP transaction bandwidth on Linux",
+            "value": "4126.23",
+            "unit": "MB/s",
+            "extra": "linux_result"
+          },
+          {
+            "name": "Average simple HTTP transaction bandwidth on Asterinas",
+            "value": "18.65",
+            "unit": "MB/s",
+            "extra": "aster_result"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Yuke Peng",
+            "username": "sdww0",
+            "email": "pykfirst@gmail.com"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "32ea24e945efde86117d2278a48145d71b9ec90c",
+          "message": "Bump version to 0.8.2",
+          "timestamp": "2024-09-13T05:02:35Z",
+          "url": "https://github.com/asterinas/asterinas/commit/32ea24e945efde86117d2278a48145d71b9ec90c"
+        },
+        "date": 1726261300170,
+        "tool": "customBiggerIsBetter",
+        "title": "[HTTP] The bandwidth",
+        "description": "bw_http",
+        "display": true,
+        "benches": [
+          {
+            "name": "Average simple HTTP transaction bandwidth on Linux",
+            "value": "3629.87",
+            "unit": "MB/s",
+            "extra": "linux_result"
+          },
+          {
+            "name": "Average simple HTTP transaction bandwidth on Asterinas",
+            "value": "18.22",
+            "unit": "MB/s",
+            "extra": "aster_result"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Fabing Li",
+            "username": "grief8",
+            "email": "lifabing.lfb@antgroup.com"
+          },
+          "committer": {
+            "name": "Fabing Li",
+            "username": "grief8",
+            "email": "lifabing.lfb@antgroup.com"
+          },
+          "id": "adfb4a081356bea739a1720f284c3e66d6a96d19",
+          "message": "test",
+          "timestamp": "2024-09-14T03:47:04Z",
+          "url": "https://github.com/grief8/asterinas/commit/adfb4a081356bea739a1720f284c3e66d6a96d19"
+        },
+        "date": 1726640721357,
+        "tool": "customBiggerIsBetter",
+        "title": "[HTTP] The bandwidth",
+        "description": "bw_http",
+        "display": true,
+        "benches": [
+          {
+            "name": "Average simple HTTP transaction bandwidth on Linux",
+            "value": "4094.51",
+            "unit": "MB/s",
+            "extra": "linux_result"
+          },
+          {
+            "name": "Average simple HTTP transaction bandwidth on Asterinas",
+            "value": "23.37",
+            "unit": "MB/s",
+            "extra": "aster_result"
+          }
+        ]
+      }
+    ],
+    "udp_loopback_lat": [
+      {
+        "commit": {
+          "author": {
+            "name": "Fabing Li",
+            "username": "grief8",
+            "email": "lifabing.lfb@antgroup.com"
+          },
+          "committer": {
+            "name": "Fabing Li",
+            "username": "grief8",
+            "email": "lifabing.lfb@antgroup.com"
+          },
+          "id": "52871246d45bbd86954f1d1dd5c65c98e1656064",
+          "message": "uP",
+          "timestamp": "2024-09-24T06:48:01Z",
+          "url": "https://github.com/grief8/asterinas/commit/52871246d45bbd86954f1d1dd5c65c98e1656064"
+        },
+        "date": 1727160842990,
+        "tool": "customSmallerIsBetter",
+        "title": "[UDP sockets] The latency of write+read",
+        "description": "lat_udp",
+        "display": true,
+        "benches": [
+          {
+            "name": "Average UDP latency on Linux",
+            "value": "4.9569",
+            "unit": "µs",
+            "extra": "linux_result"
+          },
+          {
+            "name": "Average UDP latency on Asterinas",
+            "value": "3.0677",
+            "unit": "µs",
+            "extra": "aster_result"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Fabing Li",
+            "username": "grief8",
+            "email": "lifabing.lfb@antgroup.com"
+          },
+          "committer": {
+            "name": "Fabing Li",
+            "username": "grief8",
+            "email": "lifabing.lfb@antgroup.com"
+          },
+          "id": "bb8d2fe583df04a06eaf4c931270c55dd06f48ae",
+          "message": "iuu",
+          "timestamp": "2024-09-24T06:58:54Z",
+          "url": "https://github.com/grief8/asterinas/commit/bb8d2fe583df04a06eaf4c931270c55dd06f48ae"
+        },
+        "date": 1727168694091,
+        "tool": "customSmallerIsBetter",
+        "title": "[UDP sockets] The latency of write+read",
+        "description": "lat_udp",
+        "display": true,
+        "benches": [
+          {
+            "name": "Average UDP latency on Linux",
+            "value": "4.9853",
+            "unit": "µs",
+            "extra": "linux_result"
+          },
+          {
+            "name": "Average UDP latency on Asterinas",
+            "value": "3.0951",
+            "unit": "µs",
+            "extra": "aster_result"
+          }
+        ]
+      }
+    ],
+    "mem_read_bw": [
+      {
+        "commit": {
+          "author": {
+            "name": "Fabing Li",
+            "username": "grief8",
+            "email": "lifabing.lfb@antgroup.com"
+          },
+          "committer": {
+            "name": "Fabing Li",
+            "username": "grief8",
+            "email": "lifabing.lfb@antgroup.com"
+          },
+          "id": "52871246d45bbd86954f1d1dd5c65c98e1656064",
+          "message": "uP",
+          "timestamp": "2024-09-24T06:48:01Z",
+          "url": "https://github.com/grief8/asterinas/commit/52871246d45bbd86954f1d1dd5c65c98e1656064"
+        },
+        "date": 1727160948056,
+        "tool": "customBiggerIsBetter",
+        "title": "[Memory] The bandwidth of reading integers",
+        "description": "bw_mem frd",
+        "display": true,
+        "benches": [
+          {
+            "name": "Average memory read bandwidth on Linux",
+            "value": "16510.99",
+            "unit": "MB/s",
+            "extra": "linux_result"
+          },
+          {
+            "name": "Average memory read bandwidth on Asterinas",
+            "value": "15944.42",
+            "unit": "MB/s",
+            "extra": "aster_result"
+          }
+        ]
+      }
+    ],
+    "mem_write_bw": [
+      {
+        "commit": {
+          "author": {
+            "name": "Fabing Li",
+            "username": "grief8",
+            "email": "lifabing.lfb@antgroup.com"
+          },
+          "committer": {
+            "name": "Fabing Li",
+            "username": "grief8",
+            "email": "lifabing.lfb@antgroup.com"
+          },
+          "id": "52871246d45bbd86954f1d1dd5c65c98e1656064",
+          "message": "uP",
+          "timestamp": "2024-09-24T06:48:01Z",
+          "url": "https://github.com/grief8/asterinas/commit/52871246d45bbd86954f1d1dd5c65c98e1656064"
+        },
+        "date": 1727160803371,
+        "tool": "customBiggerIsBetter",
+        "title": "[Memory] The bandwidth of writing integers",
+        "description": "bw_mem fwr",
+        "display": true,
+        "benches": [
+          {
+            "name": "Average memory write bandwidth on Linux",
+            "value": "4752.88",
+            "unit": "MB/s",
+            "extra": "linux_result"
+          },
+          {
+            "name": "Average memory write bandwidth on Asterinas",
+            "value": "4564.84",
+            "unit": "MB/s",
+            "extra": "aster_result"
+          }
+        ]
+      }
+    ],
+    "mem_copy_bw": [
+      {
+        "commit": {
+          "author": {
+            "name": "Fabing Li",
+            "username": "grief8",
+            "email": "lifabing.lfb@antgroup.com"
+          },
+          "committer": {
+            "name": "Fabing Li",
+            "username": "grief8",
+            "email": "lifabing.lfb@antgroup.com"
+          },
+          "id": "52871246d45bbd86954f1d1dd5c65c98e1656064",
+          "message": "uP",
+          "timestamp": "2024-09-24T06:48:01Z",
+          "url": "https://github.com/grief8/asterinas/commit/52871246d45bbd86954f1d1dd5c65c98e1656064"
+        },
+        "date": 1727160799086,
+        "tool": "customBiggerIsBetter",
+        "title": "[Memory] The bandwidth of copying integers",
+        "description": "bw_mem fcp",
+        "display": true,
+        "benches": [
+          {
+            "name": "Average memory copy bandwidth on Linux",
+            "value": "10261.29",
+            "unit": "MB/s",
+            "extra": "linux_result"
+          },
+          {
+            "name": "Average memory copy bandwidth on Asterinas",
+            "value": "7343.33",
+            "unit": "MB/s",
+            "extra": "aster_result"
+          }
+        ]
+      }
+    ],
+    "mem_pagefault_lat": [
+      {
+        "commit": {
+          "author": {
+            "name": "Fabing Li",
+            "username": "grief8",
+            "email": "lifabing.lfb@antgroup.com"
+          },
+          "committer": {
+            "name": "Fabing Li",
+            "username": "grief8",
+            "email": "lifabing.lfb@antgroup.com"
+          },
+          "id": "52871246d45bbd86954f1d1dd5c65c98e1656064",
+          "message": "uP",
+          "timestamp": "2024-09-24T06:48:01Z",
+          "url": "https://github.com/grief8/asterinas/commit/52871246d45bbd86954f1d1dd5c65c98e1656064"
+        },
+        "date": 1727160872699,
+        "tool": "customSmallerIsBetter",
+        "title": "[Memory] The cost of page fault handling",
+        "description": "lat_pagefault",
+        "display": true,
+        "benches": [
+          {
+            "name": "Average page fault latency on Linux",
+            "value": "0.1233",
+            "unit": "µs",
+            "extra": "linux_result"
+          },
+          {
+            "name": "Average page fault latency on Asterinas",
+            "value": "0.0980",
+            "unit": "µs",
+            "extra": "aster_result"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Fabing Li",
+            "username": "grief8",
+            "email": "lifabing.lfb@antgroup.com"
+          },
+          "committer": {
+            "name": "Fabing Li",
+            "username": "grief8",
+            "email": "lifabing.lfb@antgroup.com"
+          },
+          "id": "bb8d2fe583df04a06eaf4c931270c55dd06f48ae",
+          "message": "iuu",
+          "timestamp": "2024-09-24T06:58:54Z",
+          "url": "https://github.com/grief8/asterinas/commit/bb8d2fe583df04a06eaf4c931270c55dd06f48ae"
+        },
+        "date": 1727168657917,
+        "tool": "customSmallerIsBetter",
+        "title": "[Memory] The cost of page fault handling",
+        "description": "lat_pagefault",
+        "display": true,
+        "benches": [
+          {
+            "name": "Average page fault latency on Linux",
+            "value": "0.1231",
+            "unit": "µs",
+            "extra": "linux_result"
+          },
+          {
+            "name": "Average page fault latency on Asterinas",
+            "value": "0.0983",
+            "unit": "µs",
+            "extra": "aster_result"
+          }
+        ]
+      }
+    ],
+    "mem_mmap_bw": [
+      {
+        "commit": {
+          "author": {
+            "name": "Fabing Li",
+            "username": "grief8",
+            "email": "lifabing.lfb@antgroup.com"
+          },
+          "committer": {
+            "name": "Fabing Li",
+            "username": "grief8",
+            "email": "lifabing.lfb@antgroup.com"
+          },
+          "id": "52871246d45bbd86954f1d1dd5c65c98e1656064",
+          "message": "uP",
+          "timestamp": "2024-09-24T06:48:01Z",
+          "url": "https://github.com/grief8/asterinas/commit/52871246d45bbd86954f1d1dd5c65c98e1656064"
+        },
+        "date": 1727160789879,
+        "tool": "customBiggerIsBetter",
+        "title": "[Memory] The bandwidth of mmap",
+        "description": "bw_mmap",
+        "display": true,
+        "benches": [
+          {
+            "name": "Average mmap bandwidth on Linux",
+            "value": "18783.53",
+            "unit": "MB/s",
+            "extra": "linux_result"
+          },
+          {
+            "name": "Average mmap bandwidth on Asterinas",
+            "value": "18270.86",
+            "unit": "MB/s",
+            "extra": "aster_result"
+          }
+        ]
+      }
+    ],
+    "mem_mmap_lat": [
+      {
+        "commit": {
+          "author": {
+            "name": "Fabing Li",
+            "username": "grief8",
+            "email": "lifabing.lfb@antgroup.com"
+          },
+          "committer": {
+            "name": "Fabing Li",
+            "username": "grief8",
+            "email": "lifabing.lfb@antgroup.com"
+          },
+          "id": "52871246d45bbd86954f1d1dd5c65c98e1656064",
+          "message": "uP",
+          "timestamp": "2024-09-24T06:48:01Z",
+          "url": "https://github.com/grief8/asterinas/commit/52871246d45bbd86954f1d1dd5c65c98e1656064"
+        },
+        "date": 1727160864286,
+        "tool": "customSmallerIsBetter",
+        "title": "[Memory] The cost of mmap+unmap",
+        "description": "lat_mmap",
+        "display": true,
+        "benches": [
+          {
+            "name": "Average mmap latency on Linux",
+            "value": "20",
+            "unit": "µs",
+            "extra": "linux_result"
+          },
+          {
+            "name": "Average mmap latency on Asterinas",
+            "value": "23",
+            "unit": "µs",
+            "extra": "aster_result"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Fabing Li",
+            "username": "grief8",
+            "email": "lifabing.lfb@antgroup.com"
+          },
+          "committer": {
+            "name": "Fabing Li",
+            "username": "grief8",
+            "email": "lifabing.lfb@antgroup.com"
+          },
+          "id": "bb8d2fe583df04a06eaf4c931270c55dd06f48ae",
+          "message": "iuu",
+          "timestamp": "2024-09-24T06:58:54Z",
+          "url": "https://github.com/grief8/asterinas/commit/bb8d2fe583df04a06eaf4c931270c55dd06f48ae"
+        },
+        "date": 1727168683310,
+        "tool": "customSmallerIsBetter",
+        "title": "[Memory] The cost of mmap+unmap",
+        "description": "lat_mmap",
+        "display": true,
+        "benches": [
+          {
+            "name": "Average mmap latency on Linux",
+            "value": "20",
+            "unit": "µs",
+            "extra": "linux_result"
+          },
+          {
+            "name": "Average mmap latency on Asterinas",
+            "value": "23",
             "unit": "µs",
             "extra": "aster_result"
           }
@@ -25400,1844 +27275,6 @@ window.BENCHMARK_DATA = {
           {
             "name": "Average semaphore latency on Asterinas",
             "value": "0.4698",
-            "unit": "µs",
-            "extra": "aster_result"
-          }
-        ]
-      }
-    ],
-    "signal_catch_lat": [
-      {
-        "commit": {
-          "author": {
-            "name": "Fabing Li",
-            "username": "grief8",
-            "email": "lifabing.lfb@antgroup.com"
-          },
-          "committer": {
-            "name": "Fabing Li",
-            "username": "grief8",
-            "email": "lifabing.lfb@antgroup.com"
-          },
-          "id": "52871246d45bbd86954f1d1dd5c65c98e1656064",
-          "message": "uP",
-          "timestamp": "2024-09-24T06:48:01Z",
-          "url": "https://github.com/grief8/asterinas/commit/52871246d45bbd86954f1d1dd5c65c98e1656064"
-        },
-        "date": 1727160887171,
-        "tool": "customSmallerIsBetter",
-        "title": "[Signals] The cost of catching a signal",
-        "description": "lat_sig catch",
-        "display": true,
-        "benches": [
-          {
-            "name": "Average Signal handler overhead on Linux",
-            "value": "1.0394",
-            "unit": "µs",
-            "extra": "linux_result"
-          },
-          {
-            "name": "Average Signal handler overhead on Asterinas",
-            "value": "0.5672",
-            "unit": "µs",
-            "extra": "aster_result"
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
-            "name": "Fabing Li",
-            "username": "grief8",
-            "email": "lifabing.lfb@antgroup.com"
-          },
-          "committer": {
-            "name": "Fabing Li",
-            "username": "grief8",
-            "email": "lifabing.lfb@antgroup.com"
-          },
-          "id": "bb8d2fe583df04a06eaf4c931270c55dd06f48ae",
-          "message": "iuu",
-          "timestamp": "2024-09-24T06:58:54Z",
-          "url": "https://github.com/grief8/asterinas/commit/bb8d2fe583df04a06eaf4c931270c55dd06f48ae"
-        },
-        "date": 1727168660308,
-        "tool": "customSmallerIsBetter",
-        "title": "[Signals] The cost of catching a signal",
-        "description": "lat_sig catch",
-        "display": true,
-        "benches": [
-          {
-            "name": "Average Signal handler overhead on Linux",
-            "value": "1.5892",
-            "unit": "µs",
-            "extra": "linux_result"
-          },
-          {
-            "name": "Average Signal handler overhead on Asterinas",
-            "value": "0.5465",
-            "unit": "µs",
-            "extra": "aster_result"
-          }
-        ]
-      }
-    ],
-    "signal_install_lat": [
-      {
-        "commit": {
-          "author": {
-            "name": "Yuke Peng",
-            "username": "sdww0",
-            "email": "pykfirst@gmail.com"
-          },
-          "committer": {
-            "name": "Tate, Hongliang Tian",
-            "username": "tatetian",
-            "email": "tatetian@gmail.com"
-          },
-          "id": "6f8978193c7a73a51403a8751314ddebc1c1983f",
-          "message": "Add benchmarks to workflow",
-          "timestamp": "2024-08-02T13:40:56Z",
-          "url": "https://github.com/asterinas/asterinas/commit/6f8978193c7a73a51403a8751314ddebc1c1983f"
-        },
-        "date": 1722631022051,
-        "tool": "customSmallerIsBetter",
-        "description": "The latency of signal handling on a single processor.",
-        "benches": [
-          {
-            "name": "Average Signal handler install latency on Linux",
-            "value": "0.3304",
-            "unit": "µs",
-            "extra": "linux_result"
-          },
-          {
-            "name": "Average Signal handler install latency on Asterinas",
-            "value": "0.3435",
-            "unit": "µs",
-            "extra": "aster_result"
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
-            "name": "Yuke Peng",
-            "username": "sdww0",
-            "email": "pykfirst@gmail.com"
-          },
-          "committer": {
-            "name": "Tate, Hongliang Tian",
-            "username": "tatetian",
-            "email": "tatetian@gmail.com"
-          },
-          "id": "6f8978193c7a73a51403a8751314ddebc1c1983f",
-          "message": "Add benchmarks to workflow",
-          "timestamp": "2024-08-02T13:40:56Z",
-          "url": "https://github.com/asterinas/asterinas/commit/6f8978193c7a73a51403a8751314ddebc1c1983f"
-        },
-        "date": 1722717443129,
-        "tool": "customSmallerIsBetter",
-        "description": "The latency of signal handling on a single processor.",
-        "benches": [
-          {
-            "name": "Average Signal handler install latency on Linux",
-            "value": "0.3284",
-            "unit": "µs",
-            "extra": "linux_result"
-          },
-          {
-            "name": "Average Signal handler install latency on Asterinas",
-            "value": "0.3270",
-            "unit": "µs",
-            "extra": "aster_result"
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
-            "name": "Zhang Junyang",
-            "username": "junyang-zh",
-            "email": "junyang@stu.pku.edu.cn"
-          },
-          "committer": {
-            "name": "Tate, Hongliang Tian",
-            "username": "tatetian",
-            "email": "tatetian@gmail.com"
-          },
-          "id": "16690bc61b0bb8d90dbb1cec8a317ba34aa09f71",
-          "message": "Implement atomic signal masks and refactor `SigSet`",
-          "timestamp": "2024-08-02T08:26:56Z",
-          "url": "https://github.com/asterinas/asterinas/commit/16690bc61b0bb8d90dbb1cec8a317ba34aa09f71"
-        },
-        "date": 1722803810060,
-        "tool": "customSmallerIsBetter",
-        "description": "The latency of signal handling on a single processor.",
-        "benches": [
-          {
-            "name": "Average Signal handler install latency on Linux",
-            "value": "0.3847",
-            "unit": "µs",
-            "extra": "linux_result"
-          },
-          {
-            "name": "Average Signal handler install latency on Asterinas",
-            "value": "0.2988",
-            "unit": "µs",
-            "extra": "aster_result"
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
-            "name": "azongchang",
-            "username": "azongchang",
-            "email": "azongchang@qq.com"
-          },
-          "committer": {
-            "name": "Tate, Hongliang Tian",
-            "username": "tatetian",
-            "email": "tatetian@gmail.com"
-          },
-          "id": "aa84b31634b9c710e04b337c5d1b8fa207f8dbde",
-          "message": "Add the description of encoding option to the OSDK document",
-          "timestamp": "2024-08-05T05:52:13Z",
-          "url": "https://github.com/asterinas/asterinas/commit/aa84b31634b9c710e04b337c5d1b8fa207f8dbde"
-        },
-        "date": 1722890188023,
-        "tool": "customSmallerIsBetter",
-        "description": "The latency of signal handling on a single processor.",
-        "benches": [
-          {
-            "name": "Average Signal handler install latency on Linux",
-            "value": "0.3297",
-            "unit": "µs",
-            "extra": "linux_result"
-          },
-          {
-            "name": "Average Signal handler install latency on Asterinas",
-            "value": "0.3056",
-            "unit": "µs",
-            "extra": "aster_result"
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
-            "name": "Ruihan Li",
-            "username": "lrh2000",
-            "email": "lrh2000@pku.edu.cn"
-          },
-          "committer": {
-            "name": "Tate, Hongliang Tian",
-            "username": "tatetian",
-            "email": "tatetian@gmail.com"
-          },
-          "id": "b1ea422efaf6b0becd7d6cd99d270ae01fcd12de",
-          "message": "Fix accesses to VirtIO queue DMA",
-          "timestamp": "2024-08-05T14:06:02Z",
-          "url": "https://github.com/asterinas/asterinas/commit/b1ea422efaf6b0becd7d6cd99d270ae01fcd12de"
-        },
-        "date": 1722976704876,
-        "tool": "customSmallerIsBetter",
-        "description": "The latency of signal handling on a single processor.",
-        "benches": [
-          {
-            "name": "Average Signal handler install latency on Linux",
-            "value": "0.3349",
-            "unit": "µs",
-            "extra": "linux_result"
-          },
-          {
-            "name": "Average Signal handler install latency on Asterinas",
-            "value": "0.3217",
-            "unit": "µs",
-            "extra": "aster_result"
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
-            "name": "Ruihan Li",
-            "username": "lrh2000",
-            "email": "lrh2000@pku.edu.cn"
-          },
-          "committer": {
-            "name": "Tate, Hongliang Tian",
-            "username": "tatetian",
-            "email": "tatetian@gmail.com"
-          },
-          "id": "b1ea422efaf6b0becd7d6cd99d270ae01fcd12de",
-          "message": "Fix accesses to VirtIO queue DMA",
-          "timestamp": "2024-08-05T14:06:02Z",
-          "url": "https://github.com/asterinas/asterinas/commit/b1ea422efaf6b0becd7d6cd99d270ae01fcd12de"
-        },
-        "date": 1723063102546,
-        "tool": "customSmallerIsBetter",
-        "description": "The latency of signal handling on a single processor.",
-        "benches": [
-          {
-            "name": "Average Signal handler install latency on Linux",
-            "value": "0.3471",
-            "unit": "µs",
-            "extra": "linux_result"
-          },
-          {
-            "name": "Average Signal handler install latency on Asterinas",
-            "value": "0.3245",
-            "unit": "µs",
-            "extra": "aster_result"
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
-            "name": "Jianfeng Jiang",
-            "username": "StevenJiang1110",
-            "email": "jiangjianfeng.jjf@antgroup.com"
-          },
-          "committer": {
-            "name": "Tate, Hongliang Tian",
-            "username": "tatetian",
-            "email": "tatetian@gmail.com"
-          },
-          "id": "6414111cc57b42db2bae1a0c8b01b85c3830a3b3",
-          "message": "Support flag SA_RESETHAND",
-          "timestamp": "2024-08-07T09:17:46Z",
-          "url": "https://github.com/asterinas/asterinas/commit/6414111cc57b42db2bae1a0c8b01b85c3830a3b3"
-        },
-        "date": 1723104076701,
-        "tool": "customSmallerIsBetter",
-        "description": "The latency of signal handling on a single processor.",
-        "benches": [
-          {
-            "name": "Average Signal handler install latency on Linux",
-            "value": "0.3346",
-            "unit": "µs",
-            "extra": "linux_result"
-          },
-          {
-            "name": "Average Signal handler install latency on Asterinas",
-            "value": "0.3050",
-            "unit": "µs",
-            "extra": "aster_result"
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
-            "name": "Chen Chengjun",
-            "username": "cchanging",
-            "email": "chenchengjun.ccj@antgroup.com"
-          },
-          "committer": {
-            "name": "Tate, Hongliang Tian",
-            "username": "tatetian",
-            "email": "tatetian@gmail.com"
-          },
-          "id": "acb4833aae0476d7ed2d61871036aff3eaf77c5d",
-          "message": "Optimize trim_mappings",
-          "timestamp": "2024-08-02T03:14:14Z",
-          "url": "https://github.com/asterinas/asterinas/commit/acb4833aae0476d7ed2d61871036aff3eaf77c5d"
-        },
-        "date": 1723149332748,
-        "tool": "customSmallerIsBetter",
-        "description": "The latency of signal handling on a single processor.",
-        "benches": [
-          {
-            "name": "Average Signal handler install latency on Linux",
-            "value": "0.3324",
-            "unit": "µs",
-            "extra": "linux_result"
-          },
-          {
-            "name": "Average Signal handler install latency on Asterinas",
-            "value": "0.2643",
-            "unit": "µs",
-            "extra": "aster_result"
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
-            "name": "Chen Chengjun",
-            "username": "cchanging",
-            "email": "chenchengjun.ccj@antgroup.com"
-          },
-          "committer": {
-            "name": "Tate, Hongliang Tian",
-            "username": "tatetian",
-            "email": "tatetian@gmail.com"
-          },
-          "id": "75da7fd30eca1e80ad57da15bfe5dff6963c03c1",
-          "message": "Replace old user space read/write with new APIs",
-          "timestamp": "2024-08-09T08:11:43Z",
-          "url": "https://github.com/asterinas/asterinas/commit/75da7fd30eca1e80ad57da15bfe5dff6963c03c1"
-        },
-        "date": 1723235742976,
-        "tool": "customSmallerIsBetter",
-        "description": "The latency of signal handling on a single processor.",
-        "benches": [
-          {
-            "name": "Average Signal handler install latency on Linux",
-            "value": "0.3285",
-            "unit": "µs",
-            "extra": "linux_result"
-          },
-          {
-            "name": "Average Signal handler install latency on Asterinas",
-            "value": "0.3010",
-            "unit": "µs",
-            "extra": "aster_result"
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
-            "name": "Hsy-Intel",
-            "username": "Hsy-Intel",
-            "email": "siyuan.hui@intel.com"
-          },
-          "committer": {
-            "name": "Tate, Hongliang Tian",
-            "username": "tatetian",
-            "email": "tatetian@gmail.com"
-          },
-          "id": "a739b3828d106d4e09fe2ba7dd8eed12d18dd20a",
-          "message": "Use tdx-guest crate VE handler and support release mode for TDX",
-          "timestamp": "2024-08-09T10:56:43Z",
-          "url": "https://github.com/asterinas/asterinas/commit/a739b3828d106d4e09fe2ba7dd8eed12d18dd20a"
-        },
-        "date": 1723322138038,
-        "tool": "customSmallerIsBetter",
-        "description": "The latency of signal handling on a single processor.",
-        "benches": [
-          {
-            "name": "Average Signal handler install latency on Linux",
-            "value": "0.3345",
-            "unit": "µs",
-            "extra": "linux_result"
-          },
-          {
-            "name": "Average Signal handler install latency on Asterinas",
-            "value": "0.2891",
-            "unit": "µs",
-            "extra": "aster_result"
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
-            "name": "Hsy-Intel",
-            "username": "Hsy-Intel",
-            "email": "siyuan.hui@intel.com"
-          },
-          "committer": {
-            "name": "Tate, Hongliang Tian",
-            "username": "tatetian",
-            "email": "tatetian@gmail.com"
-          },
-          "id": "a739b3828d106d4e09fe2ba7dd8eed12d18dd20a",
-          "message": "Use tdx-guest crate VE handler and support release mode for TDX",
-          "timestamp": "2024-08-09T10:56:43Z",
-          "url": "https://github.com/asterinas/asterinas/commit/a739b3828d106d4e09fe2ba7dd8eed12d18dd20a"
-        },
-        "date": 1723408434460,
-        "tool": "customSmallerIsBetter",
-        "description": "The latency of signal handling on a single processor.",
-        "benches": [
-          {
-            "name": "Average Signal handler install latency on Linux",
-            "value": "0.3380",
-            "unit": "µs",
-            "extra": "linux_result"
-          },
-          {
-            "name": "Average Signal handler install latency on Asterinas",
-            "value": "0.2850",
-            "unit": "µs",
-            "extra": "aster_result"
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
-            "name": "Fabing Li",
-            "username": "grief8",
-            "email": "lifabing.lfb@antgroup.com"
-          },
-          "committer": {
-            "name": "Tate, Hongliang Tian",
-            "username": "tatetian",
-            "email": "tatetian@gmail.com"
-          },
-          "id": "f9bae1eee90c49d715569208009cc2c66768fe9a",
-          "message": "Fix lmbench-ctx extraction",
-          "timestamp": "2024-08-12T07:13:36Z",
-          "url": "https://github.com/asterinas/asterinas/commit/f9bae1eee90c49d715569208009cc2c66768fe9a"
-        },
-        "date": 1723495017545,
-        "tool": "customSmallerIsBetter",
-        "description": "The latency of signal handling on a single processor.",
-        "benches": [
-          {
-            "name": "Average Signal handler install latency on Linux",
-            "value": "0.3320",
-            "unit": "µs",
-            "extra": "linux_result"
-          },
-          {
-            "name": "Average Signal handler install latency on Asterinas",
-            "value": "0.2311",
-            "unit": "µs",
-            "extra": "aster_result"
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
-            "name": "Zhang Junyang",
-            "username": "junyang-zh",
-            "email": "junyang@stu.pku.edu.cn"
-          },
-          "committer": {
-            "name": "Tate, Hongliang Tian",
-            "username": "tatetian",
-            "email": "tatetian@gmail.com"
-          },
-          "id": "be54a39592ff60fae6e729abaa3d4a26dd7f5624",
-          "message": "Remove the preempt guard from the IRQ guard",
-          "timestamp": "2024-08-12T13:04:53Z",
-          "url": "https://github.com/asterinas/asterinas/commit/be54a39592ff60fae6e729abaa3d4a26dd7f5624"
-        },
-        "date": 1723581231083,
-        "tool": "customSmallerIsBetter",
-        "description": "The latency of signal handling on a single processor.",
-        "benches": [
-          {
-            "name": "Average Signal handler install latency on Linux",
-            "value": "0.3748",
-            "unit": "µs",
-            "extra": "linux_result"
-          },
-          {
-            "name": "Average Signal handler install latency on Asterinas",
-            "value": "0.2334",
-            "unit": "µs",
-            "extra": "aster_result"
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
-            "name": "Zhang Junyang",
-            "username": "junyang-zh",
-            "email": "junyang@stu.pku.edu.cn"
-          },
-          "committer": {
-            "name": "Tate, Hongliang Tian",
-            "username": "tatetian",
-            "email": "tatetian@gmail.com"
-          },
-          "id": "4844e7ca7ca6d78896a51a71487a6fdfe9ca6654",
-          "message": "Allow page table protectors to flush TLB entries precisely",
-          "timestamp": "2024-08-12T08:11:45Z",
-          "url": "https://github.com/asterinas/asterinas/commit/4844e7ca7ca6d78896a51a71487a6fdfe9ca6654"
-        },
-        "date": 1723667669595,
-        "tool": "customSmallerIsBetter",
-        "description": "The latency of signal handling on a single processor.",
-        "benches": [
-          {
-            "name": "Average Signal handler install latency on Linux",
-            "value": "0.3291",
-            "unit": "µs",
-            "extra": "linux_result"
-          },
-          {
-            "name": "Average Signal handler install latency on Asterinas",
-            "value": "0.2430",
-            "unit": "µs",
-            "extra": "aster_result"
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
-            "name": "Chen Chengjun",
-            "username": "cchanging",
-            "email": "chenchengjun.ccj@antgroup.com"
-          },
-          "committer": {
-            "name": "Tate, Hongliang Tian",
-            "username": "tatetian",
-            "email": "tatetian@gmail.com"
-          },
-          "id": "99a22ff124972872838fa5dc7094fa9a5eea557e",
-          "message": "Improve efficiency of global TLB flushing",
-          "timestamp": "2024-08-15T08:53:54Z",
-          "url": "https://github.com/asterinas/asterinas/commit/99a22ff124972872838fa5dc7094fa9a5eea557e"
-        },
-        "date": 1723754401002,
-        "tool": "customSmallerIsBetter",
-        "description": "The latency of signal handling on a single processor.",
-        "benches": [
-          {
-            "name": "Average Signal handler install latency on Linux",
-            "value": "0.3292",
-            "unit": "µs",
-            "extra": "linux_result"
-          },
-          {
-            "name": "Average Signal handler install latency on Asterinas",
-            "value": "0.2085",
-            "unit": "µs",
-            "extra": "aster_result"
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
-            "name": "Jianfeng Jiang",
-            "username": "StevenJiang1110",
-            "email": "jiangjianfeng.jjf@antgroup.com"
-          },
-          "committer": {
-            "name": "Tate, Hongliang Tian",
-            "username": "tatetian",
-            "email": "tatetian@gmail.com"
-          },
-          "id": "0291b5dc6bb142b9c6165c1cb29b7658eefdaa63",
-          "message": "Optimize the latency of lmbench-select-file",
-          "timestamp": "2024-08-15T03:44:30Z",
-          "url": "https://github.com/asterinas/asterinas/commit/0291b5dc6bb142b9c6165c1cb29b7658eefdaa63"
-        },
-        "date": 1723780624973,
-        "tool": "customSmallerIsBetter",
-        "description": "The latency of signal handling on a single processor.",
-        "benches": [
-          {
-            "name": "Average Signal handler install latency on Linux",
-            "value": "0.3346",
-            "unit": "µs",
-            "extra": "linux_result"
-          },
-          {
-            "name": "Average Signal handler install latency on Asterinas",
-            "value": "0.1964",
-            "unit": "µs",
-            "extra": "aster_result"
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
-            "name": "Jianfeng Jiang",
-            "username": "StevenJiang1110",
-            "email": "jiangjianfeng.jjf@antgroup.com"
-          },
-          "committer": {
-            "name": "Tate, Hongliang Tian",
-            "username": "tatetian",
-            "email": "tatetian@gmail.com"
-          },
-          "id": "0291b5dc6bb142b9c6165c1cb29b7658eefdaa63",
-          "message": "Optimize the latency of lmbench-select-file",
-          "timestamp": "2024-08-15T03:44:30Z",
-          "url": "https://github.com/asterinas/asterinas/commit/0291b5dc6bb142b9c6165c1cb29b7658eefdaa63"
-        },
-        "date": 1723783990150,
-        "tool": "customSmallerIsBetter",
-        "description": "The latency of signal handling on a single processor.",
-        "benches": [
-          {
-            "name": "Average Signal handler install latency on Linux",
-            "value": "0.3325",
-            "unit": "µs",
-            "extra": "linux_result"
-          },
-          {
-            "name": "Average Signal handler install latency on Asterinas",
-            "value": "0.2014",
-            "unit": "µs",
-            "extra": "aster_result"
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
-            "name": "Jianfeng Jiang",
-            "username": "StevenJiang1110",
-            "email": "jiangjianfeng.jjf@antgroup.com"
-          },
-          "committer": {
-            "name": "Tate, Hongliang Tian",
-            "username": "tatetian",
-            "email": "tatetian@gmail.com"
-          },
-          "id": "0291b5dc6bb142b9c6165c1cb29b7658eefdaa63",
-          "message": "Optimize the latency of lmbench-select-file",
-          "timestamp": "2024-08-15T03:44:30Z",
-          "url": "https://github.com/asterinas/asterinas/commit/0291b5dc6bb142b9c6165c1cb29b7658eefdaa63"
-        },
-        "date": 1723840801272,
-        "tool": "customSmallerIsBetter",
-        "description": "The latency of signal handling on a single processor.",
-        "benches": [
-          {
-            "name": "Average Signal handler install latency on Linux",
-            "value": "0.3284",
-            "unit": "µs",
-            "extra": "linux_result"
-          },
-          {
-            "name": "Average Signal handler install latency on Asterinas",
-            "value": "0.1966",
-            "unit": "µs",
-            "extra": "aster_result"
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
-            "name": "Fabing Li",
-            "username": "grief8",
-            "email": "lifabing.lfb@antgroup.com"
-          },
-          "committer": {
-            "name": "Tate, Hongliang Tian",
-            "username": "tatetian",
-            "email": "tatetian@gmail.com"
-          },
-          "id": "ce2af1eb057077753a7a757edc1833e677a83918",
-          "message": "Add flock and sys_flock",
-          "timestamp": "2024-08-12T03:51:41Z",
-          "url": "https://github.com/asterinas/asterinas/commit/ce2af1eb057077753a7a757edc1833e677a83918"
-        },
-        "date": 1723927374420,
-        "tool": "customSmallerIsBetter",
-        "description": "The latency of signal handling on a single processor.",
-        "benches": [
-          {
-            "name": "Average Signal handler install latency on Linux",
-            "value": "0.3294",
-            "unit": "µs",
-            "extra": "linux_result"
-          },
-          {
-            "name": "Average Signal handler install latency on Asterinas",
-            "value": "0.2022",
-            "unit": "µs",
-            "extra": "aster_result"
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
-            "name": "Yuke Peng",
-            "username": "sdww0",
-            "email": "pykfirst@gmail.com"
-          },
-          "committer": {
-            "name": "Tate, Hongliang Tian",
-            "username": "tatetian",
-            "email": "tatetian@gmail.com"
-          },
-          "id": "bbe43d76cc25538f04261379407f4fa721a13431",
-          "message": "Fix compile error due to `lock_irq_disabled`",
-          "timestamp": "2024-08-19T01:02:51Z",
-          "url": "https://github.com/asterinas/asterinas/commit/bbe43d76cc25538f04261379407f4fa721a13431"
-        },
-        "date": 1724100684571,
-        "tool": "customSmallerIsBetter",
-        "description": "The latency of signal handling on a single processor.",
-        "benches": [
-          {
-            "name": "Average Signal handler install latency on Linux",
-            "value": "0.3290",
-            "unit": "µs",
-            "extra": "linux_result"
-          },
-          {
-            "name": "Average Signal handler install latency on Asterinas",
-            "value": "0.2257",
-            "unit": "µs",
-            "extra": "aster_result"
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
-            "name": "Marsman1996",
-            "username": "Marsman1996",
-            "email": "lqliuyuwei@outlook.com"
-          },
-          "committer": {
-            "name": "Tate, Hongliang Tian",
-            "username": "tatetian",
-            "email": "tatetian@gmail.com"
-          },
-          "id": "fda0fa051265867c2399f4981fdccb9cc6df110d",
-          "message": "Align `len` in `madvise`",
-          "timestamp": "2024-08-19T09:01:16Z",
-          "url": "https://github.com/asterinas/asterinas/commit/fda0fa051265867c2399f4981fdccb9cc6df110d"
-        },
-        "date": 1724187060170,
-        "tool": "customSmallerIsBetter",
-        "description": "The latency of signal handling on a single processor.",
-        "benches": [
-          {
-            "name": "Average Signal handler install latency on Linux",
-            "value": "0.3291",
-            "unit": "µs",
-            "extra": "linux_result"
-          },
-          {
-            "name": "Average Signal handler install latency on Asterinas",
-            "value": "0.2098",
-            "unit": "µs",
-            "extra": "aster_result"
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
-            "name": "Shaowei Song",
-            "username": "lucassong-mh",
-            "email": "songshaowei.ssw@antgroup.com"
-          },
-          "committer": {
-            "name": "Tate, Hongliang Tian",
-            "username": "tatetian",
-            "email": "tatetian@gmail.com"
-          },
-          "id": "2102107be18729fba8f3546d5a3fe39c819d814a",
-          "message": "Refactor `VmReader`&`VmWriter` as given fallibility marker",
-          "timestamp": "2024-08-20T02:05:25Z",
-          "url": "https://github.com/asterinas/asterinas/commit/2102107be18729fba8f3546d5a3fe39c819d814a"
-        },
-        "date": 1724273487386,
-        "tool": "customSmallerIsBetter",
-        "description": "The latency of signal handling on a single processor.",
-        "benches": [
-          {
-            "name": "Average Signal handler install latency on Linux",
-            "value": "0.3360",
-            "unit": "µs",
-            "extra": "linux_result"
-          },
-          {
-            "name": "Average Signal handler install latency on Asterinas",
-            "value": "0.1950",
-            "unit": "µs",
-            "extra": "aster_result"
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
-            "name": "Yuke Peng",
-            "username": "sdww0",
-            "email": "pykfirst@gmail.com"
-          },
-          "committer": {
-            "name": "Tate, Hongliang Tian",
-            "username": "tatetian",
-            "email": "tatetian@gmail.com"
-          },
-          "id": "bb4751741a6cd6b919015f8f483512c90e73bf55",
-          "message": "Bump smoltcp to newest git version",
-          "timestamp": "2024-08-22T06:34:41Z",
-          "url": "https://github.com/asterinas/asterinas/commit/bb4751741a6cd6b919015f8f483512c90e73bf55"
-        },
-        "date": 1724360669967,
-        "tool": "customSmallerIsBetter",
-        "description": "The latency of signal handling on a single processor.",
-        "benches": [
-          {
-            "name": "Average Signal handler install latency on Linux",
-            "value": "0.3320",
-            "unit": "µs",
-            "extra": "linux_result"
-          },
-          {
-            "name": "Average Signal handler install latency on Asterinas",
-            "value": "0.2148",
-            "unit": "µs",
-            "extra": "aster_result"
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
-            "name": "Zhang Junyang",
-            "username": "junyang-zh",
-            "email": "junyang@stu.pku.edu.cn"
-          },
-          "committer": {
-            "name": "Tate, Hongliang Tian",
-            "username": "tatetian",
-            "email": "tatetian@gmail.com"
-          },
-          "id": "e50b05d1ee71f52679e8ed8ea310cda6bfcd7e0c",
-          "message": "Bump version to 0.8.0",
-          "timestamp": "2024-08-23T14:57:42Z",
-          "url": "https://github.com/asterinas/asterinas/commit/e50b05d1ee71f52679e8ed8ea310cda6bfcd7e0c"
-        },
-        "date": 1724447218665,
-        "tool": "customSmallerIsBetter",
-        "description": "The latency of signal handling on a single processor.",
-        "benches": [
-          {
-            "name": "Average Signal handler install latency on Linux",
-            "value": "0.3308",
-            "unit": "µs",
-            "extra": "linux_result"
-          },
-          {
-            "name": "Average Signal handler install latency on Asterinas",
-            "value": "0.2241",
-            "unit": "µs",
-            "extra": "aster_result"
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
-            "name": "Zhang Junyang",
-            "username": "junyang-zh",
-            "email": "junyang@stu.pku.edu.cn"
-          },
-          "committer": {
-            "name": "Tate, Hongliang Tian",
-            "username": "tatetian",
-            "email": "tatetian@gmail.com"
-          },
-          "id": "d22277a3e69040906cd198ea625614c5c69d66da",
-          "message": "Allow manually dispatching publishing workflows",
-          "timestamp": "2024-08-24T09:27:15Z",
-          "url": "https://github.com/asterinas/asterinas/commit/d22277a3e69040906cd198ea625614c5c69d66da"
-        },
-        "date": 1724533469829,
-        "tool": "customSmallerIsBetter",
-        "description": "The latency of signal handling on a single processor.",
-        "benches": [
-          {
-            "name": "Average Signal handler install latency on Linux",
-            "value": "0.3334",
-            "unit": "µs",
-            "extra": "linux_result"
-          },
-          {
-            "name": "Average Signal handler install latency on Asterinas",
-            "value": "0.2025",
-            "unit": "µs",
-            "extra": "aster_result"
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
-            "name": "Zhang Junyang",
-            "username": "junyang-zh",
-            "email": "junyang@stu.pku.edu.cn"
-          },
-          "committer": {
-            "name": "Tate, Hongliang Tian",
-            "username": "tatetian",
-            "email": "tatetian@gmail.com"
-          },
-          "id": "4231645c02ec317d99f0150bc8ed3210489855a0",
-          "message": "Fix `is_tdx_enabled` in OSDK tests",
-          "timestamp": "2024-08-25T12:16:30Z",
-          "url": "https://github.com/asterinas/asterinas/commit/4231645c02ec317d99f0150bc8ed3210489855a0"
-        },
-        "date": 1724619916060,
-        "tool": "customSmallerIsBetter",
-        "description": "The latency of signal handling on a single processor.",
-        "benches": [
-          {
-            "name": "Average Signal handler install latency on Linux",
-            "value": "0.1408",
-            "unit": "µs",
-            "extra": "linux_result"
-          },
-          {
-            "name": "Average Signal handler install latency on Asterinas",
-            "value": "0.2045",
-            "unit": "µs",
-            "extra": "aster_result"
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
-            "name": "Chen Chengjun",
-            "username": "cchanging",
-            "email": "chenchengjun.ccj@antgroup.com"
-          },
-          "committer": {
-            "name": "Tate, Hongliang Tian",
-            "username": "tatetian",
-            "email": "tatetian@gmail.com"
-          },
-          "id": "9e59db2f42c2ef9f8e91e0d1ee03562190726d56",
-          "message": "Make benchmark CI more fair",
-          "timestamp": "2024-08-26T09:41:40Z",
-          "url": "https://github.com/asterinas/asterinas/commit/9e59db2f42c2ef9f8e91e0d1ee03562190726d56"
-        },
-        "date": 1724706399685,
-        "tool": "customSmallerIsBetter",
-        "description": "The latency of signal handling on a single processor.",
-        "benches": [
-          {
-            "name": "Average Signal handler install latency on Linux",
-            "value": "0.1398",
-            "unit": "µs",
-            "extra": "linux_result"
-          },
-          {
-            "name": "Average Signal handler install latency on Asterinas",
-            "value": "0.2222",
-            "unit": "µs",
-            "extra": "aster_result"
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
-            "name": "Jianfeng Jiang",
-            "username": "StevenJiang1110",
-            "email": "jiangjianfeng.jjf@antgroup.com"
-          },
-          "committer": {
-            "name": "Tate, Hongliang Tian",
-            "username": "tatetian",
-            "email": "tatetian@gmail.com"
-          },
-          "id": "a72c7dadf3b9bb680b3092af6b64084b98008cb7",
-          "message": "Optimize the latency of lmbench-signal-prot",
-          "timestamp": "2024-08-27T06:37:02Z",
-          "url": "https://github.com/asterinas/asterinas/commit/a72c7dadf3b9bb680b3092af6b64084b98008cb7"
-        },
-        "date": 1724835009627,
-        "tool": "customSmallerIsBetter",
-        "description": "The latency of signal handling on a single processor.",
-        "benches": [
-          {
-            "name": "Average Signal handler install latency on Linux",
-            "value": "0.1448",
-            "unit": "µs",
-            "extra": "linux_result"
-          },
-          {
-            "name": "Average Signal handler install latency on Asterinas",
-            "value": "0.2061",
-            "unit": "µs",
-            "extra": "aster_result"
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
-            "name": "Shaowei Song",
-            "username": "lucassong-mh",
-            "email": "songshaowei.ssw@antgroup.com"
-          },
-          "committer": {
-            "name": "Tate, Hongliang Tian",
-            "username": "tatetian",
-            "email": "tatetian@gmail.com"
-          },
-          "id": "e6f465b553f613d60828e0e503dc94ce4109ded1",
-          "message": "Replace all the ring buffers with the new one",
-          "timestamp": "2024-08-28T06:23:24Z",
-          "url": "https://github.com/asterinas/asterinas/commit/e6f465b553f613d60828e0e503dc94ce4109ded1"
-        },
-        "date": 1724878640455,
-        "tool": "customSmallerIsBetter",
-        "description": "The latency of signal handling on a single processor.",
-        "benches": [
-          {
-            "name": "Average Signal handler install latency on Linux",
-            "value": "0.1414",
-            "unit": "µs",
-            "extra": "linux_result"
-          },
-          {
-            "name": "Average Signal handler install latency on Asterinas",
-            "value": "0.2184",
-            "unit": "µs",
-            "extra": "aster_result"
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
-            "name": "Chen Chengjun",
-            "username": "cchanging",
-            "email": "chenchengjun.ccj@antgroup.com"
-          },
-          "committer": {
-            "name": "Tate, Hongliang Tian",
-            "username": "tatetian",
-            "email": "tatetian@gmail.com"
-          },
-          "id": "00d9b01d5c356fbc5f6b72b9a69a7571fdf0ab1f",
-          "message": "Add a fast path to page table fork",
-          "timestamp": "2024-08-29T03:52:33Z",
-          "url": "https://github.com/asterinas/asterinas/commit/00d9b01d5c356fbc5f6b72b9a69a7571fdf0ab1f"
-        },
-        "date": 1724910875376,
-        "tool": "customSmallerIsBetter",
-        "description": "The latency of signal handling on a single processor.",
-        "benches": [
-          {
-            "name": "Average Signal handler install latency on Linux",
-            "value": "0.1406",
-            "unit": "µs",
-            "extra": "linux_result"
-          },
-          {
-            "name": "Average Signal handler install latency on Asterinas",
-            "value": "0.2046",
-            "unit": "µs",
-            "extra": "aster_result"
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
-            "name": "Chen Chengjun",
-            "username": "cchanging",
-            "email": "chenchengjun.ccj@antgroup.com"
-          },
-          "committer": {
-            "name": "Tate, Hongliang Tian",
-            "username": "tatetian",
-            "email": "tatetian@gmail.com"
-          },
-          "id": "00d9b01d5c356fbc5f6b72b9a69a7571fdf0ab1f",
-          "message": "Add a fast path to page table fork",
-          "timestamp": "2024-08-29T03:52:33Z",
-          "url": "https://github.com/asterinas/asterinas/commit/00d9b01d5c356fbc5f6b72b9a69a7571fdf0ab1f"
-        },
-        "date": 1724917081910,
-        "tool": "customSmallerIsBetter",
-        "description": "The latency of signal handling on a single processor.",
-        "benches": [
-          {
-            "name": "Average Signal handler install latency on Linux",
-            "value": "0.1411",
-            "unit": "µs",
-            "extra": "linux_result"
-          },
-          {
-            "name": "Average Signal handler install latency on Asterinas",
-            "value": "0.2218",
-            "unit": "µs",
-            "extra": "aster_result"
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
-            "name": "Yuke Peng",
-            "username": "sdww0",
-            "email": "pykfirst@gmail.com"
-          },
-          "committer": {
-            "name": "Tate, Hongliang Tian",
-            "username": "tatetian",
-            "email": "tatetian@gmail.com"
-          },
-          "id": "539984bbed414969b0c40cf181a10e9341ed2359",
-          "message": "Replace read with read_raw",
-          "timestamp": "2024-08-29T12:46:20Z",
-          "url": "https://github.com/asterinas/asterinas/commit/539984bbed414969b0c40cf181a10e9341ed2359"
-        },
-        "date": 1724965403217,
-        "tool": "customSmallerIsBetter",
-        "description": "The latency of signal handling on a single processor.",
-        "benches": [
-          {
-            "name": "Average Signal handler install latency on Linux",
-            "value": "0.1436",
-            "unit": "µs",
-            "extra": "linux_result"
-          },
-          {
-            "name": "Average Signal handler install latency on Asterinas",
-            "value": "0.2025",
-            "unit": "µs",
-            "extra": "aster_result"
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
-            "name": "Yuke Peng",
-            "username": "sdww0",
-            "email": "pykfirst@gmail.com"
-          },
-          "committer": {
-            "name": "Tate, Hongliang Tian",
-            "username": "tatetian",
-            "email": "tatetian@gmail.com"
-          },
-          "id": "db16caf28c46e4ed24099fcba13d40b7d673164c",
-          "message": "[Semaphore] Replace Mutex with SpinLock",
-          "timestamp": "2024-08-30T11:23:53Z",
-          "url": "https://github.com/asterinas/asterinas/commit/db16caf28c46e4ed24099fcba13d40b7d673164c"
-        },
-        "date": 1725051944491,
-        "tool": "customSmallerIsBetter",
-        "description": "The latency of signal handling on a single processor.",
-        "benches": [
-          {
-            "name": "Average Signal handler install latency on Linux",
-            "value": "0.1412",
-            "unit": "µs",
-            "extra": "linux_result"
-          },
-          {
-            "name": "Average Signal handler install latency on Asterinas",
-            "value": "0.2248",
-            "unit": "µs",
-            "extra": "aster_result"
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
-            "name": "YanWQ-monad",
-            "username": "YanWQ-monad",
-            "email": "YanWQmonad@gmail.com"
-          },
-          "committer": {
-            "name": "Tate, Hongliang Tian",
-            "username": "tatetian",
-            "email": "tatetian@gmail.com"
-          },
-          "id": "e6e771e9b5ae7d223a50aa4b38994500b0db6867",
-          "message": "Better timestamp in logging",
-          "timestamp": "2024-08-30T17:51:32Z",
-          "url": "https://github.com/asterinas/asterinas/commit/e6e771e9b5ae7d223a50aa4b38994500b0db6867"
-        },
-        "date": 1725138210695,
-        "tool": "customSmallerIsBetter",
-        "description": "The latency of signal handling on a single processor.",
-        "benches": [
-          {
-            "name": "Average Signal handler install latency on Linux",
-            "value": "0.1477",
-            "unit": "µs",
-            "extra": "linux_result"
-          },
-          {
-            "name": "Average Signal handler install latency on Asterinas",
-            "value": "0.2239",
-            "unit": "µs",
-            "extra": "aster_result"
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
-            "name": "Marsman1996",
-            "username": "Marsman1996",
-            "email": "lqliuyuwei@outlook.com"
-          },
-          "committer": {
-            "name": "Tate, Hongliang Tian",
-            "username": "tatetian",
-            "email": "tatetian@gmail.com"
-          },
-          "id": "745ac6d982638d3548f09ea2aa2103e37c135153",
-          "message": "Set overflow boundary to `isize::MAX` for memory related syscalls",
-          "timestamp": "2024-08-29T14:26:36Z",
-          "url": "https://github.com/asterinas/asterinas/commit/745ac6d982638d3548f09ea2aa2103e37c135153"
-        },
-        "date": 1725224724201,
-        "tool": "customSmallerIsBetter",
-        "description": "The latency of signal handling on a single processor.",
-        "benches": [
-          {
-            "name": "Average Signal handler install latency on Linux",
-            "value": "0.1422",
-            "unit": "µs",
-            "extra": "linux_result"
-          },
-          {
-            "name": "Average Signal handler install latency on Asterinas",
-            "value": "0.2251",
-            "unit": "µs",
-            "extra": "aster_result"
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
-            "name": "Shaowei Song",
-            "username": "lucassong-mh",
-            "email": "songshaowei.ssw@antgroup.com"
-          },
-          "committer": {
-            "name": "Tate, Hongliang Tian",
-            "username": "tatetian",
-            "email": "tatetian@gmail.com"
-          },
-          "id": "963874471284ed014b76d268d933b6d13073c2cc",
-          "message": "Unseekable files need not to manipulate the `offset`",
-          "timestamp": "2024-09-02T09:48:15Z",
-          "url": "https://github.com/asterinas/asterinas/commit/963874471284ed014b76d268d933b6d13073c2cc"
-        },
-        "date": 1725315722108,
-        "tool": "customSmallerIsBetter",
-        "description": "The latency of signal handling on a single processor.",
-        "benches": [
-          {
-            "name": "Average Signal handler install latency on Linux",
-            "value": "0.1421",
-            "unit": "µs",
-            "extra": "linux_result"
-          },
-          {
-            "name": "Average Signal handler install latency on Asterinas",
-            "value": "0.2030",
-            "unit": "µs",
-            "extra": "aster_result"
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
-            "name": "Shaowei Song",
-            "username": "lucassong-mh",
-            "email": "songshaowei.ssw@antgroup.com"
-          },
-          "committer": {
-            "name": "Tate, Hongliang Tian",
-            "username": "tatetian",
-            "email": "tatetian@gmail.com"
-          },
-          "id": "963874471284ed014b76d268d933b6d13073c2cc",
-          "message": "Unseekable files need not to manipulate the `offset`",
-          "timestamp": "2024-09-02T09:48:15Z",
-          "url": "https://github.com/asterinas/asterinas/commit/963874471284ed014b76d268d933b6d13073c2cc"
-        },
-        "date": 1725402116185,
-        "tool": "customSmallerIsBetter",
-        "description": "The latency of signal handling on a single processor.",
-        "benches": [
-          {
-            "name": "Average Signal handler install latency on Linux",
-            "value": "0.1428",
-            "unit": "µs",
-            "extra": "linux_result"
-          },
-          {
-            "name": "Average Signal handler install latency on Asterinas",
-            "value": "0.1935",
-            "unit": "µs",
-            "extra": "aster_result"
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
-            "name": "Ruize Tang",
-            "username": "tangruize",
-            "email": "1466040111@qq.com"
-          },
-          "committer": {
-            "name": "Tate, Hongliang Tian",
-            "username": "tatetian",
-            "email": "tatetian@gmail.com"
-          },
-          "id": "458a6a5b3b01aebe78c124fe20be91a91f0139da",
-          "message": "Fix unexpected unlock of mutexes, add a testcase",
-          "timestamp": "2024-09-03T07:33:12Z",
-          "url": "https://github.com/asterinas/asterinas/commit/458a6a5b3b01aebe78c124fe20be91a91f0139da"
-        },
-        "date": 1725488424940,
-        "tool": "customSmallerIsBetter",
-        "description": "The latency of signal handling on a single processor.",
-        "benches": [
-          {
-            "name": "Average Signal handler install latency on Linux",
-            "value": "0.1412",
-            "unit": "µs",
-            "extra": "linux_result"
-          },
-          {
-            "name": "Average Signal handler install latency on Asterinas",
-            "value": "0.2023",
-            "unit": "µs",
-            "extra": "aster_result"
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
-            "name": "Ruize Tang",
-            "username": "tangruize",
-            "email": "1466040111@qq.com"
-          },
-          "committer": {
-            "name": "Tate, Hongliang Tian",
-            "username": "tatetian",
-            "email": "tatetian@gmail.com"
-          },
-          "id": "458a6a5b3b01aebe78c124fe20be91a91f0139da",
-          "message": "Fix unexpected unlock of mutexes, add a testcase",
-          "timestamp": "2024-09-03T07:33:12Z",
-          "url": "https://github.com/asterinas/asterinas/commit/458a6a5b3b01aebe78c124fe20be91a91f0139da"
-        },
-        "date": 1725574925029,
-        "tool": "customSmallerIsBetter",
-        "description": "The latency of signal handling on a single processor.",
-        "benches": [
-          {
-            "name": "Average Signal handler install latency on Linux",
-            "value": "0.1416",
-            "unit": "µs",
-            "extra": "linux_result"
-          },
-          {
-            "name": "Average Signal handler install latency on Asterinas",
-            "value": "0.1979",
-            "unit": "µs",
-            "extra": "aster_result"
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
-            "name": "Thomas Dickson",
-            "username": "Hoverth",
-            "email": "modscrat+github@gmail.com"
-          },
-          "committer": {
-            "name": "Tate, Hongliang Tian",
-            "username": "tatetian",
-            "email": "tatetian@gmail.com"
-          },
-          "id": "64e43d34aab13eeddea8dd7485c712acc99116ca",
-          "message": "doc: fix typo in README.md",
-          "timestamp": "2024-09-06T04:11:16Z",
-          "url": "https://github.com/asterinas/asterinas/commit/64e43d34aab13eeddea8dd7485c712acc99116ca"
-        },
-        "date": 1725661189658,
-        "tool": "customSmallerIsBetter",
-        "description": "The latency of signal handling on a single processor.",
-        "benches": [
-          {
-            "name": "Average Signal handler install latency on Linux",
-            "value": "0.1420",
-            "unit": "µs",
-            "extra": "linux_result"
-          },
-          {
-            "name": "Average Signal handler install latency on Asterinas",
-            "value": "0.1947",
-            "unit": "µs",
-            "extra": "aster_result"
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
-            "name": "Zhang Junyang",
-            "username": "junyang-zh",
-            "email": "junyang@stu.pku.edu.cn"
-          },
-          "committer": {
-            "name": "Tate, Hongliang Tian",
-            "username": "tatetian",
-            "email": "tatetian@gmail.com"
-          },
-          "id": "c68302f7007225fa47f22a1085a8c59dcdae2ad4",
-          "message": "Don't hold any locks while waiting in `EpollFile`",
-          "timestamp": "2024-09-06T12:05:01Z",
-          "url": "https://github.com/asterinas/asterinas/commit/c68302f7007225fa47f22a1085a8c59dcdae2ad4"
-        },
-        "date": 1725747718317,
-        "tool": "customSmallerIsBetter",
-        "description": "The latency of signal handling on a single processor.",
-        "benches": [
-          {
-            "name": "Average Signal handler install latency on Linux",
-            "value": "0.1411",
-            "unit": "µs",
-            "extra": "linux_result"
-          },
-          {
-            "name": "Average Signal handler install latency on Asterinas",
-            "value": "0.1944",
-            "unit": "µs",
-            "extra": "aster_result"
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
-            "name": "Zhang Junyang",
-            "username": "junyang-zh",
-            "email": "junyang@stu.pku.edu.cn"
-          },
-          "committer": {
-            "name": "Tate, Hongliang Tian",
-            "username": "tatetian",
-            "email": "tatetian@gmail.com"
-          },
-          "id": "c68302f7007225fa47f22a1085a8c59dcdae2ad4",
-          "message": "Don't hold any locks while waiting in `EpollFile`",
-          "timestamp": "2024-09-06T12:05:01Z",
-          "url": "https://github.com/asterinas/asterinas/commit/c68302f7007225fa47f22a1085a8c59dcdae2ad4"
-        },
-        "date": 1725834141463,
-        "tool": "customSmallerIsBetter",
-        "description": "The latency of signal handling on a single processor.",
-        "benches": [
-          {
-            "name": "Average Signal handler install latency on Linux",
-            "value": "0.1404",
-            "unit": "µs",
-            "extra": "linux_result"
-          },
-          {
-            "name": "Average Signal handler install latency on Asterinas",
-            "value": "0.1952",
-            "unit": "µs",
-            "extra": "aster_result"
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
-            "name": "Zhang Junyang",
-            "username": "junyang-zh",
-            "email": "junyang@stu.pku.edu.cn"
-          },
-          "committer": {
-            "name": "Tate, Hongliang Tian",
-            "username": "tatetian",
-            "email": "tatetian@gmail.com"
-          },
-          "id": "c68302f7007225fa47f22a1085a8c59dcdae2ad4",
-          "message": "Don't hold any locks while waiting in `EpollFile`",
-          "timestamp": "2024-09-06T12:05:01Z",
-          "url": "https://github.com/asterinas/asterinas/commit/c68302f7007225fa47f22a1085a8c59dcdae2ad4"
-        },
-        "date": 1725920270908,
-        "tool": "customSmallerIsBetter",
-        "description": "The latency of signal handling on a single processor.",
-        "benches": [
-          {
-            "name": "Average Signal handler install latency on Linux",
-            "value": "0.1399",
-            "unit": "µs",
-            "extra": "linux_result"
-          },
-          {
-            "name": "Average Signal handler install latency on Asterinas",
-            "value": "0.1937",
-            "unit": "µs",
-            "extra": "aster_result"
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
-            "name": "Zhang Junyang",
-            "username": "junyang-zh",
-            "email": "junyang@stu.pku.edu.cn"
-          },
-          "committer": {
-            "name": "Tate, Hongliang Tian",
-            "username": "tatetian",
-            "email": "tatetian@gmail.com"
-          },
-          "id": "c68302f7007225fa47f22a1085a8c59dcdae2ad4",
-          "message": "Don't hold any locks while waiting in `EpollFile`",
-          "timestamp": "2024-09-06T12:05:01Z",
-          "url": "https://github.com/asterinas/asterinas/commit/c68302f7007225fa47f22a1085a8c59dcdae2ad4"
-        },
-        "date": 1726006711472,
-        "tool": "customSmallerIsBetter",
-        "description": "The latency of signal handling on a single processor.",
-        "benches": [
-          {
-            "name": "Average Signal handler install latency on Linux",
-            "value": "0.1396",
-            "unit": "µs",
-            "extra": "linux_result"
-          },
-          {
-            "name": "Average Signal handler install latency on Asterinas",
-            "value": "0.1943",
-            "unit": "µs",
-            "extra": "aster_result"
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
-            "name": "Shaowei Song",
-            "username": "lucassong-mh",
-            "email": "songshaowei.ssw@antgroup.com"
-          },
-          "committer": {
-            "name": "Tate, Hongliang Tian",
-            "username": "tatetian",
-            "email": "tatetian@gmail.com"
-          },
-          "id": "8bfbdf6642a9d04db3490792926d6a299d1e30be",
-          "message": "Optimize the lock usage in `RamInode`'s read/write",
-          "timestamp": "2024-09-02T13:23:46Z",
-          "url": "https://github.com/asterinas/asterinas/commit/8bfbdf6642a9d04db3490792926d6a299d1e30be"
-        },
-        "date": 1726088873529,
-        "tool": "customSmallerIsBetter",
-        "description": "The latency of signal handling on a single processor.",
-        "benches": [
-          {
-            "name": "Average Signal handler install latency on Linux",
-            "value": "0.1404",
-            "unit": "µs",
-            "extra": "linux_result"
-          },
-          {
-            "name": "Average Signal handler install latency on Asterinas",
-            "value": "0.1954",
-            "unit": "µs",
-            "extra": "aster_result"
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
-            "name": "Marsman1996",
-            "username": "Marsman1996",
-            "email": "lqliuyuwei@outlook.com"
-          },
-          "committer": {
-            "name": "Tate, Hongliang Tian",
-            "username": "tatetian",
-            "email": "tatetian@gmail.com"
-          },
-          "id": "6fcad6ce143b8f65e8be76297eb95a9cb56da22e",
-          "message": "Fix integer overflow in handle_page_faults_around",
-          "timestamp": "2024-09-12T12:15:04Z",
-          "url": "https://github.com/asterinas/asterinas/commit/6fcad6ce143b8f65e8be76297eb95a9cb56da22e"
-        },
-        "date": 1726175335488,
-        "tool": "customSmallerIsBetter",
-        "description": "The latency of signal handling on a single processor.",
-        "benches": [
-          {
-            "name": "Average Signal handler install latency on Linux",
-            "value": "0.1402",
-            "unit": "µs",
-            "extra": "linux_result"
-          },
-          {
-            "name": "Average Signal handler install latency on Asterinas",
-            "value": "0.1996",
-            "unit": "µs",
-            "extra": "aster_result"
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
-            "name": "Yuke Peng",
-            "username": "sdww0",
-            "email": "pykfirst@gmail.com"
-          },
-          "committer": {
-            "name": "Tate, Hongliang Tian",
-            "username": "tatetian",
-            "email": "tatetian@gmail.com"
-          },
-          "id": "32ea24e945efde86117d2278a48145d71b9ec90c",
-          "message": "Bump version to 0.8.2",
-          "timestamp": "2024-09-13T05:02:35Z",
-          "url": "https://github.com/asterinas/asterinas/commit/32ea24e945efde86117d2278a48145d71b9ec90c"
-        },
-        "date": 1726260871911,
-        "tool": "customSmallerIsBetter",
-        "title": "[Signals] The cost of installing a signal handler",
-        "description": "lat_sig install",
-        "display": true,
-        "benches": [
-          {
-            "name": "Average Signal handler install latency on Linux",
-            "value": "0.1501",
-            "unit": "µs",
-            "extra": "linux_result"
-          },
-          {
-            "name": "Average Signal handler install latency on Asterinas",
-            "value": "0.1980",
-            "unit": "µs",
-            "extra": "aster_result"
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
-            "name": "Fabing Li",
-            "username": "grief8",
-            "email": "lifabing.lfb@antgroup.com"
-          },
-          "committer": {
-            "name": "Fabing Li",
-            "username": "grief8",
-            "email": "lifabing.lfb@antgroup.com"
-          },
-          "id": "adfb4a081356bea739a1720f284c3e66d6a96d19",
-          "message": "test",
-          "timestamp": "2024-09-14T03:47:04Z",
-          "url": "https://github.com/grief8/asterinas/commit/adfb4a081356bea739a1720f284c3e66d6a96d19"
-        },
-        "date": 1726285963928,
-        "tool": "customSmallerIsBetter",
-        "title": "[Signals] The cost of installing a signal handler",
-        "description": "lat_sig install",
-        "display": true,
-        "benches": [
-          {
-            "name": "Average Signal handler install latency on Linux",
-            "value": "0.1299",
-            "unit": "µs",
-            "extra": "linux_result"
-          },
-          {
-            "name": "Average Signal handler install latency on Asterinas",
-            "value": "0.2346",
-            "unit": "µs",
-            "extra": "aster_result"
-          }
-        ]
-      }
-    ],
-    "signal_prot_lat": [
-      {
-        "commit": {
-          "author": {
-            "name": "Fabing Li",
-            "username": "grief8",
-            "email": "lifabing.lfb@antgroup.com"
-          },
-          "committer": {
-            "name": "Fabing Li",
-            "username": "grief8",
-            "email": "lifabing.lfb@antgroup.com"
-          },
-          "id": "52871246d45bbd86954f1d1dd5c65c98e1656064",
-          "message": "uP",
-          "timestamp": "2024-09-24T06:48:01Z",
-          "url": "https://github.com/grief8/asterinas/commit/52871246d45bbd86954f1d1dd5c65c98e1656064"
-        },
-        "date": 1727160804917,
-        "tool": "customSmallerIsBetter",
-        "title": "[Signals] The cost of catching a segfault",
-        "description": "lat_sig prot",
-        "display": true,
-        "benches": [
-          {
-            "name": "Average protection fault latency on Linux",
-            "value": "0.2506",
-            "unit": "µs",
-            "extra": "linux_result"
-          },
-          {
-            "name": "Average protection fault latency on Asterinas",
-            "value": "0.4054",
-            "unit": "µs",
-            "extra": "aster_result"
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
-            "name": "Fabing Li",
-            "username": "grief8",
-            "email": "lifabing.lfb@antgroup.com"
-          },
-          "committer": {
-            "name": "Fabing Li",
-            "username": "grief8",
-            "email": "lifabing.lfb@antgroup.com"
-          },
-          "id": "bb8d2fe583df04a06eaf4c931270c55dd06f48ae",
-          "message": "iuu",
-          "timestamp": "2024-09-24T06:58:54Z",
-          "url": "https://github.com/grief8/asterinas/commit/bb8d2fe583df04a06eaf4c931270c55dd06f48ae"
-        },
-        "date": 1727168646871,
-        "tool": "customSmallerIsBetter",
-        "title": "[Signals] The cost of catching a segfault",
-        "description": "lat_sig prot",
-        "display": true,
-        "benches": [
-          {
-            "name": "Average protection fault latency on Linux",
-            "value": "0.2650",
-            "unit": "µs",
-            "extra": "linux_result"
-          },
-          {
-            "name": "Average protection fault latency on Asterinas",
-            "value": "0.4193",
             "unit": "µs",
             "extra": "aster_result"
           }
