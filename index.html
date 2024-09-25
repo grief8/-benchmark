@@ -335,7 +335,7 @@
             const labels = Array.from(dataSet.normalizedData.keys());
             const asterinasValues = Array.from(dataSet.normalizedData.values());
             
-            const title = `Normalized performance of Asterinas (<a href="${new URL(dataSet.name, window.location.href)}" target="_blank">${dataSet.name}</a>)`;
+            const title = `<a href="${new URL(dataSet.name, window.location.href)}" target="_blank">${dataSet.name}</a>: Normalized performance of Asterinas`;
             const description = "For bandwidth, use Asterinas / Linux; for latency, use Linux / Asterinas. The higher, the better."
                   
             const nameElem = document.createElement('h1');
