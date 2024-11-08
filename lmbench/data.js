@@ -1,7 +1,46 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1731058782838,
+  "lastUpdate": 1731058789603,
   "repoUrl": "https://github.com/grief8/asterinas",
   "entries": {
+    "mem_pagefault_lat": [
+      {
+        "commit": {
+          "author": {
+            "name": "Fabing Li",
+            "username": "grief8",
+            "email": "lifabing.lfb@antgroup.com"
+          },
+          "committer": {
+            "name": "Fabing Li",
+            "username": "grief8",
+            "email": "lifabing.lfb@antgroup.com"
+          },
+          "id": "af23a192ecc9ef7858cfef17df5ca706a42f44c6",
+          "message": "tt",
+          "timestamp": "2024-11-08T09:31:51Z",
+          "url": "https://github.com/grief8/asterinas/commit/af23a192ecc9ef7858cfef17df5ca706a42f44c6"
+        },
+        "date": 1731058763135,
+        "tool": "customSmallerIsBetter",
+        "title": "[Memory] The cost of page fault handling",
+        "description": "lat_pagefault",
+        "display": true,
+        "benches": [
+          {
+            "name": "Average page fault latency on Linux",
+            "value": "0.1211",
+            "unit": "µs",
+            "extra": "linux_result"
+          },
+          {
+            "name": "Average page fault latency on Asterinas",
+            "value": "0.0948",
+            "unit": "µs",
+            "extra": "aster_result"
+          }
+        ]
+      }
+    ],
     "mem_mmap_lat": [
       {
         "commit": {
