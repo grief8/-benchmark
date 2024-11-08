@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1731040997848,
+  "lastUpdate": 1731041007846,
   "repoUrl": "https://github.com/grief8/asterinas",
   "entries": {
     "mem_mmap_lat": [
@@ -132,6 +132,43 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/grief8/asterinas/commit/f3bb8462703ded74e63ffe6fb1ecf2686b669251"
         },
         "date": 1731040971819,
+        "tool": "customSmallerIsBetter",
+        "title": "[Memory] The cost of mmap+unmap",
+        "description": "lat_mmap",
+        "display": true,
+        "benches": [
+          {
+            "name": "Average mmap latency on Linux",
+            "value": "20",
+            "unit": "µs",
+            "extra": "linux_result"
+          },
+          {
+            "name": "Average mmap latency on Asterinas",
+            "value": "19",
+            "unit": "µs",
+            "extra": "aster_result"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Fabing Li",
+            "username": "grief8",
+            "email": "lifabing.lfb@antgroup.com"
+          },
+          "committer": {
+            "name": "Fabing Li",
+            "username": "grief8",
+            "email": "lifabing.lfb@antgroup.com"
+          },
+          "id": "f3bb8462703ded74e63ffe6fb1ecf2686b669251",
+          "message": "ffs",
+          "timestamp": "2024-11-08T04:36:31Z",
+          "url": "https://github.com/grief8/asterinas/commit/f3bb8462703ded74e63ffe6fb1ecf2686b669251"
+        },
+        "date": 1731040974231,
         "tool": "customSmallerIsBetter",
         "title": "[Memory] The cost of mmap+unmap",
         "description": "lat_mmap",
