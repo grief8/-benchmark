@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1731316076775,
+  "lastUpdate": 1731317890017,
   "repoUrl": "https://github.com/grief8/asterinas",
   "entries": {
     "mem_pagefault_lat": [
@@ -192,6 +192,45 @@ window.BENCHMARK_DATA = {
             "name": "Average select file latency on Asterinas",
             "value": "2.9019",
             "unit": "µs",
+            "extra": "aster_result"
+          }
+        ]
+      }
+    ],
+    "ramfs_create_delete_files_0k_ops": [
+      {
+        "commit": {
+          "author": {
+            "name": "Fabing Li",
+            "username": "grief8",
+            "email": "lifabing.lfb@antgroup.com"
+          },
+          "committer": {
+            "name": "Fabing Li",
+            "username": "grief8",
+            "email": "lifabing.lfb@antgroup.com"
+          },
+          "id": "ba6ca7881344863038a0e0cef57ad68f09d251ad",
+          "message": "ff",
+          "timestamp": "2024-11-11T09:25:05Z",
+          "url": "https://github.com/grief8/asterinas/commit/ba6ca7881344863038a0e0cef57ad68f09d251ad"
+        },
+        "date": 1731317883749,
+        "tool": "customBiggerIsBetter",
+        "title": "[Ramfs] The throughput of creating/deleting small files (0KB)",
+        "description": "lat_fs -s 0k",
+        "display": true,
+        "benches": [
+          {
+            "name": "Number of created/deleted files on Linux",
+            "value": "3033",
+            "unit": "number",
+            "extra": "linux_result"
+          },
+          {
+            "name": "Number of created/deleted files on Asterinas",
+            "value": "5848",
+            "unit": "number",
             "extra": "aster_result"
           }
         ]
