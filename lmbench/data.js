@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1731317962842,
+  "lastUpdate": 1731318049837,
   "repoUrl": "https://github.com/grief8/asterinas",
   "entries": {
     "mem_pagefault_lat": [
@@ -541,6 +541,45 @@ window.BENCHMARK_DATA = {
             "name": "Number of created/deleted files on Asterinas",
             "value": "93",
             "unit": "number",
+            "extra": "aster_result"
+          }
+        ]
+      }
+    ],
+    "tcp_loopback_bw_4k": [
+      {
+        "commit": {
+          "author": {
+            "name": "Fabing Li",
+            "username": "grief8",
+            "email": "lifabing.lfb@antgroup.com"
+          },
+          "committer": {
+            "name": "Fabing Li",
+            "username": "grief8",
+            "email": "lifabing.lfb@antgroup.com"
+          },
+          "id": "ba6ca7881344863038a0e0cef57ad68f09d251ad",
+          "message": "ff",
+          "timestamp": "2024-11-11T09:25:05Z",
+          "url": "https://github.com/grief8/asterinas/commit/ba6ca7881344863038a0e0cef57ad68f09d251ad"
+        },
+        "date": 1731318043892,
+        "tool": "customBiggerIsBetter",
+        "title": "[TCP sockets] The bandwidth (localhost, 4KB message)",
+        "description": "bw_tcp -l",
+        "display": false,
+        "benches": [
+          {
+            "name": "Average TCP bandwidth on Linux",
+            "value": "3980.43",
+            "unit": "MB/s",
+            "extra": "linux_result"
+          },
+          {
+            "name": "Average TCP bandwidth on Asterinas",
+            "value": "3411.50",
+            "unit": "MB/s",
             "extra": "aster_result"
           }
         ]
