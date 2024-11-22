@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1732259548297,
+  "lastUpdate": 1732259565411,
   "repoUrl": "https://github.com/grief8/asterinas",
   "entries": {
     "mem_pagefault_lat": [
@@ -949,6 +949,45 @@ window.BENCHMARK_DATA = {
           {
             "name": "Average fifo latency on Asterinas",
             "value": "2.2768",
+            "unit": "µs",
+            "extra": "aster_result"
+          }
+        ]
+      }
+    ],
+    "unix_lat": [
+      {
+        "commit": {
+          "author": {
+            "name": "Fabing Li",
+            "username": "grief8",
+            "email": "lifabing.lfb@antgroup.com"
+          },
+          "committer": {
+            "name": "Fabing Li",
+            "username": "grief8",
+            "email": "lifabing.lfb@antgroup.com"
+          },
+          "id": "bc279810622e61badcd4c6b98fc3ec7feec0f4d5",
+          "message": "tm",
+          "timestamp": "2024-11-22T06:45:07Z",
+          "url": "https://github.com/grief8/asterinas/commit/bc279810622e61badcd4c6b98fc3ec7feec0f4d5"
+        },
+        "date": 1732259559434,
+        "tool": "customSmallerIsBetter",
+        "title": "[Unix sockets] The latency of write+read",
+        "description": "lat_unix",
+        "display": true,
+        "benches": [
+          {
+            "name": "Average unix latency on Linux",
+            "value": "3.7020",
+            "unit": "µs",
+            "extra": "linux_result"
+          },
+          {
+            "name": "Average unix latency on Asterinas",
+            "value": "2.6911",
             "unit": "µs",
             "extra": "aster_result"
           }
