@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1732274713252,
+  "lastUpdate": 1732274730885,
   "repoUrl": "https://github.com/grief8/asterinas",
   "entries": {
     "ext2_deletes_between": [
@@ -1712,6 +1712,43 @@ window.BENCHMARK_DATA = {
           {
             "name": "The speed of VACUUM Asterinas (Ext2)",
             "value": "0.224",
+            "unit": "second",
+            "extra": "aster_result"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Fabing Li",
+            "username": "grief8",
+            "email": "lifabing.lfb@antgroup.com"
+          },
+          "committer": {
+            "name": "Fabing Li",
+            "username": "grief8",
+            "email": "lifabing.lfb@antgroup.com"
+          },
+          "id": "e4a61253bcf2e0b27e5fe377000cc986fd7f8920",
+          "message": "tmp",
+          "timestamp": "2024-11-22T10:47:13Z",
+          "url": "https://github.com/grief8/asterinas/commit/e4a61253bcf2e0b27e5fe377000cc986fd7f8920"
+        },
+        "date": 1732274724678,
+        "tool": "customSmallerIsBetter",
+        "title": "[Ext2] The 'VACUUM' result of sqlite speedtest",
+        "description": "sqlite-speed-test: repacking database file into a minimal amount of disk space",
+        "display": false,
+        "benches": [
+          {
+            "name": "The speed of VACUUM on Linux (Ext2)",
+            "value": "0.197",
+            "unit": "second",
+            "extra": "linux_result"
+          },
+          {
+            "name": "The speed of VACUUM Asterinas (Ext2)",
+            "value": "0.225",
             "unit": "second",
             "extra": "aster_result"
           }
