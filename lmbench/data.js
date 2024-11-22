@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1732274037379,
+  "lastUpdate": 1732274057127,
   "repoUrl": "https://github.com/grief8/asterinas",
   "entries": {
     "mem_pagefault_lat": [
@@ -4058,6 +4058,43 @@ window.BENCHMARK_DATA = {
           {
             "name": "Average simple HTTP transaction bandwidth on Asterinas",
             "value": "3103.45",
+            "unit": "MB/s",
+            "extra": "aster_result"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Fabing Li",
+            "username": "grief8",
+            "email": "lifabing.lfb@antgroup.com"
+          },
+          "committer": {
+            "name": "Fabing Li",
+            "username": "grief8",
+            "email": "lifabing.lfb@antgroup.com"
+          },
+          "id": "e4a61253bcf2e0b27e5fe377000cc986fd7f8920",
+          "message": "tmp",
+          "timestamp": "2024-11-22T10:47:13Z",
+          "url": "https://github.com/grief8/asterinas/commit/e4a61253bcf2e0b27e5fe377000cc986fd7f8920"
+        },
+        "date": 1732274050576,
+        "tool": "customBiggerIsBetter",
+        "title": "[HTTP] The bandwidth",
+        "description": "bw_http",
+        "display": true,
+        "benches": [
+          {
+            "name": "Average simple HTTP transaction bandwidth on Linux",
+            "value": "3870.63",
+            "unit": "MB/s",
+            "extra": "linux_result"
+          },
+          {
+            "name": "Average simple HTTP transaction bandwidth on Asterinas",
+            "value": "3302.28",
             "unit": "MB/s",
             "extra": "aster_result"
           }
