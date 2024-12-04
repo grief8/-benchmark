@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1733315236393,
+  "lastUpdate": 1733315259260,
   "repoUrl": "https://github.com/grief8/asterinas",
   "entries": {
     "ext2_deletes_between": [
@@ -1151,6 +1151,43 @@ window.BENCHMARK_DATA = {
           {
             "name": "The speed of selects-ipk on Asterinas (Ext2)",
             "value": "0.594",
+            "unit": "second",
+            "extra": "aster_result"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Fabing Li",
+            "username": "grief8",
+            "email": "lifabing.lfb@antgroup.com"
+          },
+          "committer": {
+            "name": "Fabing Li",
+            "username": "grief8",
+            "email": "lifabing.lfb@antgroup.com"
+          },
+          "id": "632a086fb1e226f034cb8b1f06db665dbea06d44",
+          "message": "tt",
+          "timestamp": "2024-12-04T11:51:06Z",
+          "url": "https://github.com/grief8/asterinas/commit/632a086fb1e226f034cb8b1f06db665dbea06d44"
+        },
+        "date": 1733315252825,
+        "tool": "customSmallerIsBetter",
+        "title": "[Ext2] The selects-ipk result of sqlite speedtest",
+        "description": "sqlite-speed-test: 70000 SELECTS on an IPK",
+        "display": false,
+        "benches": [
+          {
+            "name": "The speed of selects-ipk on Linux (Ext2)",
+            "value": "0.237",
+            "unit": "second",
+            "extra": "linux_result"
+          },
+          {
+            "name": "The speed of selects-ipk on Asterinas (Ext2)",
+            "value": "0.587",
             "unit": "second",
             "extra": "aster_result"
           }
