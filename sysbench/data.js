@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1733315398671,
+  "lastUpdate": 1733315418303,
   "repoUrl": "https://github.com/grief8/asterinas",
   "entries": {
     "cpu_lat": [
@@ -185,6 +185,43 @@ window.BENCHMARK_DATA = {
           {
             "name": "Average Execution Time per Thread on Asterinas",
             "value": "17.08",
+            "unit": "ms",
+            "extra": "aster_result"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Fabing Li",
+            "username": "grief8",
+            "email": "lifabing.lfb@antgroup.com"
+          },
+          "committer": {
+            "name": "Fabing Li",
+            "username": "grief8",
+            "email": "lifabing.lfb@antgroup.com"
+          },
+          "id": "632a086fb1e226f034cb8b1f06db665dbea06d44",
+          "message": "tt",
+          "timestamp": "2024-12-04T11:51:06Z",
+          "url": "https://github.com/grief8/asterinas/commit/632a086fb1e226f034cb8b1f06db665dbea06d44"
+        },
+        "date": 1733315412131,
+        "tool": "customSmallerIsBetter",
+        "title": "[Threads] Threads performance",
+        "description": "sysbench threads",
+        "display": true,
+        "benches": [
+          {
+            "name": "Average Execution Time per Thread on Linux",
+            "value": "15.90",
+            "unit": "ms",
+            "extra": "linux_result"
+          },
+          {
+            "name": "Average Execution Time per Thread on Asterinas",
+            "value": "14.31",
             "unit": "ms",
             "extra": "aster_result"
           }
