@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1732274769894,
+  "lastUpdate": 1733315398671,
   "repoUrl": "https://github.com/grief8/asterinas",
   "entries": {
     "cpu_lat": [
@@ -72,6 +72,43 @@ window.BENCHMARK_DATA = {
           {
             "name": "Average Execution Time per CPU on Asterinas",
             "value": "2.84",
+            "unit": "ms",
+            "extra": "aster_result"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Fabing Li",
+            "username": "grief8",
+            "email": "lifabing.lfb@antgroup.com"
+          },
+          "committer": {
+            "name": "Fabing Li",
+            "username": "grief8",
+            "email": "lifabing.lfb@antgroup.com"
+          },
+          "id": "632a086fb1e226f034cb8b1f06db665dbea06d44",
+          "message": "tt",
+          "timestamp": "2024-12-04T11:51:06Z",
+          "url": "https://github.com/grief8/asterinas/commit/632a086fb1e226f034cb8b1f06db665dbea06d44"
+        },
+        "date": 1733315392586,
+        "tool": "customSmallerIsBetter",
+        "title": "[CPU] CPU performance",
+        "description": "sysbench cpu",
+        "display": true,
+        "benches": [
+          {
+            "name": "Average Execution Time per CPU on Linux",
+            "value": "2.81",
+            "unit": "ms",
+            "extra": "linux_result"
+          },
+          {
+            "name": "Average Execution Time per CPU on Asterinas",
+            "value": "2.87",
             "unit": "ms",
             "extra": "aster_result"
           }
