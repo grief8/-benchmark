@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1733908770667,
+  "lastUpdate": 1733908788819,
   "repoUrl": "https://github.com/grief8/asterinas",
   "entries": {
     "ping_inline_100k_conc20_rps": [
@@ -294,6 +294,43 @@ window.BENCHMARK_DATA = {
           {
             "name": "Average RPS of PING_INLINE over virtio-net between Host Linux and Guest Asterinas",
             "value": "18786.40",
+            "unit": "request per second",
+            "extra": "aster_result"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Fabing Li",
+            "username": "grief8",
+            "email": "lifabing.lfb@antgroup.com"
+          },
+          "committer": {
+            "name": "Fabing Li",
+            "username": "grief8",
+            "email": "lifabing.lfb@antgroup.com"
+          },
+          "id": "d4cb2625c4e6681f0e4da7e0f077ef39c7db0f06",
+          "message": "ss",
+          "timestamp": "2024-12-11T09:10:13Z",
+          "url": "https://github.com/grief8/asterinas/commit/d4cb2625c4e6681f0e4da7e0f077ef39c7db0f06"
+        },
+        "date": 1733908783868,
+        "tool": "customBiggerIsBetter",
+        "title": "Redis PING INLINE performance with 20 concurrency and 100000 requests in total",
+        "description": "redis-benchmark -n 100000 -c 20 -t ping_inline",
+        "display": true,
+        "benches": [
+          {
+            "name": "Average RPS of PING_INLINE over virtio-net between Host Linux and Guest Linux",
+            "value": "34411.56",
+            "unit": "request per second",
+            "extra": "linux_result"
+          },
+          {
+            "name": "Average RPS of PING_INLINE over virtio-net between Host Linux and Guest Asterinas",
+            "value": "22271.72",
             "unit": "request per second",
             "extra": "aster_result"
           }
