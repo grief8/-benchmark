@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1733908423306,
+  "lastUpdate": 1733908440791,
   "repoUrl": "https://github.com/grief8/asterinas",
   "entries": {
     "mem_pagefault_lat": [
@@ -8159,6 +8159,43 @@ window.BENCHMARK_DATA = {
           {
             "name": "Average TCP latency on Asterinas",
             "value": "3.7127",
+            "unit": "µs",
+            "extra": "aster_result"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Fabing Li",
+            "username": "grief8",
+            "email": "lifabing.lfb@antgroup.com"
+          },
+          "committer": {
+            "name": "Fabing Li",
+            "username": "grief8",
+            "email": "lifabing.lfb@antgroup.com"
+          },
+          "id": "d4cb2625c4e6681f0e4da7e0f077ef39c7db0f06",
+          "message": "ss",
+          "timestamp": "2024-12-11T09:10:13Z",
+          "url": "https://github.com/grief8/asterinas/commit/d4cb2625c4e6681f0e4da7e0f077ef39c7db0f06"
+        },
+        "date": 1733908435881,
+        "tool": "customSmallerIsBetter",
+        "title": "[TCP sockets] The latency of write+read",
+        "description": "lat_tcp",
+        "display": true,
+        "benches": [
+          {
+            "name": "Average TCP latency on Linux",
+            "value": "6.5933",
+            "unit": "µs",
+            "extra": "linux_result"
+          },
+          {
+            "name": "Average TCP latency on Asterinas",
+            "value": "3.8045",
             "unit": "µs",
             "extra": "aster_result"
           }
