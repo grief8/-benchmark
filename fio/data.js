@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1733907910236,
+  "lastUpdate": 1734062854134,
   "repoUrl": "https://github.com/grief8/asterinas",
   "entries": {
     "ext2_seq_write_bw": [
@@ -1299,6 +1299,43 @@ window.BENCHMARK_DATA = {
           {
             "name": "Average file read bandwidth on Asterinas",
             "value": "3553",
+            "unit": "MB/s",
+            "extra": "aster_result"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Fabing Li",
+            "username": "grief8",
+            "email": "lifabing.lfb@antgroup.com"
+          },
+          "committer": {
+            "name": "GitHub",
+            "username": "web-flow",
+            "email": "noreply@github.com"
+          },
+          "id": "b62c32279fba4c1ba067e8e2b3e1cbe225e0a134",
+          "message": "Update benchmark_asterinas.yml",
+          "timestamp": "2024-12-13T03:41:58Z",
+          "url": "https://github.com/grief8/asterinas/commit/b62c32279fba4c1ba067e8e2b3e1cbe225e0a134"
+        },
+        "date": 1734062849276,
+        "tool": "customBiggerIsBetter",
+        "title": "[Ext2] The bandwidth of sequential reads (IOMMU enabled on Asterinas)",
+        "description": "fio -filename=/ext2/fio-test -size=1G -bs=1M -direct=1",
+        "display": true,
+        "benches": [
+          {
+            "name": "Average file read bandwidth on Linux",
+            "value": "2092",
+            "unit": "MB/s",
+            "extra": "linux_result"
+          },
+          {
+            "name": "Average file read bandwidth on Asterinas",
+            "value": "3435",
             "unit": "MB/s",
             "extra": "aster_result"
           }
