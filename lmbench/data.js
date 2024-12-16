@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1734335941775,
+  "lastUpdate": 1734335957265,
   "repoUrl": "https://github.com/grief8/asterinas",
   "entries": {
     "mem_pagefault_lat": [
@@ -5987,6 +5987,43 @@ window.BENCHMARK_DATA = {
           {
             "name": "Average unix connect latency on Asterinas",
             "value": "3.4598",
+            "unit": "µs",
+            "extra": "aster_result"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Fabing Li",
+            "username": "grief8",
+            "email": "lifabing.lfb@antgroup.com"
+          },
+          "committer": {
+            "name": "GitHub",
+            "username": "web-flow",
+            "email": "noreply@github.com"
+          },
+          "id": "3b13033bf53b2d126e8c5fd6b0fee64407c674b4",
+          "message": "Update benchmark_asterinas.yml",
+          "timestamp": "2024-12-16T07:41:28Z",
+          "url": "https://github.com/grief8/asterinas/commit/3b13033bf53b2d126e8c5fd6b0fee64407c674b4"
+        },
+        "date": 1734335952205,
+        "tool": "customSmallerIsBetter",
+        "title": "[Unix sockets] The latency of connect",
+        "description": "lat_connect",
+        "display": true,
+        "benches": [
+          {
+            "name": "Average unix connect latency on Linux",
+            "value": "8.3641",
+            "unit": "µs",
+            "extra": "linux_result"
+          },
+          {
+            "name": "Average unix connect latency on Asterinas",
+            "value": "3.4426",
             "unit": "µs",
             "extra": "aster_result"
           }
