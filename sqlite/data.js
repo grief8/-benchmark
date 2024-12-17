@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1734419522143,
+  "lastUpdate": 1734419538934,
   "repoUrl": "https://github.com/grief8/asterinas",
   "entries": {
     "ext2_deletes_between": [
@@ -6363,6 +6363,43 @@ window.BENCHMARK_DATA = {
           {
             "name": "Total speed on Asterinas (Ramfs)",
             "value": "68.343",
+            "unit": "second",
+            "extra": "aster_result"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Fabing Li",
+            "username": "grief8",
+            "email": "lifabing.lfb@antgroup.com"
+          },
+          "committer": {
+            "name": "Fabing Li",
+            "username": "grief8",
+            "email": "lifabing.lfb@antgroup.com"
+          },
+          "id": "93465aa56c72644bb53bbb6a560453cac60a9b2a",
+          "message": "sds",
+          "timestamp": "2024-12-17T06:57:18Z",
+          "url": "https://github.com/grief8/asterinas/commit/93465aa56c72644bb53bbb6a560453cac60a9b2a"
+        },
+        "date": 1734419533824,
+        "tool": "customSmallerIsBetter",
+        "title": "[Ramfs] The total result of sqlite speedtest",
+        "description": "sqlite-speed-test: total",
+        "display": true,
+        "benches": [
+          {
+            "name": "Total speed on Linux (Ramfs)",
+            "value": "63.921",
+            "unit": "second",
+            "extra": "linux_result"
+          },
+          {
+            "name": "Total speed on Asterinas (Ramfs)",
+            "value": "66.402",
             "unit": "second",
             "extra": "aster_result"
           }
