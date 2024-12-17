@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1734355575067,
+  "lastUpdate": 1734418071192,
   "repoUrl": "https://github.com/grief8/asterinas",
   "entries": {
     "tcp_virtio_bw": [
@@ -331,6 +331,43 @@ window.BENCHMARK_DATA = {
           {
             "name": "Average TCP Bandwidth over virtio-net between Host Linux and Guest Asterinas",
             "value": "1321",
+            "unit": "Mbits/sec",
+            "extra": "aster_result"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Fabing Li",
+            "username": "grief8",
+            "email": "lifabing.lfb@antgroup.com"
+          },
+          "committer": {
+            "name": "Fabing Li",
+            "username": "grief8",
+            "email": "lifabing.lfb@antgroup.com"
+          },
+          "id": "9e2623e0aa536af3e2e8f2d87134a3adf9839b77",
+          "message": "update",
+          "timestamp": "2024-12-17T06:28:02Z",
+          "url": "https://github.com/grief8/asterinas/commit/9e2623e0aa536af3e2e8f2d87134a3adf9839b77"
+        },
+        "date": 1734418065732,
+        "tool": "customBiggerIsBetter",
+        "title": "[Network] iperf3 sender performance using TCP",
+        "description": "iperf3 -s -B 10.0.2.15",
+        "display": true,
+        "benches": [
+          {
+            "name": "Average TCP Bandwidth over virtio-net between Host Linux and Guest Linux",
+            "value": "8450",
+            "unit": "Mbits/sec",
+            "extra": "linux_result"
+          },
+          {
+            "name": "Average TCP Bandwidth over virtio-net between Host Linux and Guest Asterinas",
+            "value": "1328",
             "unit": "Mbits/sec",
             "extra": "aster_result"
           }
