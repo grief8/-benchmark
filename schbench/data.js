@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1734938580388,
+  "lastUpdate": 1734938593767,
   "repoUrl": "https://github.com/grief8/asterinas",
   "entries": {
     "p50_rps_smp1": [
@@ -114,6 +114,45 @@ window.BENCHMARK_DATA = {
             "name": "P99 wakeup latency of schbench on Asterinas",
             "value": "1",
             "unit": "µs",
+            "extra": "aster_result"
+          }
+        ]
+      }
+    ],
+    "p50_rps_smp8": [
+      {
+        "commit": {
+          "author": {
+            "name": "Fabing Li",
+            "username": "grief8",
+            "email": "lifabing.lfb@antgroup.com"
+          },
+          "committer": {
+            "name": "Fabing Li",
+            "username": "grief8",
+            "email": "lifabing.lfb@antgroup.com"
+          },
+          "id": "d6a07c28c389660e91bf2d46852033ce257a2f7b",
+          "message": "e",
+          "timestamp": "2024-12-23T07:12:49Z",
+          "url": "https://github.com/grief8/asterinas/commit/d6a07c28c389660e91bf2d46852033ce257a2f7b"
+        },
+        "date": 1734938588941,
+        "tool": "customBiggerIsBetter",
+        "title": "[Scheduler] P50 RPS while max-loading the only CPU",
+        "description": "schbench -F 256 -n 5 -r 90",
+        "display": false,
+        "benches": [
+          {
+            "name": "P50 RPS of schbench on Linux",
+            "value": "306",
+            "unit": "requests per second",
+            "extra": "linux_result"
+          },
+          {
+            "name": "P50 RPS of schbench on Asterinas",
+            "value": "49",
+            "unit": "requests per second",
             "extra": "aster_result"
           }
         ]
