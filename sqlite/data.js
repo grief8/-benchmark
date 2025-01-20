@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1737385429898,
+  "lastUpdate": 1737385450430,
   "repoUrl": "https://github.com/grief8/asterinas",
   "entries": {
     "ext2_deletes_between": [
@@ -5451,6 +5451,43 @@ window.BENCHMARK_DATA = {
           {
             "name": "The speed of updates-big-one on Asterinas (Ext2)",
             "value": "0.401",
+            "unit": "second",
+            "extra": "aster_result"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Fabing Li",
+            "username": "grief8",
+            "email": "lifabing.lfb@antgroup.com"
+          },
+          "committer": {
+            "name": "Fabing Li",
+            "username": "grief8",
+            "email": "lifabing.lfb@antgroup.com"
+          },
+          "id": "7030a99f9405c6fa96e8cce636e0bf24dd8c0b36",
+          "message": "test",
+          "timestamp": "2025-01-20T14:14:18Z",
+          "url": "https://github.com/grief8/asterinas/commit/7030a99f9405c6fa96e8cce636e0bf24dd8c0b36"
+        },
+        "date": 1737385444789,
+        "tool": "customBiggerIsBetter",
+        "title": "[Ext2] The updates-big-one result of sqlite speedtest",
+        "description": "sqlite-speed-test: One big UPDATE of the whole 50000-row table",
+        "display": true,
+        "benches": [
+          {
+            "name": "The speed of updates-big-one on Linux (Ext2)",
+            "value": "0.281",
+            "unit": "second",
+            "extra": "linux_result"
+          },
+          {
+            "name": "The speed of updates-big-one on Asterinas (Ext2)",
+            "value": "0.402",
             "unit": "second",
             "extra": "aster_result"
           }
