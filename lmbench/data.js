@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1737610787515,
+  "lastUpdate": 1737610803776,
   "repoUrl": "https://github.com/grief8/asterinas",
   "entries": {
     "mem_pagefault_lat": [
@@ -21018,6 +21018,43 @@ window.BENCHMARK_DATA = {
           {
             "name": "Average TCP latency over virtio-net on Asterinas",
             "value": "83.7024",
+            "unit": "µs",
+            "extra": "aster_result"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Fabing Li",
+            "username": "grief8",
+            "email": "lifabing.lfb@antgroup.com"
+          },
+          "committer": {
+            "name": "Fabing Li",
+            "username": "grief8",
+            "email": "lifabing.lfb@antgroup.com"
+          },
+          "id": "7030a99f9405c6fa96e8cce636e0bf24dd8c0b36",
+          "message": "test",
+          "timestamp": "2025-01-20T14:14:18Z",
+          "url": "https://github.com/grief8/asterinas/commit/7030a99f9405c6fa96e8cce636e0bf24dd8c0b36"
+        },
+        "date": 1737610798419,
+        "tool": "customBiggerIsBetter",
+        "title": "[TCP sockets] The latency over virtio-net",
+        "description": "lat_tcp_virtio",
+        "display": true,
+        "benches": [
+          {
+            "name": "Average TCP latency over virtio-net on Linux",
+            "value": "103.0003",
+            "unit": "µs",
+            "extra": "linux_result"
+          },
+          {
+            "name": "Average TCP latency over virtio-net on Asterinas",
+            "value": "87.6581",
             "unit": "µs",
             "extra": "aster_result"
           }
