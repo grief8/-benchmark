@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1737625123861,
+  "lastUpdate": 1737625144125,
   "repoUrl": "https://github.com/grief8/asterinas",
   "entries": {
     "mem_pagefault_lat": [
@@ -12616,6 +12616,43 @@ window.BENCHMARK_DATA = {
           {
             "name": "Average write latency on Asterinas",
             "value": "0.1016",
+            "unit": "µs",
+            "extra": "aster_result"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Fabing Li",
+            "username": "grief8",
+            "email": "lifabing.lfb@antgroup.com"
+          },
+          "committer": {
+            "name": "Fabing Li",
+            "username": "grief8",
+            "email": "lifabing.lfb@antgroup.com"
+          },
+          "id": "542592a83596fbe75ee9facbb081aecaafc6beb3",
+          "message": "test",
+          "timestamp": "2025-01-23T09:00:53Z",
+          "url": "https://github.com/grief8/asterinas/commit/542592a83596fbe75ee9facbb081aecaafc6beb3"
+        },
+        "date": 1737625138488,
+        "tool": "customSmallerIsBetter",
+        "title": "[VFS] The cost of write (/dev/null)",
+        "description": "lat_syscall write",
+        "display": true,
+        "benches": [
+          {
+            "name": "Average write latency on Linux",
+            "value": "0.0832",
+            "unit": "µs",
+            "extra": "linux_result"
+          },
+          {
+            "name": "Average write latency on Asterinas",
+            "value": "0.1027",
             "unit": "µs",
             "extra": "aster_result"
           }
