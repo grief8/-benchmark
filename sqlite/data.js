@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1737625673729,
+  "lastUpdate": 1737625690635,
   "repoUrl": "https://github.com/grief8/asterinas",
   "entries": {
     "ext2_deletes_between": [
@@ -9826,6 +9826,45 @@ window.BENCHMARK_DATA = {
           {
             "name": "The speed of deletes-between on Asterinas (Ramfs)",
             "value": "2.901",
+            "unit": "second",
+            "extra": "aster_result"
+          }
+        ]
+      }
+    ],
+    "ramfs_benchmarks_deletes_individual": [
+      {
+        "commit": {
+          "author": {
+            "name": "Fabing Li",
+            "username": "grief8",
+            "email": "lifabing.lfb@antgroup.com"
+          },
+          "committer": {
+            "name": "Fabing Li",
+            "username": "grief8",
+            "email": "lifabing.lfb@antgroup.com"
+          },
+          "id": "542592a83596fbe75ee9facbb081aecaafc6beb3",
+          "message": "test",
+          "timestamp": "2025-01-23T09:00:53Z",
+          "url": "https://github.com/grief8/asterinas/commit/542592a83596fbe75ee9facbb081aecaafc6beb3"
+        },
+        "date": 1737625685165,
+        "tool": "customSmallerIsBetter",
+        "title": "[Ramfs] The deletes-individual result of sqlite speedtest",
+        "description": "sqlite-speed-test: 50000 DELETEs of individual rows",
+        "display": false,
+        "benches": [
+          {
+            "name": "The speed of deletes-individual on Linux (Ramfs)",
+            "value": "2.521",
+            "unit": "second",
+            "extra": "linux_result"
+          },
+          {
+            "name": "The speed of deletes-individual on Asterinas (Ramfs)",
+            "value": "2.955",
             "unit": "second",
             "extra": "aster_result"
           }
