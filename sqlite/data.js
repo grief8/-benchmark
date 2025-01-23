@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1737625562821,
+  "lastUpdate": 1737625582864,
   "repoUrl": "https://github.com/grief8/asterinas",
   "entries": {
     "ext2_deletes_between": [
@@ -9592,6 +9592,45 @@ window.BENCHMARK_DATA = {
           {
             "name": "The speed of selects-text-pk on Asterinas (Ext2)",
             "value": "4.595",
+            "unit": "second",
+            "extra": "aster_result"
+          }
+        ]
+      }
+    ],
+    "ext2_benchmarks_total": [
+      {
+        "commit": {
+          "author": {
+            "name": "Fabing Li",
+            "username": "grief8",
+            "email": "lifabing.lfb@antgroup.com"
+          },
+          "committer": {
+            "name": "Fabing Li",
+            "username": "grief8",
+            "email": "lifabing.lfb@antgroup.com"
+          },
+          "id": "542592a83596fbe75ee9facbb081aecaafc6beb3",
+          "message": "test",
+          "timestamp": "2025-01-23T09:00:53Z",
+          "url": "https://github.com/grief8/asterinas/commit/542592a83596fbe75ee9facbb081aecaafc6beb3"
+        },
+        "date": 1737625577255,
+        "tool": "customSmallerIsBetter",
+        "title": "[Ext2] The total result of sqlite speedtest",
+        "description": "sqlite-speed-test: total",
+        "display": false,
+        "benches": [
+          {
+            "name": "Total speed on Linux (Ext2)",
+            "value": "68.652",
+            "unit": "second",
+            "extra": "linux_result"
+          },
+          {
+            "name": "Total speed on Asterinas (Ext2)",
+            "value": "75.978",
             "unit": "second",
             "extra": "aster_result"
           }
