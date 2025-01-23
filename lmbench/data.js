@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1737625057694,
+  "lastUpdate": 1737625080826,
   "repoUrl": "https://github.com/grief8/asterinas",
   "entries": {
     "mem_pagefault_lat": [
@@ -14361,6 +14361,43 @@ window.BENCHMARK_DATA = {
           {
             "name": "Average file read bandwidth on Asterinas",
             "value": "12231.63",
+            "unit": "MB/s",
+            "extra": "aster_result"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Fabing Li",
+            "username": "grief8",
+            "email": "lifabing.lfb@antgroup.com"
+          },
+          "committer": {
+            "name": "Fabing Li",
+            "username": "grief8",
+            "email": "lifabing.lfb@antgroup.com"
+          },
+          "id": "542592a83596fbe75ee9facbb081aecaafc6beb3",
+          "message": "test",
+          "timestamp": "2025-01-23T09:00:53Z",
+          "url": "https://github.com/grief8/asterinas/commit/542592a83596fbe75ee9facbb081aecaafc6beb3"
+        },
+        "date": 1737625075082,
+        "tool": "customBiggerIsBetter",
+        "title": "[VFS] The bandwidth of file reads via page cache",
+        "description": "bw_file_rd",
+        "display": true,
+        "benches": [
+          {
+            "name": "Average file read bandwidth on Linux",
+            "value": "11424.73",
+            "unit": "MB/s",
+            "extra": "linux_result"
+          },
+          {
+            "name": "Average file read bandwidth on Asterinas",
+            "value": "12063.70",
             "unit": "MB/s",
             "extra": "aster_result"
           }
